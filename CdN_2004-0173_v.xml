@@ -25,7 +25,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
-            <idno type="filename">CdN 2004-0173</idno>
+            <idno type="filename">Cdn_2004-0173</idno>
             <idno type="SigiDocID">s-30ibTN</idno>
             <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
             <idno type="sequence"/>
@@ -85,7 +85,7 @@
                      <rs type="collection-name" xml:lang="en">Byzantine seals collection</rs>
                      <rs type="collection-name" xml:lang="fr">Collection de sceaux byzantins</rs>
                   </collection>
-                  <idno type="inv-nr-current">CdN 2004-0173</idno>
+                  <idno type="inv-nr-current">Cdn_2004-0173</idno>
                   <altIdentifier>
                      <repository/>
                      <idno type="inv-nr-former"/>
@@ -286,15 +286,15 @@
          <surface n="r">
             <desc>Obverse</desc>
             <graphic type="photo" url="CdN2004-0173_2.jpg">
-               <desc xml:lang="en">CdN 2004-0173, obverse</desc>
-               <desc xml:lang="fr">CdN 2004-0173, avers</desc>
+               <desc xml:lang="en">Cdn_2004-0173, obverse</desc>
+               <desc xml:lang="fr">Cdn_2004-0173, avers</desc>
             </graphic>
          </surface>
          <surface n="v">
             <desc>Reverse</desc>
             <graphic type="photo" url="CdN2004-0173_2.jpg">
-               <desc xml:lang="en">CdN 2004-0173, reverse</desc>
-               <desc xml:lang="de">CdN 2004-0173, revers</desc>
+               <desc xml:lang="en">Cdn_2004-0173, reverse</desc>
+               <desc xml:lang="de">Cdn_2004-0173, revers</desc>
             </graphic>
          </surface>
       </surfaceGrp>
