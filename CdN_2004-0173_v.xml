@@ -281,7 +281,7 @@
       <surfaceGrp>
          <surface n="r">
             <desc>Obverse</desc>
-            <graphic type="photo" url="CdN2004-0173_2.jpg">
+            <graphic type="photo" url="http://83.228.192.54:9999/images/CdN2004-0173_2.jpg">
                <desc xml:lang="en">Cdn_2004-0173, obverse</desc>
                <desc xml:lang="fr">Cdn_2004-0173, avers</desc>
             </graphic>
@@ -290,7 +290,7 @@
       <surfaceGrp>
          <surface n="v">
             <desc>Reverse</desc>
-            <graphic type="photo" url="CdN2004-0173_2.jpg">
+            <graphic type="photo" url="http://83.228.192.54:9999/images/CdN2004-0173_2.jpg">
                <desc xml:lang="en">Cdn_2004-0173, reverse</desc>
                <desc xml:lang="de">Cdn_2004-0173, revers</desc>
             </graphic>
