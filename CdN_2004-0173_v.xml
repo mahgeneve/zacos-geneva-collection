@@ -286,6 +286,8 @@
                <desc xml:lang="fr">Cdn_2004-0173, avers</desc>
             </graphic>
          </surface>
+      </surfaceGrp>
+      <surfaceGrp>
          <surface n="v">
             <desc>Reverse</desc>
             <graphic type="photo" url="CdN2004-0173_2.jpg">
