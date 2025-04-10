@@ -220,7 +220,7 @@
                                  the Child with the cross behind his head. In the field, above
                                  the hands of the Theotokos, the usual acronyms.</figDesc>  
                               <figDesc n="decoR" xml:lang="fr">Cercle de grènetis, des tildes au-dessus des sigles.</figDesc>
-                              <figDesc n="decoR" xml:lang="en">Border of dots. tildes over Virgin's hands.</figDesc>
+                              <figDesc n="decoR" xml:lang="en">Border of dots, tildes over Virgin's hands.</figDesc>
                            </figure>
                         </decoNote>
                      </decoDesc>
@@ -257,8 +257,7 @@
                            <figure>
                               <figDesc n="decoV" xml:lang="fr">Cercle de grènetis, au sommet du champ une croisette cantonnée
                                  de tirets.</figDesc>
-                              <figDesc n="decoV" xml:lang="en">Border of dots, the legend is preceded by a crosslet
-                                 between decorative traits on a separate line. </figDesc>
+                              <figDesc n="decoV" xml:lang="en">Border of dots, a crosslet between decorative traits above the first line. </figDesc>
                            </figure>
                         </decoNote>
                      </decoDesc>
@@ -319,7 +318,7 @@
                   <div type="textpart" subtype="sigla" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
               <ab>
                  <cb n="a"/>
-                 <cb n="b"/>Θῡ
+                 <cb n="b"/>υ
               </ab>
             </div>
             <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
