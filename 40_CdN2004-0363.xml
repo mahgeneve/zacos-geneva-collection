@@ -6,7 +6,7 @@
       <fileDesc>
          <titleStmt>
             <title xml:lang="en">Constantine Radenos, magistros, vestes and ephoros</title>
-            <title xml:lang="fr">constantin Radènos, magistre, vestès et éphore</title>
+            <title xml:lang="fr">Constantin Radènos, magistre, vestès et éphore</title>
             <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
             <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
             <funder>
@@ -44,8 +44,8 @@
                      <forename>Constantin</forename>/> <surname>Radènos</surname>/> </persName>
                   <persName xml:lang="en">
                      <forename>Constantine</forename>/> <surname>Radenos</surname>/> </persName>
-                  <idno type="PBW" ana=""/>
-                  <idno type="PBW"/>
+                  <idno type="PBW" ana="http://pbw2016.kdl.kcl.ac.uk/person/Konstantinos/20354/">Konstantinos 20354 </idno>
+                  
                   <idno type="PBE"/>
                   <idno type="PLP"/>
                   <idno type="PLRE"/>

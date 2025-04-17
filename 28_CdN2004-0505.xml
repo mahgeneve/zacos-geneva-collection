@@ -5,8 +5,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title xml:lang="en"/>
-            <title xml:lang="fr"/>
+            <title xml:lang="en">Nikephoros Adramytinos, patrikios, hypatos and imperial
+               chartoularios of stratiotikon</title>
+            <title xml:lang="fr">Nicéphore Adramytènos, patrice, hypatos et chartulaire impériale du
+               stratiôtikon</title>
             <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
             <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
             <funder>
@@ -23,8 +25,8 @@
          </editionStmt>
          <publicationStmt>
             <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
-            <idno type="filename">CdN 2004-505</idno>
-            <idno type="SigiDocID"/>
+            <idno type="filename">CdN 2004-0505</idno>
+            <idno type="SigiDocID">s-6mY6bH</idno>
             <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
             <idno type="sequence"/>
             <!--  to be compiled automatically; leave as is  -->
@@ -37,21 +39,14 @@
          </publicationStmt>
          <sourceDesc>
             <listPerson type="issuer">
-               <person gender="" role="">
+               <person gender="M" role="civil aristocracy">
                   <persName xml:lang="grc">
-                     <forename/>
-                     <surname/>
-                  </persName>
+                     <forename>Νικηφόρος</forename>/> <surname>Ἀδραμυτηνός</surname>/> </persName>
                   <persName xml:lang="fr">
-                     <forename/>
-                     <surname/>
-                  </persName>
+                     <forename>Nicéphore</forename>/> <surname>Adramytinos</surname>/> </persName>
                   <persName xml:lang="en">
-                     <forename/>
-                     <surname/>
-                  </persName>
-                  <idno type="PBW" ana=""/>
-                  <idno type="PBW" ana=""/>
+                     <forename>Nikephoros</forename>/> <surname>Adramytinos</surname>/> </persName>
+                  <idno type="PBW"/>
                   <idno type="PBE"/>
                   <idno type="PLP"/>
                   <idno type="PLRE"/>
@@ -90,8 +85,8 @@
                <msContents>
                   <!--https://github.com/SigiDoc/Guidelines/wiki/5.-Controlled-vocabularies#seals-category-->
                   <summary n="whole">
-                     <seg xml:lang="fr"/>
-                     <seg xml:lang="en"/>
+                     <seg xml:lang="fr">Administration centrale</seg>
+                     <seg xml:lang="en">Central administration</seg>
                   </summary>
                </msContents>
                <physDesc>
@@ -111,18 +106,22 @@
                               <seg xml:lang="en">Lead</seg>
                            </material>
                            <dimensions type="support" unit="mm">
-                              <dim type="diameter"/>
+                              <dim type="diameter">34,16/32,35</dim>
                               <!-- mesure du champ? -->
                            </dimensions>
-                           <measure type="weight" unit="g"/>
+                           <measure type="weight" unit="g">24,628</measure>
                            <measure type="axis" unit="clock"/>
                            <measure type="overstrikeOrient" unit="clock"/>
-                           <measure type="channelOrient" unit="clock"/>
+                           <measure type="channelOrient" unit="clock">1-7</measure>
                            <measure type="countermark" unit="clock"/>
                         </support>
-                        <condition rend="">
-                           <p xml:lang="en"/>
-                           <p xml:lang="fr"/>
+                        <condition rend="well-preserved well-struck chipped off-center strike">
+                           <p xml:lang="en">The seal is well preserved and well struck; slightly
+                              chipped at the channel openings; off-center strike; slightly broken
+                              near the channel opening</p>
+                           <p xml:lang="fr">Le sceau est bien conservé et bien frappé; légèrement
+                              échancré aux orifices du canal; frappe décentrée; légèrement cassé
+                              près de l'orifice inférieur</p>
                         </condition>
                      </supportDesc>
                      <layoutDesc>
@@ -136,7 +135,7 @@
                               <seg xml:lang="en">Round</seg>
                            </rs>
                            <rs type="matrix" subtype="not-surviving">
-                              <idno type="SigiDoc"/>
+                              <idno type="SigiDoc">m-op0ep5</idno>
                               <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
                               <idno type="PBW"/>
                               <!-- to be used if the seal has a parallel in the PBW with a boulloterion registered there -->
@@ -155,10 +154,11 @@
                            <placeName/>
                         </seg>
                      </origPlace>
-                     <origDate type="analysis" notBefore="" notAfter="" evidence="" cert="high"
+                     <origDate type="analysis" notBefore="1075" notAfter="1100"
+                        evidence="epigraphy prosopography historical-context" cert="high"
                         resp="#MCP #JCC">
-                        <seg xml:lang="en"/>
-                        <seg xml:lang="fr"/>
+                        <seg xml:lang="en"> Last third of 11th century</seg>
+                        <seg xml:lang="fr">Dernier tiers du XIe siècle</seg>
                      </origDate>
                   </origin>
                   <provenance type="transferred" subtype="donated" when="2004-11-24">
@@ -199,15 +199,21 @@
                      </objectDesc>
                      <handDesc>
                         <handNote n="r">
-                           <seg xml:lang="fr"/>
-                           <seg xml:lang="en"/>
+                           <seg xml:lang="fr">Iconographie avec des sigles et des inscriptions en
+                              colonne</seg>
+                           <seg xml:lang="en">Iconography containing sigla and labels on
+                              columns</seg>
                         </handNote>
                      </handDesc>
                      <decoDesc>
                         <decoNote>
                            <figure>
-                              <figDesc n="r" xml:lang="fr" ana=""/>
-                              <figDesc n="r" xml:lang="en" ana=""/>
+                              <figDesc n="r" xml:lang="fr"
+                                 ana="person Virgin orans saint George saint Nikolaos">Déèsis à la Vierge
+                                 Épiskepsis, orante, portant devant la
+                                 poitrine un large médaillon au buste de l’Enfant. Elle est entourée de saint Nicolas,
+                                 et de saint Georges en habit de martyr.</figDesc>
+                              <figDesc n="r" xml:lang="en" ana="Deissis presenting Virgin Epikepsis orans bearing the medalllion "/>
                               <figDesc n="decoR" xml:lang="fr"/>
                               <figDesc n="decoR" xml:lang="en"/>
                            </figure>
@@ -338,21 +344,21 @@
                   </div>
               </div>
          <div type="translation">
-            <p>Μήτηρ Θεοῦ. Ὁ ἅγιος Γεώργιος. Ὁ ἅγιος Νικόλαος. || + Θεοτόκε βοήθει Νικηφόρῳ πατρικίῳ, ὑπάτῳ καὶ βασιλικῷ χαρτουλαρίῳ τοῦ στρατιωτικοῦ τῷ Ἀδραμυτηνῷ.</p>
-            <p xml:lang="en"></p>
-            <p xml:lang="fr"></p>
+            <p>Μήτηρ Θεοῦ. Ὁ ἅγιος Γεώργιος. Ὁ ἅγιος Νικόλαος. || + Θεοτόκε βοήθει Νικηφόρῳ
+               πατρικίῳ, ὑπάτῳ καὶ βασιλικῷ χαρτουλαρίῳ τοῦ στρατιωτικοῦ τῷ Ἀδραμυτηνῷ.</p>
+            <p xml:lang="en"/>
+            <p xml:lang="fr"/>
          </div>
          <div type="commentary" subtype="text">
             <!-- renvois internes à refaire -->
-            <p xml:lang="en"></p>
-            <p xml:lang="en"></p>
-            <p xml:lang="fr"></p>
-            <p xml:lang="fr"></p>
+            <p xml:lang="en"/>
+            <p xml:lang="en"/>
+            <p xml:lang="fr"/>
+            <p xml:lang="fr"/>
          </div>
          <div type="bibliography" subtype="edition">
             <p>
                <bibl/>
-                  
             </p>
          </div>
          <div type="bibliography" subtype="parallels">
