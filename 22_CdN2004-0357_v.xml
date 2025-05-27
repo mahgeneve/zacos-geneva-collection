@@ -5,8 +5,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title xml:lang="en"/>
-            <title xml:lang="fr"/>
+            <title xml:lang="fr">Basile, hypatos, notaire impérial de l’antiprosôpôn auprès du
+               génikon</title>
+            <title xml:lang="en">Basile, hypatos, imperial notary of the antiprosôpôn in the
+               genikon</title>
             <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
             <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
             <funder>
@@ -23,8 +25,8 @@
          </editionStmt>
          <publicationStmt>
             <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
-            <idno type="filename">CdN 2004-459</idno>
-            <idno type="SigiDocID"/>
+            <idno type="filename">CdN 2004-0357</idno>
+            <idno type="SigiDocID">s-QKYEre</idno>
             <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
             <idno type="sequence"/>
             <!--  to be compiled automatically; leave as is  -->
@@ -37,21 +39,17 @@
          </publicationStmt>
          <sourceDesc>
             <listPerson type="issuer">
-               <person gender="" role="">
+               <person gender="M" role="civil aristocracy">
                   <persName xml:lang="grc">
-                     <forename/>
-                     <surname/>
+                     <forename>Βασίλειος</forename>/> <surname/>
                   </persName>
                   <persName xml:lang="fr">
-                     <forename/>
-                     <surname/>
+                     <forename>Basile</forename>/> <surname/>
                   </persName>
                   <persName xml:lang="en">
-                     <forename/>
-                     <surname/>
+                     <forename>Basileios</forename>/> <surname/>
                   </persName>
-                  <idno type="PBW" ana=""/>
-                  <idno type="PBW" ana=""/>
+                  <idno type="PBW" ana="http://pbw2016.kdl.kcl.ac.uk/person/Basileios/20145/">Basileios 20145</idno>
                   <idno type="PBE"/>
                   <idno type="PLP"/>
                   <idno type="PLRE"/>
@@ -81,7 +79,7 @@
                      <rs type="collection-name" xml:lang="en">Byzantine seals collection</rs>
                      <rs type="collection-name" xml:lang="fr">Collection de sceaux byzantins</rs>
                   </collection>
-                  <idno type="inv-nr-current">CdN 2004-459</idno>
+                  <idno type="inv-nr-current">CdN 2004-0357</idno>
                   <altIdentifier>
                      <repository/>
                      <idno type="inv-nr-former"/>
@@ -90,8 +88,8 @@
                <msContents>
                   <!--https://github.com/SigiDoc/Guidelines/wiki/5.-Controlled-vocabularies#seals-category-->
                   <summary n="whole">
-                     <seg xml:lang="fr"/>
-                     <seg xml:lang="en"/>
+                     <seg xml:lang="fr">administration centrale</seg>
+                     <seg xml:lang="en">central administration</seg>
                   </summary>
                </msContents>
                <physDesc>
@@ -111,18 +109,20 @@
                               <seg xml:lang="en">Lead</seg>
                            </material>
                            <dimensions type="support" unit="mm">
-                              <dim type="diameter"/>
+                              <dim type="diameter">23,81/21,69</dim>
                               <!-- mesure du champ? -->
                            </dimensions>
-                           <measure type="weight" unit="g"/>
+                           <measure type="weight" unit="g">7,417</measure>
                            <measure type="axis" unit="clock"/>
                            <measure type="overstrikeOrient" unit="clock"/>
-                           <measure type="channelOrient" unit="clock"/>
+                           <measure type="channelOrient" unit="clock">12-6</measure>
                            <measure type="countermark" unit="clock"/>
                         </support>
-                        <condition rend="">
-                           <p xml:lang="en"/>
-                           <p xml:lang="fr"/>
+                        <condition rend="well-preserved well-struck chipped broken">
+                           <p xml:lang="en">The seal is well preserved and well struck; slightly
+                              chipped at the channel openings; partly broken on the edge.</p>
+                           <p xml:lang="fr">Le sceau est bien conservé et bien frappé; légèrement
+                              échancré aux orifices du canal; partiellement rogné sur la tranche</p>
                         </condition>
                      </supportDesc>
                      <layoutDesc>
@@ -136,7 +136,7 @@
                               <seg xml:lang="en">Round</seg>
                            </rs>
                            <rs type="matrix" subtype="not-surviving">
-                              <idno type="SigiDoc"/>
+                              <idno type="SigiDoc">m-DigWJw</idno>
                               <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
                               <idno type="PBW"/>
                               <!-- to be used if the seal has a parallel in the PBW with a boulloterion registered there -->
@@ -155,10 +155,10 @@
                            <placeName/>
                         </seg>
                      </origPlace>
-                     <origDate type="analysis" notBefore="" notAfter="" evidence="" cert="high"
-                        resp="#MCP #JCC">
-                        <seg xml:lang="en"/>
-                        <seg xml:lang="fr"/>
+                     <origDate type="analysis" notBefore="1030" notAfter="1050"
+                        evidence="epigraphy historical-context" cert="high" resp="#MCP #JCC">
+                        <seg xml:lang="en">Second quarter of the 11th century</seg>
+                        <seg xml:lang="fr">Deuxième quart du XIe siècle</seg>
                      </origDate>
                   </origin>
                   <provenance type="transferred" subtype="donated" when="2004-11-24">
@@ -167,7 +167,7 @@
                      <p xml:lang="fr">Collection Georges Zacos</p>
                   </provenance>
                   <acquisition>
-                     <p xml:lang="en">Gift of the Migore Foundation, Janet Zakos legacy, <date
+                     <p xml:lang="en">Donation of the Migore Foundation, Janet Zakos legacy, <date
                            when="2004-11-24">24th November 2004</date>
                      </p>
                      <p xml:lang="fr">Don de la Fondation Migore, legs Janet Zakos, <date
@@ -191,8 +191,8 @@
                                  <!-- ajouté ceci -->
                                  <dim type="diameter"/>
                               </dimensions>
-                              <p xml:lang="fr"/>
-                              <p xml:lang="en"/>
+                              <p xml:lang="fr">Légende linéaire sur 4 lignes.</p>
+                              <p xml:lang="en">Linear legend of 4 lines.</p>
                            </layout>
                         </layoutDesc>
 
@@ -206,10 +206,14 @@
                      <decoDesc>
                         <decoNote>
                            <figure>
-                              <figDesc n="r" xml:lang="fr" ana=""/>
-                              <figDesc n="r" xml:lang="en" ana=""/>
-                              <figDesc n="decoR" xml:lang="fr"/>
-                              <figDesc n="decoR" xml:lang="en"/>
+                              <figDesc n="r" xml:lang="fr" ana="texte"/>
+                              <figDesc n="r" xml:lang="en" ana="texte"/>
+                              <figDesc n="decoR" xml:lang="fr">Cercle de grènetis entre deux cercles
+                                 linéaires; la légende est précédée d'une croisette et suivie d'une
+                                 perle cantonnée de de tirets.</figDesc>
+                              <figDesc n="decoR" xml:lang="en">Border of dots between two linear
+                                 cercles; the first line is preeceded by a crosslet and the legend
+                                 ends up by a pearl between two traits in a separate line.</figDesc>
                            </figure>
                         </decoNote>
                      </decoDesc>
@@ -230,8 +234,8 @@
                                  <!-- ajouté ceci -->
                                  <dim type="diameter"/>
                               </dimensions>
-                              <p xml:lang="en"/>
-                              <p xml:lang="fr"/>
+                              <p xml:lang="en">Linear legend in 5 lines.</p>
+                              <p xml:lang="fr">Légende linéaire sur 5 lignes.</p>
                            </layout>
                         </layoutDesc>
                      </objectDesc>
@@ -244,8 +248,10 @@
                      <decoDesc>
                         <decoNote>
                            <figure>
-                              <figDesc n="decoV" xml:lang="fr"/>
-                              <figDesc n="decoV" xml:lang="en"/>
+                              <figDesc n="decoV" xml:lang="fr">Cercle de grènetis entre deux cercles
+                                 linéaires; la dernière ligne est cantonnée de deux tirets</figDesc>
+                              <figDesc n="decoV" xml:lang="en">Border of dots between two linear
+                                 cercles; last line is between two decorative traits.</figDesc>
                            </figure>
                         </decoNote>
                      </decoDesc>
@@ -267,16 +273,16 @@
       <surfaceGrp>
          <surface n="r">
             <desc>Obverse</desc>
-            <graphic type="photo" url="CdN2004-459_1.jpg">
-               <desc xml:lang="en">CdN 2004-459, obverse</desc>
-               <desc xml:lang="fr">CdN 2004-459, avers</desc>
+            <graphic type="photo" url="CdN2004-0357_1.jpg">
+               <desc xml:lang="en">CdN 2004-0357, obverse</desc>
+               <desc xml:lang="fr">CdN 2004-0357, avers</desc>
             </graphic>
          </surface>
          <surface n="v">
             <desc>Reverse</desc>
-            <graphic type="photo" url="CdN2004-459_2.jpg">
-               <desc xml:lang="en">CdN 2004-459, reverse</desc>
-               <desc xml:lang="de">CdN 2004-459, revers</desc>
+            <graphic type="photo" url="CdN2004-0357_2.jpg">
+               <desc xml:lang="en">CdN 2004-0357, reverse</desc>
+               <desc xml:lang="de">CdN 2004-0357, revers</desc>
             </graphic>
          </surface>
       </surfaceGrp>
@@ -285,59 +291,80 @@
       <body>
          <div type="edition" subtype="editorial" xml:space="preserve"> 
             <div type="textpart" subtype="face" rend="linear" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
-              <lg type="metrical" met="dodecasyllable">
-                 <l n="1"><lb n="1"/>Λόγους 
-                 <lb n="2"/>σφραγί
-                 <lb n="3" break="no"/>ζο Ἀποσ
-                 <lb n="4" break="no"/><surplus>σ</surplus>τολί
-                 <lb n="5" break="no"/>του</l>
-              </lg>
+              <ab ana="gen">
+                 <lb n="1"/>Βασι
+                 <lb n="2" break="no"/>λείου <rs type="dignity" ref="#d0089">ὑπά
+                 <lb n="3" break="no"/>του</rs> <expan><abbr><am>S</am></abbr><ex>καὶ</ex></expan> <rs type="office" subtype="civil" ref="#of0173"><rs type="office" subtype="civil" ref="#of0144"><expan><abbr>βα</abbr><ex>σιλικοῦ</ex></expan> νο
+                 <lb n="4" break="no"/>ταρίου</rs></rs>
+              </ab>
             </div>
                   <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
-                      <lg type="metrical" met="dodecasyllable">
-                         <l n="1"><lb n="6"/>Λέον
-                         <lb n="7" break="no"/>τος <rs type="office" subtype="civil" ref="#of0026">ἀση
-                         <lb n="8" break="no"/>κρίτη</rs></l>
-                      </lg>
+                      <ab ana="gen">
+                          <lb n="5"/><rs type="office" subtype="civil" ref="#of0021">τοῦ ἀν
+                         <lb n="6" break="no"/>τιπροσω
+                         <lb n="7" break="no"/>ποῦντος</rs> ἐν 
+                         <lb n="8"/>τῷ <rs type="institution" ref="#org0011">γενι
+                         <lb n="9" break="no"/><supplied reason="lost">κ</supplied>ῷ</rs>
+                      </ab>
                   </div>
               </div>
          <div type="edition" subtype="diplomatic" xml:space="preserve"> 
                   <div type="textpart" subtype="face" rend="linear" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
               <ab>
-                 <lb n="0"/>
-                 <lb n="1"/>
-                 <lb n="2"/>
-                 <lb n="3"/>
-                 <lb n="4"/>
-                 <lb n="5"/>
+                 <lb n="1"/>rcι 
+                 <lb n="2"/>ΛΕιυπ 
+                 <lb n="3"/>ΤϏr̅̅ʹΝο 
+                 <lb n="4"/>ΤΡι
               </ab>
             </div>
                   <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
                       <ab>
-                         <lb n="0"/>
-                         <lb n="6"/> 
-                         <lb n="7"/>
-                         <lb n="8"/>
-                         <lb n="0"/>
-                         </ab>
+                         <lb n="1"/>ΤουΝ 
+                         <lb n="2"/>ΤιΠΡοc 
+                         <lb n="3"/>πΝΤοcΕΝ 
+                         <lb n="4"/>ΤγΕΝι 
+                         <lb n="5"/>.
+                      </ab>
                   </div>
               </div>
          <div type="translation">
-            <p>Λόγους σφραγίζο Ἀποστολίτου || Λέοντος ἀσηκρίτη.</p>
+            <p>+ Βασιλείου ὑπάτου καὶ βασιλικοῦ νοταρίου || τοῦ ἀντιπροσωποῦντος ἐν τῷ γενικῷ.</p>
             <p xml:lang="en"></p>
-            <p xml:lang="fr"></p>
+            <p xml:lang="fr"/>
          </div>
          <div type="commentary" subtype="text">
             <!-- renvois internes à refaire -->
-            <p xml:lang="en"></p>
-            <p xml:lang="en"></p>
-            <p xml:lang="fr"></p>
-            <p xml:lang="fr"></p>
+            <p xml:lang="en"/>
+            <p xml:lang="en">The wording of the legend makes its interpretation problematic. We can
+               understand that Basil was imperial protonotary, or simple imperial notary, and
+               antiprosôpôn in the genikon; but the legend of the bulla, which is very legible, does
+               not include a καί between the two functions. If we read the text literally, we must
+               understand that Basil was a notary detached from the body of imperial notaries, in
+               the service of the antiprosôpôn of the genikon, who is not named. The latter solution
+               is adopted, but without certainty. The legend in the genitive is a rarity at this
+               time, implying, probably, σφραγίς. The term ἀντιπροσωπῶν, representative of a higher
+               official, is rare in sigillography. It is the equivalent of ek prosôpou, an official
+               present in several offices in the capital, called upon, if necessary, to represent
+               the head of the department.</p>
+            <p xml:lang="fr">La formulation de la légende rend problématique son interprétation. On
+               peut comprendre que Basile était protonotaire impérial, ou simple notaire impérial,
+               et antiprosôpôn auprès du génikon; mais la légende de la bulle, très lisible, ne
+               comporte pas de καί entre les deux fonctions. Si on lit littéralement le texte, on
+               doit comprendre que Basile était un notaire détaché du corps des notaires impériaux,
+               au service de l’antiprosôpôn du génikon, qui n’est pas nommé. Cette dernière solution
+               sera adoptée, sans certitude. La légende au génitif est une rareté à cette époque,
+               sous-entendant, probablement, σφραγίς. Le terme d’ἀντιπροσωπῶν, représentant d’un
+               fonctionnaire supérieur, est rare en sigillographie. Il est l’équivalent de ek
+               prosôpou, fonctionnaire présent dans plusieurs bureaux de la capitale, appelé, le cas
+               échéant, à représenter le chef du service.</p>
          </div>
          <div type="bibliography" subtype="edition">
             <p>
+               <bibl>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">22</citedRange></bibl>;
+               <bibl>
+                  <ptr target="Zacos2"/>, n° <citedRange unit="entry">957</citedRange></bibl>;
                <bibl/>
-                  
             </p>
          </div>
          <div type="bibliography" subtype="parallels">

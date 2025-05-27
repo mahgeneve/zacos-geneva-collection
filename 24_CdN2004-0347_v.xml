@@ -5,8 +5,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title xml:lang="en"/>
-            <title xml:lang="fr"/>
+            <title xml:lang="en">Michael Pithokastrites, patrikios, hypatos and archon of
+               Pantheon</title>
+            <title xml:lang="fr">Michel Pithokastritès, patrice, hypatos et archonte du
+               Panthéon</title>
             <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
             <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
             <funder>
@@ -23,8 +25,8 @@
          </editionStmt>
          <publicationStmt>
             <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
-            <idno type="filename">CdN 2004-347</idno>
-            <idno type="SigiDocID"/>
+            <idno type="filename">CdN 2004-0347</idno>
+            <idno type="SigiDocID">s-2EHznD</idno>
             <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
             <idno type="sequence"/>
             <!--  to be compiled automatically; leave as is  -->
@@ -37,21 +39,14 @@
          </publicationStmt>
          <sourceDesc>
             <listPerson type="issuer">
-               <person gender="" role="">
+               <person gender="M" role="civil aristocracy">
                   <persName xml:lang="grc">
-                     <forename/>
-                     <surname/>
-                  </persName>
+                     <forename>Μιχαὴλ</forename>/> <surname>Πιθοκαστρίτης</surname>/> </persName>
                   <persName xml:lang="fr">
-                     <forename/>
-                     <surname/>
-                  </persName>
+                     <forename>Michel</forename>/> <surname>Pithokastritès</surname>/> </persName>
                   <persName xml:lang="en">
-                     <forename/>
-                     <surname/>
-                  </persName>
-                  <idno type="PBW" ana=""/>
-                  <idno type="PBW" ana=""/>
+                     <forename>Michael</forename>/> <surname>Pithokastrites</surname>/> </persName>
+                  <idno type="PBW"/>
                   <idno type="PBE"/>
                   <idno type="PLP"/>
                   <idno type="PLRE"/>
@@ -81,7 +76,7 @@
                      <rs type="collection-name" xml:lang="en">Byzantine seals collection</rs>
                      <rs type="collection-name" xml:lang="fr">Collection de sceaux byzantins</rs>
                   </collection>
-                  <idno type="inv-nr-current">CdN 2004-347</idno>
+                  <idno type="inv-nr-current">CdN 2004-0347</idno>
                   <altIdentifier>
                      <repository/>
                      <idno type="inv-nr-former"/>
@@ -90,8 +85,8 @@
                <msContents>
                   <!--https://github.com/SigiDoc/Guidelines/wiki/5.-Controlled-vocabularies#seals-category-->
                   <summary n="whole">
-                     <seg xml:lang="fr"/>
-                     <seg xml:lang="en"/>
+                     <seg xml:lang="fr">Administration centrale</seg>
+                     <seg xml:lang="en">Cenral administration</seg>
                   </summary>
                </msContents>
                <physDesc>
@@ -111,18 +106,20 @@
                               <seg xml:lang="en">Lead</seg>
                            </material>
                            <dimensions type="support" unit="mm">
-                              <dim type="diameter"/>
+                              <dim type="diameter">27,61/29,06</dim>
                               <!-- mesure du champ? -->
                            </dimensions>
-                           <measure type="weight" unit="g"/>
+                           <measure type="weight" unit="g">24,992</measure>
                            <measure type="axis" unit="clock"/>
-                           <measure type="overstrikeOrient" unit="clock"/>
+                           <measure type="overstrikeOrient" unit="clock">12-6</measure>
                            <measure type="channelOrient" unit="clock"/>
                            <measure type="countermark" unit="clock"/>
                         </support>
-                        <condition rend="">
-                           <p xml:lang="en"/>
-                           <p xml:lang="fr"/>
+                        <condition rend="well-preserved well-struck chipped">
+                           <p xml:lang="en">The seal is well preserved and well struck; slightly
+                              chipped on the edge</p>
+                           <p xml:lang="fr">Le sceau est bien conservé et bien frappé; légèrement
+                              rogné sur le pourtour</p>
                         </condition>
                      </supportDesc>
                      <layoutDesc>
@@ -136,7 +133,7 @@
                               <seg xml:lang="en">Round</seg>
                            </rs>
                            <rs type="matrix" subtype="not-surviving">
-                              <idno type="SigiDoc"/>
+                              <idno type="SigiDoc">m-tZw766</idno>
                               <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
                               <idno type="PBW"/>
                               <!-- to be used if the seal has a parallel in the PBW with a boulloterion registered there -->
@@ -155,10 +152,10 @@
                            <placeName/>
                         </seg>
                      </origPlace>
-                     <origDate type="analysis" notBefore="" notAfter="" evidence="" cert="high"
-                        resp="#MCP #JCC">
-                        <seg xml:lang="en"/>
-                        <seg xml:lang="fr"/>
+                     <origDate type="analysis" notBefore="1030" notAfter="1060"
+                        evidence="epigraphy historical-context" cert="high" resp="#MCP #JCC">
+                        <seg xml:lang="en">Mid 11th century</seg>
+                        <seg xml:lang="fr">Milieu du XIe siècle</seg>
                      </origDate>
                   </origin>
                   <provenance type="transferred" subtype="donated" when="2004-11-24">
@@ -167,7 +164,7 @@
                      <p xml:lang="fr">Collection Georges Zacos</p>
                   </provenance>
                   <acquisition>
-                     <p xml:lang="en">Gift of the Migore Foundation, Janet Zakos legacy, <date
+                     <p xml:lang="en">Donation of the Migore Foundation, Janet Zakos legacy, <date
                            when="2004-11-24">24th November 2004</date>
                      </p>
                      <p xml:lang="fr">Don de la Fondation Migore, legs Janet Zakos, <date
@@ -191,8 +188,10 @@
                                  <!-- ajouté ceci -->
                                  <dim type="diameter"/>
                               </dimensions>
-                              <p xml:lang="fr"/>
-                              <p xml:lang="en"/>
+                              <p xml:lang="fr">Iconographie avec, de part et d’autre de l'effigie,
+                                 sigles.</p>
+                              <p xml:lang="en">Iconography with, on either side of the image,
+                                 sigla.</p>
                            </layout>
                         </layoutDesc>
 
@@ -206,10 +205,18 @@
                      <decoDesc>
                         <decoNote>
                            <figure>
-                              <figDesc n="r" xml:lang="fr" ana=""/>
-                              <figDesc n="r" xml:lang="en" ana=""/>
-                              <figDesc n="decoR" xml:lang="fr"/>
-                              <figDesc n="decoR" xml:lang="en"/>
+                              <figDesc n="r" xml:lang="fr"
+                                 ana="person female Virgin Mary with medallion">Vierge Épiskepsis,
+                                 de face, orante, debout sur un souppédion, avec le médaillon au
+                                 buste de l’Enfant devant la poitrine.</figDesc>
+                              <figDesc n="r" xml:lang="en"
+                                 ana="person female Virgin Mary with medallion">Virgin Mary orans,of
+                                 Episkepsis type, facing, standing on a souppedion, bearing the
+                                 medallion with Infant's bust</figDesc>
+                              <figDesc n="decoR" xml:lang="fr">Cercle de perles inséré entre deux
+                                 cercles de grènetis</figDesc>
+                              <figDesc n="decoR" xml:lang="en">Border of pearls embedded in two
+                                 cercles of dots</figDesc>
                            </figure>
                         </decoNote>
                      </decoDesc>
@@ -230,8 +237,8 @@
                                  <!-- ajouté ceci -->
                                  <dim type="diameter"/>
                               </dimensions>
-                              <p xml:lang="en"/>
-                              <p xml:lang="fr"/>
+                              <p xml:lang="en">Linear legend of 7 lines</p>
+                              <p xml:lang="fr">Légende linéaire sur 7 lignes</p>
                            </layout>
                         </layoutDesc>
                      </objectDesc>
@@ -244,8 +251,13 @@
                      <decoDesc>
                         <decoNote>
                            <figure>
-                              <figDesc n="decoV" xml:lang="fr"/>
-                              <figDesc n="decoV" xml:lang="en"/>
+                              <figDesc n="decoV" xml:lang="fr">Cercle de perles inséré entre deux
+                                 cercles de grènetis, croisette accostée de tirets au sommet du
+                                 champ, croisillon de perles cantonné de tirets au-dessous de la
+                                 légende</figDesc>
+                              <figDesc n="decoV" xml:lang="en">Border of pearls embedded in two
+                                 cercles of dots, crosslet between traits over the legend,
+                                 cross-brace of pearls between traits at the bottom</figDesc>
                            </figure>
                         </decoNote>
                      </decoDesc>
@@ -267,16 +279,16 @@
       <surfaceGrp>
          <surface n="r">
             <desc>Obverse</desc>
-            <graphic type="photo" url="CdN2004-347_1.jpg">
-               <desc xml:lang="en">CdN 2004-347, obverse</desc>
-               <desc xml:lang="fr">CdN 2004-347, avers</desc>
+            <graphic type="photo" url="CdN2004-0347_1.jpg">
+               <desc xml:lang="en">CdN 2004-0347, obverse</desc>
+               <desc xml:lang="fr">CdN 2004-0347, avers</desc>
             </graphic>
          </surface>
          <surface n="v">
             <desc>Reverse</desc>
-            <graphic type="photo" url="CdN2004-347_2.jpg">
-               <desc xml:lang="en">CdN 2004-347, reverse</desc>
-               <desc xml:lang="de">CdN 2004-347, revers</desc>
+            <graphic type="photo" url="CdN2004-0347_2.jpg">
+               <desc xml:lang="en">CdN 2004-0347, reverse</desc>
+               <desc xml:lang="de">CdN 2004-0347, revers</desc>
             </graphic>
          </surface>
       </surfaceGrp>
@@ -303,42 +315,67 @@
                   </div>
               </div>
          <div type="edition" subtype="diplomatic" xml:space="preserve"> 
-                  <div type="textpart" subtype="label" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+                  <div type="textpart" subtype="sigla" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
               <ab>
-                 <cb n="a"/>
-                 <cb n="b"/>
+                 <cb n="a"/>̅
+                 <cb n="b"/>ΘV
               </ab>
             </div>
                   <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
                       <ab>
-                         <lb n="1"/> 
-                         <lb n="2"/>
-                         <lb n="3"/>
-                         <lb n="4"/>
-                         <lb n="5"/>
+                         <lb n="1"/>θ̅Κ̅ΕROΗ
+                         <lb n="2"/>ΘΕιμιχΑΗΛ
+                         <lb n="3"/>ΠΡΙVΠΑΤ
+                         <lb n="4"/>ϏΑρχοντη
+                         <lb n="5"/>ΤΠΑνΘΕ
+                         <lb n="6"/>ΤΠιΘοΚ̣/
+                         <lb n="7"/>CTΡΗT
                       </ab>
                   </div>
               </div>
          <div type="translation">
-            <p>Μήτηρ Θεοῦ. || + Θεοτόκε βοήθει Μιχαὴλ πατρικίῳ, ὑπάτῳ καὶ ἄρχοντῃ τοῦ Πανθέου τῷ Πιθοκαστρήτῃ.</p>
-            <p xml:lang="en"></p>
-            <p xml:lang="fr"></p>
+            <p>Μήτηρ Θεοῦ. || + Θεοτόκε βοήθει Μιχαὴλ πατρικίῳ, ὑπάτῳ καὶ ἄρχοντῃ τοῦ Πανθέου τῷ
+               Πιθοκαστρήτῃ.</p>
+            <p xml:lang="en">Mother of God, please protect Michael Pithokastrites, patrikios, hypatos and archon of
+               Pantheon.</p>
+            <p xml:lang="fr">Mère de Dieu, apporte ton secours à Michel Pithokastritès, patrice, hypatos et archonte du
+               Panthéon.</p>
          </div>
          <div type="commentary" subtype="text">
             <!-- renvois internes à refaire -->
-            <p xml:lang="en"></p>
-            <p xml:lang="en"></p>
-            <p xml:lang="fr"></p>
-            <p xml:lang="fr"></p>
+            <p xml:lang="en">The name 'Pithokastrites' is only known from two other 11th-century seals:
+               the seal of Michael, son of Romanos (DO 58.106.2766, unpublished) and the one of the
+               protospatharios John ( (<bibl><ptr target="Schlumberger1884"/>,
+                  <citedRange unit="page">p. 692.1</citedRange></bibl>). The ἄρχων τοῦ
+               Πανθέου is mentioned only once in the narrative sources. According to Skylitzès, the
+               emperor to be Michael IV the Paphlagonian, was awarded this function by Romanos.
+               III. The Pantheon was one of the ceremonial halls of the imperial palace. The archon
+               of the Pantheon was superior to the πανθεώτης and the ἐπὶ τοῦ Πανθέου, who were military
+               officers serving as guards of honour in this ceremonial hall.</p>
+            <p xml:lang="fr">Le patronyme Pithokastritès n’est attesté que sur deux sceaux du XIe
+               siècle, celui de Michel, fils de Romain Pithokastritès (DO 58.106.2766, inédit) , et
+               celui de Jean Pithokastritès, protospathaire (Schlumberger, Sigillographie, p. 692,
+               n° 1). L’ἄρχων τοῦ Πανθέου est mentionné une seule fois dans les sources narratives.
+               Skylitzès rapporte, en effet, que le futur Michel IV le Paphlagonien avait été promu
+               par Romain III archonte du Panthéon, l’une des pièces d’apparat du palais impérial.
+               En sigillographie, les titres de πανθεώτης et ἐπὶ τοῦ Πανθέου sont plus fréquents et
+               désignent un militaire faisant partie de la garde d’honneur de cette salle palatiale.
+               Cependant, la fonction d’archonte du Panthéon devait être distincte de celle de épi
+               tou Panthéou et de rang supérieur. C’est ce que laissent entendre les dignités plus
+               modestes conférées à ces derniers, selon leurs sceaux. La fonction de panthéôtès,
+               attestée dans la Peira (XVII, § 19) comme dignité également, se rencontre de la fin
+               du Xe siècle à la fin du XIe siècle.</p>
+            <p xml:lang="fr"/>
          </div>
          <div type="bibliography" subtype="edition">
             <p>
+               <bibl>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">24</citedRange></bibl>
                <bibl/>
-                  
             </p>
          </div>
          <div type="bibliography" subtype="parallels">
-            <p/>
+            <p>No parallels known</p>
          </div>
          <div type="bibliography" subtype="discussion">
             <p/>

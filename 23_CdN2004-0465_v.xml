@@ -5,8 +5,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title xml:lang="en"/>
-            <title xml:lang="fr"/>
+            <title xml:lang="en">Niketas Perenos, patrikios and arkhon</title>
+            <title xml:lang="fr">Nicétas Pérènos, patrice et archôn</title>
             <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
             <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
             <funder>
@@ -23,8 +23,8 @@
          </editionStmt>
          <publicationStmt>
             <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
-            <idno type="filename">CdN 2004-441</idno>
-            <idno type="SigiDocID"/>
+            <idno type="filename">CdN 2004-0465</idno>
+            <idno type="SigiDocID">s-Rzc8aB</idno>
             <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
             <idno type="sequence"/>
             <!--  to be compiled automatically; leave as is  -->
@@ -37,21 +37,15 @@
          </publicationStmt>
          <sourceDesc>
             <listPerson type="issuer">
-               <person gender="" role="">
+               <person gender="M" role="civil aristocracy">
                   <persName xml:lang="grc">
-                     <forename/>
-                     <surname/>
-                  </persName>
+                     <forename>Νικήτας</forename>/> <surname>Περηνός</surname>/> </persName>
                   <persName xml:lang="fr">
-                     <forename/>
-                     <surname/>
-                  </persName>
+                     <forename>Nicétas</forename>/> <surname>Pérènos</surname>/> </persName>
                   <persName xml:lang="en">
-                     <forename/>
-                     <surname/>
-                  </persName>
-                  <idno type="PBW" ana=""/>
-                  <idno type="PBW" ana=""/>
+                     <forename>Niketas</forename>/> <surname>Perenos</surname>/> </persName>
+                  <idno type="PBW" ana="http://pbw2016.kdl.kcl.ac.uk/person/Niketas/20229/">Niketas
+                     20229</idno>
                   <idno type="PBE"/>
                   <idno type="PLP"/>
                   <idno type="PLRE"/>
@@ -81,7 +75,7 @@
                      <rs type="collection-name" xml:lang="en">Byzantine seals collection</rs>
                      <rs type="collection-name" xml:lang="fr">Collection de sceaux byzantins</rs>
                   </collection>
-                  <idno type="inv-nr-current">CdN 2004-441</idno>
+                  <idno type="inv-nr-current">CdN 2004-0465</idno>
                   <altIdentifier>
                      <repository/>
                      <idno type="inv-nr-former"/>
@@ -90,8 +84,8 @@
                <msContents>
                   <!--https://github.com/SigiDoc/Guidelines/wiki/5.-Controlled-vocabularies#seals-category-->
                   <summary n="whole">
-                     <seg xml:lang="fr"/>
-                     <seg xml:lang="en"/>
+                     <seg xml:lang="fr">administration centrale</seg>
+                     <seg xml:lang="en">central administration</seg>
                   </summary>
                </msContents>
                <physDesc>
@@ -111,17 +105,19 @@
                               <seg xml:lang="en">Lead</seg>
                            </material>
                            <dimensions type="support" unit="mm">
-                              <dim type="diameter"/>
+                              <dim type="diameter">27,44/26,68</dim>
                               <!-- mesure du champ? -->
                            </dimensions>
-                           <measure type="weight" unit="g"/>
-                           <measure type="axis" unit="clock"/>
+                           <measure type="weight" unit="g">12,04</measure>
+                           <measure type="axis" unit="clock">12-7</measure>
                            <measure type="overstrikeOrient" unit="clock"/>
                            <measure type="channelOrient" unit="clock"/>
                            <measure type="countermark" unit="clock"/>
                         </support>
-                        <condition rend="">
-                           <p xml:lang="en"/>
+                        <condition rend="Le sceau est bien conservé et bien frappé; légèrement
+                           échancré aux orifices du canal; craqué au milieu du champ">
+                           <p xml:lang="en">Seal well-preserved and well-struck; slightly chipped at
+                              the channel openings; cracked in the middle of the field</p>
                            <p xml:lang="fr"/>
                         </condition>
                      </supportDesc>
@@ -136,7 +132,7 @@
                               <seg xml:lang="en">Round</seg>
                            </rs>
                            <rs type="matrix" subtype="not-surviving">
-                              <idno type="SigiDoc"/>
+                              <idno type="SigiDoc">m-pZbroH</idno>
                               <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
                               <idno type="PBW"/>
                               <!-- to be used if the seal has a parallel in the PBW with a boulloterion registered there -->
@@ -155,10 +151,10 @@
                            <placeName/>
                         </seg>
                      </origPlace>
-                     <origDate type="analysis" notBefore="" notAfter="" evidence="" cert="high"
-                        resp="#MCP #JCC">
-                        <seg xml:lang="en"/>
-                        <seg xml:lang="fr"/>
+                     <origDate type="analysis" notBefore="1040" notAfter="1060"
+                        evidence="epigraphy historical-context" cert="high" resp="#MCP #JCC">
+                        <seg xml:lang="en">mid 11th century</seg>
+                        <seg xml:lang="fr">milieu du XIe siècle</seg>
                      </origDate>
                   </origin>
                   <provenance type="transferred" subtype="donated" when="2004-11-24">
@@ -167,7 +163,7 @@
                      <p xml:lang="fr">Collection Georges Zacos</p>
                   </provenance>
                   <acquisition>
-                     <p xml:lang="en">Gift of the Migore Foundation, Janet Zakos legacy, <date
+                     <p xml:lang="en">Donation of the Migore Foundation, Janet Zakos legacy, <date
                            when="2004-11-24">24th November 2004</date>
                      </p>
                      <p xml:lang="fr">Don de la Fondation Migore, legs Janet Zakos, <date
@@ -191,8 +187,10 @@
                                  <!-- ajouté ceci -->
                                  <dim type="diameter"/>
                               </dimensions>
-                              <p xml:lang="fr"/>
-                              <p xml:lang="en"/>
+                              <p xml:lang="fr">Iconographie avec, de part et d’autre de l'effigie,
+                                 inscription en colonne.</p>
+                              <p xml:lang="en"> Iconography with, on either side of the
+                                 image,inscription on columns </p>
                            </layout>
                         </layoutDesc>
 
@@ -206,10 +204,14 @@
                      <decoDesc>
                         <decoNote>
                            <figure>
-                              <figDesc n="r" xml:lang="fr" ana=""/>
-                              <figDesc n="r" xml:lang="en" ana=""/>
-                              <figDesc n="decoR" xml:lang="fr"/>
-                              <figDesc n="decoR" xml:lang="en"/>
+                              <figDesc n="r" xml:lang="fr" ana="person male saint Nikolaos">Saint
+                                 Nicolas en pied, de face, vêtu de sa tenue épiscopale, tenant le
+                                 Livre en main gauche et bénissant de la droite."</figDesc>
+                              <figDesc n="r" xml:lang="en" ana="person male saint Nikolaos">Saint
+                                 Nikolaos standing, front view, wearing his episcopal robes, holding
+                                 the Book in his left hand and blessing with his right."</figDesc>
+                              <figDesc n="decoR" xml:lang="fr">cercle de grènetis</figDesc>
+                              <figDesc n="decoR" xml:lang="en">cercle of dots</figDesc>
                            </figure>
                         </decoNote>
                      </decoDesc>
@@ -230,8 +232,8 @@
                                  <!-- ajouté ceci -->
                                  <dim type="diameter"/>
                               </dimensions>
-                              <p xml:lang="en"/>
-                              <p xml:lang="fr"/>
+                              <p xml:lang="en">Linear legend of 5 lines</p>
+                              <p xml:lang="fr">Légende linéaire sur 5 lignes</p>
                            </layout>
                         </layoutDesc>
                      </objectDesc>
@@ -244,7 +246,9 @@
                      <decoDesc>
                         <decoNote>
                            <figure>
-                              <figDesc n="decoV" xml:lang="fr"/>
+                              <figDesc n="decoV" xml:lang="fr">Cercle de grènetis, la légende est
+                                 précédée d' une croisette et suivie d'une perle accostée de
+                                 tirets.</figDesc>
                               <figDesc n="decoV" xml:lang="en"/>
                            </figure>
                         </decoNote>
@@ -267,16 +271,16 @@
       <surfaceGrp>
          <surface n="r">
             <desc>Obverse</desc>
-            <graphic type="photo" url="CdN2004-441_1.jpg">
-               <desc xml:lang="en">CdN 2004-441, obverse</desc>
-               <desc xml:lang="fr">CdN 2004-441, avers</desc>
+            <graphic type="photo" url="CdN2004-0465_1.jpg">
+               <desc xml:lang="en">CdN 2004-0465, obverse</desc>
+               <desc xml:lang="fr">CdN 2004-0465, avers</desc>
             </graphic>
          </surface>
          <surface n="v">
             <desc>Reverse</desc>
-            <graphic type="photo" url="CdN2004-441_2.jpg">
-               <desc xml:lang="en">CdN 2004-441, reverse</desc>
-               <desc xml:lang="de">CdN 2004-441, revers</desc>
+            <graphic type="photo" url="CdN2004-0465_2.jpg">
+               <desc xml:lang="en">CdN 2004-0465, reverse</desc>
+               <desc xml:lang="de">CdN 2004-0465, revers</desc>
             </graphic>
          </surface>
       </surfaceGrp>
@@ -286,67 +290,85 @@
          <div type="edition" subtype="editorial" xml:space="preserve"> 
             <div type="textpart" subtype="label" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
               <ab>
-                 <cb n="a"/><expan><abbr>Μι
-                 <cb n="b" break="no"/>χα</abbr><ex>ήλ</ex></expan>
+                 <cb n="a"/>Ὁ ἅγιος 
+                 <cb n="b"/>Ν<supplied reason="lost">ι</supplied>κόλαο<supplied reason="lost">ς</supplied>
               </ab>
             </div>
                   <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
-                      <ab ana="nom">
-                         <lb n="1"/><expan><abbr>Νικηφ</abbr><ex>όρος</ex></expan> 
-                         <lb n="2"/><rs type="dignity" ref="#d0067"><expan><abbr>β</abbr><ex>ασιλικὸς</ex></expan> <expan><abbr><am>Α</am></abbr><ex>πρωτο</ex><abbr>σπαθάρ</abbr><ex>ιος</ex></expan></rs> 
-                         <lb n="3"/><rs type="office" subtype="civil" ref="#of0070">ἐπὶ τοῦ <expan><abbr>Χρ</abbr><ex>υσο</ex><abbr><am>Γ</am></abbr><ex>τρι</ex><abbr>κλ</abbr><ex>ίνου</ex></expan></rs> 
-                         <lb n="4"/><rs type="office" subtype="civil" ref="#of0136"><expan><abbr>μυστογράφ</abbr><ex>ος</ex></expan></rs> <expan><abbr><am>S</am></abbr><ex>καὶ</ex></expan>
-                         <lb n="5"/><rs type="office" subtype="civil" ref="#of0193"><expan><abbr><supplied reason="lost">χ</supplied>αρτουλάρι</abbr><ex>ος</ex></expan></rs> τοῦ 
-                         <lb n="6"/><rs type="institution" ref="#org0027"><expan><abbr><supplied reason="lost">σ</supplied>τρατιωτ</abbr><ex>ι</ex><abbr>κοῦ</abbr></expan></rs> 
-                         <lb n="7"/><rs type="institution" ref="#org0059">λογοθεσίου</rs> 
-                         <lb n="8"/>ὁ <expan><abbr>Λακτεντ</abbr><ex>ί</ex>
-                         <lb n="9" break="no"/><abbr>τζης</abbr></expan>
+                      <ab ana="dat">
+                         <lb n="1"/><rs type="invocation" ref="#inv004"><expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan> <expan><abbr>β</abbr><ex>οή</ex><abbr>θ</abbr><ex>ει</ex></expan> 
+                         <lb n="2"/>τῷ σῷ <expan><abbr>δού</abbr><ex>λῳ</ex></expan></rs> 
+                         <lb n="3"/><expan><abbr>Νικήτ</abbr><ex>ᾳ</ex></expan> <rs type="dignity" ref="#d0047"><expan><abbr>π</abbr><ex>ατ</ex><abbr>ρι</abbr><ex>κίῳ</ex></expan></rs> 
+                         <lb n="4"/><expan><abbr><am>S</am></abbr><ex>καὶ</ex></expan> <rs type="office" subtype="civil" ref="#of0031">ἄρχοντῃ</rs> 
+                         <lb n="5"/>τo <expan><abbr>Περιν</abbr><ex>ῷ</ex></expan>
                       </ab>
                   </div>
               </div>
          <div type="edition" subtype="diplomatic" xml:space="preserve"> 
                   <div type="textpart" subtype="label" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
               <ab>
-                 <cb n="a"/>
-                 <cb n="b"/>
+                 <cb n="a"/>|ΑΓi|OΣ
+                 <cb n="b"/>Ṇ.|Κ̣Ọ|λ̣Α|Ọ.
               </ab>
             </div>
-            <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
                       <ab>
-                         <lb n="1"/>
-                         <lb n="2"/> 
-                         <lb n="3"/>
-                         <lb n="4"/>
-                         <lb n="5"/>
-                         <lb n="6"/>
-                         <lb n="7"/>
-                         <lb n="8"/>
-                         <lb n="9"/>
-                         </ab>
+                         <lb n="1"/>Κ̅ΕR/Θ/
+                         <lb n="2"/>Τcδ/
+                         <lb n="3"/>NiΚΗ̣Τ/ΠΡΙ
+                         <lb n="4"/>ϏΑΡχοντη
+                         <lb n="5"/>ΤοΠΕΡΙΝ/
+                      </ab>
                   </div>
               </div>
          <div type="translation">
-            <p>Μιχαήλ. || + Νικηφόρος βασιλικὸς πρωτοσπαθάριος ἐπὶ τοῦ Χρυσοτρικλίνου μυστογράφος καὶ χαρτουλάριος τοῦ στρατιωτικοῦ λογοθεσίου ὁ Λακτεντίτζης.</p>
-            <p xml:lang="en"></p>
-            <p xml:lang="fr"></p>
+            <p> Ὁ ἅγιος Νικόλαος. || + Κύριε βοήθει τῷ σῷ δούλῳ Νικήτᾳ πατρικίῳ καὶ ἄρχοντῃ τo
+               Περινῷ.</p>
+            <p xml:lang="en">Saint Nikolaos. Lord, help your servant Niketas Perenos, patrikios and
+               arkhon</p>
+            <p xml:lang="fr">Saint Nicholas. Seigneur apporte ton secours à Nicétas Pérènos,patrice
+               et archôn</p>
          </div>
          <div type="commentary" subtype="text">
             <!-- renvois internes à refaire -->
-            <p xml:lang="en"></p>
-            <p xml:lang="en"></p>
-            <p xml:lang="fr"></p>
-            <p xml:lang="fr"></p>
+            <p xml:lang="fr">Sans mention du lieu où Nicétas exerce son autorité d’archôn,
+               littéralement «doté de pouvoir », il n’est pas possible de préciser s’il est
+               gouverneur d’une région ou d’une ville ou s’il dirige l’un des ateliers impériaux
+               (ergodosia). Nicétas n’est connu que par ce seul sceau. Tel est aussi le cas du
+               patrice Alexis Pérènos (<bibl><ptr target="Seyrig"/>,
+                  <citedRange unit="entry">notice n° 49</citedRange></bibl>)et du protospathaire Constantin2 , tous deux
+               ayant vécu au XIe siècle. Le seul Pérènos attesté dans les sources littéraires est
+               Léon, magistre et duc de tout l’Occident, dont le sceau fait l’objet de la notice no
+               139 du catalogue.</p>
+            <p xml:lang="en">Without any mention about the place where Niketas exercices his
+               authority as arkhon, which means "endowed with power", it is not possible to know precisely if
+               he is governor of some region or if he is the chief of any of imperial workshops
+               (ergodosia). Niketas is known by this only seal, like the patrikios Alexis Perenos
+               (<bibl><ptr target="Seyrig"/>,
+                  <citedRange unit="entry">notice n° 49</citedRange></bibl>)and the protosptharios Konstantinos, who both were active in the 11th
+               century. The only Perenos attested in the sources is Leon, magistros and duke of all the
+               West. His seal is presented under n° 139 of our catalogue.</p>
+            <p xml:lang="fr"/>
+            <p xml:lang="fr"/>
          </div>
          <div type="bibliography" subtype="edition">
             <p>
+               <bibl>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">23</citedRange></bibl>;
                <bibl/>
-                  
+               <bibl>
+                  <ptr target="Spink127"/>, n° <citedRange unit="entry">54</citedRange></bibl>;
+               <bibl/>
             </p>
          </div>
          <div type="bibliography" subtype="parallels">
             <p/>
          </div>
          <div type="bibliography" subtype="discussion">
+            <p>Le sceau de Génève est mentionné dans
+               <bibl>
+                  <ptr target="JordanovCorpus2"/>, p. <citedRange unit="page">342</citedRange>. </bibl>
+            </p>
             <p/>
          </div>
       </body>

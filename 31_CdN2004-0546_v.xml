@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en">Romanos, primikirios, imperial protospatharios, koitonites et
+               kourator of Manganai</title>
+            <title xml:lang="fr">Romain, primicier, protospathaire impérial, koitônitès et curateur
+               des Manganes</title>
+            <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
+            <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+            <funder>
+               <orgName corresp="https://www.mahmah.ch/">MAH-Musée d'art et d'histoire - Genève,
+                  Cabinet de numismatique</orgName>, Suisse </funder>
+            <principal ref="#MCP"/>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <seg xml:lang="fr">Amélioration digitale</seg>
+               <seg xml:lang="en">Digital enhancement</seg>
+            </edition>
+            <editor role="digital-editor" xml:id="PE" when="2025-04-02">Pia Evening</editor>
+         </editionStmt>
+         <publicationStmt>
+            <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
+            <idno type="filename">CdN 2004-0546</idno>
+            <idno type="SigiDocID">s-ym1Y1v</idno>
+            <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+            <idno type="sequence"/>
+            <!--  to be compiled automatically; leave as is  -->
+            <date when="2024-08-06"/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                  >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                  4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listPerson type="issuer">
+               <person gender="M" role="civil aristocracy">
+                  <persName xml:lang="grc">
+                     <forename>Ρωμανός</forename>/> <surname/>
+                  </persName>
+                  <persName xml:lang="fr">
+                     <forename>Romain</forename>/> <surname/>
+                  </persName>
+                  <persName xml:lang="en">
+                     <forename>Romanos</forename>/> <surname/>
+                  </persName>
+                  <idno type="PBW" ana="http://pbw2016.kdl.kcl.ac.uk/person/Romanos/20114/">Romanos
+                     20114</idno>
+                  <idno type="PBE"/>
+                  <idno type="PLP"/>
+                  <idno type="PLRE"/>
+                  <idno type="PcBE"/>
+                  <idno type="PmbZ"/>
+               </person>
+            </listPerson>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <seg xml:lang="en">Switzerland</seg>
+                     <seg xml:lang="fr">Suisse</seg>
+                  </country>
+                  <settlement>
+                     <seg xml:lang="en">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">City of
+                           Geneva</placeName>
+                     </seg>
+                     <seg xml:lang="fr">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">Ville de
+                           Genève</placeName>
+                     </seg>
+                  </settlement>
+                  <institution>MAH-Musée d'art et d'histoire</institution>
+                  <repository>Cabinet de numismatique</repository>
+                  <collection type="public">
+                     <rs type="collection-name" xml:lang="en">Byzantine seals collection</rs>
+                     <rs type="collection-name" xml:lang="fr">Collection de sceaux byzantins</rs>
+                  </collection>
+                  <idno type="inv-nr-current">CdN 2004-0546</idno>
+                  <altIdentifier>
+                     <repository/>
+                     <idno type="inv-nr-former"/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <!--https://github.com/SigiDoc/Guidelines/wiki/5.-Controlled-vocabularies#seals-category-->
+                  <summary n="whole">
+                     <seg xml:lang="fr">Administration centrale</seg>
+                     <seg xml:lang="en">Central administration</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>
+                              <term>
+                                 <seg xml:lang="fr">Sceau</seg>
+                                 <seg xml:lang="en">Seal</seg>
+                              </term>
+                              <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                              <interp type="workType" xml:lang="en">Original impression</interp>
+                           </objectType>
+                           <material>
+                              <seg xml:lang="fr">Plomb</seg>
+                              <seg xml:lang="en">Lead</seg>
+                           </material>
+                           <dimensions type="support" unit="mm">
+                              <dim type="diameter">e 27,97/27,06</dim>
+                              <!-- mesure du champ? -->
+                           </dimensions>
+                           <measure type="weight" unit="g">14,950</measure>
+                           <measure type="axis" unit="clock"/>
+                           <measure type="overstrikeOrient" unit="clock"/>
+                           <measure type="channelOrient" unit="clock">12-6</measure>
+                           <measure type="countermark" unit="clock"/>
+                        </support>
+                        <condition rend="well-struck well-preserved chipped broken edge">
+                           <p xml:lang="en">The seal is well preserved and well struck; slightly
+                              chipped at the channel openings; slightly broken on the edge.</p>
+                           <p xml:lang="fr">Le sceau est bien conservé et bien frappé; légèrement
+                              échancré aux orifices du canal; légèrement cassé sur la tranche.</p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout n="whole">
+                           <rs type="execution">
+                              <seg xml:lang="fr">Frappé</seg>
+                              <seg xml:lang="en">Struck</seg>
+                           </rs>
+                           <rs type="shape">
+                              <seg xml:lang="fr">Ronde</seg>
+                              <seg xml:lang="en">Round</seg>
+                           </rs>
+                           <rs type="matrix" subtype="not-surviving">
+                              <idno type="SigiDoc">m-KP7cH1</idno>
+                              <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+                              <idno type="PBW"/>
+                              <!-- to be used if the seal has a parallel in the PBW with a boulloterion registered there -->
+                           </rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <seg xml:lang="fr">
+                           <placeName/>
+                        </seg>
+                        <seg xml:lang="en">
+                           <placeName/>
+                        </seg>
+                     </origPlace>
+                     <origDate type="analysis" notBefore="1000" notAfter="1050"
+                        evidence="epigraphy historical-context" cert="high" resp="#MCP #JCC">
+                        <seg xml:lang="en">First half of the 11th century</seg>
+                        <seg xml:lang="fr">Première moitié du XIe siècle</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="transferred" subtype="donated" when="2004-11-24">
+                     <!-- pas sûr de subtype et when -->
+                     <p xml:lang="en">George Zacos collection</p>
+                     <p xml:lang="fr">Collection Georges Zacos</p>
+                  </provenance>
+                  <acquisition>
+                     <p xml:lang="en">Donation of the Migore Foundation, Janet Zakos legacy, <date
+                           when="2004-11-24">24th November 2004</date>
+                     </p>
+                     <p xml:lang="fr">Don de la Fondation Migore, legs Janet Zakos, <date
+                           when="2004-11-24">24 Novembre 2004</date>
+                     </p>
+                  </acquisition>
+               </history>
+               <msPart n="r">
+                  <msIdentifier/>
+                  <msContents>
+                     <!-- ajouté ceci -->
+                     <summary n="r">
+                        <seg xml:lang="en">Obverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="r">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="fr">Linear legend in 5 lines.</p>
+                              <p xml:lang="en">Légende linéaire sur 5 lignes.</p>
+                           </layout>
+                        </layoutDesc>
+
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="r">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="r" xml:lang="fr" ana="texte"/>
+                              <figDesc n="r" xml:lang="en" ana="text"/>
+                              <figDesc n="decoR" xml:lang="fr">Cercle de grènetis; une croisette
+                                 précède la légende.</figDesc>
+                              <figDesc n="decoR" xml:lang="en">Border of dots;crosslet before the
+                                 legend.</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+               <msPart n="v">
+                  <msIdentifier/>
+                  <msContents>
+                     <summary n="v"><!-- ajouté ceci -->
+                        <seg xml:lang="en">Reverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="v">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="en">Linear legend of 5 lines.</p>
+                              <p xml:lang="fr">Légende linéaire sur 5 lignes.</p>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="v">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="decoV" xml:lang="fr">La légende est surmontée et suivie
+                                 d’une perle accostée de tirets</figDesc>
+                              <figDesc n="decoV" xml:lang="en">Above and at the bottom of the
+                                 legend, pearl between traits</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2025-04-02" who="#PE">Creation of the XML record.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp>
+         <surface n="r">
+            <desc>Obverse</desc>
+            <graphic type="photo" url="CdN2004-0546_1.jpg">
+               <desc xml:lang="en">CdN 2004-0546, obverse</desc>
+               <desc xml:lang="fr">CdN 2004-0546, avers</desc>
+            </graphic>
+         </surface>
+         <surface n="v">
+            <desc>Reverse</desc>
+            <graphic type="photo" url="CdN2004-0546_2.jpg">
+               <desc xml:lang="en">CdN 2004-0546, reverse</desc>
+               <desc xml:lang="de">CdN 2004-0546, revers</desc>
+            </graphic>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" subtype="editorial" xml:space="preserve"> 
+            <div type="textpart" subtype="face" rend="linear" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab ana="dat">
+                 <lb n="1"/><rs type="invocation" ref="#inv002"><expan><abbr>Θ</abbr><ex>εοτό</ex><abbr>κε</abbr></expan> <expan><abbr>β</abbr><ex>ο</ex>
+                 <lb n="2" break="no"/><abbr>ήθ</abbr><ex>ει</ex></expan> τῷ σῷ 
+                 <lb n="3"/>δούλῳ</rs> Ῥω
+                 <lb n="4" break="no"/>μανῷ <rs type="dignity" ref="#d0050"><expan><abbr><am>Α</am></abbr><ex>πρι</ex><abbr>μι
+                 <lb n="5" break="no"/>κηρίῳ</abbr></expan></rs>
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab ana="dat">
+                         <lb n="6"/><rs type="dignity" ref="#d0067"><expan><abbr>βασ</abbr><ex>ι</ex><abbr>λ</abbr><ex>ι</ex><abbr>κo</abbr></expan> 
+                         <lb n="7"/><expan><abbr><am>Α</am></abbr><ex>πρωτο</ex><abbr>σπαθ</abbr><ex>αρίῳ</ex></expan></rs> <rs type="office" subtype="civil" ref="#of0099"><expan><abbr>κοι
+                         <lb n="8" break="no"/>των</abbr><ex>ί</ex><abbr>τ</abbr><ex>ῃ</ex></expan></rs> καὶ <rs type="office" subtype="civil" ref="#of0107"><expan><abbr>κου
+                         <lb n="9" break="no"/>ράτω</abbr><ex>ρι</ex></expan></rs> τῶν 
+                         <lb n="10"/><rs type="institution" ref="#org0053"><expan><abbr>Μαγγάν</abbr><ex>ων</ex></expan></rs>
+                      </ab>
+                  </div>
+              </div>
+         <div type="edition" subtype="diplomatic" xml:space="preserve"> 
+                  <div type="textpart" subtype="face" rend="linear" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <lb n="1"/>θΚΕR//  
+                 <lb n="2"/>ΗΘ/ Τc 
+                 <lb n="3"/>δοΥΛΡ
+                 <lb n="4"/>ΜΑΝΑ̅Μι
+                 <lb n="5"/>ΚΗΡi
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab>
+                         <lb n="6"/>ΒΑcΛ// ΚΟ
+                         <lb n="7"/>Α̅cΠΑΘ// ΚΟι 
+                         <lb n="8"/>ΤΝ// Τ// ΚΑιΚ
+                         <lb n="9"/>ρΑΤ/ ΤΝ
+                         <lb n="10"/>ΜΑγγαν/
+                         </ab>
+                  </div>
+              </div>
+         <div type="translation">
+            <p>+ Θεοτόκε βοήθει τῷ σῷ δούλῳ Ῥωμανῷ πριμικηρίῳ || βασιλικo πρωτοσπαθαρίῳ κοιτωνίτῃ
+               καὶ κουράτωρι τῶν Μαγγάνων.</p>
+            <p xml:lang="en">Mother of God, do protect Romanos, primikirios, imperial
+               protospatharios, koitonites et kourator of Manganai</p>
+            <p xml:lang="fr">Mère de Dieu, apporte ton secours à Romain, primicier, protospathaire
+               impérial, koitônitès et curateur des Manganes</p>
+         </div>
+         <div type="commentary" subtype="text">
+            <!-- renvois internes à refaire -->
+            <p xml:lang="en">According to his dignities, Romain was a eunuch. He could be likened to an homonymus, owner of a contemporary and also
+               bilateral seal, which it displays the same dignities making him close
+               of the very person of the emperor, since he is primicier, protospatharios ἐπὶ τοῦ
+               θεοφυλάκτου κοιτῶνος, and he exercises the financial function of ἐπὶ τοῦ εἰδικοῦ λόγου.
+               The editor suggests to bring this Roman closer to the official who signed a synodal
+               act in May 1030 (Regestes du patriarcat, no 839) in the capacity of protospatharios,
+               member of the imperial koiton and kensor.</p>
+            <p xml:lang="en">Located near the Grand Palace, on the eastern coast of the
+               peninsula, the estate of oikos of Manganes, the most important imperial estate of
+               Constantinople, was endowed with lands whose production and income were to
+               supply the imperial table. A seal of the oikos from the 10th/11th century is preserved
+               : βουλλωτήριον τοῦ βασιλικοῦ οἴκου τῶν Μαγγάνων (<bibl><ptr target="Zacos2"/>,
+                  <citedRange unit="entry">notice n° 106</citedRange></bibl>; <bibl><ptr
+                     target="Seyrig"/>, <citedRange unit="entry">notice n°
+                        121</citedRange></bibl>;<bibl><ptr target="DOseals5"/>, <citedRange
+                           unit="entry">notice n° 25.7</citedRange></bibl> (wrong reading).The curator
+               of the Manganes ran an independent sekreton, with an administrative organisation
+               similar to that of the grand curator. In the Clétorologe of Philothée
+               (899), he appears after the latter, honoured with the same dignities (protospatharios or
+               anthypatos and patrikios). On the seals, he gives himself the title of Grand Curator of
+               Manganes. The oikos of Saint George of Manganes, founded by Constantine IX and donated to
+               Maria Skleraina, was managed by a sekreton and a treasurer independent of the curator of the
+               estate.</p>
+            <p xml:lang="fr">D’après ses dignités de primicier et koitônitès, Romain était eunuque.
+               Il pourrait être rapproché de l’homonyme dont le sceau contemporain, également
+               bilatéral, affiche les mêmes dignités qui le font côtoyer la personne même de
+               l’empereur, puisqu’il est primicier, protospathaire ἐπὶ τοῦ θεοφυλάκτου κοιτῶνος, et
+               exerce la fonction financière de ἐπὶ τοῦ εἰδικοῦ λόγου. L’éditeur rapprocherait aussi
+               ce Romain du fonctionnaire qui signait en mai 1030 un acte synodal (Regestes du
+               patriarcat, no 839) en qualité de protospathaire, membre du koitôn impérial et
+               kensôr.</p>
+            <p xml:lang="fr">Situé à proximité du Grand Palais, sur la côte orientale de la
+               péninsule, le domaine de l'oikos des Manganes, domaine impérial le plus important de
+               Constantinople, a été doté de terres dont la production et les revenus devaient
+               approvisionner la table impériale. Un sceau de l’oikos du Xe/XIe siècle est conservé
+               : βουλλωτήριον τοῦ βασιλικοῦ οἴκου τῶν Μαγγάνων (<bibl><ptr target="Zacos2"/>,
+                     <citedRange unit="entry">notice n° 106</citedRange></bibl>; <bibl><ptr
+                     target="Seyrig"/>, <citedRange unit="entry">notice n°
+                     121</citedRange></bibl>;<bibl><ptr target="DOseals5"/>, <citedRange
+                     unit="entry">notice n° 25.7</citedRange></bibl> (lecture erronée).Le curateur
+               des Manganes dirigeait un sékréton indépendant, disposant d’une organisation
+               administrative de même type que le grand curateur. Dans le Clétorologe de Philothée
+               (899), il figure à la suite de celui-ci, honoré des mêmes dignités (protospathaire ou
+               anthypatos et patrice). Sur les sceaux, il se donne le titre de grand curateur des
+               Manganes. L’oikos de Saint-Georges des Manganes, fondé par Constantin IX et offert à
+               Marie Sklèraina, était géré par un sékréton et un économe indépendants du curateur du
+               domaine.</p>
+         </div>
+         <div type="bibliography" subtype="edition">
+            <p>
+               <bibl>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">31</citedRange></bibl>; <bibl>
+                  <ptr target="ZacosSpink2"/>, n° <citedRange unit="entry">259</citedRange></bibl>;<bibl>
+                  <ptr target="Zacos2"/>, n° <citedRange unit="entry">1042</citedRange></bibl>
+               <bibl/>
+            </p>
+         </div>
+         <div type="bibliography" subtype="parallels">
+            <p/>
+         </div>
+         <div type="bibliography" subtype="discussion">
+            <p>
+               <bibl>
+                  <ptr target="DOseals5"/>, n° <citedRange unit="entry">25.5</citedRange></bibl>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

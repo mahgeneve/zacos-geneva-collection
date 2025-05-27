@@ -5,8 +5,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title xml:lang="en"/>
-            <title xml:lang="fr"/>
+            <title xml:lang="en">Nikephoros Laktentitzes, imperial protospatharios, epi tou
+               Chrysotriklinou, mystographos and khartoularios of the stratiotikon</title>
+            <title xml:lang="fr">Nicéphore Laktentitzès, protospathaire impérial, épi tou
+               Chrysotriklinou, mystographe et chartulaire du stratiôtikon</title>
             <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
             <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
             <funder>
@@ -23,8 +25,8 @@
          </editionStmt>
          <publicationStmt>
             <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
-            <idno type="filename">CdN 2004-465</idno>
-            <idno type="SigiDocID"/>
+            <idno type="filename">CdN 2004-0441</idno>
+            <idno type="SigiDocID">s-B2wYCj</idno>
             <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
             <idno type="sequence"/>
             <!--  to be compiled automatically; leave as is  -->
@@ -37,21 +39,15 @@
          </publicationStmt>
          <sourceDesc>
             <listPerson type="issuer">
-               <person gender="" role="">
+               <person gender="M" role="civil aristocracy">
                   <persName xml:lang="grc">
-                     <forename/>
-                     <surname/>
-                  </persName>
+                     <forename>Νικηφόρος</forename>/> <surname>Λακτεντίτζης</surname>/> </persName>
                   <persName xml:lang="fr">
-                     <forename/>
-                     <surname/>
-                  </persName>
+                     <forename>Nicéphore</forename>/> <surname>Laktentitzès</surname>/> </persName>
                   <persName xml:lang="en">
-                     <forename/>
-                     <surname/>
-                  </persName>
-                  <idno type="PBW" ana=""/>
-                  <idno type="PBW" ana=""/>
+                     <forename>Nikephoros</forename>/> <surname>Laktentitzes</surname>/> </persName>
+                  <idno type="PBW" ana="http://pbw2016.kdl.kcl.ac.uk/person/Nikephoros/20165/"
+                     >Nikephoros 20165</idno>
                   <idno type="PBE"/>
                   <idno type="PLP"/>
                   <idno type="PLRE"/>
@@ -81,7 +77,7 @@
                      <rs type="collection-name" xml:lang="en">Byzantine seals collection</rs>
                      <rs type="collection-name" xml:lang="fr">Collection de sceaux byzantins</rs>
                   </collection>
-                  <idno type="inv-nr-current">CdN 2004-465</idno>
+                  <idno type="inv-nr-current">CdN 2004-0441</idno>
                   <altIdentifier>
                      <repository/>
                      <idno type="inv-nr-former"/>
@@ -90,8 +86,8 @@
                <msContents>
                   <!--https://github.com/SigiDoc/Guidelines/wiki/5.-Controlled-vocabularies#seals-category-->
                   <summary n="whole">
-                     <seg xml:lang="fr"/>
-                     <seg xml:lang="en"/>
+                     <seg xml:lang="en">Central administration</seg>
+                     <seg xml:lang="fr">Administration centrale</seg>
                   </summary>
                </msContents>
                <physDesc>
@@ -111,18 +107,20 @@
                               <seg xml:lang="en">Lead</seg>
                            </material>
                            <dimensions type="support" unit="mm">
-                              <dim type="diameter"/>
+                              <dim type="diameter">28,78/28,09</dim>
                               <!-- mesure du champ? -->
                            </dimensions>
-                           <measure type="weight" unit="g"/>
+                           <measure type="weight" unit="g">19,96</measure>
                            <measure type="axis" unit="clock"/>
                            <measure type="overstrikeOrient" unit="clock"/>
-                           <measure type="channelOrient" unit="clock"/>
+                           <measure type="channelOrient" unit="clock">12-6</measure>
                            <measure type="countermark" unit="clock"/>
                         </support>
-                        <condition rend="">
-                           <p xml:lang="en"/>
-                           <p xml:lang="fr"/>
+                        <condition rend="well-struck well-preserved chipped">
+                           <p xml:lang="en">The seal is well preserved and well struck; slightly
+                              chipped at the channel openings.</p>
+                           <p xml:lang="fr">Le sceau est bien conservé et bien frappé; légèrement
+                              échancré aux orifices du canal.</p>
                         </condition>
                      </supportDesc>
                      <layoutDesc>
@@ -136,7 +134,7 @@
                               <seg xml:lang="en">Round</seg>
                            </rs>
                            <rs type="matrix" subtype="not-surviving">
-                              <idno type="SigiDoc"/>
+                              <idno type="SigiDoc">m-C20AFP</idno>
                               <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
                               <idno type="PBW"/>
                               <!-- to be used if the seal has a parallel in the PBW with a boulloterion registered there -->
@@ -155,10 +153,10 @@
                            <placeName/>
                         </seg>
                      </origPlace>
-                     <origDate type="analysis" notBefore="" notAfter="" evidence="" cert="high"
-                        resp="#MCP #JCC">
-                        <seg xml:lang="en"/>
-                        <seg xml:lang="fr"/>
+                     <origDate type="analysis" notBefore="1045" notAfter="1055"
+                        evidence="epigraphy historical-context" cert="high" resp="#MCP #JCC">
+                        <seg xml:lang="en">Mid 11th century</seg>
+                        <seg xml:lang="fr">Milieu du XIe siècle</seg>
                      </origDate>
                   </origin>
                   <provenance type="transferred" subtype="donated" when="2004-11-24">
@@ -167,7 +165,7 @@
                      <p xml:lang="fr">Collection Georges Zacos</p>
                   </provenance>
                   <acquisition>
-                     <p xml:lang="en">Gift of the Migore Foundation, Janet Zakos legacy, <date
+                     <p xml:lang="en">Donation of the Migore Foundation, Janet Zakos legacy, <date
                            when="2004-11-24">24th November 2004</date>
                      </p>
                      <p xml:lang="fr">Don de la Fondation Migore, legs Janet Zakos, <date
@@ -191,8 +189,10 @@
                                  <!-- ajouté ceci -->
                                  <dim type="diameter"/>
                               </dimensions>
-                              <p xml:lang="fr"/>
-                              <p xml:lang="en"/>
+                              <p xml:lang="fr">Iconographie avec, de part et d’autre de l'effigie,
+                                 inscription.</p>
+                              <p xml:lang="en">Iconography with, on either side of the image,
+                                 inscription.</p>
                            </layout>
                         </layoutDesc>
 
@@ -206,10 +206,22 @@
                      <decoDesc>
                         <decoNote>
                            <figure>
-                              <figDesc n="r" xml:lang="fr" ana=""/>
-                              <figDesc n="r" xml:lang="en" ana=""/>
-                              <figDesc n="decoR" xml:lang="fr"/>
-                              <figDesc n="decoR" xml:lang="en"/>
+                              <figDesc n="r" xml:lang="fr"
+                                 ana="person male archangel Michael holding cruciger sceptre and globe"
+                                 >Saint Michel, en pied, de face, ailes largement éployées, reposant
+                                 sur un souppédion ovale ; revêtu du lôros richement orné de perles
+                                 dont le pan retombe sur le bras gauche, l’archange tient en main
+                                 droite un long sceptre terminé par une croix, et en main gauche un
+                                 globe crucigère.</figDesc>
+                              <figDesc n="r" xml:lang="en"
+                                 ana="person male saint Michael holding cruciferous scepter and globe"
+                                 >Saint Michael, full-length, facing front, wings spread wide,
+                                 resting on an oval base; wearing a lôros richly adorned with
+                                 pearls, the flap of which falls over the left arm, the archangel
+                                 holds in his right hand a long sceptre ending in a cross, and in
+                                 his left hand a cruciger globe.</figDesc>
+                              <figDesc n="decoR" xml:lang="fr">Cercle de grènetis</figDesc>
+                              <figDesc n="decoR" xml:lang="en">Border of dots</figDesc>
                            </figure>
                         </decoNote>
                      </decoDesc>
@@ -230,8 +242,8 @@
                                  <!-- ajouté ceci -->
                                  <dim type="diameter"/>
                               </dimensions>
-                              <p xml:lang="en"/>
-                              <p xml:lang="fr"/>
+                              <p xml:lang="en">Linear legend of 9 lines</p>
+                              <p xml:lang="fr">Légende linéaire sur 9 lignes</p>
                            </layout>
                         </layoutDesc>
                      </objectDesc>
@@ -244,8 +256,11 @@
                      <decoDesc>
                         <decoNote>
                            <figure>
-                              <figDesc n="decoV" xml:lang="fr"/>
-                              <figDesc n="decoV" xml:lang="en"/>
+                              <figDesc n="decoV" xml:lang="fr">croisette précédant la légende;
+                                 dernière ligne accostée de traits; perle au-dessous de la
+                                 légende</figDesc>
+                              <figDesc n="decoV" xml:lang="en">crosslet preceding the legend; last
+                                 line between traits; a pearl at the bottom of the field</figDesc>
                            </figure>
                         </decoNote>
                      </decoDesc>
@@ -267,16 +282,16 @@
       <surfaceGrp>
          <surface n="r">
             <desc>Obverse</desc>
-            <graphic type="photo" url="CdN2004-465_1.jpg">
-               <desc xml:lang="en">CdN 2004-465, obverse</desc>
-               <desc xml:lang="fr">CdN 2004-465, avers</desc>
+            <graphic type="photo" url="CdN2004-0441_1.jpg">
+               <desc xml:lang="en">CdN 2004-0441, obverse</desc>
+               <desc xml:lang="fr">CdN 2004-0441, avers</desc>
             </graphic>
          </surface>
          <surface n="v">
             <desc>Reverse</desc>
-            <graphic type="photo" url="CdN2004-465_2.jpg">
-               <desc xml:lang="en">CdN 2004-465, reverse</desc>
-               <desc xml:lang="de">CdN 2004-465, revers</desc>
+            <graphic type="photo" url="CdN2004-0441_2.jpg">
+               <desc xml:lang="en">CdN 2004-0441, reverse</desc>
+               <desc xml:lang="de">CdN 2004-0441, revers</desc>
             </graphic>
          </surface>
       </surfaceGrp>
@@ -286,57 +301,88 @@
          <div type="edition" subtype="editorial" xml:space="preserve"> 
             <div type="textpart" subtype="label" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
               <ab>
-                 <cb n="a"/>Ὁ ἅγιος 
-                 <cb n="b"/>Ν<supplied reason="lost">ι</supplied>κόλαο<supplied reason="lost">ς</supplied>
+                 <cb n="a"/><expan><abbr>Μι
+                 <cb n="b" break="no"/>χα</abbr><ex>ήλ</ex></expan>
               </ab>
             </div>
                   <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
-                      <ab ana="dat">
-                         <lb n="1"/><rs type="invocation" ref="#inv004"><expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan> <expan><abbr>β</abbr><ex>οή</ex><abbr>θ</abbr><ex>ει</ex></expan> 
-                         <lb n="2"/>τῷ σῷ <expan><abbr>δού</abbr><ex>λῳ</ex></expan></rs> 
-                         <lb n="3"/><expan><abbr>Νικήτ</abbr><ex>ᾳ</ex></expan> <rs type="dignity" ref="#d0047"><expan><abbr>π</abbr><ex>ατ</ex><abbr>ρι</abbr><ex>κίῳ</ex></expan></rs> 
-                         <lb n="4"/><expan><abbr><am>S</am></abbr><ex>καὶ</ex></expan> <rs type="office" subtype="civil" ref="#of0031">ἄρχοντῃ</rs> 
-                         <lb n="5"/>τo <expan><abbr>Περιν</abbr><ex>ῷ</ex></expan>
+                      <ab ana="nom">
+                         <lb n="1"/><expan><abbr>Νικηφ</abbr><ex>όρος</ex></expan> 
+                         <lb n="2"/><rs type="dignity" ref="#d0067"><expan><abbr>β</abbr><ex>ασιλικὸς</ex></expan> <expan><abbr><am>Α</am></abbr><ex>πρωτο</ex><abbr>σπαθάρ</abbr><ex>ιος</ex></expan></rs> 
+                         <lb n="3"/><rs type="office" subtype="civil" ref="#of0070">ἐπὶ τοῦ <expan><abbr>Χρ</abbr><ex>υσο</ex><abbr><am>Γ</am></abbr><ex>τρι</ex><abbr>κλ</abbr><ex>ίνου</ex></expan></rs> 
+                         <lb n="4"/><rs type="office" subtype="civil" ref="#of0136"><expan><abbr>μυστογράφ</abbr><ex>ος</ex></expan></rs> <expan><abbr><am>S</am></abbr><ex>καὶ</ex></expan>
+                         <lb n="5"/><rs type="office" subtype="civil" ref="#of0193"><expan><abbr><supplied reason="lost">χ</supplied>αρτουλάρι</abbr><ex>ος</ex></expan></rs> τοῦ 
+                         <lb n="6"/><rs type="institution" ref="#org0027"><expan><abbr><supplied reason="lost">σ</supplied>τρατιωτ</abbr><ex>ι</ex><abbr>κοῦ</abbr></expan></rs> 
+                         <lb n="7"/><rs type="institution" ref="#org0059">λογοθεσίου</rs> 
+                         <lb n="8"/>ὁ <expan><abbr>Λακτεντ</abbr><ex>ί</ex>
+                         <lb n="9" break="no"/><abbr>τζης</abbr></expan>
                       </ab>
                   </div>
               </div>
          <div type="edition" subtype="diplomatic" xml:space="preserve"> 
                   <div type="textpart" subtype="label" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
               <ab>
-                 <cb n="a"/>
-                 <cb n="b"/>
+                 <cb n="a"/>μ|ι
+                 <cb n="b"/>Χ|Α
               </ab>
             </div>
-                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+            <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
                       <ab>
-                         <lb n="1"/> 
-                         <lb n="2"/>
-                         <lb n="3"/>
-                         <lb n="4"/>
-                         <lb n="5"/>
-                      </ab>
+                         <lb n="1"/>ΝιΚΗφ/
+                         <lb n="2"/>ṛ̅Α̅CΠΑΘΑΡ/  
+                         <lb n="3"/>ΕΠιΤΓ̣/ ΚΛ
+                         <lb n="4"/>ΜVcΤΟ̣Γ̣ΡΑΦ̣/ 
+                         <lb n="5"/>.Α̣ΡΤΛ̣Α̣Ρ̣Τ̣
+                         <lb n="6"/>.ΤΡΑΤιΤ/ Κ 
+                         <lb n="7"/>ΛΟΓΟΘΕcι
+                         <lb n="8"/>ΟΛΑΚΤΕΝΤ/
+                         <lb n="9"/>ΤΗc
+                         </ab>
                   </div>
               </div>
          <div type="translation">
-            <p> Ὁ ἅγιος Νικόλαος.  || + Κύριε βοήθει τῷ σῷ δούλῳ Νικήτᾳ πατρικίῳ καὶ ἄρχοντῃ τo Περινῷ.</p>
-            <p xml:lang="en"></p>
-            <p xml:lang="fr"></p>
+            <p>Μιχαήλ. || + Νικηφόρος βασιλικὸς πρωτοσπαθάριος ἐπὶ τοῦ Χρυσοτρικλίνου μυστογράφος
+               καὶ χαρτουλάριος τοῦ στρατιωτικοῦ λογοθεσίου ὁ Λακτεντίτζης.</p>
+            <p xml:lang="en">Michael. || Nikephoros Laktentitzes, imperial protospatharios, epi tou
+               Chrysotriklinou, mystographos and khartoularios of the stratiotikon.</p>
+            <p xml:lang="fr">Michel. || Nicéphore Laktentitzès, protospathaire impérial, épi tou
+               Chrysotriklinou, mystographe et chartulaire du stratiôtikon.</p>
          </div>
          <div type="commentary" subtype="text">
             <!-- renvois internes à refaire -->
-            <p xml:lang="en"></p>
-            <p xml:lang="en"></p>
-            <p xml:lang="fr"></p>
-            <p xml:lang="fr"></p>
+            <p xml:lang="en">Nikephoros is known only from his seal. The office of mystographos is
+               not clearly defined but, according to the sigillography, his legal skills enabled him
+               not only to serve in the secretariat of a sékréton, like Nikephoros, but also, it
+               seems, to take on the responsibilities of judge of a theme or to sit on the tribunals
+               of the Velum or the Hippodrome. Two other Laktentitzai, George and Michael, are
+               attested in the sources, both serving in the pious foundations (euageis oikoi, which
+               suggests that they were close to the imperial circle. George has left two seals
+               (ZacosOrient (cf.(<bibl><ptr target="ZacosOrient"/>,
+                  <citedRange unit="entry">notice n° 18</citedRange></bibl>) </p>
+            <p xml:lang="fr">Connu par ce seul sceau, le sigillant était, d’après ses fonctions,
+               d’un rang assez élevé. La charge de mystographe n’est pas clairement définie, mais,
+               d’après la sigillographie, ses compétences juridiques lui permettaient, non seulement
+               de servir dans le secrétariat d’un sékréton, comme Nicéphore, mais aussi,
+               semble-t-il, d’assumer des responsabilités de juge d’un thème ou de siéger aux
+               tribunaux du Velum ou de l’Hippodrome. Deux autres Laktentitzai, Michel et Georges,
+               sans doute de la même lignée, sont attestés par les sources. Tous deux ont servi dans
+               l’administration des grandes fondations pieuses (euageis oikoi), ce qui suggère leur
+               proximité avec le cercle impérial. Georges a laissé deux sceaux (cf.(<bibl><ptr target="ZacosOrient"/>,
+                  <citedRange unit="entry">notice n° 18</citedRange></bibl>.</p>
          </div>
          <div type="bibliography" subtype="edition">
             <p>
+               <bibl>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">29</citedRange></bibl>; <bibl>
+                     <ptr target="ZacosSpink1"/>, n° <citedRange unit="entry">49</citedRange></bibl>
                <bibl/>
-                  
             </p>
          </div>
          <div type="bibliography" subtype="parallels">
-            <p/>
+            <p>DO 58.106.2838 ;DO 58.106.5404 ; Zacos (BnF) 413<bibl>
+               <ptr target="LaurentCorpus2"/>, n° <citedRange unit="entry">575</citedRange>.
+            </bibl>
+            </p>
          </div>
          <div type="bibliography" subtype="discussion">
             <p/>

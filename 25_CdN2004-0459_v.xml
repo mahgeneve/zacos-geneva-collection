@@ -5,8 +5,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title xml:lang="en"/>
-            <title xml:lang="fr"/>
+            <title xml:lang="en">Leon Apostolites, asèkrètis</title>
+            <title xml:lang="fr"> Léon Apostolitès, asèkrètis</title>
             <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
             <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
             <funder>
@@ -23,8 +23,8 @@
          </editionStmt>
          <publicationStmt>
             <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
-            <idno type="filename">CdN 2004-546</idno>
-            <idno type="SigiDocID"/>
+            <idno type="filename">CdN 2004-0459</idno>
+            <idno type="SigiDocID">s-4TUN17</idno>
             <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
             <idno type="sequence"/>
             <!--  to be compiled automatically; leave as is  -->
@@ -37,21 +37,14 @@
          </publicationStmt>
          <sourceDesc>
             <listPerson type="issuer">
-               <person gender="" role="">
+               <person gender="M" role="civil aristocracy">
                   <persName xml:lang="grc">
-                     <forename/>
-                     <surname/>
-                  </persName>
+                     <forename>Λέων</forename>/> <surname>Ἀποστολίτης</surname>/> </persName>
                   <persName xml:lang="fr">
-                     <forename/>
-                     <surname/>
-                  </persName>
+                     <forename>Léon</forename>/> <surname>Apostolitès</surname>/> </persName>
                   <persName xml:lang="en">
-                     <forename/>
-                     <surname/>
-                  </persName>
-                  <idno type="PBW" ana=""/>
-                  <idno type="PBW" ana=""/>
+                     <forename>Leon</forename>/> <surname>Apostolites</surname>/> </persName>
+                  <idno type="PBW"/>
                   <idno type="PBE"/>
                   <idno type="PLP"/>
                   <idno type="PLRE"/>
@@ -81,7 +74,7 @@
                      <rs type="collection-name" xml:lang="en">Byzantine seals collection</rs>
                      <rs type="collection-name" xml:lang="fr">Collection de sceaux byzantins</rs>
                   </collection>
-                  <idno type="inv-nr-current">CdN 2004-546</idno>
+                  <idno type="inv-nr-current">CdN 2004-0459</idno>
                   <altIdentifier>
                      <repository/>
                      <idno type="inv-nr-former"/>
@@ -90,8 +83,8 @@
                <msContents>
                   <!--https://github.com/SigiDoc/Guidelines/wiki/5.-Controlled-vocabularies#seals-category-->
                   <summary n="whole">
-                     <seg xml:lang="fr"/>
-                     <seg xml:lang="en"/>
+                     <seg xml:lang="fr">Administration centrale</seg>
+                     <seg xml:lang="en">Central administration</seg>
                   </summary>
                </msContents>
                <physDesc>
@@ -111,18 +104,20 @@
                               <seg xml:lang="en">Lead</seg>
                            </material>
                            <dimensions type="support" unit="mm">
-                              <dim type="diameter"/>
+                              <dim type="diameter">22,88/21,30</dim>
                               <!-- mesure du champ? -->
                            </dimensions>
-                           <measure type="weight" unit="g"/>
+                           <measure type="weight" unit="g">7,896</measure>
                            <measure type="axis" unit="clock"/>
                            <measure type="overstrikeOrient" unit="clock"/>
-                           <measure type="channelOrient" unit="clock"/>
+                           <measure type="channelOrient" unit="clock">1-7</measure>
                            <measure type="countermark" unit="clock"/>
                         </support>
-                        <condition rend="">
-                           <p xml:lang="en"/>
-                           <p xml:lang="fr"/>
+                        <condition rend="well-preserved well-struck chipped">
+                           <p xml:lang="en">The seal is well preserved and well struck; slightly
+                              chipped at the channel openings; strike slightly off-center</p>
+                           <p xml:lang="fr">Le sceau est bien conservé et bien frappé; légèrement
+                              échancré aux orifices du canal; frappe légèrement décentrée</p>
                         </condition>
                      </supportDesc>
                      <layoutDesc>
@@ -136,7 +131,7 @@
                               <seg xml:lang="en">Round</seg>
                            </rs>
                            <rs type="matrix" subtype="not-surviving">
-                              <idno type="SigiDoc"/>
+                              <idno type="SigiDoc">m-QvNvO7</idno>
                               <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
                               <idno type="PBW"/>
                               <!-- to be used if the seal has a parallel in the PBW with a boulloterion registered there -->
@@ -155,10 +150,10 @@
                            <placeName/>
                         </seg>
                      </origPlace>
-                     <origDate type="analysis" notBefore="" notAfter="" evidence="" cert="high"
-                        resp="#MCP #JCC">
-                        <seg xml:lang="en"/>
-                        <seg xml:lang="fr"/>
+                     <origDate type="analysis" notBefore="1045" notAfter="1055"
+                        evidence="epigraphy prosopography titulature" cert="high" resp="#MCP #JCC">
+                        <seg xml:lang="en">Mid 11th century</seg>
+                        <seg xml:lang="fr">Milieu du XIe siècle</seg>
                      </origDate>
                   </origin>
                   <provenance type="transferred" subtype="donated" when="2004-11-24">
@@ -167,7 +162,7 @@
                      <p xml:lang="fr">Collection Georges Zacos</p>
                   </provenance>
                   <acquisition>
-                     <p xml:lang="en">Gift of the Migore Foundation, Janet Zakos legacy, <date
+                     <p xml:lang="en">Donation of the Migore Foundation, Janet Zakos legacy, <date
                            when="2004-11-24">24th November 2004</date>
                      </p>
                      <p xml:lang="fr">Don de la Fondation Migore, legs Janet Zakos, <date
@@ -191,8 +186,8 @@
                                  <!-- ajouté ceci -->
                                  <dim type="diameter"/>
                               </dimensions>
-                              <p xml:lang="fr"/>
-                              <p xml:lang="en"/>
+                              <p xml:lang="fr">Légende linéaire sur 5 lignes.</p>
+                              <p xml:lang="en">Linear legend of 5 lines.</p>
                            </layout>
                         </layoutDesc>
 
@@ -206,10 +201,12 @@
                      <decoDesc>
                         <decoNote>
                            <figure>
-                              <figDesc n="r" xml:lang="fr" ana=""/>
-                              <figDesc n="r" xml:lang="en" ana=""/>
-                              <figDesc n="decoR" xml:lang="fr"/>
-                              <figDesc n="decoR" xml:lang="en"/>
+                              <figDesc n="r" xml:lang="fr" ana="texte"/>
+                              <figDesc n="r" xml:lang="en" ana="texte"/>
+                              <figDesc n="decoR" xml:lang="fr">Cercle de grènetis; la légende est
+                                 surmontée d'une croisette en pointillé.</figDesc>
+                              <figDesc n="decoR" xml:lang="en">Border of dots; legend is topped by a
+                                 crosslet.</figDesc>
                            </figure>
                         </decoNote>
                      </decoDesc>
@@ -230,22 +227,29 @@
                                  <!-- ajouté ceci -->
                                  <dim type="diameter"/>
                               </dimensions>
-                              <p xml:lang="en"/>
-                              <p xml:lang="fr"/>
+                              <p xml:lang="en">Linear legend of 3 lines</p>
+                              <p xml:lang="fr">Légende linéaire sur 3 ligne</p>
                            </layout>
                         </layoutDesc>
                      </objectDesc>
                      <handDesc>
                         <handNote n="v">
-                           <seg xml:lang="fr"/>
-                           <seg xml:lang="en"/>
+                           <seg xml:lang="fr">OU en ligature; le nom comporte un "s" de trop</seg>
+                           <seg xml:lang="en">OU in ligature; the name has two "s" instead of
+                              one</seg>
                         </handNote>
                      </handDesc>
                      <decoDesc>
                         <decoNote>
                            <figure>
-                              <figDesc n="decoV" xml:lang="fr"/>
-                              <figDesc n="decoV" xml:lang="en"/>
+                              <figDesc n="v" xml:lang="fr" ana="texte">.</figDesc>
+                              <figDesc n="v" xml:lang="en" ana="texte">.</figDesc>
+                              <figDesc n="decoV" xml:lang="fr">Cercle de grènetis; la légende est
+                                 surmontée d'un croisillon entre deux traits et suivie d'une perle
+                                 cantonnée de deux traits.</figDesc>
+                              <figDesc n="decoV" xml:lang="en">Border of dots; legend is topped by a
+                                 crosslet between two traits and followed by a pearl between two
+                                 traits.</figDesc>
                            </figure>
                         </decoNote>
                      </decoDesc>
@@ -267,16 +271,16 @@
       <surfaceGrp>
          <surface n="r">
             <desc>Obverse</desc>
-            <graphic type="photo" url="CdN2004-546_1.jpg">
-               <desc xml:lang="en">CdN 2004-546, obverse</desc>
-               <desc xml:lang="fr">CdN 2004-546, avers</desc>
+            <graphic type="photo" url="CdN2004-0459_1.jpg">
+               <desc xml:lang="en">CdN 2004-0459, obverse</desc>
+               <desc xml:lang="fr">CdN 2004-0459, avers</desc>
             </graphic>
          </surface>
          <surface n="v">
             <desc>Reverse</desc>
-            <graphic type="photo" url="CdN2004-546_2.jpg">
-               <desc xml:lang="en">CdN 2004-546, reverse</desc>
-               <desc xml:lang="de">CdN 2004-546, revers</desc>
+            <graphic type="photo" url="CdN2004-0459_2.jpg">
+               <desc xml:lang="en">CdN 2004-0459, reverse</desc>
+               <desc xml:lang="de">CdN 2004-0459, revers</desc>
             </graphic>
          </surface>
       </surfaceGrp>
@@ -285,67 +289,83 @@
       <body>
          <div type="edition" subtype="editorial" xml:space="preserve"> 
             <div type="textpart" subtype="face" rend="linear" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
-              <ab ana="dat">
-                 <lb n="1"/><rs type="invocation" ref="#inv002"><expan><abbr>Θ</abbr><ex>εοτό</ex><abbr>κε</abbr></expan> <expan><abbr>β</abbr><ex>ο</ex>
-                 <lb n="2" break="no"/><abbr>ήθ</abbr><ex>ει</ex></expan> τῷ σῷ 
-                 <lb n="3"/>δούλῳ</rs> Ῥω
-                 <lb n="4" break="no"/>μανῷ <rs type="dignity" ref="#d0050"><expan><abbr><am>Α</am></abbr><ex>πρι</ex><abbr>μι
-                 <lb n="5" break="no"/>κηρίῳ</abbr></expan></rs>
-              </ab>
+              <lg type="metrical" met="dodecasyllable">
+                 <l n="1"><lb n="1"/>Λόγους 
+                 <lb n="2"/>σφραγί
+                 <lb n="3" break="no"/>ζο Ἀποσ
+                 <lb n="4" break="no"/><surplus>σ</surplus>τολί
+                 <lb n="5" break="no"/>του</l>
+              </lg>
             </div>
                   <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
-                      <ab ana="dat">
-                         <lb n="6"/><rs type="dignity" ref="#d0067"><expan><abbr>βασ</abbr><ex>ι</ex><abbr>λ</abbr><ex>ι</ex><abbr>κo</abbr></expan> 
-                         <lb n="7"/><expan><abbr><am>Α</am></abbr><ex>πρωτο</ex><abbr>σπαθ</abbr><ex>αρίῳ</ex></expan></rs> <rs type="office" subtype="civil" ref="#of0099"><expan><abbr>κοι
-                         <lb n="8" break="no"/>των</abbr><ex>ί</ex><abbr>τ</abbr><ex>ῃ</ex></expan></rs> καὶ <rs type="office" subtype="civil" ref="#of0107"><expan><abbr>κου
-                         <lb n="9" break="no"/>ράτω</abbr><ex>ρι</ex></expan></rs> τῶν 
-                         <lb n="10"/><rs type="institution" ref="#org0053"><expan><abbr>Μαγγάν</abbr><ex>ων</ex></expan></rs>
-                      </ab>
+                      <lg type="metrical" met="dodecasyllable">
+                         <l n="1"><lb n="6"/>Λέον
+                         <lb n="7" break="no"/>τος <rs type="office" subtype="civil" ref="#of0026">ἀση
+                         <lb n="8" break="no"/>κρίτη</rs></l>
+                      </lg>
                   </div>
               </div>
          <div type="edition" subtype="diplomatic" xml:space="preserve"> 
                   <div type="textpart" subtype="face" rend="linear" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
               <ab>
-                 <lb n="1"/>
-                 <lb n="2"/>
-                 <lb n="3"/>
-                 <lb n="4"/>
-                 <lb n="5"/>
+                 <lb n="1"/>ΛΟΓC
+                 <lb n="2"/>CΦΡΑΓι
+                 <lb n="3"/>ΟΑΡΟC
+                 <lb n="4"/>CΤΟΛι
+                 <lb n="5"/>Τ
               </ab>
             </div>
                   <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
                       <ab>
-                         <lb n="6"/>
-                         <lb n="7"/> 
-                         <lb n="8"/>
-                         <lb n="9"/>
-                         <lb n="10"/>
+                         <lb n="1"/>ΛΕΟN
+                         <lb n="2"/>TΟCΑCΗ 
+                         <lb n="3"/>ΚΡιTΗ
                          </ab>
                   </div>
               </div>
          <div type="translation">
-            <p>+ Θεοτόκε βοήθει τῷ σῷ δούλῳ Ῥωμανῷ πριμικηρίῳ || βασιλικo πρωτοσπαθαρίῳ κοιτωνίτῃ καὶ κουράτωρι τῶν Μαγγάνων.</p>
-            <p xml:lang="en"></p>
-            <p xml:lang="fr"></p>
+            <p>Λόγους σφραγίζο Ἀποσ{σ}τολίτου || Λέοντος ἀσηκρίτη.</p>
+            <p xml:lang="en">I seal asekretis' Leon Apostolites writings.</p>
+            <p xml:lang="fr">Je scelle les écrits de l'asèkrètis Léon Apostolitès.</p>
          </div>
          <div type="commentary" subtype="text">
             <!-- renvois internes à refaire -->
-            <p xml:lang="en"></p>
-            <p xml:lang="en"></p>
-            <p xml:lang="fr"></p>
-            <p xml:lang="fr"></p>
+            <p xml:lang="en">The owner is known by this only seal. An other Apostolites, named
+               Theodore, spatharokandidatos epi tou Khrysotriklinou is attested by his bulla,
+               bearing the effigy of saint Stephen, dated at the end of the 11th century (cf.
+               <bibl><ptr target="Wassiliou-Seibt2011"/>, <citedRange unit="page"
+                  >552</citedRange></bibl>). The hellenised form (πρωτο)ασηκρῆτις remains largely
+               invariable on seals, though often misspelled and abbreviated. Some rare exceptions
+               also exist, the most glaring of which is that of the seal of Theodore, in the 8th
+               century (cf. <bibl><ptr target="LaurentCorpus2"/>, <citedRange unit="entry">14, 101,
+                  105, 112</citedRange></bibl>): Θεοδώρου ἀσηκρίτου.</p>
+            <p xml:lang="fr">Le signataire n’est connu que par cette unique bulle. Un deuxième
+               Apostolitès, Théodore, spatharocandidat et épi tou Chrysotriklinou, est attesté par
+               son sceau, à l’effigie de saint Étienne, frappé à la fin du Xe siècle/premier tiers
+               du XIe siècle (cf. <bibl><ptr target="Wassiliou-Seibt2011"/>, <citedRange unit="page"
+                  >552</citedRange></bibl>). Hellénisée, la forme (πρωτο)ασηκρῆτις reste
+               largement invariable sur les sceaux, quoique souvent mal orthographiée et abrégée.
+               Quelques rares exceptions de déclinaison existent aussi, dont la plus flagrante est
+               celle du sceau de Théodore, au VIIIe siècle (cf. <bibl><ptr target="LaurentCorpus2"
+               />, <citedRange unit="entry">14, 101, 105, 112</citedRange></bibl>): Θεοδώρου
+               ἀσηκρίτου.</p>
+            <p xml:lang="fr"/>
          </div>
          <div type="bibliography" subtype="edition">
-            <p>
-               <bibl/>
-                  
+            <p><bibl>
+               <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">25</citedRange></bibl>; <bibl>
+                  <ptr target="ZacosSpink1"/>, n° <citedRange unit="entry">46</citedRange></bibl>.
             </p>
+               <bibl/>
          </div>
          <div type="bibliography" subtype="parallels">
             <p/>
          </div>
          <div type="bibliography" subtype="discussion">
-            <p/>
+               <p>Le sceau de Génève est mentionné dans <bibl>
+                  <ptr target="Wassiliou-Seibt2011"/>, p. <citedRange unit="entry"
+                     >1272</citedRange>. </bibl>
+               </p>
          </div>
       </body>
    </text>
