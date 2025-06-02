@@ -293,7 +293,7 @@
             <div type="textpart" subtype="face" rend="circular" n="obv" xml:lang="grc">
               <lg type="metrical" met="dodecasyllable" subtype="false">
                  <l n="1" part="I">
-                 <lb n="1"/>Μάρτυς θύτην σὸν
+                 <lb n="1"/>Μάρτυς <rs type="office" subtype="ecclesiastical" ref="#of0297">θύτην</rs> σὸν
                  </l>
               </lg>
             </div>

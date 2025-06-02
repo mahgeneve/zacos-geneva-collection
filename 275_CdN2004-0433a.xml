@@ -298,9 +298,9 @@
                   <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
                       <lg type="metrical" met="dodecasyllable">
                          <l n="1">
-                         <lb n="2"/><expan><abbr>Θ</abbr><ex>εο</ex><abbr>ῦ</abbr></expan> Σο
+                         <lb n="2"/><rs type="institution" ref="#org0102"><expan><abbr>Θ</abbr><ex>εο</ex><abbr>ῦ</abbr></expan> Σο
                          <lb n="3" break="no"/>φίας Oἰκονο
-                         <lb n="4" break="no"/>μείου λόγοις</l>
+                         <lb n="4" break="no"/>μείου</rs> λόγοις</l>
                          <l n="2"><lb n="5"/>ἐγὼ κρατύν<supplied reason="lost">ω</supplied> 
                          <lb n="6"/>τοὺς ὑπηκόου<supplied reason="lost">ς</supplied> 
                          <lb n="7"/>σκέπω
