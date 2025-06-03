@@ -292,8 +292,8 @@
             </div>
             <div type="textpart" subtype="label" rend="columns" n="obv" xml:lang="grc">
               <ab>
-                 <cb n="c"/>Ἡ Θεοσκέ
-                 <cb n="d" break="no"/>παστος
+                 <cb n="c"/><rs type="institution" cert="low" ref="#org0103">Ἡ Θεοσκέ
+                 <cb n="d" break="no"/>παστος</rs>
               </ab>
             </div>
                   <div type="textpart" subtype="label" n="rev" rend="columns" xml:lang="grc">
