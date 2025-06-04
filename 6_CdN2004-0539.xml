@@ -155,10 +155,9 @@
                            <placeName/>
                         </seg>
                      </origPlace>
-                     <origDate type="analysis" notBefore="" notAfter="" evidence="" cert="high"
-                        resp="#MCP #JCC">
-                        <seg xml:lang="en"/>
-                        <seg xml:lang="fr"/>
+                     <origDate type="analysis" notBefore="0921" notAfter="0930" evidence="historical-context prosopography reign" cert="high" resp="#MCP #JCC">
+                        <seg xml:lang="en">921-930</seg>
+                        <seg xml:lang="fr">921-930</seg>
                      </origDate>
                   </origin>
                   <provenance type="transferred" subtype="donated" when="2004-11-24">

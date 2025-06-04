@@ -155,10 +155,9 @@
                            <placeName/>
                         </seg>
                      </origPlace>
-                     <origDate type="analysis" notBefore="" notAfter="" evidence="" cert="high"
-                        resp="#MCP #JCC">
-                        <seg xml:lang="en"/>
-                        <seg xml:lang="fr"/>
+                     <origDate type="analysis" notBefore="1068" notAfter="1071" evidence="prosopography iconography reign" cert="high" resp="#MCP #JCC">
+                        <seg xml:lang="en">1068-1071</seg>
+                        <seg xml:lang="fr">1068-1071</seg>
                      </origDate>
                   </origin>
                   <provenance type="transferred" subtype="donated" when="2004-11-24">
@@ -290,14 +289,17 @@
                  <cb n="b"/><expan><abbr>Χ</abbr><ex>ριστό</ex><abbr>ς</abbr></expan>
               </ab>
             </div>
-            <div type="textpart" subtype="face" rend="circular" n="obv" xml:lang="grc">
-              <ab ana="nom">
-                 <lb n="1"/><expan><abbr>Ῥωμαν</abbr><ex>ὸς</ex></expan> <expan><abbr><am>S</am></abbr><ex>καὶ</ex></expan> <expan><abbr>Εὐδ</abbr><ex>ο</ex><abbr>κ</abbr><ex>ία</ex></expan> <expan><abbr>β</abbr><ex>ασιλεῖς</ex></expan> <expan><abbr>Ῥ</abbr><ex>ω</ex><abbr>μ</abbr><ex>αίων</ex></expan>
+            <div type="textpart" subtype="label" rend="columns" n="obv" xml:lang="grc">
+              <ab>
+                 <cb n="c"/><expan><abbr>Ῥωμαν</abbr><ex>ὸς</ex></expan> <expan><abbr><am>S</am></abbr><ex>καὶ</ex></expan>
+                 <cb n="d"/><expan><abbr>Εὐδ</abbr><ex>ο</ex><abbr>κ</abbr><ex>ία</ex></expan> <expan><abbr>β</abbr><ex>ασιλεῖς</ex></expan> <expan><abbr>Ῥ</abbr><ex>ω</ex><abbr>μ</abbr><ex>αίων</ex></expan>
               </ab>
             </div>
-            <div type="textpart" subtype="face" rend="circular" n="rev" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+            <div type="textpart" subtype="label" rend="columns" n="rev" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
               <ab ana="und">
-                 <lb n="2"/><expan><abbr>Κων</abbr><ex>στάντιος</ex></expan> <expan><abbr>Μ</abbr><ex>ι</ex><abbr>χ</abbr><ex>αήλ</ex></expan> <expan><abbr>Ἀνδ</abbr><ex>ρόνικος</ex></expan>
+                 <cb n="e"/><expan><abbr>Κων</abbr><ex>στάντιος</ex></expan>
+                 <cb n="f"/><expan><abbr>Μ</abbr><ex>ι</ex><abbr>χ</abbr><ex>αήλ</ex></expan>
+                 <cb n="g"/> <expan><abbr>Ἀνδ</abbr><ex>ρόνικος</ex></expan>
               </ab>
             </div>
               </div>
@@ -308,14 +310,17 @@
                  <cb n="b"/>
               </ab>
             </div>
-            <div type="textpart" subtype="face" n="obv" rend="circular" xml:lang="grc">
+            <div type="textpart" subtype="label" n="obv" rend="columns" xml:lang="grc">
                       <ab>
-                         <lb n="1"/>
+                 <cb n="c"/>
+                 <cb n="d"/>
                       </ab>
                   </div>
-                  <div type="textpart" subtype="face" rend="circular" n="rev" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+                  <div type="textpart" subtype="label" rend="columns" n="rev" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
               <ab>
-                 <lb n="2"/>
+                 <cb n="e"/>
+                 <cb n="f"/>
+                 <cb n="g"/>
               </ab>
                   </div>
               </div>

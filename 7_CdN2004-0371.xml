@@ -155,10 +155,9 @@
                            <placeName/>
                         </seg>
                      </origPlace>
-                     <origDate type="analysis" notBefore="" notAfter="" evidence="" cert="high"
-                        resp="#MCP #JCC">
-                        <seg xml:lang="en"/>
-                        <seg xml:lang="fr"/>
+                     <origDate type="analysis" notBefore="0963" notAfter="0963" evidence="prosopography iconography reign historical-context" cert="high" resp="#MCP #JCC">
+                        <seg xml:lang="en">Between March and September 963</seg>
+                        <seg xml:lang="fr">Entre mars et septembre 963</seg>
                      </origDate>
                   </origin>
                   <provenance type="transferred" subtype="donated" when="2004-11-24">
