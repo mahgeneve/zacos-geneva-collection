@@ -22,6 +22,7 @@
                <seg xml:lang="en">Digital enhancement</seg>
             </edition>
             <editor role="digital-editor" xml:id="PE" when="2025-04-02">Pia Evening</editor>
+            <editor role="digital-editor" resp="#MCP" when="2025-05-27">Maria Campagnolo-Pothitou</editor>
          </editionStmt>
          <publicationStmt>
             <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
@@ -88,8 +89,8 @@
                <msContents>
                   <!--https://github.com/SigiDoc/Guidelines/wiki/5.-Controlled-vocabularies#seals-category-->
                   <summary n="whole">
-                     <seg xml:lang="fr">administration centrale</seg>
-                     <seg xml:lang="en">central administration</seg>
+                     <seg xml:lang="fr">Administration centrale</seg>
+                     <seg xml:lang="en">Central administration</seg>
                   </summary>
                </msContents>
                <physDesc>
@@ -122,7 +123,7 @@
                            <p xml:lang="en">The seal is well preserved and well struck; slightly
                               chipped at the channel openings; partly broken on the edge.</p>
                            <p xml:lang="fr">Le sceau est bien conservé et bien frappé; légèrement
-                              échancré aux orifices du canal; partiellement rogné sur la tranche</p>
+                              échancré aux orifices du canal; partiellement rogné sur la tranche.</p>
                         </condition>
                      </supportDesc>
                      <layoutDesc>
@@ -212,7 +213,7 @@
                                  linéaires; la légende est précédée d'une croisette et suivie d'une
                                  perle cantonnée de de tirets.</figDesc>
                               <figDesc n="decoR" xml:lang="en">Border of dots between two linear
-                                 cercles; the first line is preeceded by a crosslet and the legend
+                                 circles; the first line is preceded by a crosslet and the legend
                                  ends up by a pearl between two traits in a separate line.</figDesc>
                            </figure>
                         </decoNote>
@@ -251,7 +252,7 @@
                               <figDesc n="decoV" xml:lang="fr">Cercle de grènetis entre deux cercles
                                  linéaires; la dernière ligne est cantonnée de deux tirets</figDesc>
                               <figDesc n="decoV" xml:lang="en">Border of dots between two linear
-                                 cercles; last line is between two decorative traits.</figDesc>
+                                 circles; last line is between two decorative traits.</figDesc>
                            </figure>
                         </decoNote>
                      </decoDesc>
@@ -267,6 +268,7 @@
       </encodingDesc>
       <revisionDesc>
          <change when="2025-04-02" who="#PE">Creation of the XML record.</change>
+         <change when="2025-05-27" who="#MCP">Adding of metadata.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -334,7 +336,6 @@
          </div>
          <div type="commentary" subtype="text">
             <!-- renvois internes à refaire -->
-            <p xml:lang="en"/>
             <p xml:lang="en">The wording of the legend makes its interpretation problematic. We can
                understand that Basil was imperial protonotary, or simple imperial notary, and
                antiprosôpôn in the genikon; but the legend of the bulla, which is very legible, does

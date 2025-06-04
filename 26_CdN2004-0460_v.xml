@@ -20,6 +20,7 @@
                <seg xml:lang="en">Digital enhancement</seg>
             </edition>
             <editor role="digital-editor" xml:id="PE" when="2025-04-02">Pia Evening</editor>
+            <editor role="digital-editor" resp="#MCP" when="2025-05-27">Maria Campagnolo-Pothitou</editor>
          </editionStmt>
          <publicationStmt>
             <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
@@ -39,13 +40,13 @@
             <listPerson type="issuer">
                <person gender="M" role="civil aristocracy">
                   <persName xml:lang="grc">
-                     <forename>Νικόλαος</forename>/> <surname/>
+                     <forename>Νικόλαος</forename> <surname/>
                   </persName>
                   <persName xml:lang="fr">
-                     <forename>Nicolas</forename>Ni/> <surname/>
+                     <forename>Nicolas</forename> <surname/>
                   </persName>
                   <persName xml:lang="en">
-                     <forename>Nikolaos</forename>/> <surname/>
+                     <forename>Nikolaos</forename> <surname/>
                   </persName>
                   <idno type="PBW" ana="http://pbw2016.kdl.kcl.ac.uk/person/Nikolaos/20137/"
                      >Nikolaos 20137</idno>
@@ -153,8 +154,8 @@
                         <seg xml:lang="en">
                            <placeName/>
                         </seg>
-                     </origPlace>
-                     <origDate type="analysis" notBefore="1065" notAfter="1100"
+                     </origPlace><!--"second half" in SigiDoc should be 1051-1100 (entry here before change "1065"-"1100")-->
+                     <origDate type="analysis" notBefore="1051" notAfter="1100"
                         evidence="epigraphy historical-context" cert="high" resp="#MCP #JCC">
                         <seg xml:lang="en">Second half of 11th century</seg>
                         <seg xml:lang="fr">Seconde moitié du XIe siècle</seg>
@@ -254,7 +255,7 @@
                            <figure>
                               <figDesc n="decoV" xml:lang="fr">Croisette précédant la légende; perle
                                  accostée de tirets en bas du champ.</figDesc>
-                              <figDesc n="decoV" xml:lang="en">Crosslet preceeding the legend; at
+                              <figDesc n="decoV" xml:lang="en">Crosslet preceding the legend; at
                                  the bottom, pearl between two traits.</figDesc>
                            </figure>
                         </decoNote>
@@ -271,6 +272,7 @@
       </encodingDesc>
       <revisionDesc>
          <change when="2025-04-02" who="#PE">Creation of the XML record.</change>
+         <change when="2025-05-27" who="#MCP">Addition of metadata.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -333,9 +335,9 @@
             <p>Ὁ ἅγιος Νικόλαος. || + Κύριε βοήθει τῷ σῷ δούλῳ Νικολάῳ χαρτουλαρίῳ, τῷ ἀνεψιῷ τοῦ
                πρωτέβωντος.</p>
             <p xml:lang="en">Lord, help your servant, the khartoularios Nikolas, the Proteuon's
-               nephew</p>
+               nephew.</p>
             <p xml:lang="fr">Seigneur, apporte ton secours à ton serviteur, le chartulaire Nicolas,
-               le neveu de Prôteuôn</p>
+               le neveu de Prôteuôn.</p>
          </div>
          <div type="commentary" subtype="text">
             <!-- renvois internes à refaire -->
@@ -380,8 +382,8 @@
          <div type="bibliography" subtype="parallels">
             <p>Fogg, 188:
             </p>
-               <p>Ermitage, M-4864:<bibl>   
-               <ptr target="Medvedev"/>, p. <citedRange unit="page">63-67</citedRange></bibl>;
+               <p>Ermitage, M-4864: <bibl>   
+               <ptr target="Medvedev"/>, p. <citedRange unit="page">63-67</citedRange></bibl>.
                </p>
          </div>
          <div type="bibliography" subtype="discussion">

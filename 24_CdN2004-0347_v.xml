@@ -22,6 +22,7 @@
                <seg xml:lang="en">Digital enhancement</seg>
             </edition>
             <editor role="digital-editor" xml:id="PE" when="2025-04-02">Pia Evening</editor>
+            <editor role="digital-editor" resp="#MCP" when="2025-05-27">Maria Campagnolo-Pothitou</editor>
          </editionStmt>
          <publicationStmt>
             <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
@@ -41,11 +42,11 @@
             <listPerson type="issuer">
                <person gender="M" role="civil aristocracy">
                   <persName xml:lang="grc">
-                     <forename>Μιχαὴλ</forename>/> <surname>Πιθοκαστρίτης</surname>/> </persName>
+                     <forename>Μιχαὴλ</forename> <surname>Πιθοκαστρίτης</surname></persName>
                   <persName xml:lang="fr">
-                     <forename>Michel</forename>/> <surname>Pithokastritès</surname>/> </persName>
+                     <forename>Michel</forename> <surname>Pithokastritès</surname></persName>
                   <persName xml:lang="en">
-                     <forename>Michael</forename>/> <surname>Pithokastrites</surname>/> </persName>
+                     <forename>Michael</forename> <surname>Pithokastrites</surname></persName>
                   <idno type="PBW"/>
                   <idno type="PBE"/>
                   <idno type="PLP"/>
@@ -86,7 +87,7 @@
                   <!--https://github.com/SigiDoc/Guidelines/wiki/5.-Controlled-vocabularies#seals-category-->
                   <summary n="whole">
                      <seg xml:lang="fr">Administration centrale</seg>
-                     <seg xml:lang="en">Cenral administration</seg>
+                     <seg xml:lang="en">Central administration</seg>
                   </summary>
                </msContents>
                <physDesc>
@@ -151,7 +152,7 @@
                         <seg xml:lang="en">
                            <placeName/>
                         </seg>
-                     </origPlace>
+                     </origPlace><!--Mentioned date not corresponding to the datation in the catalogue (second tiers du XIe siècle 1034-1066), mid 11th c. would mean 1041-1060-->
                      <origDate type="analysis" notBefore="1030" notAfter="1060"
                         evidence="epigraphy historical-context" cert="high" resp="#MCP #JCC">
                         <seg xml:lang="en">Mid 11th century</seg>
@@ -216,7 +217,7 @@
                               <figDesc n="decoR" xml:lang="fr">Cercle de perles inséré entre deux
                                  cercles de grènetis</figDesc>
                               <figDesc n="decoR" xml:lang="en">Border of pearls embedded in two
-                                 cercles of dots</figDesc>
+                                 circles of dots</figDesc>
                            </figure>
                         </decoNote>
                      </decoDesc>
@@ -256,7 +257,7 @@
                                  champ, croisillon de perles cantonné de tirets au-dessous de la
                                  légende</figDesc>
                               <figDesc n="decoV" xml:lang="en">Border of pearls embedded in two
-                                 cercles of dots, crosslet between traits over the legend,
+                                 circles of dots, crosslet between traits over the legend,
                                  cross-brace of pearls between traits at the bottom</figDesc>
                            </figure>
                         </decoNote>
@@ -273,6 +274,7 @@
       </encodingDesc>
       <revisionDesc>
          <change when="2025-04-02" who="#PE">Creation of the XML record.</change>
+         <change when="2025-05-27" who="#MCP">Addition of metadata</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -375,7 +377,7 @@
             </p>
          </div>
          <div type="bibliography" subtype="parallels">
-            <p>No parallels known</p>
+            <p/>
          </div>
          <div type="bibliography" subtype="discussion">
             <p/>

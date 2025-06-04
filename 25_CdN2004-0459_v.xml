@@ -20,6 +20,7 @@
                <seg xml:lang="en">Digital enhancement</seg>
             </edition>
             <editor role="digital-editor" xml:id="PE" when="2025-04-02">Pia Evening</editor>
+            <editor role="digital-editor" resp="#MCP" when="2025-05-27">Maria Campagnolo-Pothitou</editor>
          </editionStmt>
          <publicationStmt>
             <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
@@ -39,11 +40,11 @@
             <listPerson type="issuer">
                <person gender="M" role="civil aristocracy">
                   <persName xml:lang="grc">
-                     <forename>Λέων</forename>/> <surname>Ἀποστολίτης</surname>/> </persName>
+                     <forename>Λέων</forename> <surname>Ἀποστολίτης</surname></persName>
                   <persName xml:lang="fr">
-                     <forename>Léon</forename>/> <surname>Apostolitès</surname>/> </persName>
+                     <forename>Léon</forename> <surname>Apostolitès</surname></persName>
                   <persName xml:lang="en">
-                     <forename>Leon</forename>/> <surname>Apostolites</surname>/> </persName>
+                     <forename>Leon</forename> <surname>Apostolites</surname></persName>
                   <idno type="PBW"/>
                   <idno type="PBE"/>
                   <idno type="PLP"/>
@@ -150,7 +151,7 @@
                            <placeName/>
                         </seg>
                      </origPlace>
-                     <origDate type="analysis" notBefore="1045" notAfter="1055"
+                     <origDate type="analysis" notBefore="1041" notAfter="1060"
                         evidence="epigraphy prosopography titulature" cert="high" resp="#MCP #JCC">
                         <seg xml:lang="en">Mid 11th century</seg>
                         <seg xml:lang="fr">Milieu du XIe siècle</seg>
@@ -265,6 +266,7 @@
       </encodingDesc>
       <revisionDesc>
          <change when="2025-04-02" who="#PE">Creation of the XML record.</change>
+         <change when="2025-05-27" who="#MCP">Addition of metadata</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -364,7 +366,7 @@
          <div type="bibliography" subtype="discussion">
                <p>Le sceau de Génève est mentionné dans <bibl>
                   <ptr target="Wassiliou-Seibt2011"/>, p. <citedRange unit="entry"
-                     >1272</citedRange>. </bibl>
+                     >1272</citedRange>.</bibl>
                </p>
          </div>
       </body>

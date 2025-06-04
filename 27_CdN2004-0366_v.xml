@@ -20,6 +20,7 @@
                <seg xml:lang="en">Digital enhancement</seg>
             </edition>
             <editor role="digital-editor" xml:id="PE" when="2025-04-02">Pia Evening</editor>
+            <editor role="digital-editor" resp="#MCP" when="2025-05-27">Maria Campagnolo-Pothitou</editor>
          </editionStmt>
          <publicationStmt>
             <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
@@ -39,13 +40,13 @@
             <listPerson type="issuer">
                <person gender="M" role="civil aristocracy">
                   <persName xml:lang="grc">
-                     <forename>Θεόδωρος</forename>/> <surname/>
+                     <forename>Θεόδωρος</forename> <surname/>
                   </persName>
                   <persName xml:lang="fr">
-                     <forename>Théodore</forename>/> <surname/>
+                     <forename>Théodore</forename> <surname/>
                   </persName>
                   <persName xml:lang="en">
-                     <forename>Theodore</forename>/> <surname/>
+                     <forename>Theodore</forename> <surname/>
                   </persName>
                   <idno type="PBW" ana="http://pbw2016.kdl.kcl.ac.uk/person/Theodoros/20174/"
                      >Theodoros 20174</idno>
@@ -154,7 +155,7 @@
                            <placeName/>
                         </seg>
                      </origPlace>
-                     <origDate type="analysis" notBefore="1000" notAfter="1050"
+                     <origDate type="analysis" notBefore="1001" notAfter="1050"
                         evidence="epigraphy historical-context" cert="high" resp="#MCP #JCC">
                         <seg xml:lang="en">First half of 11th century</seg>
                         <seg xml:lang="fr">Première moitié du XIe siècle</seg>
@@ -272,6 +273,7 @@
       </encodingDesc>
       <revisionDesc>
          <change when="2025-04-02" who="#PE">Creation of the XML record.</change>
+         <change when="2025-05-27" who="#MCP">Addition of metadata.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

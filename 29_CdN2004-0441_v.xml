@@ -22,6 +22,7 @@
                <seg xml:lang="en">Digital enhancement</seg>
             </edition>
             <editor role="digital-editor" xml:id="PE" when="2025-04-02">Pia Evening</editor>
+            <editor role="digital-editor" resp="#MCP" when="2025-05-27">Maria Campagnolo-Pothitou</editor>
          </editionStmt>
          <publicationStmt>
             <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
@@ -41,11 +42,11 @@
             <listPerson type="issuer">
                <person gender="M" role="civil aristocracy">
                   <persName xml:lang="grc">
-                     <forename>Νικηφόρος</forename>/> <surname>Λακτεντίτζης</surname>/> </persName>
+                     <forename>Νικηφόρος</forename> <surname>Λακτεντίτζης</surname></persName>
                   <persName xml:lang="fr">
-                     <forename>Nicéphore</forename>/> <surname>Laktentitzès</surname>/> </persName>
+                     <forename>Nicéphore</forename> <surname>Laktentitzès</surname></persName>
                   <persName xml:lang="en">
-                     <forename>Nikephoros</forename>/> <surname>Laktentitzes</surname>/> </persName>
+                     <forename>Nikephoros</forename> <surname>Laktentitzes</surname></persName>
                   <idno type="PBW" ana="http://pbw2016.kdl.kcl.ac.uk/person/Nikephoros/20165/"
                      >Nikephoros 20165</idno>
                   <idno type="PBE"/>
@@ -153,7 +154,7 @@
                            <placeName/>
                         </seg>
                      </origPlace>
-                     <origDate type="analysis" notBefore="1045" notAfter="1055"
+                     <origDate type="analysis" notBefore="1041" notAfter="1060"
                         evidence="epigraphy historical-context" cert="high" resp="#MCP #JCC">
                         <seg xml:lang="en">Mid 11th century</seg>
                         <seg xml:lang="fr">Milieu du XIe siècle</seg>
@@ -276,6 +277,7 @@
       </encodingDesc>
       <revisionDesc>
          <change when="2025-04-02" who="#PE">Creation of the XML record.</change>
+         <change when="2025-05-27" who="#MCP">Addition of metadata</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -357,8 +359,8 @@
                of the Velum or the Hippodrome. Two other Laktentitzai, George and Michael, are
                attested in the sources, both serving in the pious foundations (euageis oikoi, which
                suggests that they were close to the imperial circle. George has left two seals
-               (ZacosOrient (cf.(<bibl><ptr target="ZacosOrient"/>,
-                  <citedRange unit="entry">notice n° 18</citedRange></bibl>) </p>
+               (cf. <bibl><ptr target="ZacosOrient"/>,
+                  <citedRange unit="entry">notice n° 18</citedRange></bibl>).</p>
             <p xml:lang="fr">Connu par ce seul sceau, le sigillant était, d’après ses fonctions,
                d’un rang assez élevé. La charge de mystographe n’est pas clairement définie, mais,
                d’après la sigillographie, ses compétences juridiques lui permettaient, non seulement
@@ -367,8 +369,8 @@
                tribunaux du Velum ou de l’Hippodrome. Deux autres Laktentitzai, Michel et Georges,
                sans doute de la même lignée, sont attestés par les sources. Tous deux ont servi dans
                l’administration des grandes fondations pieuses (euageis oikoi), ce qui suggère leur
-               proximité avec le cercle impérial. Georges a laissé deux sceaux (cf.(<bibl><ptr target="ZacosOrient"/>,
-                  <citedRange unit="entry">notice n° 18</citedRange></bibl>.</p>
+               proximité avec le cercle impérial. Georges a laissé deux sceaux (cf. <bibl><ptr target="ZacosOrient"/>,
+                  <citedRange unit="entry">notice n° 18</citedRange></bibl>).</p>
          </div>
          <div type="bibliography" subtype="edition">
             <p>
@@ -379,7 +381,7 @@
             </p>
          </div>
          <div type="bibliography" subtype="parallels">
-            <p>DO 58.106.2838 ;DO 58.106.5404 ; Zacos (BnF) 413<bibl>
+            <p>DO 58.106.2838; DO 58.106.5404; Zacos (BnF) 413<bibl>
                <ptr target="LaurentCorpus2"/>, n° <citedRange unit="entry">575</citedRange>.
             </bibl>
             </p>

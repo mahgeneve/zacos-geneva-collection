@@ -22,6 +22,7 @@
                <seg xml:lang="en">Digital enhancement</seg>
             </edition>
             <editor role="digital-editor" xml:id="PE" when="2025-04-02">Pia Evening</editor>
+            <editor role="digital-editor" resp="#MCP" when="2025-05-27">Maria Campagnolo-Pothitou</editor>
          </editionStmt>
          <publicationStmt>
             <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
@@ -41,11 +42,11 @@
             <listPerson type="issuer">
                <person gender="M" role="civil aristocracy">
                   <persName xml:lang="grc">
-                     <forename>Νικηφόρος</forename>/> <surname>Ἀδραμυτηνός</surname>/> </persName>
+                     <forename>Νικηφόρος</forename> <surname>Ἀδραμυτηνός</surname></persName>
                   <persName xml:lang="fr">
-                     <forename>Nicéphore</forename>/> <surname>Adramytinos</surname>/> </persName>
+                     <forename>Nicéphore</forename> <surname>Adramytinos</surname></persName>
                   <persName xml:lang="en">
-                     <forename>Nikephoros</forename>/> <surname>Adramytinos</surname>/> </persName>
+                     <forename>Nikephoros</forename> <surname>Adramytinos</surname></persName>
                   <idno type="PBW"/>
                   <idno type="PBE"/>
                   <idno type="PLP"/>
@@ -115,7 +116,7 @@
                            <measure type="channelOrient" unit="clock">1-7</measure>
                            <measure type="countermark" unit="clock"/>
                         </support>
-                        <condition rend="well-preserved well-struck chipped off-center strike">
+                        <condition rend="well-preserved well-struck chipped not-centered">
                            <p xml:lang="en">The seal is well preserved and well struck; slightly
                               chipped at the channel openings; off-center strike; slightly broken
                               near the channel opening</p>
@@ -154,7 +155,7 @@
                            <placeName/>
                         </seg>
                      </origPlace>
-                     <origDate type="analysis" notBefore="1075" notAfter="1100"
+                     <origDate type="analysis" notBefore="1067" notAfter="1100"
                         evidence="epigraphy prosopography historical-context" cert="high"
                         resp="#MCP #JCC">
                         <seg xml:lang="en"> Last third of 11th century</seg>
@@ -213,7 +214,7 @@
                                  Épiskepsis, orante, portant devant la
                                  poitrine un large médaillon au buste de l’Enfant. Elle est entourée de saint Nicolas,
                                  et de saint Georges en habit de martyr.</figDesc>
-                              <figDesc n="r" xml:lang="en" ana="Deissis presenting Virgin Epikepsis orans bearing the medalllion "/>
+                              <figDesc n="r" xml:lang="en" ana="Deissis presenting Virgin Epikepsis orans bearing the medallion">Deesis with the Virgin Epikepsis orans bearing the Christ medallion. She is surrounded by St Nicholas and St George dressed as martyrs.</figDesc>
                               <figDesc n="decoR" xml:lang="fr"/>
                               <figDesc n="decoR" xml:lang="en"/>
                            </figure>
@@ -267,6 +268,7 @@
       </encodingDesc>
       <revisionDesc>
          <change when="2025-04-02" who="#PE">Creation of the XML record.</change>
+         <change when="2025-05-27" who="#MCP">Addition of metadata.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
