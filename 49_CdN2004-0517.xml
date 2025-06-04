@@ -155,10 +155,10 @@
                            <placeName/>
                         </seg>
                      </origPlace>
-                     <origDate type="analysis" notBefore="" notAfter="" evidence="" cert="high"
+                     <origDate type="analysis" notBefore="1041" notAfter="1060" evidence="onomastics prosopography titulature epigraphy" cert="high"
                         resp="#MCP #JCC">
-                        <seg xml:lang="en"/>
-                        <seg xml:lang="fr"/>
+                        <seg xml:lang="en">Mid-11th century</seg>
+                        <seg xml:lang="fr">Milieu du XIe siècle</seg>
                      </origDate>
                   </origin>
                   <provenance type="transferred" subtype="donated" when="2004-11-24">
@@ -276,7 +276,7 @@
             <desc>Reverse</desc>
             <graphic type="photo" url="CdN2004-0517_2.jpg">
                <desc xml:lang="en">CdN 2004-0517, reverse</desc>
-               <desc xml:lang="de">CdN 2004-0517, revers</desc>
+               <desc xml:lang="fr">CdN 2004-0517, revers</desc>
             </graphic>
          </surface>
       </surfaceGrp>
