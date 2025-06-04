@@ -23,7 +23,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
-            <idno type="filename">CdN 2004-249</idno>
+            <idno type="filename">CdN 2004-0249</idno>
             <idno type="SigiDocID"/>
             <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
             <idno type="sequence"/>
@@ -81,7 +81,7 @@
                      <rs type="collection-name" xml:lang="en">Byzantine seals collection</rs>
                      <rs type="collection-name" xml:lang="fr">Collection de sceaux byzantins</rs>
                   </collection>
-                  <idno type="inv-nr-current">CdN 2004-249</idno>
+                  <idno type="inv-nr-current">CdN 2004-0249</idno>
                   <altIdentifier>
                      <repository/>
                      <idno type="inv-nr-former"/>
@@ -155,10 +155,10 @@
                            <placeName/>
                         </seg>
                      </origPlace>
-                     <origDate type="analysis" notBefore="" notAfter="" evidence="" cert="high"
+                     <origDate type="analysis" notBefore="1181" notAfter="1200" evidence="onomastics epigraphy titulature" cert="high"
                         resp="#MCP #JCC">
-                        <seg xml:lang="en"/>
-                        <seg xml:lang="fr"/>
+                        <seg xml:lang="en">End of the 12th century</seg>
+                        <seg xml:lang="fr">Fin du XIIe siècle</seg>
                      </origDate>
                   </origin>
                   <provenance type="transferred" subtype="donated" when="2004-11-24">
@@ -267,16 +267,16 @@
       <surfaceGrp>
          <surface n="r">
             <desc>Obverse</desc>
-            <graphic type="photo" url="CdN2004-249_1.jpg">
-               <desc xml:lang="en">CdN 2004-249, obverse</desc>
-               <desc xml:lang="fr">CdN 2004-249, avers</desc>
+            <graphic type="photo" url="CdN2004-0249_1.jpg">
+               <desc xml:lang="en">CdN 2004-0249, obverse</desc>
+               <desc xml:lang="fr">CdN 2004-0249, avers</desc>
             </graphic>
          </surface>
          <surface n="v">
             <desc>Reverse</desc>
             <graphic type="photo" url="CdN2004-249_2.jpg">
-               <desc xml:lang="en">CdN 2004-249, reverse</desc>
-               <desc xml:lang="de">CdN 2004-249, revers</desc>
+               <desc xml:lang="en">CdN 2004-0249, reverse</desc>
+               <desc xml:lang="fr">CdN 2004-0249, revers</desc>
             </graphic>
          </surface>
       </surfaceGrp>

@@ -20,6 +20,7 @@
                <seg xml:lang="en">Digital enhancement</seg>
             </edition>
             <editor role="digital-editor" xml:id="PE" when="2025-04-02">Pia Evening</editor>
+            <editor role="digital-editor" resp="#MCP" when="2025-05-27">Maria Campagnolo-Pothitou</editor>
          </editionStmt>
          <publicationStmt>
             <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
@@ -39,13 +40,12 @@
             <listPerson type="issuer">
                <person gender="M" role="civil aristocracy">
                   <persName xml:lang="grc">
-                     <forename>Κωνσταντῖνος</forename>/> <surname>Ῥαδηνὸς</surname>/> </persName>
+                     <forename>Κωνσταντῖνος</forename> <surname>Ῥαδηνὸς</surname></persName>
                   <persName xml:lang="fr">
-                     <forename>Constantin</forename>/> <surname>Radènos</surname>/> </persName>
+                     <forename>Constantin</forename> <surname>Radènos</surname></persName>
                   <persName xml:lang="en">
-                     <forename>Constantine</forename>/> <surname>Radenos</surname>/> </persName>
-                  <idno type="PBW" ana="http://pbw2016.kdl.kcl.ac.uk/person/Konstantinos/20354/">Konstantinos 20354 </idno>
-                  
+                     <forename>Constantine</forename> <surname>Radenos</surname></persName>
+                  <idno type="PBW" ana="http://pbw2016.kdl.kcl.ac.uk/person/Konstantinos/20354/">Konstantinos 20354</idno>
                   <idno type="PBE"/>
                   <idno type="PLP"/>
                   <idno type="PLRE"/>
@@ -84,8 +84,8 @@
                <msContents>
                   <!--https://github.com/SigiDoc/Guidelines/wiki/5.-Controlled-vocabularies#seals-category-->
                   <summary n="whole">
-                     <seg xml:lang="fr">Dignitaire administration centrale</seg>
-                     <seg xml:lang="en">Dignitary central administration</seg>
+                     <seg xml:lang="fr">Administration centrale</seg>
+                     <seg xml:lang="en">Central administration</seg>
                   </summary>
                </msContents>
                <physDesc>
@@ -150,7 +150,7 @@
                         <seg xml:lang="en">
                            <placeName/>
                         </seg>
-                     </origPlace>
+                     </origPlace><!--Second half does not correspond to 1060-1080!-->
                      <origDate type="analysis" notBefore="1060" notAfter="1080"
                         evidence="prosopography historical-context epigraphy" cert="high"
                         resp="#MCP #JCC">
@@ -209,12 +209,12 @@
                                  ana="person female Virgin Mary with medallion">Buste de la Vierge
                                  Épiskepsis, de face, orante, avec le médaillon montrant le buste de
                                  l’Enfant avec la croix derrière la tête. Dans le champ, au-dessus
-                                 des mains de la Théotokos, les sigles usuels."</figDesc>
+                                 des mains de la Théotokos, les sigles usuels.</figDesc>
                               <figDesc n="r" xml:lang="en"
                                  ana="person female Virgin Mary with medallion">Bust of the Virgin
                                  Mary Episkepsis, front view, praying, with the medallion showing
                                  the bust of the Child with the cross behind his head. In the field,
-                                 above the hands of the Theotokos, the usual acronyms."</figDesc>
+                                 above the hands of the Theotokos, the usual acronyms.</figDesc>
                               <figDesc n="decoR" xml:lang="fr">Cercle de grènetis.</figDesc>
                               <figDesc n="decoR" xml:lang="en">Border of dots.</figDesc>
                            </figure>
@@ -270,6 +270,7 @@
       </encodingDesc>
       <revisionDesc>
          <change when="2025-04-02" who="#PE">Creation of the XML record.</change>
+         <change when="2025-05-27" who="#MCP">Addition of metadata.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -285,7 +286,7 @@
             <desc>Reverse</desc>
             <graphic type="photo" url="CdN2004-0363_2.jpg">
                <desc xml:lang="en">CdN 2004-0363, reverse</desc>
-               <desc xml:lang="de">CdN 2004-0363, revers</desc>
+               <desc xml:lang="fr">CdN 2004-0363, revers</desc>
             </graphic>
          </surface>
       </surfaceGrp>
@@ -334,7 +335,7 @@
                   </div>
               </div>
          <div type="translation">
-            <p>+ Ἁγνή, Ῥαδηνὸν σὸν μάγιστρον οἰκέτην, βέστην τὸν Κωνσταντῖνον ἔνφορον σκέποις.</p>
+            <p>Μήτηρ Θεοῦ. || + Ἁγνή, Ῥαδηνὸν σὸν μάγιστρον οἰκέτην, βέστην τὸν Κωνσταντῖνον ἔνφορον σκέποις.</p>
             <p xml:lang="en"/>
             <p xml:lang="fr"/>
          </div>
@@ -367,7 +368,7 @@
                <bibl>
                <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">40</citedRange></bibl>;
                <bibl>
-                  <ptr target="Campagnolo-CharalampakisRadenoi"/>, n° <citedRange unit="entry">40</citedRange></bibl>
+                  <ptr target="Campagnolo-CharalampakisRadenoi"/>, n° <citedRange unit="entry">40</citedRange></bibl>.
             </p>
          </div>
          <div type="bibliography" subtype="parallels">

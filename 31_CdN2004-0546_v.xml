@@ -22,6 +22,7 @@
                <seg xml:lang="en">Digital enhancement</seg>
             </edition>
             <editor role="digital-editor" xml:id="PE" when="2025-04-02">Pia Evening</editor>
+            <editor role="digital-editor" resp="#MCP" when="2025-05-27">Maria Campagnolo-Pothitou</editor>
          </editionStmt>
          <publicationStmt>
             <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
@@ -41,13 +42,13 @@
             <listPerson type="issuer">
                <person gender="M" role="civil aristocracy">
                   <persName xml:lang="grc">
-                     <forename>Ρωμανός</forename>/> <surname/>
+                     <forename>Ρωμανός</forename> <surname/>
                   </persName>
                   <persName xml:lang="fr">
-                     <forename>Romain</forename>/> <surname/>
+                     <forename>Romain</forename> <surname/>
                   </persName>
                   <persName xml:lang="en">
-                     <forename>Romanos</forename>/> <surname/>
+                     <forename>Romanos</forename> <surname/>
                   </persName>
                   <idno type="PBW" ana="http://pbw2016.kdl.kcl.ac.uk/person/Romanos/20114/">Romanos
                      20114</idno>
@@ -119,7 +120,7 @@
                            <measure type="channelOrient" unit="clock">12-6</measure>
                            <measure type="countermark" unit="clock"/>
                         </support>
-                        <condition rend="well-struck well-preserved chipped broken edge">
+                        <condition rend="well-struck well-preserved chipped">
                            <p xml:lang="en">The seal is well preserved and well struck; slightly
                               chipped at the channel openings; slightly broken on the edge.</p>
                            <p xml:lang="fr">Le sceau est bien conservé et bien frappé; légèrement
@@ -156,7 +157,7 @@
                            <placeName/>
                         </seg>
                      </origPlace>
-                     <origDate type="analysis" notBefore="1000" notAfter="1050"
+                     <origDate type="analysis" notBefore="1001" notAfter="1050"
                         evidence="epigraphy historical-context" cert="high" resp="#MCP #JCC">
                         <seg xml:lang="en">First half of the 11th century</seg>
                         <seg xml:lang="fr">Première moitié du XIe siècle</seg>
@@ -211,7 +212,7 @@
                               <figDesc n="r" xml:lang="en" ana="text"/>
                               <figDesc n="decoR" xml:lang="fr">Cercle de grènetis; une croisette
                                  précède la légende.</figDesc>
-                              <figDesc n="decoR" xml:lang="en">Border of dots;crosslet before the
+                              <figDesc n="decoR" xml:lang="en">Border of dots; crosslet before the
                                  legend.</figDesc>
                            </figure>
                         </decoNote>
@@ -266,6 +267,7 @@
       </encodingDesc>
       <revisionDesc>
          <change when="2025-04-02" who="#PE">Creation of the XML record.</change>
+         <change when="2025-05-27" who="#MCP">Addition of metadata</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -353,7 +355,7 @@
                   <citedRange unit="entry">notice n° 106</citedRange></bibl>; <bibl><ptr
                      target="Seyrig"/>, <citedRange unit="entry">notice n°
                         121</citedRange></bibl>;<bibl><ptr target="DOseals5"/>, <citedRange
-                           unit="entry">notice n° 25.7</citedRange></bibl> (wrong reading).The curator
+                           unit="entry">notice n° 25.7</citedRange></bibl> (wrong reading)). The curator
                of the Manganes ran an independent sekreton, with an administrative organisation
                similar to that of the grand curator. In the Clétorologe of Philothée
                (899), he appears after the latter, honoured with the same dignities (protospatharios or
@@ -377,7 +379,7 @@
                      <citedRange unit="entry">notice n° 106</citedRange></bibl>; <bibl><ptr
                      target="Seyrig"/>, <citedRange unit="entry">notice n°
                      121</citedRange></bibl>;<bibl><ptr target="DOseals5"/>, <citedRange
-                     unit="entry">notice n° 25.7</citedRange></bibl> (lecture erronée).Le curateur
+                     unit="entry">notice n° 25.7</citedRange></bibl> (lecture erronée)). Le curateur
                des Manganes dirigeait un sékréton indépendant, disposant d’une organisation
                administrative de même type que le grand curateur. Dans le Clétorologe de Philothée
                (899), il figure à la suite de celui-ci, honoré des mêmes dignités (protospathaire ou

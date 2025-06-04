@@ -20,6 +20,7 @@
                <seg xml:lang="en">Digital enhancement</seg>
             </edition>
             <editor role="digital-editor" xml:id="PE" when="2025-04-02">Pia Evening</editor>
+            <editor role="digital-editor" resp="#MCP" when="2025-05-27">Maria Campagnolo-Pothitou</editor>
          </editionStmt>
          <publicationStmt>
             <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
@@ -39,11 +40,11 @@
             <listPerson type="issuer">
                <person gender="M" role="civil aristocracy">
                   <persName xml:lang="grc">
-                     <forename>Κωνσταντῖνος</forename>/> <surname>Μυτιληναῖος</surname>/> </persName>
+                     <forename>Κωνσταντῖνος</forename> <surname>Μυτιληναῖος</surname></persName>
                   <persName xml:lang="fr">
-                     <forename>Constantin</forename>/> <surname>Mytilènaios</surname>/> </persName>
+                     <forename>Constantin</forename> <surname>Mytilènaios</surname></persName>
                   <persName xml:lang="en">
-                     <forename>Konstantinos</forename>/> <surname>Mytilinaios</surname>/> </persName>
+                     <forename>Konstantinos</forename> <surname>Mytilinaios</surname></persName>
                   <idno type="PBW" ana="https://pbw2016.kdl.kcl.ac.uk/person/153863/">Konstantinos
                      20230</idno>
                   <idno type="PBE"/>
@@ -117,7 +118,7 @@
                         <condition rend="well-preserved well-struck chipped">
                            <p xml:lang="en">The seal is well preserved and well struck; slightly
                               chipped at the channel openings; off-center strike; trimmed on half
-                              the perimeter </p>
+                              the perimeter</p>
                            <p xml:lang="fr">Le sceau est bien conservé et bien frappé; légèrement
                               échancré aux orifices du canal; frappe décentrée; rogné sur la moitié
                               du pourtour</p>
@@ -152,7 +153,7 @@
                         <seg xml:lang="en">
                            <placeName/>
                         </seg>
-                     </origPlace>
+                     </origPlace><!--datation not corresponding to the catalogue (dernier tiers du XIe siècle - 1076-1100)-->
                      <origDate type="analysis" notBefore="1065" notAfter="1100"
                         evidence="epigraphy prosopography historical-context" cert="high"
                         resp="#MCP #JCC">
@@ -271,6 +272,7 @@
       </encodingDesc>
       <revisionDesc>
          <change when="2025-04-02" who="#PE">Creation of the XML record.</change>
+         <change when="2025-05-27" who="#MCP">Addition of metadata.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -343,7 +345,7 @@
                but invested with the same title and function. This comparison is justified
                according to the editor, by the allusion in the bilateral legend to the effigy of the Virgin Mary that appears on our seal:
                Ἀντ᾽εἰκόνος Πανάγνου ἐς δίττους
-               στίχους ||Κωνσταντῖνος πρόεδρος εἰδικὸς γράφει.
+               στίχους || Κωνσταντῖνος πρόεδρος εἰδικὸς γράφει.
                In place of the effigy of the Most
                Pure, Constantine, proedros and eidikos, had engraved two verses.</p>
             <p xml:lang="fr">Originaire vraisemblablement de l’île de Mytilène (Lesbos), la famille
@@ -355,7 +357,7 @@
                patronyme, mais investi des mêmes titre et fonction. Le rapprochement se justifie
                notamment, selon l’éditeur, par l’allusion, contenue dans la légende bilatérale, à
                l’effigie de la Vierge qui figure sur notre sceau : Ἀντ᾽εἰκόνος Πανάγνου ἐς δίττους
-               στίχους ||Κωνσταντῖνος πρόεδρος εἰδικὸς γράφει. À la place de l’effigie de la toute
+               στίχους || Κωνσταντῖνος πρόεδρος εἰδικὸς γράφει. À la place de l’effigie de la toute
                Pure, Constantin, proèdre et eidikos, fait graver deux vers</p>
          </div>
          <div type="bibliography" subtype="edition">

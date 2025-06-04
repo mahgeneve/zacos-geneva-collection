@@ -20,6 +20,7 @@
                <seg xml:lang="en">Digital enhancement</seg>
             </edition>
             <editor role="digital-editor" xml:id="PE" when="2025-04-02">Pia Evening</editor>
+            <editor role="digital-editor" resp="#MCP" when="2025-05-27">Maria Campagnolo-Pothitou</editor>
          </editionStmt>
          <publicationStmt>
             <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
@@ -39,13 +40,13 @@
             <listPerson type="issuer">
                <person gender="M" role="civil aristocracy">
                   <persName xml:lang="grc">
-                     <forename>Ἐπιφάνιος</forename>/> <surname/>
+                     <forename>Ἐπιφάνιος</forename> <surname/>
                   </persName>
                   <persName xml:lang="fr">
-                     <forename>Epiphane</forename>/> <surname/>
+                     <forename>Epiphane</forename> <surname/>
                   </persName>
                   <persName xml:lang="en">
-                     <forename>Epiphanios</forename>/> <surname/>
+                     <forename>Epiphanios</forename> <surname/>
                   </persName>
                   <idno type="PBW" ana="http://pbw2016.kdl.kcl.ac.uk/person/Epiphanios/20106/"
                      >Epiphanios 20106 </idno>
@@ -87,8 +88,8 @@
                <msContents>
                   <!--https://github.com/SigiDoc/Guidelines/wiki/5.-Controlled-vocabularies#seals-category-->
                   <summary n="whole">
-                     <seg xml:lang="fr">administration centrale</seg>
-                     <seg xml:lang="en">central administration</seg>
+                     <seg xml:lang="fr">Administration centrale</seg>
+                     <seg xml:lang="en">Central administration</seg>
                   </summary>
                </msContents>
                <physDesc>
@@ -154,7 +155,7 @@
                            <placeName/>
                         </seg>
                      </origPlace>
-                     <origDate type="analysis" notBefore="1030" notAfter="1060" evidence="epigraphy"
+                     <origDate type="analysis" notBefore="1034" notAfter="1066" evidence="epigraphy"
                         cert="high" resp="#MCP #JCC">
                         <seg xml:lang="en">Second third of 11th century</seg>
                         <seg xml:lang="fr">Second tiers du XIe siècle</seg>
@@ -213,8 +214,8 @@
                                  devant la poitrine.</figDesc>
                               <figDesc n="r" xml:lang="en"
                                  ana="person female Virgin Mary Episkepsis">Bust of the Virgin
-                                 Episkepsis, facing, orans, bearing the medallion with the chils
-                                 beafore her chest</figDesc>
+                                 Episkepsis, facing, orans, bearing the medallion with the child
+                                 before her chest.</figDesc>
                               <figDesc n="decoR" xml:lang="fr">Cercle de grènetis</figDesc>
                               <figDesc n="decoR" xml:lang="en">Border of dots</figDesc>
                            </figure>
@@ -270,6 +271,7 @@
       </encodingDesc>
       <revisionDesc>
          <change when="2025-04-02" who="#PE">Creation of the XML record.</change>
+         <change when="2025-05-27" who="#MCP">Addition of metadata.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -330,10 +332,10 @@
               </div>
          <div type="translation">
             <p>Μήτηρ Θεοῦ. || + Κύριε βοήθει Ἐπιφανίῳ πρωτοσπαθαρίῳ καὶ δομεστίκῳ τοῦ ἐνφόρου.</p>
-            <p xml:lang="en">Mother of God. ||+ Lord, do help Epiphanios, protospatharios and
-               domestikos of the ephoros</p>
+            <p xml:lang="en">Mother of God. || + Lord, do help Epiphanios, protospatharios and
+               domestikos of the ephoros.</p>
             <p xml:lang="fr">Mère de Dieu. || + Seigneur apporte ton secours à Epiphane,
-               protospathaire et domestique de l’éphore</p>
+               protospathaire et domestique de l’éphore.</p>
          </div>
          <div type="commentary" subtype="text">
             <!-- renvois internes à refaire -->

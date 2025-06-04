@@ -23,7 +23,7 @@
          </editionStmt>
          <publicationStmt>
             <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
-            <idno type="filename">CdN 2004-341</idno>
+            <idno type="filename">CdN 2004-0540</idno>
             <idno type="SigiDocID"/>
             <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
             <idno type="sequence"/>
@@ -81,7 +81,7 @@
                      <rs type="collection-name" xml:lang="en">Byzantine seals collection</rs>
                      <rs type="collection-name" xml:lang="fr">Collection de sceaux byzantins</rs>
                   </collection>
-                  <idno type="inv-nr-current">CdN 2004-341</idno>
+                  <idno type="inv-nr-current">CdN 2004-0540</idno>
                   <altIdentifier>
                      <repository/>
                      <idno type="inv-nr-former"/>
@@ -155,10 +155,9 @@
                            <placeName/>
                         </seg>
                      </origPlace>
-                     <origDate type="analysis" notBefore="" notAfter="" evidence="" cert="high"
-                        resp="#MCP #JCC">
-                        <seg xml:lang="en"/>
-                        <seg xml:lang="fr"/>
+                     <origDate type="analysis" notBefore="1092" notAfter="1095" evidence="historical-context prosopography titulature" cert="high" resp="#MCP #JCC">
+                        <seg xml:lang="en">1092-1095</seg>
+                        <seg xml:lang="fr">1092-1095</seg>
                      </origDate>
                   </origin>
                   <provenance type="transferred" subtype="donated" when="2004-11-24">
@@ -267,16 +266,16 @@
       <surfaceGrp>
          <surface n="r">
             <desc>Obverse</desc>
-            <graphic type="photo" url="CdN2004-341_1.jpg">
-               <desc xml:lang="en">CdN 2004-341, obverse</desc>
-               <desc xml:lang="fr">CdN 2004-341, avers</desc>
+            <graphic type="photo" url="CdN2004-0540_1.jpg">
+               <desc xml:lang="en">CdN 2004-0540, obverse</desc>
+               <desc xml:lang="fr">CdN 2004-0540, avers</desc>
             </graphic>
          </surface>
          <surface n="v">
             <desc>Reverse</desc>
-            <graphic type="photo" url="CdN2004-341_2.jpg">
-               <desc xml:lang="en">CdN 2004-341, reverse</desc>
-               <desc xml:lang="de">CdN 2004-341, revers</desc>
+            <graphic type="photo" url="CdN2004-0540_2.jpg">
+               <desc xml:lang="en">CdN 2004-0540, reverse</desc>
+               <desc xml:lang="fr">CdN 2004-0540, revers</desc>
             </graphic>
          </surface>
       </surfaceGrp>
@@ -284,62 +283,57 @@
    <text>
       <body>
          <div type="edition" subtype="editorial" xml:space="preserve"> 
-            <div type="textpart" subtype="face" rend="linear" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
-              <lg type="metrical" met="dodecasyllable">
-                 <l n="1">
-                    <lb n="1"/><rs type="office" subtype="civil" ref="#of0115">Μέγας 
-                    <lb n="2"/>λογιστὴς</rs> Ἀν
-                    <lb n="3" break="no"/>δρόνικός 
-                    <lb n="4"/>με γράφει 
-                 </l>
-              </lg>
+            <div type="textpart" subtype="label" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="a"/>Ὁ <expan><abbr>ἅγιο</abbr><ex>ς</ex></expan> 
+                 <cb n="b"/>Νικόλαος
+              </ab>
             </div>
                   <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
-                      <lg type="metrical" met="dodecasyllable">
-                 <l n="2">
-                    <lb n="5"/><placeName ref="#geo0238">Ῥώμης 
-                    <lb n="6"/><rs type="office" subtype="civil" ref="#of0061">ἔπαρχος</rs> 
-                    <lb n="7"/>τῆς Νέας</placeName> 
-                    <lb n="8"/>Καππαδό
-                    <lb n="9" break="no"/>κης
-                 </l>
-              </lg>
+                      <ab ana="dat">
+                         <lb n="1"/><rs type="invocation" ref="#inv003"><expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan> <expan><abbr>βοήθ</abbr><ex>ει</ex></expan></rs> 
+                         <lb n="2"/>Νικολάῳ 
+                         <lb n="3"/><rs type="office" subtype="military" ref="#of0249">δρουγγαρίῳ</rs> 
+                         <lb n="4"/>τῆς <rs type="institution" ref="#org0010">βίγλας</rs> 
+                         <lb n="5"/>τῷ Μερμεν
+                         <lb n="6" break="no"/>τούλῳ
+                      </ab>
                   </div>
               </div>
          <div type="edition" subtype="diplomatic" xml:space="preserve"> 
-                  <div type="textpart" subtype="face" rend="linear" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+                  <div type="textpart" subtype="label" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
               <ab>
-                 <lb n="1"/>
-                 <lb n="2"/> 
-                 <lb n="3"/>
-                 <lb n="4"/>
+                 <cb n="a"/>
+                 <cb n="b"/>
               </ab>
             </div>
             <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
                       <ab>
-                  <lb n="5"/>
-                  <lb n="6"/>
-                  <lb n="7"/>
-                  <lb n="8"/>
-                  <lb n="9"/>
+                         <lb n="1"/>
+                         <lb n="2"/> 
+                         <lb n="3"/>
+                         <lb n="4"/>
+                         <lb n="5"/>
+                         <lb n="6"/>
                          </ab>
                   </div>
               </div>
          <div type="translation">
-            <p>+ Μέγας λογιστὴς Ἀνδρόνικός με γράφει || Ῥώμης ἔπαρχος τῆς Νέας Καππαδόκης.</p>
-            <p xml:lang="en"/>
-            <p xml:lang="fr"/>
+            <p>Ὁ ἅγιος Νικόλαος. || + Κύριε βοήθει Νικολάῳ δρουγγαρίῳ τῆς βίγλας τῷ Μερμεντούλῳ.</p>
+            <p xml:lang="en"></p>
+            <p xml:lang="fr"></p>
          </div>
          <div type="commentary" subtype="text">
             <!-- renvois internes à refaire -->
-            <p xml:lang="en"/>
-            <p xml:lang="en"/>
-            <p xml:lang="fr"/>
-            <p xml:lang="fr"/>
+            <p xml:lang="en"></p>
+            <p xml:lang="en"></p>
+            <p xml:lang="fr"></p>
+            <p xml:lang="fr"></p>
          </div>
          <div type="bibliography" subtype="edition">
             <p>
                <bibl/>
+                  
             </p>
          </div>
          <div type="bibliography" subtype="parallels">

@@ -20,6 +20,7 @@
                <seg xml:lang="en">Digital enhancement</seg>
             </edition>
             <editor role="digital-editor" xml:id="PE" when="2025-04-02">Pia Evening</editor>
+            <editor role="digital-editor" resp="#MCP" when="2025-05-27">Maria Campagnolo-Pothitou</editor>
          </editionStmt>
          <publicationStmt>
             <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
@@ -39,11 +40,11 @@
             <listPerson type="issuer">
                <person gender="M" role="civil aristocracy">
                   <persName xml:lang="grc">
-                     <forename>Θεόδωρος</forename>/> <surname>Παντεχνῆς</surname>/> </persName>
+                     <forename>Θεόδωρος</forename> <surname>Παντεχνῆς</surname></persName>
                   <persName xml:lang="fr">
-                     <forename>Théodore</forename>/> <surname>Pantechnès</surname>/> </persName>
+                     <forename>Théodore</forename> <surname>Pantechnès</surname></persName>
                   <persName xml:lang="en">
-                     <forename>Theodore</forename>/> <surname>Pantechnes</surname>/> </persName>
+                     <forename>Theodore</forename> <surname>Pantechnes</surname></persName>
                   <idno type="PBW" ana="http://pbw2016.kdl.kcl.ac.uk/boulloterion/2550/">Theodoros
                      198</idno>
                   <idno type="PBE"/>
@@ -114,7 +115,7 @@
                            <measure type="channelOrient" unit="clock">12-6</measure>
                            <measure type="countermark" unit="clock"/>
                         </support>
-                        <condition rend="well-struck; well-preserved; chipped; worn">
+                        <condition rend="well-struck well-preserved chipped worn-edge">
                            <p xml:lang="en">The seal is well preserved and well struck; slightly
                               chipped at the channel openings; slightly worn</p>
                            <p xml:lang="fr">Le sceau est bien conservé et bien frappé; légèrement
@@ -150,7 +151,7 @@
                         <seg xml:lang="en">
                            <placeName/>
                         </seg>
-                     </origPlace>
+                     </origPlace><!--datation not corresponding to the catalogue-->
                      <origDate type="analysis" notBefore="1166" notAfter="1182"
                         evidence="prosopography historical-context" cert="high" resp="#MCP #JCC">
                         <seg xml:lang="en">Third third of 12th century</seg>
@@ -261,6 +262,7 @@
       </encodingDesc>
       <revisionDesc>
          <change when="2025-04-02" who="#PE">Creation of the XML record.</change>
+         <change when="2025-05-27" who="#MCP">Addition of metadata.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -375,9 +377,7 @@
             </p>
          </div>
          <div type="bibliography" subtype="parallels">
-            <p>collection Thierry; ancienne collection Zacos</p>
-            <p>
-               <bibl>
+            <p>collection Thierry; ancienne collection Zacos; <bibl>
                   <ptr target="LaurentCorpus2"/>, n° <citedRange unit="entry">905</citedRange></bibl>
             </p>
          </div>
