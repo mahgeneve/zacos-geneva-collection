@@ -154,11 +154,11 @@
                         <seg xml:lang="en">
                            <placeName/>
                         </seg>
-                     </origPlace>
-                     <origDate type="analysis" notBefore="" notAfter="" evidence="" cert="high"
+                     </origPlace><!--End-date for the timeline needed! 1240 is my proposal from assuming, that the issuer was at least 20, when he attended the synode in 1166-->
+                     <origDate type="analysis" notBefore="1170" notAfter="1240" evidence="prosopography historical-context titulature" cert="high"
                         resp="#MCP #JCC">
-                        <seg xml:lang="en"/>
-                        <seg xml:lang="fr"/>
+                        <seg xml:lang="en">After january 1170</seg>
+                        <seg xml:lang="fr">Après janvier 1170</seg>
                      </origDate>
                   </origin>
                   <provenance type="transferred" subtype="donated" when="2004-11-24">
