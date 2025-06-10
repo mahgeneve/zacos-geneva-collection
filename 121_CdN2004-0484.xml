@@ -155,10 +155,9 @@
                            <placeName/>
                         </seg>
                      </origPlace>
-                     <origDate type="analysis" notBefore="" notAfter="" evidence="" cert="high"
-                        resp="#MCP #JCC">
-                        <seg xml:lang="en"/>
-                        <seg xml:lang="fr"/>
+                     <origDate type="internal" notBefore="0689" notAfter="0690" when-custom="0003" datingMethod="https://www.wikidata.org/wiki/Q1339127" evidence="internal-date prosopography titulature">
+                        <seg xml:lang="en">Indiction 3, corresponding to the year 689/690</seg>
+                        <seg xml:lang="fr">Indiction 3, soit l’année 689/690</seg>
                      </origDate>
                   </origin>
                   <provenance type="transferred" subtype="donated" when="2004-11-24">

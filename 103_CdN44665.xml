@@ -155,10 +155,9 @@
                            <placeName/>
                         </seg>
                      </origPlace>
-                     <origDate type="analysis" notBefore="" notAfter="" evidence="" cert="high"
-                        resp="#MCP #JCC">
-                        <seg xml:lang="en"/>
-                        <seg xml:lang="fr"/>
+                     <origDate type="internal" notBefore="0732" notAfter="0733" when-custom="0001" datingMethod="https://www.wikidata.org/wiki/Q1339127" evidence="internal-date">
+                        <seg xml:lang="en">Indiction 1, corresponding to the year 732/733</seg>
+                        <seg xml:lang="fr">Indiction 1, soit l’année 732/733</seg>
                      </origDate>
                   </origin>
                   <provenance type="transferred" subtype="donated" when="2004-11-24">
