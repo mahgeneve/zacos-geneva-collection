@@ -154,11 +154,11 @@
                         <seg xml:lang="en">
                            <placeName/>
                         </seg>
-                     </origPlace>
-                     <origDate type="analysis" notBefore="" notAfter="" evidence="" cert="high"
+                     </origPlace><!--range okay?-->
+                     <origDate type="analysis" notBefore="1001" notAfter="1069" evidence="prosopography titulature iconography epigraphy" cert="high"
                         resp="#MCP #JCC">
-                        <seg xml:lang="en"/>
-                        <seg xml:lang="fr"/>
+                        <seg xml:lang="en">Before 1069</seg>
+                        <seg xml:lang="fr">Avant 1069</seg>
                      </origDate>
                   </origin>
                   <provenance type="transferred" subtype="donated" when="2004-11-24">
