@@ -5,8 +5,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title xml:lang="en"/>
-            <title xml:lang="fr"/>
+            <title xml:lang="en">Sergios Hexamilites, vestes and judge</title>
+            <title xml:lang="fr">Serge Hexamilitès, vestès et juge</title>
             <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
             <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
             <funder>
@@ -23,8 +23,8 @@
          </editionStmt>
          <publicationStmt>
             <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
-            <idno type="filename">CdN 2004-0565</idno>
-            <idno type="SigiDocID"/>
+            <idno type="filename">CdN 2004-0412</idno>
+            <idno type="SigiDocID">s-qAZCn6</idno>
             <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
             <idno type="sequence"/>
             <!--  to be compiled automatically; leave as is  -->
@@ -37,20 +37,14 @@
          </publicationStmt>
          <sourceDesc>
             <listPerson type="issuer">
-               <person gender="" role="">
+               <person gender="M" role="civil aristocracy">
                   <persName xml:lang="grc">
-                     <forename/>
-                     <surname/>
-                  </persName>
+                     <forename>Σέργιος</forename>/> <surname>Ἑξαμιλίτης</surname>/> </persName>
                   <persName xml:lang="fr">
-                     <forename/>
-                     <surname/>
+                     <forename>Serge</forename>/> <surname>Hexamilitès</surname>
                   </persName>
                   <persName xml:lang="en">
-                     <forename/>
-                     <surname/>
-                  </persName>
-                  <idno type="PBW" ana=""/>
+                     <forename>Sergios</forename>/> <surname>Hexamilites</surname>/> </persName>
                   <idno type="PBW" ana=""/>
                   <idno type="PBE"/>
                   <idno type="PLP"/>
@@ -81,7 +75,7 @@
                      <rs type="collection-name" xml:lang="en">Byzantine seals collection</rs>
                      <rs type="collection-name" xml:lang="fr">Collection de sceaux byzantins</rs>
                   </collection>
-                  <idno type="inv-nr-current">CdN 2004-0565</idno>
+                  <idno type="inv-nr-current">CdN 2004-0412</idno>
                   <altIdentifier>
                      <repository/>
                      <idno type="inv-nr-former"/>
@@ -90,8 +84,8 @@
                <msContents>
                   <!--https://github.com/SigiDoc/Guidelines/wiki/5.-Controlled-vocabularies#seals-category-->
                   <summary n="whole">
-                     <seg xml:lang="fr"/>
-                     <seg xml:lang="en"/>
+                     <seg xml:lang="fr">Administration centrale</seg>
+                     <seg xml:lang="en">Central administration</seg>
                   </summary>
                </msContents>
                <physDesc>
@@ -111,18 +105,20 @@
                               <seg xml:lang="en">Lead</seg>
                            </material>
                            <dimensions type="support" unit="mm">
-                              <dim type="diameter"/>
+                              <dim type="diameter">26</dim>
                               <!-- mesure du champ? -->
                            </dimensions>
-                           <measure type="weight" unit="g"/>
+                           <measure type="weight" unit="g">13,820</measure>
                            <measure type="axis" unit="clock"/>
                            <measure type="overstrikeOrient" unit="clock"/>
-                           <measure type="channelOrient" unit="clock"/>
+                           <measure type="channelOrient" unit="clock">12-6</measure>
                            <measure type="countermark" unit="clock"/>
                         </support>
-                        <condition rend="">
-                           <p xml:lang="en"/>
-                           <p xml:lang="fr"/>
+                        <condition rend="well-struck well-preserved chipped">
+                           <p xml:lang="en">The seal is well-struck and well-preserved, slightly
+                              chipped at the openings of the canal</p>
+                           <p xml:lang="fr">Le sceau est bien frappé et bien conservé, légèrement
+                              échancré aux orifices du canal</p>
                         </condition>
                      </supportDesc>
                      <layoutDesc>
@@ -136,7 +132,7 @@
                               <seg xml:lang="en">Round</seg>
                            </rs>
                            <rs type="matrix" subtype="not-surviving">
-                              <idno type="SigiDoc"/>
+                              <idno type="SigiDoc">m-ufgvym</idno>
                               <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
                               <idno type="PBW"/>
                               <!-- to be used if the seal has a parallel in the PBW with a boulloterion registered there -->
@@ -155,10 +151,10 @@
                            <placeName/>
                         </seg>
                      </origPlace>
-                     <origDate type="analysis" notBefore="1181" notAfter="1200" evidence="epigraphy linguistic-features titulature onomastics" cert="high"
-                        resp="#MCP #JCC">
-                        <seg xml:lang="en">End of the 12th century</seg>
-                        <seg xml:lang="fr">Fin du XIIe siècle</seg>
+                     <origDate type="analysis" notBefore="1065" notAfter="1070"
+                        evidence="prosopography titulature" cert="high" resp="#MCP #JCC">
+                        <seg xml:lang="en">1065-1070</seg>
+                        <seg xml:lang="fr">1065-1070 </seg>
                      </origDate>
                   </origin>
                   <provenance type="transferred" subtype="donated" when="2004-11-24">
@@ -167,7 +163,7 @@
                      <p xml:lang="fr">Collection Georges Zacos</p>
                   </provenance>
                   <acquisition>
-                     <p xml:lang="en">Gift of the Migore Foundation, Janet Zakos legacy, <date
+                     <p xml:lang="en">Donation of the Migore Foundation, Janet Zakos legacy, <date
                            when="2004-11-24">24th November 2004</date>
                      </p>
                      <p xml:lang="fr">Don de la Fondation Migore, legs Janet Zakos, <date
@@ -191,8 +187,8 @@
                                  <!-- ajouté ceci -->
                                  <dim type="diameter"/>
                               </dimensions>
-                              <p xml:lang="fr"/>
-                              <p xml:lang="en"/>
+                              <p xml:lang="fr">Légende linéaire sur 4 lignes</p>
+                              <p xml:lang="en">Linear legend of 4 lines</p>
                            </layout>
                         </layoutDesc>
 
@@ -206,10 +202,14 @@
                      <decoDesc>
                         <decoNote>
                            <figure>
-                              <figDesc n="r" xml:lang="fr" ana=""/>
-                              <figDesc n="r" xml:lang="en" ana=""/>
-                              <figDesc n="decoR" xml:lang="fr"/>
-                              <figDesc n="decoR" xml:lang="en"/>
+                              <figDesc n="r" xml:lang="fr" ana="Texte"/>
+                              <figDesc n="r" xml:lang="en" ana="Text"/>
+                              <figDesc n="decoR" xml:lang="fr">Cercle de grènetis, au-dessus de la
+                                 légende, une perle accostée de tirets, au-dessous de la légende, un
+                                 croisillon de perles accosté de tirets</figDesc>
+                              <figDesc n="decoR" xml:lang="en">Border of dots, above the legend, a
+                                 pearl between traits, under the legend, crosslet of pearls between
+                                 traits</figDesc>
                            </figure>
                         </decoNote>
                      </decoDesc>
@@ -230,8 +230,8 @@
                                  <!-- ajouté ceci -->
                                  <dim type="diameter"/>
                               </dimensions>
-                              <p xml:lang="en"/>
-                              <p xml:lang="fr"/>
+                              <p xml:lang="en">Linear legend of 4 lines</p>
+                              <p xml:lang="fr">Légende linéaire sur 4 lignes</p>
                            </layout>
                         </layoutDesc>
                      </objectDesc>
@@ -244,8 +244,11 @@
                      <decoDesc>
                         <decoNote>
                            <figure>
-                              <figDesc n="decoV" xml:lang="fr"/>
-                              <figDesc n="decoV" xml:lang="en"/>
+                              <figDesc n="decoV" xml:lang="fr">Cercle de grènetis, au-dessus de la
+                                 légende, une rosace accostée de tirets, au-dessous de la légende,
+                                 dernière ligne accostée de rosaces</figDesc>
+                              <figDesc n="decoV" xml:lang="en">Border of dots, a rosette between
+                                 traits above the legend, last line flanked de rosettes </figDesc>
                            </figure>
                         </decoNote>
                      </decoDesc>
@@ -267,16 +270,16 @@
       <surfaceGrp>
          <surface n="r">
             <desc>Obverse</desc>
-            <graphic type="photo" url="CdN2004-0565_1.jpg">
-               <desc xml:lang="en">CdN 2004-0565, obverse</desc>
-               <desc xml:lang="fr">CdN 2004-0565, avers</desc>
+            <graphic type="photo" url="CdN2004-0412_1.jpg">
+               <desc xml:lang="en">CdN 2004-0412, obverse</desc>
+               <desc xml:lang="fr">CdN 2004-0412, avers</desc>
             </graphic>
          </surface>
          <surface n="v">
             <desc>Reverse</desc>
-            <graphic type="photo" url="CdN2004-0565_2.jpg">
-               <desc xml:lang="en">CdN 2004-0565, reverse</desc>
-               <desc xml:lang="fr">CdN 2004-0565, revers</desc>
+            <graphic type="photo" url="CdN2004-0412_2.jpg">
+               <desc xml:lang="en">CdN 2004-0412, reverse</desc>
+               <desc xml:lang="fr">CdN 2004-0412, revers</desc>
             </graphic>
          </surface>
       </surfaceGrp>
@@ -284,63 +287,86 @@
    <text>
       <body>
          <div type="edition" subtype="editorial" xml:space="preserve"> 
-            <div type="textpart" subtype="face" rend="monogram-other" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
-              <ab ana="nom">
-                 <lb n="1"/><expan><ex>Στέφανος</ex></expan>
+            <div type="textpart" subtype="face" rend="linear" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab ana="dat">
+                 <lb n="1"/><rs type="invocation" ref="#inv004"><expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan> βο
+                 <lb n="2" break="no"/><supplied reason="lost">ή</supplied>θει τῷ 
+                 <lb n="3"/><supplied reason="lost">σ</supplied>ῷ δούλῳ</rs> 
+                 <lb n="4"/>Σεργίῳ
               </ab>
             </div>
                   <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
-                      <lg type="metrical" met="dodecasyllable">
-                         <l n="1">
-                            <lb n="1"/>Τὸν Βαρ
-                            <lb n="2" break="no"/>δάλην Στέ
-                            <lb n="3" break="no"/>φανον ἡ σφρα
-                            <lb n="4" break="no"/>γὶς γράφει</l> <l n="2"><rs type="office" subtype="civil" ref="#of0067"><expan><abbr>τρα 
-                            <lb n="5" break="no"/>πεζεπιστατ</abbr><ex>ούν</ex>
-                            <lb n="6" break="no"/><abbr>τα</abbr></expan></rs> τοῖς ἀν
-                            <lb n="7" break="no"/><supplied reason="lost">α</supplied>κτόροις
-                         </l>
-                      </lg>
+                      <ab ana="dat">
+                         <lb n="5"/><rs type="dignity" ref="#d0018">βέστῃ</rs> <supplied reason="lost"><expan><abbr><am>S</am></abbr><ex>καὶ</ex></expan></supplied> 
+                         <lb n="6"/><rs type="office" subtype="civil" ref="#of0112">κριτῇ</rs> τ<supplied reason="lost">ῷ</supplied> 
+                         <lb n="7"/>Ἑξαμιλί
+                         <lb n="8" break="no"/>τῃ
+                      </ab>
                   </div>
               </div>
          <div type="edition" subtype="diplomatic" xml:space="preserve"> 
-                  <div type="textpart" subtype="face" rend="monogram-other" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+                  <div type="textpart" subtype="face" rend="linear" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
               <ab>
-                 <lb n="1"/>
+                 <lb n="1"/>ΚΕRο
+                 <lb n="2"/>.ΘEΙΤ
+                 <lb n="3"/>.δΛ
+                 <lb n="4"/>ΣEΡΓΙ
               </ab>
             </div>
-            <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
                       <ab>
-                         <lb n="1"/>
-                         <lb n="2"/> 
-                         <lb n="3"/>
-                         <lb n="4"/>
-                         <lb n="5"/>
-                         <lb n="6"/>
-                         <lb n="7"/>
+                         <lb n="5"/>REΣΤΗ.
+                         <lb n="6"/>κΡΙΤΗΤ. 
+                         <lb n="7"/>EξAΜΙΛΙ
+                         <lb n="8"/>ΤΗ
                          </ab>
                   </div>
               </div>
          <div type="translation">
-            <p>Στέφανος. || + Τὸν Βαρδάλην Στέφανον ἡ σφραγὶς γράφει τραπεζεπιστατούντα τοῖς ἀνακτόροις.</p>
-            <p xml:lang="en"></p>
-            <p xml:lang="fr"></p>
+            <p>+ Κύριε βοήθει τῷ σῷ δούλῳ Σεργίῳ || βέστῃ καὶ κριτῇ τῷ Ἑξαμιλίτῃ.</p>
+            <p xml:lang="en">Lord, aid your servant Sergios Hexamilites, vestes and judge </p>
+            <p xml:lang="fr">Seigneur apporte ton secours à ton serviteur Serge Hexamilitès, vestès
+               et juge</p>
          </div>
          <div type="commentary" subtype="text">
             <!-- renvois internes à refaire -->
-            <p xml:lang="en"></p>
-            <p xml:lang="en"></p>
-            <p xml:lang="fr"></p>
-            <p xml:lang="fr"></p>
+            <p xml:lang="en">Hexamilitai were an illustrious family of the Constantinopolitan
+               aristocracy who provided a large number of civil servants in the 11th century.Their
+               surname evokes their place of origin. Sergios is the most famous member of the family, thanks to
+               a rich of written and, above all, sigillographic documentation. He
+               enjoyed a brilliant cursus honorum, crowned by the dignity of protoproedros
+               associated with the highest office of the time, that of logothete of the sekreta, in
+               1082. The seal presented here, as well as the one under n° CdN 2004-0422, where he
+               is vestes, judge of the Velum and the Thracesians, around 1070, undoubtedly
+               constitute the first stages of his career as a magistrate, which began shortly before
+               that date. Two other bullae from different boulloteria testify to what may have been
+               an intermediate stage, that of vestes and judge of the Velum.</p>
+            <p xml:lang="en"/>
+            <p xml:lang="fr">Famille illustre de l’aristocratie constantinopolitaine, les
+               Hexamilitai, dont le patronyme évoque leur lieu d’origine, ont fourni bon nombre de
+               fonctionnaires civils au XIe siècle. Le plus connu de sa lignée, grâce à une riche
+               documentation écrite et surtout sigillographique, Serge, a réussi un brillant cursus
+               honorum, couronné par la dignité de protoproèdre associée à la plus haute fonction de
+               l’époque, celle de logothète des sékréta, en 1082. Le sceau présenté ici, ainsi que
+               celui sous le n° CdN 2004-0422, où il est vestès, juge du Velum et des Thracésiens,
+               autour de 1070, constituent sans doute les premières étapes de sa carrière de
+               magistrat, entamée peu avant cette date. Deux autres bulles issues de boullôtèria
+               différents témoignent, en effet, d’une étape peut-être intermédiaire, celle de vestès
+               et juge du Velum.</p>
+            <p xml:lang="fr"/>
          </div>
          <div type="bibliography" subtype="edition">
             <p>
-               <bibl/>
-                  
+               <bibl>
+               <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">51</citedRange></bibl>;
+               <bibl>
+                  <ptr target="Wassiliou2002"/>, n° <citedRange unit="entry">171i</citedRange></bibl>
             </p>
+               <bibl/>
+            <p/>
          </div>
          <div type="bibliography" subtype="parallels">
-            <p/>
+            <p>ancienne collection Zacos:</p>
          </div>
          <div type="bibliography" subtype="discussion">
             <p/>

@@ -5,8 +5,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title xml:lang="en"/>
-            <title xml:lang="fr"/>
+            <title xml:lang="en">Stephanos Bardales, epi tes trapezes</title>
+            <title xml:lang="fr">Etienne Bardalès, épi tès trapézès</title>
             <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
             <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
             <funder>
@@ -23,8 +23,8 @@
          </editionStmt>
          <publicationStmt>
             <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
-            <idno type="filename">CdN 2004-0341</idno>
-            <idno type="SigiDocID"/>
+            <idno type="filename">CdN 2004-0565</idno>
+            <idno type="SigiDocID">s-igfQeE</idno>
             <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
             <idno type="sequence"/>
             <!--  to be compiled automatically; leave as is  -->
@@ -37,21 +37,21 @@
          </publicationStmt>
          <sourceDesc>
             <listPerson type="issuer">
-               <person gender="" role="">
+               <person gender="M" role="civil aristocracy">
                   <persName xml:lang="grc">
-                     <forename/>
-                     <surname/>
+                     <forename>Στέφανος</forename>/>
+                     <surname>Βαρδάλης</surname>/>
                   </persName>
                   <persName xml:lang="fr">
-                     <forename/>
-                     <surname/>
+                     <forename>Etienne</forename>/>
+                     <surname>Bardalès</surname>/>
                   </persName>
                   <persName xml:lang="en">
-                     <forename/>
-                     <surname/>
+                     <forename>Stephanos</forename>/>
+                     <surname>Bardales</surname>/>
                   </persName>
-                  <idno type="PBW" ana=""/>
-                  <idno type="PBW" ana=""/>
+                  <idno type="PBW" ana="http://pbw2016.kdl.kcl.ac.uk/person/Stephanos/20209/"
+                     >Stephanos 20209</idno>
                   <idno type="PBE"/>
                   <idno type="PLP"/>
                   <idno type="PLRE"/>
@@ -81,7 +81,7 @@
                      <rs type="collection-name" xml:lang="en">Byzantine seals collection</rs>
                      <rs type="collection-name" xml:lang="fr">Collection de sceaux byzantins</rs>
                   </collection>
-                  <idno type="inv-nr-current">CdN 2004-0341</idno>
+                  <idno type="inv-nr-current">CdN 2004-0565</idno>
                   <altIdentifier>
                      <repository/>
                      <idno type="inv-nr-former"/>
@@ -90,8 +90,8 @@
                <msContents>
                   <!--https://github.com/SigiDoc/Guidelines/wiki/5.-Controlled-vocabularies#seals-category-->
                   <summary n="whole">
-                     <seg xml:lang="fr"/>
-                     <seg xml:lang="en"/>
+                     <seg xml:lang="fr">Administration centrale</seg>
+                     <seg xml:lang="en">Central administration</seg>
                   </summary>
                </msContents>
                <physDesc>
@@ -111,18 +111,18 @@
                               <seg xml:lang="en">Lead</seg>
                            </material>
                            <dimensions type="support" unit="mm">
-                              <dim type="diameter"/>
+                              <dim type="diameter">36,50/32,10</dim>
                               <!-- mesure du champ? -->
                            </dimensions>
-                           <measure type="weight" unit="g"/>
+                           <measure type="weight" unit="g"></measure>
                            <measure type="axis" unit="clock"/>
                            <measure type="overstrikeOrient" unit="clock"/>
-                           <measure type="channelOrient" unit="clock"/>
+                           <measure type="channelOrient" unit="clock">12-6</measure>
                            <measure type="countermark" unit="clock"/>
                         </support>
-                        <condition rend="">
-                           <p xml:lang="en"/>
-                           <p xml:lang="fr"/>
+                        <condition rend="well-struck well-preserved chipped worn-edge">
+                           <p xml:lang="en">The seal is well-struck and well-preserved, slightly chipped at the canal openings, worn on the edge</p>
+                           <p xml:lang="fr">Le sceau est bien frappé et bien conservé, légèrement échancré aux orifices du canal, le pourtour est usé</p>
                         </condition>
                      </supportDesc>
                      <layoutDesc>
@@ -136,7 +136,7 @@
                               <seg xml:lang="en">Round</seg>
                            </rs>
                            <rs type="matrix" subtype="not-surviving">
-                              <idno type="SigiDoc"/>
+                              <idno type="SigiDoc">m-L337aO</idno>
                               <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
                               <idno type="PBW"/>
                               <!-- to be used if the seal has a parallel in the PBW with a boulloterion registered there -->
@@ -155,10 +155,10 @@
                            <placeName/>
                         </seg>
                      </origPlace>
-                     <origDate type="analysis" notBefore="1167" notAfter="1200" evidence="epigraphy titulature historical-context prosopography" cert="high"
+                     <origDate type="analysis" notBefore="1181" notAfter="1200" evidence="epigraphy linguistic-features titulature onomastics" cert="high"
                         resp="#MCP #JCC">
-                        <seg xml:lang="en">Last third of the 12th century</seg>
-                        <seg xml:lang="fr">Dernier tiers du XIIe siècle</seg>
+                        <seg xml:lang="en">End of the 12th century</seg>
+                        <seg xml:lang="fr">Fin du XIIe siècle</seg>
                      </origDate>
                   </origin>
                   <provenance type="transferred" subtype="donated" when="2004-11-24">
@@ -167,7 +167,7 @@
                      <p xml:lang="fr">Collection Georges Zacos</p>
                   </provenance>
                   <acquisition>
-                     <p xml:lang="en">Gift of the Migore Foundation, Janet Zakos legacy, <date
+                     <p xml:lang="en">Donation of the Migore Foundation, Janet Zakos legacy, <date
                            when="2004-11-24">24th November 2004</date>
                      </p>
                      <p xml:lang="fr">Don de la Fondation Migore, legs Janet Zakos, <date
@@ -191,8 +191,8 @@
                                  <!-- ajouté ceci -->
                                  <dim type="diameter"/>
                               </dimensions>
-                              <p xml:lang="fr"/>
-                              <p xml:lang="en"/>
+                              <p xml:lang="fr">Texte</p>
+                              <p xml:lang="en">Text</p>
                            </layout>
                         </layoutDesc>
 
@@ -206,10 +206,12 @@
                      <decoDesc>
                         <decoNote>
                            <figure>
-                              <figDesc n="r" xml:lang="fr" ana=""/>
-                              <figDesc n="r" xml:lang="en" ana=""/>
-                              <figDesc n="decoR" xml:lang="fr"/>
-                              <figDesc n="decoR" xml:lang="en"/>
+                              <figDesc n="r" xml:lang="fr" ana="Monogramme">Le nom du sigillant en
+                                 monogramme en colonne</figDesc>
+                              <figDesc n="r" xml:lang="en" ana="Monogram">The owners name in a
+                                 column monogram</figDesc>
+                              <figDesc n="decoR" xml:lang="fr">Cercle de grènetis</figDesc>
+                              <figDesc n="decoR" xml:lang="en">Border of dots</figDesc>
                            </figure>
                         </decoNote>
                      </decoDesc>
@@ -230,22 +232,25 @@
                                  <!-- ajouté ceci -->
                                  <dim type="diameter"/>
                               </dimensions>
-                              <p xml:lang="en"/>
-                              <p xml:lang="fr"/>
+                              <p xml:lang="en">Linear legend of 7 lines</p>
+                              <p xml:lang="fr">Légende linéaire sur 7 lignes</p>
                            </layout>
                         </layoutDesc>
                      </objectDesc>
                      <handDesc>
                         <handNote n="v">
-                           <seg xml:lang="fr"/>
+                           <seg xml:lang="fr">Noter, à la quatrième ligne, les deux ligatures CT et
+                              ΕI caractéristiques de la fin du XIIe siècle</seg>
                            <seg xml:lang="en"/>
                         </handNote>
                      </handDesc>
                      <decoDesc>
                         <decoNote>
                            <figure>
-                              <figDesc n="decoV" xml:lang="fr"/>
-                              <figDesc n="decoV" xml:lang="en"/>
+                              <figDesc n="decoV" xml:lang="fr">Cercle de grènetis; une croisette
+                                 précède la première ligne</figDesc>
+                              <figDesc n="decoV" xml:lang="en">Border of dots; a crosslet precedes
+                                 the first line</figDesc>
                            </figure>
                         </decoNote>
                      </decoDesc>
@@ -267,16 +272,16 @@
       <surfaceGrp>
          <surface n="r">
             <desc>Obverse</desc>
-            <graphic type="photo" url="CdN2004-0341_1.jpg">
-               <desc xml:lang="en">CdN 2004-0341, obverse</desc>
-               <desc xml:lang="fr">CdN 2004-0341, avers</desc>
+            <graphic type="photo" url="CdN2004-0565_1.jpg">
+               <desc xml:lang="en">CdN 2004-0565, obverse</desc>
+               <desc xml:lang="fr">CdN 2004-0565, avers</desc>
             </graphic>
          </surface>
          <surface n="v">
             <desc>Reverse</desc>
-            <graphic type="photo" url="CdN2004-0341_2.jpg">
-               <desc xml:lang="en">CdN 2004-0341, reverse</desc>
-               <desc xml:lang="fr">CdN 2004-0341, revers</desc>
+            <graphic type="photo" url="CdN2004-0565_2.jpg">
+               <desc xml:lang="en">CdN 2004-0565, reverse</desc>
+               <desc xml:lang="fr">CdN 2004-0565, revers</desc>
             </graphic>
          </surface>
       </surfaceGrp>
@@ -284,66 +289,100 @@
    <text>
       <body>
          <div type="edition" subtype="editorial" xml:space="preserve"> 
-            <div type="textpart" subtype="face" rend="linear" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
-              <lg type="metrical" met="dodecasyllable">
-                 <l n="1">
-                    <lb n="1"/><rs type="office" subtype="civil" ref="#of0115">Μέγας 
-                    <lb n="2"/>λογιστὴς</rs> Ἀν
-                    <lb n="3" break="no"/>δρόνικός 
-                    <lb n="4"/>με γράφει 
-                 </l>
-              </lg>
+            <div type="textpart" subtype="face" rend="monogram-other" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab ana="nom">
+                 <lb n="1"/><expan><ex>Στέφανος</ex></expan>
+              </ab>
             </div>
                   <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
                       <lg type="metrical" met="dodecasyllable">
-                 <l n="2">
-                    <lb n="5"/><placeName ref="#geo0238">Ῥώμης 
-                    <lb n="6"/><rs type="office" subtype="civil" ref="#of0061">ἔπαρχος</rs> 
-                    <lb n="7"/>τῆς Νέας</placeName> 
-                    <lb n="8"/>Καππαδό
-                    <lb n="9" break="no"/>κης
-                 </l>
-              </lg>
+                         <l n="1">
+                            <lb n="1"/>Τὸν Βαρ
+                            <lb n="2" break="no"/>δάλην Στέ
+                            <lb n="3" break="no"/>φανον ἡ σφρα
+                            <lb n="4" break="no"/>γὶς γράφει</l> <l n="2"><rs type="office" subtype="civil" ref="#of0067"><expan><abbr>τρα 
+                            <lb n="5" break="no"/>πεζεπιστατ</abbr><ex>ούν</ex>
+                            <lb n="6" break="no"/><abbr>τα</abbr></expan></rs> τοῖς ἀν
+                            <lb n="7" break="no"/><supplied reason="lost">α</supplied>κτόροις
+                         </l>
+                      </lg>
                   </div>
               </div>
          <div type="edition" subtype="diplomatic" xml:space="preserve"> 
-                  <div type="textpart" subtype="face" rend="linear" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+                  <div type="textpart" subtype="face" rend="monogram-other" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
               <ab>
-                 <lb n="1"/>
-                 <lb n="2"/> 
-                 <lb n="3"/>
-                 <lb n="4"/>
+                 <lb n="1"/>ΦΝΟΣ
               </ab>
             </div>
             <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
                       <ab>
-                  <lb n="5"/>
-                  <lb n="6"/>
-                  <lb n="7"/>
-                  <lb n="8"/>
-                  <lb n="9"/>
+                         <lb n="1"/>τΟΝRΡ̣
+                         <lb n="2"/>ΔλΗΝΕ
+                         <lb n="3"/>ΦΝΟΝΗΣΦΡ̣̣̣
+                         <lb n="4"/>γιΣΦτΡ
+                         <lb n="5"/>ΠΕζΕΠι̣τ̣
+                         <lb n="6"/>ττΟιΣ̣Ν̣
+                         <lb n="7"/>.κ̣τΟΡ̣Ο̣ι̣Σ̣
                          </ab>
                   </div>
               </div>
          <div type="translation">
-            <p>+ Μέγας λογιστὴς Ἀνδρόνικός με γράφει || Ῥώμης ἔπαρχος τῆς Νέας Καππαδόκης.</p>
-            <p xml:lang="en"/>
-            <p xml:lang="fr"/>
+            <p>Στέφανος. || + Τὸν Βαρδάλην Στέφανον ἡ σφραγὶς γράφει τραπεζεπιστατούντα τοῖς ἀνακτόροις.</p>
+            <p xml:lang="en">Stephanos. || + The seal designates Stephanos Bardales, responsible of
+               the imperial table.</p>
+            <p xml:lang="fr">Etienne. || +Le sceau désigne Étienne Bardalès, préposé à la table du
+               palais.</p>
          </div>
          <div type="commentary" subtype="text">
             <!-- renvois internes à refaire -->
-            <p xml:lang="en"/>
-            <p xml:lang="en"/>
-            <p xml:lang="fr"/>
-            <p xml:lang="fr"/>
+            <p xml:lang="en">Responsible for the safety of the imperial couple, the position of
+               palace steward – known as ὑπουργία – was reserved for eunuchs until the 11th century.
+               Also known as καστρήσιος, the head of the service oversaw the supply, preparation and
+               presentation of dishes at the emperor's and empress's tables, assisted in his task by
+               the servant τῆς ὑπουργίας.</p>
+            <p xml:lang="en">The numerous parallels confirm the form ἐπιστατοῦντα instead of
+               ἐπιστάντα. According to A. Kazhdan, the surname Bardales could be of Armenian origin.
+               I. Jordanov has devoted a long article to the known members of the Bardales
+               family(<bibl><ptr target="JordanovCorpus2"/>, <citedRange unit="entry"> n°
+                  84-85</citedRange></bibl>).On this occasion, he cites a metric bulla without
+               mention of function, in the name of Stephanos Bardales and dated to the first quarter
+               of the 13th century, which could be attributed to our sigillant. It bears the effigy
+               of the Virgin Mary(<bibl><ptr target="JordanovCorpus2"/>, <citedRange unit="page">p.
+                  78</citedRange></bibl>).</p>
+            <p xml:lang="fr">Relevant de la sécurité du couple impérial, la charge du préposé à la
+               table du palais – appelée ὑπουργία– était réservée aux eunuques jusqu’au XIe siècle.
+               Nommé aussi καστρήσιος, le chef du service veillait sur l’approvisionnement, la
+               préparation et la présentation des plats à la table de l’empereur et à celle de
+               l’impératrice, assisté dans sa tâche par le domestique τῆς ὑπουργίας.</p>
+            <p xml:lang="fr">Les nombreux parallèles confirment la forme ἐπιστατοῦντα au lieu de
+               ἐπιστάντα. Le patronyme Bardalès pourrait être d’origine arménienne selon A. Kazhdan.
+               I. Jordanov a consacré une longue notice aux membres connus de la famille
+               Bardalès(<bibl><ptr target="JordanovCorpus2"/>, <citedRange unit="entry"> n°
+                  84-85</citedRange></bibl>). À cette occasion, il cite une bulle métrique sans
+               mention de fonction, au nom d’Étienne Bardalès et datée du premier quart du XIIIe
+               siècle, qui pourrait être attribuée à notre personnage. Elle porte au droit l’effigie
+               de la Vierge (<bibl><ptr target="JordanovCorpus2"/>, <citedRange unit="page">p.
+                  78</citedRange></bibl>)</p>
          </div>
          <div type="bibliography" subtype="edition">
-            <p>
+            <p><bibl>
+               <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">44b</citedRange></bibl>;
+               <bibl>
+                  <ptr target="ZacosSpink3"/>, n° <citedRange unit="entry">284</citedRange></bibl>
                <bibl/>
+                  
             </p>
          </div>
          <div type="bibliography" subtype="parallels">
-            <p/>
+            <p>ancienne collection Zacos:</p>
+            <p>collection privée américaine:<bibl>
+               <ptr target="Braunlin1999"/>, n° <citedRange unit="entry"
+                  >8</citedRange></bibl></p>
+            <p>collection privée bulgare:<bibl><ptr target="JordanovCorpus2"/>, n° <citedRange unit="entry"
+               >84-85</citedRange></bibl></p>
+            <p>collection privée bulgare:<bibl><ptr target="JordanovCorpus2"/>, n° <citedRange unit="entry"
+               >84-85</citedRange></bibl>
+               </p>
          </div>
          <div type="bibliography" subtype="discussion">
             <p/>

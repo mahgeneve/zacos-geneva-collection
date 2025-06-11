@@ -5,8 +5,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title xml:lang="en">Constantine Radenos, magistros, vestes and ephoros</title>
-            <title xml:lang="fr">Constantin Radènos, magistre, vestès et éphore</title>
+            <title xml:lang="en">John, proedros and ephoros</title>
+            <title xml:lang="fr">Jean, proèdre et éphore</title>
             <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
             <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
             <funder>
@@ -20,12 +20,11 @@
                <seg xml:lang="en">Digital enhancement</seg>
             </edition>
             <editor role="digital-editor" xml:id="PE" when="2025-04-02">Pia Evening</editor>
-            <editor role="digital-editor" resp="#MCP" when="2025-05-27">Maria Campagnolo-Pothitou</editor>
          </editionStmt>
          <publicationStmt>
             <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
-            <idno type="filename">CdN 2004-0363</idno>
-            <idno type="SigiDocID">s-xjfNco</idno>
+            <idno type="filename">CdN 2004-0353</idno>
+            <idno type="SigiDocID">s-l0GDdR</idno>
             <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
             <idno type="sequence"/>
             <!--  to be compiled automatically; leave as is  -->
@@ -40,12 +39,16 @@
             <listPerson type="issuer">
                <person gender="M" role="civil aristocracy">
                   <persName xml:lang="grc">
-                     <forename>Κωνσταντῖνος</forename> <surname>Ῥαδηνὸς</surname></persName>
+                     <forename>Ἰωάννης</forename>/> <surname/>
+                  </persName>
                   <persName xml:lang="fr">
-                     <forename>Constantin</forename> <surname>Radènos</surname></persName>
+                     <forename>Jean</forename>/> <surname/>
+                  </persName>
                   <persName xml:lang="en">
-                     <forename>Constantine</forename> <surname>Radenos</surname></persName>
-                  <idno type="PBW" ana="http://pbw2016.kdl.kcl.ac.uk/person/Konstantinos/20354/">Konstantinos 20354</idno>
+                     <forename>John</forename>/> <surname/>
+                  </persName>
+                  <idno type="PBW" ana="http://pbw2016.kdl.kcl.ac.uk/boulloterion/950/">Ioannes
+                     20210</idno>
                   <idno type="PBE"/>
                   <idno type="PLP"/>
                   <idno type="PLRE"/>
@@ -75,7 +78,7 @@
                      <rs type="collection-name" xml:lang="en">Byzantine seals collection</rs>
                      <rs type="collection-name" xml:lang="fr">Collection de sceaux byzantins</rs>
                   </collection>
-                  <idno type="inv-nr-current">CdN 2004-0363</idno>
+                  <idno type="inv-nr-current">CdN 2004-0353</idno>
                   <altIdentifier>
                      <repository/>
                      <idno type="inv-nr-former"/>
@@ -105,20 +108,18 @@
                               <seg xml:lang="en">Lead</seg>
                            </material>
                            <dimensions type="support" unit="mm">
-                              <dim type="diameter">29</dim>
+                              <dim type="diameter">25,09/24,13 </dim>
                               <!-- mesure du champ? -->
                            </dimensions>
-                           <measure type="weight" unit="g">19,95</measure>
+                           <measure type="weight" unit="g">10,030</measure>
                            <measure type="axis" unit="clock"/>
                            <measure type="overstrikeOrient" unit="clock"/>
                            <measure type="channelOrient" unit="clock">12-6</measure>
                            <measure type="countermark" unit="clock"/>
                         </support>
-                        <condition rend="well-preserved well-struck chipped">
-                           <p xml:lang="en">The seal is well preserved and well struck; slightly
-                              chipped at the channel openings</p>
-                           <p xml:lang="fr">Le sceau est bien conservé et bien frappé; légèrement
-                              échancré aux orifices du canal</p>
+                        <condition rend="well-struck well-preserved ">
+                           <p xml:lang="en"> The seal is in a very good state of conservation.</p>
+                           <p xml:lang="fr">Le sceau est en très bon état de conservation</p>
                         </condition>
                      </supportDesc>
                      <layoutDesc>
@@ -132,7 +133,7 @@
                               <seg xml:lang="en">Round</seg>
                            </rs>
                            <rs type="matrix" subtype="not-surviving">
-                              <idno type="SigiDoc">m-8noba3</idno>
+                              <idno type="SigiDoc">m-lh6r53</idno>
                               <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
                               <idno type="PBW"/>
                               <!-- to be used if the seal has a parallel in the PBW with a boulloterion registered there -->
@@ -150,12 +151,11 @@
                         <seg xml:lang="en">
                            <placeName/>
                         </seg>
-                     </origPlace><!--Second half does not correspond to 1060-1080!-->
-                     <origDate type="analysis" notBefore="1060" notAfter="1080"
-                        evidence="prosopography historical-context epigraphy" cert="high"
-                        resp="#MCP #JCC">
-                        <seg xml:lang="en">Second half of 11th century</seg>
-                        <seg xml:lang="fr">Seconde moitié du XIe siècle</seg>
+                     </origPlace>
+                     <origDate type="analysis" notBefore="1045" notAfter="1055" evidence="epigraphy"
+                        cert="high" resp="#MCP #JCC">
+                        <seg xml:lang="en">Mid 11th century</seg>
+                        <seg xml:lang="fr">Milieu du XIe siècle</seg>
                      </origDate>
                   </origin>
                   <provenance type="transferred" subtype="donated" when="2004-11-24">
@@ -164,7 +164,7 @@
                      <p xml:lang="fr">Collection Georges Zacos</p>
                   </provenance>
                   <acquisition>
-                     <p xml:lang="en">Gift of the Migore Foundation, Janet Zakos legacy, <date
+                     <p xml:lang="en">Donation of the Migore Foundation, Janet Zakos legacy, <date
                            when="2004-11-24">24th November 2004</date>
                      </p>
                      <p xml:lang="fr">Don de la Fondation Migore, legs Janet Zakos, <date
@@ -189,9 +189,9 @@
                                  <dim type="diameter"/>
                               </dimensions>
                               <p xml:lang="fr">Iconographie avec, de part et d’autre de l'effigie,
-                                 sigles.</p>
+                                 inscription</p>
                               <p xml:lang="en">Iconography with, on either side of the image,
-                                 sigla.</p>
+                                 inscription</p>
                            </layout>
                         </layoutDesc>
 
@@ -206,17 +206,22 @@
                         <decoNote>
                            <figure>
                               <figDesc n="r" xml:lang="fr"
-                                 ana="person female Virgin Mary with medallion">Buste de la Vierge
-                                 Épiskepsis, de face, orante, avec le médaillon montrant le buste de
-                                 l’Enfant avec la croix derrière la tête. Dans le champ, au-dessus
-                                 des mains de la Théotokos, les sigles usuels.</figDesc>
+                                 ana="person male saint Nikolaos holding the Gospels">Saint Nicolas
+                                 en pied, de face, en sa tenue épiscopale accoutumée, tenant les
+                                 évangiles en main gauche et bénissant de la droite."</figDesc>
                               <figDesc n="r" xml:lang="en"
-                                 ana="person female Virgin Mary with medallion">Bust of the Virgin
-                                 Mary Episkepsis, front view, praying, with the medallion showing
-                                 the bust of the Child with the cross behind his head. In the field,
-                                 above the hands of the Theotokos, the usual acronyms.</figDesc>
-                              <figDesc n="decoR" xml:lang="fr">Cercle de grènetis.</figDesc>
-                              <figDesc n="decoR" xml:lang="en">Border of dots.</figDesc>
+                                 ana="person male saint Nikolaos holding the Gospels">Saint Nikolaos
+                                 standing, facing, in his usual épiscopale accoutumée, holding the
+                                 Gospels in the left hand and blessing with the right one
+                                 gauche"</figDesc>
+                              <figDesc n="r" xml:lang="fr" ana="circular inscription">À la
+                                 circonférence, entre les deux cercles de grènetis, légende
+                                 invocative"</figDesc>
+                              <figDesc n="r" xml:lang="en" ana="circular inscription">On the
+                                 circumference, between the two borders of dots, invocative
+                                 legend</figDesc>
+                              <figDesc n="decoR" xml:lang="fr">Double cercle de grènetis</figDesc>
+                              <figDesc n="decoR" xml:lang="en">Double border of dots</figDesc>
                            </figure>
                         </decoNote>
                      </decoDesc>
@@ -237,24 +242,29 @@
                                  <!-- ajouté ceci -->
                                  <dim type="diameter"/>
                               </dimensions>
-                              <p xml:lang="en">Linear legend of 8 lines</p>
-                              <p xml:lang="fr">Légende linéaire de 8 lignes</p>
+                              <p xml:lang="en">Linear legend in 4 lines</p>
+                              <p xml:lang="fr">Légende linéaire sur 4 lignes</p>
                            </layout>
                         </layoutDesc>
                      </objectDesc>
                      <handDesc>
                         <handNote n="v">
-                           <seg xml:lang="fr">Cercle de grènetis, la légende est précédée d'une
-                              croisette.</seg>
-                           <seg xml:lang="en">Border of dots, the legend is preceeded by a
-                              crosslet.</seg>
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
                         </handNote>
                      </handDesc>
                      <decoDesc>
                         <decoNote>
                            <figure>
-                              <figDesc n="decoV" xml:lang="fr"/>
-                              <figDesc n="decoV" xml:lang="en"/>
+                              <figDesc n="decoV" xml:lang="fr">Insérée entre deux cercles d’épais
+                                 grènetis, riche bordure de grosses perles; au sommet et à la base
+                                 du champ, un croisillon de perles cantonné de tirets; au centre du
+                                 champ, entre la deuxième et la troisième ligne, une perle; la
+                                 première ligne est précédée d'une croisette</figDesc>
+                              <figDesc n="decoV" xml:lang="en">Border of big pearls inserted between
+                                 two other borders of thick dots; above and under the legend, a
+                                 crosslet made of pearls between traits; a pearl between the second
+                                 and the third line; first line is preceded by a crosslet</figDesc>
                            </figure>
                         </decoNote>
                      </decoDesc>
@@ -270,23 +280,22 @@
       </encodingDesc>
       <revisionDesc>
          <change when="2025-04-02" who="#PE">Creation of the XML record.</change>
-         <change when="2025-05-27" who="#MCP">Addition of metadata.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp>
          <surface n="r">
             <desc>Obverse</desc>
-            <graphic type="photo" url="CdN2004-0363_1.jpg">
-               <desc xml:lang="en">CdN 2004-0363, obverse</desc>
-               <desc xml:lang="fr">CdN 2004-0363, avers</desc>
+            <graphic type="photo" url="CdN2004-0353_1.jpg">
+               <desc xml:lang="en">CdN 2004-0353, obverse</desc>
+               <desc xml:lang="fr">CdN 2004-0353, avers</desc>
             </graphic>
          </surface>
          <surface n="v">
             <desc>Reverse</desc>
-            <graphic type="photo" url="CdN2004-0363_2.jpg">
-               <desc xml:lang="en">CdN 2004-0363, reverse</desc>
-               <desc xml:lang="fr">CdN 2004-0363, revers</desc>
+            <graphic type="photo" url="CdN2004-0353_2.jpg">
+               <desc xml:lang="en">CdN 2004-0353, reverse</desc>
+               <desc xml:lang="fr">CdN 2004-0353, revers</desc>
             </graphic>
          </surface>
       </surfaceGrp>
@@ -294,85 +303,78 @@
    <text>
       <body>
          <div type="edition" subtype="editorial" xml:space="preserve"> 
-            <div type="textpart" subtype="sigla" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+            <div type="textpart" subtype="label" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
               <ab>
-                 <cb n="a"/><expan><abbr>Μ</abbr><ex>ήτ</ex><abbr>ηρ</abbr></expan> 
-                 <cb n="b"/><expan><abbr>Θ</abbr><ex>εο</ex><abbr>ῦ</abbr></expan>
+                 <cb n="a"/>Ὁ <expan><ex>ἅγιος</ex></expan> <expan><abbr>Ἰω</abbr><ex>άννης</ex></expan> ὁ 
+                 <cb n="b"/><expan><abbr>Χρ</abbr><ex>υσό</ex><abbr>στομ</abbr><ex>ος</ex></expan> 
+              </ab>
+            </div>
+            <div type="textpart" subtype="face" rend="circular" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <lb n="1"/><rs type="invocation" ref="#inv004"><supplied reason="lost"><expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan> β</supplied>οήθει τῷ σῷ δ<supplied reason="lost">ούλῳ</supplied></rs>
               </ab>
             </div>
                   <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
-                      <lg type="metrical" met="dodecasyllable">
-                         <l n="1">
-                         <lb n="1"/>Ἁγνή 
-                         <lb n="2"/>Ῥαδηνὸν 
-                         <lb n="3"/>σὸν <rs type="dignity" ref="#d0038">μάγισ
-                         <lb n="4" break="no"/>τρον</rs> <expan><abbr>οἰκέτ</abbr><ex>ην</ex></expan></l>
-                         <l n="2"><lb n="5"/><rs type="dignity" ref="#d0018">βέστην</rs> τ<supplied reason="lost">ὸν</supplied> 
-                         <lb n="6"/><expan><abbr>Κων</abbr><ex>σταντῖνον</ex></expan> <rs type="office" subtype="civil" ref="#of0086"><expan><abbr>ἔ</abbr><ex>ν</ex><abbr>φο
-                         <lb n="7" break="no"/>ρον</abbr></expan></rs> σκέ
-                         <lb n="8" break="no"/>ποις</l>
-                      </lg>
+                      <ab ana="dat">
+                         <lb n="1"/>Ἰωάν
+                         <lb n="2" break="no"/>νῃ <rs type="office" subtype="civil" ref="#of0165">προέ
+                         <lb n="3" break="no"/>δρῳ</rs> καὶ 
+                         <lb n="4"/><rs type="office" subtype="civil" ref="#of0086">ἐφόρῳ</rs>
+                      </ab>
                   </div>
               </div>
          <div type="edition" subtype="diplomatic" xml:space="preserve"> 
-                  <div type="textpart" subtype="sigla" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+                  <div type="textpart" subtype="label" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
               <ab>
-                 <cb n="a"/>̅
-                 <cb n="b"/>Θῡ
+                 <cb n="a"/>| i̅|O
+                 <cb n="b"/>|CΤΟ|μ/
+              </ab>
+            </div>
+            <div type="textpart" subtype="face" rend="circular" n="obv" xml:lang="grc">
+              <ab>
+                 <lb n="1"/>…OΗΘΕΙΤcδ̣
               </ab>
             </div>
             <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
                       <ab>
-                         <lb n="1"/>AγΝΗ 
-                         <lb n="2"/>ΡAΔΗΝοΝ
-                         <lb n="3"/>cοΝΜAγιc
-                         <lb n="4"/>ΤΡοΝοιΚΕΤ͵
-                         <lb n="5"/>rΕcΤΗΝΤ..
-                         <lb n="6"/>Κ̅Ν̅Ε͵Φο
-                         <lb n="7"/>ΡοΝcΚΕ
-                         <lb n="8"/>Ποιc
+                         <lb n="1"/>ΙΑΝ
+                         <lb n="2"/>νΗΠΡΟΕ
+                         <lb n="3"/>ΔΡΚΑΙ
+                         <lb n="4"/>ΕΦΟΡ
                          </ab>
                   </div>
               </div>
          <div type="translation">
-            <p>Μήτηρ Θεοῦ. || + Ἁγνή, Ῥαδηνὸν σὸν μάγιστρον οἰκέτην, βέστην τὸν Κωνσταντῖνον ἔνφορον σκέποις.</p>
-            <p xml:lang="en"/>
-            <p xml:lang="fr"/>
+            <p>Ὁ ἅγιος Ἰωάννης ὁ Χρυσόστομος. +Κύριε βοήθει τῷ σῷ δούλῳ || + Ἰωάννῃ προέδρῳ καὶ
+               ἐφόρῳ.</p>
+            <p xml:lang="en">Saint John Chrysostome. +Lord, aid your servant || +John, proedros ans
+               ephoros.</p>
+            <p xml:lang="fr">Saint Jean Chrysostome. +Seigneur apporte ton secours || + à Jean,
+               proèdre et éphore.</p>
          </div>
          <div type="commentary" subtype="text">
             <!-- renvois internes à refaire -->
-            <p xml:lang="en">Like John, Constantine is a common forename among Radenos' family
-               members. In fact, no fewer than eleven different seals bear the name of Constantine
-               Radenos, dating from the first third of the 11th century to the very beginning of the
-               13th century. When an effigy occupies the obverse of these seals, it is
-               always that of the Virgin in various attitudes. According to Al.-K. Wassiliou and W.
-               Seibt, our signatory could be identified with the magistrate Radenos, whose seal,
-               without any forename and dated between 1070 and 1080, gives him as symponos, i.e.
-               first deputy of the eparch of Constantinople. If we accept this suggestion, it is no
-               longer difficult to link our sigillant to the eparch mentioned in the Alexiad. The
-               seal presented here would therefore mark a prior stage in Constantine's career.</p>
-            <p xml:lang="fr">Comme Jean, Constantin était un prénom fréquemment donné chez les
-               Radènoi. Tant il est vrai que pas moins de onze sceaux différents nous sont parvenus
-               au nom de Constantin Radènos, s’étendant du premier tiers du XIe siècle jusqu’au tout
-               début du XIIIe siècle. Lorsqu’une effigie occupe le droit de ces plombs, c’est
-               toujours celle de la Vierge dans des attitudes variées. D’après Al.-K. Wassiliou et
-               W. Seibt, notre titulaire pourrait être identifié au magistre Radènos, dont le sceau,
-               sans nom de baptême et daté des années 1070-1080, le donne symponos, c’est-à-dire
-               premier adjoint de l’éparque de Constantinople. En acceptant cette suggestion, il
-               n’est plus difficile de rapprocher notre sigillant de l’éparque mentionné dans
-               l’Alexiade. Dès lors, le sceau présenté ici marquerait une étape antérieure dans la
-               carrière de Constantin.</p>
+            <p xml:lang="en">It seems that this person is not attested elsewhere. Besides, the
+               commonness of his first name makes it impossible to draw any parallels with other
+               homonyms. </p>
+            <p xml:lang="en"/>
+            <p xml:lang="fr">Ce personnage ne semble pas être attesté par ailleurs et la banalité du
+               prénom rend impossible tout rapprochement avec d’autres homonymes.</p>
+            <p xml:lang="fr"/>
          </div>
          <div type="bibliography" subtype="edition">
-            <p>
+            <p><bibl>
+               <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">41</citedRange></bibl>
                <bibl>
-               <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">40</citedRange></bibl>;
-               <bibl>
-                  <ptr target="Campagnolo-CharalampakisRadenoi"/>, n° <citedRange unit="entry">40</citedRange></bibl>.
+                  <ptr target="Zacos2"/>, n° <citedRange unit="entry">824</citedRange></bibl>
+                              <bibl/>
             </p>
          </div>
          <div type="bibliography" subtype="parallels">
-            <p/>
+            <p>BZS.1947.2.586: <bibl>
+               <ptr target="Laurent2"/>, n° <citedRange unit="entry">1138</citedRange></bibl>= <bibl>
+                  <ptr target="DOsealsOnline"/>, n° <citedRange unit="entry"><ref target="BZS.1947.2.586"
+                     >1138</ref></citedRange></bibl></p>
          </div>
          <div type="bibliography" subtype="discussion">
             <p/>

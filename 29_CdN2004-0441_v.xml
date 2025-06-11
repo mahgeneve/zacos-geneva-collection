@@ -359,8 +359,8 @@
                of the Velum or the Hippodrome. Two other Laktentitzai, George and Michael, are
                attested in the sources, both serving in the pious foundations (euageis oikoi, which
                suggests that they were close to the imperial circle. George has left two seals
-               (cf. <bibl><ptr target="ZacosOrient"/>,
-                  <citedRange unit="entry">notice n° 18</citedRange></bibl>).</p>
+               (<bibl><ptr target="ZacosOrient"/>, <citedRange unit="entry">notice
+                     n° 18</citedRange></bibl>) </p>
             <p xml:lang="fr">Connu par ce seul sceau, le sigillant était, d’après ses fonctions,
                d’un rang assez élevé. La charge de mystographe n’est pas clairement définie, mais,
                d’après la sigillographie, ses compétences juridiques lui permettaient, non seulement
@@ -369,22 +369,28 @@
                tribunaux du Velum ou de l’Hippodrome. Deux autres Laktentitzai, Michel et Georges,
                sans doute de la même lignée, sont attestés par les sources. Tous deux ont servi dans
                l’administration des grandes fondations pieuses (euageis oikoi), ce qui suggère leur
-               proximité avec le cercle impérial. Georges a laissé deux sceaux (cf. <bibl><ptr target="ZacosOrient"/>,
-                  <citedRange unit="entry">notice n° 18</citedRange></bibl>).</p>
+               proximité avec le cercle impérial. Georges a laissé deux sceaux (cf. <bibl><ptr
+                     target="ZacosOrient"/>, <citedRange unit="entry">notice n°
+                  18</citedRange></bibl>).</p>
          </div>
          <div type="bibliography" subtype="edition">
             <p>
                <bibl>
                   <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">29</citedRange></bibl>; <bibl>
-                     <ptr target="ZacosSpink1"/>, n° <citedRange unit="entry">49</citedRange></bibl>
+                  <ptr target="ZacosSpink1"/>, n° <citedRange unit="entry">49</citedRange></bibl>
                <bibl/>
             </p>
          </div>
          <div type="bibliography" subtype="parallels">
-            <p>DO 58.106.2838; DO 58.106.5404; Zacos (BnF) 413<bibl>
-               <ptr target="LaurentCorpus2"/>, n° <citedRange unit="entry">575</citedRange>.
-            </bibl>
+            <p>BZS.1958.106.2838; BZS.1958.106.5404: <bibl>
+                  <ptr target="LaurentCorpus2"/>, n° <citedRange unit="entry"
+                  >575</citedRange></bibl> = <bibl>
+                     <ptr target="DOsealsOnline"/>, n° <citedRange unit="entry"><ref target="BZS.1958.106.2838"
+                        >575</ref></citedRange></bibl>, <bibl><ptr target="DOsealsOnline"/>, n°
+                           <citedRange unit="entry"><ref target="BZS.1958.106.5404">575</ref></citedRange></bibl>
             </p>
+            <p>Zacos (BnF)413:</p>
+
          </div>
          <div type="bibliography" subtype="discussion">
             <p/>

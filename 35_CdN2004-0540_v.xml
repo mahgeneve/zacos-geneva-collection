@@ -5,8 +5,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title xml:lang="en"/>
-            <title xml:lang="fr"/>
+            <title xml:lang="en">Nikolaos Mermentoulos, droungarios of the Vigla</title>
+            <title xml:lang="fr">Nicolas Mermentoulos, drongaire de la Veille</title>
             <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
             <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
             <funder>
@@ -24,7 +24,11 @@
          <publicationStmt>
             <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
             <idno type="filename">CdN 2004-0540</idno>
+<<<<<<<< Updated upstream:35_CdN2004-0540.xml
             <idno type="SigiDocID"/>
+========
+            <idno type="SigiDocID">s-IXBGsk</idno>
+>>>>>>>> Stashed changes:35_CdN2004-0540_v.xml
             <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
             <idno type="sequence"/>
             <!--  to be compiled automatically; leave as is  -->
@@ -37,21 +41,15 @@
          </publicationStmt>
          <sourceDesc>
             <listPerson type="issuer">
-               <person gender="" role="">
+               <person gender="M" role="civil aristocracy">
                   <persName xml:lang="grc">
-                     <forename/>
-                     <surname/>
-                  </persName>
+                     <forename>Νικόλαος</forename>/> <surname>Μερμέντουλος</surname>/> </persName>
                   <persName xml:lang="fr">
-                     <forename/>
-                     <surname/>
-                  </persName>
+                     <forename>Nicolas</forename>/> <surname>Mermentoulos</surname>/> </persName>
                   <persName xml:lang="en">
-                     <forename/>
-                     <surname/>
-                  </persName>
-                  <idno type="PBW" ana=""/>
-                  <idno type="PBW" ana=""/>
+                     <forename>Nikolaos</forename>/> <surname>Mermentoulos</surname>/> </persName>
+                  <idno type="PBW" ana="http://pbw2016.kdl.kcl.ac.uk/person/Nikolaos/104/">Nikolaos
+                     104</idno>
                   <idno type="PBE"/>
                   <idno type="PLP"/>
                   <idno type="PLRE"/>
@@ -90,8 +88,8 @@
                <msContents>
                   <!--https://github.com/SigiDoc/Guidelines/wiki/5.-Controlled-vocabularies#seals-category-->
                   <summary n="whole">
-                     <seg xml:lang="fr"/>
-                     <seg xml:lang="en"/>
+                     <seg xml:lang="fr">Administration centrale</seg>
+                     <seg xml:lang="en">Central administration</seg>
                   </summary>
                </msContents>
                <physDesc>
@@ -111,18 +109,20 @@
                               <seg xml:lang="en">Lead</seg>
                            </material>
                            <dimensions type="support" unit="mm">
-                              <dim type="diameter"/>
+                              <dim type="diameter">30,22/27,59</dim>
                               <!-- mesure du champ? -->
                            </dimensions>
-                           <measure type="weight" unit="g"/>
+                           <measure type="weight" unit="g">18,156</measure>
                            <measure type="axis" unit="clock"/>
                            <measure type="overstrikeOrient" unit="clock"/>
-                           <measure type="channelOrient" unit="clock"/>
+                           <measure type="channelOrient" unit="clock">12-6</measure>
                            <measure type="countermark" unit="clock"/>
                         </support>
-                        <condition rend="">
-                           <p xml:lang="en"/>
-                           <p xml:lang="fr"/>
+                        <condition rend="well-conserved, well-struck deformed-blank">
+                           <p xml:lang="en">The seal is well preserved and well struck; the blank is
+                              cut on the edge</p>
+                           <p xml:lang="fr">Le sceau est bien conservé et bien frappé; le flan
+                              semble coupé sur la tranche</p>
                         </condition>
                      </supportDesc>
                      <layoutDesc>
@@ -136,7 +136,7 @@
                               <seg xml:lang="en">Round</seg>
                            </rs>
                            <rs type="matrix" subtype="not-surviving">
-                              <idno type="SigiDoc"/>
+                              <idno type="SigiDoc">m-oV8Tf3</idno>
                               <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
                               <idno type="PBW"/>
                               <!-- to be used if the seal has a parallel in the PBW with a boulloterion registered there -->
@@ -155,9 +155,16 @@
                            <placeName/>
                         </seg>
                      </origPlace>
+<<<<<<<< Updated upstream:35_CdN2004-0540.xml
                      <origDate type="analysis" notBefore="1092" notAfter="1095" evidence="historical-context prosopography titulature" cert="high" resp="#MCP #JCC">
                         <seg xml:lang="en">1092-1095</seg>
                         <seg xml:lang="fr">1092-1095</seg>
+========
+                     <origDate type="analysis" notBefore="1092" notAfter="1095"
+                        evidence="historical-context prosopography" cert="high" resp="#MCP #JCC">
+                        <seg xml:lang="en">End of the 11th century</seg>
+                        <seg xml:lang="fr">Fin du XIe siècle</seg>
+>>>>>>>> Stashed changes:35_CdN2004-0540_v.xml
                      </origDate>
                   </origin>
                   <provenance type="transferred" subtype="donated" when="2004-11-24">
@@ -166,7 +173,7 @@
                      <p xml:lang="fr">Collection Georges Zacos</p>
                   </provenance>
                   <acquisition>
-                     <p xml:lang="en">Gift of the Migore Foundation, Janet Zakos legacy, <date
+                     <p xml:lang="en">Donation of the Migore Foundation, Janet Zakos legacy, <date
                            when="2004-11-24">24th November 2004</date>
                      </p>
                      <p xml:lang="fr">Don de la Fondation Migore, legs Janet Zakos, <date
@@ -190,8 +197,10 @@
                                  <!-- ajouté ceci -->
                                  <dim type="diameter"/>
                               </dimensions>
-                              <p xml:lang="fr"/>
-                              <p xml:lang="en"/>
+                              <p xml:lang="fr">Iconographie avec, de part et d’autre de l'effigie,
+                                 inscription en colonne.</p>
+                              <p xml:lang="en">Iconography with, on either side of the
+                                 image,inscription on columns.</p>
                            </layout>
                         </layoutDesc>
 
@@ -205,10 +214,14 @@
                      <decoDesc>
                         <decoNote>
                            <figure>
-                              <figDesc n="r" xml:lang="fr" ana=""/>
-                              <figDesc n="r" xml:lang="en" ana=""/>
-                              <figDesc n="decoR" xml:lang="fr"/>
-                              <figDesc n="decoR" xml:lang="en"/>
+                              <figDesc n="r" xml:lang="fr" ana="person male saint Nikolaos">Buste de
+                                 saint Nicolas de face, vêtu de sa tenue épiscopale, tenant le Livre
+                                 en main gauche et bénissant de la droite.</figDesc>
+                              <figDesc n="r" xml:lang="en" ana="person male saint Nikolaos">Bust of
+                                 saint Nikolaos, front view, wearing his episcopal robes, holding
+                                 the Book in his left hand and blessing with his right.</figDesc>
+                              <figDesc n="decoR" xml:lang="fr">Cercle de grènetis.</figDesc>
+                              <figDesc n="decoR" xml:lang="en">Border of dots.</figDesc>
                            </figure>
                         </decoNote>
                      </decoDesc>
@@ -229,8 +242,8 @@
                                  <!-- ajouté ceci -->
                                  <dim type="diameter"/>
                               </dimensions>
-                              <p xml:lang="en"/>
-                              <p xml:lang="fr"/>
+                              <p xml:lang="en">Linear legend of 6 lines.</p>
+                              <p xml:lang="fr">Légende linéaire sur 6 lignes.</p>
                            </layout>
                         </layoutDesc>
                      </objectDesc>
@@ -243,8 +256,10 @@
                      <decoDesc>
                         <decoNote>
                            <figure>
-                              <figDesc n="decoV" xml:lang="fr"/>
-                              <figDesc n="decoV" xml:lang="en"/>
+                              <figDesc n="decoV" xml:lang="fr">Cercle de grènetis; la première ligne
+                                 est précédée d'une croisette</figDesc>
+                              <figDesc n="decoV" xml:lang="en">Border of dots; first line is
+                                 preceded by a crosslet</figDesc>
                            </figure>
                         </decoNote>
                      </decoDesc>
@@ -275,7 +290,11 @@
             <desc>Reverse</desc>
             <graphic type="photo" url="CdN2004-0540_2.jpg">
                <desc xml:lang="en">CdN 2004-0540, reverse</desc>
+<<<<<<<< Updated upstream:35_CdN2004-0540.xml
                <desc xml:lang="fr">CdN 2004-0540, revers</desc>
+========
+               <desc xml:lang="de">CdN 2004-0540, revers</desc>
+>>>>>>>> Stashed changes:35_CdN2004-0540_v.xml
             </graphic>
          </surface>
       </surfaceGrp>
@@ -303,41 +322,74 @@
          <div type="edition" subtype="diplomatic" xml:space="preserve"> 
                   <div type="textpart" subtype="label" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
               <ab>
-                 <cb n="a"/>
-                 <cb n="b"/>
+                 <cb n="a"/>Ο|Α|Γi|Ο/    
+                 <cb n="b"/>Νι|κΟ|λΑ|οc̣
               </ab>
             </div>
             <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
                       <ab>
-                         <lb n="1"/>
-                         <lb n="2"/> 
-                         <lb n="3"/>
-                         <lb n="4"/>
-                         <lb n="5"/>
-                         <lb n="6"/>
+                         <lb n="1"/>Κ̅ΕROΗΘ/    
+                         <lb n="2"/>ΝικΟλΑ 
+                         <lb n="3"/>δΡΓΓΑΡι                         
+                         <lb n="4"/>ΤΗcRΙΓΛΑC
+                         <lb n="5"/>Τ̣ΜΕΡΜΕν̣
+                         <lb n="6"/>ΤOΥΛ
                          </ab>
                   </div>
               </div>
          <div type="translation">
             <p>Ὁ ἅγιος Νικόλαος. || + Κύριε βοήθει Νικολάῳ δρουγγαρίῳ τῆς βίγλας τῷ Μερμεντούλῳ.</p>
-            <p xml:lang="en"></p>
-            <p xml:lang="fr"></p>
+            <p xml:lang="en">Saint Nikolaos. || Lord, do help Nikolaos Mermentoulos, droungarios of
+               the Vigla</p>
+            <p xml:lang="fr">Saint Nicolas. || Seigneur, apporte ton secours à Nicolas Mermentoulos,
+               drongaire de la Veille.</p>
          </div>
          <div type="commentary" subtype="text">
             <!-- renvois internes à refaire -->
-            <p xml:lang="en"></p>
-            <p xml:lang="en"></p>
-            <p xml:lang="fr"></p>
-            <p xml:lang="fr"></p>
+            <p xml:lang="en">Nicolas Mermentoulos was undoubtedly the successor of Jean Skylitzès,
+               drongaire de la Veille until May 1092. At the Synod of Blachernes in 1094, Nicolas
+               held two offices, that of protoproedra of the Senate and that of Grand Drongaire of
+               the Veille. From this date onwards, Nicholas' career is well known thanks to three
+               other seals, all bearing the effigy of Saint Nicholas (<bibl><ptr target="BBÖ2"/>,
+                     <citedRange unit="entry">notice n° 12</citedRange></bibl>). </p>
+            <p xml:lang="en">Three other Mermentouloi are attested by their seals, dated from the
+               second half of the 11th century : Constantine, also a devotee of Saint Nicholas,
+               Nicétas and Pierre (<bibl><ptr target="BBÖ2"/>, <citedRange unit="page">p.
+                     40</citedRange></bibl>. The first Mermentoulos known from the sources is
+               Michael, the higoumene of the monastery of Stoudios, who, in 1043, opposed the
+               decision of the patriarch Michael Cerularius to remove the name of Theodore Stoudite
+               from the synodikon of the Church and succeeded in having it annulled (<bibl><ptr
+                  target="SkylitzèsEmpereurs2003"/>, <citedRange unit="page">p.
+                     434</citedRange></bibl>).</p>
+            <p xml:lang="fr">Nicolas Mermentoulos est sans doute le successeur de Jean Skylitzès
+               (cf. notice précédente), drongaire de la Veille jusqu’en mai 1092. Au synode des
+               Blachernes de 1094, Nicolas exerce deux charges, celle de protoproèdre du Sénat et
+               celle de grand drongaire de la Veille. À partir de cette date, la carrière de Nicolas
+               est bien connue grâce à trois autres sceaux, tous à l’effigie de saint
+                     Nicolas(<bibl><ptr target="BBÖ2"/>, <citedRange unit="entry">notice n°
+                     12</citedRange></bibl>). </p>
+            <p xml:lang="fr">Trois autres Mermentouloi sont attestés par leurs sceaux, datés de la
+               seconde moitié du xie siècle : Constantin, également dévot de saint Nicolas, Nicétas
+               et Pierre (<bibl><ptr target="BBÖ2"/>, <citedRange unit="page">p.
+                     40</citedRange></bibl>. Le premier Mermentoulos connu des sources est Michel,
+               l’higoumène du monastère du Stoudios, qui, en 1043, s’était opposé à la décision du
+               patriarche Michel Cérulaire de supprimer le nom de Théodore Stoudite du synodikon de
+               l’Église et avait réussi à la faire annuler(<bibl><ptr
+                     target="SkylitzèsEmpereurs2003"/>, <citedRange unit="page">p.
+                     434</citedRange></bibl>).</p>
          </div>
          <div type="bibliography" subtype="edition">
             <p>
+               <bibl>
+               <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">35</citedRange></bibl>; <bibl>
+                  <ptr target="ZacosSpink3"/>, n° <citedRange unit="entry">253</citedRange></bibl>
                <bibl/>
-                  
             </p>
          </div>
          <div type="bibliography" subtype="parallels">
-            <p/>
+            <p>DO 58.106.5506 ; DO 58.106.5641 ; Fogg 2543<bibl>
+               <ptr target="LaurentCorpus2"/>, n° <citedRange unit="entry">894</citedRange>. </bibl>
+               </p>
          </div>
          <div type="bibliography" subtype="discussion">
             <p/>

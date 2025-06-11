@@ -5,8 +5,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title xml:lang="en"/>
-            <title xml:lang="fr"/>
+            <title xml:lang="en">Michael, grammatikos, anthropos of the magistros and doukas</title>
+            <title xml:lang="fr">Michel, grammatikos, anthrôpos du magistre et duc</title>
             <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
             <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
             <funder>
@@ -23,8 +23,8 @@
          </editionStmt>
          <publicationStmt>
             <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
-            <idno type="filename">CdN 2004-0466</idno>
-            <idno type="SigiDocID"/>
+            <idno type="filename">CdN 2004-0592</idno>
+            <idno type="SigiDocID">s-SlnT6X</idno>
             <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
             <idno type="sequence"/>
             <!--  to be compiled automatically; leave as is  -->
@@ -37,21 +37,17 @@
          </publicationStmt>
          <sourceDesc>
             <listPerson type="issuer">
-               <person gender="" role="">
+               <person gender="M" role="civil aristocracy">
                   <persName xml:lang="grc">
-                     <forename/>
-                     <surname/>
+                     <forename>Μιχαήλ</forename>/> <surname/>
                   </persName>
                   <persName xml:lang="fr">
-                     <forename/>
-                     <surname/>
+                     <forename>Michel</forename>/> <surname/>
                   </persName>
                   <persName xml:lang="en">
-                     <forename/>
-                     <surname/>
+                     <forename>Michael</forename>/> <surname/>
                   </persName>
-                  <idno type="PBW" ana=""/>
-                  <idno type="PBW" ana=""/>
+                  <idno type="PBW"/>
                   <idno type="PBE"/>
                   <idno type="PLP"/>
                   <idno type="PLRE"/>
@@ -81,7 +77,7 @@
                      <rs type="collection-name" xml:lang="en">Byzantine seals collection</rs>
                      <rs type="collection-name" xml:lang="fr">Collection de sceaux byzantins</rs>
                   </collection>
-                  <idno type="inv-nr-current">CdN 2004-0466</idno>
+                  <idno type="inv-nr-current">CdN 2004-0592</idno>
                   <altIdentifier>
                      <repository/>
                      <idno type="inv-nr-former"/>
@@ -90,8 +86,8 @@
                <msContents>
                   <!--https://github.com/SigiDoc/Guidelines/wiki/5.-Controlled-vocabularies#seals-category-->
                   <summary n="whole">
-                     <seg xml:lang="fr"/>
-                     <seg xml:lang="en"/>
+                     <seg xml:lang="fr">Administration centrale</seg>
+                     <seg xml:lang="en">Central administration</seg>
                   </summary>
                </msContents>
                <physDesc>
@@ -111,18 +107,22 @@
                               <seg xml:lang="en">Lead</seg>
                            </material>
                            <dimensions type="support" unit="mm">
-                              <dim type="diameter"/>
+                              <dim type="diameter">27,90/27,23</dim>
                               <!-- mesure du champ? -->
                            </dimensions>
-                           <measure type="weight" unit="g"/>
+                           <measure type="weight" unit="g">16,519</measure>
                            <measure type="axis" unit="clock"/>
                            <measure type="overstrikeOrient" unit="clock"/>
-                           <measure type="channelOrient" unit="clock"/>
+                           <measure type="channelOrient" unit="clock">11-5</measure>
                            <measure type="countermark" unit="clock"/>
                         </support>
-                        <condition rend="">
-                           <p xml:lang="en"/>
-                           <p xml:lang="fr"/>
+                        <condition rend="well-struck well-preserved chipped broken crushed ">
+                           <p xml:lang="en">The seal is well-struck and well-preserved, slightly
+                              chipped at the openings of the canal, partly broken on the edge and
+                              slightly crushed on both sides</p>
+                           <p xml:lang="fr">Le sceau est bien frappé et bien conservé, légèrement
+                              échancré aux orifices du canal, cassé sur une partie de la tranche et
+                              légèrement écrasé sur une partie de l'avers et du revers.</p>
                         </condition>
                      </supportDesc>
                      <layoutDesc>
@@ -136,7 +136,7 @@
                               <seg xml:lang="en">Round</seg>
                            </rs>
                            <rs type="matrix" subtype="not-surviving">
-                              <idno type="SigiDoc"/>
+                              <idno type="SigiDoc">m-RSPrb0</idno>
                               <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
                               <idno type="PBW"/>
                               <!-- to be used if the seal has a parallel in the PBW with a boulloterion registered there -->
@@ -155,10 +155,10 @@
                            <placeName/>
                         </seg>
                      </origPlace>
-                     <origDate type="analysis" notBefore="1051" notAfter="1100" evidence="epigraphy titulature" cert="high"
+                     <origDate type="analysis" notBefore="1034" notAfter="1066" evidence="epigraphy titulature" cert="high"
                         resp="#MCP #JCC">
-                        <seg xml:lang="en">Second half of the 11th century</seg>
-                        <seg xml:lang="fr">Seconde moitié du XIe siècle</seg>
+                        <seg xml:lang="en">Second third of the 11th century</seg>
+                        <seg xml:lang="fr">Deuxième tiers du XIe siècle</seg>
                      </origDate>
                   </origin>
                   <provenance type="transferred" subtype="donated" when="2004-11-24">
@@ -167,7 +167,7 @@
                      <p xml:lang="fr">Collection Georges Zacos</p>
                   </provenance>
                   <acquisition>
-                     <p xml:lang="en">Gift of the Migore Foundation, Janet Zakos legacy, <date
+                     <p xml:lang="en">Donation of the Migore Foundation, Janet Zakos legacy, <date
                            when="2004-11-24">24th November 2004</date>
                      </p>
                      <p xml:lang="fr">Don de la Fondation Migore, legs Janet Zakos, <date
@@ -191,8 +191,10 @@
                                  <!-- ajouté ceci -->
                                  <dim type="diameter"/>
                               </dimensions>
-                              <p xml:lang="fr"/>
-                              <p xml:lang="en"/>
+                              <p xml:lang="fr">Iconographie avec de part et d'autre de l'effigie
+                                 épigraphe en colonne</p>
+                              <p xml:lang="en">Iconography with, on either side, label on
+                                 columns</p>
                            </layout>
                         </layoutDesc>
 
@@ -206,10 +208,16 @@
                      <decoDesc>
                         <decoNote>
                            <figure>
-                              <figDesc n="r" xml:lang="fr" ana=""/>
-                              <figDesc n="r" xml:lang="en" ana=""/>
-                              <figDesc n="decoR" xml:lang="fr"/>
-                              <figDesc n="decoR" xml:lang="en"/>
+                              <figDesc n="r" xml:lang="fr" ana="person male archangel Michael">Buste
+                                 de l’archange Michel, de face, ailes éployées, revêtu du lôros orné
+                                 de grosses perles, tenant en main droite un sceptre bouleté et en
+                                 main gauche un globe crucigère</figDesc>
+                              <figDesc n="r" xml:lang="en" ana="person male archangel Michael">Bust
+                                 of the Archangel Michael, facing forward, wings spread, wearing a
+                                 loros adorned with large pearls, holding a sceptre in his right
+                                 hand and a cruciferous globe in his left hand.</figDesc>
+                              <figDesc n="decoR" xml:lang="fr">Cercle de grènetis</figDesc>
+                              <figDesc n="decoR" xml:lang="en">Border of dots</figDesc>
                            </figure>
                         </decoNote>
                      </decoDesc>
@@ -230,8 +238,8 @@
                                  <!-- ajouté ceci -->
                                  <dim type="diameter"/>
                               </dimensions>
-                              <p xml:lang="en"/>
-                              <p xml:lang="fr"/>
+                              <p xml:lang="en">Linear legend of 6 lines</p>
+                              <p xml:lang="fr">Légende linéaire sur 6 lignes</p>
                            </layout>
                         </layoutDesc>
                      </objectDesc>
@@ -244,8 +252,10 @@
                      <decoDesc>
                         <decoNote>
                            <figure>
-                              <figDesc n="decoV" xml:lang="fr"/>
-                              <figDesc n="decoV" xml:lang="en"/>
+                              <figDesc n="decoV" xml:lang="fr">Cercle de grènetis, la première ligne
+                                 est précédée d'une croisette</figDesc>
+                              <figDesc n="decoV" xml:lang="en">Border of dots, a crosslet precedes
+                                 the first line</figDesc>
                            </figure>
                         </decoNote>
                      </decoDesc>
@@ -267,16 +277,16 @@
       <surfaceGrp>
          <surface n="r">
             <desc>Obverse</desc>
-            <graphic type="photo" url="CdN2004-0466_1.jpg">
-               <desc xml:lang="en">CdN 2004-0466, obverse</desc>
-               <desc xml:lang="fr">CdN 2004-0466, avers</desc>
+            <graphic type="photo" url="CdN2004-0592_1.jpg">
+               <desc xml:lang="en">CdN 2004-0592, obverse</desc>
+               <desc xml:lang="fr">CdN 2004-0592, avers</desc>
             </graphic>
          </surface>
          <surface n="v">
             <desc>Reverse</desc>
-            <graphic type="photo" url="CdN2004-0466_2.jpg">
-               <desc xml:lang="en">CdN 2004-0466, reverse</desc>
-               <desc xml:lang="fr">CdN 2004-0466, revers</desc>
+            <graphic type="photo" url="CdN2004-0592_2.jpg">
+               <desc xml:lang="en">CdN 2004-0592, reverse</desc>
+               <desc xml:lang="fr">CdN 2004-0592, revers</desc>
             </graphic>
          </surface>
       </surfaceGrp>
@@ -286,19 +296,18 @@
          <div type="edition" subtype="editorial" xml:space="preserve"> 
             <div type="textpart" subtype="label" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
               <ab>
-                 <cb n="a"/>Ὁ <expan><ex>ἅγιος</ex></expan> <supplied reason="lost">Γρηγόριος</supplied> 
-                 <cb n="b"/>ὁ <expan><abbr>Θ<supplied reason="lost">ε</supplied>ωλόγ</abbr><ex>ος</ex></expan>  
+                 <cb n="a"/><supplied reason="lost"><expan><ex>Ὁ</ex></expan> <expan><abbr>Ἀρχ</abbr><ex>άγγελος</ex></expan></supplied> 
+                 <cb n="b"/><expan><abbr>Μιχ</abbr><ex>αήλ</ex></expan>
               </ab>
             </div>
                   <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
                       <ab ana="dat">
                          <lb n="1"/><rs type="invocation" ref="#inv003"><expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan> <expan><abbr>β</abbr><ex>οή</ex><abbr>θ</abbr><ex>ει</ex></expan></rs> 
-                         <lb n="2"/><supplied reason="lost">Γ</supplied>ρηγορᾷ 
-                         <lb n="3"/><rs type="dignity" ref="#d0049"><expan><abbr><supplied reason="lost">π</supplied>ραιπ</abbr><ex>ο</ex><abbr>σίτ</abbr><ex>ῳ</ex></expan></rs> 
-                         <lb n="4"/><rs type="office" subtype="civil" ref="#of0068"><supplied reason="lost">ἐ</supplied>πὶ <expan><abbr>τ</abbr><ex>οῦ</ex></expan> <expan><abbr>κοιτ</abbr><ex>ῶνος</ex></expan></rs> 
-                         <lb n="5"/><rs type="dignity" ref="#d0017"><expan><abbr>βεστά</abbr><supplied reason="lost"><abbr>ρχ</abbr><ex>ῃ</ex></supplied></expan></rs> 
-                         <lb n="6"/><expan><abbr><am>S</am></abbr><ex>καὶ</ex></expan> <rs type="office" subtype="civil" ref="#of0069">ἐπὶ <expan><abbr>τ</abbr><ex>ῆς</ex></expan> <expan><abbr>σ<supplied reason="lost">α</supplied>
-                         <lb n="7" break="no"/>κέλλ</abbr><ex>ης</ex></expan></rs>
+                         <lb n="2"/><expan><abbr>Μιχ</abbr><ex>αὴλ</ex></expan> <rs type="office" subtype="civil" ref="#of0044"><expan><abbr>γραμ</abbr><ex>μ</ex><abbr>α
+                         <lb n="3" break="no"/>τικô</abbr></expan></rs> τῷ <rs type="office" subtype="civil" ref="#of0294"><expan><abbr>ἀν
+                         <lb n="4" break="no"/>θρόπ</abbr><ex>ῳ</ex></expan></rs> τοῦ <rs type="office" subtype="civil" ref="#of0119"><expan><abbr>μ</abbr><ex>α</ex>
+                         <lb n="5" break="no"/><abbr>γίστρ</abbr><ex>ου</ex></expan></rs> <expan><abbr><am>S</am></abbr><ex>καὶ</ex></expan> <rs type="office" subtype="military" ref="#of0245"><expan><abbr>δ</abbr><ex>ου</ex>
+                         <lb n="6" break="no"/><abbr>κό</abbr><ex>ς</ex></expan></rs>
                       </ab>
                   </div>
               </div>
@@ -306,37 +315,59 @@
                   <div type="textpart" subtype="label" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
               <ab>
                  <cb n="a"/>
-                 <cb n="b"/>
+                 <cb n="b"/>Χ|μι
               </ab>
             </div>
             <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
                       <ab>
-                         <lb n="1"/>
-                         <lb n="2"/> 
-                         <lb n="3"/>
-                         <lb n="4"/>
-                         <lb n="5"/>
-                         <lb n="6"/>
-                         <lb n="7"/>
+                         <lb n="1"/>Κ̅ΕR// Θ/
+                         <lb n="2"/>μΧιΓΡAΜ̣A
+                         <lb n="3"/>τικοτΑΝ
+                         <lb n="4"/>Θ̣Ροπ/ τΜ/
+                         <lb n="5"/>ΓΙΣΤΡ/ Ϗδ/
+                         <lb n="6"/>κο/
                          </ab>
                   </div>
               </div>
          <div type="translation">
-            <p>Ὁ ἅγιος Γρηγόριος ὁ Θεωλόγος. || + Κύριε βοήθει Γρηγορᾷ πραιποσίτῳ ἐπὶ τοῦ κοιτῶνος, βεστάρχῃ καὶ ἐπὶ τῆς σακέλλης.</p>
-            <p xml:lang="en"></p>
-            <p xml:lang="fr"></p>
+            <p>Ὁ Ἀρχάγγελος Μιχαήλ. || + Κύριε βοήθει Μιχαὴλ γραμματικô, τῷ ἀνθρόπῳ τοῦ μαγίστρου
+               καὶ δουκός.</p>
+            <p xml:lang="en">Archangel Michael. || + Lord, aid Michael, grammatikos, anthropos of
+               the magistros and doukas</p>
+            <p xml:lang="fr">Archange Michel. || + Seigneur, apporte ton secours à Michel,
+               grammatikos, anthrôpos du magistre et duc</p>
          </div>
          <div type="commentary" subtype="text">
             <!-- renvois internes à refaire -->
-            <p xml:lang="en"></p>
-            <p xml:lang="en"></p>
-            <p xml:lang="fr"></p>
-            <p xml:lang="fr"></p>
+            <p xml:lang="en">Michael probably held a position in the provinces, serving the military
+               commander of a theme or tagma. The absence of the douka's name suggests that his
+               title and position were sufficient to identify him and that he was therefore a
+               prominent figure. Furthermore, Michael's special relationship with this high-ranking
+               officer, expressed by the term anthropos, trusted man, may explain why he himself
+               seals documents written on behalf of the doukas or himself.</p>
+            <p xml:lang="en">The term grammatikos can mean an educated man, a teacher
+               or a professor. From 1050 onwards, it also referred to the asekretis and
+               essentially a secretary in an administrative office in the capital or the
+               province.</p>
+            <p xml:lang="fr">Vraisemblablement, Michel occupe un poste en province, au service du
+               chef militaire d’un thème ou d’un tagma. L’absence du nom du duc suggère que son
+               titre et sa fonction suffisent à l’identifier et qu’il s’agit donc d’un grand
+               personnage. D’autre part, le lien particulier de Michel avec cet officier de haut
+               rang, exprimé par le terme anthrôpos, homme de confiance, peut expliquer qu’il scelle
+               lui-même des documents rédigés pour le compte du duc ou le sien propre.</p>
+            <p xml:lang="fr">Le terme grammatikos peut avoir le sens d’homme instruit, d’enseignant
+               ou de professeur. À partir de 1050, il désigne également l’asèkrètis et
+               essentiellement un secrétaire dans un bureau administratif de la capitale ou de la
+               province.</p>
          </div>
          <div type="bibliography" subtype="edition">
-            <p>
+            <p><bibl>
+               <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">48</citedRange>
+            </bibl>
+               <bibl>
+                  <ptr target="ZacosSpink1"/>, n° <citedRange unit="entry">70</citedRange>
+               </bibl>
                <bibl/>
-                  
             </p>
          </div>
          <div type="bibliography" subtype="parallels">
