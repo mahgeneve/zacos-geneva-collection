@@ -155,10 +155,10 @@
                            <placeName/>
                         </seg>
                      </origPlace>
-                     <origDate type="analysis" notBefore="" notAfter="" evidence="" cert="high"
+                     <origDate type="analysis" notBefore="1151" notAfter="1200" evidence="iconography epigraphy onomastics" cert="high"
                         resp="#MCP #JCC">
-                        <seg xml:lang="en"/>
-                        <seg xml:lang="fr"/>
+                        <seg xml:lang="en">Second half of the 12th century</seg>
+                        <seg xml:lang="fr">Seconde moitié du XIIe siècle</seg>
                      </origDate>
                   </origin>
                   <provenance type="transferred" subtype="donated" when="2004-11-24">
