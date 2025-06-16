@@ -155,10 +155,10 @@
                            <placeName/>
                         </seg>
                      </origPlace>
-                     <origDate type="analysis" notBefore="" notAfter="" evidence="" cert="high"
+                     <origDate type="analysis" notBefore="1377" notAfter="1391" evidence="prosopography titulature epigraphy iconography" cert="high"
                         resp="#MCP #JCC">
-                        <seg xml:lang="en"/>
-                        <seg xml:lang="fr"/>
+                        <seg xml:lang="en">1377-1379, July 1390 - September 1390/January 1391</seg>
+                        <seg xml:lang="fr">1377-1379, juillet 1390 - septembre 1390/janvier 1391</seg>
                      </origDate>
                   </origin>
                   <provenance type="transferred" subtype="donated" when="2004-11-24">
