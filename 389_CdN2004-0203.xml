@@ -154,11 +154,11 @@
                         <seg xml:lang="en">
                            <placeName/>
                         </seg>
-                     </origPlace>
-                     <origDate type="analysis" notBefore="" notAfter="" evidence="" cert="high"
+                     </origPlace><!--check datation range-->
+                     <origDate type="analysis" notBefore="1101" notAfter="1300" evidence="epigraphy iconography linguistic-features" cert="high"
                         resp="#MCP #JCC">
-                        <seg xml:lang="en"/>
-                        <seg xml:lang="fr"/>
+                        <seg xml:lang="en">12th/13th century</seg>
+                        <seg xml:lang="fr">XIIe/XIIIe siècle</seg>
                      </origDate>
                   </origin>
                   <provenance type="transferred" subtype="donated" when="2004-11-24">
