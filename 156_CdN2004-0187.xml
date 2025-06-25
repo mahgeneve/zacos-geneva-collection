@@ -157,8 +157,8 @@
                      </origPlace>
                      <origDate type="analysis" notBefore="0981" notAfter="1020" evidence="epigraphy titulature" cert="high"
                         resp="#MCP #JCC">
-                        <seg xml:lang="en">End of the 10th/beginning of the 11th century</seg>
-                        <seg xml:lang="fr">Fin du Xe siècle/début du XIe siècle</seg>
+                        <seg xml:lang="en">End of the 10th / beginning of the 11th century</seg>
+                        <seg xml:lang="fr">Fin du Xe siècle / début du XIe siècle</seg>
                      </origDate>
                   </origin>
                   <provenance type="transferred" subtype="donated" when="2004-11-24">

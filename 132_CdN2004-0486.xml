@@ -154,7 +154,7 @@
                         <seg xml:lang="en">
                            <placeName/>
                         </seg>
-                     </origPlace><!--check encoding!-->
+                     </origPlace>
                      <origDate type="internal" notBefore="0713" notAfter="0715" notBefore-custom="0012" notAfter-custom="0013" datingMethod="https://www.wikidata.org/wiki/Q1339127" evidence="internal-date">
                         <seg xml:lang="en">Indictions 12 and 13, corresponding to the years 713/714 and 714/715</seg>
                         <seg xml:lang="fr">Indictions 12 et 13, soit les années 713/714 et 714/715</seg>
