@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en">Konstantinos Cheilas, sebastos and judge of the army</title>
+            <title xml:lang="fr">Constantin Cheilas, sébaste et juge de l’armée</title>
+            <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
+            <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+            <funder>
+               <orgName corresp="https://www.mahmah.ch/">MAH-Musée d'art et d'histoire - Genève,
+                  Cabinet de numismatique</orgName>, Suisse </funder>
+            <principal ref="#MCP"/>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <seg xml:lang="fr">Amélioration digitale</seg>
+               <seg xml:lang="en">Digital enhancement</seg>
+            </edition>
+            <editor role="digital-editor" xml:id="PE" when="2025-04-02">Pia Evening</editor>
+         </editionStmt>
+         <publicationStmt>
+            <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
+            <idno type="filename">CdN 2004-0461</idno>
+            <idno type="SigiDocID">s-SPk7Vm</idno>
+            <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+            <idno type="sequence"/>
+            <!--  to be compiled automatically; leave as is  -->
+            <date when="2024-08-06"/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                  >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                  4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listPerson type="issuer">
+               <person gender="M" role="civil aristocracy">
+                  <persName xml:lang="grc">
+                     <forename>Κωνσταντῖνος</forename>/> <surname>Χειλᾶς</surname>/> </persName>
+                  <persName xml:lang="fr">
+                     <forename>Constantin</forename>/> <surname>Cheilas</surname>/> </persName>
+                  <persName xml:lang="en">
+                     <forename>Konstantinos</forename>/> <surname>Cheilas</surname>/> </persName>
+                  <idno type="PBW"/>
+                  <idno type="PBE"/>
+                  <idno type="PLP"/>
+                  <idno type="PLRE"/>
+                  <idno type="PcBE"/>
+                  <idno type="PmbZ"/>
+               </person>
+            </listPerson>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <seg xml:lang="en">Switzerland</seg>
+                     <seg xml:lang="fr">Suisse</seg>
+                  </country>
+                  <settlement>
+                     <seg xml:lang="en">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">City of
+                           Geneva</placeName>
+                     </seg>
+                     <seg xml:lang="fr">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">Ville de
+                           Genève</placeName>
+                     </seg>
+                  </settlement>
+                  <institution>MAH-Musée d'art et d'histoire</institution>
+                  <repository>Cabinet de numismatique</repository>
+                  <collection type="public">
+                     <rs type="collection-name" xml:lang="en">Byzantine seals collection</rs>
+                     <rs type="collection-name" xml:lang="fr">Collection de sceaux byzantins</rs>
+                  </collection>
+                  <idno type="inv-nr-current">CdN 2004-0461</idno>
+                  <altIdentifier>
+                     <repository/>
+                     <idno type="inv-nr-former"/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <!--https://github.com/SigiDoc/Guidelines/wiki/5.-Controlled-vocabularies#seals-category-->
+                  <summary n="whole">
+                     <seg xml:lang="fr">Administration centrale</seg>
+                     <seg xml:lang="en">Central administration</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>
+                              <term>
+                                 <seg xml:lang="fr">Sceau</seg>
+                                 <seg xml:lang="en">Seal</seg>
+                              </term>
+                              <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                              <interp type="workType" xml:lang="en">Original impression</interp>
+                           </objectType>
+                           <material>
+                              <seg xml:lang="fr">Plomb</seg>
+                              <seg xml:lang="en">Lead</seg>
+                           </material>
+                           <dimensions type="support" unit="mm">
+                              <dim type="diameter">36,13/31,15</dim>
+                              <!-- mesure du champ? -->
+                           </dimensions>
+                           <measure type="weight" unit="g">23,923</measure>
+                           <measure type="axis" unit="clock"/>
+                           <measure type="overstrikeOrient" unit="clock"/>
+                           <measure type="channelOrient" unit="clock">12-6</measure>
+                           <measure type="countermark" unit="clock"/>
+                        </support>
+                        <condition rend="well-struck well-preserved chipped">
+                           <p xml:lang="en">The seal is well-struck and well-preserved, slightly
+                              chipped at the openings of the channel</p>
+                           <p xml:lang="fr">Le sceau est bien frappé et bien conservé, légèrement
+                              échancré aux orifices du canal</p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout n="whole">
+                           <rs type="execution">
+                              <seg xml:lang="fr">Frappé</seg>
+                              <seg xml:lang="en">Struck</seg>
+                           </rs>
+                           <rs type="shape">
+                              <seg xml:lang="fr">Ronde</seg>
+                              <seg xml:lang="en">Round</seg>
+                           </rs>
+                           <rs type="matrix" subtype="not-surviving">
+                              <idno type="SigiDoc">m-UhIBMu</idno>
+                              <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+                              <idno type="PBW"/>
+                              <!-- to be used if the seal has a parallel in the PBW with a boulloterion registered there -->
+                           </rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <seg xml:lang="fr">
+                           <placeName/>
+                        </seg>
+                        <seg xml:lang="en">
+                           <placeName/>
+                        </seg>
+                     </origPlace>
+                     <origDate type="analysis" notBefore="1290" notAfter="1295"
+                        evidence="prosopography titulature" cert="high" resp="#MCP #JCC">
+                        <seg xml:lang="en">1290-1295</seg>
+                        <seg xml:lang="fr">1290-1295</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="transferred" subtype="donated" when="2004-11-24">
+                     <!-- pas sûr de subtype et when -->
+                     <p xml:lang="en">George Zacos collection</p>
+                     <p xml:lang="fr">Collection Georges Zacos</p>
+                  </provenance>
+                  <acquisition>
+                     <p xml:lang="en">Donation of the Migore Foundation, Janet Zakos legacy, <date
+                           when="2004-11-24">24th November 2004</date>
+                     </p>
+                     <p xml:lang="fr">Don de la Fondation Migore, legs Janet Zakos, <date
+                           when="2004-11-24">24 Novembre 2004</date>
+                     </p>
+                  </acquisition>
+               </history>
+               <msPart n="r">
+                  <msIdentifier/>
+                  <msContents>
+                     <!-- ajouté ceci -->
+                     <summary n="r">
+                        <seg xml:lang="en">Obverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="r">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="fr">Iconographie avec, de part et d'autre de l'effigie,
+                                 inscription en colonne</p>
+                              <p xml:lang="en">Iconography with an inscription on either side of the
+                                 effigy</p>
+                           </layout>
+                        </layoutDesc>
+
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="r">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="r" xml:lang="fr" ana="person male saint Nicolas">Saint
+                                 Nicolas en pied, de face, tenant les évangiles en main gauche et
+                                 bénissant de la droite</figDesc>
+                              <figDesc n="r" xml:lang="en" ana="person male saint Nicholas">Saint
+                                 Nicholas standing front view, blessing with the right hand and
+                                 holding the Gospels in the left one</figDesc>
+                              <figDesc n="decoR" xml:lang="fr">Cercle de grènetis</figDesc>
+                              <figDesc n="decoR" xml:lang="en">Cercle of dots</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+               <msPart n="v">
+                  <msIdentifier/>
+                  <msContents>
+                     <summary n="v"><!-- ajouté ceci -->
+                        <seg xml:lang="en">Reverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="v">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="en">Legend in 7 lines</p>
+                              <p xml:lang="fr">Légende sur 7 lignes</p>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="v">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="decoV" xml:lang="fr">Cercle de grènetis, une croisette
+                                 précède la première ligne</figDesc>
+                              <figDesc n="decoV" xml:lang="en">Cercle of dots, a crosslet precedes
+                                 the first line</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2025-04-02" who="#PE">Creation of the XML record.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp>
+         <surface n="r">
+            <desc>Obverse</desc>
+            <graphic type="photo" url="CdN2004-0461_1.jpg">
+               <desc xml:lang="en">CdN 2004-0461, obverse</desc>
+               <desc xml:lang="fr">CdN 2004-0461, avers</desc>
+            </graphic>
+         </surface>
+         <surface n="v">
+            <desc>Reverse</desc>
+            <graphic type="photo" url="CdN2004-0461_2.jpg">
+               <desc xml:lang="en">CdN 2004-0461, reverse</desc>
+               <desc xml:lang="fr">CdN 2004-0461, revers</desc>
+            </graphic>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" subtype="editorial" xml:space="preserve"> 
+            <div type="textpart" subtype="label" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="a"/>Ὁ ἅγιος Νι
+                 <cb n="b" break="no"/>κόλαος
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <lg type="metrical" met="dodecasyllable">
+                         <l n="1">
+                         <lb n="1"/>Γραφὰ
+                         <lb n="2" break="no"/>ς <rs type="dignity" ref="#d0075">σεβαστοῦ</rs> κὲ 
+                         <lb n="3"/><rs type="office" subtype="civil" ref="#of0112">κριτοῦ</rs> τοῦ <rs type="institution" ref="#org0080">φου
+                         <lb n="4" break="no"/>σ<supplied reason="omitted">σ</supplied>άτου</rs></l> <l n="2">Κωνσταν
+                         <lb n="5" break="no"/>τίνου στήριζε τ
+                         <lb n="6" break="no"/>οῦ Χειλᾶ μ
+                         <lb n="7" break="no"/><supplied reason="lost">ά</supplied>καρ
+                         </l>
+                      </lg>
+                  </div>
+              </div>
+         <div type="edition" subtype="diplomatic" xml:space="preserve"> 
+                  <div type="textpart" subtype="label" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="a"/>ο||γι|οΣ|Νι
+                 <cb n="b"/>κΟ|Λ|οϚ
+              </ab>
+            </div>
+            <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab>
+                         <lb n="1"/>ΓΡΑΦΑ
+                         <lb n="2"/>CCEΒΑουκE
+                         <lb n="3"/>κΡιΤΤουφου
+                         <lb n="4"/>CΑΤουκνΑν  
+                         <lb n="5"/>Τιν ΗΡιΖΕΤ 
+                         <lb n="6"/>ουΧ̣EιΛΑΜ
+                         <lb n="7"/>.κ̣Α̣Ρ̣
+                         </ab>
+                  </div>
+              </div>
+         <div type="translation">
+            <p>Ὁ ἅγιος Νικόλαος. || + Γραφὰς σεβαστοῦ κὲ κριτοῦ τοῦ φουσσάτου Κωνσταντίνου στήριζε
+               τοῦ Χειλᾶ μάκαρ.</p>
+            <p xml:lang="en">Saint Nicholas.|| + Blessed, supports the writings of Constantine
+               Cheilas, Sebastus and judge of the phoussaton (of the army).</p>
+            <p xml:lang="fr">Saint Nicolas. || + Bienheureux, appuie les écrits de Constantin
+               Cheilas, sébaste et juge du phoussaton (de l’armée).</p>
+         </div>
+         <div type="commentary" subtype="text">
+            <!-- renvois internes à refaire -->
+            <p xml:lang="en">The Cheilas surname appears in narrative sources as far back as the
+               ninth century in the person of a racing companion of Emperor Michael III (843-867).
+               But the family is most prominent in the Palaeologan period. Michel Psellos made a
+               joke about the meaning of the family name: he who has big lips. Our signatory is well
+               known from diplomatic sources. Between 1283 and 1285, Constantine Cheilas was
+               denounced to the Grand Logothete by Patriarch Gregory II of Cyprus, for abuse of
+               power in favour of the monastery of Saint George of Μεσαμπέλων, in Bithynia, of which
+               his brother, the future Metropolitan of Ephesus, John Cheilas (1285-1289), was the
+               higoumene. The outcome of the case apparently did not harm Constantine's career ,
+               since in 1293 he signed two deeds in his capacity as judge of the army. In the first
+               half of the thirteenth century, a namesake, to be distinguished from our signatory,
+               left a private seal with the effigy of the Virgin Episkepsis. When the office was
+               created in the 11th century, , the army judge (phoussaton) was the emperor's military
+               adviser , whereas in the 13th and 14th centuries, he was responsible for judging and
+               settling disputes between soldiers or cases involving soldiers.</p>
+            <p xml:lang="en"/>
+            <p xml:lang="fr">Le patronyme Cheilas apparaît dans les sources narratives déjà au IXe
+               siècle en la personne d'un compagnon de courses de l'empereur Michel III (843-867).
+               Mais la famille est surtout présente à l'époque des Paléologues. Michel Psellosfait
+               une plaisanterie sur la signification du nom de famille : celui qui a de grosses
+               lèvres. Notre signataire est bien connu des sources diplomatiques. Entre 1283 et
+               1285, Constantin Cheilas fut dénoncé au grand logothète par le patriarche Grégoire II
+               de Chypre, pour abus de pouvoir en faveur du monastère de Saint-Georges de
+               Μεσαμπέλων, en Bithynie, dont son frère, le futur métropolite d’ Ephèse, Jean Cheilas
+               (1285-1289), était l’higoumène. Le jugement de l’affaire n’a apparemment pas nui à la
+               carrière de Constantin, puisque, en 1293, il signe deux actes en sa qualité de juge
+               de l’armée. Dans la première moitié du XIIIe siècle, un homonyme, à distinguer de
+               notre signataire, a laissé un sceau privé, à l’effigie de la Vierge Épiskepsis. A la
+               création de la charge, au XIe siècle, le juge de l’armée (phoussaton)était le
+               conseiller militaire de l’empereur, alors qu'aux XIII et XIVe siècles,il devait juger
+               et régler les différends entre militaires ou des affaires impliquant des
+               militaires.</p>
+            <p xml:lang="fr"/>
+         </div>
+         <div type="bibliography" subtype="edition">
+            <p>
+                  <bibl>
+                     <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">53</citedRange></bibl>; <bibl>
+                        <ptr target="ZacosSpink1"/>, n° <citedRange unit="entry">58</citedRange></bibl>
+                  <bibl/>
+               </p>
+         </div>
+         <div type="bibliography" subtype="parallels">
+            <p>coll. Orghidan; BZS.1958.106.3286 ; BZS.1958.106.5654; Chypre, coll. 
+               privée; Zacos (BnF) 802 et 803; Vente Münz Zentrum 150, 2009, n°
+               608:<bibl>
+                  <ptr target="Orghidan"/>, n° <citedRange unit="entry">181</citedRange></bibl>;
+               <bibl>
+                     <ptr target="LaurentCorpus2"/>, n° <citedRange unit="entry">1194</citedRange></bibl>;
+               <bibl>
+                  <ptr target="Metcalf2004"/>, n° <citedRange unit="entry">204</citedRange></bibl>
+            </p>
+         </div>
+         <div type="bibliography" subtype="discussion">
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

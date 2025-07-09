@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en">Thomas Haploucheir, judge of the Velon</title>
+            <title xml:lang="fr">Thomas Haploucheir, juge du Velum</title>
+            <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
+            <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+            <funder>
+               <orgName corresp="https://www.mahmah.ch/">MAH-Musée d'art et d'histoire - Genève,
+                  Cabinet de numismatique</orgName>, Suisse </funder>
+            <principal ref="#MCP"/>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <seg xml:lang="fr">Amélioration digitale</seg>
+               <seg xml:lang="en">Digital enhancement</seg>
+            </edition>
+            <editor role="digital-editor" xml:id="PE" when="2025-04-02">Pia Evening</editor>
+         </editionStmt>
+         <publicationStmt>
+            <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
+            <idno type="filename">CdN 2004-0245</idno>
+            <idno type="SigiDocID">s-ZZY3MK</idno>
+            <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+            <idno type="sequence"/>
+            <!--  to be compiled automatically; leave as is  -->
+            <date when="2024-08-06"/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                  >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                  4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listPerson type="issuer">
+               <person gender="M" role="civil aristocracy">
+                  <persName xml:lang="grc">
+                     <forename>Θωμᾶς</forename>/> <surname>Ἁπλούχειρ</surname>/> </persName>
+                  <persName xml:lang="fr">
+                     <forename>Thomas</forename>/> <surname>Haploucheir</surname>/> </persName>
+                  <persName xml:lang="en">
+                     <forename>Thomas</forename>/> <surname>Haploucheir</surname>/> </persName>
+                  <idno type="PBW" ana="http://pbw2016.kdl.kcl.ac.uk/person/Thomas/117/">Thomas
+                     117</idno>
+                  <idno type="PBE"/>
+                  <idno type="PLP"/>
+                  <idno type="PLRE"/>
+                  <idno type="PcBE"/>
+                  <idno type="PmbZ"/>
+               </person>
+            </listPerson>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <seg xml:lang="en">Switzerland</seg>
+                     <seg xml:lang="fr">Suisse</seg>
+                  </country>
+                  <settlement>
+                     <seg xml:lang="en">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">City of
+                           Geneva</placeName>
+                     </seg>
+                     <seg xml:lang="fr">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">Ville de
+                           Genève</placeName>
+                     </seg>
+                  </settlement>
+                  <institution>MAH-Musée d'art et d'histoire</institution>
+                  <repository>Cabinet de numismatique</repository>
+                  <collection type="public">
+                     <rs type="collection-name" xml:lang="en">Byzantine seals collection</rs>
+                     <rs type="collection-name" xml:lang="fr">Collection de sceaux byzantins</rs>
+                  </collection>
+                  <idno type="inv-nr-current">CdN 2004-0245</idno>
+                  <altIdentifier>
+                     <repository/>
+                     <idno type="inv-nr-former"/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <!--https://github.com/SigiDoc/Guidelines/wiki/5.-Controlled-vocabularies#seals-category-->
+                  <summary n="whole">
+                     <seg xml:lang="fr">Administration centrale</seg>
+                     <seg xml:lang="en">Central administration</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>
+                              <term>
+                                 <seg xml:lang="fr">Sceau</seg>
+                                 <seg xml:lang="en">Seal</seg>
+                              </term>
+                              <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                              <interp type="workType" xml:lang="en">Original impression</interp>
+                           </objectType>
+                           <material>
+                              <seg xml:lang="fr">Plomb</seg>
+                              <seg xml:lang="en">Lead</seg>
+                           </material>
+                           <dimensions type="support" unit="mm">
+                              <dim type="diameter">24,29/23,03</dim>
+                              <!-- mesure du champ? -->
+                           </dimensions>
+                           <measure type="weight" unit="g">12,819</measure>
+                           <measure type="axis" unit="clock"/>
+                           <measure type="overstrikeOrient" unit="clock"/>
+                           <measure type="channelOrient" unit="clock">12-6</measure>
+                           <measure type="countermark" unit="clock"/>
+                        </support>
+                        <condition rend="well-struck chipped worn-edge obliterated">
+                           <p xml:lang="en">The seal is well struck, slightly obliteratedd on the
+                              obverse,chipped at the openings of the canal, partially worn on the
+                              edge</p>
+                           <p xml:lang="fr">Le sceau est bien frappé, légèrement écrasé sur l'avers
+                              et échancré aux orifices du canal, la tranche est partiellement
+                              usé</p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout n="whole">
+                           <rs type="execution">
+                              <seg xml:lang="fr">Frappé</seg>
+                              <seg xml:lang="en">Struck</seg>
+                           </rs>
+                           <rs type="shape">
+                              <seg xml:lang="fr">Ronde</seg>
+                              <seg xml:lang="en">Round</seg>
+                           </rs>
+                           <rs type="matrix" subtype="not-surviving">
+                              <idno type="SigiDoc">m-woFC4t</idno>
+                              <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+                              <idno type="PBW"/>
+                              <!-- to be used if the seal has a parallel in the PBW with a boulloterion registered there -->
+                           </rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <seg xml:lang="fr">
+                           <placeName/>
+                        </seg>
+                        <seg xml:lang="en">
+                           <placeName/>
+                        </seg>
+                     </origPlace>
+                     <origDate type="analysis" notBefore="1151" notAfter="1200"
+                        evidence="onomastics epigraphy" cert="high" resp="#MCP #JCC">
+                        <seg xml:lang="en">Second half of the 12th century</seg>
+                        <seg xml:lang="fr">Seconde moitié du XIIe siècle</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="transferred" subtype="donated" when="2004-11-24">
+                     <!-- pas sûr de subtype et when -->
+                     <p xml:lang="en">George Zacos collection</p>
+                     <p xml:lang="fr">Collection Georges Zacos</p>
+                  </provenance>
+                  <acquisition>
+                     <p xml:lang="en">Donation of the Migore Foundation, Janet Zakos legacy, <date
+                           when="2004-11-24">24th November 2004</date>
+                     </p>
+                     <p xml:lang="fr">Don de la Fondation Migore, legs Janet Zakos, <date
+                           when="2004-11-24">24 Novembre 2004</date>
+                     </p>
+                  </acquisition>
+               </history>
+               <msPart n="r">
+                  <msIdentifier/>
+                  <msContents>
+                     <!-- ajouté ceci -->
+                     <summary n="r">
+                        <seg xml:lang="en">Obverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="r">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="fr">Iconographie avec, de part et d'autre de l'effigie,
+                                 sigles</p>
+                              <p xml:lang="en">Iconography with sigla on either part of the
+                                 effigy</p>
+                           </layout>
+                        </layoutDesc>
+
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="r">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="r" xml:lang="fr" ana="person female Virgin Episkepsis"
+                                 >Buste de la Vierge Episkepsis, de face, orante, portant le
+                                 médaillon devant la poitrine. Au dessus de ses mains, les sigles
+                                 accoutumés</figDesc>
+                              <figDesc n="r" xml:lang="en" ana="person female Virgin Episkepsis"
+                                 >Bust of Virgin Episkepsis front view, bearing the medallion with
+                                 the Child on her chest. Over her hands, the usual sigla</figDesc>
+                              <figDesc n="decoR" xml:lang="fr">Cercle de grènetis</figDesc>
+                              <figDesc n="decoR" xml:lang="en">Cercle of dots</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+               <msPart n="v">
+                  <msIdentifier/>
+                  <msContents>
+                     <summary n="v"><!-- ajouté ceci -->
+                        <seg xml:lang="en">Reverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="v">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="en">Linear legend in 7 lines</p>
+                              <p xml:lang="fr">Légende linéaire sur 7 lignes</p>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="v">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="decoV" xml:lang="fr">Cercle de grènetis</figDesc>
+                              <figDesc n="decoV" xml:lang="en">Cercle of dots</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2025-04-02" who="#PE">Creation of the XML record.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp>
+         <surface n="r">
+            <desc>Obverse</desc>
+            <graphic type="photo" url="CdN2004-0245_1.jpg">
+               <desc xml:lang="en">CdN 2004-0245, obverse</desc>
+               <desc xml:lang="fr">CdN 2004-0245, avers</desc>
+            </graphic>
+         </surface>
+         <surface n="v">
+            <desc>Reverse</desc>
+            <graphic type="photo" url="CdN2004-0245_2.jpg">
+               <desc xml:lang="en">CdN 2004-0245, reverse</desc>
+               <desc xml:lang="fr">CdN 2004-0245, revers</desc>
+            </graphic>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" subtype="editorial" xml:space="preserve"> 
+            <div type="textpart" subtype="sigla" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="a"/><expan><abbr>Μ</abbr><ex>ήτ</ex><abbr>ηρ</abbr></expan> 
+                 <cb n="b"/><expan><abbr>Θ</abbr><ex>εο</ex><abbr>ῦ</abbr></expan>
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <lg type="metrical" met="dodecasyllable">
+                         <l n="1">
+                         <lb n="1"/>Θωμᾶν 
+                         <lb n="2"/><rs type="office" subtype="civil" ref="#of0112">κριτήν</rs> Πάνα
+                         <lb n="3" break="no"/>γνε τοῦ <rs type="institution" ref="#org0007">βήλου</rs> 
+                         <lb n="4"/>σκέποις</l> <l n="2">ἐξ Ἁ
+                         <lb n="5" break="no"/>πλοχείρων τοῦ 
+                         <lb n="6"/>γένους κατηγ
+                         <lb n="7" break="no"/>μένον
+                         </l>
+                      </lg>
+                  </div>
+              </div>
+         <div type="edition" subtype="diplomatic" xml:space="preserve"> 
+                  <div type="textpart" subtype="sigla" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="a"/>̅
+                 <cb n="b"/>Θυ  
+              </ab>
+            </div>
+            <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab>
+                         <lb n="1"/>ΘΜΑΝ 
+                         <lb n="2"/>κΡιΤ̣ΠΑΝΑ̣  
+                         <lb n="3"/>ΓΝ̣ΕΤRΗΛΟΥ                         
+                         <lb n="4"/>CκΕΠΟιC̣·ΕΞΑ 
+                         <lb n="5"/>ΠΛΟΧΡΝΤ
+                         <lb n="6"/>ΓΕΝCκΑΤ 
+                         <lb n="7"/>ΜΕΝΟΝ
+                         </ab>
+                  </div>
+              </div>
+         <div type="translation">
+            <p>Μήτηρ Θεοῦ. || Θωμᾶν κριτήν, Πάναγνε, τοῦ βήλου σκέποις, ἐξ Ἁπλοχείρων τοῦ γένους
+               κατηγμένον.</p>
+            <p xml:lang="en">Mother of God. ||The utmost Pure, please protect Thomas, judge of the
+               Velum, from the lineage of the Haplocheir.</p>
+            <p xml:lang="fr">Mère de Dieu. || La Toute Pure, veuille protéger Thomas, juge du Velum,
+               issu de la lignée des Haplocheir.</p>
+         </div>
+         <div type="commentary" subtype="text">
+            <!-- renvois internes à refaire -->
+            <p xml:lang="en">Thomas can be identified with the judge of the Velum who participated in the synods
+               of 1157 and 1166. Under the Comnenes, the Haplo(u)cheir family, ‘he who has his hand
+               outstretched’, the generous one, distinguished itself, providing high civil officials
+               and ecclesiastics: under Alexis Ist, Michael Haploucheir has served
+               successively as judge, dikaiophylax and finally eparch. A namesake, judge of the Velum and then
+               prothonotarios of the Drome, was a fervent supporter of Andronic Ist. John was
+               patriarch of Antioch in 1134. At the same period, other members of the family are
+               known but only by their seals, without title or function: Leo, Romanos and Niketas.
+               Another Leo left a metrical seal. A Haploucheir, an orphanotrophe, is mentioned
+               in two epigrams by the juriste Balsamôn. It is not clear whether this is Thomas
+               or his contemporary Michael.</p>
+            <p xml:lang="en"/>
+            <p xml:lang="fr">Thomas peut être identifié au juge du Velum qui participa aux synodes
+               de 1157 et 1166. Sous les Comnènes, la famille Haplo(u)cheir, « celui qui a la main
+               tendue », le généreux, s’est distinguée, fournissant de hauts fonctionnaires civils
+               et ecclésiastiques: sous Alexis Ier, Michel Haploucheir fut
+               successivement juge, dikaiophylax, et enfin éparque. Un homonyme, juge du Velum, puis
+               protonotaire du drome, se révéla un fervent partisan d’Andronic Ier. Jean fut
+               patriarche d’Antioche en 1134. À la même époque, d’autres membres de la famille sont
+               connus uniquement par leurs sceaux, sans titre ni fonction : Léon, Romain et Nicétas.
+               Un autre Léon a laissé une bulle métrique. Un Haploucheir, orphanotrophe, est cité
+               dans deux épigrammes du juriste Balsamôn. On ne peut déterminer s’il s’agit de Thomas
+               ou de son contemporain Michel.</p>
+            <p xml:lang="fr"/>
+         </div>
+         <div type="bibliography" subtype="edition">
+            <p>
+               <bibl>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">54</citedRange></bibl>
+               <bibl/>
+            </p>
+         </div>
+         <div type="bibliography" subtype="parallels">
+            <p>Zacos (BnF) 834:
+            </p>
+         </div>
+         <div type="bibliography" subtype="discussion">
+            <p>
+               <bibl>
+                  <ptr target="Wassiliou-Seibt2011"/>,n° <citedRange unit="entry">955</citedRange></bibl></p>
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>
