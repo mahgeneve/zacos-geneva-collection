@@ -5,8 +5,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title xml:lang="en"/>
-            <title xml:lang="fr"/>
+            <title xml:lang="en">Basileios Aboudimos, patrikios, anthypatos, koitonites, judge of
+               the Velum, epi ton oikeiakon</title>
+            <title xml:lang="fr">Basile Aboudimos, patrice, anthypatos, koitônitès, juge du Velum,
+               épi tôn oikeiakôn</title>
             <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
             <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
             <funder>
@@ -24,7 +26,7 @@
          <publicationStmt>
             <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
             <idno type="filename">CdN 2004-0490</idno>
-            <idno type="SigiDocID"/>
+            <idno type="SigiDocID">s-B2QrtZ</idno>
             <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
             <idno type="sequence"/>
             <!--  to be compiled automatically; leave as is  -->
@@ -37,21 +39,14 @@
          </publicationStmt>
          <sourceDesc>
             <listPerson type="issuer">
-               <person gender="" role="">
+               <person gender="M" role="civil aristocracy">
                   <persName xml:lang="grc">
-                     <forename/>
-                     <surname/>
-                  </persName>
+                     <forename>Βασίλειος</forename>/> <surname>Αβούδιμος</surname>/> </persName>
                   <persName xml:lang="fr">
-                     <forename/>
-                     <surname/>
-                  </persName>
+                     <forename>Basile</forename>/> <surname>Aboudimos</surname>/> </persName>
                   <persName xml:lang="en">
-                     <forename/>
-                     <surname/>
-                  </persName>
-                  <idno type="PBW" ana=""/>
-                  <idno type="PBW" ana=""/>
+                     <forename>Basileios</forename>/> <surname>Aboudimos</surname>/> </persName>
+                  <idno type="PBW"/>
                   <idno type="PBE"/>
                   <idno type="PLP"/>
                   <idno type="PLRE"/>
@@ -111,18 +106,20 @@
                               <seg xml:lang="en">Lead</seg>
                            </material>
                            <dimensions type="support" unit="mm">
-                              <dim type="diameter"/>
+                              <dim type="diameter">32,18/29,32</dim>
                               <!-- mesure du champ? -->
                            </dimensions>
-                           <measure type="weight" unit="g"/>
+                           <measure type="weight" unit="g">21,145</measure>
                            <measure type="axis" unit="clock"/>
                            <measure type="overstrikeOrient" unit="clock"/>
-                           <measure type="channelOrient" unit="clock"/>
+                           <measure type="channelOrient" unit="clock">12-6</measure>
                            <measure type="countermark" unit="clock"/>
                         </support>
-                        <condition rend="">
-                           <p xml:lang="en"/>
-                           <p xml:lang="fr"/>
+                        <condition rend="well-struck well-preserved worn-edge">
+                           <p xml:lang="en">The seal is well-struck and well-preserved, slightly
+                              crushed on the left part of the reverse and worn on the edge</p>
+                           <p xml:lang="fr">Le sceau est bien frappé et bien conservé, légèrement
+                              écrasé dans la partie gauche du revers et usé sur la tranche</p>
                         </condition>
                      </supportDesc>
                      <layoutDesc>
@@ -136,7 +133,7 @@
                               <seg xml:lang="en">Round</seg>
                            </rs>
                            <rs type="matrix" subtype="not-surviving">
-                              <idno type="SigiDoc"/>
+                              <idno type="SigiDoc">m-UVKtVc</idno>
                               <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
                               <idno type="PBW"/>
                               <!-- to be used if the seal has a parallel in the PBW with a boulloterion registered there -->
@@ -167,7 +164,7 @@
                      <p xml:lang="fr">Collection Georges Zacos</p>
                   </provenance>
                   <acquisition>
-                     <p xml:lang="en">Gift of the Migore Foundation, Janet Zakos legacy, <date
+                     <p xml:lang="en">Donation of the Migore Foundation, Janet Zakos legacy, <date
                            when="2004-11-24">24th November 2004</date>
                      </p>
                      <p xml:lang="fr">Don de la Fondation Migore, legs Janet Zakos, <date
@@ -191,8 +188,8 @@
                                  <!-- ajouté ceci -->
                                  <dim type="diameter"/>
                               </dimensions>
-                              <p xml:lang="fr"/>
-                              <p xml:lang="en"/>
+                              <p xml:lang="fr">Linear legend of 5 lines</p>
+                              <p xml:lang="en">Légende linéaire sur 5 lignes</p>
                            </layout>
                         </layoutDesc>
 
@@ -206,10 +203,14 @@
                      <decoDesc>
                         <decoNote>
                            <figure>
-                              <figDesc n="r" xml:lang="fr" ana=""/>
-                              <figDesc n="r" xml:lang="en" ana=""/>
-                              <figDesc n="decoR" xml:lang="fr"/>
-                              <figDesc n="decoR" xml:lang="en"/>
+                              <figDesc n="r" xml:lang="fr" ana="texte"/>
+                              <figDesc n="r" xml:lang="en" ana="text"/>
+                              <figDesc n="decoR" xml:lang="fr">Cercle de fin grènetis, première
+                                 ligne précédée d'une croisette, sous la dernière ligne, croisillon
+                                 de perles accosté de tirets</figDesc>
+                              <figDesc n="decoR" xml:lang="en">Border of fine dots, first line
+                                 prceded by a crosslet, under the last line a crosslet made of
+                                 pearls between traits</figDesc>
                            </figure>
                         </decoNote>
                      </decoDesc>
@@ -230,8 +231,8 @@
                                  <!-- ajouté ceci -->
                                  <dim type="diameter"/>
                               </dimensions>
-                              <p xml:lang="en"/>
-                              <p xml:lang="fr"/>
+                              <p xml:lang="en">Linear legend of 5 lines</p>
+                              <p xml:lang="fr">Légende linéaire sur 5 lignes</p>
                            </layout>
                         </layoutDesc>
                      </objectDesc>
@@ -244,8 +245,9 @@
                      <decoDesc>
                         <decoNote>
                            <figure>
-                              <figDesc n="decoV" xml:lang="fr"/>
-                              <figDesc n="decoV" xml:lang="en"/>
+                              <figDesc n="decoV" xml:lang="fr">Double (?) cercle de fin
+                                 grènetis</figDesc>
+                              <figDesc n="decoV" xml:lang="en">Double (?) border of dots</figDesc>
                            </figure>
                         </decoNote>
                      </decoDesc>
@@ -307,40 +309,56 @@
          <div type="edition" subtype="diplomatic" xml:space="preserve"> 
                   <div type="textpart" subtype="face" rend="linear" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
               <ab>
-                 <lb n="1"/>
-                 <lb n="2"/>
-                 <lb n="3"/>
-                 <lb n="4"/>
-                 <lb n="5"/>
+                 <lb n="1"/>ΚΕR// Θ̣/
+                 <lb n="2"/>Τcδ/
+                 <lb n="3"/>RΑcιΛΕι
+                 <lb n="4"/>ΠΡΙʹαν
+                 <lb n="5"/>θυπΑΤ/
               </ab>
             </div>
                   <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
                       <ab>
-                         <lb n="6"/>
-                         <lb n="7"/> 
-                         <lb n="8"/>
-                         <lb n="9"/>
-                         <lb n="10"/>
-                         <lb n="11"/>
-                         </ab>
+                         <lb n="6"/>..τΝ/ τ/
+                         <lb n="7"/>.ΡΙτΗτ
+                         <lb n="8"/>ṚΗΛ// ϏΕπι
+                         <lb n="9"/>τ̣οΝοΙκ/ A
+                         <lb n="10"/>κ// τẠṚ.
+                         <lb n="11"/>.ΙΜ̣.
+                      </ab>
                   </div>
               </div>
          <div type="translation">
-            <p>+ Κύριε βοήθει τῷ σῷ δούλῳ Βασιλείῳ πατρικίῳ ἀνθυπάτῳ || κοιτωνίτῃ κριτῇ τοῦ βήλου καὶ ἐπὶ τôν οἰκειακῶν τῷ Ἀβουδίμῳ.</p>
-            <p xml:lang="en"></p>
-            <p xml:lang="fr"></p>
+            <p>+ Κύριε βοήθει τῷ σῷ δούλῳ Βασιλείῳ πατρικίῳ ἀνθυπάτῳ || κοιτωνίτῃ κριτῇ τοῦ βήλου
+               καὶ ἐπὶ τôν οἰκειακῶν τῷ Ἀβουδίμῳ.</p>
+            <p xml:lang="en">Lord, aid your servant Basileios Aboudimos, patrikios, anthypatos,
+               koitonites, judge of the Velum, epi ton oikeiakon</p>
+            <p xml:lang="fr">Seigneur apporte ton secours à ton serviteur Basile Aboudimos, patrice,
+               anthypatos, koitônitès, juge du Velum, épi tôn oikeiakôn.</p>
          </div>
          <div type="commentary" subtype="text">
             <!-- renvois internes à refaire -->
-            <p xml:lang="en"></p>
-            <p xml:lang="en"></p>
-            <p xml:lang="fr"></p>
-            <p xml:lang="fr"></p>
+            <p xml:lang="en">The sigillant's surname at the end of the legend is somewhat
+               obliterated. The reading Aboudimos remains a hypothesis. However, a bilateral seal from
+               the Fogg collection seems to support this assumption. At the time of striking,
+               Jean Aboudimos distinguished himself in the civil administration of the Empire as grand
+               chartularios of the genikon, then logothetes of this service. He also served as judge
+               of Paphlagonia.
+              </p>
+            <p xml:lang="en"/>
+            <p xml:lang="fr">Le patronyme du titulaire à la fin de la légende est passablement
+               oblitéré. La lecture Aboudimos reste une hypothèse. Cependant, un sceau bilatéral de
+               la collection Fogg semble conforter cette supposition. À l’époque de la frappe,
+               Jean Aboudimos s’illustre dans l’administration civile de l’Empire comme grand
+               chartulaire du génikon, puis logothète de ce service. Il servit également comme juge
+               de Paphlagonie.</p>
+            <p xml:lang="fr"/>
          </div>
          <div type="bibliography" subtype="edition">
             <p>
+               <bibl>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">32</citedRange>
+               </bibl>
                <bibl/>
-                  
             </p>
          </div>
          <div type="bibliography" subtype="parallels">

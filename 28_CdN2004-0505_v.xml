@@ -5,8 +5,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title xml:lang="en"/>
-            <title xml:lang="fr"/>
+            <title xml:lang="en">Nikephoros Adramytenos, patrikios, hypatos and imperial
+               chartoularios of stratiotikon</title>
+            <title xml:lang="fr">Nicéphore Adramytènos, patrice, hypatos et chartulaire impériale du
+               stratiôtikon</title>
             <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
             <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
             <funder>
@@ -20,11 +22,12 @@
                <seg xml:lang="en">Digital enhancement</seg>
             </edition>
             <editor role="digital-editor" xml:id="PE" when="2025-04-02">Pia Evening</editor>
+            <editor role="digital-editor" resp="#MCP" when="2025-05-27">Maria Campagnolo-Pothitou</editor>
          </editionStmt>
          <publicationStmt>
             <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
-            <idno type="filename">CdN 2004-0204</idno>
-            <idno type="SigiDocID"/>
+            <idno type="filename">CdN 2004-0505</idno>
+            <idno type="SigiDocID">s-6mY6bH</idno>
             <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
             <idno type="sequence"/>
             <!--  to be compiled automatically; leave as is  -->
@@ -37,21 +40,14 @@
          </publicationStmt>
          <sourceDesc>
             <listPerson type="issuer">
-               <person gender="" role="">
+               <person gender="M" role="civil aristocracy">
                   <persName xml:lang="grc">
-                     <forename/>
-                     <surname/>
-                  </persName>
+                     <forename>Νικηφόρος</forename> <surname>Ἀδραμυτηνός</surname></persName>
                   <persName xml:lang="fr">
-                     <forename/>
-                     <surname/>
-                  </persName>
+                     <forename>Nicéphore</forename> <surname>Adramytènos</surname></persName>
                   <persName xml:lang="en">
-                     <forename/>
-                     <surname/>
-                  </persName>
-                  <idno type="PBW" ana=""/>
-                  <idno type="PBW" ana=""/>
+                     <forename>Nikephoros</forename> <surname>Adramytenos</surname></persName>
+                  <idno type="PBW"/>
                   <idno type="PBE"/>
                   <idno type="PLP"/>
                   <idno type="PLRE"/>
@@ -81,7 +77,7 @@
                      <rs type="collection-name" xml:lang="en">Byzantine seals collection</rs>
                      <rs type="collection-name" xml:lang="fr">Collection de sceaux byzantins</rs>
                   </collection>
-                  <idno type="inv-nr-current">CdN 2004-0204</idno>
+                  <idno type="inv-nr-current">CdN 2004-0505</idno>
                   <altIdentifier>
                      <repository/>
                      <idno type="inv-nr-former"/>
@@ -90,8 +86,8 @@
                <msContents>
                   <!--https://github.com/SigiDoc/Guidelines/wiki/5.-Controlled-vocabularies#seals-category-->
                   <summary n="whole">
-                     <seg xml:lang="fr"/>
-                     <seg xml:lang="en"/>
+                     <seg xml:lang="fr">Administration centrale</seg>
+                     <seg xml:lang="en">Central administration</seg>
                   </summary>
                </msContents>
                <physDesc>
@@ -111,18 +107,22 @@
                               <seg xml:lang="en">Lead</seg>
                            </material>
                            <dimensions type="support" unit="mm">
-                              <dim type="diameter"/>
+                              <dim type="diameter">34,16/32,35</dim>
                               <!-- mesure du champ? -->
                            </dimensions>
-                           <measure type="weight" unit="g"/>
+                           <measure type="weight" unit="g">24,628</measure>
                            <measure type="axis" unit="clock"/>
                            <measure type="overstrikeOrient" unit="clock"/>
-                           <measure type="channelOrient" unit="clock"/>
+                           <measure type="channelOrient" unit="clock">1-7</measure>
                            <measure type="countermark" unit="clock"/>
                         </support>
-                        <condition rend="">
-                           <p xml:lang="en"/>
-                           <p xml:lang="fr"/>
+                        <condition rend="well-preserved well-struck chipped not-centered">
+                           <p xml:lang="en">The seal is well preserved and well struck; slightly
+                              chipped at the channel openings; off-center strike; slightly broken
+                              near the channel opening.</p>
+                           <p xml:lang="fr">Le sceau est bien conservé et bien frappé; légèrement
+                              échancré aux orifices du canal; frappe décentrée; légèrement cassé
+                              près de l'orifice inférieur.</p>
                         </condition>
                      </supportDesc>
                      <layoutDesc>
@@ -136,7 +136,7 @@
                               <seg xml:lang="en">Round</seg>
                            </rs>
                            <rs type="matrix" subtype="not-surviving">
-                              <idno type="SigiDoc"/>
+                              <idno type="SigiDoc">m-op0ep5</idno>
                               <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
                               <idno type="PBW"/>
                               <!-- to be used if the seal has a parallel in the PBW with a boulloterion registered there -->
@@ -155,10 +155,11 @@
                            <placeName/>
                         </seg>
                      </origPlace>
-                     <origDate type="analysis" notBefore="1181" notAfter="1200" evidence="epigraphy linguistic-features titulature onomastics" cert="high"
+                     <origDate type="analysis" notBefore="1067" notAfter="1100"
+                        evidence="epigraphy prosopography historical-context" cert="high"
                         resp="#MCP #JCC">
-                        <seg xml:lang="en">End of the 12th century</seg>
-                        <seg xml:lang="fr">Fin du XIIe siècle</seg>
+                        <seg xml:lang="en">Last third of 11th century</seg>
+                        <seg xml:lang="fr">Dernier tiers du XIe siècle</seg>
                      </origDate>
                   </origin>
                   <provenance type="transferred" subtype="donated" when="2004-11-24">
@@ -167,7 +168,7 @@
                      <p xml:lang="fr">Collection Georges Zacos</p>
                   </provenance>
                   <acquisition>
-                     <p xml:lang="en">Gift of the Migore Foundation, Janet Zakos legacy, <date
+                     <p xml:lang="en">Donation of the Migore Foundation, Janet Zakos legacy, <date
                            when="2004-11-24">24th November 2004</date>
                      </p>
                      <p xml:lang="fr">Don de la Fondation Migore, legs Janet Zakos, <date
@@ -191,8 +192,10 @@
                                  <!-- ajouté ceci -->
                                  <dim type="diameter"/>
                               </dimensions>
-                              <p xml:lang="fr"/>
-                              <p xml:lang="en"/>
+                              <p xml:lang="fr">Iconographie avec des sigles et des inscriptions en
+                                 colonne</p>
+                              <p xml:lang="en">Iconography containing sigla and labels on
+                                 columns</p>
                            </layout>
                         </layoutDesc>
 
@@ -206,10 +209,21 @@
                      <decoDesc>
                         <decoNote>
                            <figure>
-                              <figDesc n="r" xml:lang="fr" ana=""/>
-                              <figDesc n="r" xml:lang="en" ana=""/>
-                              <figDesc n="decoR" xml:lang="fr"/>
-                              <figDesc n="decoR" xml:lang="en"/>
+                              <figDesc n="r" xml:lang="fr"
+                                 ana="person Virgin orans saint George saint Nicolas">Déèsis à la
+                                 Vierge Épiskepsis, orante, debout sur un souppedion, portant devant
+                                 la poitrine un large médaillon au buste de l’Enfant. Elle est
+                                 entourée de saint Nicolas, et de saint Georges en habit de
+                                 martyr.</figDesc>
+                              <figDesc n="r" xml:lang="en"
+                                 ana="person Virgin orans saint George saint Nicolas">Deessis
+                                 presenting Virgin Epikepsis orans bearing the medalllion, standing
+                                 on a souppedion between saint Nicholas and saint George.</figDesc>
+                              <figDesc n="decoR" xml:lang="fr">Cercle de grènetis dans entre deux
+                                 cercles linéraires; le souppédion de la Vierge est aussi orné de
+                                 grènetis.</figDesc>
+                              <figDesc n="decoR" xml:lang="en">Border of dots between two linear
+                                 cercles;dots also on the souppedion of Theotokos.</figDesc>
                            </figure>
                         </decoNote>
                      </decoDesc>
@@ -230,8 +244,8 @@
                                  <!-- ajouté ceci -->
                                  <dim type="diameter"/>
                               </dimensions>
-                              <p xml:lang="en"/>
-                              <p xml:lang="fr"/>
+                              <p xml:lang="en">Linear legend of 7 lines</p>
+                              <p xml:lang="fr">Légende linéaire sur 7 lignes</p>
                            </layout>
                         </layoutDesc>
                      </objectDesc>
@@ -244,8 +258,11 @@
                      <decoDesc>
                         <decoNote>
                            <figure>
-                              <figDesc n="decoV" xml:lang="fr"/>
-                              <figDesc n="decoV" xml:lang="en"/>
+                              <figDesc n="decoV" xml:lang="fr">Cercle de grènetis; la légende est
+                                 surmontée d'une croisette flanquée de tirets</figDesc>
+                              <figDesc n="decoV" xml:lang="en">Border of dots; the legend is
+                                 preceeded in a separate line by a crosslet between two
+                                 traits</figDesc>
                            </figure>
                         </decoNote>
                      </decoDesc>
@@ -261,22 +278,23 @@
       </encodingDesc>
       <revisionDesc>
          <change when="2025-04-02" who="#PE">Creation of the XML record.</change>
+         <change when="2025-05-27" who="#MCP">Addition of metadata.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp>
          <surface n="r">
             <desc>Obverse</desc>
-            <graphic type="photo" url="CdN2004-0204_1.jpg">
-               <desc xml:lang="en">CdN 2004-0204, obverse</desc>
-               <desc xml:lang="fr">CdN 2004-0204, avers</desc>
+            <graphic type="photo" url="CdN2004-0505_1.jpg">
+               <desc xml:lang="en">CdN 2004-0505, obverse</desc>
+               <desc xml:lang="fr">CdN 2004-0505, avers</desc>
             </graphic>
          </surface>
          <surface n="v">
             <desc>Reverse</desc>
-            <graphic type="photo" url="CdN2004-0204_2.jpg">
-               <desc xml:lang="en">CdN 2004-0204, reverse</desc>
-               <desc xml:lang="fr">CdN 2004-0204, revers</desc>
+            <graphic type="photo" url="CdN2004-0505_2.jpg">
+               <desc xml:lang="en">CdN 2004-0505, reverse</desc>
+               <desc xml:lang="de">CdN 2004-0505, revers</desc>
             </graphic>
          </surface>
       </surfaceGrp>
@@ -284,59 +302,93 @@
    <text>
       <body>
          <div type="edition" subtype="editorial" xml:space="preserve"> 
-            <div type="textpart" subtype="face" rend="monogram-other" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
-              <ab ana="nom">
-                 <lb n="1"/><expan><ex>Στέφανος</ex></expan>
+            <div type="textpart" subtype="sigla" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="a"/><expan><abbr>Μ</abbr><ex>ήτ</ex><abbr>ηρ</abbr></expan>
+                 <cb n="b"/><expan><abbr>Θ</abbr><ex>εο</ex><abbr>ῦ</abbr></expan>
+              </ab>
+            </div>
+            <div type="textpart" subtype="label" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="c"/><expan><abbr>Γε<supplied reason="lost">ώ</supplied>ργι</abbr><ex>ος</ex></expan>
+                 <cb n="d"/>Ὁ <expan><ex>ἅγιος</ex></expan>
+                 <cb n="e"/>Ὁ <expan><ex>ἅγιος</ex></expan>
+                 <cb n="f"/><expan><abbr>Νικόλ</abbr><ex>αος</ex></expan>
               </ab>
             </div>
                   <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
-                      <lg type="metrical" met="dodecasyllable">
-                         <l n="1">
-                            <lb n="1"/>Τὸν Βα<supplied reason="lost">ρ</supplied>
-                            <lb n="2" break="no"/>δάλην Στέ
-                            <lb n="3" break="no"/>φανον ἡ σφ<supplied reason="lost">ρ</supplied>α
-                            <lb n="4" break="no"/>γὶς γράφει</l> <l n="2"><rs type="office" subtype="civil" ref="#of0067"><expan><abbr><supplied reason="lost">τρα</supplied>
-                            <lb n="5" break="no"/>πεζεπι</abbr><supplied reason="lost"><abbr>στατ</abbr><ex>ούν</ex></supplied>
-                            <lb n="6" break="no"/>τα</expan></rs> τοῖς <supplied reason="lost">ἀ</supplied>να
-                            <lb n="7" break="no"/>κτόροις
-                         </l>
-                      </lg>
+                      <ab ana="dat">
+                         <lb n="1"/><rs type="invocation" ref="#inv001"><expan><abbr>Θ</abbr><ex>εοτό</ex><abbr>κε</abbr></expan> <expan><abbr>βοήθ</abbr><ex>ει</ex></expan></rs> 
+                         <lb n="2"/>Νικηφόρῳ 
+                         <lb n="3"/><rs type="dignity" ref="#d0047"><expan><abbr>π</abbr><ex>ατ</ex><abbr>ρικίῳ</abbr></expan></rs> <rs type="dignity" ref="#d0089">ὑπάτῳ</rs> 
+                         <lb n="4"/>καὶ <rs type="office" subtype="civil" ref="#of0293"><expan><abbr>β</abbr><ex>ασιλικῷ</ex></expan> <expan><abbr>χ</abbr><ex>αρ</ex><abbr>του</abbr><ex>λαρίῳ</ex></expan></rs> τοῦ 
+                         <lb n="5"/><rs type="institution" ref="#org0027"><supplied reason="lost">σ</supplied>τρατιωτι
+                         <lb n="6" break="no"/><supplied reason="lost">κ</supplied>οῦ</rs> τῷ <expan><abbr>Ἀδραμ</abbr><ex>υ</ex>
+                         <lb n="7" break="no"/><abbr>τηνῷ</abbr></expan>
+                      </ab>
                   </div>
               </div>
          <div type="edition" subtype="diplomatic" xml:space="preserve"> 
-                  <div type="textpart" subtype="face" rend="monogram-other" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+                  <div type="textpart" subtype="sigla" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
               <ab>
-                 <lb n="1"/>
+                 <cb n="a"/>̅
+                 <cb n="b"/>ΘV
               </ab>
             </div>
-            <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+            <div type="textpart" subtype="label" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="c"/>
+                 <cb n="d"/>
+                 <cb n="e"/>Γ|Ε̣|.|Ρ̣|Γ|ι/
+                 <cb n="f"/>Ν|ι|κ|Ο̣|λ̣/
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
                       <ab>
-                         <lb n="1"/>
-                         <lb n="2"/> 
-                         <lb n="3"/>
-                         <lb n="4"/>
-                         <lb n="5"/>
-                         <lb n="6"/>
-                         <lb n="7"/>
+                         <lb n="1"/>θ̅Κ̅ΕROΗΘ
+                         <lb n="2"/>ṆiΚΗΦΟΡ
+                         <lb n="3"/>Π̣̅Ρ̣̅iΚΥΠΑΤ
+                         <lb n="4"/>Κ̣ΑiR̅Χ̅ΤOΥΤOΥ
+                         <lb n="5"/>.ΤΡΑΤiΤi
+                         <lb n="6"/>.ΤΑδΡΑμ
+                         <lb n="7"/>ΤΗN
                          </ab>
                   </div>
               </div>
          <div type="translation">
-            <p>Στέφανος. || + Τὸν Βαρδάλην Στέφανον ἡ σφραγὶς γράφει τραπεζεπιστατούντα τοῖς ἀνακτόροις.</p>
-            <p xml:lang="en"></p>
-            <p xml:lang="fr"></p>
+            <p>Μήτηρ Θεοῦ. Ὁ ἅγιος Γεώργιος. Ὁ ἅγιος Νικόλαος. || + Θεοτόκε βοήθει Νικηφόρῳ
+               πατρικίῳ, ὑπάτῳ καὶ βασιλικῷ χαρτουλαρίῳ τοῦ στρατιωτικοῦ τῷ Ἀδραμυτηνῷ.</p>
+            <p xml:lang="en">Mother of God. Saint George. Saint Nicolas. ||Mother of God, please
+               protect Nikephoros Adramytenos, patrikios, hypatos and imperial chartoularios of
+               stratiotikon.</p>
+            <p xml:lang="fr">Mère de Dieu. Saint Georges. Saint Nicolas. ||Mère de Dieu, apporte ton
+               secours à Nicéphore Adramytènos, patrice, hypatos et chartulaire impériale du
+               stratiôtikon.</p>
          </div>
          <div type="commentary" subtype="text">
             <!-- renvois internes à refaire -->
-            <p xml:lang="en"></p>
-            <p xml:lang="en"></p>
-            <p xml:lang="fr"></p>
-            <p xml:lang="fr"></p>
+            <p xml:lang="en">The family name Adramytenos suggests the place of origin of
+               Nikephoros, who is not attested in the sources. Without any precision on the
+               place where he is exercising his function we have to conclude that he was active in
+               the capital, in the central office of the stariotikon sekreton, responsible for the recruitement and the financial management of the army. The surname
+               is also mentioned in a letter dated 1221, sent to the Bishop of Dryinopolis
+               by John Apokaukos, Metropolitan of Naupacte, which refers to the breaking of an engagement
+               between Michael Xiphilin and the daughter of Atramytenos.</p>
+               <p xml:lang="fr">Le patronyme Adramytènos évoque le lieu d’origine de
+               Nicéphore, mais ce dignitaire n’est pas attesté dans les sources. Sans précision du
+               lieu d’exercice, on comprend que Nicéphore était actif à la capitale, dans le bureau
+               central du stratiôtikon sékréton (στρατιωτικòν λογοθέσιον ou στρατιωτικόν ),
+               responsable du recrutement et de la gestion financière de l’armée. Le patronyme est
+               également attesté dans une lettre, datée de 1221, envoyée à l’évêque de Dryinopolis
+               par Jean Apokaukos, métropolite de Naupacte, qui évoque la rupture d’un engagement
+               entre Michel Xiphilin et la fille d’Atramytènos</p>
+            <p xml:lang="fr"/>
          </div>
          <div type="bibliography" subtype="edition">
             <p>
+               <bibl>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">28</citedRange></bibl>
                <bibl/>
-                  
             </p>
          </div>
          <div type="bibliography" subtype="parallels">

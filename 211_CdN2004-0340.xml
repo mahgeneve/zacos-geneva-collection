@@ -13,7 +13,7 @@
                <orgName corresp="https://www.mahmah.ch/">MAH-Musée d'art et d'histoire - Genève,
                   Cabinet de numismatique</orgName>, Suisse</funder>
             <principal ref="#MCP"/>
-         </titleStmt>2
+         </titleStmt>
          <editionStmt>
             <edition>
                <seg xml:lang="fr">Amélioration digitale</seg>
@@ -155,10 +155,10 @@
                            <placeName/>
                         </seg>
                      </origPlace>
-                     <origDate type="analysis" notBefore="" notAfter="" evidence="" cert="high"
+                     <origDate type="analysis" notBefore="1201" notAfter="1300" evidence="onomastics epigraphy iconography" cert="high"
                         resp="#MCP #JCC">
-                        <seg xml:lang="en"/>
-                        <seg xml:lang="fr"/>
+                        <seg xml:lang="en">13th century</seg>
+                        <seg xml:lang="fr">XIIIe siècle</seg>
                      </origDate>
                   </origin>
                   <provenance type="transferred" subtype="donated" when="2004-11-24">

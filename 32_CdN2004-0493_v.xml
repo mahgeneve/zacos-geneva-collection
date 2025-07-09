@@ -372,12 +372,14 @@
          <div type="bibliography" subtype="edition">
             <p>
                <bibl>
-                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">32</citedRange></bibl>
-               <bibl/>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">32</citedRange>
+               </bibl>
             </p>
          </div>
          <div type="bibliography" subtype="parallels">
-            <p>collection Thierry; ancienne collection Zacos; <bibl>
+            <p>collection Thierry; ancienne collection Zacos:</p>
+            <p>
+               <bibl>
                   <ptr target="LaurentCorpus2"/>, n° <citedRange unit="entry">905</citedRange></bibl>
             </p>
          </div>

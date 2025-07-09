@@ -5,8 +5,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title xml:lang="en">John, kouropalates and droungarios tis Viglas</title>
-            <title xml:lang="fr">Jean, curopalate et drongaire de la Veille</title>
+            <title xml:lang="en">Nikephoros Alyates, epi tou kanikleiou</title>
+            <title xml:lang="fr">Nicéphore Alyatès, épi tou kanikleiou</title>
             <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
             <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
             <funder>
@@ -20,12 +20,11 @@
                <seg xml:lang="en">Digital enhancement</seg>
             </edition>
             <editor role="digital-editor" xml:id="PE" when="2025-04-02">Pia Evening</editor>
-            <editor role="digital-editor" resp="#MCP" when="2025-05-27">Maria Campagnolo-Pothitou</editor>
          </editionStmt>
          <publicationStmt>
             <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
-            <idno type="filename">CdN 2004-0248</idno>
-            <idno type="SigiDocID">s-lShYkE</idno>
+            <idno type="filename">CdN 2004-0472</idno>
+            <idno type="SigiDocID">s-xPiDmb</idno>
             <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
             <idno type="sequence"/>
             <!--  to be compiled automatically; leave as is  -->
@@ -40,17 +39,13 @@
             <listPerson type="issuer">
                <person gender="M" role="civil aristocracy">
                   <persName xml:lang="grc">
-                     <forename>Ἰωάννης</forename>
-                     <surname/>
-                  </persName>
+                     <forename>Νικηφόρος</forename>/> <surname>Ἀλυάτης</surname>/> </persName>
                   <persName xml:lang="fr">
-                     <forename>Jean</forename> <surname/>
-                  </persName>
+                     <forename>Nicéphore</forename>/> <surname>Alyatès</surname>/> </persName>
                   <persName xml:lang="en">
-                     <forename>John</forename> <surname/>
-                  </persName>
-                  <idno type="PBW" ana="http://pbw2016.kdl.kcl.ac.uk/person/Ioannes/20241/">Ioannes 20241</idno>
-                  <idno type="PBW"/>
+                     <forename>Nikephoros</forename>/> <surname>Alyates</surname>/> </persName>
+                  <idno type="PBW" ana="http://pbw2016.kdl.kcl.ac.uk/boulloterion/780/">Nikephoros
+                     20127</idno>
                   <idno type="PBE"/>
                   <idno type="PLP"/>
                   <idno type="PLRE"/>
@@ -80,7 +75,7 @@
                      <rs type="collection-name" xml:lang="en">Byzantine seals collection</rs>
                      <rs type="collection-name" xml:lang="fr">Collection de sceaux byzantins</rs>
                   </collection>
-                  <idno type="inv-nr-current">CdN 2004-0248</idno>
+                  <idno type="inv-nr-current">CdN 2004-0472</idno>
                   <altIdentifier>
                      <repository/>
                      <idno type="inv-nr-former"/>
@@ -110,20 +105,20 @@
                               <seg xml:lang="en">Lead</seg>
                            </material>
                            <dimensions type="support" unit="mm">
-                              <dim type="diameter">30,43/29,13</dim>
+                              <dim type="diameter">35</dim>
                               <!-- mesure du champ? -->
                            </dimensions>
-                           <measure type="weight" unit="g">15,820</measure>
+                           <measure type="weight" unit="g">38,378</measure>
                            <measure type="axis" unit="clock"/>
                            <measure type="overstrikeOrient" unit="clock"/>
-                           <measure type="channelOrient" unit="clock">1-7</measure>
+                           <measure type="channelOrient" unit="clock">12-5</measure>
                            <measure type="countermark" unit="clock"/>
                         </support>
-                        <condition rend="well-preserved well-struck chipped">
-                           <p xml:lang="en">The seal is well preserved and well struck; slightly
-                              chipped at the channel openings</p>
-                           <p xml:lang="fr">Le sceau est bien conservé et bien frappé; légèrement
-                              échancré aux orifices du canal</p>
+                        <condition rend="well-struck well-preserved chipped">
+                           <p xml:lang="en">The seal is well-struck and well-preserved; slightly
+                              chipped at the canal openings</p>
+                           <p xml:lang="fr">Le sceau est bien frappé et bien conservé; légèrement
+                              echancré aux orifices du canal</p>
                         </condition>
                      </supportDesc>
                      <layoutDesc>
@@ -137,7 +132,7 @@
                               <seg xml:lang="en">Round</seg>
                            </rs>
                            <rs type="matrix" subtype="not-surviving">
-                              <idno type="SigiDoc">m-WGWZKO</idno>
+                              <idno type="SigiDoc">m-RvMvS2</idno>
                               <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
                               <idno type="PBW"/>
                               <!-- to be used if the seal has a parallel in the PBW with a boulloterion registered there -->
@@ -155,11 +150,11 @@
                         <seg xml:lang="en">
                            <placeName/>
                         </seg>
-                     </origPlace><!--"End corresponds to 1081-1100, not 1060-1100-->
-                     <origDate type="analysis" notBefore="1081" notAfter="1100"
-                        evidence="epigraphy prosopography" cert="high" resp="#MCP #JCC">
-                        <seg xml:lang="en">End of the 11th century</seg>
-                        <seg xml:lang="fr">Fin du XIe siècle</seg>
+                     </origPlace>
+                     <origDate type="analysis" notBefore="1241" notAfter="1260" evidence="prosopography epigraphy" cert="high"
+                        resp="#MCP #JCC">
+                        <seg xml:lang="en">Mid-13th century</seg>
+                        <seg xml:lang="fr">Milieu du XIIIe siècle</seg>
                      </origDate>
                   </origin>
                   <provenance type="transferred" subtype="donated" when="2004-11-24">
@@ -168,7 +163,7 @@
                      <p xml:lang="fr">Collection Georges Zacos</p>
                   </provenance>
                   <acquisition>
-                     <p xml:lang="en">Gift of the Migore Foundation, Janet Zakos legacy, <date
+                     <p xml:lang="en">Donation of the Migore Foundation, Janet Zakos legacy, <date
                            when="2004-11-24">24th November 2004</date>
                      </p>
                      <p xml:lang="fr">Don de la Fondation Migore, legs Janet Zakos, <date
@@ -192,13 +187,11 @@
                                  <!-- ajouté ceci -->
                                  <dim type="diameter"/>
                               </dimensions>
-                              <p xml:lang="fr">Iconographie avec, de part et d’autre de l'effigie,
-                                 sigles.</p>
-                              <p xml:lang="en">Iconography with, on either side of the image,
-                                 sigla.</p>
+                              <p xml:lang="fr">Iconographie avec, de part et d'autre de l'effigie,
+                                 des sigles</p>
+                              <p xml:lang="en">Iconography with sigla on each side of the effigy</p>
                            </layout>
                         </layoutDesc>
-
                      </objectDesc>
                      <handDesc>
                         <handNote n="r">
@@ -210,17 +203,15 @@
                         <decoNote>
                            <figure>
                               <figDesc n="r" xml:lang="fr"
-                                 ana="person female Virgin Mary with medallion">Buste de la Vierge
-                                 Épiskepsis, de face, orante, avec le médaillon montrant le buste de
-                                 l’Enfant avec la croix derrière la tête. Dans le champ, au-dessus
-                                 des mains de la Théotokos, les sigles usuels.</figDesc>
+                                 ana="person female Virgin Mary Hodegetria">Vierge Hodègètria,
+                                 debout, de face, tenant sur le bras gauche l’Enfant, au nimbe
+                                 crucigère, bénissant</figDesc>
                               <figDesc n="r" xml:lang="en"
-                                 ana="person female Virgin Mary with medallion">Bust of the Virgin Mary
-                                 Episkepsis, front view, praying, with the medallion showing the bust of
-                                 the Child with the cross behind his head. In the field, above
-                                 the hands of the Theotokos, the usual acronyms.</figDesc>  
-                              <figDesc n="decoR" xml:lang="fr">Cercle de grènetis, des tildes au-dessus des sigles.</figDesc>
-                              <figDesc n="decoR" xml:lang="en">Border of dots, tildes over Virgin's hands.</figDesc>
+                                 ana="person female Virgin Mary with Child">Virgin Hodegetria
+                                 standing, facing, holding the Child blessing on her left
+                                 arm</figDesc>
+                              <figDesc n="decoR" xml:lang="fr">Cercle de grènetis</figDesc>
+                              <figDesc n="decoR" xml:lang="en">Border of dots</figDesc>
                            </figure>
                         </decoNote>
                      </decoDesc>
@@ -241,8 +232,8 @@
                                  <!-- ajouté ceci -->
                                  <dim type="diameter"/>
                               </dimensions>
-                              <p xml:lang="en">Linear legend of 7 lines</p>
-                              <p xml:lang="fr">Légend linéaire de 7 lignes</p>
+                              <p xml:lang="en">Linear legend of 6 lines</p>
+                              <p xml:lang="fr">Légende linéaire sur 6 lignes</p>
                            </layout>
                         </layoutDesc>
                      </objectDesc>
@@ -255,9 +246,10 @@
                      <decoDesc>
                         <decoNote>
                            <figure>
-                              <figDesc n="decoV" xml:lang="fr">Cercle de grènetis, au sommet du champ une croisette cantonnée
-                                 de tirets.</figDesc>
-                              <figDesc n="decoV" xml:lang="en">Border of dots, a crosslet between decorative traits above the first line.</figDesc>
+                              <figDesc n="decoV" xml:lang="fr">Cercle de grènetis; une croisette
+                                 précède la première ligne</figDesc>
+                              <figDesc n="decoV" xml:lang="en">Border of dots; a crosslet precedes
+                                 the frirst line</figDesc>
                            </figure>
                         </decoNote>
                      </decoDesc>
@@ -273,23 +265,22 @@
       </encodingDesc>
       <revisionDesc>
          <change when="2025-04-02" who="#PE">Creation of the XML record.</change>
-         <change when="2025-05-27" who="#MCP">Addition of metadata.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
       <surfaceGrp>
          <surface n="r">
             <desc>Obverse</desc>
-            <graphic type="photo" url="CdN2004-248_1.jpg">
-               <desc xml:lang="en">CdN 2004-0248, obverse</desc>
-               <desc xml:lang="fr">CdN 2004-0248, avers</desc>
+            <graphic type="photo" url="CdN2004-0472_1.jpg">
+               <desc xml:lang="en">CdN 2004-0472, obverse</desc>
+               <desc xml:lang="fr">CdN 2004-0472, avers</desc>
             </graphic>
          </surface>
          <surface n="v">
             <desc>Reverse</desc>
-            <graphic type="photo" url="CdN2004-0248_2.jpg">
-               <desc xml:lang="en">CdN 2004-0248, reverse</desc>
-               <desc xml:lang="de">CdN 2004-0248, revers</desc>
+            <graphic type="photo" url="CdN2004-0472_2.jpg">
+               <desc xml:lang="en">CdN 2004-0472, reverse</desc>
+               <desc xml:lang="fr">CdN 2004-0472, revers</desc>
             </graphic>
          </surface>
       </surfaceGrp>
@@ -299,83 +290,88 @@
          <div type="edition" subtype="editorial" xml:space="preserve"> 
             <div type="textpart" subtype="sigla" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
               <ab>
-                 <cb n="a"/><expan><abbr>Μ</abbr><ex>ήτ</ex><abbr>ηρ</abbr></expan> 
-                 <cb n="b"/><expan><abbr>Θ</abbr><ex>εο</ex><abbr>ῦ</abbr></expan>
+                 <cb n="a"/><expan><abbr>Μ</abbr><ex>ήτ</ex><abbr>ηρ</abbr></expan> <expan><abbr>Θ</abbr><ex>εο</ex><abbr>ῦ</abbr></expan>
+                 <cb n="b"/><expan><abbr>Ἰ</abbr><ex>ησοῦ</ex><abbr>ς</abbr></expan> <expan><abbr>Χ</abbr><ex>ριστό</ex><abbr>ς</abbr></expan>
               </ab>
             </div>
                   <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
                       <lg type="metrical" met="dodecasyllable">
-                         <l n="1"><lb n="1"/>Σφραγὶς 
-                         <lb n="2"/>Ἁγνὴ σὺ τῶν 
-                         <lb n="3"/>λόγων <expan><abbr>Ἰω</abbr><ex>άννου</ex></expan></l> <l n="2"><rs type="dignity" ref="#d0035">κου
-                         <lb n="4" break="no"/>ροπαλάτου</rs> 
-                         <lb n="5"/>τε <expan><abbr><am>S</am></abbr><ex>καὶ</ex></expan> <rs type="institution" ref="#org0010">βίγλας</rs> 
-                         <lb n="6"/><rs type="office" subtype="military" ref="#of0249">δρουγγα
-                         <lb n="7" break="no"/>ρίου</rs></l>
+                      <l n="1">
+                         <lb n="1"/>Τοῦ <rs type="office" subtype="civil" ref="#of0073">κανικ
+                         <lb n="2" break="no"/>λείου</rs> τὰς γρα
+                         <lb n="3" break="no"/>φὰς Ἀλυάτου</l> 
+                      <l n="2">
+                         <lb n="4"/>ἡ Παρθένος, φύ
+                         <lb n="5" break="no"/>λαττε τοῦ Νι
+                         <lb n="6" break="no"/>κηφόρου</l>
                       </lg>
                   </div>
               </div>
          <div type="edition" subtype="diplomatic" xml:space="preserve"> 
                   <div type="textpart" subtype="sigla" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
               <ab>
-                 <cb n="a"/>
-                 <cb n="b"/>υ
+                 <cb n="a"/>̅|.Ṿ̅
+                 <cb n="b"/>ιΣ̅ |ΧΣ̅
               </ab>
             </div>
             <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
                       <ab>
-                         <lb n="1"/>CΦΡAγιC>
-                         <lb n="2"/>AγCυτν 
-                         <lb n="3"/>ογ̣νι̅k
-                         <lb n="4"/>ΡοπAλAτου                         
-                         <lb n="5"/>τΕϏriγAc
-                         <lb n="6"/>ΔρουγγA
-                         <lb n="7"/>Ριου
+                         <lb n="1"/>τκΝικ
+                         <lb n="2"/>ΛΕΙτΣΓΡ
+                         <lb n="3"/>ΦΣΛΥτ
+                         <lb n="4"/>ΗΠΡΘΕΝοΣΦΥ
+                         <lb n="5"/>ΛττΕτΝι
+                         <lb n="6"/>κΗΦοΡ
                          </ab>
                   </div>
               </div>
          <div type="translation">
-            <p>Μήτηρ Θεοῦ. || + Σφραγὶς Ἁγνὴ σὺ τῶν λόγων Ἰωάννου κουροπαλάτου τε καὶ βίγλας
-               δρουγγαρίου.</p>
-            <p xml:lang="en"/>
-            <p xml:lang="fr"/>
+            <p>Μήτηρ Θεοῦ. Ἰησοῦς Χριστός. || + Τοῦ κανικλείου τὰς γραφὰς Ἀλυάτου, ἡ Παρθένος,
+               φύλαττε τοῦ Νικηφόρου.</p>
+            <p xml:lang="en">Mother of God. Jesus Christ. || + Virgin Mary, protect Nikephoros
+               Alyates'writings, responsible of kanikleios.</p>
+            <p xml:lang="fr">Sainte Vierge, protège les écrits de Nicéphore Alyatès, le préposé à
+               l’encrier.</p>
          </div>
          <div type="commentary" subtype="text">
             <!-- renvois internes à refaire -->
-            <p xml:lang="en">The legend would be composed of two perfect dodecasyllables, if the τε at 
-               the fifth line did not upset the balance. N. Oikonomidès proposed the reading τῆς βίγλας, which the sharpness of the engraving 
-               does not allow. According to H. Hunger, the word is an intruder, due to an 
-               error by the engraver.
-               The owner of this lead is none other than the historian Jean Skylitzès, 
-               known as the Thracésien.
-               In March 1092, he is mentioned as kouropalates
-               and droungarios tis Viglas, president of one of the major courts of the 
-               capital, when he received from Alexis Comnenus a lysis clarifying a 
-               question raised a few months earlier concerning marriage impediments.</p>
-            <p xml:lang="en"/>
-            <p xml:lang="fr">La légende serait composée de deux parfaits dodécasyllabes, si le τε à 
-               la cinquième ligne n’en perturbait l’équilibre. N. Oikonomidès a proposé la lecture τῆς βίγλας, ce que la netteté de la gravure 
-               n’autorise pas. Selon H. Hunger, le mot serait un intrus, dû à une 
-               erreur du graveur.
-               Le signataire de ce plomb n’est autre que l’historien Jean Skylitzès, 
-               dit le Thracésien.
-               Il est mentionné, en mars 1092, comme curopalate 
-               et drongaire de la Veille, président d’un des grands tribunaux de la 
-               capitale, lorsqu’il reçoit d’Alexis Comnène une lysis éclairant une 
-               question soulevée quelques mois plus tôt à propos des empêchements de mariage.</p>
-            <p xml:lang="fr"/>
+            <p xml:lang="en">A Part of Nikephoros Alyates' career is well documented by Georges
+               Akropolitès. Initially a simple grammatikos under John III Batatzes, Nikephoros was
+               promoted to the high position of epi tou kanikleiou, or inkwell keeper, under
+               Theodore II Lascaris (1254-1258). Falling into disgrace for no obvious reason, he had
+               his tongue cut out, but apparently not too badly – as V. Laurent says with a touch of
+               humour – since he was reinstated to his position by Michael VIII Palaiologos, whose
+               conspiracy Nikephoros had spontaneously supported. Sent on an embassy in 1259 to King
+               Manfred of Sicily, he was held there for nearly two years, after which he disappears
+               from the sources.</p>
+            <p xml:lang="en">Before Nikephoros, Andronikos Alyates has served as epi tou kanikleiou
+               under the emperor Alexios III Angelos.</p>
+            <p xml:lang="fr">Une partie de la carrière de Nicéphore Alyatès est bien documentée par
+               Georges Akropolitès. D’abord simple grammatikos sous Jean III Batatzès, Nicéphore fut
+               promu au poste élevé de préposé à l’Encrier, épi tou kanikleiou, sous Théodore II
+               Lascaris (1254-1258). Tombé en disgrâce sans raison évidente, il eut la langue
+               coupée, mais apparemment pas trop – comme le dit V. Laurent avec un brin d’humour –
+               puisqu’il fut rétabli à son poste par Michel VIII Paléologue, dont Nicéphore avait
+               spontanément soutenu la conspiration. Envoyé en ambassade, en 1259, auprès du roi de
+               Sicile Manfred, il y fut retenu près de deux ans, après quoi il disparaît des
+               sources.</p>
+            <p xml:lang="fr">Avant Nicéphore, un autre Alyatès, Andronic, avait exercé la haute
+               fonction d’épi tou kanikleiou, sous Alexis III Ange.</p>
          </div>
          <div type="bibliography" subtype="edition">
-            <p>
-               <bibl>
-               <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">34</citedRange></bibl>;
-               <bibl>
-                  <ptr target="Zacos2"/>, n° <citedRange unit="entry">504</citedRange></bibl>
+            <p><bibl>
+               <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">45</citedRange></bibl>
+               <bibl/>
             </p>
          </div>
          <div type="bibliography" subtype="parallels">
-            <p>Ancienne collection D. Doukas<bibl>
-               <ptr target="Koltsida-MakriDoukas"/>, n° <citedRange unit="entry">9</citedRange>.</bibl>
+            <p>Berlin:<bibl>
+               <ptr target="LaurentCorpus 2"/>, n° <citedRange unit="entry">228</citedRange></bibl></p>
+               <p>Münich, Münzkabinett 275/1932:<bibl>
+                  <ptr target="Seibt1997"/>, n° <citedRange unit="entry">3.1.3</citedRange></bibl>
+            </p>
+            <p>Collection Theodoridis 1260:<bibl>
+               <ptr target="CheynetTheodoridis"/>, n° <citedRange unit="entry">3</citedRange></bibl>
             </p>
          </div>
          <div type="bibliography" subtype="discussion">

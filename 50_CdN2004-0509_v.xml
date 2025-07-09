@@ -5,8 +5,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title xml:lang="en"/>
-            <title xml:lang="fr"/>
+            <title xml:lang="en">Basileios Skribas, kensor, skribas and judge</title>
+            <title xml:lang="fr">Basile Skribas, kensôr, skribas et juge</title>
             <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
             <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
             <funder>
@@ -24,7 +24,7 @@
          <publicationStmt>
             <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
             <idno type="filename">CdN 2004-0509</idno>
-            <idno type="SigiDocID"/>
+            <idno type="SigiDocID">s-TwV3XI</idno>
             <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
             <idno type="sequence"/>
             <!--  to be compiled automatically; leave as is  -->
@@ -37,20 +37,13 @@
          </publicationStmt>
          <sourceDesc>
             <listPerson type="issuer">
-               <person gender="" role="">
+               <person gender="M" role="civil aristocracy">
                   <persName xml:lang="grc">
-                     <forename/>
-                     <surname/>
-                  </persName>
+                     <forename>Βασίλειος</forename>/> <surname>Σκρίβας</surname>/> </persName>
                   <persName xml:lang="fr">
-                     <forename/>
-                     <surname/>
-                  </persName>
+                     <forename>Basile</forename>/> <surname>Skribas</surname>/> </persName>
                   <persName xml:lang="en">
-                     <forename/>
-                     <surname/>
-                  </persName>
-                  <idno type="PBW" ana=""/>
+                     <forename>Basileios</forename>/> <surname>Skribas</surname>/> </persName>
                   <idno type="PBW" ana=""/>
                   <idno type="PBE"/>
                   <idno type="PLP"/>
@@ -90,8 +83,8 @@
                <msContents>
                   <!--https://github.com/SigiDoc/Guidelines/wiki/5.-Controlled-vocabularies#seals-category-->
                   <summary n="whole">
-                     <seg xml:lang="fr"/>
-                     <seg xml:lang="en"/>
+                     <seg xml:lang="fr">Administration centrale</seg>
+                     <seg xml:lang="en">Central administration</seg>
                   </summary>
                </msContents>
                <physDesc>
@@ -111,18 +104,20 @@
                               <seg xml:lang="en">Lead</seg>
                            </material>
                            <dimensions type="support" unit="mm">
-                              <dim type="diameter"/>
+                              <dim type="diameter">e 32,40/30,37</dim>
                               <!-- mesure du champ? -->
                            </dimensions>
-                           <measure type="weight" unit="g"/>
+                           <measure type="weight" unit="g">17,468</measure>
                            <measure type="axis" unit="clock"/>
                            <measure type="overstrikeOrient" unit="clock"/>
-                           <measure type="channelOrient" unit="clock"/>
+                           <measure type="channelOrient" unit="clock">2-8</measure>
                            <measure type="countermark" unit="clock"/>
                         </support>
-                        <condition rend="">
-                           <p xml:lang="en"/>
-                           <p xml:lang="fr"/>
+                        <condition rend="Well-struck, chipped broken">
+                           <p xml:lang="en">The seal is well-struck, slightly chipped at one opening
+                              of the canal and broken at the other one</p>
+                           <p xml:lang="fr">Le sceau est bien frappé, légèrement échancré à
+                              l'orifice bas du canal et cassé à l'orifice supérieur</p>
                         </condition>
                      </supportDesc>
                      <layoutDesc>
@@ -136,7 +131,7 @@
                               <seg xml:lang="en">Round</seg>
                            </rs>
                            <rs type="matrix" subtype="not-surviving">
-                              <idno type="SigiDoc"/>
+                              <idno type="SigiDoc">m-vDdyfA</idno>
                               <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
                               <idno type="PBW"/>
                               <!-- to be used if the seal has a parallel in the PBW with a boulloterion registered there -->
@@ -155,10 +150,10 @@
                            <placeName/>
                         </seg>
                      </origPlace>
-                     <origDate type="analysis" notBefore="1051" notAfter="1075" evidence="prosopography titulature" cert="high"
-                        resp="#MCP #JCC">
-                        <seg xml:lang="en">Third quarter of the 11th century</seg>
-                        <seg xml:lang="fr">Troisième quart du XIe siècle</seg>
+                     <origDate type="analysis" notBefore="1075" notAfter="1100"
+                        evidence="epigraphy historical-context" cert="high" resp="#MCP #JCC">
+                        <seg xml:lang="en">Last third of the 11th century</seg>
+                        <seg xml:lang="fr">Dernier tiers du XIe siècle</seg>
                      </origDate>
                   </origin>
                   <provenance type="transferred" subtype="donated" when="2004-11-24">
@@ -167,7 +162,7 @@
                      <p xml:lang="fr">Collection Georges Zacos</p>
                   </provenance>
                   <acquisition>
-                     <p xml:lang="en">Gift of the Migore Foundation, Janet Zakos legacy, <date
+                     <p xml:lang="en">Donation of the Migore Foundation, Janet Zakos legacy, <date
                            when="2004-11-24">24th November 2004</date>
                      </p>
                      <p xml:lang="fr">Don de la Fondation Migore, legs Janet Zakos, <date
@@ -191,8 +186,8 @@
                                  <!-- ajouté ceci -->
                                  <dim type="diameter"/>
                               </dimensions>
-                              <p xml:lang="fr"/>
-                              <p xml:lang="en"/>
+                              <p xml:lang="fr">Légende linéaire sur 5 lignes</p>
+                              <p xml:lang="en">Linear legend of 5 lines</p>
                            </layout>
                         </layoutDesc>
 
@@ -206,10 +201,14 @@
                      <decoDesc>
                         <decoNote>
                            <figure>
-                              <figDesc n="r" xml:lang="fr" ana=""/>
-                              <figDesc n="r" xml:lang="en" ana=""/>
-                              <figDesc n="decoR" xml:lang="fr"/>
-                              <figDesc n="decoR" xml:lang="en"/>
+                              <figDesc n="r" xml:lang="fr" ana="Texte"/>
+                              <figDesc n="r" xml:lang="en" ana="Text"/>
+                              <figDesc n="decoR" xml:lang="fr">Cercle de grènetis, première ligne
+                                 précédée d'un croisette, au-dessous de la légende, croisillon de
+                                 perles accosté des tirets</figDesc>
+                              <figDesc n="decoR" xml:lang="en">Border of dots, first line preceded
+                                 by a crosslet, under the legend a crosslet of pearls between
+                                 traits</figDesc>
                            </figure>
                         </decoNote>
                      </decoDesc>
@@ -230,8 +229,8 @@
                                  <!-- ajouté ceci -->
                                  <dim type="diameter"/>
                               </dimensions>
-                              <p xml:lang="en"/>
-                              <p xml:lang="fr"/>
+                              <p xml:lang="en">Linear legend of 6 lines</p>
+                              <p xml:lang="fr">Légende linéaire sur 6 lignes</p>
                            </layout>
                         </layoutDesc>
                      </objectDesc>
@@ -244,8 +243,10 @@
                      <decoDesc>
                         <decoNote>
                            <figure>
-                              <figDesc n="decoV" xml:lang="fr"/>
-                              <figDesc n="decoV" xml:lang="en"/>
+                              <figDesc n="decoV" xml:lang="fr">Cercle de grènetis, la dernière ligne
+                                 est accosté des tirets</figDesc>
+                              <figDesc n="decoV" xml:lang="en">Border of dots, last line between
+                                 traits</figDesc>
                            </figure>
                         </decoNote>
                      </decoDesc>
@@ -309,46 +310,82 @@
          <div type="edition" subtype="diplomatic" xml:space="preserve"> 
                   <div type="textpart" subtype="face" rend="linear" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
               <ab>
-                 <lb n="1"/>
-                 <lb n="2"/>
-                 <lb n="3"/>
-                 <lb n="4"/>
-                 <lb n="5"/>
+                 <lb n="1"/>κE.
+                 <lb n="2"/>ΣΡARA
+                 <lb n="3"/>ΣΙΛEΙοΝ
+                 <lb n="4"/>ΗΣΦΡAΓΙΣ
+                 <lb n="5"/>ΓΡAΦEΙ
               </ab>
             </div>
                   <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
                       <ab>
-                         <lb n="6"/>
-                         <lb n="7"/> 
-                         <lb n="8"/>
-                         <lb n="9"/>
-                         <lb n="10"/>
-                         <lb n="11"/>
+                         <lb n="6"/>ΣκΡΙ
+                         <lb n="7"/>RAΝΚΡΙ
+                         <lb n="8"/>ΤΗΝΤEΤοΝ
+                         <lb n="9"/>EΚΤοΥΓE
+                         <lb n="10"/>ΝΣΣΚΡΙ
+                         <lb n="11"/>ΒAΝ
                          </ab>
                   </div>
               </div>
          <div type="translation">
-            <p>+ Κένσωρα Βασίλειον ἡ σφραγὶς γράφει || σκρίβαν κριτήν τε τὸν ἐκ τοῦ γένους Σκρίβαν.</p>
-            <p xml:lang="en"></p>
-            <p xml:lang="fr"></p>
+            <p>+ Κένσωρα Βασίλειον ἡ σφραγὶς γράφει || σκρίβαν κριτήν τε τὸν ἐκ τοῦ γένους
+               Σκρίβαν.</p>
+            <p xml:lang="en">The seal designates Basileios, skribas and judge, descendant of the
+               Skribas lineage.</p>
+            <p xml:lang="fr">Le sceau désigne le kensôr, skribas et juge Basile, issu de la lignée
+               des Skribas.</p>
          </div>
          <div type="commentary" subtype="text">
             <!-- renvois internes à refaire -->
-            <p xml:lang="en"></p>
-            <p xml:lang="en"></p>
-            <p xml:lang="fr"></p>
-            <p xml:lang="fr"></p>
+            <p xml:lang="en">The owner of the seal clearly enjoys playing on his role and
+               his surname, σκρίβαν/τὸν ἐκ τοῦ γένους Σκρίβαν, to evoke the tradition of
+               jurists to which his family belongs. The family takes its surname from the
+               office of the same name, which Basile continues to hold. The skribas was part of the court
+               presided over by the quaestor, hence the precision of his office of kritès, judge.
+               He represented him in cases involving minors. The kensor exercised a
+               function probably related to tax matters. A Basile Skribas, titled
+               patrician, is mentioned in the Diataxis of Attaleiatès, composed in 1077. If he
+               was the same person as our signatory, his bull must have been issued before
+               that date, as the dignity of kensor was inferior to that of patrician. Two other
+               Skribas are listed in the sources: the patrician Michel and Nicolas.</p>
+            <p xml:lang="en"/>
+            <p xml:lang="fr">Le propriétaire du sceau s’amuse assurément à jouer sur sa fonction et
+               son patronyme, σκρίβαν/τὸν ἐκ τοῦ γένους Σκρίβαν, pour évoquer la tradition de
+               juristes à laquelle appartient sa famille. Celle-ci tire en effet son patronyme de la
+               charge homonyme, que Basile continue d’exercer. Le skribas faisait partie du tribunal
+               présidé par le questeur, d’où sans doute la précision de sa charge de kritès, juge.
+               Il le représente dans les affaires concernant les mineurs. Le kensôr exerce une
+               fonction probablement liée à des charges fiscales. Un Basile Skribas, titré
+               patrice, est cité dans la Diataxis d’Attaleiatès, composée en 1077. S’il
+               s’agissait de la même personne que notre signataire, sa bulle a dû être frappée avant
+               cette date, la dignité de kensôr étant inférieure à celle de patrice. Deux autres
+               Skribas sont répertoriés dans les sources : le patrice Michel et Nicolas.</p>
+            <p xml:lang="fr"/>
          </div>
          <div type="bibliography" subtype="edition">
-            <p>
+            <p><bibl>
+               <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">50</citedRange></bibl>
                <bibl/>
-                  
             </p>
          </div>
          <div type="bibliography" subtype="parallels">
-            <p/>
+            <p>Athènes, Musée numismatique, n° 371b:</p>
+            <p><bibl>
+               <ptr target="Athens2000"/>, n° <citedRange unit="entry">239</citedRange></bibl>
+               </p>
+            <p>BZS 1958.106.4416:</p>
+            <p><bibl>
+               <ptr target="DOsealsOnline"/>, n° <citedRange unit="entry"><ref target="BZS.1958.106.4416"></ref></citedRange></bibl>
+            </p>
          </div>
          <div type="bibliography" subtype="discussion">
+            <p><bibl>
+               <ptr target="Laurent1932"/>, n° <citedRange unit="entry">198</citedRange></bibl>
+            </p>
+            <p><bibl>
+               <ptr target="Wassiliou-Seibt2011"/>, n° <citedRange unit="entry">1098</citedRange></bibl>
+            </p>
             <p/>
          </div>
       </body>

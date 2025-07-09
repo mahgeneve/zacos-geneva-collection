@@ -155,7 +155,7 @@
                            <placeName/>
                         </seg>
                      </origPlace><!--please check datation-->
-                     <origDate type="analysis" notBefore="1040" notAfter="1040" evidence="titulature historical-context" cert="high"
+                     <origDate type="analysis" when="1040" evidence="titulature historical-context" cert="high"
                         resp="#MCP #JCC">
                         <seg xml:lang="en">1040</seg>
                         <seg xml:lang="fr">1040</seg>
