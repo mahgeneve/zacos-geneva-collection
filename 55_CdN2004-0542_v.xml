@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en">John Pentaïlas, member of the kensores's college</title>
+            <title xml:lang="fr">Jean Pentaïlas, membre du collège des kensôres</title>
+            <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
+            <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+            <funder>
+               <orgName corresp="https://www.mahmah.ch/">MAH-Musée d'art et d'histoire - Genève,
+                  Cabinet de numismatique</orgName>, Suisse </funder>
+            <principal ref="#MCP"/>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <seg xml:lang="fr">Amélioration digitale</seg>
+               <seg xml:lang="en">Digital enhancement</seg>
+            </edition>
+            <editor role="digital-editor" xml:id="PE" when="2025-04-02">Pia Evening</editor>
+         </editionStmt>
+         <publicationStmt>
+            <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
+            <idno type="filename">CdN 2004-0542</idno>
+            <idno type="SigiDocID">s-H7wJ3f</idno>
+            <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+            <idno type="sequence"/>
+            <!--  to be compiled automatically; leave as is  -->
+            <date when="2024-08-06"/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                  >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                  4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listPerson type="issuer">
+               <person gender="M" role="civil aristocracy">
+                  <persName xml:lang="grc">
+                     <forename>Ἰωάννης</forename>/>
+                     <surname>Πενταϊλας</surname>/>
+                  </persName>
+                  <persName xml:lang="fr">
+                     <forename>Jean</forename>/>
+                     <surname>Pentaïlas</surname>/>
+                  </persName>
+                  <persName xml:lang="en">
+                     <forename>John</forename>/>
+                     <surname>Pentaïlas</surname>/>
+                  </persName>
+                  <idno type="PBW" ana="http://pbw2016.kdl.kcl.ac.uk/person/Ioannes/20537/">Ioannes 20537</idno>
+                  <idno type="PBE"/>
+                  <idno type="PLP"/>
+                  <idno type="PLRE"/>
+                  <idno type="PcBE"/>
+                  <idno type="PmbZ"/>
+               </person>
+            </listPerson>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <seg xml:lang="en">Switzerland</seg>
+                     <seg xml:lang="fr">Suisse</seg>
+                  </country>
+                  <settlement>
+                     <seg xml:lang="en">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">City of
+                           Geneva</placeName>
+                     </seg>
+                     <seg xml:lang="fr">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">Ville de
+                           Genève</placeName>
+                     </seg>
+                  </settlement>
+                  <institution>MAH-Musée d'art et d'histoire</institution>
+                  <repository>Cabinet de numismatique</repository>
+                  <collection type="public">
+                     <rs type="collection-name" xml:lang="en">Byzantine seals collection</rs>
+                     <rs type="collection-name" xml:lang="fr">Collection de sceaux byzantins</rs>
+                  </collection>
+                  <idno type="inv-nr-current">CdN 2004-0542</idno>
+                  <altIdentifier>
+                     <repository/>
+                     <idno type="inv-nr-former"/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <!--https://github.com/SigiDoc/Guidelines/wiki/5.-Controlled-vocabularies#seals-category-->
+                  <summary n="whole">
+                     <seg xml:lang="fr">Administration centrale</seg>
+                     <seg xml:lang="en">Central administration</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>
+                              <term>
+                                 <seg xml:lang="fr">Sceau</seg>
+                                 <seg xml:lang="en">Seal</seg>
+                              </term>
+                              <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                              <interp type="workType" xml:lang="en">Original impression</interp>
+                           </objectType>
+                           <material>
+                              <seg xml:lang="fr">Plomb</seg>
+                              <seg xml:lang="en">Lead</seg>
+                           </material>
+                           <dimensions type="support" unit="mm">
+                              <dim type="diameter">22,95/21,01</dim>
+                              <!-- mesure du champ? -->
+                           </dimensions>
+                           <measure type="weight" unit="g">11,673</measure>
+                           <measure type="axis" unit="clock"/>
+                           <measure type="overstrikeOrient" unit="clock"/>
+                           <measure type="channelOrient" unit="clock">11-5</measure>
+                           <measure type="countermark" unit="clock"/>
+                        </support>
+                        <condition rend="well-struck well-preserved chipped">
+                           <p xml:lang="en">The seal is well-struck and well-preserved, chipped at the openings of the channel and all over the edge</p>
+                           <p xml:lang="fr">Le sceau est bien frappé et bien conservé, éhancré aux orifices du canal, rogné sur toute la tranche</p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout n="whole">
+                           <rs type="execution">
+                              <seg xml:lang="fr">Frappé</seg>
+                              <seg xml:lang="en">Struck</seg>
+                           </rs>
+                           <rs type="shape">
+                              <seg xml:lang="fr">Ronde</seg>
+                              <seg xml:lang="en">Round</seg>
+                           </rs>
+                           <rs type="matrix" subtype="not-surviving">
+                              <idno type="SigiDoc">m-wawDss</idno>
+                              <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+                              <idno type="PBW"/>
+                              <!-- to be used if the seal has a parallel in the PBW with a boulloterion registered there -->
+                           </rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <seg xml:lang="fr">
+                           <placeName/>
+                        </seg>
+                        <seg xml:lang="en">
+                           <placeName/>
+                        </seg>
+                     </origPlace>
+                     <origDate type="analysis" notBefore="1067" notAfter="1100" evidence="epigraphy onomastics titulature" cert="high"
+                        resp="#MCP #JCC">
+                        <seg xml:lang="en">Last third of the 11th century</seg>
+                        <seg xml:lang="fr">Dernier tiers du XIe siècle</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="transferred" subtype="donated" when="2004-11-24">
+                     <!-- pas sûr de subtype et when -->
+                     <p xml:lang="en">George Zacos collection</p>
+                     <p xml:lang="fr">Collection Georges Zacos</p>
+                  </provenance>
+                  <acquisition>
+                     <p xml:lang="en">Donation of the Migore Foundation, Janet Zakos legacy, <date
+                           when="2004-11-24">24th November 2004</date>
+                     </p>
+                     <p xml:lang="fr">Don de la Fondation Migore, legs Janet Zakos, <date
+                           when="2004-11-24">24 Novembre 2004</date>
+                     </p>
+                  </acquisition>
+               </history>
+               <msPart n="r">
+                  <msIdentifier/>
+                  <msContents>
+                     <!-- ajouté ceci -->
+                     <summary n="r">
+                        <seg xml:lang="en">Obverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="r">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="fr">Légende linéaire sur 4 lignes</p>
+                              <p xml:lang="en">Linear legend of 4 lines</p>
+                           </layout>
+                        </layoutDesc>
+
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="r">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="r" xml:lang="fr" ana="Texte"/>
+                              <figDesc n="r" xml:lang="en" ana="Text"/>
+                              <figDesc n="decoR" xml:lang="fr">Cercle de grènetis; la première ligne est précédée d’une croisette, la légende est suivie d’une perle accostée de tirets</figDesc>
+                              <figDesc n="decoR" xml:lang="en">Cercle of dots; the first line is preceded by a crosslet; the legend is followed by a dot between two traits</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+               <msPart n="v">
+                  <msIdentifier/>
+                  <msContents>
+                     <summary n="v"><!-- ajouté ceci -->
+                        <seg xml:lang="en">Reverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="v">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="en">Linear legend of 5 lines</p>
+                              <p xml:lang="fr">Légende linéaire sur 5 lignes</p>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="v">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="decoV" xml:lang="fr">Cercle de grènetis</figDesc>
+                              <figDesc n="decoV" xml:lang="en">Cercle of dots</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2025-04-02" who="#PE">Creation of the XML record.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp>
+         <surface n="r">
+            <desc>Obverse</desc>
+            <graphic type="photo" url="CdN2004-0542_1.jpg">
+               <desc xml:lang="en">CdN 2004-0542, obverse</desc>
+               <desc xml:lang="fr">CdN 2004-0542, avers</desc>
+            </graphic>
+         </surface>
+         <surface n="v">
+            <desc>Reverse</desc>
+            <graphic type="photo" url="CdN2004-0542_2.jpg">
+               <desc xml:lang="en">CdN 2004-0542, reverse</desc>
+               <desc xml:lang="fr">CdN 2004-0542, revers</desc>
+            </graphic>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" subtype="editorial" xml:space="preserve"> 
+            <div type="textpart" subtype="face" rend="linear" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <lg type="metrical" met="dodecasyllable">
+                 <l n="1">
+                    <lb n="1"/>Σφρα
+                    <lb n="2" break="no"/>γὶς τυποῦ
+                    <lb n="3" break="no"/>σα τὰ<supplied reason="omitted">ς</supplied> γρα
+                    <lb n="4" break="no"/>φὰς <expan><abbr>Ἰω</abbr><ex>άννου</ex></expan>
+                 </l>
+              </lg>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <lg type="metrical" met="dodecasyllable">
+                         <l n="2">
+                            <lb n="5"/>τοῦ Πεν
+                            <lb n="6" break="no"/>ταϊλᾶ τ<supplied reason="lost">ά</supplied>
+                            <lb n="7" break="no"/>γματος 
+                            <lb n="8"/>τῶν <rs type="office" subtype="civil" ref="#of0095">κεν
+                            <lb n="9" break="no"/>σώρων</rs>
+                         </l>
+                      </lg>
+                  </div>
+              </div>
+         <div type="edition" subtype="diplomatic" xml:space="preserve"> 
+                  <div type="textpart" subtype="face" rend="linear" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <lb n="1"/>CΦΡΑ
+                 <lb n="2"/>Γ̣ιCΤΥΠ 
+                 <lb n="3"/>CΑΤΑΓΡΑ
+                 <lb n="4"/>ΦΑCι̅
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab>
+                         <lb n="5"/>ΤΠΕΝ 
+                         <lb n="6"/>ΤΑιΛΑΤ. 
+                         <lb n="7"/>ΓΜΑΤΟC̣
+                         <lb n="8"/>ΤΝΚΕΝ
+                         <lb n="9"/>CΡΝ
+                         </ab>
+                  </div>
+              </div>
+         <div type="translation">
+            <p>+ Σφραγὶς τυποῦσα τὰς γραφὰς Ἰωάννου || τοῦ Πενταϊλᾶ τάγματος τῶν κενσώρων.</p>
+            <p xml:lang="fr">( Ceci est) le sceau qui scelle les écrits de Jean Pentaïlas, membre du collège 
+               des kensôres.</p>
+            <p xml:lang="en">(It's) the seal which seals Jean Pentaïlas' writings, (who is) member of the  kensores' college</p>
+         </div>
+         <div type="commentary" subtype="text">
+            <!-- renvois internes à refaire -->
+            <p xml:lang="en">The tagma (college) tôn kensôrôn, is a unique mention that confirms 
+               the existence of a group of kensôres presided over by the prôtokensôr. The latter 
+               is attested by two seals in the name of Nicholas Chrysoberges, prôtokensôr and great bursar of the western episkepseis.
+               Jean Pentaïlas is the holder of another bulla, very poorly preserved, 
+               found in Bulgaria. It gives him as protospatarios and hypatos, undoubtedly marking 
+               a later stage in his career.
+               Signatures reveal three other members of the family 
+               Pentaïlas, without mention of title or function: Nicholas
+               and Theodore,
+               contemporaries of our signatory, and Constantine.
+               In addition, the name is attached as a second name or nickname 
+               (?) to the monk Pentaktenes, who, at the turn of the 11th century
+               was appointed 
+               archbishop of Lemnos and, a little later, of Maroneia.</p>
+            <p xml:lang="en"></p>
+            <p xml:lang="fr">Le tagma (collège) tôn kensôrôn, est une mention unique qui confirme 
+               l’existence d’un groupe de kensôres présidés par le prôtokensôr. Ce dernier 
+               est attesté par deux plombs, au nom de Nicolas Chrysobergès, prôtokensôr et grand économe des épiskepseis occidentales.
+               Jean Pentaïlas serait le titulaire d’une autre bulle, très mal conservée, 
+               trouvée en Bulgarie. Elle le donne protospathaire et hypatos, marquant 
+               sans doute une étape postérieure de sa carrière.
+               La sigillographie nous fait connaître trois autres membres de la famille 
+               Pentaïlas, sans mention de titre ou de fonction : Nicolas
+               et Théodore,
+               contemporains de notre signataire, et Constantin.
+               D’autre part, le nom est attaché comme deuxième nom ou sobriquet 
+               (?) au moine Pentakténès, qui, au tournant du XIe
+               siècle, fut nommé 
+               archevêque de Lemnos et, un peu plus tard, de Maronée.</p>
+            <p xml:lang="fr"></p>
+         </div>
+         <div type="bibliography" subtype="edition">
+            <p>
+               <bibl>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">55</citedRange></bibl>;
+               <bibl>
+                  <ptr target="ZacosSpink3"/>, n° <citedRange unit="entry">257</citedRange></bibl>
+               <bibl/>
+            </p>
+         </div>
+         <div type="bibliography" subtype="parallels">
+            <p/>
+         </div>
+         <div type="bibliography" subtype="discussion">
+            <p>
+               <bibl>
+                        <ptr target="JordanovCorpus2"/>, p. <citedRange unit="page">339</citedRange></bibl>
+
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
