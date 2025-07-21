@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en">Leon Tria(ko)ntaphyllos, protospatharios epi tou Chrysotriklinou,
+               mystographos and logariastes ton euagon oikon</title>
+            <title xml:lang="fr">Léon Tria(ko)ntaphyllos, protospathaire épi tou Chrysotriklinou,
+               mystographe et logariastès tôn euagôn oikôn</title>
+            <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
+            <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+            <funder>
+               <orgName corresp="https://www.mahmah.ch/">MAH-Musée d'art et d'histoire - Genève,
+                  Cabinet de numismatique</orgName>, Suisse </funder>
+            <principal ref="#MCP"/>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <seg xml:lang="fr">Amélioration digitale</seg>
+               <seg xml:lang="en">Digital enhancement</seg>
+            </edition>
+            <editor role="digital-editor" xml:id="PE" when="2025-04-02">Pia Evening</editor>
+         </editionStmt>
+         <publicationStmt>
+            <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
+            <idno type="filename">CdN 2004-0496</idno>
+            <idno type="SigiDocID">s-sfvl4V</idno>
+            <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+            <idno type="sequence"/>
+            <!--  to be compiled automatically; leave as is  -->
+            <date when="2024-08-06"/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                  >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                  4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listPerson type="issuer">
+               <person gender="M" role="civil aristocracy">
+                  <persName xml:lang="grc">
+                     <forename>Λέων</forename>/> <surname>Τριαντάφυλλος</surname>/> </persName>
+                  <persName xml:lang="fr">
+                     <forename>Léon</forename>/> <surname>Triantaphyllos</surname>/> </persName>
+                  <persName xml:lang="en">
+                     <forename>Leon</forename>/> <surname>Triantaphyllos</surname>/> </persName>
+                  <idno type="PBW"/>
+                  <idno type="PBE"/>
+                  <idno type="PLP"/>
+                  <idno type="PLRE"/>
+                  <idno type="PcBE"/>
+                  <idno type="PmbZ"/>
+               </person>
+            </listPerson>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <seg xml:lang="en">Switzerland</seg>
+                     <seg xml:lang="fr">Suisse</seg>
+                  </country>
+                  <settlement>
+                     <seg xml:lang="en">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">City of
+                           Geneva</placeName>
+                     </seg>
+                     <seg xml:lang="fr">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">Ville de
+                           Genève</placeName>
+                     </seg>
+                  </settlement>
+                  <institution>MAH-Musée d'art et d'histoire</institution>
+                  <repository>Cabinet de numismatique</repository>
+                  <collection type="public">
+                     <rs type="collection-name" xml:lang="en">Byzantine seals collection</rs>
+                     <rs type="collection-name" xml:lang="fr">Collection de sceaux byzantins</rs>
+                  </collection>
+                  <idno type="inv-nr-current">CdN 2004-0496</idno>
+                  <altIdentifier>
+                     <repository/>
+                     <idno type="inv-nr-former"/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <!--https://github.com/SigiDoc/Guidelines/wiki/5.-Controlled-vocabularies#seals-category-->
+                  <summary n="whole">
+                     <seg xml:lang="fr">Administration centrale</seg>
+                     <seg xml:lang="en">Central administration</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>
+                              <term>
+                                 <seg xml:lang="fr">Sceau</seg>
+                                 <seg xml:lang="en">Seal</seg>
+                              </term>
+                              <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                              <interp type="workType" xml:lang="en">Original impression</interp>
+                           </objectType>
+                           <material>
+                              <seg xml:lang="fr">Plomb</seg>
+                              <seg xml:lang="en">Lead</seg>
+                           </material>
+                           <dimensions type="support" unit="mm">
+                              <dim type="diameter">30,57/29,88</dim>
+                              <!-- mesure du champ? -->
+                           </dimensions>
+                           <measure type="weight" unit="g">14,397</measure>
+                           <measure type="axis" unit="clock"/>
+                           <measure type="overstrikeOrient" unit="clock"/>
+                           <measure type="channelOrient" unit="clock">1-7</measure>
+                           <measure type="countermark" unit="clock"/>
+                        </support>
+                        <condition rend="well-struck well-preserved, broken">
+                           <p xml:lang="en">The seal is well-struck and well-preserved, slightly
+                              broken at the upper opening of the channel</p>
+                           <p xml:lang="fr">Le sceau est bien frppé et bien conservé, légèrement
+                              cassé le long de la partie supérieure de l'orifice du canal</p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout n="whole">
+                           <rs type="execution">
+                              <seg xml:lang="fr">Frappé</seg>
+                              <seg xml:lang="en">Struck</seg>
+                           </rs>
+                           <rs type="shape">
+                              <seg xml:lang="fr">Ronde</seg>
+                              <seg xml:lang="en">Round</seg>
+                           </rs>
+                           <rs type="matrix" subtype="not-surviving">
+                              <idno type="SigiDoc">m-GH67vD</idno>
+                              <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+                              <idno type="PBW"/>
+                              <!-- to be used if the seal has a parallel in the PBW with a boulloterion registered there -->
+                           </rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <seg xml:lang="fr">
+                           <placeName/>
+                        </seg>
+                        <seg xml:lang="en">
+                           <placeName/>
+                        </seg>
+                     </origPlace>
+                     <origDate type="analysis" notBefore="1051" notAfter="1100"
+                        evidence="prosopography onomastics titulature" cert="high" resp="#MCP #JCC">
+                        <seg xml:lang="en">Second half of the 11th century</seg>
+                        <seg xml:lang="fr">Seconde moitié du XIe siècle</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="transferred" subtype="donated" when="2004-11-24">
+                     <!-- pas sûr de subtype et when -->
+                     <p xml:lang="en">George Zacos collection</p>
+                     <p xml:lang="fr">Collection Georges Zacos</p>
+                  </provenance>
+                  <acquisition>
+                     <p xml:lang="en">Donation of the Migore Foundation, Janet Zakos legacy, <date
+                           when="2004-11-24">24th November 2004</date>
+                     </p>
+                     <p xml:lang="fr">Don de la Fondation Migore, legs Janet Zakos, <date
+                           when="2004-11-24">24 Novembre 2004</date>
+                     </p>
+                  </acquisition>
+               </history>
+               <msPart n="r">
+                  <msIdentifier/>
+                  <msContents>
+                     <!-- ajouté ceci -->
+                     <summary n="r">
+                        <seg xml:lang="en">Obverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="r">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="fr">Iconographie avec de part et d'autre une épigraphe en
+                                 colonne</p>
+                              <p xml:lang="en">Iconography with un epigraph on either side of the
+                                 image</p>
+                           </layout>
+                        </layoutDesc>
+
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="r">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="r" xml:lang="fr" ana="person male saint Nicholaos">Buste
+                                 de saint Pantéléèmôn, de face, au visage plein, imberbe, pourvu
+                                 d’une chevelure bouclée ; il tient en main droite ce qui semble à
+                                 un scalpel et de l’autre une petite cassette (?)</figDesc>
+                              <figDesc n="r" xml:lang="en" ana="person male saint Nicholaos">Bust of
+                                 saint Panteleimon, font view, unbeard aund with curly hair; he is
+                                 holding what looks like a scalpel in his right hand and a small
+                                 cassette in the other.</figDesc>
+                              <figDesc n="decoR" xml:lang="fr">Cercle de grènetis</figDesc>
+                              <figDesc n="decoR" xml:lang="en">Circle of dots</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+               <msPart n="v">
+                  <msIdentifier/>
+                  <msContents>
+                     <summary n="v"><!-- ajouté ceci -->
+                        <seg xml:lang="en">Reverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="v">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="en">Linear legend of 7 lines </p>
+                              <p xml:lang="fr">Légende linéaire sur 7 lignes</p>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="v">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="decoV" xml:lang="fr">Cercle de grènetis</figDesc>
+                              <figDesc n="decoV" xml:lang="en">Circle of dots</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2025-04-02" who="#PE">Creation of the XML record.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp>
+         <surface n="r">
+            <desc>Obverse</desc>
+            <graphic type="photo" url="CdN2004-0496_1.jpg">
+               <desc xml:lang="en">CdN 2004-0496, obverse</desc>
+               <desc xml:lang="fr">CdN 2004-0496, avers</desc>
+            </graphic>
+         </surface>
+         <surface n="v">
+            <desc>Reverse</desc>
+            <graphic type="photo" url="CdN2004-0496_2.jpg">
+               <desc xml:lang="en">CdN 2004-0496, reverse</desc>
+               <desc xml:lang="fr">CdN 2004-0496, revers</desc>
+            </graphic>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" subtype="editorial" xml:space="preserve"> 
+            <div type="textpart" subtype="label" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="a"/>Ὁ <expan><ex>ἅγιος</ex></expan> Παντε
+                 <cb n="b" break="no"/>λεήμον
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab ana="nom">
+                         <lb n="1"/>Λ<supplied reason="lost">έ</supplied>ων 
+                         <lb n="2"/><rs type="dignity" ref="#d0066"><expan><abbr><am>Α</am></abbr><ex>πρωτο</ex><abbr>σπαθ</abbr><ex>άριος</ex></expan></rs> <rs type="office" subtype="civil" ref="#of0070"><expan><abbr>ἐπ</abbr><ex>ὶ</ex></expan> 
+                         <lb n="3"/>τοῦ <expan><abbr>Χρ</abbr><ex>υσο</ex><abbr><am>Γ</am></abbr><ex>τρι</ex><abbr>κλ</abbr><ex>ίνου</ex></expan></rs> <rs type="office" subtype="civil" ref="#of0136"><expan><abbr>μυ
+                         <lb n="4" break="no"/>στογ</abbr><ex>ρά</ex><abbr>φ</abbr><ex>ος</ex></expan></rs> <expan><abbr><am>S</am></abbr><ex>καὶ</ex></expan> <rs type="office" subtype="civil" ref="#of0114"><expan><abbr>λογ</abbr><ex>α</ex>
+                         <lb n="5" break="no"/><abbr>ριαστὴς</abbr></expan></rs> <expan><abbr>τ</abbr><ex>ῶν</ex></expan> <rs type="institution" ref="#org0034">εὐ
+                         <lb n="6" break="no"/>αγῶν <expan><abbr>οἴκ</abbr><ex>ων</ex></expan></rs> ὁ 
+                         <lb n="7"/><expan><abbr>Τρια<supplied reason="omitted">κο</supplied>ντ</abbr><ex>ά</ex><abbr>φ</abbr><ex>υ</ex><abbr>λ</abbr><ex>λος</ex></expan>
+                      </ab>
+                  </div>
+              </div>
+         <div type="edition" subtype="diplomatic" xml:space="preserve"> 
+                  <div type="textpart" subtype="label" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="a"/>|π̣|Αν|Τ|ε   
+                 <cb n="b"/>Λ|Ε|ΗΜ|Ο|Ν
+              </ab>
+            </div>
+            <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab>
+                         <lb n="1"/>Λ.ν̣
+                         <lb n="2"/>Α̅ΣπΑΘ/// Επ/  
+                         <lb n="3"/>ΤΓΚΛ/ΜΥ  
+                         <lb n="4"/>ΣΤΟΓ/ Φ/ ϗΛΟΓ  
+                         <lb n="5"/>ΡΙΑΣΤΗΣΤ/ ΕΥ 
+                         <lb n="6"/>ΑΓΝΟΙΚ/ Ο  
+                         <lb n="7"/>ΤΡΙΑΝΤ// Φ// Λ/
+                         </ab>
+                  </div>
+              </div>
+         <div type="translation">
+            <p>Ὁ ἅγιος Παντελεήμον. || + Λέων πρωτοσπαθάριος ἐπὶ τοῦ Χρυσοτρικλίνου, μυστογράφος καὶ
+               λογαριαστὴς τῶν εὐαγῶν οἴκων ὁ Τριακοντάφυλλος.</p>
+            <p xml:lang="en">Saint Panteleimon. || + Leon Tria(ko)ntaphyllos, protospatharios epi
+               tou Chrysotriklinou, mystographos and logariastes ton euagon oikon</p>
+            <p xml:lang="fr">Saint Panteléèmon. || + Léon Tria(ko)ntaphyllos, protospathaire épi tou
+               Chrysotriklinou, mystographe et logariastès tôn euagôn oikôn</p>
+         </div>
+         <div type="commentary" subtype="text">
+            <!-- renvois internes à refaire -->
+            <p xml:lang="en">The abbreviation of the name to Triantaphyllos is original and has no
+               other occurrence before the time of the Palaeologoi (PLP nos. 29282-29287). The
+               Triakontaphylloi, who provided high ranking civil servants in the 11th century, are
+               known mainly through the numerous seals left by several members of the family. Two
+               other seals can be attributed without error to our sigillant. The first, illustrated
+               with the effigy of Saint Panteleimon, marks an earlier stage in Leo's career: Λέων
+               πρωτοσπαθάριος ἐπὶ τοῦ Χρυσοτρικλίνου, μυστολέκτης καὶ κριτὴς Θρᾴκης ὁ
+               Τριακοντάφυλλος. Another seal, preserved in the British
+               Museum, attests to his progression in the hierarchy of dignities, as he declares himself
+               patrice and judge. On the other hand, the image of the Virgin Mary on a third type of seal bearing the name
+               of the curopalate Leo Triakontaphyllos, dating from the end of the 11th century, invalidates the
+               possibility that it belonged to our sigillant. In the 12th century, according to a recently published bulla, Constantine was metropolitan of Pergè and Syllaion.
+               </p>
+            <p xml:lang="en"/>
+            <p xml:lang="fr">L’abréviation du nom en Triantaphyllos est originale et sans autre
+               occurrence avant l’époque des Paléologues (PLP nos 29282-29287). Les
+               Triakontaphylloi, qui ont fourni de hauts fonctionnaires civils au XIe siècle, sont
+               essentiellement connus par les nombreux sceaux laissés par plusieurs membres de la
+               famille (<bibl><ptr target="JordanovCorpus2"/>, <citedRange unit="entry"> n°
+                  728</citedRange></bibl>; <bibl><ptr target="Familiennamen"/>, <citedRange unit="page"> p.
+                     391</citedRange></bibl>; <bibl><ptr target="Istanbul"/>, <citedRange unit="entry"> n°
+                        7.117</citedRange></bibl>). Deux autres plombs peuvent être attribués sans erreur à notre sigillant.
+               Illustrés tous deux à l’effigie de saint Pantéléèmôn, le premier marque une étape
+               précédente dans la carrière de Léon : Λέων πρωτοσπαθάριος ἐπὶ τοῦ Χρυσοτρικλίνου,
+               μυστολέκτης καὶ κριτὴς Θρᾴκης ὁ Τριακοντάφυλλος. Un autre plomb, conservé au British
+               Museum, atteste sa progression dans la hiérarchie des dignités, puisqu’il s’y déclare
+               patrice et juge. En revanche, l’image de la Vierge, sur un troisième type de sceau au
+               nom du curopalate Léon Triakontaphyllos, datant de la fin du XIe siècle, infirme la
+               possibilité qu’il ait appartenu à notre personnage. Au XIIe siècle, selon une bulle
+               récemment publiée, Constantin fut métropolite de Pergè et Syllaion.</p>
+            <p xml:lang="fr"/>
+         </div>
+         <div type="bibliography" subtype="edition">
+            <p><bibl>
+               <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">57</citedRange></bibl>;
+               <bibl/>
+            </p>
+         </div>
+         <div type="bibliography" subtype="parallels">
+            <p/>
+         </div>
+         <div type="bibliography" subtype="discussion">
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>
