@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en">John Kamateros, sebastos, logothetes of dromos</title>
+            <title xml:lang="fr">Jean Kamatèros, sébaste, logothète du drome </title>
+            <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
+            <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+            <funder>
+               <orgName corresp="https://www.mahmah.ch/">MAH-Musée d'art et d'histoire - Genève,
+                  Cabinet de numismatique</orgName>, Suisse </funder>
+            <principal ref="#MCP"/>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <seg xml:lang="fr">Amélioration digitale</seg>
+               <seg xml:lang="en">Digital enhancement</seg>
+            </edition>
+            <editor role="digital-editor" xml:id="PE" when="2025-04-02">Pia Evening</editor>
+         </editionStmt>
+         <publicationStmt>
+            <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
+            <idno type="filename">CdN 2004-0259</idno>
+            <idno type="SigiDocID">s-QdkQhL</idno>
+            <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+            <idno type="sequence"/>
+            <!--  to be compiled automatically; leave as is  -->
+            <date when="2024-08-06"/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                  >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                  4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listPerson type="issuer">
+               <person gender="M" role="civil aristocracy">
+                  <persName xml:lang="grc">
+                     <forename>Ἰωάννης</forename>/> <surname>Καματηρὸς</surname>/> </persName>
+                  <persName xml:lang="fr">
+                     <forename>Jean</forename>
+                     <surname>Kamatèreos</surname>/> </persName>
+                  <persName xml:lang="en">
+                     <forename>John</forename>/> <surname>Kamateros</surname>/> </persName>
+                  <idno type="PBW" ana="http://pbw2016.kdl.kcl.ac.uk/person/Ioannes/25008/"> Ioannes
+                     25008</idno>
+                  <idno type="PBE"/>
+                  <idno type="PLP"/>
+                  <idno type="PLRE"/>
+                  <idno type="PcBE"/>
+                  <idno type="PmbZ"/>
+               </person>
+            </listPerson>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <seg xml:lang="en">Switzerland</seg>
+                     <seg xml:lang="fr">Suisse</seg>
+                  </country>
+                  <settlement>
+                     <seg xml:lang="en">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">City of
+                           Geneva</placeName>
+                     </seg>
+                     <seg xml:lang="fr">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">Ville de
+                           Genève</placeName>
+                     </seg>
+                  </settlement>
+                  <institution>MAH-Musée d'art et d'histoire</institution>
+                  <repository>Cabinet de numismatique</repository>
+                  <collection type="public">
+                     <rs type="collection-name" xml:lang="en">Byzantine seals collection</rs>
+                     <rs type="collection-name" xml:lang="fr">Collection de sceaux byzantins</rs>
+                  </collection>
+                  <idno type="inv-nr-current">CdN 2004-0259</idno>
+                  <altIdentifier>
+                     <repository/>
+                     <idno type="inv-nr-former"/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <!--https://github.com/SigiDoc/Guidelines/wiki/5.-Controlled-vocabularies#seals-category-->
+                  <summary n="whole">
+                     <seg xml:lang="fr">Administration centrale</seg>
+                     <seg xml:lang="en">Central administration</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>
+                              <term>
+                                 <seg xml:lang="fr">Sceau</seg>
+                                 <seg xml:lang="en">Seal</seg>
+                              </term>
+                              <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                              <interp type="workType" xml:lang="en">Original impression</interp>
+                           </objectType>
+                           <material>
+                              <seg xml:lang="fr">Plomb</seg>
+                              <seg xml:lang="en">Lead</seg>
+                           </material>
+                           <dimensions type="support" unit="mm">
+                              <dim type="diameter">35,74/32,20</dim>
+                              <!-- mesure du champ? -->
+                           </dimensions>
+                           <measure type="weight" unit="g">25,201</measure>
+                           <measure type="axis" unit="clock"/>
+                           <measure type="overstrikeOrient" unit="clock"/>
+                           <measure type="channelOrient" unit="clock">12-6</measure>
+                           <measure type="countermark" unit="clock"/>
+                        </support>
+                        <condition rend="well-struck broken ">
+                           <p xml:lang="en">The seal is well-struck but half-broken along the
+                              channel</p>
+                           <p xml:lang="fr">Le sceau est bien frappé,mais à moitié cassé le long du
+                              canal</p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout n="whole">
+                           <rs type="execution">
+                              <seg xml:lang="fr">Frappé</seg>
+                              <seg xml:lang="en">Struck</seg>
+                           </rs>
+                           <rs type="shape">
+                              <seg xml:lang="fr">Ronde</seg>
+                              <seg xml:lang="en">Round</seg>
+                           </rs>
+                           <rs type="matrix" subtype="not-surviving">
+                              <idno type="SigiDoc">m-sKGrgv</idno>
+                              <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+                              <idno type="PBW"/>
+                              <!-- to be used if the seal has a parallel in the PBW with a boulloterion registered there -->
+                           </rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <seg xml:lang="fr">
+                           <placeName/>
+                        </seg>
+                        <seg xml:lang="en">
+                           <placeName/>
+                        </seg>
+                     </origPlace>
+                     <origDate type="analysis" notBefore="1141" notAfter="1160"
+                        evidence="onomastics prosopography titulature" cert="high" resp="#MCP #JCC">
+                        <seg xml:lang="en">Mid-12th century</seg>
+                        <seg xml:lang="fr">Milieu du XIIe siècle</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="transferred" subtype="donated" when="2004-11-24">
+                     <!-- pas sûr de subtype et when -->
+                     <p xml:lang="en">George Zacos collection</p>
+                     <p xml:lang="fr">Collection Georges Zacos</p>
+                  </provenance>
+                  <acquisition>
+                     <p xml:lang="en">Donation of the Migore Foundation, Janet Zakos legacy, <date
+                           when="2004-11-24">24th November 2004</date>
+                     </p>
+                     <p xml:lang="fr">Don de la Fondation Migore, legs Janet Zakos, <date
+                           when="2004-11-24">24 Novembre 2004</date>
+                     </p>
+                  </acquisition>
+               </history>
+               <msPart n="r">
+                  <msIdentifier/>
+                  <msContents>
+                     <!-- ajouté ceci -->
+                     <summary n="r">
+                        <seg xml:lang="en">Obverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="r">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="fr">Linear legend of 5 lines</p>
+                              <p xml:lang="en">Légende linéaire sur 5 lignes</p>
+                           </layout>
+                        </layoutDesc>
+
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="r">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="r" xml:lang="fr" ana="Texte"/>
+                              <figDesc n="r" xml:lang="en" ana="Text"/>
+                              <figDesc n="decoR" xml:lang="fr">Cercle de grènetis</figDesc>
+                              <figDesc n="decoR" xml:lang="en">Circle of dots</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+               <msPart n="v">
+                  <msIdentifier/>
+                  <msContents>
+                     <summary n="v"><!-- ajouté ceci -->
+                        <seg xml:lang="en">Reverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="v">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="en">Linear legend of 5 lines</p>
+                              <p xml:lang="fr">Légende linéaire sur 5 lignes</p>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="v">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="decoV" xml:lang="fr">Cercle de grènetis</figDesc>
+                              <figDesc n="decoV" xml:lang="en">Circle of dots</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2025-04-02" who="#PE">Creation of the XML record.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp>
+         <surface n="r">
+            <desc>Obverse</desc>
+            <graphic type="photo" url="CdN2004-0259_1.jpg">
+               <desc xml:lang="en">CdN 2004-0259, obverse</desc>
+               <desc xml:lang="fr">CdN 2004-0259, avers</desc>
+            </graphic>
+         </surface>
+         <surface n="v">
+            <desc>Reverse</desc>
+            <graphic type="photo" url="CdN2004-259_2.jpg">
+               <desc xml:lang="en">CdN 2004-0259, reverse</desc>
+               <desc xml:lang="fr">CdN 2004-0259, revers</desc>
+            </graphic>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" subtype="editorial" xml:space="preserve"> 
+            <div type="textpart" subtype="face" rend="linear" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <lg type="metrical" met="dodecasyllable">
+                 <l n="1">
+                    <lb n="1"/>Σφραγὶς 
+                    <lb n="2"/><rs type="dignity" ref="#d0075">σεβαστοῦ</rs> 
+                    <lb n="3"/>τοῦ <rs type="institution" ref="#org0012">δρόμου</rs> 
+                    <lb n="4"/><rs type="office" subtype="civil" ref="#of0116">λογοθέ
+                    <lb n="5" break="no"/>του</rs> 
+                 </l>
+              </lg>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <lg type="metrical" met="dodecasyllable">
+                         <l n="2">
+                            <lb n="6"/>τον 
+                            <lb n="7"/>Καμα<supplied reason="lost">τη</supplied>
+                            <lb n="8" break="no"/>ρῶν ἐκ γέ
+                            <lb n="9" break="no"/>νους Ἰω
+                            <lb n="10" break="no"/>άννου
+                         </l>
+                      </lg>
+                  </div>
+              </div>
+         <div type="edition" subtype="diplomatic" xml:space="preserve"> 
+                  <div type="textpart" subtype="face" rend="linear" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <lb n="1"/>ΣΦΡΑΓΙΣ
+                 <lb n="2"/>ΣΕR.̣ΟΥ 
+                 <lb n="3"/>ΤΟΥ̣.Ρ̣ΟΜ
+                 <lb n="4"/>ΛΟ̣γΟθΕ
+                 <lb n="5"/>ΤΟΥ
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab>
+                         <lb n="6"/>ΤΟΝ 
+                         <lb n="7"/>ΚΑΜ..   
+                         <lb n="8"/>ΡΝΕΚ̣γ̣Ε̣     
+                         <lb n="9"/>ΝΟΥΣΙ   
+                         <lb n="10"/>ΑΝΝ
+                         </ab>
+                  </div>
+              </div>
+         <div type="translation">
+            <p>+ Σφραγὶς σεβαστοῦ τοῦ δρόμου λογοθέτου || τον Καματηρῶν ἐκ γένους Ἰωάννου.</p>
+            <p xml:lang="en">Seal of the sebastos, logothetes of dromos, from the Kamateros
+               family.</p>
+            <p xml:lang="fr">Sceau du sébaste Jean, logothète du drome, issu de la famille des
+               Kamatèroi.</p>
+         </div>
+         <div type="commentary" subtype="text">
+            <!-- renvois internes à refaire -->
+            <p xml:lang="en">Present in the civil administration as early as the eleventh century,
+               the twelfth century marked the golden age of the Kamateroi, as they succeeded in
+               becoming related to the Comnenes through marriage, when Gregorios Kamateros, son of
+               the judge Basile, obtained the hand of Eirene, niece or cousin of the empress Eirene
+               Doukaina, giving birth to the line of Doukai-Kamateroi, who accumulated the highest
+               positions and dignities of sebastos. In this prolific family, a number of namesakes,
+               including Jean and Basile, achieved their careers at the same time. However, we can
+               without error attribute our bulla to the logothetes of the drome of Manuel I
+               Comnenus, well known above all from the colourful description given by Niketas
+               Choniates. A contemporary private seal, bearing on the obverse the scene of the
+               Anastasis, and on the reverse the legend: Σφραγὶς Ἰωάννου τοῦ Καματηροῦ, cannot be
+               reliably attributed to the same person.</p>
+            <p xml:lang="en"/>
+            <p xml:lang="fr">Présents au sein de l’administration civile dès le XIe siècle, le XIIe
+               siècle marqua l’âge d’or des Kamatèroi, car ils réussirent à s’apparenter par mariage
+               aux Comnènes, lorsque Grégoire Kamatèros, fils du juge Basile, obtint la main
+               d’Irène, nièce ou cousine de l’impératrice Irène Doukaina, donnant naissance à la
+               lignée des Doukai-Kamatèroi, qui accumulèrent les plus hauts postes et les dignités
+               de sébaste. Dans cette famille prolifique, plusieurs homonymes, notamment des Jean et
+               des Basile, ont accompli leurs carrières au même moment. Cependant, nous pouvons
+               attribuer sans erreur notre bulle au logo - thète du drome de Manuel Ier Comnène 3 ,
+               bien connu surtout par la description haute en couleur qu’en donne Nicétas
+               Chôniatès.Un sceau privé contemporain, portant au droit la scène de l’Anastasis, et
+               au revers la légende : Σφραγὶς Ἰωάννου τοῦ Καματηροῦ, ne peut pas être attribué de
+               manière sûre au même personnage (<bibl><ptr target="Oikonomides1986"/>,<citedRange unit="entry"> n°
+                  32</citedRange></bibl>;(<bibl><ptr target="JordanovCorpus2"/>, <citedRange unit="page">p.
+                     174</citedRange><citedRange unit="entry"> n°
+                        5</citedRange></bibl>).</p>
+            <p xml:lang="fr"/>
+         </div>
+         <div type="bibliography" subtype="edition">
+            <p><bibl>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">58</citedRange></bibl>
+               <bibl/>
+            </p>
+         </div>
+         <div type="bibliography" subtype="parallels">
+            <p/>
+         </div>
+         <div type="bibliography" subtype="discussion">
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>
