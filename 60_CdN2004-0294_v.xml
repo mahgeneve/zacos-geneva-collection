@@ -355,7 +355,7 @@
             <p xml:lang="fr"/>
          </div>
          <div type="bibliography" subtype="edition">
-            <p><bibl>
+            <p> <bibl>
                <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">60</citedRange></bibl>; <bibl>
                   <ptr target="Zacos2"/>, n° <citedRange unit="entry">1012</citedRange></bibl>
                <bibl/>
