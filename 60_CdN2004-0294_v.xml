@@ -313,14 +313,14 @@
          <div type="edition" subtype="diplomatic" xml:space="preserve"> 
                   <div type="textpart" subtype="face" rend="circular" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
               <ab>
-                 <lb n="1"/>.ΠΡΤ̣Α̣ΓΓΕΛΕ..........ΟΝ̣.Ο̣Γ̣ΟΘΕ̣ΤΗΝ
+                 <lb n="1"/>.ΠΡΤ̣̣ΓΓΕΛΕ..........ΟΝ̣.Ο̣Γ̣ΟΘΕ̣ΤΗΝ
               </ab>
             </div>
                   <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
                       <ab>
                          <lb n="2"/>ΛΟΓΟΘΕ
-                         <lb n="3"/>ΤΣΦΡΑΓΙ   
-                         <lb n="4"/>ΑΠΑΛΕ                            
+                         <lb n="3"/>ΤΣΦΡΓΙ     
+                         <lb n="4"/>ΠΛΕ                               
                          <lb n="5"/>ΟΛΟυΓΟ
                          </ab>
                   </div>
