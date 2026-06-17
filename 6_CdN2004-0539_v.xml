@@ -228,7 +228,7 @@
                                  the Gospels in his left hand.</figDesc>
                               <figDesc n="decoR" xml:lang="fr">Cercle de grènetis; l'inscription est
                                  précédée d'une croisette et suivie d'une étoile à 6 rais</figDesc>
-                              <figDesc n="decoR" xml:lang="en">Circle of dots; the inscription is
+                              <figDesc n="decoR" xml:lang="en">Border of dots; the inscription is
                                  preceded by a crosslet and followed up by a star of 6
                                  rays</figDesc>
                            </figure>
@@ -303,14 +303,14 @@
    </teiHeader>
    <facsimile>
       <surfaceGrp>
-         <surface n="r">
+         <surface n="r" type="obverse">
             <desc>Obverse</desc>
             <graphic type="photo" url="CdN2004-0539_1.jpg">
                <desc xml:lang="en">CdN 2004-0539, obverse</desc>
                <desc xml:lang="fr">CdN 2004-0539, avers</desc>
             </graphic>
          </surface>
-         <surface n="v">
+         <surface n="v" type="reverse">
             <desc>Reverse</desc>
             <graphic type="photo" url="CdN2004-0539_2.jpg">
                <desc xml:lang="en">CdN 2004-0539, reverse</desc>
