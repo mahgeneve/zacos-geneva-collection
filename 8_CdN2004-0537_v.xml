@@ -257,7 +257,7 @@
                                  labarum slightly askew, and in his left hand, brought in front of his
                                  chest, the akakia (?)</figDesc>
                               <figDesc n="decoV" xml:lang="fr">Cercle de grènetis</figDesc>
-                              <figDesc n="decoV" xml:lang="en">Circle of dots</figDesc>
+                              <figDesc n="decoV" xml:lang="en">Border of dots</figDesc>
                            </figure>
                         </decoNote>
                      </decoDesc>
@@ -277,14 +277,14 @@
    </teiHeader>
    <facsimile>
       <surfaceGrp>
-         <surface n="r">
+         <surface n="r" type="obverse">
             <desc>Obverse</desc>
             <graphic type="photo" url="CdN2004-0537_1.jpg">
                <desc xml:lang="en">CdN 2004-0537, obverse</desc>
                <desc xml:lang="fr">CdN 2004-0537, avers</desc>
             </graphic>
          </surface>
-         <surface n="v">
+         <surface n="v" type="reverse">
             <desc>Reverse</desc>
             <graphic type="photo" url="CdN2004-0537_2.jpg">
                <desc xml:lang="en">CdN 2004-0537, reverse</desc>
