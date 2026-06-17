@@ -39,7 +39,7 @@
             <listPerson type="issuer">
                <person gender="M" role="civil aristocracy">
                   <persName xml:lang="grc">
-                     <forename>Ἰωάννης</forename>/> <surname>Καματηρὸς</surname>/> </persName>
+                     <forename>Ἰωάννης</forename>/> <surname>Καματηρός</surname>/> </persName>
                   <persName xml:lang="fr">
                      <forename>Jean</forename>
                      <surname>Kamatèreos</surname>/> </persName>
@@ -307,6 +307,7 @@
          <div type="edition" subtype="diplomatic" xml:space="preserve"> 
                   <div type="textpart" subtype="face" rend="linear" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
               <ab>
+                 <lb n="0"/>   
                  <lb n="1"/>ΣΦΡΑΓΙΣ
                  <lb n="2"/>ΣΕR.̣ΟΥ 
                  <lb n="3"/>ΤΟΥ̣.Ρ̣ΟΜ

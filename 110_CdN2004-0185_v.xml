@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en">Michael Kontostephanos, magistros and doux of Antioch</title>
+            <title xml:lang="fr">Michel Kontostéphanos, magistre et duc d’Antioche</title>
+            <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
+            <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+            <funder>
+               <orgName corresp="https://www.mahmah.ch/">MAH-Musée d'art et d'histoire - Genève,
+                  Cabinet de numismatique</orgName>, Suisse </funder>
+            <principal ref="#MCP"/>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <seg xml:lang="fr">Amélioration digitale</seg>
+               <seg xml:lang="en">Digital enhancement</seg>
+            </edition>
+            <editor role="digital-editor" xml:id="PE" when="2025-04-02">Pia Evening</editor>
+            <editor role="digital-editor" ref="#MCP" when="2026-01-19">Maria Campagnolo-Pothitou</editor>
+         </editionStmt>
+         <publicationStmt>
+            <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
+            <idno type="filename">CdN 2004-0185</idno>
+            <idno type="SigiDocID">s-TTGC7G</idno>
+            <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+            <idno type="sequence"/>
+            <!--  to be compiled automatically; leave as is  -->
+            <date when="2024-08-06"/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                  >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                  4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listPerson type="issuer">
+               <person gender="M" role="military aristocracy">
+                  <persName xml:lang="grc">
+                     <forename> Μιχαήλ</forename>
+                     <surname>Κοντοστέφανος</surname>
+                  </persName>
+                  <persName xml:lang="fr">
+                     <forename>Michel</forename>
+                     <surname>Kontostéphanos</surname>
+                  </persName>
+                  <persName xml:lang="en">
+                     <forename>Michael</forename>
+                     <surname>Kontostephanos</surname>/> </persName>
+                  <idno type="PBW" ana="http://pbw2016.kdl.kcl.ac.uk/person/Michael/20385/">Michael 20385</idno>
+
+                  <idno type="PBE"/>
+                  <idno type="PLP"/>
+                  <idno type="PLRE"/>
+                  <idno type="PcBE"/>
+                  <idno type="PmbZ"/>
+               </person>
+            </listPerson>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <seg xml:lang="en">Switzerland</seg>
+                     <seg xml:lang="fr">Suisse</seg>
+                  </country>
+                  <settlement>
+                     <seg xml:lang="en">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">City of
+                           Geneva</placeName>
+                     </seg>
+                     <seg xml:lang="fr">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">Ville de
+                           Genève</placeName>
+                     </seg>
+                  </settlement>
+                  <institution>MAH-Musée d'art et d'histoire</institution>
+                  <repository>Cabinet de numismatique</repository>
+                  <collection type="public">
+                     <rs type="collection-name" xml:lang="en">Byzantine seals collection</rs>
+                     <rs type="collection-name" xml:lang="fr">Collection de sceaux byzantins</rs>
+                  </collection>
+                  <idno type="inv-nr-current">CdN 2004-0185</idno>
+                  <altIdentifier>
+                     <repository/>
+                     <idno type="inv-nr-former"/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <!--https://github.com/SigiDoc/Guidelines/wiki/5.-Controlled-vocabularies#seals-category-->
+                  <summary n="whole">
+                     <seg xml:lang="fr">Administration provinciale</seg>
+                     <seg xml:lang="en">Provincial administration</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>
+                              <term>
+                                 <seg xml:lang="fr">Sceau</seg>
+                                 <seg xml:lang="en">Seal</seg>
+                              </term>
+                              <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                              <interp type="workType" xml:lang="en">Original impression</interp>
+                           </objectType>
+                           <material>
+                              <seg xml:lang="fr">Plomb</seg>
+                              <seg xml:lang="en">Lead</seg>
+                           </material>
+                           <dimensions type="support" unit="mm">
+                              <dim type="diameter">35</dim>
+                              <!-- mesure du champ? -->
+                           </dimensions>
+                           <measure type="weight" unit="g">27,380</measure>
+                           <measure type="axis" unit="clock"/>
+                           <measure type="overstrikeOrient" unit="clock"/>
+                           <measure type="channelOrient" unit="clock">12-6</measure>
+                           <measure type="countermark" unit="clock"/>
+                        </support>
+                        <condition rend="well-struck well-preserved crushed chipped not-centered">
+                           <p xml:lang="en">The bulla is well-struck, but not centerd, and
+                              well-preserved; slightly chipped at the openings of the channel and
+                              partially crushed on both sides.</p>
+                           <p xml:lang="fr">La bulle est bien frappée, même si décentré vers le
+                              haut, et bien conservée; légèrement échancrée aux orifices du canal et
+                              partiellement écrasée sur les deux faces.</p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout n="whole">
+                           <rs type="execution">
+                              <seg xml:lang="fr">Frappé</seg>
+                              <seg xml:lang="en">Struck</seg>
+                           </rs>
+                           <rs type="shape">
+                              <seg xml:lang="fr">Ronde</seg>
+                              <seg xml:lang="en">Round</seg>
+                           </rs>
+                           <rs type="matrix" subtype="not-surviving">
+                              <idno type="SigiDoc">m-UqbxCR</idno>
+                              <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+                              <idno type="PBW" ana=" http://pbw2016.kdl.kcl.ac.uk/boulloterion/4540/">Michael 20385</idno>
+                              <!-- to be used if the seal has a parallel in the PBW with a boulloterion registered there -->
+                           </rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <seg xml:lang="fr">Antioche <placeName/>
+                        </seg>
+                        <seg xml:lang="en">Antioch <placeName/>
+                        </seg>
+                     </origPlace>
+                     <origDate type="analysis" notBefore="1055" notAfter="1057"
+                        evidence="prosopography titulature iconography" cert="low" resp="#MCP #JCC">
+                        <seg xml:lang="en">1055-1057 ?</seg>
+                        <seg xml:lang="fr">1055-1057 ?</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="transferred" subtype="donated" when="2004-11-24">
+                     <!-- pas sûr de subtype et when -->
+                     <p xml:lang="en">George Zacos collection</p>
+                     <p xml:lang="fr">Collection Georges Zacos</p>
+                  </provenance>
+                  <acquisition>
+                     <p xml:lang="en">Donation of the Migore Foundation, Janet Zakos legacy, <date
+                           when="2004-11-24">24th November 2004</date>
+                     </p>
+                     <p xml:lang="fr">Don de la Fondation Migore, legs Janet Zakos, <date
+                           when="2004-11-24">24 Novembre 2004</date>
+                     </p>
+                  </acquisition>
+               </history>
+               <msPart n="r">
+                  <msIdentifier/>
+                  <msContents>
+                     <!-- ajouté ceci -->
+                     <summary n="r">
+                        <seg xml:lang="en">Obverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="r">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="fr">Iconographie avec épigraphe en colonnes de part et
+                                 d'autre de l'effigie</p>
+                              <p xml:lang="en">Iconography with epigraph on either side of the
+                                 effigy</p>
+                           </layout>
+                        </layoutDesc>
+
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="r">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="r" xml:lang="fr" ana="person male saint Demetrios">Saint
+                                 Dèmètrios en pied, de face, tenant la lance en main droite, la
+                                 gauche appuyée sur le bouclier posé par terre.</figDesc>
+                              <figDesc n="r" xml:lang="en" ana="person male saint Demetrios">Saint
+                                 Demetrios standing facing forward, holding a spear on the right
+                                 hand and relying on a shield placed on the ground</figDesc>
+                              <figDesc n="decoR" xml:lang="fr">Cercle de grènetis</figDesc>
+                              <figDesc n="decoR" xml:lang="en">Circle of dots</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+               <msPart n="v">
+                  <msIdentifier/>
+                  <msContents>
+                     <summary n="v"><!-- ajouté ceci -->
+                        <seg xml:lang="en">Reverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="v">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="en">Linear legend of 7 lines</p>
+                              <p xml:lang="fr">Légende linéaire sur 7 lignes</p>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="v">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="decoV" xml:lang="fr">Cercle de grènetis; la légende est
+                                 précédée d'une croisette</figDesc>
+                              <figDesc n="decoV" xml:lang="en">Circle of dots; the legend is
+                                 preceded by a crosslet</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2025-04-02" who="#PE">Creation of the XML record.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp>
+         <surface n="r">
+            <desc>Obverse</desc>
+            <graphic type="photo" url="CdN2004-0185_1.jpg">
+               <desc xml:lang="en">CdN 2004-0185, obverse</desc>
+               <desc xml:lang="fr">CdN 2004-0185, avers</desc>
+            </graphic>
+         </surface>
+         <surface n="v">
+            <desc>Reverse</desc>
+            <graphic type="photo" url="CdN2004-0185_2.jpg">
+               <desc xml:lang="en">CdN 2004-0185, reverse</desc>
+               <desc xml:lang="fr">CdN 2004-0185, revers</desc>
+            </graphic>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" subtype="editorial" xml:space="preserve"> 
+            <div type="textpart" subtype="label" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="a"/>Ὁ <expan><abbr>ἅγιο</abbr><ex>ς</ex></expan> 
+                 <cb n="b"/><expan><abbr><supplied reason="lost">Δημήτ</supplied>ριο</abbr><ex>ς</ex></expan> 
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab ana="dat">
+                         <lb n="1"/><rs type="invocation" ref="#inv004"><expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan> <expan><abbr>β</abbr><ex>ο</ex><abbr>ήθ</abbr><ex>ει</ex></expan> 
+                         <lb n="2"/>τῷ σῷ <expan><abbr>δούλ</abbr><ex>ῳ</ex></expan></rs> 
+                         <lb n="3"/>Μιχ<supplied reason="lost">α</supplied>ὴλ <rs type="dignity" ref="#d0038"><expan><abbr>μα
+                         <lb n="4"/>γίστρ</abbr><ex>ῳ</ex></expan></rs> <expan><abbr><am>S</am></abbr><ex>καὶ</ex></expan> <rs type="office" subtype="military" ref="#of0245"><expan><abbr>δουκ</abbr><ex>ὶ</ex></expan></rs> 
+                         <lb n="5"/><placeName ref="#geo0001"><expan><abbr>Ἀντιοχ</abbr><ex>είας</ex></expan></placeName> τῷ 
+                         <lb n="6"/><expan><abbr>Κοντ</abbr><ex>ο</ex><abbr>στε
+                         <lb n="7"/>φάν</abbr><ex>ῳ</ex></expan>
+                      </ab>
+                  </div>
+              </div>
+         <div type="edition" subtype="diplomatic" xml:space="preserve"> 
+                  <div type="textpart" subtype="label" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="a"/>Ο|Α|Γi|Ο⸉ 
+                 <cb n="b"/>…. |ρ̣ι|ο⸉
+              </ab>
+            </div>
+            <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab>
+                         <lb n="1"/>ker/ ηθ/                                             
+                         <lb n="2"/>τ̣σδλ/ 
+                         <lb n="3"/>μ̣ιχ.ηλμα
+                         <lb n="4"/>γιστρ/  δκ/
+                         <lb n="5"/>αντιοχ/ τ
+                         <lb n="6"/>κοντ/ στε
+                         <lb n="7"/>φαν//
+                         </ab>
+                  </div>
+              </div>
+         <div type="translation">
+            <p>Ὁ ἅγιος Δημήτριος. || + Κύριε βοήθει τῷ σῷ δούλῳ Μιχαὴλ μαγίστρῳ καὶ δουκὶ Ἀντιοχείας
+               τῷ Κοντοστεφάνῳ.</p>
+            <p xml:lang="en">Saint Demetrios. || + Lord, help your servant Michael Kontostéphanos,
+               magistros and doux of Antioch</p>
+            <p xml:lang="fr">Saint Dèmètrios. || + Seigneur, accorde ton secours à ton serviteur
+               Michel Kontostéphanos, magistre et duc d’Antioche</p>
+         </div>
+         <div type="commentary" subtype="text">
+            <!-- renvois internes à refaire -->
+            <p xml:lang="en">The Kontostephanoi appear in narrative sources with Stephen, a servant
+               of the Scholes of the West under Basil II, nicknamed Kontostephanos (Stephen the
+               Short) because of his small stature<bibl>
+                  <ptr target="Empereurs2003"/>, p. <citedRange unit="page">157</citedRange></bibl>.
+               The family was therefore part of the military aristocracy before rising to the top
+               ranks of society through marriages with the imperial Komnenos family in the 11th
+               century. Michael, brother-in-law of Isaac Komnenos, must have held the high office of
+               doux of Antioch between 1055 and 1057, leaving behind from this period another type
+               of seal with the same legend as ours but bearing on the right a bust of the Virgin
+               Blachernitissa, praying, without the medallion <bibl>
+                  <ptr target="ZacosSpink1"/>, n° <citedRange unit="entry">43</citedRange></bibl>;
+                     <bibl><ptr target="Cheynet2001"/>, p. <citedRange unit="page"
+                     >57-58</citedRange></bibl>. This seal chronologically precedes the lead seal
+               presented here, as Michael, on his seal as kouropalates and doux, also places himself
+               under the protection of Saint Demetrios. This latter seal must date from the reign of
+               Isaac Komnenos (1057-1059), who promoted other officers to the high dignity of
+               kouropalates, including his brother John or Romanos Skleros, also doux of Antioch and
+               a member of the group that brought Isaac to power. Several bullae are known but of
+               different boulloteria. Among others, Ermitage M-2980 and M-6151) ; <bibl>
+                  <ptr target="CheynetTheodoridis"/>, n° <citedRange unit="entry"
+                  >111</citedRange></bibl>; Vente Gorny 113 (octobre 2001), n° 6171. Michael may
+               also have been promoted to kouropalates by Constantine X Doukas. Although as a
+               general rule the signatory of a seal keeps the same saint patron throughout his
+               cursus honorum, there are exceptions. Thus, Romanos Skleros, initially dedicated to
+               Saint George, later replaced him with the effigy of Saint Michael.<bibl>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">107</citedRange></bibl>. </p>
+            <p xml:lang="en"/>
+            <p xml:lang="fr">Les Kontostéphanoi apparaissent dans les sources narratives avec
+               Étienne, domestique des Scholes de l’Occident sous Basile II, surnommé Kontostéphanos
+               (Étienne le Bref) en raison de sa petite taille<bibl>
+                  <ptr target="Empereurs2003"/>, p. <citedRange unit="page"
+               >157</citedRange></bibl>.. La famille faisait donc partie de l’aristocratie militaire
+               avant de se placer aux premiers rangs de la société par des unions matrimoniales avec
+               la famille impériale des Comnènes, dès le xie siècle. Michel, beau-frère d’Isaac
+               Comnène, a dû occuper le haut poste de duc d’Antioche entre 1055 et 1057, en laissant
+               de cette période un autre type de sceau de même légende que le nôtre mais portant au
+               droit un buste de la Vierge Blachernitissa, orante, sans le médaillon<bibl>
+                  <ptr target="ZacosSpink1"/>, n° <citedRange unit="entry">43</citedRange></bibl>;
+                     <bibl><ptr target="Cheynet2001"/>, p. <citedRange unit="page"
+                     >57-58</citedRange></bibl>. Ce sceau précède chronologiquement le plomb
+               présenté ici, puisque Michel, sur son sceau de curopalate et duc, se place également
+               sous la protection de saint Dèmètrios. Ce dernier sceau doit dater du règne d’Isaac
+               Comnène (1057-1059) qui a promu à la haute dignité de curopalate d’autres officiers,
+               dont son frère Jean ou bien Romain Sklèros, lui aussi duc d’Antioche et membre du
+               groupe qui porta Isaac au pouvoir. Plusieurs exemplaires sont conservés issus de
+               boullôtèreia différents. Entre autres, Ermitage M-2980 and M-6151 ; <bibl>
+                  <ptr target="CheynetTheodoridis"/>, n° <citedRange unit="entry"
+                  >111</citedRange></bibl>; Vente Gorny 113 (octobre 2001), n° 6171. Michel a pu
+               aussi être promu curopalate par Constantin X Doukas. Bien qu’en règle générale le
+               sigillant garde le même saint titulaire tout le long de son cursus honorum, les
+               exceptions ne manquent pas : ainsi, Romain Sklèros, d’abord voué à saint Georges, lui
+               a ensuite substitué l’effigie de saint Michel <bibl>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry"
+               >107</citedRange></bibl>.</p>
+            <p xml:lang="fr"/>
+         </div>
+         <div type="bibliography" subtype="edition">
+            <p><bibl>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">110</citedRange></bibl>
+               <bibl/>
+            </p>
+         </div>
+         <div type="bibliography" subtype="parallels">
+            <p> BZS 1955.1.3105 : <bibl>
+                  <ptr target="DOsealsOnline"/>, n° <citedRange unit="entry">BZS
+                     1955.1.3105</citedRange></bibl>;
+               <bibl>
+                  <ptr target="DOseals6"/>, n° <citedRange unit="entry">5.9.4</citedRange></bibl>
+               
+            </p>
+         </div>
+         <div type="bibliography" subtype="discussion">
+            <p> <bibl>
+                  <ptr target="BBÖ2"/>, p. <citedRange unit="page">263</citedRange></bibl>;
+               <bibl>
+                  <ptr target="CheynetTheodoridis"/>, n° <citedRange unit="entry">111</citedRange></bibl></p>
+         </div>
+      </body>
+   </text>
+</TEI>

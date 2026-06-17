@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en">Samuel Alousianos, proedros and doux</title>
+            <title xml:lang="fr">Samuel Alousianos, proèdre et duc</title>
+            <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
+            <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+            <funder>
+               <orgName corresp="https://www.mahmah.ch/">MAH-Musée d'art et d'histoire - Genève,
+                  Cabinet de numismatique</orgName>, Suisse </funder>
+            <principal ref="#MCP"/>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <seg xml:lang="fr">Amélioration digitale</seg>
+               <seg xml:lang="en">Digital enhancement</seg>
+            </edition>
+            <editor role="digital-editor" xml:id="PE" when="2025-04-02">Pia Evening</editor>
+         </editionStmt>
+         <publicationStmt>
+            <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
+            <idno type="filename">CdN 2004-0551</idno>
+            <idno type="SigiDocID">s-8L0GZQ</idno>
+            <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+            <idno type="sequence"/>
+            <!--  to be compiled automatically; leave as is  -->
+            <date when="2024-08-06"/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                  >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                  4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listPerson type="issuer">
+               <person gender="M" role="civil aristocracy">
+                  <persName xml:lang="grc">
+                     <forename>Σαμουήλ</forename> <surname>Ἀλουσιάνος</surname> </persName>
+                  <persName xml:lang="fr">
+                     <forename>Samuel</forename> <surname>Alousianos</surname> </persName>
+                  <persName xml:lang="en">
+                     <forename>Samuel</forename> <surname>Alousianos</surname> </persName>
+                  <idno type="PBW" ana="http://pbw2016.kdl.kcl.ac.uk/person/Samuel/101/">Samuel
+                     101</idno>
+
+                  <idno type="PBE"/>
+                  <idno type="PLP"/>
+                  <idno type="PLRE"/>
+                  <idno type="PcBE"/>
+                  <idno type="PmbZ"/>
+               </person>
+            </listPerson>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <seg xml:lang="en">Switzerland</seg>
+                     <seg xml:lang="fr">Suisse</seg>
+                  </country>
+                  <settlement>
+                     <seg xml:lang="en">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">City of
+                           Geneva</placeName>
+                     </seg>
+                     <seg xml:lang="fr">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">Ville de
+                           Genève</placeName>
+                     </seg>
+                  </settlement>
+                  <institution>MAH-Musée d'art et d'histoire</institution>
+                  <repository>Cabinet de numismatique</repository>
+                  <collection type="public">
+                     <rs type="collection-name" xml:lang="en">Byzantine seals collection</rs>
+                     <rs type="collection-name" xml:lang="fr">Collection de sceaux byzantins</rs>
+                  </collection>
+                  <idno type="inv-nr-current">CdN 2004-0551</idno>
+                  <altIdentifier>
+                     <repository/>
+                     <idno type="inv-nr-former"/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <!--https://github.com/SigiDoc/Guidelines/wiki/5.-Controlled-vocabularies#seals-category-->
+                  <summary n="whole">
+                     <seg xml:lang="fr">Administration centrale</seg>
+                     <seg xml:lang="en">Central administration</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>
+                              <term>
+                                 <seg xml:lang="fr">Sceau</seg>
+                                 <seg xml:lang="en">Seal</seg>
+                              </term>
+                              <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                              <interp type="workType" xml:lang="en">Original impression</interp>
+                           </objectType>
+                           <material>
+                              <seg xml:lang="fr">Plomb</seg>
+                              <seg xml:lang="en">Lead</seg>
+                           </material>
+                           <dimensions type="support" unit="mm">
+                              <dim type="diameter">24</dim>
+                              <!-- mesure du champ? -->
+                           </dimensions>
+                           <measure type="weight" unit="g">14,698</measure>
+                           <measure type="axis" unit="clock"/>
+                           <measure type="overstrikeOrient" unit="clock"/>
+                           <measure type="channelOrient" unit="clock">12-6</measure>
+                           <measure type="countermark" unit="clock"/>
+                        </support>
+                        <condition rend="well-struck well-preserved chipped">
+                           <p xml:lang="en">The bulla is well-struck and well-preserved, slightly
+                              chipped at the opennings of the channel </p>
+                           <p xml:lang="fr">La bulle est bien frappée et bien conservée; légèrement
+                              échancrée aux orifices du canal</p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout n="whole">
+                           <rs type="execution">
+                              <seg xml:lang="fr">Frappé</seg>
+                              <seg xml:lang="en">Struck</seg>
+                           </rs>
+                           <rs type="shape">
+                              <seg xml:lang="fr">Ronde</seg>
+                              <seg xml:lang="en">Round</seg>
+                           </rs>
+                           <rs type="matrix" subtype="not-surviving">
+                              <idno type="SigiDoc">m-MuaXnI</idno>
+                              <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+                              <idno type="PBW" ana= "http://pbw2016.kdl.kcl.ac.uk/boulloterion/783/"/>
+                              <!-- to be used if the seal has a parallel in the PBW with a boulloterion registered there -->
+                           </rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <seg xml:lang="fr">
+                           <placeName/>
+                        </seg>
+                        <seg xml:lang="en">
+                           <placeName/>
+                        </seg>
+                     </origPlace>
+                     <origDate type="analysis" notBefore="1067" notAfter="1100"
+                        evidence="epigraphy prosopography iconography titulature" cert="high"
+                        resp="#MCP #JCC">
+                        <seg xml:lang="en">Last third of the 11th century</seg>
+                        <seg xml:lang="fr">Dernier tiers du XIe siècle</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="transferred" subtype="donated" when="2004-11-24">
+                     <!-- pas sûr de subtype et when -->
+                     <p xml:lang="en">George Zacos collection</p>
+                     <p xml:lang="fr">Collection Georges Zacos</p>
+                  </provenance>
+                  <acquisition>
+                     <p xml:lang="en">Donation of the Migore Foundation, Janet Zakos legacy, <date
+                           when="2004-11-24">24th November 2004</date>
+                     </p>
+                     <p xml:lang="fr">Don de la Fondation Migore, legs Janet Zakos, <date
+                           when="2004-11-24">24 Novembre 2004</date>
+                     </p>
+                  </acquisition>
+               </history>
+               <msPart n="r">
+                  <msIdentifier/>
+                  <msContents>
+                     <!-- ajouté ceci -->
+                     <summary n="r">
+                        <seg xml:lang="en">Obverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="r">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="fr">Iconographie avec de part et d'autre sigles </p>
+                              <p xml:lang="en">Iconography with on either side sigla</p>
+                           </layout>
+                        </layoutDesc>
+
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="r">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="r" xml:lang="fr" ana="person female Virgin seated">Vierge,
+                                 de face, assise, sur un thôkos (trône sans dossier), aux piètements
+                                 faits de perles et garni d’un coussin, tenant des deux mains,
+                                 debout sur ses genoux, l’Enfant bénissant.</figDesc>
+                              <figDesc n="r" xml:lang="en" ana="person female Virgin seated">Virgin,
+                                 facing forward, seated on a thôkos (throne without a backrest),
+                                 with legs made of pearls and adorned with a cushion, holding the
+                                 blessing Child with both hands, standing on her knees.</figDesc>
+                              <figDesc n="decoR" xml:lang="fr">Cercle de grènetis</figDesc>
+                              <figDesc n="decoR" xml:lang="en">Circle of dots</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+               <msPart n="v">
+                  <msIdentifier/>
+                  <msContents>
+                     <summary n="v"><!-- ajouté ceci -->
+                        <seg xml:lang="en">Reverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="v">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="en">Linear legend of 7 lines</p>
+                              <p xml:lang="fr">Légende linéaire sur 7 lignes</p>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="v">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="decoV" xml:lang="fr">Cercle de grènetis; la première ligne
+                                 est précédée d'une croisette</figDesc>
+                              <figDesc n="decoV" xml:lang="en">Circle of dots; the first line is
+                                 preceded by a crosslet</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2025-04-02" who="#PE">Creation of the XML record.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp>
+         <surface n="r">
+            <desc>Obverse</desc>
+            <graphic type="photo" url="CdN2004-0551_1.jpg">
+               <desc xml:lang="en">CdN 2004-0551, obverse</desc>
+               <desc xml:lang="fr">CdN 2004-0551, avers</desc>
+            </graphic>
+         </surface>
+         <surface n="v">
+            <desc>Reverse</desc>
+            <graphic type="photo" url="CdN2004-0551_2.jpg">
+               <desc xml:lang="en">CdN 2004-0551, reverse</desc>
+               <desc xml:lang="fr">CdN 2004-0551, revers</desc>
+            </graphic>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" subtype="editorial" xml:space="preserve"> 
+            <div type="textpart" subtype="sigla" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="a"/><expan><abbr>Μ</abbr><ex>ήτ</ex><abbr>ηρ</abbr></expan>
+                 <cb n="b"/><expan><abbr>Θ</abbr><ex>εο</ex><abbr>ῦ</abbr></expan>
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab ana="dat">
+                         <lb n="1"/><rs type="invocation" ref="#inv001"><expan><abbr>Θ</abbr><ex>εοτό</ex><abbr>κε</abbr></expan> 
+                         <lb n="2"/>βοήθει</rs> 
+                         <lb n="3"/>Σαμουὴλ 
+                         <lb n="4"/><rs type="dignity" ref="#d0051"><supplied reason="lost">π</supplied>ροέδρῳ</rs> 
+                         <lb n="5"/><expan><abbr><am>S</am></abbr><ex>καὶ</ex></expan> <rs type="office" subtype="military" ref="#of0245">δουκὶ</rs> τῷ 
+                         <lb n="6"/>Ἀλουσι
+                         <lb n="7" break="no"/>άνῳ
+                      </ab>
+                  </div>
+              </div>
+         <div type="edition" subtype="diplomatic" xml:space="preserve"> 
+                  <div type="textpart" subtype="sigla" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="a"/>̅   
+                 <cb n="b"/>Θυ
+              </ab>
+            </div>
+            <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab>
+                         <lb n="1"/>Θκε                         
+                         <lb n="2"/>Rοηθει 
+                         <lb n="3"/>σ̣αμουηλ
+                         <lb n="4"/>.ρ̣οεδρ
+                         <lb n="5"/>δκιτ
+                         <lb n="6"/>αλουσι
+                         <lb n="7"/>αν
+                         </ab>
+                  </div>
+              </div>
+         <div type="translation">
+            <p>Μήτηρ Θεοῦ. || + Θεοτόκε βοήθει Σαμουὴλ προέδρῳ καὶ δουκὶ τῷ Ἀλουσιάνῳ.</p>
+            <p xml:lang="en">Mother of God. || + Mother of God help Samuel Alousianos, proedros and
+               doux</p>
+            <p xml:lang="fr">Mère de Dieu. || + Mère de Dieu apporte ton secours à Samuel
+               Alousianos, proèdre et duc</p>
+         </div>
+         <div type="commentary" subtype="text">
+            <!-- renvois internes à refaire -->
+            <p xml:lang="en">Samuel Alousianos has also left an other type of this same seal on
+               which the legend begins on the obverse around the Virgin seated on a throne with a
+               backrest +Θεοτόκε βοήθει τῷ σῷ δούλῳ, followed on the reverse by a five lines legend
+               : -+-|Σαμουὴλ|προέδρῳ|καὶ δουκὶ|τῷ Ἀλου|-σιάν (<bibl>
+                  <ptr target="Athens2000"/>, n° <citedRange unit="entry">9</citedRange></bibl>; <bibl>
+                  <ptr target="Sode1997"/>, n° <citedRange unit="entry">393</citedRange></bibl>; <bibl>
+                  <ptr target="JordanovCorpus 2"/>, n° <citedRange unit="entry"
+                  >25</citedRange></bibl>;<bibl>
+                  <ptr target="SeibtKestner"/>, n° <citedRange unit="entry"
+               >27</citedRange></bibl>)</p>
+            <p xml:lang="en">Samuel Alousianos bears the first name of his father, the magistros
+               Alousianos. He belongs to the second generation of Bulgarian princes subjugated by
+               Basil II and assimilated into Byzantine society, mainly through strategic marriages.
+               Catherine, one of Samuel's paternal aunts, married the future emperor Isaac Comnenus,
+               while his mother owned a considerable amount of land in the Charsianon theme. His
+               sister was the first wife of the future emperor Romanos IV Diogenes. It was during
+               Romanus' reign that Samuel seems to have reached the peak of his military career. In
+               1069, he suffered a crushing defeat leading five tagmata from the West against the
+               Frankish mercenary rebel Crispin, in the theme of Armenia. He was then vestarches, a
+               highly esteemed title at that time, but inferior to that of proedros, which was
+               probably granted to him by Romanos IV. Therefore, two other seals bearing the name
+               Samuel Alousianos could be attributed to our signatory, albeit with some
+               reservations. On one of the seals, the vestarches and doux of Edessa commends himself
+               to Saint Theodore, who was very popular among the military in the East, but his first
+               name, which is crushed, could just as easily be deciphered as Basil. Basil Alousianos
+               held the position of doux of Edessa. On the other seal, the vestarches and strategos
+               has included Saint John the Forerunner, who was also very popular in the East. The
+               Alousianoi were quite prolific, since we also know George, doux of Theodosioupolis (<bibl>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">134</citedRange></bibl>)
+               and doux of Kars, David, Konstantinos, Elpidophoros and Michael.</p>
+
+            <p xml:lang="fr">Samuel Alousianos a aussi frappé un autre type de bulle de même légende
+               mais celle-ci débute au droit, autour de la Vierge assise sur un trône à dossier,
+               Θεοτόκε βοήθει τῷ σῷ δούλῳ, et se poursuit au revers sur cinq lignes :
+               -+-|Σαμουὴλ|προέδρῳ|καὶ δουκὶ|τῷ Ἀλου|-σιάν (<bibl>
+                  <ptr target="Athens2000"/>, n° <citedRange unit="entry">9</citedRange></bibl>; <bibl>
+                  <ptr target="Sode1997"/>, n° <citedRange unit="entry">393</citedRange></bibl>; <bibl>
+                  <ptr target="JordanovCorpus 2"/>, n° <citedRange unit="entry"
+                  >25</citedRange></bibl>;<bibl>
+                  <ptr target="SeibtKestner"/>, n° <citedRange unit="entry"
+               >27</citedRange></bibl>)</p>
+            <p xml:lang="fr">Samuel Alousianos porte pour patronyme le prénom de son père, le
+               magistre Alousianos. Il fait partie de la deuxième génération des princes bulgares
+               soumis par Basile II et assimilés dans la société byzantine, surtout à travers des
+               mariages opportuns. Catherine, une des tantes paternelles de Samuel, a épousé le
+               futur empereur Isaac Comnène, alors que sa mère possédait un patrimoine foncier
+               notable dans le thème du Charsianon. Sa soeur fut la première épouse du futur
+               empereur Romain IV Diogène. C’est sous le règne de celui-ci que Samuel semble avoir
+               atteint le sommet de sa carrière militaire. En 1069, il essuya une cuisante défaite
+               en conduisant cinq tagmata d’Occident contre le rebelle mercenaire franc Crispin,
+               dans le thème des Arméniaques. Il était alors vestarque, titre fort estimable à cette
+               date, mais inférieur à celui de proèdre, qui lui fut probablement octroyé par Romain
+               IV. Dès lors, deux autres sceaux au nom de Samuel Alousianos pourraient être
+               attribués à notre signataire, non sans réserve. Sur l’un des plombs, en effet, le
+               vestarque et duc d’ Édesse se recommande à saint Théodore, très populaire parmi les
+               militaires d’Orient, mais son prénom, écrasé, pourrait tout aussi bien être déchiffré
+               en Basile. Or, Basile Alousianos a occupé le poste de duc d’Édesse(<bibl>
+                  <ptr target="BBÖ2"/>, n° <citedRange unit="entry">251</citedRange></bibl>). Sur
+               l’autre bulle, le vestarque et stratège a fait figurer saint Jean Prodrome, lui aussi
+               très populaire en Orient. Les Alousianoi furent assez prolifiques, puisque nous
+               connaissons aussi Georges, duc de Théodosioupolis (<bibl>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">134</citedRange></bibl>)
+               et duc de Kars, David, Constantin, Elpidiphoros et Michel (Jordanov, « Descendants
+               d’Ivan Vladislav »).</p>
+         </div>
+         <div type="bibliography" subtype="edition">
+            <p><bibl>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">95a</citedRange></bibl>; <bibl>
+                  <ptr target="ZacosSpink3"/>, n° <citedRange unit="entry">280</citedRange></bibl>
+               <bibl/>
+            </p>
+         </div>
+         <div type="bibliography" subtype="parallels">
+            <p> Zacos (BnF) 48, 50, 1234 ; Fogg 280 ; Ermitage, M-5945 ; Munich, Staatliche
+               Münzsammlung, anc. coll. Zarnitz, 466 ; Musée de Sofia ; coll. Theodoridis, 151,
+               1049, 1121, 1133; Ventes diverses, dont la liste est donnée in Seibt, Kestner, no 27,
+               p. 73, note 115: <bibl>
+                  <ptr target="Seibt1997"/>, n° <citedRange unit="entry">3.1.9</citedRange></bibl>; <bibl>
+                  <ptr target="JordanovCorpus2"/>, n° <citedRange unit="entry"
+                  >24</citedRange></bibl>; <bibl>
+                  <ptr target="CheynetTheodoridis"/>, n° <citedRange unit="entry"
+                  >2</citedRange></bibl>
+            </p>
+         </div>
+         <div type="bibliography" subtype="discussion">
+            <p> </p>
+         </div>
+      </body>
+   </text>
+</TEI>

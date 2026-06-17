@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en">Basil Xeros, vestarches and judge of Péloponnesos and the
+               Hellade</title>
+            <title xml:lang="fr">Basile Xèros, vestarque et juge du Péloponnèse et de
+               l’Hellade</title>
+            <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
+            <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+            <funder>
+               <orgName corresp="https://www.mahmah.ch/">MAH-Musée d'art et d'histoire - Genève,
+                  Cabinet de numismatique</orgName>, Suisse</funder>
+            <principal ref="#MCP"/>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <seg xml:lang="fr">Amélioration digitale</seg>
+               <seg xml:lang="en">Digital enhancement</seg>
+            </edition>
+            <editor role="digital-editor" xml:id="PE" when="2025-04-14">Pia Evening</editor>
+            <editor role="digital-editor" ref="#MCP" when="2026-02-25">Maria
+               Campagnolo-Pothitou</editor>
+         </editionStmt>
+         <publicationStmt>
+            <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
+            <idno type="filename">CdN 2004-0414</idno>
+            <idno type="SigiDocID">s-KbxKJl</idno>
+            <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+            <idno type="sequence"/>
+            <!--  to be compiled automatically; leave as is  -->
+            <date when="2024-08-06"/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                  >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                  4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listPerson type="issuer">
+               <person gender="M" role="civil aristocracy">
+                  <persName xml:lang="grc">
+                     <forename>Βασίλειος</forename>
+                     <surname>Ξηρός</surname>
+                  </persName>
+                  <persName xml:lang="fr">
+                     <forename>Basile</forename>
+                     <surname>Xèros</surname>
+                  </persName>
+                  <persName xml:lang="en">
+                     <forename>Basil</forename>
+                     <surname>Xeros</surname>
+                  </persName>
+                  <idno type="PBW" ana="http://pbw2016.kdl.kcl.ac.uk/person/Basileios/20193/"
+                     >Basileios 20193</idno>
+
+                  <idno type="PBE"/>
+                  <idno type="PLP"/>
+                  <idno type="PLRE"/>
+                  <idno type="PcBE"/>
+                  <idno type="PmbZ"/>
+               </person>
+            </listPerson>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <seg xml:lang="en">Switzerland</seg>
+                     <seg xml:lang="fr">Suisse</seg>
+                  </country>
+                  <settlement>
+                     <seg xml:lang="en">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">City of
+                           Geneva</placeName>
+                     </seg>
+                     <seg xml:lang="fr">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">Ville de
+                           Genève</placeName>
+                     </seg>
+                  </settlement>
+                  <institution>MAH-Musée d'art et d'histoire</institution>
+                  <repository>Cabinet de numismatique</repository>
+                  <collection type="public">
+                     <rs type="collection-name" xml:lang="en">Byzantine seals collection</rs>
+                     <rs type="collection-name" xml:lang="fr">Collection de sceaux byzantins</rs>
+                  </collection>
+                  <idno type="inv-nr-current">CdN 2004-0414</idno>
+                  <altIdentifier>
+                     <repository/>
+                     <idno type="inv-nr-former"/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <!--https://github.com/SigiDoc/Guidelines/wiki/5.-Controlled-vocabularies#seals-category-->
+                  <summary n="whole">
+                     <seg xml:lang="fr">Administration provinciale</seg>
+                     <seg xml:lang="en">Provincial administration</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>
+                              <term>
+                                 <seg xml:lang="fr">Sceau</seg>
+                                 <seg xml:lang="en">Seal</seg>
+                              </term>
+                              <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                              <interp type="workType" xml:lang="en">Original impression</interp>
+                           </objectType>
+                           <material>
+                              <seg xml:lang="fr">Plomb</seg>
+                              <seg xml:lang="en">Lead</seg>
+                           </material>
+                           <dimensions type="support" unit="mm">
+                              <dim type="diameter">30,96/29,57</dim>
+                              <!-- mesure du champ? -->
+                           </dimensions>
+                           <measure type="weight" unit="g">15,146</measure>
+                           <measure type="axis" unit="clock"/>
+                           <measure type="overstrikeOrient" unit="clock"/>
+                           <measure type="channelOrient" unit="clock">12-6</measure>
+                           <measure type="countermark" unit="clock"/>
+                        </support>
+                        <condition rend="well-struck not-centered well-preserved chipped worn-edge">
+                           <p xml:lang="en">The bulla is well struk even if not centered and
+                              well-preservd; although chipped at the openings of the channel and
+                              worn on the edge</p>
+                           <p xml:lang="fr">La bulle est bien frappée bien que décentrée et bien
+                              conservée; échancrée aux orifices du canal et rognée sur le
+                              pourtour</p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout n="whole">
+                           <rs type="execution">
+                              <seg xml:lang="fr">Frappé</seg>
+                              <seg xml:lang="en">Struck</seg>
+                           </rs>
+                           <rs type="shape">
+                              <seg xml:lang="fr">Ronde</seg>
+                              <seg xml:lang="en">Round</seg>
+                           </rs>
+                           <rs type="matrix" subtype="not-surviving">
+                              <idno type="SigiDoc">m-GSndyo</idno>
+                              <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+                              <idno type="PBW"/>
+                              <!-- to be used if the seal has a parallel in the PBW with a boulloterion registered there -->
+                           </rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <seg xml:lang="fr">Peloponnèse<placeName/>
+                        </seg>
+                        <seg xml:lang="fr">Hellade<placeName/>
+                        </seg>
+                        <seg xml:lang="en">Peloponnesos<placeName/>
+                        </seg>
+                        <seg xml:lang="fr">Hellade<placeName/>
+                        </seg>
+                     </origPlace>
+                     <origDate type="analysis" notBefore="1060" notAfter="1070"
+                        evidence="prosopography onomastics titulature epigraphy iconography"
+                        cert="high" resp="#MCP #JCC">
+                        <seg xml:lang="en">1060-1070</seg>
+                        <seg xml:lang="fr">1060-1070</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="transferred" subtype="donated" when="2004-11-24">
+                     <!-- pas sûr de subtype et when -->
+                     <p xml:lang="en">George Zacos collection</p>
+                     <p xml:lang="fr">Collection Georges Zacos</p>
+                  </provenance>
+                  <acquisition>
+                     <p xml:lang="en">Donation of the Migore Foundation, Janet Zakos legacy, <date
+                           when="2004-11-24">24th November 2004</date>
+                     </p>
+                     <p xml:lang="fr">Don de la Fondation Migore, legs Janet Zakos, <date
+                           when="2004-11-24">24 Novembre 2004</date>
+                     </p>
+                  </acquisition>
+               </history>
+               <msPart n="r">
+                  <msIdentifier/>
+                  <msContents>
+                     <!-- ajouté ceci -->
+                     <summary n="r">
+                        <seg xml:lang="en">Obverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="r">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="fr">Iconographie avec epigraphes en colonnes de part et
+                                 d'autre des effigies</p>
+                              <p xml:lang="en">Iconography with epigraphs on column on either side
+                                 of the effigies</p>
+                           </layout>
+                        </layoutDesc>
+
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="r">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="r" xml:lang="fr"
+                                 ana="person male saint Mark saint Theodore">Saint Marc, à droite et
+                                 saint Théodore à gauche, en pied, de face. Marc tient en main
+                                 gauche le Livre au plat orné de perles, la droite levée dans le
+                                 geste de l’allocution ; Théodore, barbe taillée en pointe, vêtu
+                                 d’une tunique et d’un lourd manteau ourlé de perles, tient en main
+                                 droite la croisette des martyrs.</figDesc>
+                              <figDesc n="r" xml:lang="en"
+                                 ana="person male saint Marc saint Theodore">Saint Mark, on the
+                                 right, and Saint Theodore, on the left, standing, facing forward.
+                                 Mark holds the pearl-encrusted Gospels in his left hand, his right
+                                 hand raised in a gesture of address; Theodore, with a pointed
+                                 beard, dressed in a tunic and a heavy coat hemmed with pearls,
+                                 holds the martyrs' cross in his right hand.</figDesc>
+                              <figDesc n="decoR" xml:lang="fr">Cercle de grènetis</figDesc>
+                              <figDesc n="decoR" xml:lang="en">Border of dots</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+               <msPart n="v">
+                  <msIdentifier/>
+                  <msContents>
+                     <summary n="v"><!-- ajouté ceci -->
+                        <seg xml:lang="en">Reverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="v">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="en">Linear legend of 6 lines</p>
+                              <p xml:lang="fr">Légende linéaire sur 6 lignes</p>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="v">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="decoV" xml:lang="fr">Cercle de grènetis; la légende est
+                                 précédée d’une croisette ; au sommet et à la base du champ, un
+                                 croisillon de perles accosté de tirets</figDesc>
+                              <figDesc n="decoV" xml:lang="en">Border of dots; a crosslet precedes
+                                 the legend while above and at the bottom, a crosspiece is placed
+                                 between traits</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2025-04-14" who="#PE">Creation of the XML record.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp>
+         <surface n="r">
+            <desc>Obverse</desc>
+            <graphic type="photo" url="CdN2004-0414_1.jpg">
+               <desc xml:lang="en">CdN 2004-0414, obverse</desc>
+               <desc xml:lang="fr">CdN 2004-0414, avers</desc>
+            </graphic>
+         </surface>
+         <surface n="v">
+            <desc>Reverse</desc>
+            <graphic type="photo" url="CdN2004-0414_2.jpg">
+               <desc xml:lang="en">CdN 2004-0414, reverse</desc>
+               <desc xml:lang="fr">CdN 2004-0414, revers</desc>
+            </graphic>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" subtype="editorial" xml:space="preserve"> 
+            <div type="textpart" subtype="label" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="a"/>Ὁ <expan><ex>ἅγιος</ex></expan> Μάρκος
+                 <cb n="b"/><supplied reason="lost">Ὁ <expan><ex>ἅγιος</ex></expan></supplied> <expan><abbr>Θ<supplied reason="lost">ε</supplied>όδωρ</abbr><ex>ος</ex></expan>
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab ana="dat">
+                         <lb n="1"/><rs type="invocation" ref="#inv001"><expan><abbr>Θ</abbr><ex>εοτό</ex><abbr>κε</abbr></expan> <expan><abbr>β</abbr><ex>οή</ex><abbr>θ</abbr><ex>ει</ex></expan></rs> 
+                         <lb n="2"/><supplied reason="lost">Β</supplied>ασιλείῳ 
+                         <lb n="3"/><rs type="dignity" ref="#d0017"><expan><abbr><supplied reason="lost">β</supplied>εστάρχ</abbr><ex>ῃ</ex></expan></rs> <expan><abbr><am>S</am></abbr><ex>καὶ</ex></expan> 
+                         <lb n="4"/><rs type="office" subtype="civil" ref="#of0112"><expan><abbr><supplied reason="lost">κ</supplied>ριτ</abbr><ex>ῇ</ex></expan></rs> <placeName ref="#geo0005"><expan><abbr>Πελοπ</abbr><ex>ο</ex>
+                         <lb n="5" break="no"/><abbr>ν<supplied reason="omitted">ν</supplied>ήσου</abbr></expan> <expan><abbr><am>S</am></abbr><ex>καὶ</ex></expan> <expan><abbr>Ἑλ</abbr><ex>λ</ex><abbr>ά
+                         <lb n="6" break="no"/>δ</abbr><ex>ος</ex></expan></placeName> τῷ <expan><abbr>Ξηρ</abbr><ex>ῷ</ex></expan>
+                      </ab>
+                  </div>
+              </div>
+         <div type="edition" subtype="diplomatic" xml:space="preserve"> 
+                  <div type="textpart" subtype="label" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="a"/>̣|m|α̣ρ|κοσ
+                 <cb n="b"/>. |θ. |ο|δ|ρ/
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab>
+                         <lb n="1"/>̣  θΚΕR/// θ/                        
+                         <lb n="2"/>.ασιλει 
+                         <lb n="3"/>.εσταρχ/ 
+                         <lb n="4"/>.ριτ/ πελοπ/
+                         <lb n="5"/>νησελα
+                         <lb n="6"/>δ/ τξηρ/
+                         </ab>
+                  </div>
+              </div>
+         <div type="translation">
+            <p>Ὁ ἅγιος Μάρκος. Ὁ ἅγιος Θεόδωρος. || + Θεοτόκε βοήθει Βασιλείῳ βεστάρχῃ καὶ κριτῇ
+               Πελοποννήσου καὶ Ἑλλάδος τῷ Ξηρῷ.</p>
+            <p xml:lang="en">Saint Mark. Saint Theodore. || + Mother of God, help Basil Xeros,
+               vestarches and judge of Péloponnesos and the Hellade</p>
+            <p xml:lang="fr">Saint Marc. Saint Théodore. || + Mère de Dieu, accorde ton secours à
+               Basile Xèros, vestarque et juge du Péloponnèse et de l’Hellade</p>
+         </div>
+         <div type="commentary" subtype="text">
+            <!-- renvois internes à refaire -->
+            <p xml:lang="en">Xeroi have been a prolific lineage, most likely originated in the
+               northern Peloponnese and settled in Constantinople<bibl><ptr target="Cheynet2012"
+                  /></bibl>. They have distinguished themselves in the upper echelons of the
+               aristocracy before the mid-11th century, serving in high civil offices, particularly
+               in the judicial and fiscal services. The family also counts two metropolitans and a
+               prominent monk, the hypertime Gregory, while only two military figures, Niketas and
+               Manuel, are known from their seals or narrative sources<bibl><ptr
+                     target="Cheynet2012"/>p.<citedRange unit="page">2</citedRange></bibl>;
+                     <bibl><ptr target="DOseals5"/> n°<citedRange unit="entry"
+                  >6.24</citedRange></bibl>. Xeroi managed to keep their eminent position throughout
+               the 12th century and even some time after 1204, thanks to matrimonial alliances with
+               the Komnenoi and the Melissenoi. However, at the Paleologan time, they have
+               progressively lost their influence. like other important families of the civil
+               tradition, such as the Hexamilitai, the Serblias or the Makrembolitai, Xeroi are
+               attested in documentary sources, judicial or epistolary, however their careers are
+               well evidenced by a big number of seals they left. Their carateristic is that they
+               bear, as a sign of devotion and of familial identity, besides the effigy of the
+               Virgin, which is common for a constantinopolitan family, the effigy of the evangelist
+               Mark, what is very rare in sigillography, alone or accompanied by an other saint.
+               This special attachment allows to identify several Xeroi even if the family name is
+               not mentioned on the seal. Thati is the case of the judge Basil whose seals can be
+               attributed to those numerous of the judge Basil Xeros. All the seals of Basil are
+               mentionned in <bibl><ptr target="LaurentCorpus2"/>p.<citedRange unit="page"
+                     >157</citedRange></bibl>;<bibl><ptr target="Cheynet2012"/>p.<citedRange
+                     unit="page">3-12</citedRange></bibl>; <bibl><ptr target="DOseals2"/>
+                     p.<citedRange unit="page">30-31</citedRange></bibl>; <bibl><ptr target="BBÖ2"
+                     />p.<citedRange unit="page">188-189</citedRange></bibl>. One more seal in the
+               name of Basil Xeros with no mention of title or function(BZS 1958.106.849 ; Ermitage
+               M-2100) is dated in the 12th century and attributed to the ambassador sent by Manuel
+               Komnenos, in 1143, to the king of Sicily, Roger II. Dated between 1030 and 1090,
+               these seals reconstruct one or more cursus honorum. In conjunction with the
+               iconographic motifs—the Virgin Mary in bust form or on a throne; Saint Mark in bust
+               form; Saint Mark in full length with Saint Theodore or Saint Demetrius depicted as
+               martyrs—this cursus could be attributed to several namesakes, cousins, or distinct
+               individuals of the same generation who served concurrently or successively in the
+               same positions and services. The similarity of the iconographic motifs makes it
+               possible to link our signatory with the vestarches Basile Xeros whose seal presents
+               saint Mark together with saint Demetrios: the arrangement and the attitude of the
+               saints on the two seals are identical, while Saint Demetrios is also depicted as a
+               martyr, holding a small cross in his right hand.</p>
+            <p xml:lang="en"/>
+            <p xml:lang="fr">Lignée prolifique, originaire très probablement du nord du Péloponnèse
+               et établie à Constantinople, les Xèroi<bibl><ptr target="Cheynet2012"/></bibl> se
+               sont distingués aux premiers rangs de l’aristocratie avant le milieu du XIe siècle,
+               par l’exercice de hautes fonctions civiles, notamment dans les services judiciaires
+               et fiscaux. La famille a fourni aussi deux métropolites et un moine d’envergure,
+               l’hypertime Grégoire<bibl><ptr target="Cheynet2012"/>p.<citedRange unit="page"
+                     >153</citedRange></bibl>, alors que seuls deux militaires, Nicétas et Manuel,
+               sont connus par leur sceau ou les sources narratives <bibl><ptr target="Cheynet2012"
+                     />p.<citedRange unit="page">2</citedRange></bibl>; <bibl><ptr target="DOseals5"
+                  /> n°<citedRange unit="entry">6.24</citedRange></bibl>.Les Xèroi ont su maintenir
+               leur position éminente tout au long du XIIe siècle et encore quelque temps après
+               1204, grâce aussi à des alliances matrimoniales conclues avec les Comnènes et les
+               Mélissènes. Mais, à l’époque des Paléologues, ils ont progressivement perdu leur
+               influence. Comme d’autres grandes familles de tradition civile, telles les
+               Hexamilitai, les Serblias ou les Makrembolitai, les Xèroi sont mentionnés surtout
+               dans des sources documentaires, juridiques ou épistolaires, néanmoins leurs carrières
+               sont bien illustrées par le grand nombre de sceaux qu’ils ont laissés. Ceux datés du
+               XIe siècle présentent d’ailleurs la caractéristique de porter, telle une marque de
+               dévotion ou d’identité familiale<bibl><ptr target="Caseau2011"/></bibl>, outre
+               l’effigie de la Vierge, choix évident pour une famille constantinopolitaine,
+               l’effigie, rare en sigillographie, de saint Marc l’évangéliste, figuré seul ou
+               accompagné d’un autre saint. Cet attachement particulier permet de rattacher à la
+               famille Xèros plusieurs sigillants sans patronyme, mais au prénom et aux fonctions
+               proches. Tel est le cas du juge Basile dont les sceaux sans nom de famille peuvent
+               s’ajouter à ceux déjà nombreux du juge Basile Xèros. Datés entre 1030 et 1090, ces
+               plombs reconstituent un ou plusieurs cursus honorum. Tous les sceaux de Basile sont
+               mentionnés dans les ouvrages suivants: <bibl><ptr target="LaurentCorpus2"
+                     />p.<citedRange unit="page">157</citedRange></bibl>;<bibl><ptr
+                     target="Cheynet2012"/>p.<citedRange unit="page">3-12</citedRange></bibl>;
+                     <bibl><ptr target="DOseals2"/> p.<citedRange unit="page"
+                  >30-31</citedRange></bibl>; <bibl><ptr target="BBÖ2"/>p.<citedRange unit="page"
+                     >188-189</citedRange></bibl>. Un dernier sceau au nom de Basile Xèros sans
+               titre ni fonction (BZS 1958.106.849 ; Ermitage M-2100) est daté du XIIe siècle et
+               attribué à l’ambassadeur envoyé par Manuel Comnène, en 1143 au roi Roger II de
+               Sicile. En association avec les motifs iconographiques – la Vierge en buste ou au
+               trône ; saint Marc en buste ; saint Marc en pied avec saint Théodore ou saint
+               Dèmètrios représentés en martyrs –, ce cursus pourrait être attribué à plusieurs
+               homonymes6, cousins ou distincts d’une génération, ayant servi en parallèle ou
+               successivement dans les mêmes postes et services : a. Basile Xèros, protospathaire
+               (inscription bilatérale) ; b. Basile Xèros, protospathaire impérial, épi tou
+               Chrysotriklinou et juge de l’Hippodrome et des Anatoliques (Vierge en buste) ; c.
+               Basile Xèros, protospathaire, grand chartulaire et juge des Bucellaires (saint Marc)
+               ; d. Basile Xèros, vestarque (saint Marc et saint Dèmètrios) ; e. Basile Xèros,
+               vestarque, juge du Péloponnèse et de l’Hellade (saint Marc et saint Théodore) ; f.
+               Basile Xèros, magistre et juge des Cibyrrhéotes (Vierge au trône) ; g. Basile Xèros,
+               proèdre et logothète du génikon (Vierge au trône) ; h. Basile, protospathaire épi tou
+               Chrysotriklinou, grand chartulaire du génikon logothésion, juge de l’Hippodrome, du
+               Péloponnèse et de l’Hellade (saint Marc) ; i. Basile, protospathaire, grand
+               chartulaire du génikon et juge de l’Hippodrome, du Péloponnèse et de l’Hellade
+               (Vierge en buste) ; j. Basile, protospathaire épi tou Chrysotriklinou, grand
+               chartulaire et juge des Bucellaires (saint Marc) ; k. Basile, protospathaire épi tou
+               Chrysotriklinou, grand chartulaire du génikon logothésion et protonotaire (saint
+               Marc). La ressemblance des motifs iconographiques rend possible le rapprochement de
+               notre signataire avec le vestarque Basile Xèros. En effet, la disposition et
+               l’attitude des saints sur les deux sceaux sont identiques, alors que saint Dèmètrios
+               est également représenté en martyr, tenant une croisette en main droite.</p>
+            <p xml:lang="fr"/>
+         </div>
+         <div type="bibliography" subtype="edition">
+            <p><bibl><ptr target="ZacosGenève"/>n°<citedRange unit="entry">154</citedRange></bibl>
+               <bibl/>
+            </p>
+         </div>
+         <div type="bibliography" subtype="parallels">
+            <p>anc. coll. Mordtmann : <bibl><ptr target="Schlumberger1884"/>p.<citedRange
+                     unit="page">188.7</citedRange></bibl>
+               <bibl/></p>
+            <p>BZS 1955.1.3407, 1955.1.3408 et 1958.106.4253 : <bibl><ptr target="DOseals"
+                     />n°<citedRange unit="entry">8.19</citedRange></bibl>
+               <bibl/></p>
+            <p>Vienne, MK 142 : <bibl><ptr target="BBÖ2"/>n°<citedRange unit="entry"
+                     >183</citedRange></bibl>
+               <bibl/></p>
+            <p>anc. coll. Zacos : <bibl><ptr target="ZacosSpink3"/>n°<citedRange unit="entry"
+                     >271</citedRange></bibl>
+               <bibl/>; <bibl><ptr target="Cheynet2012"/>p.<citedRange unit="page"
+                  >8-9</citedRange></bibl>
+               <bibl/>
+            </p>
+         </div>
+         <div type="bibliography" subtype="discussion">
+            <p><bibl><ptr target="Caseau2011"/>p.<citedRange
+                     unit="page">84-85</citedRange></bibl></p>
+         </div>
+      </body>
+   </text>
+</TEI>

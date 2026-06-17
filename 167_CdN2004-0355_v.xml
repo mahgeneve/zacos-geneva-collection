@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en">Maria Makrembolitissa, kouropalatissa</title>
+            <title xml:lang="fr">Marie Makrembolitissa, curopalatissa</title>
+            <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
+            <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+            <funder>
+               <orgName corresp="https://www.mahmah.ch/">MAH-Musée d'art et d'histoire - Genève,
+                  Cabinet de numismatique</orgName>, Suisse</funder>
+            <principal ref="#MCP"/>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <seg xml:lang="fr">Amélioration digitale</seg>
+               <seg xml:lang="en">Digital enhancement</seg>
+            </edition>
+            <editor role="digital-editor" xml:id="PE" when="2025-04-22">Pia Evening</editor>
+            <editor role="digital-editor" ref="#MCP" when="2026-03-18">Maria
+               Campagnolo-Pothitou</editor>
+         </editionStmt>
+         <publicationStmt>
+            <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
+            <idno type="filename">CdN 2004-0355</idno>
+            <idno type="SigiDocID">s-LXdtBJ</idno>
+            <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+            <idno type="sequence"/>
+            <!--  to be compiled automatically; leave as is  -->
+            <date when="2024-08-06"/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                  >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                  4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listPerson type="issuer">
+               <person gender="F" role="civil aristocracy">
+                  <persName xml:lang="grc">
+                     <forename>Μαρία</forename>
+                     <surname>Μακρεμβολίτισσσα</surname>
+                  </persName>
+                  <persName xml:lang="fr">
+                     <forename>Marie</forename>
+                     <surname>Makrembolitissa</surname>
+                  </persName>
+                  <persName xml:lang="en">
+                     <forename>Maria</forename>
+                     <surname>Makrembolitissa</surname>/> </persName>
+                  <idno type="PBW" ana="http://pbw2016.kdl.kcl.ac.uk/person/Maria/20107/">Maria
+                     20107</idno>
+                  <idno type="PBE"/>
+                  <idno type="PLP"/>
+                  <idno type="PLRE"/>
+                  <idno type="PcBE"/>
+                  <idno type="PmbZ"/>
+               </person>
+            </listPerson>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <seg xml:lang="en">Switzerland</seg>
+                     <seg xml:lang="fr">Suisse</seg>
+                  </country>
+                  <settlement>
+                     <seg xml:lang="en">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">City of
+                           Geneva</placeName>
+                     </seg>
+                     <seg xml:lang="fr">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">Ville de
+                           Genève</placeName>
+                     </seg>
+                  </settlement>
+                  <institution>MAH-Musée d'art et d'histoire</institution>
+                  <repository>Cabinet de numismatique</repository>
+                  <collection type="public">
+                     <rs type="collection-name" xml:lang="en">Byzantine seals collection</rs>
+                     <rs type="collection-name" xml:lang="fr">Collection de sceaux byzantins</rs>
+                  </collection>
+                  <idno type="inv-nr-current">CdN 2004-0355</idno>
+                  <altIdentifier>
+                     <repository/>
+                     <idno type="inv-nr-former"/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <!--https://github.com/SigiDoc/Guidelines/wiki/5.-Controlled-vocabularies#seals-category-->
+                  <summary n="whole">
+                     <seg xml:lang="fr">Dignitaires</seg>
+                     <seg xml:lang="en">Dignitaries</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>
+                              <term>
+                                 <seg xml:lang="fr">Sceau</seg>
+                                 <seg xml:lang="en">Seal</seg>
+                              </term>
+                              <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                              <interp type="workType" xml:lang="en">Original impression</interp>
+                           </objectType>
+                           <material>
+                              <seg xml:lang="fr">Plomb</seg>
+                              <seg xml:lang="en">Lead</seg>
+                           </material>
+                           <dimensions type="support" unit="mm">
+                              <dim type="diameter"
+                                 >http://pbw2016.kdl.kcl.ac.uk/person/Maria/20107/</dim>
+                              <!-- mesure du champ? -->
+                           </dimensions>
+                           <measure type="weight" unit="g">8,384</measure>
+                           <measure type="axis" unit="clock"/>
+                           <measure type="overstrikeOrient" unit="clock"/>
+                           <measure type="channelOrient" unit="clock">1-7</measure>
+                           <measure type="countermark" unit="clock"/>
+                        </support>
+                        <condition rend="well-struck well-preserved chipped worn-edge not-centered">
+                           <p xml:lang="en">The bulla is well struck and well preserved; slightly
+                              chipped at the openings of the channel; not-centered and partially
+                              worn on the edge,the first line on the reverse is lacking</p>
+                           <p xml:lang="fr">La bulle est bien frappée et bien conservée, bien que
+                              décentrée; légèrement échancrée aux orifices du canal; la tranche est
+                              passablement endommagée,laissant hors champ la première ligne de
+                              l'inscription au revers.</p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout n="whole">
+                           <rs type="execution">
+                              <seg xml:lang="fr">Frappé</seg>
+                              <seg xml:lang="en">Struck</seg>
+                           </rs>
+                           <rs type="shape">
+                              <seg xml:lang="fr">Ronde</seg>
+                              <seg xml:lang="en">Round</seg>
+                           </rs>
+                           <rs type="matrix" subtype="not-surviving">
+                              <idno type="SigiDoc">m-wpV1DB</idno>
+                              <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+                              <idno type="PBW">http://pbw2016.kdl.kcl.ac.uk/boulloterion/662/</idno>
+                              <!-- to be used if the seal has a parallel in the PBW with a boulloterion registered there -->
+                           </rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <seg xml:lang="fr">
+                           <placeName/>
+                        </seg>
+                        <seg xml:lang="en">
+                           <placeName/>
+                        </seg>
+                     </origPlace>
+                     <origDate type="analysis" notBefore="1070" notAfter="1080"
+                        evidence="iconography onomastics related-seal epigraphy" cert="high"
+                        resp="#MCP #JCC">
+                        <seg xml:lang="en">1070-1080</seg>
+                        <seg xml:lang="fr">1070-1080</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="transferred" subtype="donated" when="2004-11-24">
+                     <!-- pas sûr de subtype et when -->
+                     <p xml:lang="en">George Zacos collection</p>
+                     <p xml:lang="fr">Collection Georges Zacos</p>
+                  </provenance>
+                  <acquisition>
+                     <p xml:lang="en">Donation of the Migore Foundation, Janet Zakos legacy, <date
+                           when="2004-11-24">24th November 2004</date>
+                     </p>
+                     <p xml:lang="fr">Don de la Fondation Migore, legs Janet Zakos, <date
+                           when="2004-11-24">24 Novembre 2004</date>
+                     </p>
+                  </acquisition>
+               </history>
+               <msPart n="r">
+                  <msIdentifier/>
+                  <msContents>
+                     <!-- ajouté ceci -->
+                     <summary n="r">
+                        <seg xml:lang="en">Obverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="r">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="fr">Iconographie avec des sigles de part et d'autre de
+                                 l'effigie</p>
+                              <p xml:lang="en">Iconography with sigla on either part of the
+                                 effigy</p>
+                           </layout>
+                        </layoutDesc>
+
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="r">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="r" xml:lang="fr" ana="person female Virgin Nikopoios"
+                                 >Buste de la Vierge Nikopoios, de face, au maphorion orné d’un
+                                 losange de perles aux épaules, tenant des deux mains devant elle le
+                                 médaillon au buste de l’Enfant.</figDesc>
+                              <figDesc n="r" xml:lang="en" ana="person female Virgin Nikopoios">Bust
+                                 of the virgin Nikopoios facing forward, bearing a maphorion adorned
+                                 on the shoulders with pearl-made lozanges and holding the medallion
+                                 of the Christ before her chest with both hands.</figDesc>
+                              <figDesc n="decoR" xml:lang="fr">Cercle de grènetis</figDesc>
+                              <figDesc n="decoR" xml:lang="en">Border of dots</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+               <msPart n="v">
+                  <msIdentifier/>
+                  <msContents>
+                     <summary n="v"><!-- ajouté ceci -->
+                        <seg xml:lang="en">Reverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="v">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="en">Linear legend of six lines</p>
+                              <p xml:lang="fr">Légende linéaire sur 6 lignes</p>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="v">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="decoV" xml:lang="fr">Cercle de grènetis; la dernière ligne
+                                 est accostée de tirets</figDesc>
+                              <figDesc n="decoV" xml:lang="en">Border of dots; the last line is
+                                 placed between traits</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2025-04-22" who="#PE">Creation of the XML record.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp>
+         <surface n="r">
+            <desc>Obverse</desc>
+            <graphic type="photo" url="CdN2004-0355_1.jpg">
+               <desc xml:lang="en">CdN 2004-0355, obverse</desc>
+               <desc xml:lang="fr">CdN 2004-0355, avers</desc>
+            </graphic>
+         </surface>
+         <surface n="v">
+            <desc>Reverse</desc>
+            <graphic type="photo" url="CdN2004-0355_2.jpg">
+               <desc xml:lang="en">CdN 2004-0355, reverse</desc>
+               <desc xml:lang="fr">CdN 2004-0355, revers</desc>
+            </graphic>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" subtype="editorial" xml:space="preserve"> 
+            <div type="textpart" subtype="sigla" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="a"/><expan><abbr>Μή</abbr><ex>τη</ex><abbr>ρ</abbr></expan> 
+                 <cb n="b"/><expan><abbr>Θ</abbr><ex>εο</ex><abbr>ῦ</abbr></expan>
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab ana="dat">
+                         <lb n="1"/><rs type="invocation" ref="#inv001"><supplied reason="lost"><expan><abbr>Θ</abbr><ex>εοτό</ex><abbr>κε</abbr></expan> <expan><abbr>β</abbr><ex>οή</ex><abbr>θ</abbr><ex>ει</ex></expan></supplied></rs> 
+                         <lb n="2"/><supplied reason="lost">Μ</supplied>αρίᾳ <rs type="dignity" ref="#d0036"><expan><abbr>κουρ</abbr><ex>ο</ex>
+                         <lb n="3" break="no"/><abbr>παλατίσσῃ</abbr></expan></rs> 
+                         <lb n="4"/>τῇ Μακρεμ
+                         <lb n="5" break="no"/>βολιτίσ
+                         <lb n="6" break="no"/>σῃ
+                      </ab>
+                  </div>
+              </div>
+         <div type="edition" subtype="diplomatic" xml:space="preserve"> 
+                  <div type="textpart" subtype="sigla" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="a"/>̅
+                 <cb n="b"/>ΘV
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab>
+                         <lb n="1"/>….                        
+                         <lb n="2"/>.αριακρ/
+                         <lb n="3"/>πα̣λατισση
+                         <lb n="4"/>μακρεμ
+                         <lb n="5"/>rολιτις
+                         <lb n="6"/>ση
+                         </ab>
+                  </div>
+              </div>
+         <div type="translation">
+            <p>Μήτηρ Θεοῦ. || + Θεοτόκε βοήθει Μαρίᾳ κουροπαλατίσσῃ τῇ Μακρεμβολιτίσσῃ.</p>
+            <p xml:lang="en">Mother of God. || + Mother of God, help Maria Makrembolitissa,
+               kouropalatissa</p>
+            <p xml:lang="fr">Mère de Dieu. || + Mère de Dieu, accorde ton secours à la curopalatissa
+               marie Makrembolitissa</p>
+         </div>
+         <div type="commentary" subtype="text">
+            <!-- renvois internes à refaire -->
+            <p xml:lang="en">The parallel from Athens, from the same boulloterion, allows us to
+               reconstruct the beginning of the legend, which is missing on our seal.
+               Another seal, bearing the name of a curopalatissa named Marie Makrembolitissa,
+               has come down to us in four copies <bibl><ptr target="DOsealsOnline"/>, n° <citedRange unit="entry">BZS
+                     1958.106.2712</citedRange></bibl>; <bibl><ptr target="DOsealsOnline"/>, n°
+                        <citedRange unit="entry">BZS 1958.106.4687</citedRange></bibl>; Ermitage,
+               M-8613; ancienne collection Zacos.  Dating from after our seal (late
+               11th/early 12th century), it bears on the obverse the scene of the Dormition
+               of the Virgin<bibl><ptr
+                     target="Hunger1998"/>, n° <citedRange unit="entry">10</citedRange></bibl>; it is therefore difficult—if not impossible—to attribute it to
+               our signatory. H. Hunger suggests linking this second
+               curopalatissa to the curopalate Symeon Makrembolites  whose seal,
+               a contemporary piece, is adorned with the same Dormition <bibl><ptr target="Hunger1998"/>, n° <citedRange unit="entry"
+                  >14</citedRange></bibl>. However, if this
+               hypothesis is correct, Marie would not be Symeon’s wife, as
+               Hunger suggests, but rather a sister or cousin on his side of the family. Women,
+               deprived as they were of their own palatial titles—with the exception of
+               that of the patrician with a belt or zôstè, a title reserved for only one
+               recipient at a time—were content to bear their husband’s title in the
+               feminine form (magistrissa, proédrissa, etc.)<bibl><ptr target="Cheynet2008d"/>, p. <citedRange unit="page"
+                     >175-176</citedRange></bibl>. In the 11th century, they began
+               to add their surname as well, in addition to their husband’s title <bibl><ptr target="Cheynet2008d"/>, p. <citedRange unit="page"
+                     >179-190</citedRange></bibl>. To
+               explain the presence of a depiction of the Dormition on these
+               seals, one might suppose that such an image belonged to the
+               Makrembolites; in any case, the ladies of the aristocracy often
+               featured an effigy of the Virgin on their seals, of which the Dormition is
+               a variant, albeit a rarer one.</p>
+            <p xml:lang="en"/>
+            <p xml:lang="fr">Le parallèle d’Athènes, issu du même boullôtèrion, nous permet de
+               restituer le début de la légende, perdu sur notre plomb. Un autre sceau, au nom d’une
+               curopalatissa nommée Marie Makrembolitissa, nous est parvenu en quatre exemplaires
+                     <bibl><ptr target="DOsealsOnline"/>, n° <citedRange unit="entry">BZS
+                     1958.106.2712</citedRange></bibl>; <bibl><ptr target="DOsealsOnline"/>, n°
+                     <citedRange unit="entry">BZS 1958.106.4687</citedRange></bibl>; Ermitage,
+               M-8613; ancienne collection Zacos.Postérieur à notre plomb (fin du XIe/début du XIIe
+               siècle), il porte au droit la scène de la Dormition de la Vierge <bibl><ptr
+                     target="Hunger1998"/>, n° <citedRange unit="entry">10</citedRange></bibl>; il
+               est donc difficile – mais non exclu – de l’attribuer à notre signataire. H. Hunger
+               propose de rapprocher cette deuxième curopalatissa du curopalate Syméon
+                     Makrembolitès, dont le sceau, contemporain, est orné de la même
+                     Dormition <bibl><ptr target="Hunger1998"/>, n° <citedRange unit="entry"
+                           >14</citedRange></bibl>. Cependant, si cette hypothèse est vraie, Marie ne serait pas l’épouse de
+               Syméon, comme le suggère Hunger, mais plutôt une soeur ou une cousine de son côté.
+               Les dames, privées, en effet, de dignités palatiales propres – à l’exception de celle
+               de la patricienne à ceinture ou zôstè4, dignité réservée à une seule bénéficiaire à
+               la fois –, se contentaient de porter le titre de leur mari au féminin (magistrissa,
+               proédrissa, etc.)<bibl><ptr target="Cheynet2008d"/>, p. <citedRange unit="page"
+                     >175-176</citedRange></bibl>. Au XIe siècle, elles commencent à ajouter aussi leur patronyme,
+               en sus de la dignité de l’époux <bibl><ptr target="Cheynet2008d"/>, p. <citedRange unit="page"
+                     >179-190</citedRange></bibl>. Pour expliquer la présence d’une représentation de
+               la Dormition sur ces sceaux, on supposera qu’une telle image aurait appartenu à la
+               famille Makrembolitès ; de toutes façons, les dames de l’aristocratie faisaient
+               figurer sur leurs sceaux une effigie de la Vierge, dont la Dormition est une
+               variante, certes plus rare.</p>
+            <p xml:lang="fr"/>
+         </div>
+         <div type="bibliography" subtype="edition">
+            <p><bibl><ptr target="GenèveZacos"/>, n° <citedRange unit="entry"
+                     >167</citedRange></bibl>.
+               <bibl/>
+            </p>
+         </div>
+         <div type="bibliography" subtype="parallels">
+            <p>Musée numismatique d'Athènes, n° 382:
+               <bibl><ptr target="Athens1917"/>, n° <citedRange unit="entry"
+                     >382</citedRange></bibl>;
+               <bibl><ptr target="Athens2001"/>, n° <citedRange unit="entry"
+                     >153</citedRange></bibl>;
+               <bibl><ptr target="Hunger1998"/>, n° <citedRange unit="entry"
+                     >9</citedRange></bibl></p>
+         </div>
+         <div type="bibliography" subtype="discussion">
+            <p><bibl><ptr target="Seyrig"/>, n° <citedRange unit="entry"
+                     >10</citedRange></bibl></p>
+         </div>
+      </body>
+   </text>
+</TEI>

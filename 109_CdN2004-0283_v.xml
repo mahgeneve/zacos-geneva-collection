@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en">Michael Bourtzes, magistros, vestes, vestarches and strategos of
+               the Anatolikoi</title>
+            <title xml:lang="fr">Michel Bourtzès, magistre, vestès, vestarque et stratège des
+               Anatoliques</title>
+            <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
+            <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+            <funder>
+               <orgName corresp="https://www.mahmah.ch/">MAH-Musée d'art et d'histoire - Genève,
+                  Cabinet de numismatique</orgName>, Suisse </funder>
+            <principal ref="#MCP"/>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <seg xml:lang="fr">Amélioration digitale</seg>
+               <seg xml:lang="en">Digital enhancement</seg>
+            </edition>
+            <editor role="digital-editor" xml:id="PE" when="2025-04-02">Pia Evening</editor>
+            <editor role="digital-editor" ref="#MCP" when="2026-01-26">Maria Campagnolo-Pothitou</editor>
+         </editionStmt>
+         <publicationStmt>
+            <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
+            <idno type="filename">CdN 2004-0283</idno>
+            <idno type="SigiDocID">s-qQqwQE</idno>
+            <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+            <idno type="sequence"/>
+            <!--  to be compiled automatically; leave as is  -->
+            <date when="2024-08-06"/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                  >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                  4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listPerson type="issuer">
+               <person gender="M" role="military aristocracy">
+                  <persName xml:lang="grc">
+                     <forename>Μιχαήλ</forename>/> <surname>Βούρτζης</surname>/> </persName>
+                  <persName xml:lang="fr">
+                     <forename>Michel</forename>/> <surname>Bourtzes</surname>/> </persName>
+                  <persName xml:lang="en">
+                     <forename>Michael</forename>/> <surname>Bourtzes</surname>/> </persName>
+                  <idno type="PBW" ana="http://pbw2016.kdl.kcl.ac.uk/person/Michael/120/">Michael 120</idno>
+                  <idno type="PBE"/>
+                  <idno type="PLP"/>
+                  <idno type="PLRE"/>
+                  <idno type="PcBE"/>
+                  <idno type="PmbZ"/>
+               </person>
+            </listPerson>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <seg xml:lang="en">Switzerland</seg>
+                     <seg xml:lang="fr">Suisse</seg>
+                  </country>
+                  <settlement>
+                     <seg xml:lang="en">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">City of
+                           Geneva</placeName>
+                     </seg>
+                     <seg xml:lang="fr">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">Ville de
+                           Genève</placeName>
+                     </seg>
+                  </settlement>
+                  <institution>MAH-Musée d'art et d'histoire</institution>
+                  <repository>Cabinet de numismatique</repository>
+                  <collection type="public">
+                     <rs type="collection-name" xml:lang="en">Byzantine seals collection</rs>
+                     <rs type="collection-name" xml:lang="fr">Collection de sceaux byzantins</rs>
+                  </collection>
+                  <idno type="inv-nr-current">CdN 2004-0283</idno>
+                  <altIdentifier>
+                     <repository/>
+                     <idno type="inv-nr-former"/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <!--https://github.com/SigiDoc/Guidelines/wiki/5.-Controlled-vocabularies#seals-category-->
+                  <summary n="whole">
+                     <seg xml:lang="fr">Administration provinciale</seg>
+                     <seg xml:lang="en">Provincial administrtation</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>
+                              <term>
+                                 <seg xml:lang="fr">Sceau</seg>
+                                 <seg xml:lang="en">Seal</seg>
+                              </term>
+                              <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                              <interp type="workType" xml:lang="en">Original impression</interp>
+                           </objectType>
+                           <material>
+                              <seg xml:lang="fr">Plomb</seg>
+                              <seg xml:lang="en">Lead</seg>
+                           </material>
+                           <dimensions type="support" unit="mm">
+                              <dim type="diameter">28,50</dim>
+                              <!-- mesure du champ? -->
+                           </dimensions>
+                           <measure type="weight" unit="g">24,597</measure>
+                           <measure type="axis" unit="clock"/>
+                           <measure type="overstrikeOrient" unit="clock"/>
+                           <measure type="channelOrient" unit="clock">11-5</measure>
+                           <measure type="countermark" unit="clock"/>
+                        </support>
+                        <condition rend="well-struck well-preserved chipped">
+                           <p xml:lang="en">The bulla is well-struck and well-preserved; slightly
+                              chipped at the openings of the channel and partially crushed on the
+                              reverse.</p>
+                           <p xml:lang="fr">La bulle est bien frappée et bien conservée; légèrement
+                              échancrée aux orifices du canal et partiellement écrasée sur le
+                              revers.</p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout n="whole">
+                           <rs type="execution">
+                              <seg xml:lang="fr">Frappé</seg>
+                              <seg xml:lang="en">Struck</seg>
+                           </rs>
+                           <rs type="shape">
+                              <seg xml:lang="fr">Ronde</seg>
+                              <seg xml:lang="en">Round</seg>
+                           </rs>
+                           <rs type="matrix" subtype="not-surviving">
+                              <idno type="SigiDoc">m-WahTKu</idno>
+                              <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+                              <idno type="PBW"/>
+                              <!-- to be used if the seal has a parallel in the PBW with a boulloterion registered there -->
+                           </rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <seg xml:lang="fr">Anatoliques<placeName/>
+                        </seg>
+                        <seg xml:lang="en">Anatolikoi<placeName/>
+                        </seg>
+                     </origPlace>
+                     <origDate type="analysis" notBefore="1057" notAfter="1059"
+                        evidence="prosopography titulature onomastics" cert="high" resp="#MCP #JCC">
+                        <seg xml:lang="en">1057-1059</seg>
+                        <seg xml:lang="fr">1057-1059</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="transferred" subtype="donated" when="2004-11-24">
+                     <!-- pas sûr de subtype et when -->
+                     <p xml:lang="en">George Zacos collection</p>
+                     <p xml:lang="fr">Collection Georges Zacos</p>
+                  </provenance>
+                  <acquisition>
+                     <p xml:lang="en">Donation of the Migore Foundation, Janet Zakos legacy, <date
+                           when="2004-11-24">24th November 2004</date>
+                     </p>
+                     <p xml:lang="fr">Don de la Fondation Migore, legs Janet Zakos, <date
+                           when="2004-11-24">24 Novembre 2004</date>
+                     </p>
+                  </acquisition>
+               </history>
+               <msPart n="r">
+                  <msIdentifier/>
+                  <msContents>
+                     <!-- ajouté ceci -->
+                     <summary n="r">
+                        <seg xml:lang="en">Obverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="r">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="fr">Légende linéaire sur 5 lignes</p>
+                              <p xml:lang="en">Linear legend of 5 lignes</p>
+                           </layout>
+                        </layoutDesc>
+
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="r">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="decoR" xml:lang="fr">Cercle de grènetis; la légende est
+                                 précédée d’une croisette, surmontée et suivie d’un croisillon de
+                                 perles accosté de tirets</figDesc>
+                              <figDesc n="decoR" xml:lang="en">Circle of dots; the legend is
+                                 preceded by a crosslet and surmounted and followed by a crosslet
+                                 composed of pearls between traits</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+               <msPart n="v">
+                  <msIdentifier/>
+                  <msContents>
+                     <summary n="v"><!-- ajouté ceci -->
+                        <seg xml:lang="en">Reverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="v">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="en">Linear legend of 5 lignes</p>
+                              <p xml:lang="fr">Légende linéaire sur 5 lignes</p>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="v">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="decoV" xml:lang="fr">Cercle de grènetis; la légende est
+                                 surmontée d’un croisillon de perles accosté de tirets, alors que la
+                                 dernière ligne est accostée de tirets</figDesc>
+                              <figDesc n="decoV" xml:lang="en">Circle of dots; the legend is
+                                 surmounted by a crosslet composed of pearls between traits while
+                                 the last line is placed between traits</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2025-04-02" who="#PE">Creation of the XML record.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp>
+         <surface n="r">
+            <desc>Obverse</desc>
+            <graphic type="photo" url="CdN2004-0283_1.jpg">
+               <desc xml:lang="en">CdN 2004-0283, obverse</desc>
+               <desc xml:lang="fr">CdN 2004-0283, avers</desc>
+            </graphic>
+         </surface>
+         <surface n="v">
+            <desc>Reverse</desc>
+            <graphic type="photo" url="CdN2004-0283_2.jpg">
+               <desc xml:lang="en">CdN 2004-0283, reverse</desc>
+               <desc xml:lang="fr">CdN 2004-0283, revers</desc>
+            </graphic>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" subtype="editorial" xml:space="preserve"> 
+            <div type="textpart" subtype="face" rend="linear" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab ana="dat">
+                 <lb n="1"/><rs type="invocation" ref="#inv003"><expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan> βοή
+                 <lb n="2" break="no"/>θει</rs> Μιχαὴλ 
+                 <lb n="3"/><rs type="dignity" ref="#d0038">μαγίστρῳ</rs> 
+                 <lb n="4"/><rs type="dignity" ref="#d0018">βέστῃ</rs> <rs type="dignity" ref="#d0017">βεσ
+                 <lb n="5" break="no"/>τάρχῃ</rs>
+                 
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab ana="dat">
+                         <lb n="6"/><expan><abbr><am>S</am></abbr><ex>καὶ</ex></expan> <rs type="office" subtype="military" ref="#of0279">στρα
+                         <lb n="7" break="no"/>τηγῷ</rs> τῶν 
+                         <lb n="8"/><placeName ref="#geo0016"><expan><abbr>Ἀνατολικ</abbr><ex>ῶν</ex></expan></placeName> 
+                         <lb n="9"/>τῷ Βούρ
+                         <lb n="10" break="no"/>τ<supplied reason="lost">ζ</supplied>ῃ
+                      </ab>
+                  </div>
+              </div>
+         <div type="edition" subtype="diplomatic" xml:space="preserve"> 
+                  <div type="textpart" subtype="face" rend="linear" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <lb n="1"/>Keroη                       
+                 <lb n="2"/>θειμιχαηλ
+                 <lb n="3"/>μαγιστρ
+                 <lb n="4"/>rεστηrεστ
+                 <lb n="5"/>ταρχη
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab>
+                         <lb n="6"/>στρα̣                      
+                         <lb n="7"/>τηγτν 
+                         <lb n="8"/>ανατολικ
+                         <lb n="9"/>τṛο̣υρ
+                         <lb n="10"/>τ.η
+                         </ab>
+                  </div>
+              </div>
+         <div type="translation">
+            <p>+ Κύριε βοήθει Μιχαὴλ μαγίστρῳ, βέστῃ, βεστάρχῃ || καὶ στρατηγῷ τῶν Ἀνατολικῶν τῷ
+               Βούρτζῃ.</p>
+            <p xml:lang="en">Lord, help Michael Bourtzes, magistros, vestes, vestarches and
+               strategos of the Anatolikoi</p>
+            <p xml:lang="fr">Seigneur, accorde ton secours à Michel Bourtzès, magistre, vestès,
+               vestarque et stratège des Anatoliques</p>
+         </div>
+         <div type="commentary" subtype="text">
+            <!-- renvois internes à refaire -->
+            <p xml:lang="en">The sigillant is the grandson of the patrikios, then magistrate,
+               Michel Bourtzes, famous conqueror of Antioch in 969 and twice appointed duke to this
+               strategic position. This illustrious ancestor, the oldest known member of the family,
+               is attested by Byzantine and Arab narrative sources as having fought several
+               times against the Muslim troops of Aleppo and Egypt <bibl>
+                  <ptr target="Cheynet2008a"/>, p. <citedRange unit="page"
+                     >339-376</citedRange></bibl>. The Arab origin of the family, suggested by the
+               consonance of the surname – al-bourdj, the tower (from the Greek πύργος) – is not confirmed
+               in the sources, but seems more likely than an Armenian origin for this lineage<bibl>
+                  <ptr target="Cheynet2008a"/>, p. <citedRange unit="page"
+                     >341-347</citedRange></bibl>. Members of the military aristocracy and landowners
+               in the Antioch region at the end of the 10th century, the Bourtzai had been
+               settled in the province of Anatolikoi for several generations. After the
+               conquest of the region by the Turks in the last third of the 11th century, we
+               find a branch of the family established in the region of Thessaloniki, on
+               lands perhaps received as a reward for their support of the revolt of
+               Nicephore Melissenos. Related to the latter, and perhaps also to the Phocas family, the Bourtzai
+               remained prominent until the advent of the Komnenoi, then gradually lost
+               their importance, even though several members of the family were still
+               known at the beginning of the 13th century. The Bourtzai left behind numerous seals which, for
+               some holders, are the only source attesting to their existence <bibl>
+                  <ptr target="Cheynet2008a"/>, n°s <citedRange unit="entry">7, 11, 12, 15, 18, 22,
+                     24 bis, 29, 30, 34</citedRange></bibl>. Michael is known from two other types of seals
+               from two earlier stages of his military career: anthypatos and
+               strategos; anthypatos, patrikios and stratelates <bibl>
+                  <ptr target="Cheynet2008a"/>, p. <citedRange unit="page"
+                     >353-355</citedRange></bibl>. A remarkable career, despite a
+               difficult start according to Skylitzes, since in 1029 Michael and his brothers Theognostos
+               and Samuel were severely punished, publicly humiliated, and finally exiled for
+               plotting against Romanos III Argyros <bibl>
+                  <ptr target="Empereurs2003"/>, p. <citedRange unit="page"
+                     >312</citedRange></bibl>. According to Skylitzes, it was Michael VI's refusal to
+               grant Michael Bourtzes' request for promotion in 1056 that prompted
+               the latter, then vestarches, to rally to Isaac Komnenos during the rebellion that brought him
+               to supreme power in 1057. The lead seal presented here, which most likely marks
+               the end of our signatory's career, must be dated to the reign of this emperor
+               (1057-1059).</p>
+            <p xml:lang="en"/>
+            <p xml:lang="fr">Le sigillant est le petit-fils homonyme du patrice, puis magistre,
+               Michel Bourtzès, fameux conquérant d’Antioche en 969 et deux fois nommé duc à ce
+               poste stratégique. Cet illustre ancêtre, le plus ancien membre connu de la famille,
+               est attesté par les sources narratives byzantines et arabes, pour avoir plusieurs
+               fois combattu les troupes musulmanes d’Alep et d’Égypte <bibl>
+                  <ptr target="Cheynet2008a"/>, p. <citedRange unit="page"
+                  >339-376</citedRange></bibl>. L’origine arabe de la famille, suggérée par la
+               consonance du patronyme – al-bourdj, la tour (du grec πύργος) –, n’est pas confirmée
+               dans les sources, mais semble plus probable qu’une origine arménienne de cette lignée<bibl>
+                  <ptr target="Cheynet2008a"/>, p. <citedRange unit="page"
+                  >341-347</citedRange></bibl>. Membres de l’aristocratie militaire et propriétaires
+               fonciers dans la région d’Antioche à la fin du Xe siècle, les Bourtzai étaient
+               installés depuis plusieurs générations dans la province des Anatoliques. Après la
+               conquête de la région par les Turcs, dans le dernier tiers du XIe siècle, nous
+               retrouvons une branche de la famille établie dans la région de Thessalonique, sur des
+               terres peutêtre reçues en récompense pour le soutien apporté à la révolte de
+               Nicéphore Mélissène. Apparentés à ceux-ci, peut-être aussi aux Phocas, les Bourtzai
+               restent sur le devant de la scène jusqu’à l’avènement des Comnènes, puis perdent
+               progressivement leur importance, même si plusieurs membres de la famille sont encore
+               connus au début du XIIIe siècle. Les Bourtzai ont laissé de nombreux sceaux qui, pour
+               certains titulaires, sont la seule source qui les atteste<bibl>
+                  <ptr target="Cheynet2008a"/>, n° <citedRange unit="entry">7, 11, 12, 15, 18, 22,
+                     24 bis, 29, 30, 34</citedRange></bibl>. Michel est connu par deux autres types
+               de sceaux, à deux étapes précédentes de sa carrière militaire : anthypatos et
+               stratège ; anthypatos, patrice et stratèlatès <bibl>
+                  <ptr target="Cheynet2008a"/>, p. <citedRange unit="page"
+                     >353-355</citedRange></bibl>. Une carrière remarquable, malgré des
+               débuts difficiles selon Skylitzès, puisque, en 1029, Michel et ses frères Théognoste
+               et Samuel furent sévèrement punis, humiliés publiquement et enfin exilés pour avoir
+               comploté contre Romain III Argyre <bibl>
+                  <ptr target="Empereurs2003"/>, p. <citedRange unit="page"
+                     >312</citedRange></bibl>. D’après Skylitzès, c’est le refus de Michel VI de
+               satisfaire la demande de promotion de Michel Bourtzès, en 1056, qui a poussé
+               celui-ci, alors vestarque, à se rallier à Isaac Comnène, lors de la rébellion qui l’a
+               porté au pouvoir suprême en 1057. Le plomb présenté ici, qui marque très probablement
+               la fin de la carrière de notre signataire, doit être daté du règne de cet empereur
+               (1057-1059).</p>
+            <p xml:lang="fr"/>
+         </div>
+         <div type="bibliography" subtype="edition">
+            <p><bibl>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry"
+                     >109</citedRange></bibl>
+               <bibl/>
+            </p>
+         </div>
+         <div type="bibliography" subtype="parallels">
+            <p/>
+         </div>
+         <div type="bibliography" subtype="discussion">
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

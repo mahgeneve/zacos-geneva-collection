@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en">Leon Iasites, anthypatos, patrikios, vestes and strategos</title>
+            <title xml:lang="fr">Léon Iasitès, anthypatos, patrice, vestès et stratège</title>
+            <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
+            <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+            <funder>
+               <orgName corresp="https://www.mahmah.ch/">MAH-Musée d'art et d'histoire - Genève,
+                  Cabinet de numismatique</orgName>, Suisse </funder>
+            <principal ref="#MCP"/>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <seg xml:lang="fr">Amélioration digitale</seg>
+               <seg xml:lang="en">Digital enhancement</seg>
+            </edition>
+            <editor role="digital-editor" xml:id="PE" when="2025-04-02">Pia Evening</editor>
+         </editionStmt>
+         <publicationStmt>
+            <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
+            <idno type="filename">CdN 2004-0352</idno>
+            <idno type="SigiDocID">s-ZycDw7</idno>
+            <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+            <idno type="sequence"/>
+            <!--  to be compiled automatically; leave as is  -->
+            <date when="2024-08-06"/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                  >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                  4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listPerson type="issuer">
+               <person gender="M" role="civil aristocracy">
+                  <persName xml:lang="grc">
+                     <forename>Λέων</forename>/> <surname>Ἰασίτης</surname>/> </persName>
+                  <persName xml:lang="fr">
+                     <forename>Léon</forename>/> <surname>Iasitès</surname>/> </persName>
+                  <persName xml:lang="en">
+                     <forename>Leon</forename>/> <surname>Iasites</surname>/> </persName>
+                  <idno type="PBW"/>
+                  <idno type="PBW"/>
+                  <idno type="PBE"/>
+                  <idno type="PLP"/>
+                  <idno type="PLRE"/>
+                  <idno type="PcBE"/>
+                  <idno type="PmbZ"/>
+               </person>
+            </listPerson>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <seg xml:lang="en">Switzerland</seg>
+                     <seg xml:lang="fr">Suisse</seg>
+                  </country>
+                  <settlement>
+                     <seg xml:lang="en">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">City of
+                           Geneva</placeName>
+                     </seg>
+                     <seg xml:lang="fr">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">Ville de
+                           Genève</placeName>
+                     </seg>
+                  </settlement>
+                  <institution>MAH-Musée d'art et d'histoire</institution>
+                  <repository>Cabinet de numismatique</repository>
+                  <collection type="public">
+                     <rs type="collection-name" xml:lang="en">Byzantine seals collection</rs>
+                     <rs type="collection-name" xml:lang="fr">Collection de sceaux byzantins</rs>
+                  </collection>
+                  <idno type="inv-nr-current">CdN 2004-0352</idno>
+                  <altIdentifier>
+                     <repository/>
+                     <idno type="inv-nr-former"/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <!--https://github.com/SigiDoc/Guidelines/wiki/5.-Controlled-vocabularies#seals-category-->
+                  <summary n="whole">
+                     <seg xml:lang="fr">Administration centrale</seg>
+                     <seg xml:lang="en">Central administration</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>
+                              <term>
+                                 <seg xml:lang="fr">Sceau</seg>
+                                 <seg xml:lang="en">Seal</seg>
+                              </term>
+                              <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                              <interp type="workType" xml:lang="en">Original impression</interp>
+                           </objectType>
+                           <material>
+                              <seg xml:lang="fr">Plomb</seg>
+                              <seg xml:lang="en">Lead</seg>
+                           </material>
+                           <dimensions type="support" unit="mm">
+                              <dim type="diameter">36,41</dim>
+                              <!-- mesure du champ? -->
+                           </dimensions>
+                           <measure type="weight" unit="g">24,003</measure>
+                           <measure type="axis" unit="clock"/>
+                           <measure type="overstrikeOrient" unit="clock"/>
+                           <measure type="channelOrient" unit="clock">1-7</measure>
+                           <measure type="countermark" unit="clock"/>
+                        </support>
+                        <condition rend="well-struck well-preserved chipped crushed">
+                           <p xml:lang="en">The bulla is well-struck and well-preserved, partially
+                              crushed on the two sides, slightly chipped at the opennings of the
+                              channel and worn around the rim</p>
+                           <p xml:lang="fr">La bulle est bien frappée et bien conservée;
+                              partiellement écrasée sur les deux faces, légèrement échancrée aux
+                              orifices du canal et sur la tranche</p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout n="whole">
+                           <rs type="execution">
+                              <seg xml:lang="fr">Frappé</seg>
+                              <seg xml:lang="en">Struck</seg>
+                           </rs>
+                           <rs type="shape">
+                              <seg xml:lang="fr">Ronde</seg>
+                              <seg xml:lang="en">Round</seg>
+                           </rs>
+                           <rs type="matrix" subtype="not-surviving">
+                              <idno type="SigiDoc">m-rKazvr</idno>
+                              <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+                              <idno type="PBW"/>
+                              <!-- to be used if the seal has a parallel in the PBW with a boulloterion registered there -->
+                           </rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <seg xml:lang="fr">
+                           <placeName/>
+                        </seg>
+                        <seg xml:lang="en">
+                           <placeName/>
+                        </seg>
+                     </origPlace>
+                     <origDate type="analysis" notBefore="1041" notAfter="1060"
+                        evidence="prosopography epigraphy titulature" cert="high" resp="#MCP #JCC">
+                        <seg xml:lang="en">Mid-11th century</seg>
+                        <seg xml:lang="fr">Milieu du XIe siècle</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="transferred" subtype="donated" when="2004-11-24">
+                     <!-- pas sûr de subtype et when -->
+                     <p xml:lang="en">George Zacos collection</p>
+                     <p xml:lang="fr">Collection Georges Zacos</p>
+                  </provenance>
+                  <acquisition>
+                     <p xml:lang="en">Donation of the Migore Foundation, Janet Zakos legacy, <date
+                           when="2004-11-24">24th November 2004</date>
+                     </p>
+                     <p xml:lang="fr">Don de la Fondation Migore, legs Janet Zakos, <date
+                           when="2004-11-24">24 Novembre 2004</date>
+                     </p>
+                  </acquisition>
+               </history>
+               <msPart n="r">
+                  <msIdentifier/>
+                  <msContents>
+                     <!-- ajouté ceci -->
+                     <summary n="r">
+                        <seg xml:lang="en">Obverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="r">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="fr">Iconographie avec de part et d'autre épigraphe en
+                                 colonne </p>
+                              <p xml:lang="en">Iconography with on either side epigraph on
+                                 columns</p>
+                           </layout>
+                        </layoutDesc>
+
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="r">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="r" xml:lang="fr" ana="person male saint Demetrios">Saint
+                                 Dèmètrios à mi-corps, de face, revêtu de la chlamyde, armé d’une
+                                 lance et d’un bouclier</figDesc>
+                              <figDesc n="r" xml:lang="en" ana="person male saint Demetrios">Saint
+                                 Demetrios, half-length, facing forward, clad in a chlamys, armed
+                                 with a spear and shield</figDesc>
+                              <figDesc n="decoR" xml:lang="fr">Cercle de grènetis</figDesc>
+                              <figDesc n="decoR" xml:lang="en">Circle of dots</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+               <msPart n="v">
+                  <msIdentifier/>
+                  <msContents>
+                     <summary n="v"><!-- ajouté ceci -->
+                        <seg xml:lang="en">Reverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="v">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="en">Linear legend of 7 lines</p>
+                              <p xml:lang="fr">Légende linéaire sur 7 lignes</p>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="v">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="decoV" xml:lang="fr">Cercle de grènetis; la première ligne
+                                 est précédée d'un croisette</figDesc>
+                              <figDesc n="decoV" xml:lang="en">Circle of dots; the first line is
+                                 preceded by a crosslet</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2025-04-02" who="#PE">Creation of the XML record.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp>
+         <surface n="r">
+            <desc>Obverse</desc>
+            <graphic type="photo" url="CdN2004-0352_1.jpg">
+               <desc xml:lang="en">CdN 2004-0352, obverse</desc>
+               <desc xml:lang="fr">CdN 2004-0352, avers</desc>
+            </graphic>
+         </surface>
+         <surface n="v">
+            <desc>Reverse</desc>
+            <graphic type="photo" url="CdN2004-0352_2.jpg">
+               <desc xml:lang="en">CdN 2004-0352, reverse</desc>
+               <desc xml:lang="fr">CdN 2004-0352, revers</desc>
+            </graphic>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" subtype="editorial" xml:space="preserve"> 
+            <div type="textpart" subtype="label" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="a"/><supplied reason="lost">Ὅ ἅγιος</supplied> <expan><abbr><supplied reason="lost">Δη</supplied>
+                 <cb n="b" break="no"/>μίτρ</abbr><ex>ιος</ex></expan>
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab ana="dat">
+                         <lb n="1"/><rs type="invocation" ref="#inv004"><expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan> <expan><abbr>β</abbr><ex>οή</ex><abbr>θ</abbr><ex>ει</ex></expan> 
+                         <lb n="2"/>τῷ σῷ <expan><abbr>δού</abbr><ex>λῳ</ex></expan></rs> 
+                         <lb n="3"/><expan><abbr>Λέοντ</abbr><ex>ι</ex></expan> <rs type="dignity" ref="#d0006"><expan><abbr>ἀν
+                         <lb n="4" break="no"/>θυπάτ</abbr><ex>ῳ</ex></expan> <expan><abbr>π</abbr><ex>ατ</ex><abbr>ρι</abbr><ex>κίῳ</ex></expan></rs>
+                         <lb n="5"/><rs type="dignity" ref="#d0018"><expan><abbr>βέστ</abbr><ex>ῃ</ex></expan></rs> <expan><abbr><am>S</am></abbr><ex>καὶ</ex></expan> <rs type="office" subtype="military" ref="#of0279"><expan><abbr>στ<supplied reason="lost">ρα</supplied>
+                         <lb n="6" break="no"/>τ</abbr><ex>η</ex><abbr>γῷ</abbr></expan></rs> <expan><abbr>τ</abbr><ex>ῷ</ex></expan> Ἰα
+                         <lb n="7" break="no"/>σίτῃ
+                      </ab>
+                  </div>
+              </div>
+         <div type="edition" subtype="diplomatic" xml:space="preserve"> 
+                  <div type="textpart" subtype="label" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="a"/>...
+                 <cb n="b"/>μ|ιτ| ρ/
+              </ab>
+            </div>
+            <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab>
+                         <lb n="1"/>κεr/ θ/                            
+                         <lb n="2"/>τσδ/ 
+                         <lb n="3"/>λεοντ/  αν
+                         <lb n="4"/>θυπατ/  πρι̣ 
+                         <lb n="5"/>rεστ/  στ..
+                         <lb n="6"/>τ/ γτ/ ια̣ 
+                         <lb n="7"/>σιτη
+                         </ab>
+                  </div>
+              </div>
+         <div type="translation">
+            <p>Ὁ ἅγιος Δημίτριος. || + Κύριε βοήθει τῷ σῷ δούλῳ Λέοντι ἀνθυπάτῳ πατρικίῳ, βέστῃ καὶ
+               στρατηγῷ τῷ Ἰασίτῃ.</p>
+            <p xml:lang="en">Saint Demetrios. || + Lord aid your servant Leon Iasites, anthypatos,
+               patrikios, vestes and strategos</p>
+            <p xml:lang="fr">Saint Dèmètrios. || + Seigneur accorde ton secours à ton serviteur Léon
+               Iasitès, anthypatos, patrice, vestès et stratège</p>
+         </div>
+         <div type="commentary" subtype="text">
+            <!-- renvois internes à refaire -->
+            <p xml:lang="en">The numerous seals left by Leon Iasites allow us to follow the
+               successive stages of his brilliant military career: anthypatos, patrician, vestes and
+               count of the stable (<bibl>
+                  <ptr target="Istanbul"/>, n° <citedRange unit="entry">2.184</citedRange></bibl>) ;
+               anthypatos, patrikios, vestes and strategos; vestes and strategos of the Bucellarii (<bibl>
+                  <ptr target="DOseals4"/>, n° <citedRange unit="entry">1.32</citedRange></bibl>);
+               protoproedros (<bibl>
+                  <ptr target="Schlumberger1884"/>, p. <citedRange unit="p."
+                  >5.74-575</citedRange></bibl>); magistros, vestarches and doux (Zacos (BnF) 328,
+               unpublished); kouropalates and doux of the Armeniakoi (<bibl>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">115</citedRange></bibl>).
+               The high dignity of kouropalates was the highest rank that a person who was not a
+               member of the imperial family could attain before the advent of the Komnenoi.</p>
+            <p xml:lang="en">Leon Iasites belonged to an illustrious aristocratic lineage, which
+               appeared in literary texts only at the beginning of the 11th century and which
+               managed to remain at the top of the hierarchy throughout that century. The catepan of
+               Iberia in 1037, mentioned by Skylitzes, is identified as the future magistros
+               Michael, the best-known representative of the family for having had a distinguished
+               military career in the service of Constantine IX Monomachos. Constantine Iasites, who
+               participated in the Synod of Blachernae (1094) as kouropalates, was undoubtedly a
+               Michael's son and the husband of Constantine's daughter, the nephew of the very
+               influential patriarch Michael Keroularios. The seals reveal other members of the
+               family, Adralestos, Theodore, Nicephoros, and Helen. The family's social rise reached
+               its peak with the marriage—which ended in divorce—of Michael, Constantine's son, to
+               the porphyrogenita Eudokia, third daughter of Alexius I Comnenus. Joseph Iasites
+               became abott of Patmos between 1094 and 1118, and Theophylaktos of Bulgaria claimed
+               to have been harassed by a tax collector, named Iasites. After the reign of Alexius
+               KOmnenos, the lineage declined. In the 12th century, there is only mention of an
+               Eirene, with no known title (<bibl>
+                  <ptr target="JordanovCorpus2"/>, n° <citedRange unit="entry"
+                  >239</citedRange></bibl>), and it was not until the 13th century that the deacon,
+               then nomophylax of the Great Church of Constantinople, Michael Iasites, became
+               metropolitan of Nicomedia from 1285 to 1289.</p>
+            <p xml:lang="fr">Les nombreux sceaux laissés par Léon Iasitès permettent de suivre les
+               étapes successives de sa brillante carrière militaire : anthypatos, patrice, vestès
+               et comte de l’étable (<bibl>
+                  <ptr target="Istanbul"/>, n° <citedRange unit="entry">2.184</citedRange></bibl>)
+               ;anthypatos, patrice, vestès et stratège ; vestès et stratège des Bucellaires (<bibl>
+                  <ptr target="DOseals4"/>, n° <citedRange unit="entry">1.32</citedRange></bibl>);
+               protoproèdre (<bibl>
+                  <ptr target="Schlumberger1884"/>, p. <citedRange unit="p."
+                  >5.74-575</citedRange></bibl>) ; magistre, vestarque et duc (Zacos (BnF) 328,
+               iédit) ; curopalate et duc des Arméniaques (<bibl>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">115</citedRange></bibl>).
+               La haute dignité de curopalate est l’échelon le plus élevé auquel un personnage, qui
+               ne faisait pas partie de la famille impériale, pouvait accéder, avant l’avènement des
+               Comnènes.</p>
+            <p xml:lang="fr">Léon Iasitès appartient à une illustre lignée aristocratique, qui
+               apparaît dans les textes littéraires seulement au début du XIe siècle et qui a su
+               rester aux premiers rangs de la hiérarchie tout au long de celui-ci. Le catépan
+               d’Ibérie en 1037, mentionné par Skylitzès, est identifié au futur magistre Michel,
+               représentant le mieux connu de la famille pour avoir accompli une belle carrière
+               militaire au service de Constantin IX Monomaque. Constantin Iasitès, qui participait
+               au synode des Blachernes (1094) en qualité de curopalate, était sans doute un fils de
+               Michel et l’époux de la fille de Constantin, le neveu du très influent patriarche
+               Michel Cérulaire. Les sceaux nous font connaître d’autres membres de la famille,
+               Adralestos, Théodore, Nicéphore, Hélène. L’ascension sociale de la famille a atteint
+               son apogée avec le mariage – soldé par un divorce – de Michel, fils de Constantin,
+               avec la porphyrogénète Eudocie, troisième fille d’Alexis Ier Comnène. Joseph Iasitès
+               devint higoumène de Patmos entre 1094 et 1118 et Théophylacte de Bulgarie se dit
+               harcelé par un percepteur, nommé Iasitès. Après le règne d’Alexis Comnène, la lignée
+               décline. Au XIIe siècle, on n’a mention que d’une Irène, sans titre connu, et il faut
+               attendre le XIIIe siècle, quand le diacre, puis nomophylax de la Grande Église de
+               Constantinople, Michel Iasitès, devint métropolite de Nicomédie de 1285 à 1289.</p>
+         </div>
+         <div type="bibliography" subtype="edition">
+            <p><bibl>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">99</citedRange></bibl>
+               <bibl/>
+            </p>
+         </div>
+         <div type="bibliography" subtype="parallels">
+            <p>Ermitage, M-2259: </p>
+         </div>
+         <div type="bibliography" subtype="discussion">
+            <p><bibl>
+                  <ptr target="BBÖ1"/>, p. <citedRange unit="page">140.13</citedRange></bibl></p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en">Nikephoros Antiochos, magistros and vestes</title>
+            <title xml:lang="fr">Nicéphore Antiochos, magistre et vestès</title>
+            <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
+            <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+            <funder>
+               <orgName corresp="https://www.mahmah.ch/">MAH-Musée d'art et d'histoire - Genève,
+                  Cabinet de numismatique</orgName>, Suisse</funder>
+            <principal ref="#MCP"/>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <seg xml:lang="fr">Amélioration digitale</seg>
+               <seg xml:lang="en">Digital enhancement</seg>
+            </edition>
+            <editor role="digital-editor" xml:id="PE" when="2025-04-22">Pia Evening</editor>
+            <editor role="digital-editor" ref="#MCP" when="2026-03-18">Maria
+               Campagnolo-Pothitou</editor>
+         </editionStmt>
+         <publicationStmt>
+            <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
+            <idno type="filename">CdN 2004-0264</idno>
+            <idno type="SigiDocID">s-UtX2QY</idno>
+            <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+            <idno type="sequence"/>
+            <!--  to be compiled automatically; leave as is  -->
+            <date when="2024-08-06"/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                  >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                  4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listPerson type="issuer">
+               <person gender="M" role="civil aristocracy">
+                  <persName xml:lang="grc">
+                     <forename>Νικηφόρος</forename>
+                     <surname>Ἀντίοχος</surname>
+                  </persName>
+                  <persName xml:lang="fr">
+                     <forename>Nicéphore</forename>
+                     <surname>Antiochos</surname>
+                  </persName>
+                  <persName xml:lang="en">
+                     <forename>Nikephoros</forename>
+                     <surname>Antiochos</surname>
+                  </persName>
+                  <idno type="PBW" ana="http://pbw2016.kdl.kcl.ac.uk/person/Nikephoros/142/"
+                     >Nikephoros 142</idno>
+                  <idno type="PBE"/>
+                  <idno type="PLP"/>
+                  <idno type="PLRE"/>
+                  <idno type="PcBE"/>
+                  <idno type="PmbZ"/>
+               </person>
+            </listPerson>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <seg xml:lang="en">Switzerland</seg>
+                     <seg xml:lang="fr">Suisse</seg>
+                  </country>
+                  <settlement>
+                     <seg xml:lang="en">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">City of
+                           Geneva</placeName>
+                     </seg>
+                     <seg xml:lang="fr">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">Ville de
+                           Genève</placeName>
+                     </seg>
+                  </settlement>
+                  <institution>MAH-Musée d'art et d'histoire</institution>
+                  <repository>Cabinet de numismatique</repository>
+                  <collection type="public">
+                     <rs type="collection-name" xml:lang="en">Byzantine seals collection</rs>
+                     <rs type="collection-name" xml:lang="fr">Collection de sceaux byzantins</rs>
+                  </collection>
+                  <idno type="inv-nr-current">CdN 2004-0264</idno>
+                  <altIdentifier>
+                     <repository/>
+                     <idno type="inv-nr-former"/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <!--https://github.com/SigiDoc/Guidelines/wiki/5.-Controlled-vocabularies#seals-category-->
+                  <summary n="whole">
+                     <seg xml:lang="fr">Dignitaires</seg>
+                     <seg xml:lang="en">Dignitaries</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>
+                              <term>
+                                 <seg xml:lang="fr">Sceau</seg>
+                                 <seg xml:lang="en">Seal</seg>
+                              </term>
+                              <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                              <interp type="workType" xml:lang="en">Original impression</interp>
+                           </objectType>
+                           <material>
+                              <seg xml:lang="fr">Plomb</seg>
+                              <seg xml:lang="en">Lead</seg>
+                           </material>
+                           <dimensions type="support" unit="mm">
+                              <dim type="diameter">26,82/25,94</dim>
+                              <!-- mesure du champ? -->
+                           </dimensions>
+                           <measure type="weight" unit="g">14,997</measure>
+                           <measure type="axis" unit="clock"/>
+                           <measure type="overstrikeOrient" unit="clock"/>
+                           <measure type="channelOrient" unit="clock">12-6</measure>
+                           <measure type="countermark" unit="clock"/>
+                        </support>
+                        <condition rend="well-struck well-preserved  not-centered ">
+                           <p xml:lang="en">The bulla is well struck although not-centered on the
+                              obverse; well-preserved, slightly chipped at the openings of the
+                              channel, also slightly corroded and obliterated </p>
+                           <p xml:lang="fr">La bulle est bien frappée, bien que décentrée sur
+                              l'avers; bien conservée, elle est légèrement corrodée et écrasée ainsi
+                              qu'échancrée aux orifices du canal</p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout n="whole">
+                           <rs type="execution">
+                              <seg xml:lang="fr">Frappé</seg>
+                              <seg xml:lang="en">Struck</seg>
+                           </rs>
+                           <rs type="shape">
+                              <seg xml:lang="fr">Ronde</seg>
+                              <seg xml:lang="en">Round</seg>
+                           </rs>
+                           <rs type="matrix" subtype="not-surviving">
+                              <idno type="SigiDoc">m-1SYmlG</idno>
+                              <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+                              <idno type="PBW">http://pbw2016.kdl.kcl.ac.uk/boulloterion/450/</idno>
+                              <!-- to be used if the seal has a parallel in the PBW with a boulloterion registered there -->
+                           </rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <seg xml:lang="fr">
+                           <placeName/>
+                        </seg>
+                        <seg xml:lang="en">
+                           <placeName/>
+                        </seg>
+                     </origPlace><!--range okay?-->
+                     <origDate type="analysis" notBefore="1001" notAfter="1069"
+                        evidence="prosopography titulature iconography epigraphy" cert="high"
+                        resp="#MCP #JCC">
+                        <seg xml:lang="en">Before 1069</seg>
+                        <seg xml:lang="fr">Avant 1069</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="transferred" subtype="donated" when="2004-11-24">
+                     <!-- pas sûr de subtype et when -->
+                     <p xml:lang="en">George Zacos collection</p>
+                     <p xml:lang="fr">Collection Georges Zacos</p>
+                  </provenance>
+                  <acquisition>
+                     <p xml:lang="en">Donation of the Migore Foundation, Janet Zakos legacy, <date
+                           when="2004-11-24">24th November 2004</date>
+                     </p>
+                     <p xml:lang="fr">Don de la Fondation Migore, legs Janet Zakos, <date
+                           when="2004-11-24">24 Novembre 2004</date>
+                     </p>
+                  </acquisition>
+               </history>
+               <msPart n="r">
+                  <msIdentifier/>
+                  <msContents>
+                     <!-- ajouté ceci -->
+                     <summary n="r">
+                        <seg xml:lang="en">Obverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="r">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="fr">Iconographie avec des sigles de part et d'autre de
+                                 l'effigie</p>
+                              <p xml:lang="en">Iconography with sigla on either part of the
+                                 effigy</p>
+                           </layout>
+                        </layoutDesc>
+
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="r">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="r" xml:lang="fr" ana="person female Virgin Mary">Vierge
+                                 Hodègètria à mi-corps, légèrement tournée vers l’Enfant qu’elle
+                                 porte sur le bras gauche. Le Christ, bénissant, est figuré de face,
+                                 tenant le Livre de la main gauche.</figDesc>
+                              <figDesc n="r" xml:lang="en" ana="person female Virgin Mary">Virgin
+                                 Hodegetria half-length, slightly turned towards the Child she is
+                                 holding on her left arm. The Christ, facing forward, is blessing
+                                 with his right hand and is holding the Gospels in the left
+                                 one.</figDesc>
+                              <figDesc n="decoR" xml:lang="fr">Cercle de grènetis; les sigles sont
+                                 écrasés à gauche</figDesc>
+                              <figDesc n="decoR" xml:lang="en">Border of dots; sigla are obliterated
+                                 on the left</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+               <msPart n="v">
+                  <msIdentifier/>
+                  <msContents>
+                     <summary n="v"><!-- ajouté ceci -->
+                        <seg xml:lang="en">Reverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="v">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="en">Linear legend of six lines</p>
+                              <p xml:lang="fr">Légende linéaire sur 6 lignes</p>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="v">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="decoV" xml:lang="fr">Cercle de gènetis; l'inscription est
+                                 précédée d’une croisette ; au sommet et à la base du champ, un
+                                 croisillon de perles flanqué de tirets</figDesc>
+                              <figDesc n="decoV" xml:lang="en">Border of dots; the inscription is
+                                 preceded by a crosslet; above and under the inscription, a
+                                 crosspiece of pearls is placed between traits</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2025-04-22" who="#PE">Creation of the XML record.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp>
+         <surface n="r">
+            <desc>Obverse</desc>
+            <graphic type="photo" url="CdN2004-0264_1.jpg">
+               <desc xml:lang="en">CdN 2004-0264, obverse</desc>
+               <desc xml:lang="fr">CdN 2004-0264, avers</desc>
+            </graphic>
+         </surface>
+         <surface n="v">
+            <desc>Reverse</desc>
+            <graphic type="photo" url="CdN2004-0264_2.jpg">
+               <desc xml:lang="en">CdN 2004-0264, reverse</desc>
+               <desc xml:lang="fr">CdN 2004-0264, revers</desc>
+            </graphic>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" subtype="editorial" xml:space="preserve"> 
+            <div type="textpart" subtype="sigla" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="a"/><supplied reason="lost"><expan><abbr>Μ</abbr><ex>ήτ</ex><abbr>ηρ</abbr></expan></supplied> 
+                 <cb n="b"/><expan><abbr>Θ</abbr><ex>εο</ex><abbr>ῦ</abbr></expan>
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab ana="dat">
+                         <lb n="1"/><rs type="invocation" ref="#inv002"><expan><abbr>Θ</abbr><ex>εοτό</ex><abbr>κε</abbr></expan> <expan><abbr>β</abbr><ex>οή</ex><abbr>θ</abbr><ex>ει</ex></expan> 
+                         <lb n="2"/>τῷ σῷ <expan><abbr>δού</abbr><ex>λῳ</ex></expan></rs> 
+                         <lb n="3"/>Νικηφόρῳ 
+                         <lb n="4"/><rs type="dignity" ref="#d0038">μαγί<supplied reason="lost">σ</supplied>τρῳ</rs>
+                         <lb n="5"/><rs type="dignity" ref="#d0018">βέστῃ</rs> τῷ 
+                         <lb n="6"/><expan><abbr>Ἀντιόχ</abbr><ex>ῳ</ex></expan>
+                      </ab>
+                  </div>
+              </div>
+         <div type="edition" subtype="diplomatic" xml:space="preserve"> 
+                  <div type="textpart" subtype="sigla" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="a"/>...
+                 <cb n="b"/>ΘV
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab>
+                         <lb n="1"/>θκεṛ/ θ̣/                             
+                         <lb n="2"/>τσδ/ 
+                         <lb n="3"/>νικηφορ
+                         <lb n="4"/>μαγι.τρ
+                         <lb n="5"/>rεστητ
+                         <lb n="6"/>αντιοχ/
+                         </ab>
+                  </div>
+              </div>
+         <div type="translation">
+            <p>Μήτηρ Θεοῦ. || + Θεοτόκε βοήθει τῷ σῷ δούλῳ Νικηφόρῳ μαγίστρῳ, βέστῃ τῷ Ἀντιόχῳ.</p>
+            <p xml:lang="en">Mother of God. || + Mother of God help your servant Nikephoros
+               Antiochos, magistros and vestes</p>
+            <p xml:lang="fr">Mère de Dieu. || + Mère de Dieu, accorde ton secours à Nicéphore
+               Antiochos, magistre et vestès</p>
+         </div>
+         <div type="commentary" subtype="text">
+            <!-- renvois internes à refaire -->
+            <p xml:lang="en">Nicéphore Antiochos, a general of the Anatolians, was killed in battle
+               against the Seljuks in 1069 <bibl><ptr target="Schreiner1975"/>, ch. <citedRange
+                     unit="chapter">I,4/3; II,154</citedRange></bibl>. A seal from the IFEB (704)
+               can be attributed to him with a reasonable degree of certainty. In it, Nicéphore is
+               honored with the rank of proedrus, the rank immediately above that of magister. But
+               what leaves room for doubt is the effigy of Saint John the Forerunner depicted
+                     full-length<bibl><ptr target="Seyrig"/>, p. <citedRange unit="page"
+                     >42</citedRange></bibl>. On the other hand, a seal preserved at Dumbarton
+                     Oaks<bibl><ptr target="DOSeals5"/>, n° <citedRange unit="entry"
+                     >117.1</citedRange></bibl>, depicting a bust of the Virgin Episkepsis, poses a
+               problem of interpretation. The reverse legend, θκεr/ θ/ νικηφ/ αντιχ σδλ/ χυ ,
+               has been interpreted as Nicephorus Antiochus, like the Seyrig editors. The editors of
+               DOSeals propose an alternative reading of the name in the third line, which is
+               abbreviated and followed by a clear S, as Ἀντιωχ(εία)ς; in which case, we would have
+               the seal of a Nicephorus, metropolitan of Antioch in Pisidia, or even bishop of
+               another Antioch, in Caria or Isauria, a hypothesis supported by the closing formula
+               δούλῳ Χριστοῦ. In either case, the wording of the legend is elliptical.The surname,
+               derived from a first name known since antiquity, seems to have emerged in the
+               9th/10th century. Nevertheless, the Antiochos family, γένος περιφανές<bibl><ptr
+                     target="Alexiade1967"/>, ch. <citedRange unit="chapter">XII, VI §
+                     1</citedRange></bibl>, distinguished itself in the 11th century through a rapid
+               rise to high military office<bibl><ptr target="BBÖ1"/>, p. <citedRange unit="page"
+                     >233-234</citedRange></bibl>. Another seal reveals a Theophylact Antiochos,
+               strategos of the East(Vente Pecunem, n° 35 (6 septembre 2015), lot n° 901). We find
+               certain Antiochoi involved in political movements, such as the strategos Leo,
+               alongside the usurper Isaac Comnenus in 1057 <bibl><ptr target="Empereurs2003"/>, p. <citedRange unit="page"
+                     >408</citedRange></bibl>,or those who joined the conspiracy of
+               the Anemas brothers (c. 1102?) against Alexius I <bibl><ptr target="Alexiade1967"/>, ch.
+                  <citedRange unit="chapter">XII, VI § 1</citedRange></bibl>. However, two members of the family
+               had participated in the Synod of Blachernae in 1094 <bibl><ptr
+                     target="Gautier1971"/>, p. <citedRange unit="page">250-251,
+                        258-259</citedRange></bibl>: the curopalate and grand
+               hetairoarch, Constantine, also known from sigillography, and the proedros and
+               primicerius of the outer vestiarites, Michael. The failure of the Anemas’ plot does
+               not seem to have harmed the future of the Antiochos family, which, in the 12th
+               century, allied itself with the Comneni, the Euphorbènoi, and the Kastamonitai and
+               distinguished itself in civil office11.The family’s prestige was such that kinship
+               with it on the maternal side was readily mentioned on seals. Thus, in the mid-12th
+               century, Theodore Kastamonites Antiochus states: Ἐγώ κρατύνω τὰς γραφὰς Θεοδώρου
+               Κασταμονίτου μητρόθεν Ἀντιόχου <bibl><ptr target="DOsealsOnline"/>, n° <citedRange unit="entry"
+                     >BZS 1958.106.1616</citedRange></bibl> and Ermitage M-9283, mentioned in
+               <bibl><ptr target="BBÖ1"/>, p. <citedRange unit="page">248</citedRange></bibl>
+               et <bibl><ptr target="Wassiliou-Seibt2011"/>, n° <citedRange unit="entry"
+                     >675</citedRange></bibl>. In the second half of the 12th century, the
+               rhetorician Gregory (?) Antiochos also notes his mother’s illustrious surname:
+               Γρηγορίου σφράγισμα γραμμάτων φέρω, ῥίζης φυέντος Ἀντιόχων μητρόθεν <bibl><ptr
+                     target="Wassiliou-Seibt2011"/>, n° <citedRange unit="entry"
+                        >589</citedRange></bibl>. After being
+               excluded from the imperial circle in the 13th century, the Antiochoi reappeared there
+               in the 14th century and remained there until 1453.</p>
+            <p xml:lang="en"/>
+            <p xml:lang="fr">Nicéphore Antiochos, stratège des Anatoliques, fut tué en combattant
+               les Seldjoukides, en 1069 <bibl><ptr target="Schreiner1975"/>, ch. <citedRange
+                     unit="chapter">I,4/3; II,154</citedRange></bibl>. Un sceau de l’IFEB (704) peut
+               lui être attribué avec un degré raisonnable de certitude. Nicéphore y est honoré de
+               la dignité de proèdre, échelon immédiatement supérieur à celui de magistre. Mais ce
+               qui laisse subsister un doute, c’est l’effigie de saint Jean Prodrome figuré en pied
+                     <bibl><ptr target="Seyrig"/>, p. <citedRange unit="page"
+               >42</citedRange></bibl>. En revanche, un sceau conservé à Dumbarton Oaks <bibl><ptr
+                     target="DOSeals5"/>, n° <citedRange unit="entry">117.1</citedRange></bibl>,
+               illustré au buste de la Vierge Épiskepsis, pose un problème d’interprétation. La
+               légende du revers, θκεr/ θ/ νικηφ/ αντιχ σδλ/ χυ a été comprise en Nicéphore
+               Antiochos, comme les éditeurs de la collection Seyrig. Les éditeurs des DOSeals
+               proposent éventuellement une autre restitution du nom à la troisième ligne, qui est
+               abrégé et suivi d’un S net, en Ἀντιωχ(εία)ς ; en ce cas, on aurait le sceau d’un
+               Nicéphore, métropolite d’Antioche de Pisidie, voire évêque d’une autre Antioche, de
+               Carie ou d’Isaurie, hypothèse que peut étayer la formule finale δούλῳ Χριστοῦ. Dans
+               l’une ou l’autre hypothèse, la rédaction de la légende est elliptique. Le patronyme,
+               issu d’un prénom connu depuis l’Antiquité, semble apparaître au IXe/Xe siècle.
+               Néanmoins, la famille Antiochos, γένος περιφανές <bibl><ptr target="Alexiade1967"/>,
+                  ch. <citedRange unit="chapter">XII, VI § 1</citedRange></bibl>, se distingue, au
+               XIe siècle, par une ascension rapide dans les hautes charges militaires <bibl><ptr
+                     target="BBÖ1"/>, p. <citedRange unit="page">233-234</citedRange></bibl>. Un
+               autre sceau fait connaître un Théophylacte Antiochos, stratègètès d’Orient (Vente
+               Pecunem, n° 35 (6 septembre 2015), lot n° 901). Nous retrouvons certains Antiochoi
+               mêlés à des mouvements politiques, tels le stratège Léon, aux côtés de l’usurpateur
+               Isaac Comnène en 1057 <bibl><ptr target="Empereurs2003"/>, p. <citedRange unit="page"
+                     >408</citedRange></bibl>, ou ceux qui rejoignirent la conjuration des frères
+               Anémas (vers 1102 ?) contre Alexis Ier <bibl><ptr target="Alexiade1967"/>, ch.
+                     <citedRange unit="chapter">XII, VI § 1</citedRange></bibl>. Cependant, deux
+               membres de la famille avaient participé au synode des Blachernes en 1094 <bibl><ptr
+                     target="Gautier1971"/>, p. <citedRange unit="page">250-251,
+                     258-259</citedRange></bibl> : le curopalate et grand hétaireiarque, Constantin,
+               connu aussi par la sigillographie, et le proèdre et primicier des vestiarites
+               extérieurs, Michel. L’échec du complot des Anémas ne semble pas avoir porté préjudice
+               à l’avenir de la famille Antiochos qui, au XIIe siècle, s’allia aux Comnènes, aux
+               Euphorbènoi et aux Kastamonitai et se distingua dans les fonctions civiles. Le
+               prestige de la famille était tel que le lien de parenté avec elle du côté maternel
+               est volontiers mentionné sur les sceaux. Ainsi, au milieu du XIIe siècle, Théodore
+               Kastamonitès Antiochos rappelle : Ἐγώ κρατύνω τὰς γραφὰς Θεοδώρου Κασταμονίτου
+               μητρόθεν Ἀντιόχου <bibl><ptr target="DOsealsOnline"/>, n° <citedRange unit="entry"
+                     >BZS 1958.106.1616</citedRange></bibl> et Ermitage M-9283, mentionnés dans
+                     <bibl><ptr target="BBÖ1"/>, p. <citedRange unit="page">248</citedRange></bibl>
+               et <bibl><ptr target="Wassiliou-Seibt2011"/>, n° <citedRange unit="entry"
+                     >675</citedRange></bibl>. Dans la seconde moitié du XIIe siècle, le rhéteur
+               Grégoire (?) Antiochos relève aussi l’illustre patronyme de sa mère : Γρηγορίου
+               σφράγισμα γραμμάτων φέρω, ῥίζης φυέντος Ἀντιόχων μητρόθεν <bibl><ptr
+                     target="Wassiliou-Seibt2011"/>, n° <citedRange unit="entry"
+                  >589</citedRange></bibl>. Après un retrait du cercle impérial au xiiie siècle, les
+               Antiochoi y apparaissent de nouveau au XIVe siècle et jusqu’en 1453.</p>
+            <p xml:lang="fr"/>
+         </div>
+         <div type="bibliography" subtype="edition">
+            <p><bibl><ptr
+                     target="ZacosGenève"/>, n° <citedRange unit="entry"
+                        >169</citedRange></bibl>
+               <bibl/>
+            </p>
+         </div>
+         <div type="bibliography" subtype="parallels">
+            <p>anc. coll. Orghidan:
+               <bibl><ptr
+                     target="Orghidan"/>, n° <citedRange unit="entry"
+                        >76</citedRange></bibl></p>
+            <p>anc. coll. Seyrig:
+               <bibl><ptr
+                     target="Seyrig"/>, n° <citedRange unit="entry"
+                        >38</citedRange></bibl></p>  
+         </div>
+         <div type="bibliography" subtype="discussion">
+            <p>
+               <bibl><ptr
+                     target="BBÖ1"/>, n° <citedRange unit="entry"
+                        >105 et 117</citedRange></bibl></p>
+         </div>
+      </body>
+   </text>
+</TEI>

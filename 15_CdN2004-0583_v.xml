@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en">Alexios Ist Komnenos</title>
+            <title xml:lang="fr">Alexis Ier Comnène</title>
+            <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
+            <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+            <funder>
+               <orgName corresp="https://www.mahmah.ch/">MAH-Musée d'art et d'histoire - Genève,
+                  Cabinet de numismatique</orgName>, Suisse</funder>
+            <principal ref="#MCP"/>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <seg xml:lang="fr">Amélioration digitale</seg>
+               <seg xml:lang="en">Digital enhancement</seg>
+            </edition>
+            <editor role="digital-editor" xml:id="PE" when="2025-06-02">Pia Evening</editor>
+         </editionStmt>
+         <publicationStmt>
+            <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
+            <idno type="filename">CdN 2004-0583</idno>
+            <idno type="SigiDocID">s-zlegMY</idno>
+            <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+            <idno type="sequence"/>
+            <!--  to be compiled automatically; leave as is  -->
+            <date when="2024-08-06"/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                  >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                  4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listPerson type="issuer">
+               <person gender="M" role="imperial">
+                  <persName xml:lang="grc">
+                     <forename>Ἀλέξιος Α΄</forename>/> <surname>Κομνηνὸς</surname>/> </persName>
+                  <persName xml:lang="fr">
+                     <forename>Alexis Ier</forename> <surname>Comnène</surname> </persName>
+                  <persName xml:lang="en">
+                     <forename>Alexios Ist</forename> <surname>Komnenos</surname> </persName>
+                  <idno type="PBW" ana="http://pbw2016.kdl.kcl.ac.uk/person/Alexios/1/">Alexios 1</idno>
+                  <idno type="PBW"/>
+                  <idno type="PBE"/>
+                  <idno type="PLP"/>
+                  <idno type="PLRE"/>
+                  <idno type="PcBE"/>
+                  <idno type="PmbZ"/>
+               </person>
+            </listPerson>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <seg xml:lang="en">Switzerland</seg>
+                     <seg xml:lang="fr">Suisse</seg>
+                  </country>
+                  <settlement>
+                     <seg xml:lang="en">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">City of
+                           Geneva</placeName>
+                     </seg>
+                     <seg xml:lang="fr">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">Ville de
+                           Genève</placeName>
+                     </seg>
+                  </settlement>
+                  <institution>MAH-Musée d'art et d'histoire</institution>
+                  <repository>Cabinet de numismatique</repository>
+                  <collection type="public">
+                     <rs type="collection-name" xml:lang="en">Byzantine seals collection</rs>
+                     <rs type="collection-name" xml:lang="fr">Collection de sceaux byzantins</rs>
+                  </collection>
+                  <idno type="inv-nr-current">CdN 2004-0583</idno>
+                  <altIdentifier>
+                     <repository/>
+                     <idno type="inv-nr-former"/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <!--https://github.com/SigiDoc/Guidelines/wiki/5.-Controlled-vocabularies#seals-category-->
+                  <summary n="whole">
+                     <seg xml:lang="fr">impérial</seg>
+                     <seg xml:lang="en">imperial</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>
+                              <term>
+                                 <seg xml:lang="fr">Sceau</seg>
+                                 <seg xml:lang="en">Seal</seg>
+                              </term>
+                              <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                              <interp type="workType" xml:lang="en">Original impression</interp>
+                           </objectType>
+                           <material>
+                              <seg xml:lang="fr">Plomb</seg>
+                              <seg xml:lang="en">Lead</seg>
+                           </material>
+                           <dimensions type="support" unit="mm">
+                              <dim type="diameter">2,71/32,08</dim>
+                              <!-- mesure du champ? -->
+                           </dimensions>
+                           <measure type="weight" unit="g">25,317</measure>
+                           <measure type="axis" unit="clock"/>
+                           <measure type="overstrikeOrient" unit="clock"/>
+                           <measure type="channelOrient" unit="clock">12-6</measure>
+                           <measure type="countermark" unit="clock"/>
+                        </support>
+                        <condition rend="well-struck well-preserved chipped crushed">
+                           <p xml:lang="en">The bulla is well-struck and well-preserved, slightly
+                              chipped at the opennings of the channel and slightly crushed
+                              on both sides </p>
+                           <p xml:lang="fr">La bulle est bien frappée et bien conservée; légèrement
+                              échancrée aux orifices du canal et légèrement écrasée sur les deux
+                              faces</p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout n="whole">
+                           <rs type="execution">
+                              <seg xml:lang="fr">Frappé</seg>
+                              <seg xml:lang="en">Struck</seg>
+                           </rs>
+                           <rs type="shape">
+                              <seg xml:lang="fr">Ronde</seg>
+                              <seg xml:lang="en">Round</seg>
+                           </rs>
+                           <rs type="matrix" subtype="not-surviving">
+                              <idno type="SigiDoc">m-wWfhHp</idno>
+                              <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+                              <idno type="PBW"/>
+                              <!-- to be used if the seal has a parallel in the PBW with a boulloterion registered there -->
+                           </rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <seg xml:lang="fr">
+                           <placeName/>
+                        </seg>
+                        <seg xml:lang="en">
+                           <placeName/>
+                        </seg>
+                     </origPlace>
+                     <origDate type="analysis" notBefore="1081" notAfter="1118"
+                        evidence="prosopography iconography reign" cert="high" resp="#MCP #JCC">
+                        <seg xml:lang="en">1081-1118</seg>
+                        <seg xml:lang="fr">1081-1118</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="transferred" subtype="donated" when="2004-11-24">
+                     <!-- pas sûr de subtype et when -->
+                     <p xml:lang="en">George Zacos collection</p>
+                     <p xml:lang="fr">Collection Georges Zacos</p>
+                  </provenance>
+                  <acquisition>
+                     <p xml:lang="en">Donation of the Migore Foundation, Janet Zakos legacy, <date
+                           when="2004-11-24">24th November 2004</date>
+                     </p>
+                     <p xml:lang="fr">Don de la Fondation Migore, legs Janet Zakos, <date
+                           when="2004-11-24">24 Novembre 2004</date>
+                     </p>
+                  </acquisition>
+               </history>
+               <msPart n="r">
+                  <msIdentifier/>
+                  <msContents>
+                     <!-- ajouté ceci -->
+                     <summary n="r">
+                        <seg xml:lang="en">Obverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="r">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="fr">Iconographie avec de part et d'autre des sigles </p>
+                              <p xml:lang="en">Iconography with sigla on either side of the effigy</p>
+                           </layout>
+                        </layoutDesc>
+
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="r">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="r" xml:lang="fr" ana="person male Christ">Christ assis, de
+                                 face, sur un trône à haut dossier, vêtu du chitôn et de l’himation,
+                                 pieds posés sur un souppédion carré, tenant les évangiles en main
+                                 gauche et bénissant de la droite. Son nimbe est orné d’une perle en
+                                 chaque branche de la croix.</figDesc>
+                              <figDesc n="r" xml:lang="en" ana="person male Christ">Christ seated,
+                                 facing forward, on a throne with a high back, wearing a chiton and
+                                 himation, feet resting on a square footstool, holding the Gospels
+                                 in his left hand and blessing with his right. His halo is adorned
+                                 with a pearl on each arm of the cross.</figDesc>
+                              <figDesc n="decoR" xml:lang="fr">Cercle de grènetis</figDesc>
+                              <figDesc n="decoR" xml:lang="en">Circle of dots</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+               <msPart n="v">
+                  <msIdentifier/>
+                  <msContents>
+                     <summary n="v"><!-- ajouté ceci -->
+                        <seg xml:lang="en">Reverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="v">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="en">Iconography with a circular inscription</p>
+                              <p xml:lang="fr">Iconographie avec inscription circulaire</p>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="v">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="v" xml:lang="fr" ana="person male emperor">L’empereur de
+                                 face, debout sur un souppédion circulaire ; coiffé d’une couronne à
+                                 pendilia, revêtu du divitision et du lôros droit dont le pan
+                                 retombe sur le bras gauche, il tient en main gauche un globe
+                                 crucigère et en main droite un long labarum posé au sol, orné de
+                                 cinq perles.</figDesc>
+                              <figDesc n="v" xml:lang="en" ana="person male emperor">The emperor
+                                 facing forward, standing on a circular pedestal; wearing a pendilia
+                                 crown, dressed in the divitision and the straight loros, the hem of
+                                 which falls over his left arm, he holds a crucigerous globe in his
+                                 left hand and a long labarum in his right hand, placed on the
+                                 ground and adorned with five pearls.</figDesc>
+                              <figDesc n="decoV" xml:lang="fr">Cercle de grènetis; l'inscription est
+                                 précédée d'une croisette</figDesc>
+                              <figDesc n="decoV" xml:lang="en">Circle of dots; the inscription is
+                                 preceded by a crosslet</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2025-06-02" who="#PE">Creation of the XML record.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp>
+         <surface n="r">
+            <desc>Obverse</desc>
+            <graphic type="photo" url="CdN2004-0583_1.jpg">
+               <desc xml:lang="en">CdN 2004-0583, obverse</desc>
+               <desc xml:lang="fr">CdN 2004-0583, avers</desc>
+            </graphic>
+         </surface>
+         <surface n="v">
+            <desc>Reverse</desc>
+            <graphic type="photo" url="CdN2004-0583_2.jpg">
+               <desc xml:lang="en">CdN 2004-0583, reverse</desc>
+               <desc xml:lang="fr">CdN 2004-0583, revers</desc>
+            </graphic>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" subtype="editorial" xml:space="preserve"> 
+            <div type="textpart" subtype="sigla" rend="columns" n="obv" xml:lang="grc">
+              <ab>
+                 <cb n="a"/><expan><abbr>Ἰ</abbr><ex>ησοῦ</ex><abbr>ς</abbr></expan> 
+                 <cb n="b"/><expan><abbr>Χ</abbr><ex>ριστό</ex><abbr>ς</abbr></expan>
+              </ab>
+            </div>
+            <div type="textpart" subtype="face" rend="circular" n="rev" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab ana="nom">
+                 <lb n="1"/>Ἀλεξίῳ <rs type="dignity" ref="#d0022">δεσπότι</rs> τῷ Κομνην<supplied reason="lost">ῷ</supplied>
+              </ab>
+            </div>
+              </div>
+         <div type="edition" subtype="diplomatic" xml:space="preserve"> 
+            <div type="textpart" subtype="sigla" rend="columns" n="obv" xml:lang="grc">
+              <ab>
+                 <cb n="a"/>ιΣ̅
+                 <cb n="b"/>ΧΣ̅
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" rend="circular" n="rev" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <lb n="1"/>αλε̣ξιδες ποτιτ̣κομ.
+              </ab>
+                  </div>
+              </div>
+         <div type="translation">
+            <p>Ἰησοῦς Χριστός. || + Ἀλεξίῳ δεσπότι τῷ Κομνηνῷ.</p>
+            <p xml:lang="en">Jesus Christ.|| (belonging to ) the despotes Alexios Komnenos.</p>
+            <p xml:lang="fr">Jésus Christ.|| (appartenant à) Alexis Comnène, déspote.</p>
+         </div>
+         <div type="commentary" subtype="text">
+            <!-- renvois internes à refaire -->
+            <p xml:lang="en">The numerous lead bullae and the five gold seals preserved in the name
+               of Alexios Ist all feature the same iconography on both sides. However, none of them
+               appear to have come from the same boulloterion. Several are very similar, but for
+               many of them, their poor state of preservation makes it impossible to determine
+               whether they are parallels. The differences concern the spelling and distribution of
+               the legend on the reverse, around the imperial effigy <bibl>
+                  <ptr target="Zacos1"/>, no. <citedRange unit="entry">101</citedRange></bibl>; <bibl>
+                  <ptr target="ZacosGenève"/>, no. <citedRange unit="entry">7</citedRange></bibl>..
+               Most copies include the elision δεσποτ/.The combination of motifs reproduces that of
+               the histamenon that Alexios minted between 1081 and 1082, that is before the monetary
+               reform through which he succeeded in restoring the gold currency, which had been
+               heavily devalued during the previous ten years. However, the large number of his
+               seals prevents them from being dated solely to the period 1081-1082. On the other
+               hand, it provides evidence of the intense administrative and diplomatic activity
+               undertaken by this emperor. </p>
+            <p xml:lang="en"/>
+            <p xml:lang="fr">Les très nombreuses bulles de plomb ainsi que les cinq bulles en or qui
+               sont conservées au nom d’Alexis Ier présentent toutes le même type iconographique sur
+               les deux faces. Néanmoins, aucune pièce ne paraît issue du même boullôtèrion.
+               Toutefois, plusieurs sont très proches mais, pour un grand nombre, leur inégal état
+               de conservation interdit d’affirmer s’il s’agit de plombs parallèles. Les différences
+               concernent l’orthographe et la répartition de la légende du revers, autour de
+               l’effigie impériale <bibl>
+                  <ptr target="Zacos1"/>, n° <citedRange unit="entry">101</citedRange></bibl>; <bibl>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">7</citedRange></bibl>..
+               La plupart des exemplaires comportent l’élision δεσποτ/. La combinaison des motifs
+               reproduit celle de l’histaménon qu’Alexis Ier a frappé entre 1081 et 1082,
+               c’est-à-dire avant la réforme monétaire par laquelle il a réussi à redresser la
+               monnaie d’or, fortement dévaluée pendant les dix années précédentes. Cependant, le
+               grand nombre de ses plombs interdit leur datation à la seule période de 1081-1082. En
+               revanche, il apporte la preuve de l’intense activité administrative et diplomatique
+               entreprise par cet empereur.</p>
+            <p xml:lang="fr"/>
+         </div>
+         <div type="bibliography" subtype="edition">
+            <p><bibl>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">15</citedRange></bibl>; <bibl>
+                  <ptr target="Zacos1"/>, n° <citedRange unit="entry">102c</citedRange></bibl>
+               <bibl>
+                  <ptr target="ZacosSpink1"/>, n° <citedRange unit="entry">2</citedRange></bibl><bibl/>
+            </p>
+         </div>
+         <div type="bibliography" subtype="parallels">
+            <p><bibl>
+               <ptr target="Zacos1"/>, n° <citedRange unit="entry">102</citedRange></bibl>;
+               <bibl>
+                  <ptr target="DOseals6"/>, n° <citedRange unit="entry">88.1.38</citedRange></bibl>;
+               <bibl>
+            <ptr target="JordanovCorpus3"/>, n° <citedRange unit="entry">121-192</citedRange></bibl>;
+               <bibl>
+               <ptr target="Sokolova2007"/>, n° <citedRange unit="entry">147-164</citedRange></bibl>;
+               <bibl>
+                  <ptr target="Istanbul"/>, n° <citedRange unit="entry">1.42-44</citedRange></bibl>
+                  <bibl/>
+            </p>
+         </div>
+         <div type="bibliography" subtype="discussion">
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

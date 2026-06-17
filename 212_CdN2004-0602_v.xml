@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en">Constantine Kamytzes, sebastos</title>
+            <title xml:lang="fr">Constantin Kamytzès, sébaste</title>
+            <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
+            <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+            <funder>
+               <orgName corresp="https://www.mahmah.ch/">MAH-Musée d'art et d'histoire - Genève,
+                  Cabinet de numismatique</orgName>, Suisse</funder>
+            <principal ref="#MCP"/>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <seg xml:lang="fr">Amélioration digitale</seg>
+               <seg xml:lang="en">Digital enhancement</seg>
+            </edition>
+            <editor role="digital-editor" xml:id="PE" when="2025-04-22">Pia Evening</editor>
+            <editor role="digital-editor" ref="#MCP" when="2026-06-10">Maria
+               Campagnolo-Pothitou</editor>
+         </editionStmt>
+         <publicationStmt>
+            <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
+            <idno type="filename">CdN 2004-0602</idno>
+            <idno type="SigiDocID">s-fndjld</idno>
+            <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+            <idno type="sequence"/>
+            <!--  to be compiled automatically; leave as is  -->
+            <date when="2024-08-06"/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                  >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                  4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listPerson type="issuer">
+               <person gender="M" role="aristocracy">
+                  <persName xml:lang="grc">
+                     <forename>Κωνσταντῖνος</forename>
+                     <surname>Καμύτζης</surname>
+                  </persName>
+                  <persName xml:lang="fr">
+                     <forename>Constantin</forename>
+                     <surname>Kamytzès</surname>
+                  </persName>
+                  <persName xml:lang="en">
+                     <forename>Constantine</forename>
+                     <surname>Kamytzes</surname>
+                  </persName>
+                  <idno type="PBW" ana="http://pbw2016.kdl.kcl.ac.uk/person/Konstantinos/20111/"
+                     >Konstantinos 20111</idno>
+
+                  <idno type="PBE"/>
+                  <idno type="PLP"/>
+                  <idno type="PLRE"/>
+                  <idno type="PcBE"/>
+                  <idno type="PmbZ"/>
+               </person>
+            </listPerson>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <seg xml:lang="en">Switzerland</seg>
+                     <seg xml:lang="fr">Suisse</seg>
+                  </country>
+                  <settlement>
+                     <seg xml:lang="en">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">City of
+                           Geneva</placeName>
+                     </seg>
+                     <seg xml:lang="fr">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">Ville de
+                           Genève</placeName>
+                     </seg>
+                  </settlement>
+                  <institution>MAH-Musée d'art et d'histoire</institution>
+                  <repository>Cabinet de numismatique</repository>
+                  <collection type="public">
+                     <rs type="collection-name" xml:lang="en">Byzantine seals collection</rs>
+                     <rs type="collection-name" xml:lang="fr">Collection de sceaux byzantins</rs>
+                  </collection>
+                  <idno type="inv-nr-current">CdN 2004-0602</idno>
+                  <altIdentifier>
+                     <repository/>
+                     <idno type="inv-nr-former"/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <!--https://github.com/SigiDoc/Guidelines/wiki/5.-Controlled-vocabularies#seals-category-->
+                  <summary n="whole">
+                     <seg xml:lang="fr">Dignitaires</seg>
+                     <seg xml:lang="en">Dignitaries</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>
+                              <term>
+                                 <seg xml:lang="fr">Sceau</seg>
+                                 <seg xml:lang="en">Seal</seg>
+                              </term>
+                              <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                              <interp type="workType" xml:lang="en">Original impression</interp>
+                           </objectType>
+                           <material>
+                              <seg xml:lang="fr">Plomb</seg>
+                              <seg xml:lang="en">Lead</seg>
+                           </material>
+                           <dimensions type="support" unit="mm">
+                              <dim type="diameter">29,33/27,70</dim>
+                              <!-- mesure du champ? -->
+                           </dimensions>
+                           <measure type="weight" unit="g">10,628</measure>
+                           <measure type="axis" unit="clock"/>
+                           <measure type="overstrikeOrient" unit="clock"/>
+                           <measure type="channelOrient" unit="clock">12-6</measure>
+                           <measure type="countermark" unit="clock"/>
+                        </support>
+                        <condition rend="well-struck well-preserved chipped">
+                           <p xml:lang="en">The bulla is well struck and well preserved, slightly
+                              chipped at the openings of the channel</p>
+                           <p xml:lang="fr">La bulle est bien frappée et bien conservée, légèrement
+                              échancrée aux orifices du canal</p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout n="whole">
+                           <rs type="execution">
+                              <seg xml:lang="fr">Frappé</seg>
+                              <seg xml:lang="en">Struck</seg>
+                           </rs>
+                           <rs type="shape">
+                              <seg xml:lang="fr">Ronde</seg>
+                              <seg xml:lang="en">Round</seg>
+                           </rs>
+                           <rs type="matrix" subtype="not-surviving">
+                              <idno type="SigiDoc">m-EJOflU</idno>
+                              <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+                              <idno type="PBW">http://pbw2016.kdl.kcl.ac.uk/boulloterion/198/</idno>
+                              <!-- to be used if the seal has a parallel in the PBW with a boulloterion registered there -->
+                           </rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <seg xml:lang="fr">
+                           <placeName/>
+                        </seg>
+                        <seg xml:lang="en">
+                           <placeName/>
+                        </seg>
+                     </origPlace>
+                     <origDate type="analysis" notBefore="1101" notAfter="1150"
+                        evidence="epigraphy iconography prosopography" cert="high" resp="#MCP #JCC">
+                        <seg xml:lang="en">First half of the 12th century</seg>
+                        <seg xml:lang="fr">Première moitié du XIIe siècle</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="transferred" subtype="donated" when="2004-11-24">
+                     <!-- pas sûr de subtype et when -->
+                     <p xml:lang="en">George Zacos collection</p>
+                     <p xml:lang="fr">Collection Georges Zacos</p>
+                  </provenance>
+                  <acquisition>
+                     <p xml:lang="en">Donation of the Migore Foundation, Janet Zakos legacy, <date
+                           when="2004-11-24">24th November 2004</date>
+                     </p>
+                     <p xml:lang="fr">Don de la Fondation Migore, legs Janet Zakos, <date
+                           when="2004-11-24">24 Novembre 2004</date>
+                     </p>
+                  </acquisition>
+               </history>
+               <msPart n="r">
+                  <msIdentifier/>
+                  <msContents>
+                     <!-- ajouté ceci -->
+                     <summary n="r">
+                        <seg xml:lang="en">Obverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="r">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="fr">Iconographie avec des sigles de part et d'autre de
+                                 l'effigie</p>
+                              <p xml:lang="en">Iconography with sigla on either part of the
+                                 effigy</p>
+                           </layout>
+                        </layoutDesc>
+
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="r">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="r" xml:lang="fr" ana="person female Virgin Episkepsis"
+                                 >Vierge Épiskepsis à mi-corps, de face, orante, portant sur la
+                                 poitrine le médaillon montrant l’Enfant en buste,
+                                 bénissant.</figDesc>
+                              <figDesc n="r" xml:lang="en" ana="person female Virgin Episkepsis"
+                                 >Virgin Episkepsis orans half-length, facing forward, bearing on
+                                 her chest the medallion of the Child blessing</figDesc>
+                              <figDesc n="decoR" xml:lang="fr">Cercle de grènetis</figDesc>
+                              <figDesc n="decoR" xml:lang="en">Border of dots</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+               <msPart n="v">
+                  <msIdentifier/>
+                  <msContents>
+                     <summary n="v"><!-- ajouté ceci -->
+                        <seg xml:lang="en">Reverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="v">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="en">Linear legend of 5 lines</p>
+                              <p xml:lang="fr">Légende linéaire sur 5 lignes</p>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="v">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="decoV" xml:lang="fr">Cercle de grènetis; la légende est
+                                 surmontée d'une croisette</figDesc>
+                              <figDesc n="decoV" xml:lang="en">Border of dots; the legend is
+                                 surmounted by a crosslet</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2025-04-22" who="#PE">Creation of the XML record.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp>
+         <surface n="r">
+            <desc>Obverse</desc>
+            <graphic type="photo" url="CdN2004-0602_1.jpg">
+               <desc xml:lang="en">CdN 2004-0602, obverse</desc>
+               <desc xml:lang="fr">CdN 2004-0602, avers</desc>
+            </graphic>
+         </surface>
+         <surface n="v">
+            <desc>Reverse</desc>
+            <graphic type="photo" url="CdN2004-0602_2.jpg">
+               <desc xml:lang="en">CdN 2004-0602, reverse</desc>
+               <desc xml:lang="fr">CdN 2004-0602, revers</desc>
+            </graphic>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" subtype="editorial" xml:space="preserve"> 
+            <div type="textpart" subtype="sigla" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="a"/><expan><abbr>Μ</abbr><ex>ήτ</ex><abbr>ηρ</abbr></expan> 
+                 <cb n="b"/><expan><abbr>Θ</abbr><ex>εο</ex><abbr>ῦ</abbr></expan>
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab ana="dat">
+                         <lb n="1"/><rs type="invocation" ref="#inv001"><expan><abbr>Θ</abbr><ex>εοτό</ex><abbr>κε</abbr></expan> <expan><abbr>β</abbr><ex>οή</ex><abbr>θ</abbr><ex>ει</ex></expan></rs> 
+                         <lb n="2"/><supplied reason="lost">Κ</supplied>ωνσταντί
+                         <lb n="3" break="no"/>νῳ <rs type="dignity" ref="#d0075">σεβαστ<supplied reason="lost">ῷ</supplied></rs> 
+                         <lb n="4"/>τῷ Καμύ
+                         <lb n="5" break="no"/>τζῃ
+                      </ab>
+                  </div>
+              </div>
+         <div type="edition" subtype="diplomatic" xml:space="preserve"> 
+                  <div type="textpart" subtype="sigla" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="a"/>̣
+                 <cb n="b"/>ΘV
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab>
+                         <lb n="0"/>
+                         <lb n="1"/>θ̣k̅er/ θ/                     
+                         <lb n="2"/>.nantị
+                         <lb n="3"/>ṇσεrα.
+                         <lb n="4"/>τκαμυ̣ 
+                         <lb n="5"/>τη
+                         </ab>
+                  </div>
+              </div>
+         <div type="translation">
+            <p>Μήτηρ Θεοῦ. || Θεοτόκε βοήθει Κωνσταντίνῳ σεβαστῷ τῷ Καμύτζῃ.</p>
+            <p xml:lang="en">Mother of God. || Mother of God, help sebastos Constantine Kamytzes</p>
+            <p xml:lang="fr">Mère de Dieu. || Mère de Dieu, apporte ton secours au sébaste
+               Constantin Kamytzès</p>
+         </div>
+         <div type="commentary" subtype="text">
+            <!-- renvois internes à refaire -->
+            <p xml:lang="en">It is not excluded that two other seals, dating as well from the 12th
+               century, have belonged to the same signatory:
+               - Μάρτυς, σεβαστὸν Κωνσταντῖνόν με
+               σκέποις || πιστὸν λάτριν σου ἐκ γένους τῶν Καμύτζων, kept in the Museum of Athens <bibl>
+                  <ptr target="Athens2000"/>, n° <citedRange unit="entry">106</citedRange></bibl>; <bibl>
+                     <ptr target="Wassiliou-Seibt2011"/>, n° <citedRange unit="entry"
+                        >1381</citedRange></bibl>, and
+               -+Κύριε βοήθει Κωνσταντίνῳ τῷ Καμίτζι, bearing the effigy of Saint George
+               standing <bibl>
+                  <ptr target="DOSealsOnline"/>, n° <citedRange unit="entry">BZS
+                     1958.106.1777</citedRange></bibl>;<bibl>
+                        <ptr target="BBÖ1"/>, p. <citedRange unit="page">313.2</citedRange></bibl>. Constantine Kamytzes'career is known by the funeral speech written on his
+               honour by Theodore Prodromos, about the mid-12th century. Constantine was probably
+               the son of the turkish origin protonobelissimos and then sebastos Eustathios
+               Kamytzes, who has been one of the best strategoi of Alexios Ist <bibl>
+                  <ptr target="BBÖ1"/>, p. <citedRange unit="page">314.6</citedRange></bibl>; <bibl>
+                     <ptr target="Skoulatos1980"/>, n° <citedRange unit="entry">56</citedRange></bibl>. He got married with
+               Maria Anna Anghelina Komnene <bibl>
+                  <ptr target="Barzos1984a"/>, n° <citedRange unit="entry">91</citedRange></bibl>, a John's II niece, daughter of the prorphyrogenitos
+               Theodora. He has been trusted with several military commands. In 1201, his son, the
+               protostrator Manuel Kamytzes, rebelled against his cousin Alexios III Angelos <bibl>
+                  <ptr target="Cheynet1990"/>, p. <citedRange unit="page">137</citedRange></bibl>.
+               Sigillography let us know other members of the family, among them also a lady. In the
+               mid-11th century, Basil was spatharocandidatos, epi tou Chrysotriklinou <bibl>
+                  <ptr target="DOSealsOnline"/>, n° <citedRange unit="entry"
+                     >BZS.1951.31.5.2218</citedRange></bibl>; <bibl>
+                        <ptr target="JordanovCorpus2"/>, p. <citedRange unit="page"
+                           >177</citedRange></bibl>, while
+               Theodoros, protospatharios epi tou Chrysotriklinou and strategos <bibl>
+                  <ptr target="DOSealsOnline"/>, n° <citedRange unit="entry"
+                     >BZS.1958.106.972</citedRange></bibl>. A third Kamytzes
+               left a seal in his capacity of protonobelissimos, without mentioning his forename.
+               The seals of the sebastos John (Zacos (BnF) 875, unpublished), a Constantine's contemporary, and of the sebaste Anna or Maria
+               Kamytzaina date from the mid-12th century <bibl>
+                  <ptr target="DOSealsOnline"/>, n° <citedRange unit="entry"
+                     >BZS.1958.106.1814</citedRange></bibl>.</p>
+            <p xml:lang="en"/>
+            <p xml:lang="fr">Il n’est pas exclu que deux autres sceaux, datés également du XIIe
+               siècle, aient appartenu au même signataire : – le sceau métrique bilatéral conservé
+               au Musée d’Athènes <bibl>
+                  <ptr target="Athens2000"/>, n° <citedRange unit="entry">106</citedRange></bibl>; <bibl>
+                  <ptr target="Wassiliou-Seibt2011"/>, n° <citedRange unit="entry"
+                  >1381</citedRange></bibl> : Μάρτυς, σεβαστὸν Κωνσταντῖνόν με σκέποις || πιστὸν
+               λάτριν σου ἐκ γένους τῶν Καμύτζων ; – et un plomb sans mention de titre ou de
+               fonction, à l’effigie de saint Georges en pied : +Κύριε βοήθει Κωνσταντίνῳ τῷ Καμίτζι <bibl>
+                  <ptr target="DOSealsOnline"/>, n° <citedRange unit="entry">BZS
+                     1958.106.1777</citedRange></bibl>;<bibl>
+                  <ptr target="BBÖ1"/>, p. <citedRange unit="page">313.2</citedRange></bibl>. La
+               carrière du sébaste Constantin Kamytzès nous est connue par l’oraison funèbre que
+               Théodore Prodromos composa à sa mort, survenue vers le milieu du XIIe siècle.
+               D’origine turque, puisqu’il est vraisemblablement le fils du protonobélissime, puis
+               sébaste, Eustathe Kamytzès <bibl>
+                  <ptr target="BBÖ1"/>, p. <citedRange unit="page">314.6</citedRange></bibl>; <bibl>
+                  <ptr target="Skoulatos1980"/>, n° <citedRange unit="entry">56</citedRange></bibl>
+               – l’un des proches et des meilleurs stratèges d’Alexis Ier –, Constantin épousa Marie
+               Ange Comnène<bibl>
+                  <ptr target="Barzos1984a"/>, n° <citedRange unit="entry">91</citedRange></bibl>,
+               nièce de Jean II par sa mère, la porphyrogénète Théodora, et se vit confier plusieurs
+               commandements militaires. En 1201, son fils, le prôtostratôr Manuel Kamytzès, se
+               rebella contre Alexis III Ange, son cousin <bibl>
+                  <ptr target="Cheynet1990"/>, p. <citedRange unit="page">137</citedRange></bibl>.
+               La sigillographie nous livre d’autres Kamytzai, dont une dame. Au milieu du XIe
+               siècle ont laissé leur sceau : Basile, spatharocandidat, épi tou Chrysotriklinou <bibl>
+                  <ptr target="DOSealsOnline"/>, n° <citedRange unit="entry"
+                     >BZS.1951.31.5.2218</citedRange></bibl>; <bibl>
+                  <ptr target="JordanovCorpus2"/>, p. <citedRange unit="page"
+                  >177</citedRange></bibl> ; Théodore, protospathaire épi tou Chrysotriklinou et
+               stratège <bibl>
+                  <ptr target="DOSealsOnline"/>, n° <citedRange unit="entry"
+                     >BZS.1958.106.972</citedRange></bibl>; un protonobélissime sans prénom. Au
+               siècle suivant, Jean, sébaste (Zacos (BnF) 875, inédit), contemporain de Constantin ,
+               et la sébastè Anna (?) Kamytzèna, dont le sceau est daté du milieu du siècle <bibl>
+                  <ptr target="DOSealsOnline"/>, n° <citedRange unit="entry"
+                     >BZS.1958.106.1814</citedRange></bibl>.</p>
+            <p xml:lang="fr"/>
+         </div>
+         <div type="bibliography" subtype="edition">
+            <p><bibl>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry"
+                     >212</citedRange></bibl>;
+               <bibl>
+                  <ptr target="ZacosSpink2"/>, n° <citedRange unit="entry"
+                     >223</citedRange></bibl>
+               <bibl/>
+            </p>
+         </div>
+         <div type="bibliography" subtype="parallels">
+            <p>Musée de Thessalonique, inv. BMo 41:
+               <bibl>
+                  <ptr target="ZacosSpink1"/>, n° <citedRange unit="entry"
+                     >82</citedRange></bibl>; <bibl>
+                        <ptr target="Leontiades2006"/>, n° <citedRange unit="entry"
+                           >52</citedRange></bibl></p>
+            <p>Vienne, MK 403:
+               <bibl>
+                  <ptr target="BBÖ1"/>, n° <citedRange unit="entry">171</citedRange></bibl></p>
+            <p>Fogg 500 ; Fogg 507 ; BZS 1958.106.1263 ; BZS 1958.106.3610:</p>
+            <p>Bulgarie, Musée historique de Blagoevgrad:
+               <bibl>
+                  <ptr target="JordanovCorpus2"/>, n° <citedRange unit="page">259</citedRange></bibl></p>
+         </div>
+         <div type="bibliography" subtype="discussion">
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

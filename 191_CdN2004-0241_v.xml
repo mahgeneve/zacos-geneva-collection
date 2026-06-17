@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en">Nicholas Methodios, protospatharios, hypatos and diadochos
+               (?)</title>
+            <title xml:lang="fr">Nicolas Méthodios, protospathaire, hypatos et diadochos (?)</title>
+            <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
+            <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+            <funder>
+               <orgName corresp="https://www.mahmah.ch/">MAH-Musée d'art et d'histoire - Genève,
+                  Cabinet de numismatique</orgName>, Suisse</funder>
+            <principal ref="#MCP"/>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <seg xml:lang="fr">Amélioration digitale</seg>
+               <seg xml:lang="en">Digital enhancement</seg>
+            </edition>
+            <editor role="digital-editor" xml:id="PE" when="2025-04-22">Pia Evening</editor>
+            <editor role="digital-editor" ref="#MCP" when="2026-04-07">Maria
+               Campagnolo-Pothitou</editor>
+         </editionStmt>
+         <publicationStmt>
+            <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
+            <idno type="filename">CdN 2004-0241</idno>
+            <idno type="SigiDocID">s-pTttpK</idno>
+            <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+            <idno type="sequence"/>
+            <!--  to be compiled automatically; leave as is  -->
+            <date when="2024-08-06"/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                  >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                  4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listPerson type="issuer">
+               <person gender="M" role="civil aristocracy">
+                  <persName xml:lang="grc">
+                     <forename>Νικόλαος</forename>
+                     <surname>Μεθόδιος</surname>
+                  </persName>
+                  <persName xml:lang="fr">
+                     <forename>Nicolas</forename>
+                     <surname>Méthodios</surname>
+                  </persName>
+                  <persName xml:lang="en">
+                     <forename>Nicholas</forename>
+                     <surname>Methodios</surname>
+                  </persName>
+                  <idno type="PBW" ana="http://pbw2016.kdl.kcl.ac.uk/person/Nikolaos/20284/"
+                     >Nikolaos 20284</idno>
+
+                  <idno type="PBE"/>
+                  <idno type="PLP"/>
+                  <idno type="PLRE"/>
+                  <idno type="PcBE"/>
+                  <idno type="PmbZ"/>
+               </person>
+            </listPerson>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <seg xml:lang="en">Switzerland</seg>
+                     <seg xml:lang="fr">Suisse</seg>
+                  </country>
+                  <settlement>
+                     <seg xml:lang="en">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">City of
+                           Geneva</placeName>
+                     </seg>
+                     <seg xml:lang="fr">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">Ville de
+                           Genève</placeName>
+                     </seg>
+                  </settlement>
+                  <institution>MAH-Musée d'art et d'histoire</institution>
+                  <repository>Cabinet de numismatique</repository>
+                  <collection type="public">
+                     <rs type="collection-name" xml:lang="en">Byzantine seals collection</rs>
+                     <rs type="collection-name" xml:lang="fr">Collection de sceaux byzantins</rs>
+                  </collection>
+                  <idno type="inv-nr-current">CdN 2004-0241</idno>
+                  <altIdentifier>
+                     <repository/>
+                     <idno type="inv-nr-former"/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <!--https://github.com/SigiDoc/Guidelines/wiki/5.-Controlled-vocabularies#seals-category-->
+                  <summary n="whole">
+                     <seg xml:lang="fr">Dignitaires</seg>
+                     <seg xml:lang="en">Dignitaries</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>
+                              <term>
+                                 <seg xml:lang="fr">Sceau</seg>
+                                 <seg xml:lang="en">Seal</seg>
+                              </term>
+                              <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                              <interp type="workType" xml:lang="en">Original impression</interp>
+                           </objectType>
+                           <material>
+                              <seg xml:lang="fr">Plomb</seg>
+                              <seg xml:lang="en">Lead</seg>
+                           </material>
+                           <dimensions type="support" unit="mm">
+                              <dim type="diameter">33,82/33,10</dim>
+                              <!-- mesure du champ? -->
+                           </dimensions>
+                           <measure type="weight" unit="g">27,936</measure>
+                           <measure type="axis" unit="clock"/>
+                           <measure type="overstrikeOrient" unit="clock"/>
+                           <measure type="channelOrient" unit="clock">12-6</measure>
+                           <measure type="countermark" unit="clock"/>
+                        </support>
+                        <condition rend="well-struck well-preserved not-centered">
+                           <p xml:lang="en">The bulla is well struck. although not-centerd on the
+                              obverse, and well preserved</p>
+                           <p xml:lang="fr">La bulle est bien frappée, même si décentrée sur
+                              l'avers, et bien conservée</p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout n="whole">
+                           <rs type="execution">
+                              <seg xml:lang="fr">Frappé</seg>
+                              <seg xml:lang="en">Struck</seg>
+                           </rs>
+                           <rs type="shape">
+                              <seg xml:lang="fr">Ronde</seg>
+                              <seg xml:lang="en">Round</seg>
+                           </rs>
+                           <rs type="matrix" subtype="not-surviving">
+                              <idno type="SigiDoc">m-QYugoP</idno>
+                              <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+                              <idno type="PBW"
+                                 >http://pbw2016.kdl.kcl.ac.uk/boulloterion/5939/</idno>
+                              <!-- to be used if the seal has a parallel in the PBW with a boulloterion registered there -->
+                           </rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <seg xml:lang="fr">
+                           <placeName/>
+                        </seg>
+                        <seg xml:lang="en">
+                           <placeName/>
+                        </seg>
+                     </origPlace>
+                     <origDate type="analysis" notBefore="1051" notAfter="1100"
+                        evidence="epigraphy iconography" cert="high" resp="#MCP #JCC">
+                        <seg xml:lang="en">Second half of the 11th century</seg>
+                        <seg xml:lang="fr">Seconde moitié du XIe siècle</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="transferred" subtype="donated" when="2004-11-24">
+                     <!-- pas sûr de subtype et when -->
+                     <p xml:lang="en">George Zacos collection</p>
+                     <p xml:lang="fr">Collection Georges Zacos</p>
+                  </provenance>
+                  <acquisition>
+                     <p xml:lang="en">Donation of the Migore Foundation, Janet Zakos legacy, <date
+                           when="2004-11-24">24th November 2004</date>
+                     </p>
+                     <p xml:lang="fr">Don de la Fondation Migore, legs Janet Zakos, <date
+                           when="2004-11-24">24 Novembre 2004</date>
+                     </p>
+                  </acquisition>
+               </history>
+               <msPart n="r">
+                  <msIdentifier/>
+                  <msContents>
+                     <!-- ajouté ceci -->
+                     <summary n="r">
+                        <seg xml:lang="en">Obverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="r">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="fr">Iconographie avec des sigles de part et d'autre de
+                                 l'effigie et inscription circulaire </p>
+                              <p xml:lang="en">Iconography with sigla on either part of the effigy
+                                 and circular inscription</p>
+                           </layout>
+                        </layoutDesc>
+
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="r">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="r" xml:lang="fr" ana="person female Virgin">Vierge assise,
+                                 de face, sur un trône à haut dossier, garni de coussins et au
+                                 piètement orné de perles. Vêtue d’un long chitôn et du maphorion,
+                                 la Théotokos tient l’Enfant, bénissant, assis sur ses
+                                 genoux.</figDesc>
+                              <figDesc n="r" xml:lang="en" ana="person female Virgin">Virgin seated
+                                 on a throne with a high backrest,featuring cushions and a base
+                                 adorned with beads. She is wearing a long chiton and a maphorion
+                                 and she is bearing the Child, blessing, on her laps.</figDesc>
+                              <figDesc n="decoR" xml:lang="fr">Cercle de grènetis; l'inscription
+                                 commence à 8h</figDesc>
+                              <figDesc n="decoR" xml:lang="en">Border of dots; the inscription
+                                 starts at 8 o'clock</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+               <msPart n="v">
+                  <msIdentifier/>
+                  <msContents>
+                     <summary n="v"><!-- ajouté ceci -->
+                        <seg xml:lang="en">Reverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="v">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="fr">Légende linéaire sur six lignes</p>
+                              <p xml:lang="en">Linear legend of 6 lines</p>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="v">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="decoV" xml:lang="fr">Cercle de grènetis; la légende est
+                                 précédée d’une croisette ; au sommet du champ, une perle accostée
+                                 de tirets et, à la base, un croisillon de perles cantonné de
+                                 tirets</figDesc>
+                              <figDesc n="decoV" xml:lang="en">Border of dots; the legend is
+                                 preceded by a crosslet; at the top, a bead placed between traits
+                                 and, at he bottom of the field, a crosspiece made of pearls between
+                                 traits</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2025-04-22" who="#PE">Creation of the XML record.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp>
+         <surface n="r">
+            <desc>Obverse</desc>
+            <graphic type="photo" url="CdN2004-0241_1.jpg">
+               <desc xml:lang="en">CdN 2004-0241, obverse</desc>
+               <desc xml:lang="fr">CdN 2004-0241, avers</desc>
+            </graphic>
+         </surface>
+         <surface n="v">
+            <desc>Reverse</desc>
+            <graphic type="photo" url="CdN2004-0241_2.jpg">
+               <desc xml:lang="en">CdN 2004-0241, reverse</desc>
+               <desc xml:lang="fr">CdN 2004-0241, revers</desc>
+            </graphic>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" subtype="editorial" xml:space="preserve"> 
+            <div type="textpart" subtype="sigla" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="a"/><expan><abbr>Μ</abbr><ex>ήτ</ex><abbr>ηρ</abbr></expan> 
+                 <cb n="b"/><expan><abbr>Θ</abbr><ex>εο</ex><abbr>ῦ</abbr></expan>
+              </ab>
+            </div>
+            <div type="textpart" subtype="label" rend="circular" n="obv" xml:lang="grc">
+              <ab>
+                 <lb n="1"/>Ἡ Ὁδηγήτρηα
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab ana="dat">
+                         <lb n="1"/><rs type="invocation" ref="#inv001"><expan><abbr>Θ</abbr><ex>εοτό</ex><abbr>κε</abbr></expan> βοή
+                         <lb n="2" break="no"/>θει</rs> <expan><abbr>Νικ</abbr><ex>ο</ex><abbr>λάǫ</abbr></expan> 
+                         <lb n="3"/><rs type="dignity" ref="#d0066"><expan><abbr><am>Α</am></abbr><ex>πρωτο</ex><abbr>σπαθαρίǫ</abbr></expan></rs> 
+                         <lb n="4"/><rs type="dignity" ref="#d0089">ὑπάτῳ</rs> <expan><abbr><am>S</am></abbr><ex>καὶ</ex></expan> <rs type="office" ref="#of0296">δηα
+                         <lb n="5" break="no"/>δώχǫ</rs> τῷ Με
+                         <lb n="6" break="no"/>θοδήῳ
+                      </ab>
+                  </div>
+              </div>
+         <div type="edition" subtype="diplomatic" xml:space="preserve"> 
+                  <div type="textpart" subtype="sigla" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="a"/>̅
+                 <cb n="b"/>ΘV  
+              </ab>
+            </div>
+            <div type="textpart" subtype="label" n="obv" rend="circular" xml:lang="grc">
+                      <ab>
+                         <lb n="1"/>ηο δη γη τ ρ ηα
+                         </ab>
+                  </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab>
+                         <lb n="0"/>                                
+                         <lb n="1"/>+ θκεrοη
+                         <lb n="2"/>θεινικ/  λαο
+                         <lb n="3"/>ασπαθαριο
+                         <lb n="4"/>υπατϏ̣δηα
+                         <lb n="5"/>δχοτμε̣ 
+                         <lb n="6"/>θοδη
+                         </ab>
+                  </div>
+              </div>
+         <div type="translation">
+            <p>Μήτηρ Θεοῦ. Ἡ Ὁδηγήτρηα. || + Θεοτόκε βοήθει Νικολάǫ πρωτοσπαθαρίǫ ὑπάτῳ καὶ δηαδώχǫ
+               τῷ Μεθοδήῳ.</p>
+            <p xml:lang="en">Mother of God. The Hodegetria. || + Mother of God, help Nicholas
+               Methodios, protospatharios, hypatos and diadochos.</p>
+            <p xml:lang="fr">Mère de Dieu. L'Hodègètria. || + Mère de Dieu, accorde ton secours à
+               Nicolas Méthodios, protospathaire, hypatos et diadochos.</p>
+         </div>
+         <div type="commentary" subtype="text">
+            <!-- renvois internes à refaire -->
+            <p xml:lang="en">The excellent state of preservation of our bulla allows us to complete
+               the end of the legend on the metal copies in the Vatican and the National Museum in
+               Warsaw and to confirm that these are indeed parallel pieces. The surname, introduced
+               by the article, derives from a christian name, a rarity in Byzantine onomastics. It
+               is confirmed by a metrical bulla engraved on a contemporary lead seal, bearing the
+               name of Niketas and the effigy of the Virgin Blachernitissa in bust form. This seal
+               was presented to the Auction Hirsch 183 (september 1994), lot 1782 (noted in  SBS 6,
+               1999, p. 127).The first editors of the parallel bullae read ἀνάδοχος (godfather). In
+               reality, the unpublished Dumbarton Oaks lead seems to confirm the reading of
+               the term διάδοχος, a term which means successor. However, this is a hapax. We can put forward
+               two hypotheses. Nicholas may have replaced a previous official in a position, of whom
+               he was the deputy, and in that case, diadochos would be equivalent to ek prosôpou <bibl><ptr target="Oikonomides1972"/>, p. <citedRange unit="page"
+                     >342</citedRange></bibl>.One might wonder whether this exceptional position
+               was not linked to an event that was itself exceptional. In the Alexiad, we learn
+               that Emperor Alexios Ist had granted his mother, Anna Dalassene, very broad
+               powers, including that of proceeding ἐπὶ προβολῶν καὶ διαδοχῶν τῶν σεκρέτων καὶ τῶν
+               θεμάτων <bibl><ptr target="Alexiade1967"/>, ch. <citedRange unit="chapitre">III, VI §
+                     7</citedRange></bibl>. But the seal appears to date from before the end of the 11th century.
+               According to a second, less plausible hypothesis, should this
+               diadochos be linked to the term diadôsis, based on its original meaning, that of
+               distribution? In the Proto-Byzantine period, there are a few known tesserae bearing the
+               inscription διαδώσεως (One example was offered at the Müller 66 auction (September 1990),
+               lot 488 (noted in SBS 3, 1993, p. 194); another is held at the Adyaman Museum
+               (Turkey). Was the diadochos (lay or ecclesiastical?) responsible for distributing
+               annones?</p>
+            <p xml:lang="en"/>
+            <p xml:lang="fr">La bonne conservation de notre bulle permet de compléter la fin de la
+               légende sur les copies métalliques du Vatican et du Musée national de Varsovie et
+               d’assurer qu’il s’agit bien de pièces parallèles. Le nom de famille, introduit par
+               l’article, vient d’un nom de baptême, fait rare dans l’onomastique byzantine. Il est
+               confirmé par une bulle métrique gravée sur un plomb contemporain, au nom de Nicétas
+               et à l’effigie de la Vierge Blachernitissa en buste. Ce sceau a été présenté à la
+               Vente Hirsch 183 (septembre 1994), n° 1782 (signalé in SBS 6, 1999, p. 127). Les
+               premiers éditeurs des pièces parallèles ont cru lire ἀνάδοχος (parrain). En réalité,
+               le plomb inédit de Dumbarton Oaks nous semble confirmer la lecture de la fonction
+               διάδοχος. Or, celle-ci est un hapax. Le terme signifie successeur. On peut risquer
+               deux hypothèses. Nicolas aurait remplacé dans une charge un précédent fonctionnaire,
+               dont il était le lieutenant, et en ce cas, diadochos équivaudrait à ek prosôpou
+                     <bibl><ptr target="Oikonomides1972"/>, p. <citedRange unit="page"
+                     >342</citedRange></bibl>. On peut se demander si cette charge, exceptionnelle,
+               ne serait pas liée à un événement lui aussi exceptionnel. Dans l’Alexiade, on apprend
+               que l’empereur Alexis Ier avait laissé à sa mère, Anne Dalassènè, de très larges
+               pοuvoirs, dont celui de procéder ἐπὶ προβολῶν καὶ διαδοχῶν τῶν σεκρέτων καὶ τῶν
+               θεμάτων <bibl><ptr target="Alexiade1967"/>, ch. <citedRange unit="chapitre">III, VI §
+                     7</citedRange></bibl>. Mais le sceau paraît antérieur à la fin du XIe siècle.
+               Selon une seconde hypothèse, moins vraisemblable, faudrait-il mettre en rapport ce
+               diadochos avec le terme de diadôsis, à partir de son sens premier, celui de
+               distribution ? À l’époque protobyzantine, on connaît de rares tessères portant la
+               mention διαδώσεως (Un exemplaire a été proposé à la Vente Müller 66 (septembre 1990),
+               n° 488 (signalé dans SBS 3, 1993, p. 194), un autre est conservé au Musée d’Adyaman
+               (Turquie). Le diadochos (laïc ou ecclésiastique ?) serait-il chargé de distribuer des
+               annones ?</p>
+            <p xml:lang="fr"/>
+         </div>
+         <div type="bibliography" subtype="edition">
+            <p><bibl><ptr target="ZacosGenève"/>, n° <citedRange unit="entry"
+                  >191</citedRange></bibl>
+               <bibl/>
+            </p>
+         </div>
+         <div type="bibliography" subtype="parallels">
+            <p>Belgrade, Musée archéologique: <bibl><ptr target="MaksimovićPopović1993"/>, n°
+                     <citedRange unit="entry">25</citedRange></bibl></p>
+            <p>BZS 1958.106.5724: <bibl><ptr target="DOsealsOnline"/>, n° <citedRange unit="entry"
+                     >BZS 1958.106.5724</citedRange></bibl>
+            </p>
+            <p>Moscou, Musée historique, série I, 28:</p>
+         </div>
+         <div type="bibliography" subtype="discussion">
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

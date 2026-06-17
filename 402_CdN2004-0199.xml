@@ -5,8 +5,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title xml:lang="en"/>
-            <title xml:lang="fr"/>
+            <title xml:lang="en">The Virgin Mary Acheiropoietos Monastery</title>
+            <title xml:lang="fr">Le Monastère de la Vierge Acheiropoiètos</title>
             <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
             <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
             <funder>
@@ -24,7 +24,7 @@
          <publicationStmt>
             <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
             <idno type="filename">CdN 2004-0199</idno>
-            <idno type="SigiDocID"/>
+            <idno type="SigiDocID">s-GR6yaC</idno>
             <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
             <idno type="sequence"/>
             <!--  to be compiled automatically; leave as is  -->
@@ -37,21 +37,20 @@
          </publicationStmt>
          <sourceDesc>
             <listPerson type="issuer">
-               <person gender="" role="">
+               <person gender="U" role="monastic">
                   <persName xml:lang="grc">
-                     <forename/>
+                     <forename>Παναγία ἡ Ἀχειροποίητος</forename>
                      <surname/>
                   </persName>
                   <persName xml:lang="fr">
-                     <forename/>
+                     <forename>La Vierge Acheiropoiètos</forename>
                      <surname/>
                   </persName>
                   <persName xml:lang="en">
-                     <forename/>
+                     <forename>The Virgin Mary Acheiropoietos</forename>/>
                      <surname/>
                   </persName>
-                  <idno type="PBW" ana=""/>
-                  <idno type="PBW" ana=""/>
+                  <idno type="PBW" />
                   <idno type="PBE"/>
                   <idno type="PLP"/>
                   <idno type="PLRE"/>
@@ -90,8 +89,8 @@
                <msContents>
                   <!--https://github.com/SigiDoc/Guidelines/wiki/5.-Controlled-vocabularies#seals-category-->
                   <summary n="whole">
-                     <seg xml:lang="fr"/>
-                     <seg xml:lang="en"/>
+                     <seg xml:lang="fr">Monastique</seg>
+                     <seg xml:lang="en">Monastic</seg>
                   </summary>
                </msContents>
                <physDesc>
@@ -100,29 +99,29 @@
                         <support>
                            <objectType>
                               <term>
-                                 <seg xml:lang="fr">Sceau</seg>
-                                 <seg xml:lang="en">Seal</seg>
+                                 <seg xml:lang="fr">Tessera</seg>
+                                 <seg xml:lang="en">Token</seg>
                               </term>
                               <interp type="workType" xml:lang="fr">Empreinte originale</interp>
                               <interp type="workType" xml:lang="en">Original impression</interp>
                            </objectType>
                            <material>
-                              <seg xml:lang="fr">Plomb</seg>
-                              <seg xml:lang="en">Lead</seg>
+                              <seg xml:lang="fr">Laiton</seg>
+                              <seg xml:lang="en">Brass</seg>
                            </material>
                            <dimensions type="support" unit="mm">
-                              <dim type="diameter"/>
+                              <dim type="diameter">21,26/19,89</dim>
                               <!-- mesure du champ? -->
                            </dimensions>
-                           <measure type="weight" unit="g"/>
+                           <measure type="weight" unit="g">20,48</measure>
                            <measure type="axis" unit="clock"/>
                            <measure type="overstrikeOrient" unit="clock"/>
                            <measure type="channelOrient" unit="clock"/>
                            <measure type="countermark" unit="clock"/>
                         </support>
-                        <condition rend="">
-                           <p xml:lang="en"/>
-                           <p xml:lang="fr"/>
+                        <condition rend="well-preserved well-struck">
+                           <p xml:lang="en">The token is well preserved and well struck; slightly off-center.</p>
+                           <p xml:lang="fr">La tessère est bien conservé et bien frappé; légèrement décentré.</p>
                         </condition>
                      </supportDesc>
                      <layoutDesc>
@@ -136,7 +135,7 @@
                               <seg xml:lang="en">Round</seg>
                            </rs>
                            <rs type="matrix" subtype="not-surviving">
-                              <idno type="SigiDoc"/>
+                              <idno type="SigiDoc">m-jKKoYt</idno>
                               <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
                               <idno type="PBW"/>
                               <!-- to be used if the seal has a parallel in the PBW with a boulloterion registered there -->
@@ -167,7 +166,7 @@
                      <p xml:lang="fr">Collection Georges Zacos</p>
                   </provenance>
                   <acquisition>
-                     <p xml:lang="en">Gift of the Migore Foundation, Janet Zakos legacy, <date
+                     <p xml:lang="en">Donation of the Migore Foundation, Janet Zakos legacy, <date
                            when="2004-11-24">24th November 2004</date>
                      </p>
                      <p xml:lang="fr">Don de la Fondation Migore, legs Janet Zakos, <date
@@ -191,8 +190,8 @@
                                  <!-- ajouté ceci -->
                                  <dim type="diameter"/>
                               </dimensions>
-                              <p xml:lang="fr"/>
-                              <p xml:lang="en"/>
+                              <p xml:lang="fr">Légende linéaire sur 3 lignes</p>
+                              <p xml:lang="en">Linear legend of 3 lines</p>
                            </layout>
                         </layoutDesc>
 
@@ -206,10 +205,10 @@
                      <decoDesc>
                         <decoNote>
                            <figure>
-                              <figDesc n="r" xml:lang="fr" ana=""/>
-                              <figDesc n="r" xml:lang="en" ana=""/>
-                              <figDesc n="decoR" xml:lang="fr"/>
-                              <figDesc n="decoR" xml:lang="en"/>
+                              <figDesc n="decoR" xml:lang="fr">Cercle de grènetis légèrement écrasée à gauche; la légende
+                                 commence par une croisette</figDesc>
+                              <figDesc n="decoR" xml:lang="en">Border of dots slightly crushed on the left; the legend
+                                 begins with a crosslet</figDesc>
                            </figure>
                         </decoNote>
                      </decoDesc>
@@ -230,8 +229,8 @@
                                  <!-- ajouté ceci -->
                                  <dim type="diameter"/>
                               </dimensions>
-                              <p xml:lang="en"/>
-                              <p xml:lang="fr"/>
+                              <p xml:lang="en">Linear legend of 3 lines</p>
+                              <p xml:lang="fr">Légende linéaire sur 3 lignes</p>
                            </layout>
                         </layoutDesc>
                      </objectDesc>
@@ -244,8 +243,8 @@
                      <decoDesc>
                         <decoNote>
                            <figure>
-                              <figDesc n="decoV" xml:lang="fr"/>
-                              <figDesc n="decoV" xml:lang="en"/>
+                              <figDesc n="decoV" xml:lang="fr">Cercle de grènetis légèrement écrasé à gauche</figDesc>
+                              <figDesc n="decoV" xml:lang="en">Border of dots slightly crushed on the left</figDesc>
                            </figure>
                         </decoNote>
                      </decoDesc>
@@ -302,41 +301,75 @@
          <div type="edition" subtype="diplomatic" xml:space="preserve"> 
                   <div type="textpart" subtype="face" rend="linear" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
               <ab>
-                 <lb n="1"/>
-                 <lb n="2"/>
-                 <lb n="3"/>
+                 <lb n="1"/>Της        
+                 <lb n="2"/>παναγι
+                 <lb n="3"/>ασθκ
               </ab>
             </div>
                   <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
                       <ab>
-                         <lb n="4"/>
-                         <lb n="5"/>
-                         <lb n="6"/>
+                         <lb n="4"/>της      
+                         <lb n="5"/>αχειρο
+                         <lb n="6"/>ποιητ
                          </ab>
                   </div>
               </div>
          <div type="translation">
             <p>+ Τῆς Παναγίας Θεοτόκου || τῆς Ἀχειροποιήτου.</p>
-            <p xml:lang="en"></p>
-            <p xml:lang="fr"></p>
+            <p xml:lang="en">+ (The monastery of) the Virgin Mary Mother of God || the Acheiropoietos</p>
+            <p xml:lang="fr">+ (Du monastère de)la toute sainte Mère de Dieu || l'Acheiropoiètos</p>
          </div>
          <div type="commentary" subtype="text">
             <!-- renvois internes à refaire -->
+            <p xml:lang="en">In accordance with the teachings of the Church, the Typika of several religious houses 
+               provide for the distribution of food to the needy listed in their registers. 
+               Our tessera comes from the Constantinopolitan monastery of the Abramites, founded in the 6th century under the patronage of the Theotokos
+               Acheiropoiètos. Chroniclers mention it in the same terms as on the tessera.
+               Situated near the walls of the capital, close to the sea, along the road that led to the Golden Gate, the monastery owed its 
+               reputation to an icon "not made by hand", depicting the Virgin Mary in full regalia,
+               holding the Child on her right arm (dexiokratoussa). The establishment suffered the persecutions of the first iconoclasm in the 8th century.
+               but it is attested again from the end of the 9th century. In the 10th century, it grew in importance 
+               when Nicephorus Phocas stopped off here in 963 to put on the imperial costume on his way to the palace as emperor,
+               establishing a custom for victorious  emprors.
+               The monastery has not survived the capture of Constantinople in 1204.</p>
             <p xml:lang="en"></p>
-            <p xml:lang="en"></p>
-            <p xml:lang="fr"></p>
+            <p xml:lang="fr">Conformément aux enseignements de l’Église, les Typika de plusieurs 
+               maisons religieuses prévoient des distributions de vivres aux indigents inscrits dans leurs registres. 
+               Notre tessère provient du monastère constantinopolitain des Abramites,fondé au VIe
+               siècle et placé sous le patronage de la Théotokos Acheiropoiètos,
+               mentionné chez les chroniqueurs dans les mêmes termes que sur la tessère.
+               Situé près des remparts de la capitale, à proximité de la mer, le long de la route qui conduisait à la Porte dorée, le 
+               monastère devait sa réputation à une icône «non faite de main d’homme», représentant la Vierge en pied,
+               tenant l’Enfant sur le bras droit (dexiokratoussa). L’établissement ne fut pas épargné par les persécutions du premier iconoclasme, au VIIIe
+               siècle, mais il est à nouveau attesté dès la fin du IXe siècle. Au siècle suivant, il a vu son importance croître 
+               lorsque Nicéphore Phocas s’y arrêta en 963, pour revêtir le costume impérial avant de gagner le Palais en tant qu’empereur, instaurant une 
+               habitude pour les retours victorieux des empereurs byzantins.Le monastère n’aurait pas survécu à la prise de Constantinople en 1204.</p>
             <p xml:lang="fr"></p>
          </div>
          <div type="bibliography" subtype="edition">
             <p>
-               <bibl/>
+               <bibl>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">402</citedRange></bibl>;
+               <bibl>
+                  <ptr target="Zakos2"/>, n° <citedRange unit="entry">1058</citedRange></bibl>
             </p>
          </div>
          <div type="bibliography" subtype="parallels">
-            <p/>
+            <p>BnF: <bibl>
+                  <ptr target="LaurentCorpus5.2"/>, n° <citedRange unit="entry">1137</citedRange></bibl>; <bibl>
+                     <ptr target="Schlumberger1884"/>, p. <citedRange unit="page">134</citedRange></bibl>
+            </p>
+            <p>Istanbul, Musée archéologique 670(672):  <bibl>
+                  <ptr target="Istanbul"/>, n° <citedRange unit="entry">6.107</citedRange></bibl> 
+            </p>
+            <p>Ermitage, M-11720:
+            </p> 
          </div>
          <div type="bibliography" subtype="discussion">
-            <p/>
+            <p>
+               <bibl>
+                  <ptr target="Nesbitt Copper Tokens"/>, p. <citedRange unit="page">72, note 13</citedRange></bibl>
+            </p>
          </div>
       </body>
    </text>

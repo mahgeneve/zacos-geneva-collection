@@ -42,7 +42,7 @@
             <listPerson type="issuer">
                <person gender="M" role="civil aristocracy">
                   <persName xml:lang="grc">
-                     <forename>Ρωμανός</forename> <surname/>
+                     <forename>Ῥωμανός</forename> <surname/>
                   </persName>
                   <persName xml:lang="fr">
                      <forename>Romain</forename> <surname/>
@@ -193,7 +193,7 @@
                                  <!-- ajouté ceci -->
                                  <dim type="diameter"/>
                               </dimensions>
-                              <p xml:lang="fr">Linear legend in 5 lines.</p>
+                              <p xml:lang="fr">Linear legend of 5 lines.</p>
                               <p xml:lang="en">Légende linéaire sur 5 lignes.</p>
                            </layout>
                         </layoutDesc>
@@ -208,7 +208,7 @@
                      <decoDesc>
                         <decoNote>
                            <figure>
-                              <figDesc n="r" xml:lang="fr" ana="texte"/>
+                              <figDesc n="r" xml:lang="fr" ana="text"/>
                               <figDesc n="r" xml:lang="en" ana="text"/>
                               <figDesc n="decoR" xml:lang="fr">Cercle de grènetis; une croisette
                                  précède la légende.</figDesc>
@@ -313,7 +313,7 @@
          <div type="edition" subtype="diplomatic" xml:space="preserve"> 
                   <div type="textpart" subtype="face" rend="linear" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
               <ab>
-                 <lb n="1"/>θΚΕR//  
+                 <lb n="1"/>θΚΕR//  
                  <lb n="2"/>ΗΘ/ Τc 
                  <lb n="3"/>δοΥΛΡ
                  <lb n="4"/>ΜΑΝΑ̅Μι
@@ -322,11 +322,13 @@
             </div>
                   <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
                       <ab>
+                         <lb n="0"/>       
                          <lb n="6"/>ΒΑcΛ// ΚΟ
                          <lb n="7"/>Α̅cΠΑΘ// ΚΟι 
                          <lb n="8"/>ΤΝ// Τ// ΚΑιΚ
                          <lb n="9"/>ρΑΤ/ ΤΝ
                          <lb n="10"/>ΜΑγγαν/
+                         <lb n="0"/>   
                          </ab>
                   </div>
               </div>
@@ -345,17 +347,17 @@
                of the very person of the emperor, since he is primicier, protospatharios ἐπὶ τοῦ
                θεοφυλάκτου κοιτῶνος, and he exercises the financial function of ἐπὶ τοῦ εἰδικοῦ λόγου.
                The editor suggests to bring this Roman closer to the official who signed a synodal
-               act in May 1030 (Regestes du patriarcat, no 839) in the capacity of protospatharios,
+               act in May 1030 (Regestes du patriarcat, n° 839) in the capacity of protospatharios,
                member of the imperial koiton and kensor.</p>
             <p xml:lang="en">Located near the Grand Palace, on the eastern coast of the
                peninsula, the estate of oikos of Manganes, the most important imperial estate of
                Constantinople, was endowed with lands whose production and income were to
                supply the imperial table. A seal of the oikos from the 10th/11th century is preserved
-               : βουλλωτήριον τοῦ βασιλικοῦ οἴκου τῶν Μαγγάνων (<bibl><ptr target="Zacos2"/>,
+               : βουλλωτήριον τοῦ βασιλικοῦ οἴκου τῶν Μαγγάνων <bibl><ptr target="Zacos2"/>,
                   <citedRange unit="entry">notice n° 106</citedRange></bibl>; <bibl><ptr
-                     target="Seyrig"/>, <citedRange unit="entry">notice n°
+                     target="Seyrig"/>, <citedRange unit="entry">
                         121</citedRange></bibl>;<bibl><ptr target="DOseals5"/>, <citedRange
-                           unit="entry">notice n° 25.7</citedRange></bibl> (wrong reading)). The curator
+                           unit="entry">25.7</citedRange></bibl> (wrong reading). The curator
                of the Manganes ran an independent sekreton, with an administrative organisation
                similar to that of the grand curator. In the Clétorologe of Philothée
                (899), he appears after the latter, honoured with the same dignities (protospatharios or
@@ -375,11 +377,11 @@
                péninsule, le domaine de l'oikos des Manganes, domaine impérial le plus important de
                Constantinople, a été doté de terres dont la production et les revenus devaient
                approvisionner la table impériale. Un sceau de l’oikos du Xe/XIe siècle est conservé
-               : βουλλωτήριον τοῦ βασιλικοῦ οἴκου τῶν Μαγγάνων (<bibl><ptr target="Zacos2"/>,
-                     <citedRange unit="entry">notice n° 106</citedRange></bibl>; <bibl><ptr
+               : βουλλωτήριον τοῦ βασιλικοῦ οἴκου τῶν Μαγγάνων <bibl><ptr target="Zacos2"/>,
+                     <citedRange unit="entry">106</citedRange></bibl>; <bibl><ptr
                      target="Seyrig"/>, <citedRange unit="entry">notice n°
                      121</citedRange></bibl>;<bibl><ptr target="DOseals5"/>, <citedRange
-                     unit="entry">notice n° 25.7</citedRange></bibl> (lecture erronée)). Le curateur
+                     unit="entry">25.7</citedRange></bibl> (lecture erronée)). Le curateur
                des Manganes dirigeait un sékréton indépendant, disposant d’une organisation
                administrative de même type que le grand curateur. Dans le Clétorologe de Philothée
                (899), il figure à la suite de celui-ci, honoré des mêmes dignités (protospathaire ou

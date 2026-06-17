@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en">Licinia Eudoxia</title>
+            <title xml:lang="fr">Licinia Eudoxia</title>
+            <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
+            <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+            <funder>
+               <orgName corresp="https://www.mahmah.ch/">MAH-Musée d'art et d'histoire - Genève,
+                  Cabinet de numismatique</orgName>, Suisse</funder>
+            <principal ref="#MCP"/>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <seg xml:lang="fr">Amélioration digitale</seg>
+               <seg xml:lang="en">Digital enhancement</seg>
+            </edition>
+            <editor role="digital-editor" xml:id="PE" when="2025-04-22">Pia Evening</editor>
+         </editionStmt>
+         <publicationStmt>
+            <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
+            <idno type="filename">CdN 2004-0370</idno>
+            <idno type="SigiDocID">s-apT6Jc</idno>
+            <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+            <idno type="sequence"/>
+            <!--  to be compiled automatically; leave as is  -->
+            <date when="2024-08-06"/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                  >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                  4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listPerson type="issuer">
+               <person gender="F" role="imperial">
+                  <persName xml:lang="grc">
+                     <forename>Λικίνια Εὐδοξία</forename>/> <surname/>
+                  </persName>
+                  <persName xml:lang="fr">
+                     <forename>Licinia Eudoxia</forename>/> <surname/>
+                  </persName>
+                  <persName xml:lang="en">
+                     <forename>Licinia Eudoxia</forename>/> <surname/>
+                  </persName>
+                  <idno type="PBW"/>
+                  <idno type="PBE"/>
+                  <idno type="PLP"/>
+                  <idno type="PLRE"/>
+                  <idno type="PcBE"/>
+                  <idno type="PmbZ"/>
+               </person>
+            </listPerson>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <seg xml:lang="en">Switzerland</seg>
+                     <seg xml:lang="fr">Suisse</seg>
+                  </country>
+                  <settlement>
+                     <seg xml:lang="en">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">City of
+                           Geneva</placeName>
+                     </seg>
+                     <seg xml:lang="fr">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">Ville de
+                           Genève</placeName>
+                     </seg>
+                  </settlement>
+                  <institution>MAH-Musée d'art et d'histoire</institution>
+                  <repository>Cabinet de numismatique</repository>
+                  <collection type="public">
+                     <rs type="collection-name" xml:lang="en">Byzantine seals collection</rs>
+                     <rs type="collection-name" xml:lang="fr">Collection de sceaux byzantins</rs>
+                  </collection>
+                  <idno type="inv-nr-current">CdN 2004-0370</idno>
+                  <altIdentifier>
+                     <repository/>
+                     <idno type="inv-nr-former"/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <!--https://github.com/SigiDoc/Guidelines/wiki/5.-Controlled-vocabularies#seals-category-->
+                  <summary n="whole">
+                     <seg xml:lang="fr">impériale</seg>
+                     <seg xml:lang="en">Imperial</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>
+                              <term>
+                                 <seg xml:lang="fr">Sceau</seg>
+                                 <seg xml:lang="en">Seal</seg>
+                              </term>
+                              <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                              <interp type="workType" xml:lang="en">Original impression</interp>
+                           </objectType>
+                           <material>
+                              <seg xml:lang="fr">Plomb</seg>
+                              <seg xml:lang="en">Lead</seg>
+                           </material>
+                           <dimensions type="support" unit="mm">
+                              <dim type="diameter">17,75/17,71</dim>
+                              <!-- mesure du champ? -->
+                           </dimensions>
+                           <measure type="weight" unit="g">10,260</measure>
+                           <measure type="axis" unit="clock"/>
+                           <measure type="overstrikeOrient" unit="clock"/>
+                           <measure type="channelOrient" unit="clock">12-6</measure>
+                           <measure type="countermark" unit="clock"/>
+                        </support>
+                        <condition rend="well-struck well-preserved worn-edge chipped">
+                           <p xml:lang="en">The bulla is well-struck and well-preserved, chipped at
+                              the opennings of the channel and quite worn on a large part of the
+                              rim. </p>
+                           <p xml:lang="fr">La bulle est bien frappée et bien conservée; légèrement
+                              échancrée aux orifices du canal, mais largement rognée sur la
+                              tranche</p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout n="whole">
+                           <rs type="execution">
+                              <seg xml:lang="fr">Frappé</seg>
+                              <seg xml:lang="en">Struck</seg>
+                           </rs>
+                           <rs type="shape">
+                              <seg xml:lang="fr">Ronde</seg>
+                              <seg xml:lang="en">Round</seg>
+                           </rs>
+                           <rs type="matrix" subtype="not-surviving">
+                              <idno type="SigiDoc">m-WqCiSE</idno>
+                              <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+                              <idno type="PBW"/>
+                              <!-- to be used if the seal has a parallel in the PBW with a boulloterion registered there -->
+                           </rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <seg xml:lang="fr">
+                           <placeName/>
+                        </seg>
+                        <seg xml:lang="en">
+                           <placeName/>
+                        </seg>
+                     </origPlace>
+                     <origDate type="analysis" notBefore="0439" notAfter="0455"
+                        evidence="prosopography iconography reign" cert="high" resp="#MCP #JCC">
+                        <seg xml:lang="en">439-455</seg>
+                        <seg xml:lang="fr">439-455</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="transferred" subtype="donated" when="2004-11-24">
+                     <!-- pas sûr de subtype et when -->
+                     <p xml:lang="en">George Zacos collection</p>
+                     <p xml:lang="fr">Collection Georges Zacos</p>
+                  </provenance>
+                  <acquisition>
+                     <p xml:lang="en">Donation of the Migore Foundation, Janet Zakos legacy, <date
+                           when="2004-11-24">24th November 2004</date>
+                     </p>
+                     <p xml:lang="fr">Don de la Fondation Migore, legs Janet Zakos, <date
+                           when="2004-11-24">24 Novembre 2004</date>
+                     </p>
+                  </acquisition>
+               </history>
+               <msPart n="r">
+                  <msIdentifier/>
+                  <msContents>
+                     <!-- ajouté ceci -->
+                     <summary n="r">
+                        <seg xml:lang="en">Obverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="r">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="fr">Iconographie avec, inscription circulaire </p>
+                              <p xml:lang="en">Iconography with circular inscription </p>
+                           </layout>
+                        </layoutDesc>
+
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="r">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="r" xml:lang="fr" ana="person female empress">Buste en
+                                 profil droit de Licinia Eudoxia, tête coiffée de grosses boucles du
+                                 front à la nuque, ceinte d’un diadème orné au sommet d’un joyau,
+                                 vêtue d’une tunique attachée à l’épaule droite par une fibule
+                                 ronde</figDesc>
+                              <figDesc n="r" xml:lang="en" ana="person female empress">Right profile
+                                 bust of Licinia Eudoxia, head covered with large curls from
+                                 forehead to nape of neck, wearing a diadem adorned with a jewel at
+                                 the top, dressed in a tunic fastened at the right shoulder with a
+                                 round fibula</figDesc>
+                              <figDesc n="decoR" xml:lang="fr">Cercle de grènetis</figDesc>
+                              <figDesc n="decoR" xml:lang="en">Circle of dots</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+               <msPart n="v">
+                  <msIdentifier/>
+                  <msContents>
+                     <summary n="v"><!-- ajouté ceci -->
+                        <seg xml:lang="en">Reverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="v">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="en">Iconography</p>
+                              <p xml:lang="fr">Iconographie</p>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="v">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="v" xml:lang="fr" ana="person female Victory">Victoire
+                                 ailée en pied, de face, tête tournée à gauche, vêtue d’un long
+                                 péplos serré à la taille, tenant en main droite, légèrement de
+                                 biais, une longue croix, à la haste bouletée, posée au
+                                 sol.</figDesc>
+                              <figDesc n="v" xml:lang="en" ana="person female Victory">Winged
+                                 Victory standing, facing forward, head turned to the left, dressed
+                                 in a long peplos tightened at the waist, holding in her right hand,
+                                 slightly askew, a long cross with a ball-shaped pommel, resting on
+                                 the ground.</figDesc>
+                              <figDesc n="decoV" xml:lang="fr">Cercle de grènetis</figDesc>
+                              <figDesc n="decoV" xml:lang="en">Circle of dots</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2025-04-22" who="#PE">Creation of the XML record.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp>
+         <surface n="r">
+            <desc>Obverse</desc>
+            <graphic type="photo" url="CdN2004-0370_1.jpg">
+               <desc xml:lang="en">CdN 2004-0370, obverse</desc>
+               <desc xml:lang="fr">CdN 2004-0370, avers</desc>
+            </graphic>
+         </surface>
+         <surface n="v">
+            <desc>Reverse</desc>
+            <graphic type="photo" url="CdN2004-0370_2.jpg">
+               <desc xml:lang="en">CdN 2004-0370, reverse</desc>
+               <desc xml:lang="fr">CdN 2004-0370, revers</desc>
+            </graphic>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" subtype="editorial" xml:space="preserve"> 
+            <div type="textpart" subtype="face" rend="circular" n="obv" xml:lang="la"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab ana="nom">
+                 <lb n="1"/>Licinia E<supplied reason="lost">u</supplied>doxia <expan><abbr>P</abbr><ex>ia</ex></expan> <expan><abbr>F</abbr><ex>elix</ex></expan> <rs type="dignity" ref="#d0010"><expan><abbr>Au</abbr><ex>gusta</ex></expan></rs>
+              </ab>
+            </div>
+           <!--<div type="textpart" subtype="sigla" rend="columns" n="rev" xml:lang="grc">
+              <ab/>
+            </div>-->
+              </div>
+         <div type="edition" subtype="diplomatic" xml:space="preserve"> 
+                  <div type="textpart" subtype="face" rend="circular" n="obv" xml:lang="la"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <lb n="1"/>ḷiciniae.     doxiapfaṿ
+              </ab>
+                  </div>
+            <!--<div type="textpart" subtype="sigla" n="rev" rend="columns" xml:lang="grc">
+                      <ab/>
+                  </div>-->
+              </div>
+         <div type="translation">
+            <p>Licinia Eudoxia Pia Felix Augusta.</p>
+            <p xml:lang="en">Licinia Eudoxia pious and blessed Augusta</p>
+            <p xml:lang="fr">Licinia Eudoxia pieuse et heureuse Augusta</p>
+         </div>
+         <div type="commentary" subtype="text">
+            <!-- renvois internes à refaire -->
+            <p xml:lang="en">This seal is the oldest of our collection. The identification of the
+               holder as Aelia Licinia Eudoxia, Theodose II's daughter and Valentinian III's
+               (424-455)spouse, is possible on the grounds of the similarity of the profile and of
+               the inscription with those shown ont the sole known solidus (which would be a false)
+               minted in the name of this empress in Ravenna, where she has been proclaimed augusta
+               in 439. After Valentinian III has been murdered and Rome captured by the Vandals, in
+               455, Eudoxia became king's Genséric prisoner, in Carthage, before returning to
+               Constantinople seven years later. A similar seal in the name of Ael(ia) Eudoxia
+               Aug(usta) is dated by its publisher between 455 and her death, in 472.</p>
+            <p xml:lang="en"/>
+            <p xml:lang="fr">Ce sceau est le plus ancien de notre collection. L’identification de la
+               titulaire à Aelia Licinia Eudoxia, fille de Théodose II et épouse de l’empereur
+               d’Occident Valentinien III (424-455), est facilitée par la similitude du profil et de
+               l’inscription du sceau avec ceux du seul solidus connu (mais qui serait faux), frappé
+               au nom de cette impératrice à Ravenne, où elle fut proclamée augusta en 439. Après
+               l’assassinat de Valentinien III et la prise de Rome par les Vandales, en 455, Eudoxia
+               fut amenée à Carthage, prisonnière du roi Genséric, avant de rentrer à Constantinople
+               sept ans plus tard. Un sceau similaire la désignant sous le nom d’Ael(ia) Eudoxia
+               Aug(usta) est daté par son éditeur entre sa captivité, en 455, et sa mort, en
+               472.</p>
+            <p xml:lang="fr"/>
+         </div>
+         <div type="bibliography" subtype="edition">
+            <p><bibl>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">1</citedRange></bibl>; <bibl>
+                  <ptr target="Zacos2"/>, n° <citedRange unit="entry">2759</citedRange></bibl>
+               <bibl/>
+            </p>
+         </div>
+         <div type="bibliography" subtype="parallels">
+            <p/>
+         </div>
+         <div type="bibliography" subtype="discussion">
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

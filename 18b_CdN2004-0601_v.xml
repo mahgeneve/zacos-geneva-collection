@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en">Theodore II Lascaris</title>
+            <title xml:lang="fr">Théodore II Lascaris</title>
+            <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
+            <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+            <funder>
+               <orgName corresp="https://www.mahmah.ch/">MAH-Musée d'art et d'histoire - Genève,
+                  Cabinet de numismatique</orgName>, Suisse</funder>
+            <principal ref="#MCP"/>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <seg xml:lang="fr">Amélioration digitale</seg>
+               <seg xml:lang="en">Digital enhancement</seg>
+            </edition>
+            <editor role="digital-editor" xml:id="PE" when="2025-06-02">Pia Evening</editor>
+         </editionStmt>
+         <publicationStmt>
+            <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
+            <idno type="filename">CdN 2004-0601</idno>
+            <idno type="SigiDocID">s-yXIfH7</idno>
+            <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+            <idno type="sequence"/>
+            <!--  to be compiled automatically; leave as is  -->
+            <date when="2024-08-06"/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                  >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                  4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listPerson type="issuer">
+               <person gender="M" role="imperial">
+                  <persName xml:lang="grc">
+                     <forename>Θεόδωρος Β΄</forename>
+                     <surname>Λάσκαρης</surname>
+                  </persName>
+                  <persName xml:lang="fr">
+                     <forename>Théodore II</forename>
+                     <surname>Lascaris</surname>
+                  </persName>
+                  <persName xml:lang="en">
+                     <forename>Theodore II</forename>
+                     <surname>Laskaris</surname>
+                  </persName>
+                  <idno type="PBW" ana="http://pbw2016.kdl.kcl.ac.uk/person/Theodoros/2/">Theodoros 2</idno>
+                  <idno type="PBE"/>
+                  <idno type="PLP"/>
+                  <idno type="PLRE"/>
+                  <idno type="PcBE"/>
+                  <idno type="PmbZ"/>
+               </person>
+            </listPerson>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <seg xml:lang="en">Switzerland</seg>
+                     <seg xml:lang="fr">Suisse</seg>
+                  </country>
+                  <settlement>
+                     <seg xml:lang="en">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">City of
+                           Geneva</placeName>
+                     </seg>
+                     <seg xml:lang="fr">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">Ville de
+                           Genève</placeName>
+                     </seg>
+                  </settlement>
+                  <institution>MAH-Musée d'art et d'histoire</institution>
+                  <repository>Cabinet de numismatique</repository>
+                  <collection type="public">
+                     <rs type="collection-name" xml:lang="en">Byzantine seals collection</rs>
+                     <rs type="collection-name" xml:lang="fr">Collection de sceaux byzantins</rs>
+                  </collection>
+                  <idno type="inv-nr-current">CdN 2004-0601</idno>
+                  <altIdentifier>
+                     <repository/>
+                     <idno type="inv-nr-former"/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <!--https://github.com/SigiDoc/Guidelines/wiki/5.-Controlled-vocabularies#seals-category-->
+                  <summary n="whole">
+                     <seg xml:lang="fr">Impérial</seg>
+                     <seg xml:lang="en">Imperial</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>
+                              <term>
+                                 <seg xml:lang="fr">Sceau</seg>
+                                 <seg xml:lang="en">Seal</seg>
+                              </term>
+                              <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                              <interp type="workType" xml:lang="en">Original impression</interp>
+                           </objectType>
+                           <material>
+                              <seg xml:lang="fr">Plomb</seg>
+                              <seg xml:lang="en">Lead</seg>
+                           </material>
+                           <dimensions type="support" unit="mm">
+                              <dim type="diameter">33,96/31,79</dim>
+                              <!-- mesure du champ? -->
+                           </dimensions>
+                           <measure type="weight" unit="g">38,466</measure>
+                           <measure type="axis" unit="clock"/>
+                           <measure type="overstrikeOrient" unit="clock"/>
+                           <measure type="channelOrient" unit="clock">12-6</measure>
+                           <measure type="countermark" unit="clock"/>
+                        </support>
+                        <condition rend="well-struck, well-preserved broken crushed">
+                           <p xml:lang="en">The bulla is well-struck and quite well-preserved;
+                              partially broken on the edge, slightly crushed on both sides</p>
+                           <p xml:lang="fr">La bulle est bien frappée et relativement bien conservée;
+                              partiellement cassée sur le pourtour et légèrement écrasée sur les deux
+                              faces</p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout n="whole">
+                           <rs type="execution">
+                              <seg xml:lang="fr">Frappé</seg>
+                              <seg xml:lang="en">Struck</seg>
+                           </rs>
+                           <rs type="shape">
+                              <seg xml:lang="fr">Ronde</seg>
+                              <seg xml:lang="en">Round</seg>
+                           </rs>
+                           <rs type="matrix" subtype="not-surviving">
+                              <idno type="SigiDoc">m-nAsAIT</idno>
+                              <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+                              <idno type="PBW" ana = "http://pbw2016.kdl.kcl.ac.uk/boulloterion/97/">Theodoros 2</idno>
+                              <!-- to be used if the seal has a parallel in the PBW with a boulloterion registered there -->
+                           </rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <seg xml:lang="fr">
+                           <placeName/>
+                        </seg>
+                        <seg xml:lang="en">
+                           <placeName/>
+                        </seg>
+                     </origPlace>
+                     <origDate type="analysis" notBefore="1254" notAfter="1258"
+                        evidence="prosopography iconography reign" cert="high" resp="#MCP #JCC">
+                        <seg xml:lang="en">1254-1258</seg>
+                        <seg xml:lang="fr">1254-1258</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="transferred" subtype="donated" when="2004-11-24">
+                     <!-- pas sûr de subtype et when -->
+                     <p xml:lang="en">George Zacos collection</p>
+                     <p xml:lang="fr">Collection Georges Zacos</p>
+                  </provenance>
+                  <acquisition>
+                     <p xml:lang="en">Donation of the Migore Foundation, Janet Zakos legacy, <date
+                           when="2004-11-24">24th November 2004</date>
+                     </p>
+                     <p xml:lang="fr">Don de la Fondation Migore, legs Janet Zakos, <date
+                           when="2004-11-24">24 Novembre 2004</date>
+                     </p>
+                  </acquisition>
+               </history>
+               <msPart n="r">
+                  <msIdentifier/>
+                  <msContents>
+                     <!-- ajouté ceci -->
+                     <summary n="r">
+                        <seg xml:lang="en">Obverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="r">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="en">Iconography with epigraph on columns on either
+                                 side</p>
+                              <p xml:lang="fr">Iconographie avec, de part et d'autre, une épigraphe
+                                 en colonne</p>
+                           </layout>
+                        </layoutDesc>
+
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="r">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="r" xml:lang="fr" ana="person male saint Theodore">Saint
+                                 Théodore Stratèlatès en pied, de face, vêtu de l’habit militaire
+                                 occidental et armé d’un bouclier en forme de mandorle.</figDesc>
+                              <figDesc n="r" xml:lang="en" ana="person male saint Theodore">Saint
+                                 Theodore Stratelates standing, facing forward, wearing an
+                                 occidental military costume and armed with an almond-shaped
+                                 shield.</figDesc>
+                              <figDesc n="decoR" xml:lang="fr"/>
+                              <figDesc n="decoR" xml:lang="en"/>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+               <msPart n="v">
+                  <msIdentifier/>
+                  <msContents>
+                     <summary n="v"><!-- ajouté ceci -->
+                        <seg xml:lang="en">Reverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="v">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="en">Linear metrical legend of six lines</p>
+                              <p xml:lang="fr">Légende métrique linéaire sur 6 lignes</p>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="v">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="decoV" xml:lang="fr">La légende est surmontée d'une croisette faite de quatre perles</figDesc>
+                              <figDesc n="decoV" xml:lang="en">Above the legend, a crosslet made of four pearls</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2025-06-02" who="#PE">Creation of the XML record.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp>
+         <surface n="r">
+            <desc>Obverse</desc>
+            <graphic type="photo" url="CdN2004-0601_1.jpg">
+               <desc xml:lang="en">CdN 2004-0601, obverse</desc>
+               <desc xml:lang="fr">CdN 2004-0601, avers</desc>
+            </graphic>
+         </surface>
+         <surface n="v">
+            <desc>Reverse</desc>
+            <graphic type="photo" url="CdN2004-0601_2.jpg">
+               <desc xml:lang="en">CdN 2004-0601, reverse</desc>
+               <desc xml:lang="fr">CdN 2004-0601, revers</desc>
+            </graphic>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" subtype="editorial" xml:space="preserve"> 
+            <div type="textpart" subtype="label" rend="columns" n="obv" xml:lang="grc">
+              <ab>
+                 <cb n="a"/>Ὁ ἅγιος Θεόδωρος 
+                 <cb n="b"/>ὁ Στ<supplied reason="lost">ρα</supplied>τ<supplied reason="lost">ηλάτης</supplied>
+              </ab>
+            </div>
+            <div type="textpart" subtype="face" rend="linear" n="rev" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <lg type="metrical" met="dodecasyllable">
+                 <l n="1">
+                    <lb n="1"/><supplied reason="lost">Ἀ</supplied>νακτόπα
+                    <lb n="2" break="no"/><supplied reason="lost">ιδ</supplied>α δούκαν ἀ
+                    <lb n="3" break="no"/><supplied reason="lost">θ</supplied>λητά σκέποις</l> 
+                    <l n="2"><lb n="4"/><supplied reason="lost">Θ</supplied>εόδωρον Λ<supplied reason="lost">ά
+                    <lb n="5" break="no"/>σ</supplied>καρ<supplied reason="lost">ι</supplied>ν τὸν 
+                    <lb n="6"/>βασιλέ<supplied reason="lost">α</supplied>
+                 </l>
+              </lg>
+            </div>
+              </div>
+         <div type="edition" subtype="diplomatic" xml:space="preserve"> 
+            <div type="textpart" subtype="label" rend="columns" n="obv" xml:lang="grc">
+              <ab>
+                 <cb n="a"/>o||γιοσ|θεο|δ|ρ̣ο|σ
+                 <cb n="b"/>οσ|τ.. |τ...
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" rend="linear" n="rev" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <lb n="0"/>
+                 <lb n="1"/>.nktoπ̣
+                 <lb n="2"/>..δκ
+                 <lb n="3"/> .ητσκεποισ
+                 <lb n="4"/>.εοδ̣ρο.
+                 <lb n="5"/>.κρ.το̣
+                 <lb n="6"/>βσιλε.
+              </ab>
+                  </div>
+              </div>
+         <div type="translation">
+            <p>Ὁ ἅγιος Θεόδωρος ὁ Στρατηλάτης. || + Ἀνακτόπαιδα δούκαν, ἀθλητά, σκέποις Θεόδωρον
+               Λάσκαριν τὸν βασιλέα.</p>
+            <p xml:lang="en">Saint Theodore Stratelates. || Athlete (of the faith), may protect
+               Theodore Laskaris Doukas, the basileus, a basileus' son</p>
+            <p xml:lang="fr">Saint Théodore le Stratèlatès. || Athlète (de la foi), veuille protéger
+               Théodore Lascaris Doukas, le basileus, fils de basileus.</p>
+         </div>
+         <div type="commentary" subtype="text">
+            <!-- renvois internes à refaire -->
+            <p xml:lang="en">We know of a dozen seals of this emperor, similar in appearance, but
+               striken by at least five different boulloteria. In addition to the distribution of
+               the legend and the shape of the characters on the reverse, we can distinguish two
+               main types based on the military costume worn by the saint and the shape of his
+               shield: a) cloak over a short chiton and a triangular shield decorated with a button.
+               This type also appears on an issue of aspron trachy; b) cloak over western military
+               attire and a mandorla-shaped shield. The five known examples, including our two, come
+               from three or four different boulloteria.</p>
+            <p xml:lang="en">Zacos and A. Veglery rightly identified this emperor not as Theodore I
+               Komnenos Lascaris, as G. Schlumberger and V. Laurent, followed by K. M.
+               Konstantopoulos, had suggested, but rather as his grandson, Theodore II, son of John
+               III Doukas. The mention of ἀνακτόπαις, son of basileus, as well as the double surname
+               Doukas Lascaris leave no doubt as to his identity. According to the same scholars,
+               the absence of a portrait on the six seals left by this emperor would indicate that
+               these bullae served for his private correspondence. However, according to the editors
+               of the Hecht collection, this is indeed the official type used by the chancellery of
+               Theodore II <bibl>
+                  <ptr target="Nesbitt2009"/>, n° <citedRange unit="entry">3</citedRange></bibl>.
+               Like Theodore I before him <bibl>
+                  <ptr target="Zacos1"/>, n° <citedRange unit="entry">116</citedRange></bibl>,
+               Theodore II broke with the iconographic tradition established since the restoration
+               of images, according to which the emperor abandons the representation of the patron
+               saint adopted before coming to power to place himself under the protection of Christ
+               and thus emphasise his role as divine lieutenant.</p>
+            <p xml:lang="fr">Nous connaissons une dizaine de sceaux de cet empereur, similaires,
+               mais issus d’au moins cinq boullôtèria différents. Outre la répartition de la légende
+               et la forme des caractères au revers, nous distinguons deux types principaux suivant
+               le costume militaire porté par le saint et la forme de son bouclier : a) manteau
+               par-dessus un chitôn court et bouclier triangulaire orné d’un bouton1. Ce type figure
+               aussi sur une émission d’aspron trachy ; b) manteau sur un habit militaire occidental
+               et bouclier en forme de mandorle. Les cinq exemplaires connus, dont les deux nôtres,
+               sont issus de trois ou quatre boullôtèria différents.</p>
+            <p xml:lang="fr">Zacos et A. Veglery ont, à juste titre, reconnu en cet empereur non pas
+               Théodore Ier Comnène Lascaris, comme G. Schlumberger et V. Laurent, suivis par K. M.
+               Konstantopoulos, l’avaient proposé, mais bien son petit-fils, Théodore II, fils de
+               Jean III Doukas. La mention ἀνακτόπαις, fils de basileus, ainsi que le double
+               patronyme Doukas Lascaris ne laissent pas de doute sur son identité. D’après les
+               mêmes savants, l’absence de portrait sur les six sceaux laissés par cet empereur
+               indiquerait que ces bulles ont servi pour sa correspondance privée. Cependant, selon
+               les éditeurs de la collection Hecht, il s’agit bien du type officiel utilisé par la
+               chancellerie de Théodore II <bibl>
+                  <ptr target="Nesbitt2009"/>, n° <citedRange unit="entry">3</citedRange></bibl>.
+               Comme Théodore Ier avant lui <bibl>
+                  <ptr target="Zacos1"/>, n° <citedRange unit="entry">116</citedRange></bibl>,
+               Théodore II rompt avec la tradition iconographique établie depuis la restauration des
+               images, selon laquelle l’empereur abandonne la représentation du saint patron adopté
+               avant l’accession au pouvoir pour se placer sous la protection du Christ et souligner
+               ainsi son rôle de lieutenant divin.</p>
+         </div>
+         <div type="bibliography" subtype="edition">
+            <p><bibl>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">18b</citedRange></bibl>;
+                     <bibl>
+                        <ptr target="Zacos1"/>, n° <citedRange unit="entry">2755b</citedRange></bibl>; 
+                     <bibl><ptr target="ZacosSpink2"/>, n° <citedRange unit="entry">206</citedRange></bibl>;
+               <bibl/>
+            </p>
+         </div>
+         <div type="bibliography" subtype="parallels">
+            <p/>
+         </div>
+         <div type="bibliography" subtype="discussion">
+            <p><bibl>
+                  <ptr target="Oikonomides1986"/>, n° <citedRange unit="entry">135</citedRange></bibl>;
+               <bibl>
+                  <ptr target="Wassiliou-Seibt2011"/>, n° <citedRange unit="entry">96</citedRange></bibl>;
+               </p>
+         </div>
+      </body>
+   </text>
+</TEI>

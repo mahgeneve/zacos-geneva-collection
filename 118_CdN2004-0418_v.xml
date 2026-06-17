@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en">Nicholas Skleros, vestes and judge of the Boukellarioi</title>
+            <title xml:lang="fr">Nicolas Sklèros, vestès et juge du thème des Bucellaires</title>
+            <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
+            <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+            <funder>
+               <orgName corresp="https://www.mahmah.ch/">MAH-Musée d'art et d'histoire - Genève,
+                  Cabinet de numismatique</orgName>, Suisse</funder>
+            <principal ref="#MCP"/>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <seg xml:lang="fr">Amélioration digitale</seg>
+               <seg xml:lang="en">Digital enhancement</seg>
+            </edition>
+            <editor role="digital-editor" xml:id="PE" when="2025-04-14">Pia Evening</editor>
+            <editor role="digital-editor" ref="#MCP" when="2026-01-21">Maria Campagnolo-Pothitou</editor>
+         </editionStmt>
+         <publicationStmt>
+            <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
+            <idno type="filename">CdN 2004-0418</idno>
+            <idno type="SigiDocID">s-7mX3M8</idno>
+            <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+            <idno type="sequence"/>
+            <!--  to be compiled automatically; leave as is  -->
+            <date when="2024-08-06"/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                  >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                  4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listPerson type="issuer">
+               <person gender="M" role="civil aristocracy">
+                  <persName xml:lang="grc">
+                     <forename>Νικόλαος</forename>
+                     <surname>Σκληρός</surname>
+                  </persName>
+                  <persName xml:lang="fr">
+                     <forename>Nicolas</forename>
+                     <surname>Sklèros</surname>
+                  </persName>
+                  <persName xml:lang="en">
+                     <forename>Nicholas</forename>
+                     <surname>Skleros</surname>
+                  </persName>
+                  <idno type="PBW" ana="http://pbw2016.kdl.kcl.ac.uk/person/Nikolaos/2104/">Nikolaos
+                     2104</idno>
+                  <idno type="PBE"/>
+                  <idno type="PLP"/>
+                  <idno type="PLRE"/>
+                  <idno type="PcBE"/>
+                  <idno type="PmbZ"/>
+               </person>
+            </listPerson>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <seg xml:lang="en">Switzerland</seg>
+                     <seg xml:lang="fr">Suisse</seg>
+                  </country>
+                  <settlement>
+                     <seg xml:lang="en">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">City of
+                           Geneva</placeName>
+                     </seg>
+                     <seg xml:lang="fr">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">Ville de
+                           Genève</placeName>
+                     </seg>
+                  </settlement>
+                  <institution>MAH-Musée d'art et d'histoire</institution>
+                  <repository>Cabinet de numismatique</repository>
+                  <collection type="public">
+                     <rs type="collection-name" xml:lang="en">Byzantine seals collection</rs>
+                     <rs type="collection-name" xml:lang="fr">Collection de sceaux byzantins</rs>
+                  </collection>
+                  <idno type="inv-nr-current">CdN 2004-0418</idno>
+                  <altIdentifier>
+                     <repository/>
+                     <idno type="inv-nr-former"/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <!--https://github.com/SigiDoc/Guidelines/wiki/5.-Controlled-vocabularies#seals-category-->
+                  <summary n="whole">
+                     <seg xml:lang="fr">Administration provinciale</seg>
+                     <seg xml:lang="en">Provincial administration</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>
+                              <term>
+                                 <seg xml:lang="fr">Sceau</seg>
+                                 <seg xml:lang="en">Seal</seg>
+                              </term>
+                              <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                              <interp type="workType" xml:lang="en">Original impression</interp>
+                           </objectType>
+                           <material>
+                              <seg xml:lang="fr">Plomb</seg>
+                              <seg xml:lang="en">Lead</seg>
+                           </material>
+                           <dimensions type="support" unit="mm">
+                              <dim type="diameter">33,32/32,04</dim>
+                              <!-- mesure du champ? -->
+                           </dimensions>
+                           <measure type="weight" unit="g">29,206</measure>
+                           <measure type="axis" unit="clock"/>
+                           <measure type="overstrikeOrient" unit="clock"/>
+                           <measure type="channelOrient" unit="clock">12-7</measure>
+                           <measure type="countermark" unit="clock"/>
+                        </support>
+                        <condition rend="well-struck well-preserved not-centered chipped worn-edge ">
+                           <p xml:lang="en">The bulla is well-struck, although slightly off-center,
+                              but rather well-preserved; worn on the edge and obliterated on the
+                              reverse</p>
+                           <p xml:lang="fr">La bulle est bien frappée quoique légèrement décentrée,
+                              mais moyennement bien conservée; écornée sur la tranche et écrasée sur
+                              le revres</p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout n="whole">
+                           <rs type="execution">
+                              <seg xml:lang="fr">Frappé</seg>
+                              <seg xml:lang="en">Struck</seg>
+                           </rs>
+                           <rs type="shape">
+                              <seg xml:lang="fr">Ronde</seg>
+                              <seg xml:lang="en">Round</seg>
+                           </rs>
+                           <rs type="matrix" subtype="not-surviving">
+                              <idno type="SigiDoc">m-dpghu3</idno>
+                              <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+                              <idno type="PBW" ana="http://pbw2016.kdl.kcl.ac.uk/boulloterion/3076/"
+                                 >Nikolaos2104</idno>
+                              <!-- to be used if the seal has a parallel in the PBW with a boulloterion registered there -->
+                           </rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <seg xml:lang="fr">Bucellaires<placeName/>
+                        </seg>
+                        <seg xml:lang="en">Boukellarioi<placeName/>
+                        </seg>
+                     </origPlace>
+                     <origDate type="analysis" notBefore="1057" notAfter="1063"
+                        evidence="prosopography iconography titulature" cert="high" resp="#MCP #JCC">
+                        <seg xml:lang="en">1057-1063</seg>
+                        <seg xml:lang="fr">1057-1063</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="transferred" subtype="donated" when="2004-11-24">
+                     <!-- pas sûr de subtype et when -->
+                     <p xml:lang="en">George Zacos collection</p>
+                     <p xml:lang="fr">Collection Georges Zacos</p>
+                  </provenance>
+                  <acquisition>
+                     <p xml:lang="en">Donation of the Migore Foundation, Janet Zakos legacy, <date
+                           when="2004-11-24">24th November 2004</date>
+                     </p>
+                     <p xml:lang="fr">Don de la Fondation Migore, legs Janet Zakos, <date
+                           when="2004-11-24">24 Novembre 2004</date>
+                     </p>
+                  </acquisition>
+               </history>
+               <msPart n="r">
+                  <msIdentifier/>
+                  <msContents>
+                     <!-- ajouté ceci -->
+                     <summary n="r">
+                        <seg xml:lang="en">Obverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="r">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="fr">Iconographie avec des sigles et deux inscriptions
+                                 circulaires</p>
+                              <p xml:lang="en">Iconography with sigla and two circular
+                                 inscriptions</p>
+                           </layout>
+                        </layoutDesc>
+
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="r">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="r" xml:lang="fr" ana="person female Virgin with the Child"
+                                 >Au centre du champ, Vierge Hodègètria à mi-corps, légèrement
+                                 tournée vers l’Enfant qu’elle porte sur le bras gauche, main droite
+                                 à demi levée dans le geste de l’adoration, vers le Christ, présenté
+                                 de face, tenant le Livre en main gauche.</figDesc>
+                              <figDesc n="r" xml:lang="en" ana="person female Virgin with the Child"
+                                 >In the center of the field, Virgin Hodegetria half-length,
+                                 slightly turned towards the Child seated on her left arm, raising
+                                 her right hand towards him, in a gesture of adoration. The Christ,
+                                 facing forward, holds the Gospels in his right hand. </figDesc>
+                              <figDesc n="decoR" xml:lang="fr">Deux cercles de grènetis entourant
+                                 l'inscription qui commence au sommet, précédée d'une
+                                 croisette</figDesc>
+                              <figDesc n="decoR" xml:lang="en">Double circle of dots surroundig the
+                                 inscription which starts at the summit, preceded by a
+                                 crosslet</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+               <msPart n="v">
+                  <msIdentifier/>
+                  <msContents>
+                     <summary n="v"><!-- ajouté ceci -->
+                        <seg xml:lang="en">Reverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="v">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="en">Iconography with epigraphs on columns between the effigies</p>
+                              <p xml:lang="fr">Iconographie avec épigraphes en colonnes entre les effigies</p>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="v">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="r" xml:lang="fr" ana="person male saint Theodore saint Nicholas"
+                                 >Saints Théodore et Nicolas en pied, de face. À gauche Théodore,
+                                 vêtu de la courte tunique militaire sous la cuirasse et la chlamyde, dont
+                                 il saisit le pan en main droite, tient une lance en main droite et l’épée
+                                 au fourreau dans la gauche, les armes reposant à terre. À droite
+                                 dans le champ, saint Nicolas, en sa tenue épiscopale accoutumée, bénissant
+                                 et tenant le Livre.</figDesc>
+                              <figDesc n="r" xml:lang="en" ana="person male saint Theodore saint Nicholas"
+                                 >Saints Theodore and Nicholas standing, facing forward. On the left, Theodore,
+                                 wearing a short military tunic under his breastplate and chlamys, the hem of which
+                                 he grasps in his right hand. He holds a spear in his right hand and a sword
+                                 in its sheath in his left, the weapons resting on the ground. On the right
+                                 in the field, Saint Nicholas, in his usual episcopal attire, blessing
+                                 and holding the Book.</figDesc>
+                              <figDesc n="decoR" xml:lang="fr">Deux cercles de grènetis entourant
+                                 l'inscription qui commence au sommet, précédée d'une
+                                 croisette</figDesc>
+                              <figDesc n="decoR" xml:lang="en">Double circle of dots surroundig the
+                                 inscription which starts at the top, preceded by a
+                                 crosslet</figDesc>
+                           </figure>
+                           <figure>
+                              <figDesc n="decoV" xml:lang="fr">Cercle de grènetis</figDesc>
+                              <figDesc n="decoV" xml:lang="en">Circle of dots</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2025-04-14" who="#PE">Creation of the XML record.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp>
+         <surface n="r">
+            <desc>Obverse</desc>
+            <graphic type="photo" url="CdN2004-0418_1.jpg">
+               <desc xml:lang="en">CdN 2004-0418, obverse</desc>
+               <desc xml:lang="fr">CdN 2004-0418, avers</desc>
+            </graphic>
+         </surface>
+         <surface n="v">
+            <desc>Reverse</desc>
+            <graphic type="photo" url="CdN2004-0418_2.jpg">
+               <desc xml:lang="en">CdN 2004-0418, reverse</desc>
+               <desc xml:lang="fr">CdN 2004-0418, revers</desc>
+            </graphic>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" subtype="editorial" xml:space="preserve"> 
+            <div type="textpart" subtype="sigla" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="a"/><expan><abbr>Μ</abbr><ex>ήτ</ex><abbr>ηρ</abbr></expan> 
+                 <cb n="b"/><expan><abbr>Θ</abbr><ex>εο</ex><abbr>ῦ</abbr></expan>
+              </ab>
+            </div>
+            <div type="textpart" subtype="label" rend="circular" n="obv" xml:lang="grc">
+              <ab>
+                 <lb n="1"/>Ἡ Ὁδιγήτρια
+              </ab>
+            </div>
+            <div type="textpart" subtype="face" rend="circular" n="obv" xml:lang="grc">
+              <ab ana="gen">
+                 <lb n="2"/><expan><abbr>Σφραγ</abbr><ex>ὶς</ex></expan> <supplied reason="lost"><expan><abbr>Νικολ</abbr><ex>άου</ex></expan> <rs type="dignity" ref="#d0018"><expan><abbr>βέστ</abbr><ex>ου</ex></expan></rs> <expan><abbr><am>S</am></abbr><ex>καὶ</ex></expan></supplied> <rs type="office" subtype="civil" ref="#of0112"><expan><abbr>κριτ</abbr><ex>οῦ</ex></expan></rs> τῶν <placeName ref="#geo0003"><expan><abbr>Βουκελλ</abbr><ex>αρίων</ex></expan></placeName> τοῦ <expan><abbr>Σκλ</abbr><ex>ηροῦ</ex></expan>
+              </ab>
+            </div>
+                  <div type="textpart" subtype="label" n="rev" rend="columns" xml:lang="grc">
+                      <ab>
+                         <cb n="a"/>Ὁ <expan><ex>ἅγιος</ex></expan> <expan><abbr>Θεόδωρ</abbr><ex>ος</ex></expan>
+                         <cb n="b"/>Ὁ <expan><ex>ἅγιος</ex></expan> <expan><abbr>Νικόλ</abbr><ex>αος</ex></expan>
+                      </ab>
+                  </div>
+              </div>
+         <div type="edition" subtype="diplomatic" xml:space="preserve"> 
+                  <div type="textpart" subtype="sigla" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="a"/>̅
+                 <cb n="b"/>ΘV
+              </ab>
+            </div>
+            <div type="textpart" subtype="label" rend="circular" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <lb n="1"/>ηοδιγητρια
+              </ab>
+            </div>
+            <div type="textpart" subtype="face" rend="circular" n="obv" xml:lang="grc">
+              <ab>
+                 <lb n="2"/> σφραγ/  ..........κριτ/  τνrκελλ/  τσκλ̣/ 
+              </ab>
+            </div>
+                  <div type="textpart" subtype="label" n="rev" rend="columns" xml:lang="grc">
+                      <ab>
+                         <cb n="a"/>|θε|ο|δρ/ 
+                         <cb n="b"/>|νι|κο|λ/  
+                         </ab>
+                  </div>
+              </div>
+         <div type="translation">
+            <p>Μήτηρ Θεοῦ. Ἡ Ὁδιγήτρια. + Σφραγὶς Νικολάου βέστου καὶ κριτοῦ τῶν Βουκελλαρίων τοῦ
+               Σκληροῦ. || Ὁ ἅγιος Θεόδωρος. Ὁ ἅγιος Νικόλαος.</p>
+            <p xml:lang="en">Mother of God. The Odigitria. + Nicholas Skleros' seal, vestes and
+               judge of ( the theme of) Boukellarioi. || Saint Theodore. Saint Nicholas. </p>
+            <p xml:lang="fr">Mère de Dieu. La Hodègètria. + Sceau de Nicolas Sklèros, vestès et juge (du thème )des Bucellaires</p>
+         </div>
+         <div type="commentary" subtype="text">
+            <!-- renvois internes à refaire -->
+            <p xml:lang="en">The obverse of the parallel of this bulla is well-preserved, so that we are able to complete the lost part of our bulla.</p>
+            <p xml:lang="en">The iconography on both sides of the lead seal is the same on
+               all seals belonging to Nicholas Skleros. The combination of sources,
+               mainly seals, enabled W. Seibt to complete the administrative career
+               of this Skleros and to situate its various stages between the end of the 1050s and 1084<bibl>
+                  <ptr target="Seibt1976"/>, p. <citedRange unit="page">92-97</citedRange></bibl>:
+               – vestes and judge of the Boukellarioi, early 1060s, according to our
+               bulla and its parallel;
+               – magistros and epi ton deeseon, around the mid-1060s<bibl>
+                  <ptr target="Leontiades2006"/>, n° <citedRange unit="entry">66</citedRange></bibl>;
+               – magistros, vestes and epi ton deeseon <bibl>
+                  <ptr target="Seibt1976"/>, p. <citedRange unit="page">93</citedRange></bibl>;
+               – proedros and judge of the Aegean theme, around 1070;
+               – protoproedros, grand skeuophylax and protos of the procession of the
+               Blachernes, around 1080;
+               – kouropalates and grand droungarios, from 1081/1082.
+               The theme of the Boukellarioi was founded in the first half of the
+               8th century, carved out of the eastern part of the Opsikion. Until the beginning of the
+               10th century, its territory was amputated twice to create the
+               themes of the Optimates and the Boukellarioi. It ceased to exist after the
+               fatal battle of Mantzikert in 1071 and the settlement of the Seljuk Turks
+               in the region.</p>
+            <p xml:lang="fr">La pièce parallèle, au droit bien conservé,permet
+               de compléter la partie perdue de la légende circulaire.</p>
+            <p xml:lang="fr">L’iconographie des deux faces du plomb est la même que celle des
+               autres sceaux de Nicolas Sklèros. La combinaison des sources, dont
+               principalement les sceaux, a permis à W. Seibt de compléter la carrière
+               administrative accomplie par ce Sklèros et d’en situer les différentes
+               étapes entre la fin des années 1050 et 1084<bibl>
+                  <ptr target="Seibt1976"/>, p. <citedRange unit="page">92-97</citedRange></bibl> :
+               – vestès et juge des Bucellaires, début des années 1060, selon notre
+               exemplaire et son parallèle ;
+               – magistre et épi tôn déèséôn, vers le milieu des années 1060<bibl>
+                  <ptr target="Leontiades2006"/>, n° <citedRange unit="entry">66</citedRange></bibl> ;
+               – magistre, vestès et épi tôn déèséôn<bibl>
+                  <ptr target="Seibt1976"/>, p. <citedRange unit="page">93</citedRange></bibl> ;
+               – proèdre et juge du thème de la mer Égée, vers 1070 ;
+               – protoproèdre, grand skeuophylax et prôtos de la procession des
+               Blachernes, vers 1080 ;
+               – curopalate et grand drongaire, dès 1081/1082.
+               Le thème des Bucellaires fut fondé dès la première moitié du
+               viiie siècle, taillé dans la partie orientale de l’Opsikion. Jusqu’au début
+               du xe siècle, son territoire fut amputé par deux fois pour créer les
+               thèmes des Optimates et des Bucellaires. Il a cessé d’exister après la
+               bataille fatale de Mantzikert, en 1071, et l’installation des Turcs
+               Seldjoukides dans la région.</p>
+            
+         </div>
+         <div type="bibliography" subtype="edition">
+            <p><bibl>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">118</citedRange></bibl>
+               <bibl/>
+            </p>
+         </div>
+         <div type="bibliography" subtype="parallels">
+            <p>Zacos (BnF) 550:
+               <bibl>
+                  <ptr target="Seibt1976"/>, n° <citedRange unit="entry">22</citedRange></bibl>;
+         
+               <bibl>
+                  <ptr target="Cheynet2008h"/>, p. <citedRange unit="page">6, note 6</citedRange></bibl>;
+               </p>
+         </div>
+         <div type="bibliography" subtype="discussion">
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

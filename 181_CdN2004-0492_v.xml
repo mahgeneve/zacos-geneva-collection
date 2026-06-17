@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en">George Manganes, protonobelissimos</title>
+            <title xml:lang="fr">Georges Manganès, protonobélissime</title>
+            <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
+            <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+            <funder>
+               <orgName corresp="https://www.mahmah.ch/">MAH-Musée d'art et d'histoire - Genève,
+                  Cabinet de numismatique</orgName>, Suisse</funder>
+            <principal ref="#MCP"/>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <seg xml:lang="fr">Amélioration digitale</seg>
+               <seg xml:lang="en">Digital enhancement</seg>
+            </edition>
+            <editor role="digital-editor" xml:id="PE" when="2025-04-22">Pia Evening</editor>
+            <editor role="digital-editor" ref="#MCP" when="2026-03-30">Maria
+               Campagnolo-Pothitou</editor>
+         </editionStmt>
+         <publicationStmt>
+            <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
+            <idno type="filename">CdN 2004-0492</idno>
+            <idno type="SigiDocID">s-SUWE0U</idno>
+            <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+            <idno type="sequence"/>
+            <!--  to be compiled automatically; leave as is  -->
+            <date when="2024-08-06"/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                  >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                  4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listPerson type="issuer">
+               <person gender="M" role="civil aristocracy">
+                  <persName xml:lang="grc">
+                     <forename>Γεώργιος</forename>/> <surname>Μαγγάνης</surname>/> </persName>
+                  <persName xml:lang="fr">
+                     <forename>Georges</forename>/> <surname>Manganès</surname>/> </persName>
+                  <persName xml:lang="en">
+                     <forename>George</forename>/> <surname>Manganes</surname>/> </persName>
+                  <idno type="PBW" ana=""/>
+                  <idno type="PBE"/>
+                  <idno type="PLP"/>
+                  <idno type="PLRE"/>
+                  <idno type="PcBE"/>
+                  <idno type="PmbZ"/>
+               </person>
+            </listPerson>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <seg xml:lang="en">Switzerland</seg>
+                     <seg xml:lang="fr">Suisse</seg>
+                  </country>
+                  <settlement>
+                     <seg xml:lang="en">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">City of
+                           Geneva</placeName>
+                     </seg>
+                     <seg xml:lang="fr">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">Ville de
+                           Genève</placeName>
+                     </seg>
+                  </settlement>
+                  <institution>MAH-Musée d'art et d'histoire</institution>
+                  <repository>Cabinet de numismatique</repository>
+                  <collection type="public">
+                     <rs type="collection-name" xml:lang="en">Byzantine seals collection</rs>
+                     <rs type="collection-name" xml:lang="fr">Collection de sceaux byzantins</rs>
+                  </collection>
+                  <idno type="inv-nr-current">CdN 2004-0492</idno>
+                  <altIdentifier>
+                     <repository/>
+                     <idno type="inv-nr-former"/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <!--https://github.com/SigiDoc/Guidelines/wiki/5.-Controlled-vocabularies#seals-category-->
+                  <summary n="whole">
+                     <seg xml:lang="fr">Dignitaires</seg>
+                     <seg xml:lang="en">Dignitaries</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>
+                              <term>
+                                 <seg xml:lang="fr">Sceau</seg>
+                                 <seg xml:lang="en">Seal</seg>
+                              </term>
+                              <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                              <interp type="workType" xml:lang="en">Original impression</interp>
+                           </objectType>
+                           <material>
+                              <seg xml:lang="fr">Plomb</seg>
+                              <seg xml:lang="en">Lead</seg>
+                           </material>
+                           <dimensions type="support" unit="mm">
+                              <dim type="diameter">32,54/30,40</dim>
+                              <!-- mesure du champ? -->
+                           </dimensions>
+                           <measure type="weight" unit="g">23,446</measure>
+                           <measure type="axis" unit="clock"/>
+                           <measure type="overstrikeOrient" unit="clock"/>
+                           <measure type="channelOrient" unit="clock">1-7</measure>
+                           <measure type="countermark" unit="clock"/>
+                        </support>
+                        <condition
+                           rend="well-struck well-preserved corroded obliterated chipped worn-edge">
+                           <p xml:lang="en">The bulla is well struck and well preserved, although
+                              slightly corroded and chipped at the upper openning of the channel and
+                              also partially obliterated on the reverse</p>
+                           <p xml:lang="fr">La bulle est bien frappée et bien conservée, bien que
+                              légèrement corrodée et cassée à l'orifice supérieur du canal,
+                              également légèrement écrasée en partie sur le revers</p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout n="whole">
+                           <rs type="execution">
+                              <seg xml:lang="fr">Frappé</seg>
+                              <seg xml:lang="en">Struck</seg>
+                           </rs>
+                           <rs type="shape">
+                              <seg xml:lang="fr">Ronde</seg>
+                              <seg xml:lang="en">Round</seg>
+                           </rs>
+                           <rs type="matrix" subtype="not-surviving">
+                              <idno type="SigiDoc">m-u6mOQd</idno>
+                              <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+                              <idno type="PBW"/>
+                              <!-- to be used if the seal has a parallel in the PBW with a boulloterion registered there -->
+                           </rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <seg xml:lang="fr">
+                           <placeName/>
+                        </seg>
+                        <seg xml:lang="en">
+                           <placeName/>
+                        </seg>
+                     </origPlace><!--range okay?-->
+                     <origDate type="analysis" notBefore="1166" notAfter="1196"
+                        evidence="prosopography titulature" cert="high" resp="#MCP #JCC">
+                        <seg xml:lang="en">After 1166</seg>
+                        <seg xml:lang="fr">Après 1166</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="transferred" subtype="donated" when="2004-11-24">
+                     <!-- pas sûr de subtype et when -->
+                     <p xml:lang="en">George Zacos collection</p>
+                     <p xml:lang="fr">Collection Georges Zacos</p>
+                  </provenance>
+                  <acquisition>
+                     <p xml:lang="en">Donation of the Migore Foundation, Janet Zakos legacy, <date
+                           when="2004-11-24">24th November 2004</date>
+                     </p>
+                     <p xml:lang="fr">Don de la Fondation Migore, legs Janet Zakos, <date
+                           when="2004-11-24">24 Novembre 2004</date>
+                     </p>
+                  </acquisition>
+               </history>
+               <msPart n="r">
+                  <msIdentifier/>
+                  <msContents>
+                     <!-- ajouté ceci -->
+                     <summary n="r">
+                        <seg xml:lang="en">Obverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="r">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="fr">Légende métrique linéaire sur 4 lignes</p>
+                              <p xml:lang="en">Linear metrical legend of 4 lines</p>
+                           </layout>
+                        </layoutDesc>
+
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="r">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="r" xml:lang="fr" ana="text"/>
+                              <figDesc n="r" xml:lang="en" ana="text"/>
+                              <figDesc n="decoR" xml:lang="fr">Cercle de grènetis</figDesc>
+                              <figDesc n="decoR" xml:lang="en">Border of dots</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+               <msPart n="v">
+                  <msIdentifier/>
+                  <msContents>
+                     <summary n="v"><!-- ajouté ceci -->
+                        <seg xml:lang="en">Reverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="v">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="fr">Légende métrique linéaire sur 4 lignes</p>
+                              <p xml:lang="en">Linear metrical legend of 4 lines</p>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="v">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="decoV" xml:lang="fr">Cercle de grènetis</figDesc>
+                              <figDesc n="decoV" xml:lang="en">Border of dots</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2025-04-22" who="#PE">Creation of the XML record.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp>
+         <surface n="r">
+            <desc>Obverse</desc>
+            <graphic type="photo" url="CdN2004-0492_1.jpg">
+               <desc xml:lang="en">CdN 2004-0492, obverse</desc>
+               <desc xml:lang="fr">CdN 2004-0492, avers</desc>
+            </graphic>
+         </surface>
+         <surface n="v">
+            <desc>Reverse</desc>
+            <graphic type="photo" url="CdN2004-0492_2.jpg">
+               <desc xml:lang="en">CdN 2004-0492, reverse</desc>
+               <desc xml:lang="fr">CdN 2004-0492, revers</desc>
+            </graphic>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" subtype="editorial" xml:space="preserve"> 
+            <div type="textpart" subtype="face" rend="linear" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <lg type="metrical" met="dodecasyllable">
+                 <l n="1">
+                    <lb n="1"/>Γραφὰς 
+                    <lb n="2"/>σφραγίζω 
+                    <lb n="3"/>Μαγγάνη Γε
+                    <lb n="4" break="no"/>ωργίου 
+                 </l>
+              </lg>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <lg type="metrical" met="dodecasyllable">
+                         <l n="2">
+                            <lb n="5"/>τιμὴν λα
+                            <lb n="6" break="no"/>χόντος <rs type="dignity" ref="#d0058">πρω
+                            <lb n="7" break="no"/>τονωβελλι
+                            <lb n="8" break="no"/>σίμων</rs>
+                         </l>
+                      </lg>
+                  </div>
+              </div>
+         <div type="edition" subtype="diplomatic" xml:space="preserve"> 
+                  <div type="textpart" subtype="face" rend="linear" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <lb n="1"/>γ̣ρφσ                  
+                 <lb n="2"/>σφργιζ̣ 
+                 <lb n="3"/>μγγγε
+                 <lb n="4"/>ργιου
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab>
+                         <lb n="5"/>τιμλ                  
+                         <lb n="6"/>χ̣οντοσ
+                         <lb n="7"/>τ̣ονrελλι
+                         <lb n="8"/>σιμν
+                         </ab>
+                  </div>
+              </div>
+         <div type="translation">
+            <p>Γραφὰς σφραγίζω Μαγγάνη Γεωργίου || τιμὴν λαχόντος πρωτονωβελλισίμων.</p>
+            <p xml:lang="fr">Je scelle les écrits de Georges Manganès, honoré de la dignité de
+               protonobélissime.</p>
+            <p xml:lang="en">I seal George Manganes' writings, who has been honored with the dignity
+               of protonobelissimos</p>
+         </div>
+         <div type="commentary" subtype="text">
+            <!-- renvois internes à refaire -->
+            <p xml:lang="en">Our signatory is most likely a descendant of the hypographeus of Alexis
+               I, presented in <bibl>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">216</citedRange></bibl>.
+               He succeeded Theodore Pantechnes as koiaistor of Constantinople, serving from at
+               least 1166 to 1170. It was in this capacity that he is listed among the participants
+               in the synods of 1166 and 1170, bearing the title of nobelissimos, by which he signed
+               the other seal he left behind : Τιμὴν, γένος καὶ κλῆσιν ἡ σφραγὶς φέρει νωβελλισίμου
+               Μαγγάνη Γεωργίου, of which we know three exemplars <bibl>
+                  <ptr target="Seyrig"/>, p. <citedRange unit="page">206</citedRange></bibl>; <bibl>
+                  <ptr target="DOsealsOnline"/>, n° <citedRange unit="entry">BZS
+                     1958.106.1916</citedRange></bibl>. Sigillographic material reveal several
+               members of the Manganès family who were active in the 11th and 12th centuries, as
+               documented by W. Seibt and I. Jordanov: Christophe; Michel, a proedrus, in the late
+               11th century ; Constantin, whose seal, bearing no mention of title or office, is
+               dated to the early 12th century; Théodore, identified by a private seal dated
+               1150–1180; and the sebaste Jean <bibl>
+                  <ptr target="Seibt1997"/>, p. <citedRange unit="page">41</citedRange></bibl>; <bibl>
+                  <ptr target="Jordanovcorpus2"/>, p. <citedRange unit="page"
+                  >263-264</citedRange></bibl>; <bibl>
+                  <ptr target="Wassiliou-Seibt2011"/>, n° <citedRange unit="entry"
+                  >782</citedRange></bibl>; <bibl><ptr target="Seibt1997"/>, n° <citedRange
+                     unit="entry">3.3.5</citedRange></bibl>; <bibl><ptr target="DOSeals5"/>, n°
+                     <citedRange unit="entry">109.1</citedRange></bibl>. The origin of the surname
+               may indicate that the family lived in the Manganes district of Constantinople,
+               located between the imperial palace and the Bosphorus <bibl>
+                  <ptr target="Janin1950"/>, p. <citedRange unit="page">295 et
+                  s.</citedRange></bibl>.But according to Anna Comnene, it could be linked with the
+               verb μαγγανεύω, one of the meanings of which is to use means to outwit.</p>
+            <p xml:lang="en"/>
+            <p xml:lang="fr">Notre signataire est très probablement un descendant de l’hypographeus
+               d’Alexis Ier, présenté dans <bibl>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">216</citedRange></bibl>.
+               Il succéda à Théodore Pantechnès au poste de questeur de Constantinople, entre 1166
+               et 1170 au moins. C’est en cette qualité qu’il est cité parmi les participants aux
+               synodes de 1166 et 1170, avec la dignité de nobélissime, titre par lequel il signe
+               l’autre sceau qu’il a laissé, Τιμὴν, γένος καὶ κλῆσιν ἡ σφραγὶς φέρει νωβελλισίμου
+               Μαγγάνη Γεωργίου, et dont nous connaissons trois exemplaires <bibl>
+                  <ptr target="Seyrig"/>, p. <citedRange unit="page">206</citedRange></bibl>; <bibl>
+                  <ptr target="DOsealsOnline"/>, n° <citedRange unit="entry">BZS
+                     1958.106.1916</citedRange></bibl>. La sigillographie nous fait connaître
+               plusieurs membres de la famille Manganès, actifs aux XIe et XIIe siècles, répertoriés
+               par W. Seibt et I. Jordanov : Christophe ; le proèdre Michel, à la fin du XIe siècle
+               ; Constantin, dont le sceau sans mention de titre ou fonction est daté du début du
+               XIIe siècle ; Théodore, signalé par un sceau privé daté de 1150-1180 ; le sébaste
+               Jean <bibl>
+                  <ptr target="Seibt1997"/>, p. <citedRange unit="page">141</citedRange></bibl>; <bibl>
+                  <ptr target="Jordanovcorpus2"/>, p. <citedRange unit="page"
+                  >263-264</citedRange></bibl>; <bibl>
+                  <ptr target="Wassiliou-Seibt2011"/>, n° <citedRange unit="entry"
+                  >782</citedRange></bibl>; <bibl><ptr target="Seibt1997"/>, n° <citedRange
+                     unit="entry">3.3.5</citedRange></bibl>; <bibl><ptr target="DOSeals5"/>, n°
+                     <citedRange unit="entry">109.1</citedRange></bibl>. L’origine du patronyme peut
+               indiquer une résidence de la famille dans le quartier des Manganes, à Constantinople,
+               situé entre le palais impérial et le Bosphore <bibl>
+                  <ptr target="Janin1950"/>, p. <citedRange unit="page">295 et
+                  s.</citedRange></bibl>. Mais, d’après un commentaire d’Anne Comnène, il peut aussi
+               venir du verbe μαγγανεύω, dont une des significations est celle d’employer des moyens
+               pour ruser.</p>
+            <p xml:lang="fr"/>
+         </div>
+         <div type="bibliography" subtype="edition">
+            <p><bibl>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry"
+                     >181</citedRange></bibl>
+               <bibl/>
+            </p>
+         </div>
+         <div type="bibliography" subtype="parallels">
+            <p>BZS 1958.106.5127, inédit</p>
+            <p>Zacos (BnF) 968 (demi-plomb), inédit</p>
+         </div>
+         <div type="bibliography" subtype="discussion">
+            <p><bibl>
+                  <ptr target="Wassiliou-Seibt2011"/>, n° <citedRange unit="entry"
+                     >436</citedRange></bibl></p>
+            <p><bibl>
+                  <ptr target="Seyrig"/>, p. <citedRange unit="page"
+                     >206</citedRange></bibl></p>
+            <p><bibl>
+               <ptr target="Seibt1997"/>, p. <citedRange unit="page"
+                  >141</citedRange></bibl></p>
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

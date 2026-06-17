@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en">Michael Maurikas, proedros and doux</title>
+            <title xml:lang="fr">Michel Maurix, proèdre et duc</title>
+            <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
+            <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+            <funder>
+               <orgName corresp="https://www.mahmah.ch/">MAH-Musée d'art et d'histoire - Genève,
+                  Cabinet de numismatique</orgName>, Suisse </funder>
+            <principal ref="#MCP"/>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <seg xml:lang="fr">Amélioration digitale</seg>
+               <seg xml:lang="en">Digital enhancement</seg>
+            </edition>
+            <editor role="digital-editor" xml:id="PE" when="2025-04-02">Pia Evening</editor>
+         </editionStmt>
+         <publicationStmt>
+            <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
+            <idno type="filename">CdN 2004-0284</idno>
+            <idno type="SigiDocID">s-fPvMhv</idno>
+            <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+            <idno type="sequence"/>
+            <!--  to be compiled automatically; leave as is  -->
+            <date when="2024-08-06"/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                  >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                  4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listPerson type="issuer">
+               <person gender="M" role="civil aristocracy">
+                  <persName xml:lang="grc">
+                     <forename>Μιχαήλ</forename>/> <surname>Μαύριξ</surname>/> </persName>
+                  <persName xml:lang="fr">
+                     <forename>Michel</forename>/> <surname>Maurix</surname>/> </persName>
+                  <persName xml:lang="en">
+                     <forename>Michael</forename>/> <surname>Maurikas</surname>/> </persName>
+                  <idno type="PBW" ana="http://pbw2016.kdl.kcl.ac.uk/boulloterion/3782/">Michael
+                     10108</idno>
+                  <idno type="PBE"/>
+                  <idno type="PLP"/>
+                  <idno type="PLRE"/>
+                  <idno type="PcBE"/>
+                  <idno type="PmbZ"/>
+               </person>
+            </listPerson>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <seg xml:lang="en">Switzerland</seg>
+                     <seg xml:lang="fr">Suisse</seg>
+                  </country>
+                  <settlement>
+                     <seg xml:lang="en">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">City of
+                           Geneva</placeName>
+                     </seg>
+                     <seg xml:lang="fr">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">Ville de
+                           Genève</placeName>
+                     </seg>
+                  </settlement>
+                  <institution>MAH-Musée d'art et d'histoire</institution>
+                  <repository>Cabinet de numismatique</repository>
+                  <collection type="public">
+                     <rs type="collection-name" xml:lang="en">Byzantine seals collection</rs>
+                     <rs type="collection-name" xml:lang="fr">Collection de sceaux byzantins</rs>
+                  </collection>
+                  <idno type="inv-nr-current">CdN 2004-0284</idno>
+                  <altIdentifier>
+                     <repository/>
+                     <idno type="inv-nr-former"/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <!--https://github.com/SigiDoc/Guidelines/wiki/5.-Controlled-vocabularies#seals-category-->
+                  <summary n="whole">
+                     <seg xml:lang="fr">Administration centrale</seg>
+                     <seg xml:lang="en">Central administration</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>
+                              <term>
+                                 <seg xml:lang="fr">Sceau</seg>
+                                 <seg xml:lang="en">Seal</seg>
+                              </term>
+                              <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                              <interp type="workType" xml:lang="en">Original impression</interp>
+                           </objectType>
+                           <material>
+                              <seg xml:lang="fr">Plomb</seg>
+                              <seg xml:lang="en">Lead</seg>
+                           </material>
+                           <dimensions type="support" unit="mm">
+                              <dim type="diameter">28,07/27,10</dim>
+                              <!-- mesure du champ? -->
+                           </dimensions>
+                           <measure type="weight" unit="g">20,136</measure>
+                           <measure type="axis" unit="clock"/>
+                           <measure type="overstrikeOrient" unit="clock"/>
+                           <measure type="channelOrient" unit="clock">12-7</measure>
+                           <measure type="countermark" unit="clock"/>
+                        </support>
+                        <condition rend="well-struck well-preserved chipped not-centered worn-edge">
+                           <p xml:lang="en">The bulla is well-struck but not- centerd,
+                              well-preserved, slightly chipped at the opennings of the channel and
+                              worn around the edge</p>
+                           <p xml:lang="fr">La bulle est bien frappée mais légèrement décentrée vers
+                              le haut,et bien conservée; légèrement échancrée aux orifices du canal,
+                              mais endommagée sur la tranche</p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout n="whole">
+                           <rs type="execution">
+                              <seg xml:lang="fr">Frappé</seg>
+                              <seg xml:lang="en">Struck</seg>
+                           </rs>
+                           <rs type="shape">
+                              <seg xml:lang="fr">Ronde</seg>
+                              <seg xml:lang="en">Round</seg>
+                           </rs>
+                           <rs type="matrix" subtype="not-surviving">
+                              <idno type="SigiDoc">m-tv2yjK</idno>
+                              <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+                              <idno type="PBW"/>
+                              <!-- to be used if the seal has a parallel in the PBW with a boulloterion registered there -->
+                           </rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <seg xml:lang="fr">
+                           <placeName/>
+                        </seg>
+                        <seg xml:lang="en">
+                           <placeName/>
+                        </seg>
+                     </origPlace>
+                     <origDate type="analysis" notBefore="1070" notAfter="1080"
+                        evidence="onomastics prosopography titulature historical-context"
+                        cert="high" resp="#MCP #JCC">
+                        <seg xml:lang="en">1070-1080</seg>
+                        <seg xml:lang="fr">1070-1080</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="transferred" subtype="donated" when="2004-11-24">
+                     <!-- pas sûr de subtype et when -->
+                     <p xml:lang="en">George Zacos collection</p>
+                     <p xml:lang="fr">Collection Georges Zacos</p>
+                  </provenance>
+                  <acquisition>
+                     <p xml:lang="en">Donation of the Migore Foundation, Janet Zakos legacy, <date
+                           when="2004-11-24">24th November 2004</date>
+                     </p>
+                     <p xml:lang="fr">Don de la Fondation Migore, legs Janet Zakos, <date
+                           when="2004-11-24">24 Novembre 2004</date>
+                     </p>
+                  </acquisition>
+               </history>
+               <msPart n="r">
+                  <msIdentifier/>
+                  <msContents>
+                     <!-- ajouté ceci -->
+                     <summary n="r">
+                        <seg xml:lang="en">Obverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="r">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="fr">Iconographie avec de part et d'autre épigraphe en
+                                 colonne </p>
+                              <p xml:lang="en">Iconography with on either side epigraph on
+                                 columns</p>
+                           </layout>
+                        </layoutDesc>
+
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="r">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="r" xml:lang="fr" ana="person male saint George">Buste de
+                                 saint Georges, de face, tenant une lance et un bouclier orné de
+                                 perles.</figDesc>
+                              <figDesc n="r" xml:lang="en" ana="person male saint George">Bust of
+                                 saint Georges, front view, holding a spear and a shield adorned
+                                 with pearls</figDesc>
+                              <figDesc n="decoR" xml:lang="fr">Cercle de grènetis</figDesc>
+                              <figDesc n="decoR" xml:lang="en">Circle of dots</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+               <msPart n="v">
+                  <msIdentifier/>
+                  <msContents>
+                     <summary n="v"><!-- ajouté ceci -->
+                        <seg xml:lang="en">Reverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="v">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="en">Linear legend of 5 lines</p>
+                              <p xml:lang="fr">Légende linéaire sur 5 lignes</p>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="v">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="decoV" xml:lang="fr">Cercle de grènetis; la première ligne
+                                 est précédée d'une croisette</figDesc>
+                              <figDesc n="decoV" xml:lang="en">Circle of dots; the first line is
+                                 preceded by a crosslet</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2025-04-02" who="#PE">Creation of the XML record.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp>
+         <surface n="r">
+            <desc>Obverse</desc>
+            <graphic type="photo" url="CdN2004-0284_1.jpg">
+               <desc xml:lang="en">CdN 2004-0284, obverse</desc>
+               <desc xml:lang="fr">CdN 2004-0284, avers</desc>
+            </graphic>
+         </surface>
+         <surface n="v">
+            <desc>Reverse</desc>
+            <graphic type="photo" url="CdN2004-0284_2.jpg">
+               <desc xml:lang="en">CdN 2004-0284, reverse</desc>
+               <desc xml:lang="fr">CdN 2004-0284, revers</desc>
+            </graphic>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" subtype="editorial" xml:space="preserve"> 
+            <div type="textpart" subtype="label" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="a"/>Ὁ <expan><ex>ἅγιος</ex></expan> Γεώρ
+                 <cb n="b" break="no"/><supplied reason="lost">γ</supplied>ιος
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab ana="dat">
+                         <lb n="1"/><rs type="invocation" ref="#inv003"><expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan> βοή
+                         <lb n="2" break="no"/>θει</rs> Μιχαὴλ 
+                         <lb n="3"/><rs type="dignity" ref="#d0051">προέδρῳ</rs> <expan><abbr><am>S</am></abbr><ex>καὶ</ex></expan> 
+                         <lb n="4"/><rs type="office" subtype="military" ref="#of0245">δουκὶ</rs> τῷ 
+                         <lb n="5"/><expan><abbr>Μαύρικ</abbr><ex>ι</ex></expan>
+                      </ab>
+                  </div>
+              </div>
+         <div type="edition" subtype="diplomatic" xml:space="preserve"> 
+                  <div type="textpart" subtype="label" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="a"/>|γε||ρ 
+                 <cb n="b"/>.ιο̣|σ
+              </ab>
+            </div>
+            <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab>
+                         <lb n="1"/>̣κε̣Ṛοη̣                     
+                         <lb n="2"/>θειμιχαηλ 
+                         <lb n="3"/>προεδρ
+                         <lb n="4"/>δουκιτ
+                         <lb n="5"/>μαυρικ/
+                         </ab>
+                  </div>
+              </div>
+         <div type="translation">
+            <p>Ὁ ἅγιος Γεώργιος. || + Κύριε βοήθει Μιχαὴλ προέδρῳ καὶ δουκὶ τῷ Μαύρικι.</p>
+            <p xml:lang="en">Saint George. || + Lord help Michael Maurikas, proedros and doux</p>
+            <p xml:lang="fr">Saint George. || + Seigneur, accorde ton secours à Michel Maurix,
+               proèdre et duc</p>
+         </div>
+         <div type="commentary" subtype="text">
+            <!-- renvois internes à refaire -->
+            <p xml:lang="en">The patronymic is attested in the forms Μαύριξ and Μαύρικας. The
+               signatory is undoubtedly the Maurix mentioned without a first name in the narrative
+               sources. Originally from Heraclea of Pontos, Maurix served for a long time in the
+               Byzantine fleet, repelling Norman forces several times, between 1066 and 1082, in
+               particular when he victoriously fought Robert Guiscard in the Straits of Otranto, in
+               1070. According to the historian Bryennios, it was this same figure who received
+               Alexis Comnenus, in 1076, at his wealthy home in Heraclea of Pontus (<bibl>
+                  <ptr target="BryenniosHistory1975"/>, p. <citedRange unit="page"
+                  >197</citedRange></bibl>). Michel Maurix's military career, which took place in
+               the third quarter of the eleventh century, is well known. It has been reconstructed
+               by W. Seibt, thanks to the many seals he left, all illustrated with the bust of Saint
+               George (<bibl>
+                  <ptr target="BBÖ1"/>, p. <citedRange unit="page">168-171</citedRange></bibl>). He
+               was successively: patrice hypatos, 1057-1062; vestes and strategos of Chios, before
+               1065; vestarch and katepano; vestarch and katepano of Dyrrachion, 1065- 1068;
+               magistros and katepano; magistros, vestes and katepano, between 1068 and 1070;
+               proedros and doux of the Boukellarioi, after 1072. According to W. Seibt, Michael
+               Maurix was kouropalates and doux of Antioch, between 1075 and 1084, but the reading
+               of these seals is disputed (<bibl>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">114</citedRange></bibl>).
+               W. Seibt attributes two other seals to the same Michel Maurix, although they are
+               decorated with different iconographic motifs. He places them respectively at the
+               beginning and end of his career: the first, dated by its publisher to the mid-11th
+               century, with the bust of the homonymous archangel, gives Michael ostiarios(<bibl>
+                  <ptr target="BBÖ1"/>, no. <citedRange unit="entry">58</citedRange></bibl>); the
+               other bulla, private, is illustrated to the right of a cross raised on steps and
+               bearing the legend: Σφράγισμα Μιχαὴλ εὐτελοῦς Μαύρ(ικος)<bibl>
+                  <ptr target="BBÖ1"/>, p. <citedRange unit="page">170</citedRange></bibl>). If the
+               identification is correct, these two seals provide new insights into our signatory.
+               As an ostiarios, Michael Maurix was a eunuch in the service of the palace during
+               imperial ceremonies, which in principle did not prevent him from pursuing a military
+               career. On the other hand, the abandonment of a patron saint during the course of
+               a career is not unknown. In Maurix's case, it is difficult to identify the reasons
+               for this, except that the radical change in his career direction suggested the
+               adoption of a different military saint from the previous one. As for the private seal,
+               the adoption of the term εὐτελής, very common among ecclesiastics, could suggest that
+               at the end of his career, Michael Maurix would have taken the monastic habit, but this
+               reconstruction remains highly hypothetical.</p>
+            <p xml:lang="en"/>
+            <p xml:lang="fr">Le patronyme est attesté sous les formes Μαύριξ et Μαύρικας. Le
+               sigillant est sans doute le Maurix mentionné sans prénom dans les sources narratives.
+               Originaire d’Héraclée du Pont, Maurix a longuement servi dans la flotte byzantine,
+               repoussant plusieurs fois les forces normandes, entre 1066 et 1082, notamment
+               lorsqu’il combattit victorieusement Robert Guiscard dans le détroit d’Otrante, en
+               1070. D’après l’historien Bryennios, c’est ce même personnage qui reçut Alexis
+               Comnène, en 1076, dans sa riche demeure, à Héraclée du Pont (<bibl>
+                  <ptr target="BryenniosHistoire1975"/>, p. <citedRange unit="page"
+                  >197</citedRange></bibl>). La carrière militaire de Michel Maurix, accomplie dans
+               le troisième quart du XIe siècle, est bien connue. Elle a été reconstituée par W.
+               Seibt, grâce aux nombreux sceaux qu’il a laissés, tous illustrés au buste de saint
+               Georges (<bibl>
+                  <ptr target="BBÖ1"/>, p. <citedRange unit="page">168-171</citedRange></bibl>). Il
+               fut successivement : patrice hypatos, 1057-1062 ; vestès et stratège de Chios, avant
+               1065 ; vestarque et catépan ; vestarque et catépan de Dyrrachion, 1065- 1068 ;
+               magistre et catépan ; magistre, vestès et catépan, entre 1068 et 1070; proèdre et duc
+               des Bucellaires, après 1072. Selon W. Seibt, Michel Maurix aurait été curopalate et
+               duc d’Antioche, entre 1075 et 1084, mais cette lecture des plombs est contestée (<bibl>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">114</citedRange></bibl>).
+               W. Seibt attribue au même Michel Maurix deux autres sceaux, bien qu’ils soient ornés
+               de motifs iconographiques différents. Il les place respectivement au début et à la
+               fin de sa carrière : le premier, daté par son éditeur du milieu du XIe siècle, au
+               buste de l’archange homonyme, donne Michel ostiaire(<bibl>
+                  <ptr target="BBÖ1"/>, n° <citedRange unit="entry">58</citedRange></bibl>); l’autre
+               bulle, privée, est illustrée au droit d’une croix élevée sur degrés et porte la
+               légende : Σφράγισμα Μιχαὴλ εὐτελοῦς Μαύρ(ικος)<bibl>
+                  <ptr target="BBÖ1"/>, p. <citedRange unit="page">170</citedRange></bibl>). Si
+               l’identification est correcte, ces deux sceaux apportent de nouveaux enseignements
+               sur notre signataire. En tant qu’ostiaire, Michel Maurix était un eunuque au service
+               du palais lors des cérémonies impériales, ce qui en principe ne l’empêchait pas
+               d’accomplir une carrière militaire. D’autre part, l’abandon d’un saint patron en
+               cours de carrière n’est pas inconnu. Dans le cas de Maurix, il est difficile d’en
+               déceler les raisons, si ce n’est que le changement radical de son orientation de
+               carrière suggérait l’adoption d’un saint militaire différent du précédent. Quant au
+               sceau privé, l’adoption du terme εὐτελής, très courant chez les ecclésiastiques,
+               pourrait laisser entendre qu’à la fin de sa carrière, Michel Maurix aurait pris
+               l’habit monastique, mais cette reconstitution reste très hypothétique.</p>
+            <p xml:lang="fr"/>
+         </div>
+         <div type="bibliography" subtype="edition">
+            <p><bibl>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">93</citedRange></bibl>
+               <bibl/>
+            </p>
+         </div>
+         <div type="bibliography" subtype="parallels">
+            <p> Fogg 1168 et 2185 ; Zacos (BnF) 368: </p>
+         </div>
+         <div type="bibliography" subtype="discussion">
+            <p><bibl>
+               <ptr target="BBÖ1"/>, p. <citedRange unit="page">170.17</citedRange></bibl>;
+            <bibl>
+               <ptr target="BBÖ2"/>, p. <citedRange unit="page">267.191</citedRange></bibl></p>
+         </div>
+      </body>
+   </text>
+</TEI>

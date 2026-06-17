@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en">Nicholas Tzantzes, vestes, imperial notarios of the sakkelarios and
+               judge of the Charsianon</title>
+            <title xml:lang="fr">Nicolas Tzantzès, vestès, notaire impérial du sacellaire et juge du
+               Charsianon</title>
+            <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
+            <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+            <funder>
+               <orgName corresp="https://www.mahmah.ch/">MAH-Musée d'art et d'histoire - Genève,
+                  Cabinet de numismatique</orgName>, Suisse</funder>
+            <principal ref="#MCP"/>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <seg xml:lang="fr">Amélioration digitale</seg>
+               <seg xml:lang="en">Digital enhancement</seg>
+            </edition>
+            <editor role="digital-editor" xml:id="PE" when="2025-04-14">Pia Evening</editor>
+            <editor role="digital-editor" ref="#MCP" when="2026-01-31">Maria
+               Campagnolo-Pothitou</editor>
+         </editionStmt>
+         <publicationStmt>
+            <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
+            <idno type="filename">CdN 2004-0171</idno>
+            <idno type="SigiDocID">s-SHQBSk</idno>
+            <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+            <idno type="sequence"/>
+            <!--  to be compiled automatically; leave as is  -->
+            <date when="2024-08-06"/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                  >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                  4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listPerson type="issuer">
+               <person gender="M" role="civil aristocracy">
+                  <persName xml:lang="grc">
+                     <forename>Νικόλαος</forename>
+                     <surname>Τζαντζῆς</surname>
+                  </persName>
+                  <persName xml:lang="fr">
+                     <forename>Nicolas</forename>
+                     <surname>Tzantzès</surname>
+                  </persName>
+                  <persName xml:lang="en">
+                     <forename>Nicholas</forename>
+                     <surname>Tzantzes</surname>/> </persName>
+                  <idno type="PBW" ana="http://pbw2016.kdl.kcl.ac.uk/person/Nikolaos/20275/"
+                     >Nikolaos 20275</idno>
+
+                  <idno type="PBE"/>
+                  <idno type="PLP"/>
+                  <idno type="PLRE"/>
+                  <idno type="PcBE"/>
+                  <idno type="PmbZ"/>
+               </person>
+            </listPerson>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <seg xml:lang="en">Switzerland</seg>
+                     <seg xml:lang="fr">Suisse</seg>
+                  </country>
+                  <settlement>
+                     <seg xml:lang="en">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">City of
+                           Geneva</placeName>
+                     </seg>
+                     <seg xml:lang="fr">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">Ville de
+                           Genève</placeName>
+                     </seg>
+                  </settlement>
+                  <institution>MAH-Musée d'art et d'histoire</institution>
+                  <repository>Cabinet de numismatique</repository>
+                  <collection type="public">
+                     <rs type="collection-name" xml:lang="en">Byzantine seals collection</rs>
+                     <rs type="collection-name" xml:lang="fr">Collection de sceaux byzantins</rs>
+                  </collection>
+                  <idno type="inv-nr-current">CdN 2004-0171</idno>
+                  <altIdentifier>
+                     <repository/>
+                     <idno type="inv-nr-former"/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <!--https://github.com/SigiDoc/Guidelines/wiki/5.-Controlled-vocabularies#seals-category-->
+                  <summary n="whole">
+                     <seg xml:lang="fr">Administration provinciale</seg>
+                     <seg xml:lang="en"/>Provincial administration> </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>
+                              <term>
+                                 <seg xml:lang="fr">Sceau</seg>
+                                 <seg xml:lang="en">Seal</seg>
+                              </term>
+                              <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                              <interp type="workType" xml:lang="en">Original impression</interp>
+                           </objectType>
+                           <material>
+                              <seg xml:lang="fr">Plomb</seg>
+                              <seg xml:lang="en">Lead</seg>
+                           </material>
+                           <dimensions type="support" unit="mm">
+                              <dim type="diameter">31,20/29,02</dim>
+                              <!-- mesure du champ? -->
+                           </dimensions>
+                           <measure type="weight" unit="g">22,889</measure>
+                           <measure type="axis" unit="clock"/>
+                           <measure type="overstrikeOrient" unit="clock"/>
+                           <measure type="channelOrient" unit="clock">12-6</measure>
+                           <measure type="countermark" unit="clock"/>
+                        </support>
+                        <condition rend="well-struck well-preserved chipped worn-edge ">
+                           <p xml:lang="en">The bulla is well-struck and well-preserved, slightla
+                              chipped and worn on the edge</p>
+                           <p xml:lang="fr">La bulle est bien frappée et bien conservée, légèrement
+                              rognée sur la tranche</p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout n="whole">
+                           <rs type="execution">
+                              <seg xml:lang="fr">Frappé</seg>
+                              <seg xml:lang="en">Struck</seg>
+                           </rs>
+                           <rs type="shape">
+                              <seg xml:lang="fr">Ronde</seg>
+                              <seg xml:lang="en">Round</seg>
+                           </rs>
+                           <rs type="matrix" subtype="not-surviving">
+                              <idno type="SigiDoc">m-NmMFVq</idno>
+                              <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+                              <idno type="PBW"/>
+                              <!-- to be used if the seal has a parallel in the PBW with a boulloterion registered there -->
+                           </rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <seg xml:lang="fr">Charsianon <placeName/>
+                        </seg>
+                        <seg xml:lang="en">Charsianon <placeName/>
+                        </seg>
+                     </origPlace>
+                     <origDate type="analysis" notBefore="1067" notAfter="1100"
+                        evidence="prosopography onomastics titulature epigraphy" cert="high"
+                        resp="#MCP #JCC">
+                        <seg xml:lang="en">Last third of the 11th century</seg>
+                        <seg xml:lang="fr">Dernier tiers du XIe siècle</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="transferred" subtype="donated" when="2004-11-24">
+                     <!-- pas sûr de subtype et when -->
+                     <p xml:lang="en">George Zacos collection</p>
+                     <p xml:lang="fr">Collection Georges Zacos</p>
+                  </provenance>
+                  <acquisition>
+                     <p xml:lang="en">Donation of the Migore Foundation, Janet Zakos legacy, <date
+                           when="2004-11-24">24th November 2004</date>
+                     </p>
+                     <p xml:lang="fr">Don de la Fondation Migore, legs Janet Zakos, <date
+                           when="2004-11-24">24 Novembre 2004</date>
+                     </p>
+                  </acquisition>
+               </history>
+               <msPart n="r">
+                  <msIdentifier/>
+                  <msContents>
+                     <!-- ajouté ceci -->
+                     <summary n="r">
+                        <seg xml:lang="en">Obverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="r">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="fr">Légende linéaire sur 5 lignes</p>
+                              <p xml:lang="en">Linear legend of 5 lines</p>
+                           </layout>
+                        </layoutDesc>
+
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="r">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="decoR" xml:lang="fr">Cercle de grènetis; la légende est
+                                 précédée d’une croisette et terminée par une perle ; au sommet, un
+                                 croisillon de perles accosté de tirets, et à la base du champ, une
+                                 perle</figDesc>
+                              <figDesc n="decoR" xml:lang="en">Border of dots; a crosslet precedes
+                                 the legend, which is followed by a bead; at the summit, a
+                                 crosspiece made of pearls is placed between traits, while at the at
+                                 the bottom of the field, there is a pearl</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+               <msPart n="v">
+                  <msIdentifier/>
+                  <msContents>
+                     <summary n="v"><!-- ajouté ceci -->
+                        <seg xml:lang="en">Reverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="v">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="en">Linear legend of 5 lines</p>
+                              <p xml:lang="fr">Légende linéaire sur 5 lignes</p>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="v">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="decoV" xml:lang="fr">Cercle de grènetis; la légende est
+                                 surmontée et suivie d’un croisillon de perles cantonné de
+                                 tirets</figDesc>
+                              <figDesc n="decoV" xml:lang="en">Border of dots; the legend is
+                                 surmounted and followed by a crosspiece made of pearls and placed
+                                 between traits</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2025-04-14" who="#PE">Creation of the XML record.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp>
+         <surface n="r">
+            <desc>Obverse</desc>
+            <graphic type="photo" url="CdN2004-0171_1.jpg">
+               <desc xml:lang="en">CdN 2004-0171, obverse</desc>
+               <desc xml:lang="fr">CdN 2004-0171, avers</desc>
+            </graphic>
+         </surface>
+         <surface n="v">
+            <desc>Reverse</desc>
+            <graphic type="photo" url="CdN2004-0171_2.jpg">
+               <desc xml:lang="en">CdN 2004-0171, reverse</desc>
+               <desc xml:lang="fr">CdN 2004-0171, revers</desc>
+            </graphic>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" subtype="editorial" xml:space="preserve"> 
+            <div type="textpart" subtype="face" rend="linear" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab ana="dat">
+                 <lb n="1"/><rs type="invocation" ref="#inv004"><expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan> <expan><abbr>βο
+                 <lb n="2" break="no"/>ήθ</abbr><ex>ει</ex></expan> τῷ σῷ 
+                 <lb n="3"/>δούλῳ</rs> Ν<supplied reason="lost">ι</supplied>
+                 <lb n="4" break="no"/>κολάῳ <rs type="dignity" ref="#d0018">βέ
+                 <lb n="5" break="no"/>στῃ</rs> 
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab ana="dat">
+                         <lb n="6"/><rs type="office" subtype="civil" ref="#of0144"><expan><abbr>βα</abbr><ex>σιλικῷ</ex></expan> <expan><abbr>νοτ</abbr><ex>αρίῳ</ex></expan></rs> 
+                         <lb n="7"/>τοῦ <rs type="institution" ref="#org0024"><rs type="office" subtype="civil" ref="#of0177"><expan><abbr>σακελλ</abbr><ex>αρίου</ex></expan></rs></rs> 
+                         <lb n="8"/><expan><abbr><am>S</am></abbr><ex>καὶ</ex></expan> <rs type="office" subtype="civil" ref="#of0112"><expan><abbr>κριτ</abbr><ex>ῇ</ex></expan></rs> <placeName ref="#geo0093">Χαρ
+                         <lb n="9" break="no"/>σιανοῦ</placeName> τῷ 
+                         <lb n="10"/>Τζάντζῃ
+                      </ab>
+                  </div>
+              </div>
+         <div type="edition" subtype="diplomatic" xml:space="preserve"> 
+                  <div type="textpart" subtype="face" rend="linear" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <lb n="1"/> Kerο                         
+                 <lb n="2"/>ηθ/ τσ
+                 <lb n="3"/>δουλν.
+                 <lb n="4"/>κολαrε̣ 
+                 <lb n="5"/>στη
+                 <lb n="0"/>     
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab>
+                         <lb n="6"/>Rα⸣ νοτ⸣                             
+                         <lb n="7"/>τσακελλ⸣ /
+                         <lb n="8"/>κριτ/  χαρ
+                         <lb n="9"/>σιαντ
+                         <lb n="10"/>ταντη
+                         </ab>
+                  </div>
+              </div>
+         <div type="translation">
+            <p>+ Κύριε βοήθει τῷ σῷ δούλῳ Νικολάῳ βέστῃ || βασιλικῷ νοταρίῳ τοῦ σακελλαρίου καὶ
+               κριτῇ Χαρσιανοῦ τῷ Τζάντζῃ.</p>
+            <p xml:lang="en">+ Lord, help your servant Nicholas Tzantzes, vestes, imperial notarios
+               of the sakkelarios and judge of the Charsianon</p>
+            <p xml:lang="fr">+ Seigneur, accorde ton secours à ton serviteur Nicolas Tzantzès,
+               vestès, notaire impérial du sacellaire et juge du Charsianon</p>
+         </div>
+         <div type="commentary" subtype="text">
+            <!-- renvois internes à refaire -->
+            <p xml:lang="en">It is tempting to link our signatory to his namesake, mentioned in a
+               document from 1088 as magistros, judge, and anagrapheus of the Cyclades. The legend
+               of his usual (συνήθης) seal is described at the end of the same document, which he
+               signs as follows: Κ(ύρι)ε βοήθ(ει) τῷ σῷ δούλῳ Νικολάῳ βασιλικῷ νοταρίῳ τοῦ
+               σακελλαρίου, κριτῇ καὶ ἀναγραφεῖ τῶν Κυκλάδων νήσων τῷ Τζάνζῃ. This attestation of a
+               later position held by Nicolas Tzantzes justifies the reading βασιλικῷ, as the long
+               abbreviation mark clearly covers the two letters RA. The dignity of vestes, inferior
+               to that of magistros, suggests that our signatory is identical to the judge and
+               anagrapheus of the Cyclades. He was surely one of the last judges of the Charsianon
+               in the 1070s and will have long exercised the function of imperial notarios of the
+               sakellarios. The vestes Nicolas Tzantzès thus held two high and lucrative offices,
+               one in the province, as administrative governor of a theme, and the other in the
+               capital, as imperial notarios in the central office of the sakellarios. The latter's
+               subordinates were in fact notaries, who represented him in each sékréton<bibl>
+                  <ptr target="Oikonomides1972"/>, p. <citedRange unit="page">312,
+                  315</citedRange></bibl>. It is therefore preferable to transcribe sakellarios,
+               rather than sakellion. Several private seals, bilateral and with identical
+               inscriptions, from different boulloteria, probably belonged to the same person, since
+               they are dated between 1060 and 1070<bibl>
+                  <ptr target="BZSOnline"/>, n° <citedRange unit="entry">BZS
+                     1947.2.2090</citedRange></bibl>; <bibl>
+                  <ptr target="Athens1917"/>, n° <citedRange unit="entry">1163</citedRange></bibl>;<bibl>
+                  <ptr target="BZSOnline"/>, n° <citedRange unit="entry">BZS
+                     1958.106.3563</citedRange></bibl>;<bibl>
+                  <ptr target="Istanbul"/>, n° <citedRange unit="entry">7.119</citedRange></bibl>;<bibl>
+                  <ptr target="JordanovCorpus2"/>, p. <citedRange unit="page"
+                  >406-407</citedRange></bibl>; Fogg 182 ; IFEB 90 et 471.Christophe Tzantzes is
+               the first representative of the family known from the sources to have participated,
+               around 897, in a failed plot against Leo VI, after the defeat inflicted by Simeon at
+               Bulgarophygon<bibl>
+                  <ptr target="Empereurs2003"/>, p. <citedRange unit="page">150 et n. 48 et
+                     49</citedRange></bibl>. The most recent list of family members known from their seals is given
+               in <bibl>
+                  <ptr target="Leontiades2006"/>, p. <citedRange unit="page"
+                     >74-75</citedRange></bibl>To this we can add: – Theodore Tzantzès, protospathiaros and topotèrètès of the
+               arithmos<bibl>
+                  <ptr target="JordanovCorpus2"/>, n° <citedRange unit="entry"
+                     >711</citedRange></bibl> ; – Marie Tzantzilikè, nun (<bibl>
+                        <ptr target="CheynetTheodoridis"/>, n° <citedRange unit="entry">206
+                           bis</citedRange></bibl>.</p>
+            <p xml:lang="en"/>
+            <p xml:lang="fr">Il est tentant de rapprocher notre signataire de l’homonyme, cité dans
+               un acte de 1088 en qualité de magistre, juge et anagrapheus des Cyclades. La légende
+               de sa bulle habituelle (συνήθης)est décrite à la fin du même document, qu’il signe en
+               ces termes : Κ(ύρι)ε βοήθ(ει) τῷ σῷ δούλῳ Νικολάῳ βασιλικῷ νοταρίῳ τοῦ σακελλαρίου,
+               κριτῇ καὶ ἀναγραφεῖ τῶν Κυκλάδων νήσων τῷ Τζάνζῃ. Cette attestation d’une fonction
+               postérieure de Nicolas Tzantzès justifie la lecture βασιλικῷ car le long signe
+               d’abréviation couvre clairement les deux lettres RA. La dignité de vestès, inférieure
+               à celle de magistre, suggère que notre signataire est identique au juge et
+               anagrapheus des Cyclades. Il fut sûrement l’un des derniers juges du Charsianon dans
+               les années 1070 et aura longemps exercé la fonction de notaire impérial du
+               sacellaire. Le vestès Nicolas Tzantzès cumulait donc deux hautes charges lucratives,
+               exercées l’une en province, en tant que gouverneur administratif d’un thème, et
+               l’autre dans la capitale, en tant que notaire impérial dans le bureau central du
+               sacellaire. Les subordonnés de ce dernier étaient en effet des notaires, qui le
+               représentaient dans chaque sékréton<bibl>
+                  <ptr target="Oikonomides1972"/>, p. <citedRange unit="page">312,
+                  315</citedRange></bibl>. Il est donc préférable de transcrire sacellaire, et non
+               sakellion. Plusieurs sceaux privés, bilatéraux et de légende identique, issus de
+               boullôtèria différents, auront probablement appartenu au même personnage, puisqu’ils
+               sont datés entre 1060 et 1070 <bibl>
+                  <ptr target="BZSOnline"/>, n° <citedRange unit="entry">BZS
+                     1947.2.2090</citedRange></bibl>; <bibl>
+                  <ptr target="Athens1917"/>, n° <citedRange unit="entry">1163</citedRange></bibl>;<bibl>
+                  <ptr target="BZSOnline"/>, n° <citedRange unit="entry">BZS
+                     1958.106.3563</citedRange></bibl>;<bibl>
+                  <ptr target="Istanbul"/>, n° <citedRange unit="entry">7.119</citedRange></bibl>;<bibl>
+                  <ptr target="JordanovCorpus2"/>, p. <citedRange unit="page"
+                  >406-407</citedRange></bibl>; Fogg 182 ; IFEB 90 et 471. Christophe Tzantzès est
+               le premier représentant de la famille connu des sources pour avoir participé, vers
+               897, à un complot manqué contre Léon VI, après la défaite infligée par Syméon, à Bulgarophygon<bibl>
+                  <ptr target="Empereurs2003"/>, p. <citedRange unit="page">150 et n. 48 et
+                     49</citedRange></bibl>. La liste la plus récente des membres de la famille
+               connus par leurs sceaux est donnée dans <bibl>
+                  <ptr target="Leontiades2006"/>, p. <citedRange unit="page"
+                  >74-75</citedRange></bibl>. On peut y ajouter : – Théodore Tzantzès,
+               protospathaire et topotèrètès de l’arithmos<bibl>
+                  <ptr target="JordanovCorpus2"/>, n° <citedRange unit="entry"
+                  >711</citedRange></bibl> ; – Marie Tzantzilikè, moniale (<bibl>
+                  <ptr target="CheynetTheodoridis"/>, n° <citedRange unit="entry">206
+                     bis</citedRange></bibl>.</p>
+            <p xml:lang="fr"/>
+         </div>
+         <div type="bibliography" subtype="edition">
+            <p><bibl>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">127</citedRange></bibl>
+               <bibl/>
+            </p>
+         </div>
+         <div type="bibliography" subtype="parallels">
+            <p/>
+         </div>
+         <div type="bibliography" subtype="discussion">
+            <bibl>
+               <ptr target="JordanovCorpus2"/>, p. <citedRange unit="page">407</citedRange></bibl>
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

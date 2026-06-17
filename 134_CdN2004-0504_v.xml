@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en">George Alousianos, protonobelissimos, doux of Karin</title>
+            <title xml:lang="fr">Georges Alousianos, protonobélissime, duc de Karin</title>
+            <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
+            <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+            <funder>
+               <orgName corresp="https://www.mahmah.ch/">MAH-Musée d'art et d'histoire - Genève,
+                  Cabinet de numismatique</orgName>, Suisse</funder>
+            <principal ref="#MCP"/>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <seg xml:lang="fr">Amélioration digitale</seg>
+               <seg xml:lang="en">Digital enhancement</seg>
+            </edition>
+            <editor role="digital-editor" xml:id="PE" when="2025-04-14">Pia Evening</editor>
+            <editor role="digital-editor" ref="#MCP" when="2026-02-04">Maria
+               Campagnolo-Pothitou</editor>
+         </editionStmt>
+         <publicationStmt>
+            <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
+            <idno type="filename">CdN 2004-0504</idno>
+            <idno type="SigiDocID">s-woEB4C</idno>
+            <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+            <idno type="sequence"/>
+            <!--  to be compiled automatically; leave as is  -->
+            <date when="2024-08-06"/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                  >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                  4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listPerson type="issuer">
+               <person gender="M" role="military aristocracy">
+                  <persName xml:lang="grc">
+                     <forename>Γεώργιος</forename>
+                     <surname>Ἀλουσιανός</surname></persName>
+                  <persName xml:lang="fr">
+                     <forename>Georges</forename><surname>Alousianos</surname></persName>
+                  <persName xml:lang="en">
+                     <forename>George</forename><surname>Alousianos</surname></persName>
+                  <idno type="PBW" ana=""/>
+
+                  <idno type="PBE"/>
+                  <idno type="PLP"/>
+                  <idno type="PLRE"/>
+                  <idno type="PcBE"/>
+                  <idno type="PmbZ"/>
+               </person>
+            </listPerson>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <seg xml:lang="en">Switzerland</seg>
+                     <seg xml:lang="fr">Suisse</seg>
+                  </country>
+                  <settlement>
+                     <seg xml:lang="en">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">City of
+                           Geneva</placeName>
+                     </seg>
+                     <seg xml:lang="fr">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">Ville de
+                           Genève</placeName>
+                     </seg>
+                  </settlement>
+                  <institution>MAH-Musée d'art et d'histoire</institution>
+                  <repository>Cabinet de numismatique</repository>
+                  <collection type="public">
+                     <rs type="collection-name" xml:lang="en">Byzantine seals collection</rs>
+                     <rs type="collection-name" xml:lang="fr">Collection de sceaux byzantins</rs>
+                  </collection>
+                  <idno type="inv-nr-current">CdN 2004-0504</idno>
+                  <altIdentifier>
+                     <repository/>
+                     <idno type="inv-nr-former"/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <!--https://github.com/SigiDoc/Guidelines/wiki/5.-Controlled-vocabularies#seals-category-->
+                  <summary n="whole">
+                     <seg xml:lang="fr">Administration provinciale</seg>
+                     <seg xml:lang="en">Provincial administration</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>
+                              <term>
+                                 <seg xml:lang="fr">Sceau</seg>
+                                 <seg xml:lang="en">Seal</seg>
+                              </term>
+                              <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                              <interp type="workType" xml:lang="en">Original impression</interp>
+                           </objectType>
+                           <material>
+                              <seg xml:lang="fr">Plomb</seg>
+                              <seg xml:lang="en">Lead</seg>
+                           </material>
+                           <dimensions type="support" unit="mm">
+                              <dim type="diameter">27,30</dim>
+                              <!-- mesure du champ? -->
+                           </dimensions>
+                           <measure type="weight" unit="g">18,174</measure>
+                           <measure type="axis" unit="clock"/>
+                           <measure type="overstrikeOrient" unit="clock"/>
+                           <measure type="channelOrient" unit="clock">12-6</measure>
+                           <measure type="countermark" unit="clock"/>
+                        </support>
+                        <condition rend="well-struck well-preserved not-centered corroded chipped">
+                           <p xml:lang="en">The bulla is well-struck although not centered and well
+                              preserved; it presents traces of corrosion and it is slightly chipped
+                              on the edge, at the openings of the channel</p>
+                           <p xml:lang="fr">La bulle est bien frappée, bien que décentrée, et bien
+                              conservée ; elle présente des traces de corrosion et elle est
+                              légèrement ébréchée sur le bord, au niveau des orifices du canal.</p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout n="whole">
+                           <rs type="execution">
+                              <seg xml:lang="fr">Frappé</seg>
+                              <seg xml:lang="en">Struck</seg>
+                           </rs>
+                           <rs type="shape">
+                              <seg xml:lang="fr">Ronde</seg>
+                              <seg xml:lang="en">Round</seg>
+                           </rs>
+                           <rs type="matrix" subtype="not-surviving">
+                              <idno type="SigiDoc">m-ytrHsx</idno>
+                              <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+                              <idno type="PBW"/>
+                              <!-- to be used if the seal has a parallel in the PBW with a boulloterion registered there -->
+                           </rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <seg xml:lang="fr">Karin <placeName/>
+                        </seg>
+                        <seg xml:lang="en">Karin <placeName/>
+                        </seg>
+                     </origPlace>
+                     <origDate type="analysis" notBefore="1076" notAfter="1100"
+                        evidence="epigraphy onomastics prosopography historical-context titulature"
+                        cert="high" resp="#MCP #JCC">
+                        <seg xml:lang="en">Last quarter of the 11th century</seg>
+                        <seg xml:lang="fr">Dernier quart du XIe siècle</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="transferred" subtype="donated" when="2004-11-24">
+                     <!-- pas sûr de subtype et when -->
+                     <p xml:lang="en">George Zacos collection</p>
+                     <p xml:lang="fr">Collection Georges Zacos</p>
+                  </provenance>
+                  <acquisition>
+                     <p xml:lang="en">Donation of the Migore Foundation, Janet Zakos legacy, <date
+                           when="2004-11-24">24th November 2004</date>
+                     </p>
+                     <p xml:lang="fr">Don de la Fondation Migore, legs Janet Zakos, <date
+                           when="2004-11-24">24 Novembre 2004</date>
+                     </p>
+                  </acquisition>
+               </history>
+               <msPart n="r">
+                  <msIdentifier/>
+                  <msContents>
+                     <!-- ajouté ceci -->
+                     <summary n="r">
+                        <seg xml:lang="en">Obverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="r">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="en">Linear legend of 5 lines</p>
+                              <p xml:lang="fr">Légende linéaire sur 5 lignes</p>
+                           </layout>
+                        </layoutDesc>
+
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="r">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="decoR" xml:lang="fr">Cercle de grènetis</figDesc>
+                              <figDesc n="decoR" xml:lang="en">Border of dots</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+               <msPart n="v">
+                  <msIdentifier/>
+                  <msContents>
+                     <summary n="v"><!-- ajouté ceci -->
+                        <seg xml:lang="en">Reverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="v">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="en">Linear legend of 4 lines</p>
+                              <p xml:lang="fr">Légende linéaire sur 4 lignes</p>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="v">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="decoV" xml:lang="fr">Cercle de grènetis</figDesc>
+                              <figDesc n="decoV" xml:lang="en">Border of dots</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2025-04-14" who="#PE">Creation of the XML record.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp>
+         <surface n="r">
+            <desc>Obverse</desc>
+            <graphic type="photo" url="CdN2004-0504_1.jpg">
+               <desc xml:lang="en">CdN 2004-0504, obverse</desc>
+               <desc xml:lang="fr">CdN 2004-0504, avers</desc>
+            </graphic>
+         </surface>
+         <surface n="v">
+            <desc>Reverse</desc>
+            <graphic type="photo" url="CdN2004-0504_2.jpg">
+               <desc xml:lang="en">CdN 2004-0504, reverse</desc>
+               <desc xml:lang="fr">CdN 2004-0504, revers</desc>
+            </graphic>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" subtype="editorial" xml:space="preserve"> 
+            <div type="textpart" subtype="face" rend="linear" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <lg type="metrical" met="dodecasyllable" subtype="false" ana="gen">
+                 <l n="1">
+                 <lb n="1"/><supplied reason="lost">Γε</supplied>ωρ
+                 <lb n="2" break="no"/>γ<supplied reason="lost">ί</supplied>ου σφρά
+                 <lb n="3" break="no"/><supplied reason="lost">γ</supplied>ισμα <rs type="dignity" ref="#d0058"><expan><abbr><am>Α</am></abbr><ex>πρωτο</ex><abbr>νω
+                 <lb n="4" break="no"/><supplied reason="lost">β</supplied>ελλισί
+                 <lb n="5" break="no"/>μου</abbr></expan></rs>
+                 </l>
+              </lg>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <lg type="metrical" met="dodecasyllable" subtype="false" ana="gen">
+                         <l n="2">
+                         <lb n="6"/>τῆς <placeName ref="#geo0321"><expan><abbr>Κ</abbr><ex>α</ex><abbr>ρί
+                         <lb n="7" break="no"/>νης</abbr></expan></placeName> <rs type="office" subtype="military" ref="#of0245">δουκὸς</rs> 
+                         <lb n="8"/>Ἀλουσιά
+                         <lb n="9" break="no"/>νου
+                         </l>
+                      </lg>
+                  </div>
+              </div>
+         <div type="edition" subtype="diplomatic" xml:space="preserve"> 
+                  <div type="textpart" subtype="face" rend="linear" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <lb n="1"/>.. ̣ρ                       
+                 <lb n="2"/>γ.̣σφρα
+                 <lb n="3"/>.ι̣σμααν
+                 <lb n="4"/>.ελλισι
+                 <lb n="5"/>μ̣
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab>
+                         <lb n="6"/>Τησκρι                  
+                         <lb n="7"/>νησδ̣κος
+                         <lb n="8"/>αλσια
+                         <lb n="9"/>ν
+                         </ab>
+                  </div>
+              </div>
+         <div type="translation">
+            <p>Γεωργίου σφράγισμα πρωτονωβελλισίμου || τῆς Καρίνης δουκὸς Ἀλουσιανοῦ.</p>
+            <p xml:lang="en">Seal of protonobellissimos George Alousianos, doux of Karin</p>
+            <p xml:lang="fr">Sceau du protonobélissime Georges Alousianos, duc de Karin</p>
+         </div>
+         <div type="commentary" subtype="text">
+            <!-- renvois internes à refaire -->
+            <p xml:lang="en">The legend on the right has twice seven syllables, but the one on the
+               reverse has two times five, since the surname AΛΟUCΙΑΝΟU is not preceded by the
+               article T/<bibl><ptr target="WassiliouSeibt2011"/> n° <citedRange unit="entry"
+                     >266</citedRange></bibl>. On the other hand, the reading and understanding of the engraved place
+               name, which is probably Κρίνης, has given rise to several suggestions. I. Jordanov
+               proposed Κράνης, while Al.-K. Wassiliou-Seibt, followed by W. Seibt, corrected the
+               reading to Κάρ,νης. This proposed correction gives the place name Καρ(ί)νης, the
+               Hellenized version of Karin, the Armenian name for Theodosioupolis, capital of the
+               Duchy of Iberia until 1045, when the command center of the theme was transferred to
+               Ani<bibl><ptr target="ODB"/> p.° <citedRange unit="page"
+                     >2054</citedRange></bibl>. It became the center of a theme again after the fall of the latter city, since
+               Gregory Pakourianos was its duke under Michael VII. The only difficulty is explaining
+               why a Byzantine official did not use, like his predecessors, the Greek form of the
+               city's name. The reading Κρίνης does not alter the reading proposed by our colleagues
+               in Vienna, since we can assume that the letter A was omitted by mistake. This
+               interpretation is all the more interesting given that another lead seal, bearing the
+               name of the protonobelium Georges Alousianos, designates him as duke of Kars, also in
+               the Hellenized version of the name of the city of Kars, capital of the small Armenian
+               kingdom of Vanand<bibl><ptr target="ODB"/> p.° <citedRange unit="page"
+                     >1108</citedRange></bibl>. We have seen that members of the Bulgarian royal family obtained
+               high positions in the imperial army: Alousianos and Aarôn
+                     <bibl><ptr target="ZacosGenève"/>, n° <citedRange unit="entry"
+                  >91</citedRange></bibl>, sons of the last Bulgarian tsar, Ivan Vladislav; Radomir
+               Aarôn, son of Aarôn <bibl><ptr target="ZacosGenève"/>, n° <citedRange unit="entry"
+                     >94</citedRange></bibl>; Samuel, the best known of Alousianos' sons <bibl><ptr
+                     target="ZacosGenève"/>, n° <citedRange unit="entry">95</citedRange></bibl>,
+               could be George's brother. George is not known outside of the two seals he left
+               behind. If they are interpreted correctly, they bear witness to the complex situation
+               on the eastern border after the Battle of Mantzikert, which did not put an end to the
+               Byzantine presence, traces of which remain until the beginning of the reign of
+               Alexius Comnenus. The Duchy of Iberia had disappeared since 1070 and this city was
+               lost to the Seljuks, which means that the Empire regained, if only for a short
+               period, command of this outpost<bibl><ptr target="Wassiliou-Seibt2011"/> n° <citedRange unit="entry"
+                     >266</citedRange></bibl>. The seal of the doux of Karin leads us to the same
+               conclusion, since the last duke attested for Theodosioupolis is the Georgian Gregory
+               Pakourianos in 1074. W. Seibt hypothesizes that this is the same Alousianos who,
+               having changed sides, held the position of commander of Seljuk Antioch in
+               1086-1098.</p>
+            <p xml:lang="en"/>
+            <p xml:lang="fr">La légende du droit comporte deux fois sept syllabes, mais celle du
+               revers, deux fois cinq, puisque le nom de famille AΛΟUCΙΑΝΟU n’est pas précédé de
+               l’article T/<bibl><ptr target="Wassiliou-Seibt2011"/> n° <citedRange unit="entry"
+                     >266</citedRange></bibl>. D’autre part, la lecture et la compréhension du
+               toponyme gravé, qui est probablement Κρίνης, ont donné lieu à plusieurs suggestions.
+               I. Jordanov a proposé Κράνης, alors que Al.-K. Wassiliou-Seibt, suivie par W. Seibt,
+               a corrigé la lecture en Κάρ,νης. Cette proposition de correction permet d’obtenir le
+               toponyme Καρ(ί)νης, version hellénisée de Karin, le nom arménien de Théodosioupolis,
+               capitale du duché d’Ibérie jusqu’en 1045, lorsque le centre de commandement du thème
+               fut transféré à Ani<bibl><ptr target="ODB"/> p.° <citedRange unit="page"
+                     >2054</citedRange></bibl>. Elle redevint le centre d’un thème après la chute de cette
+               dernière ville, puisque Grégoire Pakourianos en était le duc sous Michel VII. La
+               seule difficulté, c’est d’expliquer pourquoi un fonctionnaire byzantin n’a pas
+               utilisé, comme ses prédécesseurs, la forme grecque de la ville. La lecture Κρίνης ne
+               modifie pas pour autant la lecture proposée par les collègues de Vienne, puisque l’on
+               peut considérer que la lettre A fut omise par erreur. Cette lecture est d’autant plus
+               intéressante qu’un autre plomb, au nom du protonobélissime Georges Alousianos, le
+               désigne en tant que duc τῆς Κάρσεως, également dans la version hellénisée du nom de
+               la ville de Kars, capitale du petit royaume arménien de Vanand<bibl><ptr target="ODB"/> p.° <citedRange unit="page"
+                     >1108</citedRange></bibl>. Nous avons vu que
+               les membres de la famille royale bulgare obtinrent des postes élevés dans l’armée
+               impériale : Alousianos et Aarôn <bibl><ptr target="ZacosGenève"/>, n° <citedRange unit="entry"
+                     >91</citedRange></bibl>, fils du
+               dernier tsar bulgare, Ivan Vladislav ; Radomir Aarôn, fils d’Aarôn <bibl><ptr target="ZacosGenève"/>, n° <citedRange unit="entry"
+                     >94</citedRange></bibl>
+               ; Samuel, le plus connu des fils d’Alousianos <bibl><ptr target="ZacosGenève"/>, n° <citedRange unit="entry"
+                     >95</citedRange></bibl>, pourrait être le
+               frère de Georges. Georges n’est pas connu en dehors des deux sceaux qu’il a laissés.
+               Si leur lecture est exacte, ils témoignent de la situation complexe de la frontière
+               orientale après la bataille de Mantzikert, qui n’a pas mis fin à la présence
+               byzantine dont il reste des traces jusqu’au début du règne d’Alexis Comnène. Le duché
+               d’Ibérie avait disparu depuis 1070 et cette ville était perdue aux Seldjoukides ; ce
+               qui signifie que l’Empire a récupéré, ne serait-ce que pour une courte période, le
+               commandement de ce poste avancé<bibl><ptr target="WassiliouSeibt2011"/> n° <citedRange unit="entry"
+                     >266</citedRange></bibl>. C’est au même raisonnement que nous conduit le
+               sceau du duc de Karin, puisque le dernier duc attesté pour Théodosioupolis est le
+               Géorgien Grégoire Pakourianos en 1074. W. Seibt avance l’hypothèse qu’il s’agit du
+               même Alousianos qui, ayant changé de camp, a occupé le poste de commandant d’Antioche
+               seldjoukide en 1086-1098.</p>
+            <p xml:lang="fr"/>
+         </div>
+         <div type="bibliography" subtype="edition">
+            <p><bibl><ptr target="ZacosGenève"/>, n° <citedRange unit="entry"
+                  >134</citedRange></bibl>
+               <bibl/>
+            </p>
+         </div>
+         <div type="bibliography" subtype="parallels">
+            <p/>
+         </div>
+         <div type="bibliography" subtype="discussion">
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

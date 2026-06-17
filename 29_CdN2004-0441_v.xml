@@ -330,7 +330,7 @@
             </div>
             <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
                       <ab>
-                         <lb n="1"/>ΝιΚΗφ/
+                         <lb n="1"/>ΝιΚΗφ/
                          <lb n="2"/>ṛ̅Α̅CΠΑΘΑΡ/  
                          <lb n="3"/>ΕΠιΤΓ̣/ ΚΛ
                          <lb n="4"/>ΜVcΤΟ̣Γ̣ΡΑΦ̣/ 
@@ -338,7 +338,8 @@
                          <lb n="6"/>.ΤΡΑΤιΤ/ Κ 
                          <lb n="7"/>ΛΟΓΟΘΕcι
                          <lb n="8"/>ΟΛΑΚΤΕΝΤ/
-                         <lb n="9"/>ΤΗc
+                         <lb n="9"/>ΤΗc
+                         <lb n="0"/>           
                          </ab>
                   </div>
               </div>

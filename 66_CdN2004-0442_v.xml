@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en">Nikolaos Matzoukes, exaktor and imperial notarios of the oikonomos
+               of the charitable foundations</title>
+            <title xml:lang="fr">Nicolas Matzoukès, exaktôr et notaire impérial de l’économe des
+               fondations pieuses</title>
+            <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
+            <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+            <funder>
+               <orgName corresp="https://www.mahmah.ch/">MAH-Musée d'art et d'histoire - Genève,
+                  Cabinet de numismatique</orgName>, Suisse </funder>
+            <principal ref="#MCP"/>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <seg xml:lang="fr">Amélioration digitale</seg>
+               <seg xml:lang="en">Digital enhancement</seg>
+            </edition>
+            <editor role="digital-editor" xml:id="PE" when="2025-04-02">Pia Evening</editor>
+         </editionStmt>
+         <publicationStmt>
+            <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
+            <idno type="filename">CdN 2004-0442</idno>
+            <idno type="SigiDocID">s-qrOvcx</idno>
+            <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+            <idno type="sequence"/>
+            <!--  to be compiled automatically; leave as is  -->
+            <date when="2024-08-06"/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                  >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                  4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listPerson type="issuer">
+               <person gender="M" role="civil aristocracy">
+                  <persName xml:lang="grc">
+                     <forename>Νικόλαος</forename>/> <surname>Ματζούκης</surname>/> </persName>
+                  <persName xml:lang="fr">
+                     <forename>Nicolas</forename>/> <surname>Matzoukès</surname>/> </persName>
+                  <persName xml:lang="en">
+                     <forename>Nikolaos</forename>/> <surname>Matzoukes</surname>/> </persName>
+                  <idno type="PBW" ana="http://pbw2016.kdl.kcl.ac.uk/boulloterion/1386/">Nikolaos
+                     1101</idno>
+                  <idno type="PBE"/>
+                  <idno type="PLP"/>
+                  <idno type="PLRE"/>
+                  <idno type="PcBE"/>
+                  <idno type="PmbZ"/>
+               </person>
+            </listPerson>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <seg xml:lang="en">Switzerland</seg>
+                     <seg xml:lang="fr">Suisse</seg>
+                  </country>
+                  <settlement>
+                     <seg xml:lang="en">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">City of
+                           Geneva</placeName>
+                     </seg>
+                     <seg xml:lang="fr">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">Ville de
+                           Genève</placeName>
+                     </seg>
+                  </settlement>
+                  <institution>MAH-Musée d'art et d'histoire</institution>
+                  <repository>Cabinet de numismatique</repository>
+                  <collection type="public">
+                     <rs type="collection-name" xml:lang="en">Byzantine seals collection</rs>
+                     <rs type="collection-name" xml:lang="fr">Collection de sceaux byzantins</rs>
+                  </collection>
+                  <idno type="inv-nr-current">CdN 2004-0442</idno>
+                  <altIdentifier>
+                     <repository/>
+                     <idno type="inv-nr-former"/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <!--https://github.com/SigiDoc/Guidelines/wiki/5.-Controlled-vocabularies#seals-category-->
+                  <summary n="whole">
+                     <seg xml:lang="fr">Administration centrale</seg>
+                     <seg xml:lang="en">Central administration</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>
+                              <term>
+                                 <seg xml:lang="fr">Sceau</seg>
+                                 <seg xml:lang="en">Seal</seg>
+                              </term>
+                              <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                              <interp type="workType" xml:lang="en">Original impression</interp>
+                           </objectType>
+                           <material>
+                              <seg xml:lang="fr">Plomb</seg>
+                              <seg xml:lang="en">Lead</seg>
+                           </material>
+                           <dimensions type="support" unit="mm">
+                              <dim type="diameter">26,92/24,52</dim>
+                              <!-- mesure du champ? -->
+                           </dimensions>
+                           <measure type="weight" unit="g">11,525</measure>
+                           <measure type="axis" unit="clock"/>
+                           <measure type="overstrikeOrient" unit="clock"/>
+                           <measure type="channelOrient" unit="clock">12-6</measure>
+                           <measure type="countermark" unit="clock"/>
+                        </support>
+                        <condition
+                           rend="well-struck not-centered well-preserved chipped corroded worn-edge">
+                           <p xml:lang="en"> The seal is well-struck and well-preserved, slightly
+                              striken off center,corroded, worn-edge and broken at the canal
+                              opennings</p>
+                           <p xml:lang="fr">Le sceau est bien frappé et bien conservé, frappe
+                              lègerement décentrée, légèrement corrodé, cassé aux orifices du canal
+                              ainsi que sur la tranche</p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout n="whole">
+                           <rs type="execution">
+                              <seg xml:lang="fr">Frappé</seg>
+                              <seg xml:lang="en">Struck</seg>
+                           </rs>
+                           <rs type="shape">
+                              <seg xml:lang="fr">Ronde</seg>
+                              <seg xml:lang="en">Round</seg>
+                           </rs>
+                           <rs type="matrix" subtype="not-surviving">
+                              <idno type="SigiDoc">m-rHBUt2</idno>
+                              <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+                              <idno type="PBW"/>
+                              <!-- to be used if the seal has a parallel in the PBW with a boulloterion registered there -->
+                           </rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <seg xml:lang="fr">
+                           <placeName/>
+                        </seg>
+                        <seg xml:lang="en">
+                           <placeName/>
+                        </seg>
+                     </origPlace>
+                     <origDate type="analysis" notBefore="1060" notAfter="1070"
+                        evidence="onomastics titulature" cert="high" resp="#MCP #JCC">
+                        <seg xml:lang="en">Around 1060-1070</seg>
+                        <seg xml:lang="fr">Vers 1060-1070</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="transferred" subtype="donated" when="2004-11-24">
+                     <!-- pas sûr de subtype et when -->
+                     <p xml:lang="en">George Zacos collection</p>
+                     <p xml:lang="fr">Collection Georges Zacos</p>
+                  </provenance>
+                  <acquisition>
+                     <p xml:lang="en">Donation of the Migore Foundation, Janet Zakos legacy, <date
+                           when="2004-11-24">24th November 2004</date>
+                     </p>
+                     <p xml:lang="fr">Don de la Fondation Migore, legs Janet Zakos, <date
+                           when="2004-11-24">24 Novembre 2004</date>
+                     </p>
+                  </acquisition>
+               </history>
+               <msPart n="r">
+                  <msIdentifier/>
+                  <msContents>
+                     <!-- ajouté ceci -->
+                     <summary n="r">
+                        <seg xml:lang="en">Obverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="r">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="fr">Iconographie avec de part et d'autre de l'effigie des
+                                 sigles</p>
+                              <p xml:lang="en">Iconography with, on either side, sigla</p>
+                           </layout>
+                        </layoutDesc>
+
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="r">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="r" xml:lang="fr" ana="person, female, Virgin Mary orans"
+                                 >Vierge Épiskepsis en pied, de face, orante, vêtue d’un ample
+                                 maphorion ourlé de perles, le médaillon de l’Enfant posé sur la
+                                 poitrine. De part et d’autre de l’effigie, les sigles usuels pour
+                                 Mère de Dieu.</figDesc>
+                              <figDesc n="r" xml:lang="en" ana="person, female, Virgin Mary">Virgin
+                                 Mary orans standing front view, wearing a large maphorion with
+                                 pearl decoration, bearing on hr chest the medallion of the Infant
+                                 Christ; on either side, sigla.</figDesc>
+                              <figDesc n="decoR" xml:lang="fr">Cercle de grènetis</figDesc>
+                              <figDesc n="decoR" xml:lang="en">Circle of dots</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+               <msPart n="v">
+                  <msIdentifier/>
+                  <msContents>
+                     <summary n="v"><!-- ajouté ceci -->
+                        <seg xml:lang="en">Reverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="v">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="en">Linear legend of 8 lines</p>
+                              <p xml:lang="fr">Légende linéaire sur 8 lignes</p>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="v">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="decoV" xml:lang="fr">Cercle de grènetis; la légende est
+                                 surmontée d’un tiret accosté de perles et précédée d’une croisette
+                                 ; la dernière ligne est accostée de tirets</figDesc>
+                              <figDesc n="decoV" xml:lang="en">Circle of dots; a trait between
+                                 pearls over the legend; a crosslet precedes the first line; the
+                                 last line is between traits</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2025-04-02" who="#PE">Creation of the XML record.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp>
+         <surface n="r">
+            <desc>Obverse</desc>
+            <graphic type="photo" url="CdN2004-0442_1.jpg">
+               <desc xml:lang="en">CdN 2004-0442, obverse</desc>
+               <desc xml:lang="fr">CdN 2004-0442, avers</desc>
+            </graphic>
+         </surface>
+         <surface n="v">
+            <desc>Reverse</desc>
+            <graphic type="photo" url="CdN2004-0442_2.jpg">
+               <desc xml:lang="en">CdN 2004-0442, reverse</desc>
+               <desc xml:lang="de">CdN 2004-0442, revers</desc>
+            </graphic>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" subtype="editorial" xml:space="preserve"> 
+            <div type="textpart" subtype="sigla" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="a"/><expan><abbr>Μ</abbr><ex>ήτ</ex><abbr>ηρ</abbr></expan> 
+                 <cb n="b"/><expan><abbr>Θ</abbr><ex>εο</ex><abbr>ῦ</abbr></expan>
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab ana="dat">
+                         <lb n="1"/><rs type="invocation" ref="#inv001"><expan><abbr>Θ</abbr><ex>εοτό</ex><abbr>κε</abbr></expan> <expan><abbr>β</abbr><ex>οή</ex><abbr>θ</abbr><ex>ει</ex></expan></rs> 
+                         <lb n="2"/>Νικολάo
+                         <lb n="3"/><rs type="office" subtype="civil" ref="#of0058"><expan><abbr>ἐξάκτορ</abbr><ex>ι</ex></expan></rs> 
+                         <lb n="4"/><expan><abbr><am>S</am></abbr><ex>καὶ</ex></expan> <rs type="office" subtype="civil" ref="#of0144"><expan><abbr>β</abbr><ex>ασιλικῷ</ex></expan> <expan><abbr>νοταρ</abbr><ex>ίῳ</ex></expan></rs> 
+                         <lb n="5"/>τοῦ <rs type="office" subtype="civil" ref="#of0148"><expan><abbr>οἰκονόμ</abbr><ex>ου</ex></expan></rs> 
+                         <lb n="6"/><expan><abbr>τ</abbr><ex>ῶν</ex></expan> <rs type="institution" ref="#org0034"><expan><abbr>εὐα</abbr><ex>γῶν</ex></expan> <expan><abbr>οἴκ</abbr><ex>ων</ex></expan></rs> 
+                         <lb n="7"/>τῶν <expan><abbr>Μ</abbr><ex>α</ex><abbr>τζού
+                         <lb n="8" break="no"/>κ</abbr><ex>ων</ex></expan>
+                      </ab>
+                  </div>
+              </div>
+         <div type="edition" subtype="diplomatic" xml:space="preserve"> 
+                  <div type="textpart" subtype="sigla" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="a"/>̅
+                 <cb n="b"/>Θυ  
+              </ab>
+            </div>
+            <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab>
+                         <lb n="0"/>   
+                         <lb n="1"/>̣ΘΚΕr/ Θ/
+                         <lb n="2"/>νΙΚΟΛΑΟ 
+                         <lb n="3"/>ΕξΑΚΤΟΡ/
+                         <lb n="4"/>sr⸣ νΟΤΑΡ/
+                         <lb n="5"/>ΤΟΙΚΟνΟΜ/
+                         <lb n="6"/>Τ/ ΕΥΑΓ/ ΟΙΚ/
+                         <lb n="7"/>ΤνΜ/ 
+                         <lb n="8"/>κ/ 
+                         </ab>
+                  </div>
+              </div>
+         <div type="translation">
+            <p>Μήτηρ Θεοῦ. || + Θεοτόκε βοήθει Νικολάo ἐξάκτορι καὶ βασιλικῷ νοταρίῳ τοῦ οἰκονόμου
+               τῶν εὐαγῶν οἴκων τῶν Ματζούκων.</p>
+            <p xml:lang="en">Mother of God. || + Mother of God help Nikolaos Matzoukes, exaktor and
+               imperial notarios of the oikonomos of the charitable foundations</p>
+            <p xml:lang="fr">Mère de Dieu. || + Mère de Dieu accorde ton secours à Nicolas
+               Matzoukès, exaktôr et notaire impérial de l’économe des fondations pieuses</p>
+         </div>
+         <div type="commentary" subtype="text">
+            <!-- renvois internes à refaire -->
+            <p xml:lang="en">Two namesakes can be compared with our signatory: Matzoukes, without a
+               first name, patrikios and great oikonomos of pious foundations, mentioned in a
+               document of 1073, and Nicolas Matzoukes, kensôr, judge of the Velum and great
+               oikonomos of pious foundations , whose seal, illustrated with the same Virgin
+               Episkepsis, would mark a later stage in the career of our exaktor.(<bibl>
+                  <ptr target="Schlumberger1884"/>, p. <citedRange unit="page"
+                  >395</citedRange></bibl>).Both the kensor and the exaktor carried out fiscal
+               functions, more specifically tax collection. However, they were sometimes also called
+               upon to take on judicial duties. Paul Magdalino sees the exaktor as a tax judge, but
+               it seems that neither the exaktor nor the kensor were part of the imperial court. A
+               metric seal, bearing the sole name of Nicolas Matzoukes and the same obverse, could
+               be the private seal of the same person: Πέφυκα σφραγὶς Νικολάου Ματζούκη (IFEB
+               685,unpublished ?).</p>
+            <p xml:lang="en">Three other Matzoukai left a seal in the 11th century: un homonymus but
+               older than our signatory was patrikios and judge of Seleukia and Tarsos (1040-1060)(<bibl>
+                  <ptr target="Seibt1997"/>, n° <citedRange unit="entry">2.2.9</citedRange></bibl>);
+               hypatos Michael (?) (<bibl>
+                  <ptr target="Athens1996"/>, n° <citedRange unit="entry"
+               >192</citedRange></bibl>)and Nikephoros (<bibl>
+                  <ptr target="Athens1996"/>, n° <citedRange unit="entry">308</citedRange></bibl>.In
+               addition, Anastasios, protovestes and chartularios at the sekreton of stratiotikon,
+               and John, imperial notarios at the sekreton of the sea, are mentioned in two acts of
+               Patmos, dated 1088 and 1203 respectively. Finally, Theodore Matzoukès is mentioned in
+               a prostaxis of Andronicos Ist, dated 1184.</p>
+            <p xml:lang="fr">Deux homonymes peuvent être rapprochés de notre signataire : Matzoukès,
+               sans prénom, patrice et grand économe des fondations pieuses, mentionné dans un acte
+               de 1073, et Nicolas Matzoukès, kensôr, juge du Velum et grand économe des fondations
+               pieuses, dont le sceau, illustré à la même Vierge Épiskepsis, marquerait une étape
+               ultérieure dans la carrière de notre exaktôr (<bibl>
+                  <ptr target="Schlumberger1884"/>, p. <citedRange unit="page"
+                  >395</citedRange></bibl>). Le kensôr autant que l’exaktôr exercent en effet des
+               fonctions fiscales, plus particulièrement liées à la collecte des taxes. Mais, ils
+               sont parfois appelés à assumer également des charges judiciaires. Paul Magdalino voit
+               en l’exaktôr un juge fiscal, il semble néanmoins que ni celui-ci, ni le kensôr ne
+               fassent partie de la cour impériale. Une bulle métrique, au seul nom de Nicolas
+               Matzoukès et au même avers, pourrait être le sceau privé du même personnage : Πέφυκα
+               σφραγὶς Νικολάου Ματζούκη (IFEB 685, inédit ?).</p>
+            <p xml:lang="fr">Trois autres Matzoukai ont laissé un sceau au XIe siècle. Un homonyme,
+               plus ancien que notre sigillant, fut patrice, juge de Tarse et de Séleucie (1040-1060)(<bibl>
+                  <ptr target="Seibt1997"/>, n° <citedRange unit="entry">2.2.9</citedRange></bibl>);
+               l’hypatos Michel (?)(<bibl>
+                  <ptr target="Athens1996"/>, n° <citedRange unit="entry">192</citedRange></bibl>)
+               et Nicéphore (<bibl>
+                  <ptr target="Athens1996"/>, n° <citedRange unit="entry">308</citedRange></bibl>).
+               En outre, Anastase, protovestès et chartulaire au sékréton du stratiôtikon, ainsi que
+               Jean, notaire impérial au sékréton de la mer, sont mentionnés dans deux actes de
+               Patmos, respectivement datés de 1088 et de 1203. Enfin, un Théodore Matzoukès est
+               cité dans une prostaxis d’Andronic Ier, daté de 1184.</p>
+         </div>
+         <div type="bibliography" subtype="edition">
+            <p>
+               <bibl>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">66</citedRange></bibl><bibl>
+                  <ptr target="ZacosSpink1"/>, n° <citedRange unit="entry">50</citedRange></bibl>;
+               <bibl>
+                  <ptr target="Zacos2"/>, n° <citedRange unit="entry">620</citedRange></bibl>
+               <bibl/>
+            </p>
+         </div>
+         <div type="bibliography" subtype="parallels">
+            <p/>
+         </div>
+         <div type="bibliography" subtype="discussion">
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

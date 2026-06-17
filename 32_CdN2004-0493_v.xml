@@ -311,6 +311,7 @@
          <div type="edition" subtype="diplomatic" xml:space="preserve"> 
                   <div type="textpart" subtype="face" rend="linear" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
               <ab>
+                 <lb n="0"/>       
                  <lb n="1"/>γρΦΝ̣                   
                  <lb n="2"/>c̣Φρ̣γιcΜ                 
                  <lb n="3"/>ΚιΚ̣ΥρΟc

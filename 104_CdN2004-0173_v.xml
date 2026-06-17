@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en">Christopher Radenos, magistros, judge of Velum, chartoularios of
+               genikon et of the drome of the Anatolikoi</title>
+            <title xml:lang="fr">Christophore Radènos, magistre, juge du Velum, chartulaire du
+               génikon et du drome des Anatoliques</title>
+            <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
+            <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+            <funder>
+               <orgName corresp="https://www.mahmah.ch/">MAH-Musée d'art et d'histoire - Genève,
+                  Cabinet de numismatique</orgName>, Suisse </funder>
+            <principal ref="#MCP"/>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <seg xml:lang="fr">Amélioration digitale</seg>
+               <seg xml:lang="en">Digital enhancement</seg>
+            </edition>
+            <editor role="digital-editor" xml:id="PE" when="2025-04-02">Pia Evening</editor>
+            <editor role="digital-editor" ref="#MCP" when="2026-01-19">Maria Campagnolo-Pothitou</editor>
+         </editionStmt>
+         <publicationStmt>
+            <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
+            <idno type="filename">CdN 2004-0173</idno>
+            <idno type="SigiDocID">s-yaaSeZ</idno>
+            <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+            <idno type="sequence"/>
+            <!--  to be compiled automatically; leave as is  -->
+            <date when="2024-08-06"/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                  >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                  4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listPerson type="issuer">
+               <person gender="M" role="civil aristocracy">
+                  <persName xml:lang="grc">
+                     <forename>Χριστόφορος</forename>
+                     <surname>Ῥαδηνός</surname>
+                  </persName>
+                  <persName xml:lang="fr">
+                     <forename>Christophore</forename> <surname>Radènos</surname> </persName>
+                  <persName xml:lang="en">
+                     <forename>Christopher</forename> <surname>Radenos</surname> </persName>
+                  <idno type="PBW" ana="http://pbw2016.kdl.kcl.ac.uk/person/Christophoros/2102/"
+                     >Christophoros 2102</idno>
+                  <idno type="PBE"/>
+                  <idno type="PLP"/>
+                  <idno type="PLRE"/>
+                  <idno type="PcBE"/>
+                  <idno type="PmbZ"/>
+               </person>
+            </listPerson>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <seg xml:lang="en">Switzerland</seg>
+                     <seg xml:lang="fr">Suisse</seg>
+                  </country>
+                  <settlement>
+                     <seg xml:lang="en">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">City of
+                           Geneva</placeName>
+                     </seg>
+                     <seg xml:lang="fr">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">Ville de
+                           Genève</placeName>
+                     </seg>
+                  </settlement>
+                  <institution>MAH-Musée d'art et d'histoire</institution>
+                  <repository>Cabinet de numismatique</repository>
+                  <collection type="public">
+                     <rs type="collection-name" xml:lang="en">Byzantine seals collection</rs>
+                     <rs type="collection-name" xml:lang="fr">Collection de sceaux byzantins</rs>
+                  </collection>
+                  <idno type="inv-nr-current">CdN 2004-0173</idno>
+                  <altIdentifier>
+                     <repository/>
+                     <idno type="inv-nr-former"/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <!--https://github.com/SigiDoc/Guidelines/wiki/5.-Controlled-vocabularies#seals-category-->
+                  <summary n="whole">
+                     <seg xml:lang="fr">Administrtaion provinciale</seg>
+                     <seg xml:lang="en">Provincial administration</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>
+                              <term>
+                                 <seg xml:lang="fr">Sceau</seg>
+                                 <seg xml:lang="en">Seal</seg>
+                              </term>
+                              <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                              <interp type="workType" xml:lang="en">Original impression</interp>
+                           </objectType>
+                           <material>
+                              <seg xml:lang="fr">Plomb</seg>
+                              <seg xml:lang="en">Lead</seg>
+                           </material>
+                           <dimensions type="support" unit="mm">
+                              <dim type="diameter">33,81/30,63</dim>
+                              <!-- mesure du champ? -->
+                           </dimensions>
+                           <measure type="weight" unit="g">20,790</measure>
+                           <measure type="axis" unit="clock"/>
+                           <measure type="overstrikeOrient" unit="clock"/>
+                           <measure type="channelOrient" unit="clock">12-6</measure>
+                           <measure type="countermark" unit="clock"/>
+                        </support>
+                        <condition rend="well-struck well-preserved chipped worn-edge">
+                           <p xml:lang="en">The bulla is well-struck and well-preserved, slightly
+                              chipped at the openings of the channel butlargely worn around the
+                              edge</p>
+                           <p xml:lang="fr">La bulle est bien frappée et bien conservée; légèrement
+                              échancrée aux orifices du canal, mais largement rogné sur le
+                              pourtour</p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout n="whole">
+                           <rs type="execution">
+                              <seg xml:lang="fr">Frappé</seg>
+                              <seg xml:lang="en">Struck</seg>
+                           </rs>
+                           <rs type="shape">
+                              <seg xml:lang="fr">Ronde</seg>
+                              <seg xml:lang="en">Round</seg>
+                           </rs>
+                           <rs type="matrix" subtype="not-surviving">
+                              <idno type="SigiDoc">m-FE7Rom</idno>
+                              <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+                              <idno type="PBW"/>
+                              <!-- to be used if the seal has a parallel in the PBW with a boulloterion registered there -->
+                           </rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <seg xml:lang="fr">Anatoliques<placeName/>
+                        </seg>
+                        <seg xml:lang="en">Anatolikoi<placeName/>
+                        </seg>
+                     </origPlace>
+                     <origDate type="analysis" notBefore="1067" notAfter="1100"
+                        evidence="epigraphy titulature onomastics prosopography" cert="high"
+                        resp="#MCP #JCC">
+                        <seg xml:lang="en">Last third of the 11th century</seg>
+                        <seg xml:lang="fr">Dernier tiers du XIe siècle</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="transferred" subtype="donated" when="2004-11-24">
+                     <!-- pas sûr de subtype et when -->
+                     <p xml:lang="en">George Zacos collection</p>
+                     <p xml:lang="fr">Collection Georges Zacos</p>
+                  </provenance>
+                  <acquisition>
+                     <p xml:lang="en">Donation of the Migore Foundation, Janet Zakos legacy, <date
+                           when="2004-11-24">24th November 2004</date>
+                     </p>
+                     <p xml:lang="fr">Don de la Fondation Migore, legs Janet Zakos, <date
+                           when="2004-11-24">24 Novembre 2004</date>
+                     </p>
+                  </acquisition>
+               </history>
+               <msPart n="r">
+                  <msIdentifier/>
+                  <msContents>
+                     <!-- ajouté ceci -->
+                     <summary n="r">
+                        <seg xml:lang="en">Obverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="r">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="fr">Iconographie avec épigraphe en colonnes de part et
+                                 d'autre de l'effigie; à la circonférence, inscription
+                                 invocative</p>
+                              <p xml:lang="en">Iconography with epigraph on columns on either side
+                                 of the effigy; circular inscription on the circumferance</p>
+                           </layout>
+                        </layoutDesc>
+
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="r">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="r" xml:lang="fr" ana="person male saint Nicholas">Saint
+                                 Nicolas en buste, de face, en sa tenue épiscopale accoutumée,
+                                 bénissant de la droite et tenant le Livre en main gauche.</figDesc>
+                              <figDesc n="r" xml:lang="en" ana="person male saint Nicholas">Bust of
+                                 saint Nicholas facing forward, clad with his episcopal costume, he
+                                 is blessing with the right hand and holds the Gospels in his left
+                                 one.</figDesc>
+                              <figDesc n="decoR" xml:lang="fr">Cercle de grènetis; l'inscription,
+                                 qui est précédée d'une croisette, commence à 10 h, mais seul le
+                                 début est conservé</figDesc>
+                              <figDesc n="decoR" xml:lang="en">Circle of dots; the inscription is
+                                 preceded by a crosslet, it starts at 10 o'clock but only the
+                                 begining is visible</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+               <msPart n="v">
+                  <msIdentifier/>
+                  <msContents>
+                     <summary n="v"><!-- ajouté ceci -->
+                        <seg xml:lang="en">Reverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="v">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="en">Linear legend of 8 lines</p>
+                              <p xml:lang="fr">Légende linéaire sur 8 lignes</p>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="v">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="decoV" xml:lang="fr">Cercle de grènetis; au sommet du
+                                 champ, une croisette cantonnée de tirets;la dernière est accostée
+                                 de tirets</figDesc>
+                              <figDesc n="decoV" xml:lang="en">Circle of dots; above the legend, a
+                                 crosslet between traits; the last line is between traits</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2025-04-02" who="#PE">Creation of the XML record.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp>
+         <surface n="r">
+            <desc>Obverse</desc>
+            <graphic type="photo" url="CdN2004-0173_1.jpg">
+               <desc xml:lang="en">CdN 2004-0173, obverse</desc>
+               <desc xml:lang="fr">CdN 2004-0173, avers</desc>
+            </graphic>
+         </surface>
+         <surface n="v">
+            <desc>Reverse</desc>
+            <graphic type="photo" url="CdN2004-0173_2.jpg">
+               <desc xml:lang="en">CdN 2004-0173, reverse</desc>
+               <desc xml:lang="fr">CdN 2004-0173, revers</desc>
+            </graphic>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" subtype="editorial" xml:space="preserve"> 
+            <div type="textpart" subtype="label" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="a"/>Ὁ <expan><ex>ἅγιος</ex></expan> <expan><abbr>Νικ</abbr><ex>ό</ex>
+                 <cb n="b" break="no"/><abbr>λαος</abbr></expan>
+              </ab>
+            </div>
+            <div type="textpart" subtype="face" rend="circular" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab ana="dat">
+                 <lb n="1"/><rs type="invocation" ref="#inv004"><expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan> <supplied reason="lost">βοήθει τῷ σῷ δούλῳ</supplied></rs>
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab ana="dat">
+                         <lb n="2"/><expan><abbr>Χριστοφόρ</abbr><ex>ῳ</ex></expan> 
+                         <lb n="3"/><rs type="dignity" ref="#d0038">μαγίστρῳ</rs> 
+                         <lb n="4"/><rs type="office" subtype="civil" ref="#of0112"><expan><abbr>κριτ</abbr><ex>ῇ</ex></expan></rs> τοῦ <rs type="institution" ref="#org0007"><expan><abbr>βήλ</abbr><ex>ου</ex></expan></rs> 
+                         <lb n="5"/><rs type="office" subtype="civil" ref="#of0193"><expan><abbr>χ</abbr><ex>αρ</ex><abbr>τουλ</abbr><ex>αρίῳ</ex></expan></rs> τοῦ <rs type="institution" ref="#org0011"><expan><abbr>γεν</abbr><ex>ικοῦ</ex></expan></rs> 
+                         <lb n="6"/><expan><abbr><am>S</am></abbr><ex>καὶ</ex></expan> τοῦ <rs type="institution" ref="#org0012"><expan><abbr>δρόμ</abbr><ex>ου</ex></expan></rs> <expan><abbr>τ</abbr><ex>ῶν</ex></expan> 
+                         <lb n="7"/><placeName ref="#geo0016"><expan><abbr>Ἀνατολικ</abbr><ex>ῶν</ex></expan></placeName> 
+                         <lb n="8"/>τῷ <expan><abbr>Ῥαδη
+                         <lb n="9" break="no"/>ν</abbr><ex>ῷ</ex></expan>
+                      </ab>
+                  </div>
+              </div>
+         <div type="edition" subtype="diplomatic" xml:space="preserve"> 
+                  <div type="textpart" subtype="label" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="a"/>|ni|k/
+                 <cb n="b"/>λ|αο|σ
+              </ab>
+            </div>
+            <div type="textpart" subtype="face" rend="circular" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <lb n="1"/>κε...
+              </ab>
+            </div>
+            <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab>
+                        <lb n="0"/>  
+                         <lb n="2"/>χ̣ριστοφορ/                                           
+                         <lb n="3"/>μ̣αγιστρ 
+                         <lb n="4"/>κριτ/ τrηλ/
+                         <lb n="5"/>χτλ⸣ / τγεν/
+                         <lb n="6"/>τδρομ/// τ/
+                         <lb n="7"/>ανατολικ/
+                         <lb n="8"/>τραδη
+                         <lb n="9"/>ν/ 
+                         </ab>
+                  </div>
+              </div>
+         <div type="translation">
+            <p>Ὁ ἅγιος Νικόλαος. + Κύριε βοήθει τῷ σῷ δούλῳ || Χριστοφόρῳ μαγίστρῳ, κριτῇ τοῦ βήλου,
+               χαρτουλαρίῳ τοῦ γενικοῦ καὶ τοῦ δρόμου τῶν Ἀνατολικῶν τῷ Ῥαδηνῷ.</p>
+            <p xml:lang="en">Saint Nicholas. + Lord, help your servant || Christopher Radenos,
+               magistros, judge of Velum, chartularios of genikon et of the drome of the
+               Anatolikoi</p>
+            <p xml:lang="fr">Saint Nicolas. +Seigneur accorde ton secours à ton serviteur
+               ||Christophore Radènos, magistre, juge du Velum, chartulaire du génikon et du drome
+               des Anatoliques.</p>
+         </div>
+         <div type="commentary" subtype="text">
+            <!-- renvois internes à refaire -->
+            <p xml:lang="en">On the illustrious Radenos family, active in the political,
+               administrative, and social spheres of the Empire between the 10th and early 13th
+               centuries, see the commentary at <bibl>
+                  <ptr target="ZacosGenève"/>, no. <citedRange unit="entry">40</citedRange></bibl>
+               as well as  <bibl>
+                  <ptr target="Radenoi2019"/>, p. <citedRange unit="page"
+               >6-104</citedRange></bibl>. The combination of the dignity of magistros with the
+               office of judge of the Velum would lead us to date this seal after the accession of
+               Alexios I, in 1081, but the Radenos family's prominent position in the administration
+               may have enabled them to obtain this dignity earlier. Our seal is most likely to
+               be identified with Christopher mentioned in the funeral oration composed by
+               Psellos for Michael, his brother <bibl>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">59</citedRange></bibl>,
+               but sigillography is the main source of information about this
+               figure <bibl>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry"
+                     >129</citedRange></bibl>.</p>
+            <p xml:lang="en"/>
+            <p xml:lang="fr">Sur l'illustre famille des Radènoi, actifs et actives sur la scène
+               politique, administrative et sociale de l'Empire entre le 10e et le début du 13e
+               siècle, voir le commentaire au <bibl>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">40</citedRange></bibl>
+               ainsi que <bibl>
+                  <ptr target="Radenoi2019"/>, p. <citedRange unit="entry"
+               >6-104</citedRange></bibl>. La combinaison de la dignité de magistre avec la fonction
+               du juge du Velum conduirait à dater ce sceau après l’avènement d’Alexis Ier, en 1081,
+               mais la place éminente des Radènoi dans l’administration a pu leur permettre
+               d’obtenir plus tôt cette dignité. Notre sigillant est très probablement à identifier
+               au Christophore mentionné dans l’oraison funèbre composée par Psellos pour Michel,
+               son frère <bibl>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">59</citedRange></bibl>,
+               mais c’est la sigillographie qui constitue la source principale pour connaître le
+               personnage <bibl>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry"
+               >129</citedRange></bibl>.</p>
+            <p xml:lang="fr"/>
+         </div>
+         <div type="bibliography" subtype="edition">
+            <p><bibl>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">104</citedRange></bibl>
+               <bibl/>
+            </p>
+         </div>
+         <div type="bibliography" subtype="parallels">
+            <p>ancienne collection Hecht:
+               <bibl>
+                  <ptr target="Nesbitt2009"/>, n° <citedRange unit="entry">8</citedRange></bibl></p>
+         </div>
+         <div type="bibliography" subtype="discussion">
+            <p>
+               <bibl>
+                  <ptr target="Seyrig"/>, p. <citedRange unit="page">143</citedRange></bibl></p>
+         </div>
+      </body>
+   </text>
+</TEI>

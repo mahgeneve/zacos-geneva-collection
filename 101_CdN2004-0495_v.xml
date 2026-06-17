@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en">Romanos Pediadites, protospatharios and strategos</title>
+            <title xml:lang="fr">Romain Pédiaditès, protospathaire et stratège</title>
+            <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
+            <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+            <funder>
+               <orgName corresp="https://www.mahmah.ch/">MAH-Musée d'art et d'histoire - Genève,
+                  Cabinet de numismatique</orgName>, Suisse </funder>
+            <principal ref="#MCP"/>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <seg xml:lang="fr">Amélioration digitale</seg>
+               <seg xml:lang="en">Digital enhancement</seg>
+            </edition>
+            <editor role="digital-editor" xml:id="PE" when="2025-04-02">Pia Evening</editor>
+            <editor role="digital-editor" ref="#MCP" when="2026-01-08">Maria Campagnolo-Pothitou</editor>
+         </editionStmt>
+         <publicationStmt>
+            <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
+            <idno type="filename">CdN 2004-0495</idno>
+            <idno type="SigiDocID">s-U23xGw</idno>
+            <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+            <idno type="sequence"/>
+            <!--  to be compiled automatically; leave as is  -->
+            <date when="2024-08-06"/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                  >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                  4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listPerson type="issuer">
+               <person gender="M" role="civil aristocracy">
+                  <persName xml:lang="grc">
+                     <forename>Ῥωμανός</forename>
+                     <surname>Πεδιαδίτης</surname>
+                  </persName>
+                  <persName xml:lang="fr">
+                     <forename>Romain</forename>
+                     <surname>Pédiaditès</surname>
+                  </persName>
+                  <persName xml:lang="en">
+                     <forename>Romanos</forename>
+                     <surname>Pediadites</surname>/> </persName>
+                  <idno type="PBW"/>
+
+                  <idno type="PBE"/>
+                  <idno type="PLP"/>
+                  <idno type="PLRE"/>
+                  <idno type="PcBE"/>
+                  <idno type="PmbZ"/>
+               </person>
+            </listPerson>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <seg xml:lang="en">Switzerland</seg>
+                     <seg xml:lang="fr">Suisse</seg>
+                  </country>
+                  <settlement>
+                     <seg xml:lang="en">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">City of
+                           Geneva</placeName>
+                     </seg>
+                     <seg xml:lang="fr">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">Ville de
+                           Genève</placeName>
+                     </seg>
+                  </settlement>
+                  <institution>MAH-Musée d'art et d'histoire</institution>
+                  <repository>Cabinet de numismatique</repository>
+                  <collection type="public">
+                     <rs type="collection-name" xml:lang="en">Byzantine seals collection</rs>
+                     <rs type="collection-name" xml:lang="fr">Collection de sceaux byzantins</rs>
+                  </collection>
+                  <idno type="inv-nr-current">CdN 2004-0495</idno>
+                  <altIdentifier>
+                     <repository/>
+                     <idno type="inv-nr-former"/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <!--https://github.com/SigiDoc/Guidelines/wiki/5.-Controlled-vocabularies#seals-category-->
+                  <summary n="whole">
+                     <seg xml:lang="fr">Administration centrale</seg>
+                     <seg xml:lang="en">Central administration</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>
+                              <term>
+                                 <seg xml:lang="fr">Sceau</seg>
+                                 <seg xml:lang="en">Seal</seg>
+                              </term>
+                              <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                              <interp type="workType" xml:lang="en">Original impression</interp>
+                           </objectType>
+                           <material>
+                              <seg xml:lang="fr">Plomb</seg>
+                              <seg xml:lang="en">Lead</seg>
+                           </material>
+                           <dimensions type="support" unit="mm">
+                              <dim type="diameter">30,19/28,20</dim>
+                              <!-- mesure du champ? -->
+                           </dimensions>
+                           <measure type="weight" unit="g">14,632</measure>
+                           <measure type="axis" unit="clock"/>
+                           <measure type="overstrikeOrient" unit="clock"/>
+                           <measure type="channelOrient" unit="clock">12-6</measure>
+                           <measure type="countermark" unit="clock"/>
+                        </support>
+                        <condition rend="well-struck chipped broken corroded">
+                           <p xml:lang="en">The bulla is well-struck but quite well-preserved;
+                              broken and worn on a part of the edge; corroded on both sides and
+                              largely chipped at the upper opening of the canal</p>
+                           <p xml:lang="fr">La bulle est bien frappée mais moyennement bien
+                              conservée; largement échancrée à l'orifice supérieur du canal,
+                              corrodée et fortement usée sur le bord</p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout n="whole">
+                           <rs type="execution">
+                              <seg xml:lang="fr">Frappé</seg>
+                              <seg xml:lang="en">Struck</seg>
+                           </rs>
+                           <rs type="shape">
+                              <seg xml:lang="fr">Ronde</seg>
+                              <seg xml:lang="en">Round</seg>
+                           </rs>
+                           <rs type="matrix" subtype="not-surviving">
+                              <idno type="SigiDoc">m-W0CbVd</idno>
+                              <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+                              <idno type="PBW"/>
+                              <!-- to be used if the seal has a parallel in the PBW with a boulloterion registered there -->
+                           </rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <seg xml:lang="fr">
+                           <placeName/>
+                        </seg>
+                        <seg xml:lang="en">
+                           <placeName/>
+                        </seg>
+                     </origPlace>
+                     <origDate type="analysis" notBefore="1026" notAfter="1050"
+                        evidence="epigraphy onomastics" cert="high" resp="#MCP #JCC">
+                        <seg xml:lang="en">Second quarter of the 11th century</seg>
+                        <seg xml:lang="fr">Deuxième quart du XIe siècle</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="transferred" subtype="donated" when="2004-11-24">
+                     <!-- pas sûr de subtype et when -->
+                     <p xml:lang="en">George Zacos collection</p>
+                     <p xml:lang="fr">Collection Georges Zacos</p>
+                  </provenance>
+                  <acquisition>
+                     <p xml:lang="en">Donation of the Migore Foundation, Janet Zakos legacy, <date
+                           when="2004-11-24">24th November 2004</date>
+                     </p>
+                     <p xml:lang="fr">Don de la Fondation Migore, legs Janet Zakos, <date
+                           when="2004-11-24">24 Novembre 2004</date>
+                     </p>
+                  </acquisition>
+               </history>
+               <msPart n="r">
+                  <msIdentifier/>
+                  <msContents>
+                     <!-- ajouté ceci -->
+                     <summary n="r">
+                        <seg xml:lang="en">Obverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="r">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="fr">Iconographie avec des sigles de part et d'autre</p>
+                              <p xml:lang="en">Iconography with sigla on either sides</p>
+                           </layout>
+                        </layoutDesc>
+
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="r">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="r" xml:lang="fr" ana="person male archangel Michael">Saint
+                                 Michel à mi-corps, de face, ailes largement éployées, rejetées sur
+                                 les côtés. Revêtu du lôros droit orné de perles, il tient en main
+                                 gauche le globe et en main droite un sceptre trifolié au manche
+                                 bouleté.</figDesc>
+                              <figDesc n="r" xml:lang="en" ana="person male archangel Michael">Saint
+                                 Michael, half-length, facing forward, wings spread wide, thrown
+                                 back to the sides. Clad in a straight loros adorned with pearls, he
+                                 holds the globe in his left hand and a trifoliate sceptre with a
+                                 ball-shaped decoration handle in his right hand.</figDesc>
+                              <figDesc n="decoR" xml:lang="fr">Cercle de grènetis; la gravure est
+                                 d'une grande finesse; les sigles sont visibles seulement à
+                                 droite</figDesc>
+                              <figDesc n="decoR" xml:lang="en">Circle of dots; the engraving is very
+                                 fine; sigla is visible only on the right</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+               <msPart n="v">
+                  <msIdentifier/>
+                  <msContents>
+                     <summary n="v"><!-- ajouté ceci -->
+                        <seg xml:lang="en">Reverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="v">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="en">Linear legend of 6 lines</p>
+                              <p xml:lang="fr">Légende linéaire sur 6 lignes</p>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="v">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="decoV" xml:lang="fr">Cercle de grènetis; l'inscription est
+                                 précédée d'une croisette et la dernière ligne est accostée de
+                                 tirets</figDesc>
+                              <figDesc n="decoV" xml:lang="en">Circle of dots; the legend is
+                                 preceded by a crosslet and the last line is between
+                                 traits</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2025-04-02" who="#PE">Creation of the XML record.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp>
+         <surface n="r">
+            <desc>Obverse</desc>
+            <graphic type="photo" url="CdN2004-0495_1.jpg">
+               <desc xml:lang="en">CdN 2004-0495, obverse</desc>
+               <desc xml:lang="fr">CdN 2004-0495, avers</desc>
+            </graphic>
+         </surface>
+         <surface n="v">
+            <desc>Reverse</desc>
+            <graphic type="photo" url="CdN2004-0495_2.jpg">
+               <desc xml:lang="en">CdN 2004-0495, reverse</desc>
+               <desc xml:lang="fr">CdN 2004-0495, revers</desc>
+            </graphic>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" subtype="editorial" xml:space="preserve"> 
+            <div type="textpart" subtype="sigla" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="a"/>Μ
+                 <cb n="b" break="no"/><supplied reason="lost">ιχαήλ</supplied>
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab ana="dat">
+                         <lb n="1"/><rs type="invocation" ref="#inv003"><expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan> <expan><supplied reason="lost"><abbr>β</abbr><ex>οή</ex></supplied><abbr>θ</abbr><ex>ει</ex></expan></rs> 
+                         <lb n="2"/>Ῥωμανo 
+                         <lb n="3"/><rs type="dignity" ref="#d0066"><expan><abbr><am>Α</am></abbr><ex>πρωτο</ex><abbr>σπαθ</abbr><ex>αρίῳ</ex></expan></rs> <expan><abbr><am>S</am></abbr><ex>καὶ</ex></expan> 
+                         <lb n="4"/><rs type="office" subtype="military" ref="#of0279"><expan><abbr>στρ</abbr><ex>α</ex><abbr>τ</abbr><ex>η</ex><supplied reason="lost"><abbr>γ</abbr><ex>ῷ</ex></supplied></expan></rs> τo 
+                         <lb n="5"/><expan><abbr>Πεδιαδ</abbr><ex>ί</ex>
+                         <lb n="6" break="no"/><abbr>τ</abbr><ex>ῃ</ex></expan>
+                      </ab>
+                  </div>
+              </div>
+         <div type="edition" subtype="diplomatic" xml:space="preserve"> 
+                  <div type="textpart" subtype="sigla" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="a"/>Μ
+                 <cb n="b"/>.
+              </ab>
+            </div>
+            <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab>
+                         <lb n="1"/>ke.θ/ 
+                         <lb n="2"/>ρ̣μανο 
+                         <lb n="3"/>ασπαθ/ Ϗ  
+                         <lb n="4"/>στρ/ τ̣/ 
+                         <lb n="5"/>.τοπεδιαδ/     
+                         <lb n="6"/>τ/ 
+                         </ab>
+                  </div>
+              </div>
+         <div type="translation">
+            <p>Μιχαήλ. || + Κύριε βοήθει Ῥωμανo πρωτοσπαθαρίῳ καὶ στρατηγῷ τo Πεδιαδίτῃ.</p>
+            <p xml:lang="en">Michael. || + Lord, help Romanos Pediadites, protospatharios and
+               strategos</p>
+            <p xml:lang="fr">Michel. || + Seigneur, accorde ton secours à Romain Pédiaditès,
+               protospathaire et stratège</p>
+         </div>
+         <div type="commentary" subtype="text">
+            <!-- renvois internes à refaire -->
+            <p xml:lang="en">The seals reveal some members of the family, represented in the 11th
+               century by the eunuch Basile, who served Michael IV as vestes and catepan of Antioch (1037–1040)<bibl>
+                  <ptr target="ZacosSpink2"/>, n° <citedRange unit="entry">260</citedRange></bibl>,
+               then catepan of Sicily (1040-1041)<bibl>
+                  <ptr target="SkylitzèsEmpereurs2003"/>, p. <citedRange unit="page"
+                     >406-407</citedRange></bibl>, which he is said to have helped lose to the
+               Saracens. His seal as vestes and catepan of Antioch bears a half-length image of
+               Saint Michael very similar to that on the seal presented here. The seal of a
+               contemporary, without mention of title or function, on which Saint Procopius appears
+               on the obverse, suggests that it is a homonym. Two seals bearing the name of
+               Constantine, which do not necessarily belong to the same person, date from the 12th
+               century. Alexis Pediadites left a seal without title or function, from the end of the
+               12th century <bibl>
+                  <ptr target="JordanovCorpus3"/>, no. <citedRange unit="entry"
+                  >2025</citedRange></bibl>. In the 13th century, the Pédiadites family was
+               represented by another Basil, deacon and master of rhetoric, who was promoted to
+               Metropolitan of Corfu from 1201 to 1219.</p>
+            <p xml:lang="en"/>
+            <p xml:lang="fr">Les sceaux nous font connaître quelques membres de la famille,
+               représentée au XIe siècle par l’eunuque Basile, au service de Michel IV en tant que
+               vestès et catépan d’Antioche (1037-1040)<bibl>
+                  <ptr target="ZacosSpink2"/>, n° <citedRange unit="entry">260</citedRange></bibl>,
+               puis catépan de Sicile (1040-1041)<bibl>
+                  <ptr target="SkylitzèsEmpereurs2003"/>, p. <citedRange unit="page"
+                     >406-407</citedRange></bibl>, qu’il aurait contribué à perdre au profit des
+               Sarrasins. Son sceau de vestès et catépan d’Antioche porte au droit un saint Michel à
+               mi-corps très proche de celui du sceau présenté ici. Le sceau d’un contemporain, sans
+               mention de titre ou de fonction, sur lequel figure au droit saint Procope, suggère
+               qu’il s’agit d’un homonyme. Deux sceaux au nom de Constantin, qui n’appartiennent pas
+               nécessairement au même personnage, datent du XIIe siècle <bibl>
+                  <ptr target="DOsealsOnline"/>, n° <citedRange unit="entry">BZS
+                     58.106.1755 et BZS 1958.106.2899</citedRange></bibl>. Alexis Pédiaditès a laissé un sceau sans
+               titre ni fonction, de la fin du XIIe siècle <bibl>
+                  <ptr target="JordanovCorpus3"/>, n° <citedRange unit="entry"
+                  >2025</citedRange></bibl>. Au XIIIe siècle, les Pédiaditai sont représentés par un
+               autre Basile, diacre et maître des rhéteurs, promu métropolite de Corfou de 1201 à
+               1219.</p>
+            <p xml:lang="fr"/>
+         </div>
+         <div type="bibliography" subtype="edition">
+            <p><bibl>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">101</citedRange></bibl>
+               <bibl/>
+            </p>
+         </div>
+         <div type="bibliography" subtype="parallels">
+            <p/>
+         </div>
+         <div type="bibliography" subtype="discussion">
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

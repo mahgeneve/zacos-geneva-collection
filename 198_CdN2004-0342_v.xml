@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en">Stephane Batatzes, sebastos</title>
+            <title xml:lang="fr">Étienne Batatzès, sébaste</title>
+            <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
+            <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+            <funder>
+               <orgName corresp="https://www.mahmah.ch/">MAH-Musée d'art et d'histoire - Genève,
+                  Cabinet de numismatique</orgName>, Suisse</funder>
+            <principal ref="#MCP"/>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <seg xml:lang="fr">Amélioration digitale</seg>
+               <seg xml:lang="en">Digital enhancement</seg>
+            </edition>
+            <editor role="digital-editor" xml:id="PE" when="2025-04-22">Pia Evening</editor>
+            <editor role="digital-editor" ref="#MCP" when="2026-04-16">Maria
+               Campagnolo-Pothitou</editor>
+         </editionStmt>
+         <publicationStmt>
+            <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
+            <idno type="filename">CdN 2004-0342</idno>
+            <idno type="SigiDocID">s-AnSjis</idno>
+            <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+            <idno type="sequence"/>
+            <!--  to be compiled automatically; leave as is  -->
+            <date when="2024-08-06"/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                  >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                  4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listPerson type="issuer">
+               <person gender="M" role="imperial aristocracy">
+                  <persName xml:lang="grc">
+                     <forename>Στέφανος</forename>
+                     <surname>Βατάτζης</surname>
+                  </persName>
+                  <persName xml:lang="fr">
+                     <forename>Etienne</forename>
+                     <surname>Batatzès</surname>
+                  </persName>
+                  <persName xml:lang="en">
+                     <forename>Stephanos</forename>
+                     <surname>Batatzes</surname>
+                  </persName>
+                  <idno type="PBW" ana="http://pbw2016.kdl.kcl.ac.uk/person/Stephanos/20233/"
+                     >Stephanos 20233</idno>
+
+                  <idno type="PBE"/>
+                  <idno type="PLP"/>
+                  <idno type="PLRE"/>
+                  <idno type="PcBE"/>
+                  <idno type="PmbZ"/>
+               </person>
+            </listPerson>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <seg xml:lang="en">Switzerland</seg>
+                     <seg xml:lang="fr">Suisse</seg>
+                  </country>
+                  <settlement>
+                     <seg xml:lang="en">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">City of
+                           Geneva</placeName>
+                     </seg>
+                     <seg xml:lang="fr">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">Ville de
+                           Genève</placeName>
+                     </seg>
+                  </settlement>
+                  <institution>MAH-Musée d'art et d'histoire</institution>
+                  <repository>Cabinet de numismatique</repository>
+                  <collection type="public">
+                     <rs type="collection-name" xml:lang="en">Byzantine seals collection</rs>
+                     <rs type="collection-name" xml:lang="fr">Collection de sceaux byzantins</rs>
+                  </collection>
+                  <idno type="inv-nr-current">CdN 2004-0342</idno>
+                  <altIdentifier>
+                     <repository/>
+                     <idno type="inv-nr-former"/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <!--https://github.com/SigiDoc/Guidelines/wiki/5.-Controlled-vocabularies#seals-category-->
+                  <summary n="whole">
+                     <seg xml:lang="fr">Dignitaires</seg>
+                     <seg xml:lang="en">Dignitaries</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>
+                              <term>
+                                 <seg xml:lang="fr">Sceau</seg>
+                                 <seg xml:lang="en">Seal</seg>
+                              </term>
+                              <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                              <interp type="workType" xml:lang="en">Original impression</interp>
+                           </objectType>
+                           <material>
+                              <seg xml:lang="fr">Plomb</seg>
+                              <seg xml:lang="en">Lead</seg>
+                           </material>
+                           <dimensions type="support" unit="mm">
+                              <dim type="diameter">40,84/38,11</dim>
+                              <!-- mesure du champ? -->
+                           </dimensions>
+                           <measure type="weight" unit="g">26,453</measure>
+                           <measure type="axis" unit="clock"/>
+                           <measure type="overstrikeOrient" unit="clock"/>
+                           <measure type="channelOrient" unit="clock"/>
+                           <measure type="countermark" unit="clock"/>
+                        </support>
+                        <condition rend="well-struck well-preserved worn-edge pierced not-centered">
+                           <p xml:lang="en">The bulla is well struck, even if not centered on the
+                              reverse, and rather well preserved; worn on the half part of the edge
+                              and pierced on the top, instead of a channel</p>
+                           <p xml:lang="fr">La bulle est bien frappée, mais légèrement décentrée au
+                              revers, et realtivement bien conservée; rognée sur la moitié de la
+                              tranche et perforée en haut sur la tranche, à la place d'un canal</p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout n="whole">
+                           <rs type="execution">
+                              <seg xml:lang="fr">Frappé</seg>
+                              <seg xml:lang="en">Struck</seg>
+                           </rs>
+                           <rs type="shape">
+                              <seg xml:lang="fr">Ronde</seg>
+                              <seg xml:lang="en">Round</seg>
+                           </rs>
+                           <rs type="matrix" subtype="not-surviving">
+                              <idno type="SigiDoc">m-2E7VrI</idno>
+                              <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+                              <idno type="PBW"
+                                 >http://pbw2016.kdl.kcl.ac.uk/boulloterion/5240/</idno>
+                              <!-- to be used if the seal has a parallel in the PBW with a boulloterion registered there -->
+                           </rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <seg xml:lang="fr">
+                           <placeName/>
+                        </seg>
+                        <seg xml:lang="en">
+                           <placeName/>
+                        </seg>
+                     </origPlace>
+                     <origDate type="analysis" notBefore="1151" notAfter="1220"
+                        evidence="epigraphy iconography prosopography onomastics" cert="high"
+                        resp="#MCP #JCC">
+                        <seg xml:lang="en">Second half of the 12th/beginning of the 13th
+                           century</seg>
+                        <seg xml:lang="fr">Seconde moitié du XIIe siècle/début du XIIIe siècle</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="transferred" subtype="donated" when="2004-11-24">
+                     <!-- pas sûr de subtype et when -->
+                     <p xml:lang="en">George Zacos collection</p>
+                     <p xml:lang="fr">Collection Georges Zacos</p>
+                  </provenance>
+                  <acquisition>
+                     <p xml:lang="en">Donation of the Migore Foundation, Janet Zakos legacy, <date
+                           when="2004-11-24">24th November 2004</date>
+                     </p>
+                     <p xml:lang="fr">Don de la Fondation Migore, legs Janet Zakos, <date
+                           when="2004-11-24">24 Novembre 2004</date>
+                     </p>
+                  </acquisition>
+               </history>
+               <msPart n="r">
+                  <msIdentifier/>
+                  <msContents>
+                     <!-- ajouté ceci -->
+                     <summary n="r">
+                        <seg xml:lang="en">Obverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="r">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="fr">Iconographie avec épigraphe en colonnes de part et
+                                 d'autre de l'effigie</p>
+                              <p xml:lang="en">Iconography with epigraphs on columns on either side
+                                 of the effigy</p>
+                           </layout>
+                        </layoutDesc>
+
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="r">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="r" xml:lang="fr" ana="person female Virgin Episkepsis"
+                                 >Vierge Épiskepsis de face, debout sur un souppédion, orante, le
+                                 manteau largement éployé, avec le médaillon au buste de l’Enfant
+                                 posé sur la poitrine</figDesc>
+                              <figDesc n="r" xml:lang="en" ana="person female Virgin Episkepsis"
+                                 >Virgin Episkepsis standing on a souppedion, facing forward, in a
+                                 prayer attitude, her mantle wide spread, bearing the medaillon of
+                                 the Child before her chest</figDesc>
+                              <figDesc n="decoR" xml:lang="fr">Cercle de grènetis</figDesc>
+                              <figDesc n="decoR" xml:lang="en">Border of dots</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+               <msPart n="v">
+                  <msIdentifier/>
+                  <msContents>
+                     <summary n="v"><!-- ajouté ceci -->
+                        <seg xml:lang="en">Reverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="v">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="en">Linear metrical legend of 5 lines</p>
+                              <p xml:lang="fr">Légende linéaire métrique sur 5 lignes</p>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="v">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="decoV" xml:lang="fr">Cercle de grènetis; la légende est
+                                 surmontée d'une croisette et suivie d'une perle accostée de
+                                 tirets</figDesc>
+                              <figDesc n="decoV" xml:lang="en">Border of dots; the legend is
+                                 surmounted by a crosslet and followed by a bead placed between
+                                 traits</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2025-04-22" who="#PE">Creation of the XML record.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp>
+         <surface n="r">
+            <desc>Obverse</desc>
+            <graphic type="photo" url="CdN2004-0342_1.jpg">
+               <desc xml:lang="en">CdN 2004-0342, obverse</desc>
+               <desc xml:lang="fr">CdN 2004-0342, avers</desc>
+            </graphic>
+         </surface>
+         <surface n="v">
+            <desc>Reverse</desc>
+            <graphic type="photo" url="CdN2004-0342_2.jpg">
+               <desc xml:lang="en">CdN 2004-0342, reverse</desc>
+               <desc xml:lang="fr">CdN 2004-0342, revers</desc>
+            </graphic>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" subtype="editorial" xml:space="preserve"> 
+            <div type="textpart" subtype="sigla" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="a"/><expan><abbr>Μ</abbr><ex>ήτ</ex><abbr>ηρ</abbr></expan> 
+                 <cb n="b"/><expan><abbr>Θ</abbr><ex>εο</ex><abbr>ῦ</abbr></expan>
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <lg type="metrical" met="dodecasyllable" subtype="false">
+                         <l n="1">
+                            <lb n="1"/><rs type="dignity" ref="#d0075">Σεβαστὸν</rs> 
+                            <lb n="2"/>Βατάτζην 
+                            <lb n="3"/>Στέφανον 
+                            <lb n="4"/>Παρθένε 
+                            <lb n="5"/>σκέποις
+                         </l>
+                      </lg>
+                  </div>
+              </div>
+         <div type="edition" subtype="diplomatic" xml:space="preserve"> 
+                  <div type="textpart" subtype="sigla" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="a"/>̣
+                 <cb n="b"/>ΘV
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab>
+                         <lb n="0"/>       
+                         <lb n="1"/>σεrαστον                          
+                         <lb n="2"/>rατατην
+                         <lb n="3"/>στεφανον
+                         <lb n="4"/>παρθενε
+                         <lb n="5"/>σκεποις
+                         <lb n="0"/>    
+                         </ab>
+                  </div>
+              </div>
+         <div type="translation">
+            <p>Μήτηρ Θεοῦ. || + Σεβαστὸν Βατάτζην Στέφανον, Παρθένε, σκέποις.</p>
+            <p xml:lang="en">Mother of God. || + Virgin, may protect the sebastos Stephanos
+               Batatzes</p>
+            <p xml:lang="fr">Mère de Dieu. || + Vierge, veuille protéger le sébaste Étienne
+               Batatzès</p>
+         </div>
+         <div type="commentary" subtype="text">
+            <!-- renvois internes à refaire -->
+            <p xml:lang="en">The seals left behind by the Batatzes family are listed in <bibl>
+                  <ptr target="JordanovCorpus2"/>, n° <citedRange unit="entry"
+                     >89-102A</citedRange></bibl>.Stephanos Batatzes left a seal with the same inscription, ending with
+               CKEΠE instead of CΚΕΠΟΙC, and featuring the ligature  <bibl>
+                  <ptr target="JordanovCorpus2"/>, n° <citedRange unit="entry"
+                     >99</citedRange></bibl>; <bibl>
+                        <ptr target="Istanbul"/>, n° <citedRange unit="entry"
+                           >5.173</citedRange></bibl>;(IFEB 966 (demi-plomb), inédit). Finally, another bulla bears
+               a legend identical to ours, in a different layout and epigraphy; it was engraved very
+               clumsily by a non-specialist, which renders all epigraphic dating criteria
+               ineffective. Leontiades dates it to the second half of the 13th century, and in that
+               case, it would undoubtedly be a descendant of our signatory <bibl>
+                  <ptr target="JordanovCorpus2"/>, n° <citedRange unit="entry"
+                     >89</citedRange></bibl>. However, it would be
+               exceptional for a seal bearing the same metrical legend and the same iconography on
+               the obverse to have been engraved for two namesakes. The Batatzai appear in
+               historical sources during the reign of Basil II, supporting the Bulgarian Samuel
+               against the emperor. Settled in Adrianople and allied with the Tornikioi, the
+               Bryennioi and the Tarchaneiotai, the Batatzai formed with the latter the group of
+               Macedonians who, in the mid- 11th century, took an active part in the struggles to
+               seize the throne. Their support for the rebel Leo Tornikios in 1047 <bibl>
+                  <ptr target="Empereurs2003"/>, p. <citedRange unit="page"
+                     >368</citedRange></bibl>; <bibl>
+                        <ptr target="Attaleiates2012"/>, ch. <citedRange unit="chapitre"
+                           >6,§ 11</citedRange></bibl>, or even for
+               Nikephoros Bryennios in 1077 <bibl>
+                  <ptr target="Attaleiates2012"/>, ch. <citedRange unit="chapitre"
+                     >31,§ 3-4</citedRange></bibl>, did not compromise the social rise of the family,
+               which, in the 12th century, allied itself with the Komnenoi through the marriage of
+               Theodore to a sister of Emperor Manuel Komnenos. The Emperor of Nicaea, John III
+               Doukas, was also a Batatzes <bibl>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry"
+                     >17</citedRange></bibl>. The Batatzai distinguished themselves
+               as officers over a long period, as evidenced by narrative sources and seals.
+               Nikephoros, in the second half of the 11th century, was doux of Bulgaria, then doux
+               of the entire West.⁶ In the following century, Theodore and his sons campaigned on
+               behalf of Emperor Manuel.⁷ John Komnenos Batatzes served as a domesticos of the
+               Scholes at the end of that emperor’s reign. Under Isaac II Angelos, in 1194, Basil
+               Batatzes commanded the Western troops in the ill-fated battle against the Bulgarians,
+               where he was killed. </p>
+            <p xml:lang="en"/>
+            <p xml:lang="fr">Les sceaux laissés par les Batatzai sont répertoriés dans <bibl>
+                  <ptr target="JordanovCorpus2"/>, n° <citedRange unit="entry"
+                     >89-102A</citedRange></bibl>. Étienne Batatzès a laissé un sceau de même légende, terminé par CKEΠE,
+               à la place de CΚΕΠΟΙC, et comportant la ligature  <bibl>
+                  <ptr target="JordanovCorpus2"/>, n° <citedRange unit="entry"
+                  >99</citedRange></bibl>; <bibl>
+                  <ptr target="Istanbul"/>, n° <citedRange unit="entry"
+               >5.173</citedRange></bibl>;(IFEB 966 (demi-plomb), inédit. Enfin, une autre bulle
+               porte une légende identique à la nôtre, dans une répartition et une épigraphie
+               différentes ; elle a été gravée très maladroitement par un non-spécialiste, ce qui
+               rend inopérants tous les critères épigraphiques de datation. Leontiades la date de la
+               seconde moitié du XIIIe siècle et, dans ce cas, il s’agirait sans doute d’un
+               descendant de notre signataire <bibl>
+                  <ptr target="JordanovCorpus2"/>, n° <citedRange unit="entry"
+                     >89</citedRange></bibl>. Cependant, il serait exceptionnel qu’un sceau portant
+               la même légende métrique et la même iconographie au droit ait été gravé pour deux
+               homonymes. Les Batatzai apparaissent dans les sources sous le règne de Basile II en
+               soutenant le bulgare Samuel contre l’empereur. Établis à Andrinople et alliés aux
+               Tornikioi, aux Bryennioi et aux Tarchaneiôtai, les Batatzai formaient avec ces
+               derniers le groupe des Macédoniens qui, au milieu du XIe siècle, prirent activement
+               part aux luttes pour s’emparer du trône. Leur prise de position en faveur du rebelle
+               Léon Tornikios, en 1047 <bibl>
+                  <ptr target="Empereurs2003"/>, p. <citedRange unit="page"
+                     >368</citedRange></bibl>; <bibl>
+                        <ptr target="Attaleiates2012"/>, ch. <citedRange unit="chapitre"
+                           >6,§ 11</citedRange></bibl>, ou même de Nicéphore Bryennios, en 1077 <bibl>
+                  <ptr target="Attaleiates2012"/>, ch. <citedRange unit="chapitre"
+                     >31,§ 3-4</citedRange></bibl>, n’a pas compromis
+               l’ascension sociale de la famille qui, au XIIe siècle, s’est alliée aux Comnènes par
+               le mariage de Théodore avec une soeur de l’empereur Manuel Comnène. L’empereur de
+               Nicée, Jean III Doukas, était aussi un Batatzès <bibl>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry"
+                     >17</citedRange></bibl>. Les Batatzai se
+               sont durablement illustrés comme officiers, comme en témoignent les sources
+               narratives et les sceaux. Nicéphore, dans la seconde moitié du XIe siècle, fut duc de
+               Bulgarie, puis duc de tout l’Occident <bibl>
+                  <ptr target="BBÖ1"/>, n° <citedRange unit="entry"
+                     >113</citedRange></bibl>. Au siècle suivant, Théodore et ses fils firent
+               campagne pour le compte de l’empereur Manuel. Jean Comnène Batatzès fut domestique
+               des Scholes à la fin du règne de cet empereur. Sous Isaac II Ange, en 1194, Basile
+               Batatzès commandait les troupes d’Occident à la bataille malheureuse contre les
+               Bulgares, où il trouva la mort.</p>
+            <p xml:lang="fr"/>
+         </div>
+         <div type="bibliography" subtype="edition">
+            <p><bibl>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry"
+                     >198</citedRange></bibl>
+               <bibl/>
+            </p>
+         </div>
+         <div type="bibliography" subtype="parallels">
+            <p/>
+         </div>
+         <div type="bibliography" subtype="discussion">
+            <bibl>
+               <ptr target="JordanovCorpus2"/>, n° <citedRange unit="entry"
+                  >89</citedRange></bibl><p/>
+         </div>
+      </body>
+   </text>
+</TEI>

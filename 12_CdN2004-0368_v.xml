@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en">Constantine X Doukas</title>
+            <title xml:lang="fr">Constantin X Doukas</title>
+            <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
+            <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+            <funder>
+               <orgName corresp="https://www.mahmah.ch/">MAH-Musée d'art et d'histoire - Genève,
+                  Cabinet de numismatique</orgName>, Suisse</funder>
+            <principal ref="#MCP"/>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <seg xml:lang="fr">Amélioration digitale</seg>
+               <seg xml:lang="en">Digital enhancement</seg>
+            </edition>
+            <editor role="digital-editor" xml:id="PE" when="2025-06-02">Pia Evening</editor>
+         </editionStmt>
+         <publicationStmt>
+            <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
+            <idno type="filename">CdN 2004-0368</idno>
+            <idno type="SigiDocID">s-W3QvR4</idno>
+            <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+            <idno type="sequence"/>
+            <!--  to be compiled automatically; leave as is  -->
+            <date when="2024-08-06"/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                  >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                  4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listPerson type="issuer">
+               <person gender="M" role="imperial">
+                  <persName xml:lang="grc">
+                     <forename>Κωνσταντῖνος Ι΄</forename><surname>Δούκας</surname> </persName>
+                  <persName xml:lang="fr">
+                     <forename>Constantin X</forename> <surname>Doukas</surname> </persName>
+                  <persName xml:lang="en">
+                     <forename>Constantine X</forename><surname>Doukas</surname> </persName>
+                  <idno type="PBW" ana="http://pbw2016.kdl.kcl.ac.uk/person/Konstantinos/62/"
+                     >Konstantinos 62</idno>
+                  <idno type="PBW"/>
+                  <idno type="PBE"/>
+                  <idno type="PLP"/>
+                  <idno type="PLRE"/>
+                  <idno type="PcBE"/>
+                  <idno type="PmbZ"/>
+               </person>
+            </listPerson>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <seg xml:lang="en">Switzerland</seg>
+                     <seg xml:lang="fr">Suisse</seg>
+                  </country>
+                  <settlement>
+                     <seg xml:lang="en">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">City of
+                           Geneva</placeName>
+                     </seg>
+                     <seg xml:lang="fr">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">Ville de
+                           Genève</placeName>
+                     </seg>
+                  </settlement>
+                  <institution>MAH-Musée d'art et d'histoire</institution>
+                  <repository>Cabinet de numismatique</repository>
+                  <collection type="public">
+                     <rs type="collection-name" xml:lang="en">Byzantine seals collection</rs>
+                     <rs type="collection-name" xml:lang="fr">Collection de sceaux byzantins</rs>
+                  </collection>
+                  <idno type="inv-nr-current">CdN 2004-0368</idno>
+                  <altIdentifier>
+                     <repository/>
+                     <idno type="inv-nr-former"/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <!--https://github.com/SigiDoc/Guidelines/wiki/5.-Controlled-vocabularies#seals-category-->
+                  <summary n="whole">
+                     <seg xml:lang="fr">impérial</seg>
+                     <seg xml:lang="en">imperial</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>
+                              <term>
+                                 <seg xml:lang="fr">Sceau</seg>
+                                 <seg xml:lang="en">Seal</seg>
+                              </term>
+                              <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                              <interp type="workType" xml:lang="en">Original impression</interp>
+                           </objectType>
+                           <material>
+                              <seg xml:lang="fr">Plomb</seg>
+                              <seg xml:lang="en">Lead</seg>
+                           </material>
+                           <dimensions type="support" unit="mm">
+                              <dim type="diameter">34,09/31,40</dim>
+                              <!-- mesure du champ? -->
+                           </dimensions>
+                           <measure type="weight" unit="g">39,221</measure>
+                           <measure type="axis" unit="clock"/>
+                           <measure type="overstrikeOrient" unit="clock"/>
+                           <measure type="channelOrient" unit="clock">12-6</measure>
+                           <measure type="countermark" unit="clock"/>
+                        </support>
+                        <condition rend="well-struck crushed chipped">
+                           <p xml:lang="en">The bulla is well-struck and fairly well-preserved,
+                              slightly crushed and slightly chipped at the opennings of the channel </p>
+                           <p xml:lang="fr">La bulle est bien frappée et moyennement bien conservée;
+                              légèrement écrasée et légèrement échancrée aux orifices du canal</p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout n="whole">
+                           <rs type="execution">
+                              <seg xml:lang="fr">Frappé</seg>
+                              <seg xml:lang="en">Struck</seg>
+                           </rs>
+                           <rs type="shape">
+                              <seg xml:lang="fr">Ronde</seg>
+                              <seg xml:lang="en">Round</seg>
+                           </rs>
+                           <rs type="matrix" subtype="not-surviving">
+                              <idno type="SigiDoc">m-E2qkSP</idno>
+                              <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+                              <idno type="PBW"/>
+                              <!-- to be used if the seal has a parallel in the PBW with a boulloterion registered there -->
+                           </rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <seg xml:lang="fr">
+                           <placeName/>
+                        </seg>
+                        <seg xml:lang="en">
+                           <placeName/>
+                        </seg>
+                     </origPlace>
+                     <origDate type="analysis" notBefore="1059" notAfter="1065"
+                        evidence="prosopography iconography reign" cert="high" resp="#MCP #JCC">
+                        <seg xml:lang="en">1059-1065</seg>
+                        <seg xml:lang="fr">1059-1065</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="transferred" subtype="donated" when="2004-11-24">
+                     <!-- pas sûr de subtype et when -->
+                     <p xml:lang="en">George Zacos collection</p>
+                     <p xml:lang="fr">Collection Georges Zacos</p>
+                  </provenance>
+                  <acquisition>
+                     <p xml:lang="en">Donation of the Migore Foundation, Janet Zakos legacy, <date
+                           when="2004-11-24">24th November 2004</date>
+                     </p>
+                     <p xml:lang="fr">Don de la Fondation Migore, legs Janet Zakos, <date
+                           when="2004-11-24">24 Novembre 2004</date>
+                     </p>
+                  </acquisition>
+               </history>
+               <msPart n="r">
+                  <msIdentifier/>
+                  <msContents>
+                     <!-- ajouté ceci -->
+                     <summary n="r">
+                        <seg xml:lang="en">Obverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="r">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="fr">Iconographie avec de part et d'autre des sigles et
+                                 inscription circulaire</p>
+                              <p xml:lang="en">Iconography with sigla on either side and circular
+                                 inscription</p>
+                           </layout>
+                        </layoutDesc>
+
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="r">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="r" xml:lang="fr" ana="person male Christ">Buste du Christ
+                                 barbu, de face, tenant les évangiles en main gauche.</figDesc>
+                              <figDesc n="r" xml:lang="en" ana="person male Christ">Bust of beaded
+                                 Christ, front view, holding the Gospels on his right hand</figDesc>
+                              <figDesc n="decoR" xml:lang="fr">Cercle de grènetis; les branches du
+                                 nimbe cruciforme sont ornées d’un X formé de cinq perles;
+                                 l'inscription est précédée d'une croisette</figDesc>
+                              <figDesc n="decoR" xml:lang="en">Circle of dots; the branches of the
+                                 cruciform halo are adorned with an X formed by five pearls; the
+                                 iscription is preceded by a crosslet</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+               <msPart n="v">
+                  <msIdentifier/>
+                  <msContents>
+                     <summary n="v"><!-- ajouté ceci -->
+                        <seg xml:lang="en">Reverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="v">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="en">Iconography with circular inscription</p>
+                              <p xml:lang="fr">Iconographie avec inscription circulaire</p>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="v">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="v" xml:lang="fr" ana="person male emperor">Constantin X
+                                 Doukas en pied, de face, portant barbe courte et moustache.
+                                 L’empereur, coiffé d’une couronne à pendilia, surmontée d’une croix
+                                 de perles, est vêtu du divitision et du lôros droit dont le pan,
+                                 garni d’une frange de trois perles, retombe sur le bras gauche. De
+                                 la main droite, il saisit un labarum posé au sol, dont la haste est
+                                 ornée d’une boule à mi-hauteur ; la main gauche, peu visible, tient
+                                 l’akakia.</figDesc>
+                              <figDesc n="v" xml:lang="en" ana="person male emperor">Constantine X
+                                 Doukas full-length, front view, wearing a short beard and
+                                 moustache. The emperor, wearing a crown with pendilia, surmounted
+                                 by a cross of pearls, is dressed in divitision and the right lôros,
+                                 the flap of which, trimmed with a fringe of three pearls, falls
+                                 over his left arm. In his right hand, he is holding a labarum lying
+                                 on the ground, the shaft of which is decorated with a ball halfway
+                                 up; his left hand, which is not very visible, is holding the
+                                 akakia.</figDesc>
+                              <figDesc n="decoV" xml:lang="fr">Cercle de grènetis</figDesc>
+                              <figDesc n="decoV" xml:lang="en">Circle of dots</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2025-06-02" who="#PE">Creation of the XML record.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp>
+         <surface n="r">
+            <desc>Obverse</desc>
+            <graphic type="photo" url="CdN2004-0368_1.jpg">
+               <desc xml:lang="en">CdN 2004-0368, obverse</desc>
+               <desc xml:lang="fr">CdN 2004-0368, avers</desc>
+            </graphic>
+         </surface>
+         <surface n="v">
+            <desc>Reverse</desc>
+            <graphic type="photo" url="CdN2004-0368_2.jpg">
+               <desc xml:lang="en">CdN 2004-0368, reverse</desc>
+               <desc xml:lang="fr">CdN 2004-0368, revers</desc>
+            </graphic>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" subtype="editorial" xml:space="preserve"> 
+            <div type="textpart" subtype="sigla" rend="columns" n="obv" xml:lang="grc">
+              <ab>
+                 <cb n="a"/><expan><abbr>Ἰ</abbr><ex>ησοῦ</ex><abbr>ς</abbr></expan> 
+                 <cb n="b"/><expan><abbr>Χ</abbr><ex>ριστό</ex><abbr>ς</abbr></expan>
+              </ab>
+            </div>
+            <div type="textpart" subtype="label" rend="circular" n="obv" xml:lang="grc">
+              <ab>
+                 <lb n="1"/><supplied reason="lost">Ἐμμαν</supplied>ουήλ
+              </ab>
+            </div>
+            <div type="textpart" subtype="face" rend="circular" n="rev" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab ana="nom">
+                 <lb n="2"/><expan><abbr>Κων</abbr><ex>σταντῖνος</ex></expan> <expan><abbr>βασι<supplied reason="lost">λ</supplied>ε</abbr><ex>ὺς</ex></expan> Ῥωμαίον ὁ <expan><abbr>δούκ</abbr><ex>ας</ex></expan>
+              </ab>
+            </div>
+              </div>
+         <div type="edition" subtype="diplomatic" xml:space="preserve"> 
+            <div type="textpart" subtype="sigla" rend="columns" n="obv" xml:lang="grc">
+              <ab>
+                 <cb n="a"/>ισ
+                 <cb n="b"/>χσ
+              </ab>
+            </div>
+            <div type="textpart" subtype="label" n="obv" rend="circular" xml:lang="grc">
+                      <ab>
+                         <lb n="1"/>....ουηλ
+                      </ab>
+                  </div>
+                  <div type="textpart" subtype="face" rend="circular" n="rev" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <lb n="2"/>κnRα̣σι.ε       ρμαιονο δκ/
+              </ab>
+                  </div>
+              </div>
+         <div type="translation">
+            <p>Ἰησοῦς Χριστός. Ἐμμανουήλ. || + Κωνσταντῖνος βασιλεὺς Ῥωμαίον ὁ Δούκας.</p>
+            <p xml:lang="en">Jesus Christ. + Emmanuel. || Constantine Doukas emperor of the
+               Romans.</p>
+            <p xml:lang="fr">Jésus Christ. + Emmanuel. || Constantin Doukas empereur des
+               Romains.</p>
+         </div>
+         <div type="commentary" subtype="text">
+            <!-- renvois internes à refaire -->
+            <p xml:lang="en">We know of several seals with the obverse and imperial effigy identical
+               to ours, but without the precision Ῥωμαίων. However, other pieces have a partially
+               preserved legend, which is difficult to classify. A second type of seal of
+               Constantine X reproduces the iconography of the second type of histamenon issued
+               during his reign (1059-1067): at the obverse, Christ sits on a lyre-shaped throne
+               and, on the reverse, the Virgin lays her hand on the emperor's head (<bibl>
+                  <ptr target="DOseals6"/>, n° <citedRange unit="entry">78</citedRange></bibl>). W.
+               Seibt examines this choice in the light of the danger posed to the Empire by the
+               Uzes' invasion of the Balkans in 1064-1065 and the health problems that Constantine
+               experienced at the end of 1066. He interprets it as gratitude on the part of the
+               emperor for the help given by the Virgin and suggests that this seal should be dated
+               after 1065<bibl>
+                  <ptr target="BBÖ1"/>, p. <citedRange unit="page">73</citedRange></bibl>.
+               Consequently, our copy dates from the first period of the reign. Constantine X was
+               the first emperor to engrave his patronymic on his gold coins, a practice he also
+               applied to his seals. His example was followed by all his successors.</p>
+            <p xml:lang="en"/>
+            <p xml:lang="fr">Nous connaissons plusieurs sceaux à l’avers et à l’effigie impériale
+               identiques au nôtre, mais à la légende circulaire sans la précision Ῥωμαίων.
+               Cependant, d’autres pièces présentent une légende partiellement conservée, qu’il est
+               difficile de classer. Un second type de sceau de Constantin X reproduit
+               l’iconographie du second type d’histaménon émis pendant son règne (1059-1067) : à
+               l’avers, le Christ siège sur un trône en forme de lyre et, au revers, la Vierge pose
+               la main sur la tête de l’empereur (<bibl>
+                  <ptr target="DOseals6"/>, n° <citedRange unit="entry">78</citedRange></bibl>. W. Seibt examine ce choix en fonction du danger
+               que représentait pour l’Empire l’invasion des Ouzes dans les Balkans en 1064-1065 et
+               des problèmes de santé que Constantin connut à la fin de 1066. Il l’interprète comme
+               une reconnaissance de la part de l’empereur pour l’aide apportée par la Vierge et
+               propose de dater ce sceau après 1065 <bibl>
+                  <ptr target="BBÖ1"/>, p. <citedRange unit="page">73</citedRange></bibl>. Par conséquent, notre exemplaire daterait de la
+               première période du règne. Constantin X est le premier empereur à graver son
+               patronyme sur ses monnaies d’or, pratique qu’il applique également à ses sceaux. Son
+               exemple fut suivi par tous ses successeurs.</p>
+            <p xml:lang="fr"/>
+         </div>
+         <div type="bibliography" subtype="edition">
+            <p><bibl>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">12</citedRange></bibl>;
+               <bibl>
+                  <ptr target="Zacos1"/>, n° <citedRange unit="entry">87c</citedRange></bibl>
+               <bibl/>
+            </p>
+         </div>
+         <div type="bibliography" subtype="parallels">
+            <p>Ermitage, M-7914 : 
+               <bibl>
+                  <ptr target="Sokolova2007"/>, n° <citedRange unit="entry">110</citedRange></bibl></p>
+            <p>Sofia, Musée archéologique, inv. 6 : 
+               <bibl>
+                  <ptr target="JordanovCorpus3"/>, n° <citedRange unit="entry">122</citedRange></bibl></p>
+            <p>Ist. inv. 856-1 : 
+               <bibl>
+                  <ptr target="Istanbul"/>, n° <citedRange unit="entry">1.34</citedRange></bibl></p>
+            <p>Vente Hirsch 271 (2010), no 2699 : 
+                  </p>
+         </div>
+         <div type="bibliography" subtype="discussion">
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

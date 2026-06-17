@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en">Gregory Pakourianos, sebastos</title>
+            <title xml:lang="fr">Grégoire Pakourianos, sébaste</title>
+            <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
+            <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+            <funder>
+               <orgName corresp="https://www.mahmah.ch/">MAH-Musée d'art et d'histoire - Genève,
+                  Cabinet de numismatique</orgName>, Suisse</funder>
+            <principal ref="#MCP"/>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <seg xml:lang="fr">Amélioration digitale</seg>
+               <seg xml:lang="en">Digital enhancement</seg>
+            </edition>
+            <editor role="digital-editor" xml:id="PE" when="2025-04-22">Pia Evening</editor>
+            <editor role="digital-editor" ref="#MCP" when="2026-06-15">Maria
+               Campagnolo-Pothitou</editor>
+         </editionStmt>
+         <publicationStmt>
+            <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
+            <idno type="filename">CdN 2004-0554</idno>
+            <idno type="SigiDocID">s-qkmEwn</idno>
+            <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+            <idno type="sequence"/>
+            <!--  to be compiled automatically; leave as is  -->
+            <date when="2024-08-06"/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                  >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                  4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listPerson type="issuer">
+               <person gender="M" role="aristocracy">
+                  <persName xml:lang="grc">
+                     <forename>Γρηγόριος</forename>
+                     <surname>Πακουριανός</surname>
+                  </persName>
+                  <persName xml:lang="fr">
+                     <forename>Grégoire</forename>
+                     <surname>Pakourianos</surname>
+                  </persName>
+                  <persName xml:lang="en">
+                     <forename>Gregory</forename>
+                     <surname>Pakourianos</surname>
+                  </persName>
+                  <idno type="PBW" ana="http://pbw2016.kdl.kcl.ac.uk/person/Gregorios/20155/"
+                     >Gregorios 20155</idno>
+
+                  <idno type="PBE"/>
+                  <idno type="PLP"/>
+                  <idno type="PLRE"/>
+                  <idno type="PcBE"/>
+                  <idno type="PmbZ"/>
+               </person>
+            </listPerson>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <seg xml:lang="en">Switzerland</seg>
+                     <seg xml:lang="fr">Suisse</seg>
+                  </country>
+                  <settlement>
+                     <seg xml:lang="en">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">City of
+                           Geneva</placeName>
+                     </seg>
+                     <seg xml:lang="fr">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">Ville de
+                           Genève</placeName>
+                     </seg>
+                  </settlement>
+                  <institution>MAH-Musée d'art et d'histoire</institution>
+                  <repository>Cabinet de numismatique</repository>
+                  <collection type="public">
+                     <rs type="collection-name" xml:lang="en">Byzantine seals collection</rs>
+                     <rs type="collection-name" xml:lang="fr">Collection de sceaux byzantins</rs>
+                  </collection>
+                  <idno type="inv-nr-current">CdN 2004-0554</idno>
+                  <altIdentifier>
+                     <repository/>
+                     <idno type="inv-nr-former"/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <!--https://github.com/SigiDoc/Guidelines/wiki/5.-Controlled-vocabularies#seals-category-->
+                  <summary n="whole">
+                     <seg xml:lang="fr">Dignitaires</seg>
+                     <seg xml:lang="en">Dignitaries</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>
+                              <term>
+                                 <seg xml:lang="fr">Sceau</seg>
+                                 <seg xml:lang="en">Seal</seg>
+                              </term>
+                              <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                              <interp type="workType" xml:lang="en">Original impression</interp>
+                           </objectType>
+                           <material>
+                              <seg xml:lang="fr">Plomb</seg>
+                              <seg xml:lang="en">Lead</seg>
+                           </material>
+                           <dimensions type="support" unit="mm">
+                              <dim type="diameter">34,04/31,91</dim>
+                              <!-- mesure du champ? -->
+                           </dimensions>
+                           <measure type="weight" unit="g">32,097</measure>
+                           <measure type="axis" unit="clock"/>
+                           <measure type="overstrikeOrient" unit="clock"/>
+                           <measure type="channelOrient" unit="clock">12-6</measure>
+                           <measure type="countermark" unit="clock"/>
+                        </support>
+                        <condition rend="well-struck well-preserved worn-edge chipped">
+                           <p xml:lang="en">The bulla is well struck and well preserved although its
+                              edge is worn; slightly chipped at the opennigs of the channel</p>
+                           <p xml:lang="fr">La bulle est bien frappée et bien conservée bien que
+                              légèrement cassée aux orifices du canal et rognée sur la tranche</p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout n="whole">
+                           <rs type="execution">
+                              <seg xml:lang="fr">Frappé</seg>
+                              <seg xml:lang="en">Struck</seg>
+                           </rs>
+                           <rs type="shape">
+                              <seg xml:lang="fr">Ronde</seg>
+                              <seg xml:lang="en">Round</seg>
+                           </rs>
+                           <rs type="matrix" subtype="not-surviving">
+                              <idno type="SigiDoc">m-ndKiyI</idno>
+                              <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+                              <idno type="PBW"/>
+                              <!-- to be used if the seal has a parallel in the PBW with a boulloterion registered there -->
+                           </rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <seg xml:lang="fr">
+                           <placeName/>
+                        </seg>
+                        <seg xml:lang="en">
+                           <placeName/>
+                        </seg>
+                     </origPlace>
+                     <origDate type="analysis" notBefore="1181" notAfter="1220"
+                        evidence="epigraphy iconography onomastics" cert="high" resp="#MCP #JCC">
+                        <seg xml:lang="en">End of the 12th - beginning of the 13th century</seg>
+                        <seg xml:lang="fr">Fin du XIIe - début du XIIIe siècle</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="transferred" subtype="donated" when="2004-11-24">
+                     <!-- pas sûr de subtype et when -->
+                     <p xml:lang="en">George Zacos collection</p>
+                     <p xml:lang="fr">Collection Georges Zacos</p>
+                  </provenance>
+                  <acquisition>
+                     <p xml:lang="en">Donation of the Migore Foundation, Janet Zakos legacy, <date
+                           when="2004-11-24">24th November 2004</date>
+                     </p>
+                     <p xml:lang="fr">Don de la Fondation Migore, legs Janet Zakos, <date
+                           when="2004-11-24">24 Novembre 2004</date>
+                     </p>
+                  </acquisition>
+               </history>
+               <msPart n="r">
+                  <msIdentifier/>
+                  <msContents>
+                     <!-- ajouté ceci -->
+                     <summary n="r">
+                        <seg xml:lang="en">Obverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="r">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="fr">Iconographie avec épigraphe et des sigles de part et
+                                 d'autre de l'effigie</p>
+                              <p xml:lang="en">Iconography with epigraphe and sigla on either side
+                                 of the effigy</p>
+                           </layout>
+                        </layoutDesc>
+
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="r">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="r" xml:lang="fr" ana="person female Virgin Odigitria"
+                                 >Vierge Hodègètria à mi-corps, tournée de trois quarts vers
+                                 l’Enfant qu’elle porte sur le bras gauche le désignant de la main
+                                 droite, à demi levée dans un geste d’adoration.</figDesc>
+                              <figDesc n="r" xml:lang="en" ana="person female Virgin">Virgin
+                                 Odigitria half-length, facing three-quarters toward the Child
+                                 seated on her left arm; she is showing him with her right hand in
+                                 agesture of adoration.</figDesc>
+                              <figDesc n="decoR" xml:lang="fr">Cercle de grènetis</figDesc>
+                              <figDesc n="decoR" xml:lang="en">Border of dots</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+               <msPart n="v">
+                  <msIdentifier/>
+                  <msContents>
+                     <summary n="v"><!-- ajouté ceci -->
+                        <seg xml:lang="en">Reverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="v">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="en">Linear metrical legend of 5 lines</p>
+                              <p xml:lang="fr">Légende linéaire métrique sur 5 lignes</p>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="v">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="decoV" xml:lang="fr">Cercle de grènetis; la légende est
+                                 précédée d’une croisette et suivie d’une étoile à six
+                                 rais</figDesc>
+                              <figDesc n="decoV" xml:lang="en">Border of dots;
+                                 the legend is preceded by a crosslet and followed by a star of six
+                                 beams</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2025-04-22" who="#PE">Creation of the XML record.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp>
+         <surface n="r">
+            <desc>Obverse</desc>
+            <graphic type="photo" url="CdN2004-0554_1.jpg">
+               <desc xml:lang="en">CdN 2004-0554, obverse</desc>
+               <desc xml:lang="fr">CdN 2004-0554, avers</desc>
+            </graphic>
+         </surface>
+         <surface n="v">
+            <desc>Reverse</desc>
+            <graphic type="photo" url="CdN2004-0554_2.jpg">
+               <desc xml:lang="en">CdN 2004-0554, reverse</desc>
+               <desc xml:lang="fr">CdN 2004-0554, revers</desc>
+            </graphic>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" subtype="editorial" xml:space="preserve"> 
+            <div type="textpart" subtype="sigla" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="a"/><supplied reason="lost"><expan><abbr>Μ</abbr><ex>ήτ</ex><abbr>ηρ</abbr></expan></supplied> 
+                 <cb n="b"/><expan><abbr>Θ</abbr><ex>εο</ex><abbr>ῦ</abbr></expan>
+              </ab>
+            </div>
+            <div type="textpart" subtype="label" rend="columns" n="obv" xml:lang="grc">
+              <ab>
+                 <cb n="c"/>Ἡ Ὁδη
+                 <cb n="d" break="no"/>γήτρια
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <lg type="metrical" met="dodecasyllable" ana="gen">
+                         <l n="1">
+                            <lb n="1"/>Γρη
+                            <lb n="2" break="no"/>γόριος 
+                            <lb n="3"/><rs type="dignity" ref="#d0075">σεβα<surplus>σ</surplus>στὸς</rs> 
+                            <lb n="4"/>ὁ Πακουρι
+                            <lb n="5" break="no"/>ανός
+                         </l>
+                      </lg>
+                  </div>
+              </div>
+         <div type="edition" subtype="diplomatic" xml:space="preserve"> 
+                  <div type="textpart" subtype="sigla" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="a"/>...
+                 <cb n="b"/>ΘV
+              </ab>
+            </div>
+            <div type="textpart" subtype="label" n="obv" rend="columns" xml:lang="grc">
+                      <ab>
+                         <cb n="c"/>...
+                         <cb n="d"/>Γη||ια
+                      </ab>
+                  </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab>
+                         <lb n="1"/>γρη                  
+                         <lb n="2"/>γοριος
+                         <lb n="3"/>σεrασος
+                         <lb n="4"/>οπακουρι
+                         <lb n="5"/>ανοσ
+                         </ab>
+                  </div>
+              </div>
+         <div type="translation">
+            <p>Μήτηρ Θεοῦ. Ἡ Ὁδηγήτρια. || + Γρηγόριος σεβαστὸς ὁ Πακουριανός.</p>
+            <p xml:lang="en">Mother of God. The Odigitria. || + Gregorios Pakourianos, sebastos</p>
+            <p xml:lang="fr">Mère de Dieu. La Hodègètria. || + Grégoire Pakourianos, sébaste</p>
+         </div>
+         <div type="commentary" subtype="text">
+            <!-- renvois internes à refaire -->
+            <p xml:lang="en">The Pakourianoi, a family of the Iberian military aristocracy, appear
+               in Byzantine literary sources around the year 1000, when Basil II annexed the
+               possessions of the Bagradite king of Tayk’/Tao, the kouropalates David <bibl>
+                  <ptr target="Empereurs2003"/>, p. <citedRange unit="page">283</citedRange></bibl>.
+               Leaving Iberia, the emperor took the local notables with him, whom he bestowed with
+               the title of patrikios. The Pakourianoi brothers, Pheudatos and Pherses, were among
+               them. Our signatory, whose first name is the most common among the Pakourianoi, is a
+               distant relative and namesake of the family’s most illustrious member, the “sebaste
+               and grand domestikos of the West, son of the blessed eristave of the Eristaves
+               [prince of princes] Bakuriani, a native of the East and Georgian,” founder, in 1083,
+               of the Georgian monastery of Petritzos (today Bačkovo), near Philippoupolis. The
+               high-ranking court official, who died childless and was likely unmarried, held the
+               high office of sebastos by virtue of the services he had rendered to Alexios Ist as a
+               foreigner. In contrast, the title of sebastos held by our signatory indicates an
+               alliance between the family or one of its branches and the Komnenoi. At the beginning
+               of the 12th century, a third man of the same name <bibl>
+                  <ptr target="Skoulatos1980"/>, p. <citedRange unit="page"
+                  >114-115</citedRange></bibl>, known through his correspondence with Theophylaktos
+               of Bulgaria, was also a sebastos by virtue of his marriage to the daughter of the
+               grand droungarios of the fleet, Nikephoros Komnenos, brother of Alexios Ist. He may
+               have been a nephew of the grand domestikos and was likely the grandfather of our
+               Gregorios. W. Seibt attributes to him the numerous seals preserved in the name of
+               Gregorios Pakourianos, sebastos and doux, dated to the first quarter of the 12th
+               century. In the article cited above, W. Seibt lists all the Pakourianoi known from
+               the sources, primarily sigillographic, dating from the 10th century, along with a
+               reference to all previous publications and editions. At the end of the 10th century,
+               Stephanos is said to have been present in the Empire at the same time as the first
+               Pakourianos mentioned in the narrative sources, who is considered the founder of the
+               Byzantine line. From the last third of the 11th century until the beginning of the
+               following century, several members of the Pakourianos family, all with distinctly
+               Eastern first names, held high offices, such as Apasios, who held the title of
+               magistros; Mouselios, proedros; Aspiétès, kouropalates, then protonobelissimos;
+               Tatoulès, protonobelissimos and archon of the archons; Symbatios, kouropalates. Our
+               seal, along with that of a certain Alexios Pakourianos Komnenos, are the only
+               representatives of the Pakourianoi family who left a seal in the late 12th/early 13th
+               century. The family is no longer mentioned in the sources after the reign of Alexios
+               Komnenos, but it survived, reappearing at the beginning of the 13th century, when
+               George Pakourianos was among the archons of Berrhoia. </p>
+            <p xml:lang="en"/>
+            <p xml:lang="fr">Les Pakourianoi, famille de l’aristocratie militaire ibère,
+               apparaissent dans les sources littéraires byzantines vers l’an 1000, lorsque Basile
+               II a annexé les possessions du roi bagradite de Tayk’/Tao, le curopalate David <bibl>
+                  <ptr target="Empereurs2003"/>, p. <citedRange unit="page">283</citedRange></bibl>.
+               Quittant l’Ibérie, l’empereur emmèna les notables locaux, qu’il gratifia de la
+               dignité de patrice. Les frères Pakourianoi, Pheudatos et Phersès, en faisaient
+               partie1. Notre signataire, au prénom le plus fréquent chez les Pakourianoi, est un
+               lointain parent homonyme du membre le plus illustre de la famille, le « sébaste et
+               grand domestique de l’Occident, fils du bienheureux eristave des eristaves [prince
+               des princes] Bakuriani, originaire de l’Orient et géorgien », fondateur, en 1083, du
+               monastère géorgien de Pétritzos (aujourd’hui Bačkovo), près de Philippoupolis. Le
+               grand domestique, mort sans progéniture et sans doute célibataire, tenait la haute
+               dignité de sébaste en vertu des services qu’il avait offerts en tant qu’étranger à
+               Alexis Ier. En revanche, le titre de sébaste de notre sigillant indique l’alliance de
+               la famille ou d’une de ses branches avec les Comnènes. Au début du ΧΙΙe siècle, un
+               troisième homonyme<bibl>
+                  <ptr target="Skoulatos1980"/>, p. <citedRange unit="page"
+                  >114-115</citedRange></bibl>, connu par sa correspondance avec Théophylacte de
+               Bulgarie, était également sébaste par son mariage avec la fille du grand drongaire
+               de la flotte Nicéphore Comnène, frère d’Alexis Ier. Il était peut-être un neveu du
+               grand domestique et probablement le grand-père de notre Grégoire. C’est à lui que W.
+               Seibt attribue les nombreux sceaux conservés au nom de Grégoire Pakourianos, sébaste
+               et duc, datés du premier quart du ΧΙΙe siècle. Dans l’article cité ci-dessus, W.
+               Seibt répertorie tous les Pakourianoi connus des sources, principalement
+               sigillographiques, dès le Xe siècle, avec le rappel de toutes les références aux
+               publications et éditions antérieures. À la fin du Χe siècle, Étienne serait présent
+               dans l’Empire en même temps que le premier Pakourianos mentionné dans les sources
+               narratives, qui est considéré comme le fondateur de la lignée byzantine. À partir du
+               dernier tiers du XIe siècle et jusqu’au début du siècle suivant, plusieurs
+               Pakourianoi, tous aux prénoms bien orientaux, ont porté de hautes dignités, tels
+               Apasios, titré magistre ; Mousèlios, proèdre ; Aspiétès, curopalate, puis
+               protonobélissime ; Tatoulès, protonobélissime et archonte des archontes ; Symbatios,
+               curopalate. Notre sigillant, ainsi qu’un Alexis Pakourianos Comnène, sont les seuls
+               représentants du clan des Pakourianoi, selon l’expression de W. Seibt, qui ont laissé
+               un sceau à la fin du XIIe/début du XIIIe siècle. La famille n’est plus mentionnée
+               dans les sources après le règne d’Alexis Comnène5 mais survit, pour réapparaître au
+               début du XIIIe siècle, lorsque Georges Pakourianos compte parmi les archontes de
+               Berrhoia.</p>
+            <p xml:lang="fr"/>
+         </div>
+         <div type="bibliography" subtype="edition">
+            <p><bibl>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry"
+               >218a</citedRange></bibl></p>
+         </div>
+         <div type="bibliography" subtype="parallels">
+            <p>Musée d'art et d'histoire, CdN 2004-0518:
+               <bibl>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry"
+               >218b</citedRange></bibl></p>
+         </div>
+         <div type="bibliography" subtype="discussion">
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

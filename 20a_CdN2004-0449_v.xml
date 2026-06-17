@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en">Theodora Doukaina Palaiologina</title>
+            <title xml:lang="fr">Théodora Doukaina Palaiologina</title>
+            <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
+            <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+            <funder>
+               <orgName corresp="https://www.mahmah.ch/">MAH-Musée d'art et d'histoire - Genève,
+                  Cabinet de numismatique</orgName>, Suisse</funder>
+            <principal ref="#MCP"/>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <seg xml:lang="fr">Amélioration digitale</seg>
+               <seg xml:lang="en">Digital enhancement</seg>
+            </edition>
+            <editor role="digital-editor" xml:id="PE" when="2025-06-02">Pia Evening</editor>
+         </editionStmt>
+         <publicationStmt>
+            <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
+            <idno type="filename">CdN 2004-0449</idno>
+            <idno type="SigiDocID">s-FILo7c</idno>
+            <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+            <idno type="sequence"/>
+            <!--  to be compiled automatically; leave as is  -->
+            <date when="2024-08-06"/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                  >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                  4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listPerson type="issuer">
+               <person gender="F" role="imperial">
+                  <persName xml:lang="grc">
+                     <forename>Θεοδώρα</forename>
+                     <surname>Δούκαινα Παλαιολογίνα</surname>
+                  </persName>
+                  <persName xml:lang="fr">
+                     <forename>Théodora</forename>
+                     <surname>Doukaina Palaiologina</surname>
+                  </persName>
+                  <persName xml:lang="en">
+                     <forename>Theodora</forename>
+                     <surname>Doukaina Palaiologina</surname>
+                  </persName>
+                  <idno type="PBW"/>
+                  <idno type="PBE"/>
+                  <idno type="PLP" ana="https://archive.org/details/ErichTrappProsopographischesLexikonDerPALAIOLOGENZEIT/page/n3871/mode/2up">21380</idno>
+                  <idno type="PLRE"/>
+                  <idno type="PcBE"/>
+                  <idno type="PmbZ"/>
+               </person>
+            </listPerson>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <seg xml:lang="en">Switzerland</seg>
+                     <seg xml:lang="fr">Suisse</seg>
+                  </country>
+                  <settlement>
+                     <seg xml:lang="en">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">City of
+                           Geneva</placeName>
+                     </seg>
+                     <seg xml:lang="fr">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">Ville de
+                           Genève</placeName>
+                     </seg>
+                  </settlement>
+                  <institution>MAH-Musée d'art et d'histoire</institution>
+                  <repository>Cabinet de numismatique</repository>
+                  <collection type="public">
+                     <rs type="collection-name" xml:lang="en">Byzantine seals collection</rs>
+                     <rs type="collection-name" xml:lang="fr">Collection de sceaux byzantins</rs>
+                  </collection>
+                  <idno type="inv-nr-current">CdN 2004-0449</idno>
+                  <altIdentifier>
+                     <repository/>
+                     <idno type="inv-nr-former"/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <!--https://github.com/SigiDoc/Guidelines/wiki/5.-Controlled-vocabularies#seals-category-->
+                  <summary n="whole">
+                     <seg xml:lang="fr">Impérial</seg>
+                     <seg xml:lang="en">imperial</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>
+                              <term>
+                                 <seg xml:lang="fr">Sceau</seg>
+                                 <seg xml:lang="en">Seal</seg>
+                              </term>
+                              <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                              <interp type="workType" xml:lang="en">Original impression</interp>
+                           </objectType>
+                           <material>
+                              <seg xml:lang="fr">Plomb</seg>
+                              <seg xml:lang="en">Lead</seg>
+                           </material>
+                           <dimensions type="support" unit="mm">
+                              <dim type="diameter">39,34/35,15</dim>
+                              <!-- mesure du champ? -->
+                           </dimensions>
+                           <measure type="weight" unit="g">30,132</measure>
+                           <measure type="axis" unit="clock"/>
+                           <measure type="overstrikeOrient" unit="clock"/>
+                           <measure type="channelOrient" unit="clock">12-6</measure>
+                           <measure type="countermark" unit="clock"/>
+                        </support>
+                        <condition rend="well-struck well-preserved chipped worn-edge">
+                           <p xml:lang="en">The bulla is well-struck and well-preserved, slightly
+                              chipped at the opennings of the channel and partially worn on the
+                              edge</p>
+                           <p xml:lang="fr">La bulle est bien frappée et bien conservée, légèrement
+                              échancrée aux orifices du canal et partiellement usée sur la
+                              tranche</p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout n="whole">
+                           <rs type="execution">
+                              <seg xml:lang="fr">Frappé</seg>
+                              <seg xml:lang="en">Struck</seg>
+                           </rs>
+                           <rs type="shape">
+                              <seg xml:lang="fr">Ronde</seg>
+                              <seg xml:lang="en">Round</seg>
+                           </rs>
+                           <rs type="matrix" subtype="not-surviving">
+                              <idno type="SigiDoc">m-KcMSc6</idno>
+                              <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+                              <idno type="PBW" ana= "http://pbw2016.kdl.kcl.ac.uk/boulloterion/2990/">Theodora 20103</idno>
+                              <!-- to be used if the seal has a parallel in the PBW with a boulloterion registered there -->
+                           </rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <seg xml:lang="fr">
+                           <placeName/>
+                        </seg>
+                        <seg xml:lang="en">
+                           <placeName/>
+                        </seg>
+                     </origPlace>
+                     <origDate type="analysis" notBefore="1261" notAfter="1282"
+                        evidence="prosopography iconography reign" cert="high" resp="#MCP #JCC">
+                        <seg xml:lang="en">1261-1282</seg>
+                        <seg xml:lang="fr">1261-1282</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="transferred" subtype="donated" when="2004-11-24">
+                     <!-- pas sûr de subtype et when -->
+                     <p xml:lang="en">George Zacos collection</p>
+                     <p xml:lang="fr">Collection Georges Zacos</p>
+                  </provenance>
+                  <acquisition>
+                     <p xml:lang="en">Donation of the Migore Foundation, Janet Zakos legacy, <date
+                           when="2004-11-24">24th November 2004</date>
+                     </p>
+                     <p xml:lang="fr">Don de la Fondation Migore, legs Janet Zakos, <date
+                           when="2004-11-24">24 Novembre 2004</date>
+                     </p>
+                  </acquisition>
+               </history>
+               <msPart n="r">
+                  <msIdentifier/>
+                  <msContents>
+                     <!-- ajouté ceci -->
+                     <summary n="r">
+                        <seg xml:lang="en">Obverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="r">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="fr">Iconographie avec, de part et d'autre, des sigles</p>
+                              <p xml:lang="en">Iconography with sigla on either side</p>
+                           </layout>
+                        </layoutDesc>
+
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="r">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="r" xml:lang="fr" ana="person female Virgin">Vierge de type
+                                 Platytéra, nimbée, assise de face sur un trône bas (thôkos), aux
+                                 piètements faits de perles et garni de coussins, tenant sur ses
+                                 genoux, des deux mains, l’Enfant; de sa main gauche elle touche la
+                                 tête du Christ qui ne semble pas nimbé.</figDesc>
+                              <figDesc n="r" xml:lang="en" ana="person female Virgin">Virgin of the
+                                 Platytera type, haloed, seated facing forward on a low throne
+                                 (thôkos) with legs made of pearls and adorned with cushions,
+                                 holding the Child on her lap with both hands; the left hand of the
+                                 Theotokos touches the head of Christ, who does not appear to be
+                                 haloed.</figDesc>
+                              <figDesc n="decoR" xml:lang="fr">Cercle de grènetis; le coussin porte
+                                 à ses extrémités une décoration trifide</figDesc>
+                              <figDesc n="decoR" xml:lang="en">Circle of dots; the cushion bears at
+                                 its ends a trifid decoration</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+               <msPart n="v">
+                  <msIdentifier/>
+                  <msContents>
+                     <summary n="v"><!-- ajouté ceci -->
+                        <seg xml:lang="en">Reverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="v">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="en">Iconography with an epigraph on either side</p>
+                              <p xml:lang="fr">Iconographie avec une épigaphe de chaque côté</p>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="v">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="v" xml:lang="fr" ana="person female empress">Théodora
+                                 Doukaina Palaiologina en pied, de face, vêtue du lôros et portant
+                                 une haute couronne ornée de pendilia à terminaison trifide. Les
+                                 mains ramenées devant le corps, elle tient en main droite un
+                                 sceptre bouleté.</figDesc>
+                              <figDesc n="v" xml:lang="en" ana="person female empress">Theodora
+                                 Doukaina Palaiologina standing, facing forward, wearing the loros
+                                 and a high crown adorned with pendilia ending in trifid finials.
+                                 With her hands brought forward, she holds a ball adorned scepter in
+                                 her right hand.</figDesc>
+                              <figDesc n="decoV" xml:lang="fr">Cercle de gros grènetis; l'épigraphe
+                                 de chaque côté est précédée d'une croisette </figDesc>
+                              <figDesc n="decoV" xml:lang="en">Circle of large dots; each epigraph
+                                 is preceded by a crosslet</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2025-06-02" who="#PE">Creation of the XML record.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp>
+         <surface n="r">
+            <desc>Obverse</desc>
+            <graphic type="photo" url="CdN2004-0449_1.jpg">
+               <desc xml:lang="en">CdN 2004-0449, obverse</desc>
+               <desc xml:lang="fr">CdN 2004-0449, avers</desc>
+            </graphic>
+         </surface>
+         <surface n="v">
+            <desc>Reverse</desc>
+            <graphic type="photo" url="CdN2004-0449_2.jpg">
+               <desc xml:lang="en">CdN 2004-0449, reverse</desc>
+               <desc xml:lang="fr">CdN 2004-0449, revers</desc>
+            </graphic>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" subtype="editorial" xml:space="preserve"> 
+            <div type="textpart" subtype="sigla" rend="columns" n="obv" xml:lang="grc">
+              <ab>
+                 <cb n="a"/><expan><abbr>Μ</abbr><ex>ήτ</ex><abbr>ηρ</abbr></expan> 
+                 <cb n="b"/><expan><abbr>Θ</abbr><ex>εο</ex><abbr>ῦ</abbr></expan>
+              </ab>
+            </div>
+            <div type="textpart" subtype="face" rend="columns" n="rev" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab ana="nom">
+                 <cb n="c"/>Θεοδώρα εὐσεβεστάτη <rs type="dignity" ref="#d0010">αὐγούστα</rs>
+                 <cb n="d"/>δούκαινα ἡ Παλαιολογήνα
+              </ab>
+            </div>
+              </div>
+         <div type="edition" subtype="diplomatic" xml:space="preserve"> 
+            <div type="textpart" subtype="sigla" rend="columns" n="obv" xml:lang="grc">
+              <ab>
+                 <cb n="a"/>
+                 <cb n="b"/>Θυ  
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" rend="columns" n="rev" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="c"/>|θεοδ|ραε|υσεβε|ατηα|υγ|α
+                 <cb n="d"/>|δκ|αινα|ηπα̣λ̣|αιολο|γηνα
+              </ab>
+                  </div>
+              </div>
+         <div type="translation">
+            <p>Μήτηρ Θεοῦ. || + Θεοδώρα εὐσεβεστάτη αὐγούστα Δούκαινα ἡ Παλαιολογήνα.</p>
+            <p xml:lang="en">Mother of God. || + Theodora, the most pious empress Doukaina
+               Paliologina</p>
+            <p xml:lang="fr">Mère de Dieu. || + Théodora, la très pieuse impératrice Doukaina
+               Paliologina</p>
+         </div>
+         <div type="commentary" subtype="text">
+            <!-- renvois internes à refaire -->
+            <p xml:lang="en">Apart the epigraphy and the distribution of the legend on the reverse,
+               the main difference between the boulloteria from which originate the numerous
+               preserved bullae of Theodora is the hand in which the empress holds the scepter <bibl>
+                  <ptr target="CheynetTheodoridis"/>, n° <citedRange unit="entry"
+                  >159</citedRange></bibl>; <bibl>
+                  <ptr target="Sokolova2007"/>, n° <citedRange unit="entry">186-189,
+                     192,193</citedRange></bibl>; <bibl>
+                  <ptr target="Birch1898"/>, n° <citedRange unit="entry">17463</citedRange></bibl>.
+               Theodora was the daughter of Eudokia Angelina and John Doukas Batatzes, nephew of
+               Emperor John III through his father, the sebastokrator Isaac Doukas Batatzes. The
+               empress's reputation is linked to the founding of three women's monasteries,
+               including that of Lips, formerly a men's monastery. Near the latter, Theodora had
+               built the Church of St. John the Baptist, which was to serve as a tomb for her entire
+               family. Several luxurious liturgical manuscripts, produced in the same workshop in
+               Constantinople and bearing the monogram of a Palaiologina (Codex Vaticanus Grecus
+               1158), are also attributed to the wife of Michael VIII, these commissions being
+               intended for the monasteries she had founded.</p>
+            <p xml:lang="en"/>
+            <p xml:lang="fr">Outre l’épigraphie et la répartition de la légende du revers, la
+               principale différence entre les boullôtèria dont sont issues les fort nombreuses
+               bulles conservées de Théodora est la main dans laquelle l’impératrice tient le
+               sceptre <bibl>
+                  <ptr target="CheynetTheodoridis"/>, n° <citedRange unit="entry"
+                  >159</citedRange></bibl>; <bibl>
+                  <ptr target="Sokolova2007"/>, n° <citedRange unit="entry">186-189,
+                     192,193</citedRange></bibl>; <bibl>
+                  <ptr target="Birch1898"/>, n° <citedRange unit="entry">17463</citedRange></bibl>.
+               Théodora était la fille d’Eudocie Angélina et de Jean Doukas Batatzès, neveu de
+               l’empereur Jean III par son père, le sébastokratôr Isaac Doukas Batatzès. La
+               réputation de l’impératrice est attachée à la fondation de trois monastères féminins,
+               dont celui de Lips, anciennement couvent masculin. À proximité de ce dernier,
+               Théodora fit construire l’église Saint-Jean-Baptiste, qui devait servir de tombeau à
+               toute sa famille. Plusieurs manuscrits liturgiques de luxe, issus du même atelier
+               constantinopolitain et portant le monogramme d’une Palaiologina (Codex vaticanus
+               grecus 1158), sont également attribués à l’épouse de Michel VIII, ces commandes étant
+               destinées aux monastères qu’elle avait fondés.</p>
+            <p xml:lang="fr"/>
+         </div>
+         <div type="bibliography" subtype="edition">
+            <p><bibl>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">20a</citedRange></bibl>; <bibl>
+                  <ptr target="ZacosSpink1"/>, n° <citedRange unit="entry">9</citedRange></bibl>
+               <bibl/>
+            </p>
+         </div>
+         <div type="bibliography" subtype="parallels">
+            <p> ancienne collection Zacos: <bibl>
+                  <ptr target="Zacos1"/>, n° <citedRange unit="entry">122d</citedRange></bibl></p>
+            <p> Ermitage, M-12147 ; M-12003: <bibl>
+                  <ptr target="Sokolova2007"/>, n° <citedRange unit="entry">193,
+                  195</citedRange></bibl></p>
+            <p> Munich, Staatliche Münzsammlung, fonds Zarnitz 19: </p>
+         </div>
+         <div type="bibliography" subtype="discussion">
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en">Ioannes, sebastos and megas domestikos</title>
+            <title xml:lang="fr">Jean, sébaste et grand domestique</title>
+            <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
+            <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+            <funder>
+               <orgName corresp="https://www.mahmah.ch/">MAH-Musée d'art et d'histoire - Genève,
+                  Cabinet de numismatique</orgName>, Suisse </funder>
+            <principal ref="#MCP"/>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <seg xml:lang="fr">Amélioration digitale</seg>
+               <seg xml:lang="en">Digital enhancement</seg>
+            </edition>
+            <editor role="digital-editor" xml:id="PE" when="2025-04-02">Pia Evening</editor>
+         </editionStmt>
+         <publicationStmt>
+            <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
+            <idno type="filename">CdN 2004-0473</idno>
+            <idno type="SigiDocID">s-j5LLTr</idno>
+            <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+            <idno type="sequence"/>
+            <!--  to be compiled automatically; leave as is  -->
+            <date when="2024-08-06"/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                  >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                  4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listPerson type="issuer">
+               <person gender="M" role="civil aristocracy">
+                  <persName xml:lang="grc">
+                     <forename>Ἰωάννης</forename>/> <surname/>
+                  </persName>
+                  <persName xml:lang="fr">
+                     <forename>Jean</forename>/> <surname/>
+                  </persName>
+                  <persName xml:lang="en">
+                     <forename>Ioannes</forename>/> <surname/>
+                  </persName>
+                  <idno type="PBW" ana="http://pbw2016.kdl.kcl.ac.uk/boulloterion/1301/">Ioannes
+                     293</idno>
+                  <idno type="PBE"/>
+                  <idno type="PLP"/>
+                  <idno type="PLRE"/>
+                  <idno type="PcBE"/>
+                  <idno type="PmbZ"/>
+               </person>
+            </listPerson>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <seg xml:lang="en">Switzerland</seg>
+                     <seg xml:lang="fr">Suisse</seg>
+                  </country>
+                  <settlement>
+                     <seg xml:lang="en">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">City of
+                           Geneva</placeName>
+                     </seg>
+                     <seg xml:lang="fr">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">Ville de
+                           Genève</placeName>
+                     </seg>
+                  </settlement>
+                  <institution>MAH-Musée d'art et d'histoire</institution>
+                  <repository>Cabinet de numismatique</repository>
+                  <collection type="public">
+                     <rs type="collection-name" xml:lang="en">Byzantine seals collection</rs>
+                     <rs type="collection-name" xml:lang="fr">Collection de sceaux byzantins</rs>
+                  </collection>
+                  <idno type="inv-nr-current">CdN 2004-0473</idno>
+                  <altIdentifier>
+                     <repository/>
+                     <idno type="inv-nr-former"/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <!--https://github.com/SigiDoc/Guidelines/wiki/5.-Controlled-vocabularies#seals-category-->
+                  <summary n="whole">
+                     <seg xml:lang="fr">Administration centrale</seg>
+                     <seg xml:lang="en">Central administration</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>
+                              <term>
+                                 <seg xml:lang="fr">Sceau</seg>
+                                 <seg xml:lang="en">Seal</seg>
+                              </term>
+                              <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                              <interp type="workType" xml:lang="en">Original impression</interp>
+                           </objectType>
+                           <material>
+                              <seg xml:lang="fr">Plomb</seg>
+                              <seg xml:lang="en">Lead</seg>
+                           </material>
+                           <dimensions type="support" unit="mm">
+                              <dim type="diameter">35,65/34,05</dim>
+                              <!-- mesure du champ? -->
+                           </dimensions>
+                           <measure type="weight" unit="g">38,378</measure>
+                           <measure type="axis" unit="clock"/>
+                           <measure type="overstrikeOrient" unit="clock"/>
+                           <measure type="channelOrient" unit="clock">12-6</measure>
+                           <measure type="countermark" unit="clock"/>
+                        </support>
+                        <condition rend="well-struck well-preserved chipped">
+                           <p xml:lang="en">The bulla is well-struck and well-preserved, slightly
+                              chipped at the opennings of the channel</p>
+                           <p xml:lang="fr">La bulle est bien frappée et bien conservée; légèrement
+                              échancrée aux orifices du canal</p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout n="whole">
+                           <rs type="execution">
+                              <seg xml:lang="fr">Frappé</seg>
+                              <seg xml:lang="en">Struck</seg>
+                           </rs>
+                           <rs type="shape">
+                              <seg xml:lang="fr">Ronde</seg>
+                              <seg xml:lang="en">Round</seg>
+                           </rs>
+                           <rs type="matrix" subtype="not-surviving">
+                              <idno type="SigiDoc">m-vZ1d45</idno>
+                              <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+                              <idno type="PBW" ana="http://pbw2016.kdl.kcl.ac.uk/boulloterion/1302/"
+                                 >Ioannes 293</idno>
+                              <!-- to be used if the seal has a parallel in the PBW with a boulloterion registered there -->
+                           </rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <seg xml:lang="fr">
+                           <placeName/>
+                        </seg>
+                        <seg xml:lang="en">
+                           <placeName/>
+                        </seg>
+                     </origPlace>
+                     <origDate type="analysis" notBefore="1101" notAfter="1150"
+                        evidence="epigraphy titulature" cert="high" resp="#MCP #JCC">
+                        <seg xml:lang="en">First half of the 12th century</seg>
+                        <seg xml:lang="fr">Première moitié du XIIe siècle</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="transferred" subtype="donated" when="2004-11-24">
+                     <!-- pas sûr de subtype et when -->
+                     <p xml:lang="en">George Zacos collection</p>
+                     <p xml:lang="fr">Collection Georges Zacos</p>
+                  </provenance>
+                  <acquisition>
+                     <p xml:lang="en">Donation of the Migore Foundation, Janet Zakos legacy, <date
+                           when="2004-11-24">24th November 2004</date>
+                     </p>
+                     <p xml:lang="fr">Don de la Fondation Migore, legs Janet Zakos, <date
+                           when="2004-11-24">24 Novembre 2004</date>
+                     </p>
+                  </acquisition>
+               </history>
+               <msPart n="r">
+                  <msIdentifier/>
+                  <msContents>
+                     <!-- ajouté ceci -->
+                     <summary n="r">
+                        <seg xml:lang="en">Obverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="r">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="fr">Iconographie avec de part et d'autre épigraphe en
+                                 colonne</p>
+                              <p xml:lang="en">Iconography with on either side epigraph on
+                                 columns</p>
+                           </layout>
+                        </layoutDesc>
+
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="r">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="r" xml:lang="fr" ana="person male saint Demetrios">Saint
+                                 Dèmètrios à mi-corps, de face, revêtu d’une cuirasse sous la
+                                 chlamyde bordée de perles. Il tient une lance en main droite et un
+                                 bouclier triangulaire orné de perles de l’autre.</figDesc>
+                              <figDesc n="r" xml:lang="en" ana="person male saint Demetrios">Saint
+                                 Demetrios, half-length, facing forward, wearing a breastplate under
+                                 a chlamys trimmed with pearls. He holds a spear in his right hand
+                                 and a triangular shield decorated with pearls in the
+                                 other.</figDesc>
+                              <figDesc n="decoR" xml:lang="fr">Cercle de grènetis</figDesc>
+                              <figDesc n="decoR" xml:lang="en">Circle of dots</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+               <msPart n="v">
+                  <msIdentifier/>
+                  <msContents>
+                     <summary n="v"><!-- ajouté ceci -->
+                        <seg xml:lang="en">Reverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="v">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="en">Linear legend of 5 lines</p>
+                              <p xml:lang="fr">Légende linéaire sur 5 lignes</p>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="v">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="decoV" xml:lang="fr">Cercle de grènetis; la prémière ligne
+                                 est précédée d'une croisette</figDesc>
+                              <figDesc n="decoV" xml:lang="en">Circle of dots; the first line is
+                                 preceded by a crosslet</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2025-04-02" who="#PE">Creation of the XML record.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp>
+         <surface n="r">
+            <desc>Obverse</desc>
+            <graphic type="photo" url="CdN2004-0473_1.jpg">
+               <desc xml:lang="en">CdN 2004-0473, obverse</desc>
+               <desc xml:lang="fr">CdN 2004-0473, avers</desc>
+            </graphic>
+         </surface>
+         <surface n="v">
+            <desc>Reverse</desc>
+            <graphic type="photo" url="CdN2004-0473_2.jpg">
+               <desc xml:lang="en">CdN 2004-0473, reverse</desc>
+               <desc xml:lang="fr">CdN 2004-0473, revers</desc>
+            </graphic>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" subtype="editorial" xml:space="preserve"> 
+            <div type="textpart" subtype="label" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="a"/>Ὁ <expan><ex>ἅγιος</ex></expan> Δημή
+                 <cb n="b" break="no"/>τριος.
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab ana="nom">
+                         <lb n="1"/><expan><abbr>Ἰω</abbr><ex>άννης</ex></expan> 
+                         <lb n="2"/><rs type="dignity" ref="#d0075">σεβαστὸς</rs> 
+                         <lb n="3"/>καὶ <rs type="office" subtype="military" ref="#of0244">μέγας 
+                         <lb n="4"/>δομέστι
+                         <lb n="5" break="no"/>κος</rs>
+                      </ab>
+                  </div>
+              </div>
+         <div type="edition" subtype="diplomatic" xml:space="preserve"> 
+                  <div type="textpart" subtype="label" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="a"/>| δη|μη
+                 <cb n="b"/>τ|ρι|οσ
+              </ab>
+            </div>
+            <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab>
+                         <lb n="1"/>i̅
+                         <lb n="2"/>σεrαος       
+                         <lb n="3"/>καιμεγας
+                         <lb n="4"/>δομεστι
+                         <lb n="5"/>κοΣ̣ 
+                         </ab>
+                  </div>
+              </div>
+         <div type="translation">
+            <p>Ὁ ἅγιος Δημήτριος. || + Ἰωάννης σεβαστὸς καὶ μέγας δομέστικος.</p>
+            <p xml:lang="en">Saint Demetrios. || + Ioannes sebastos and megas domestikos</p>
+            <p xml:lang="fr">Saint Dèmètrios. || + Jean, sébaste et grand domestique</p>
+         </div>
+         <div type="commentary" subtype="text">
+            <!-- renvois internes à refaire -->
+            <p xml:lang="en">The epigraphy, the office, and the title of the signatory of this lead seal point
+               to its identification with John Axouch, the loyal friend and advisor of John II Komnenos.
+               The title of megas domestikos is believed to have been officially introduced by
+               Alexios I Komnenos to honor Gregory Pakourianos in 1081.</p>
+            <p xml:lang="en">The title of megas domestikos, chief commander of the imperial armies
+               after the emperor, appears in narrative sources from the 10th century onwards
+               to designate the domestikos of the Scholes of the West, also known as the
+               domestikos of the Scholes. This was still the case in the 11th century, when
+               the title was used by historians and seal owners, but also
+               in the expressions megas domestikos of the Scholes, megas domestikos
+               of the Scholes of the East or of the West.</p>
+            <p xml:lang="fr">L'épigraphie, la charge et le titre du signataire de ce plomb plaident
+               à l'attribuer sans hésitation  à Jean Axouch, le fidèle ami et conseiller de Jean
+               II Comnène. Le titre de grand domestique aurait été introduit de façon officielle par
+               Alexis Ier Comnène pour honorer Grégoire Pakourianos, en 1081 (Alexiade, II, IV, §
+               7).</p>
+            <p xml:lang="fr">Le titre de grand domestique, chef suprême des armées impériales
+               après l’empereur, apparaît dans les sources narratives dès le Xe siècle
+               pour désigner le domestique des Scholes de l’Occident, appelé également
+               domestique des Scholes. Tel est toujours le cas au XIe siècle, où
+               le titre est employé par les historiens et par les sigillants, mais aussi
+               dans les expressions grand domestique des Scholes, grand domestique
+               des Scholes d’Orient ou d’Occident.</p>
+         </div>
+         <div type="bibliography" subtype="edition">
+            <p><bibl>
+                  <ptr target="Zacos Genève"/>, n° <citedRange unit="entry">86</citedRange></bibl>;
+               <bibl>
+                  <ptr target="ZacosSpink1"/>, n° <citedRange unit="entry">61</citedRange></bibl>;
+               <bibl>
+                  <ptr target="Zacos2"/>, n° <citedRange unit="entry">525a</citedRange></bibl>
+               <bibl/>
+            </p>
+         </div>
+         <div type="bibliography" subtype="parallels">
+            <p><bibl>
+               <ptr target="Athens1917"/>, n° <citedRange unit="entry">492a</citedRange></bibl>;
+            <bibl>
+               <ptr target="Laurentcorpus2"/>, n° <citedRange unit="entry">942</citedRange></bibl>
+               </p>
+         </div>
+         <div type="bibliography" subtype="discussion">
+            <bibl>
+               <ptr target="Schlumberger1884"/>, p. <citedRange unit="page">581.2</citedRange></bibl><p/>
+         </div>
+      </body>
+   </text>
+</TEI>

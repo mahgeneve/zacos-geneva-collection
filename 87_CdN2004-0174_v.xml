@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en">Ioannes, sebastos and megas domestikos of all the East and the
+               West</title>
+            <title xml:lang="fr">Jean, sébaste et grand domestique de tout l’Orient et de
+               l’Occident</title>
+            <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
+            <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+            <funder>
+               <orgName corresp="https://www.mahmah.ch/">MAH-Musée d'art et d'histoire - Genève,
+                  Cabinet de numismatique</orgName>, Suisse </funder>
+            <principal ref="#MCP"/>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <seg xml:lang="fr">Amélioration digitale</seg>
+               <seg xml:lang="en">Digital enhancement</seg>
+            </edition>
+            <editor role="digital-editor" xml:id="PE" when="2025-04-02">Pia Evening</editor>
+         </editionStmt>
+         <publicationStmt>
+            <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
+            <idno type="filename">CdN 2004-0174</idno>
+            <idno type="SigiDocID">s-6lcL2Y</idno>
+            <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+            <idno type="sequence"/>
+            <!--  to be compiled automatically; leave as is  -->
+            <date when="2024-08-06"/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                  >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                  4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listPerson type="issuer">
+               <person gender="M" role="civil aristocracy">
+                  <persName xml:lang="grc">
+                     <forename>Ἰωάννης</forename>/> <surname/>
+                  </persName>
+                  <persName xml:lang="fr">
+                     <forename>Jean</forename>/> <surname/>
+                  </persName>
+                  <persName xml:lang="en">
+                     <forename>Ioannes</forename>/> <surname/>
+                  </persName>
+                  <idno type="PBW" ana="http://pbw2016.kdl.kcl.ac.uk/boulloterion/1303/">Ioannes
+                     293</idno>
+                  <idno type="PBE"/>
+                  <idno type="PLP"/>
+                  <idno type="PLRE"/>
+                  <idno type="PcBE"/>
+                  <idno type="PmbZ"/>
+               </person>
+            </listPerson>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <seg xml:lang="en">Switzerland</seg>
+                     <seg xml:lang="fr">Suisse</seg>
+                  </country>
+                  <settlement>
+                     <seg xml:lang="en">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">City of
+                           Geneva</placeName>
+                     </seg>
+                     <seg xml:lang="fr">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">Ville de
+                           Genève</placeName>
+                     </seg>
+                  </settlement>
+                  <institution>MAH-Musée d'art et d'histoire</institution>
+                  <repository>Cabinet de numismatique</repository>
+                  <collection type="public">
+                     <rs type="collection-name" xml:lang="en">Byzantine seals collection</rs>
+                     <rs type="collection-name" xml:lang="fr">Collection de sceaux byzantins</rs>
+                  </collection>
+                  <idno type="inv-nr-current">CdN 2004-0174</idno>
+                  <altIdentifier>
+                     <repository/>
+                     <idno type="inv-nr-former"/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <!--https://github.com/SigiDoc/Guidelines/wiki/5.-Controlled-vocabularies#seals-category-->
+                  <summary n="whole">
+                     <seg xml:lang="fr">Administrtaion centrale</seg>
+                     <seg xml:lang="en">Central administration</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>
+                              <term>
+                                 <seg xml:lang="fr">Sceau</seg>
+                                 <seg xml:lang="en">Seal</seg>
+                              </term>
+                              <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                              <interp type="workType" xml:lang="en">Original impression</interp>
+                           </objectType>
+                           <material>
+                              <seg xml:lang="fr">Plomb</seg>
+                              <seg xml:lang="en">Lead</seg>
+                           </material>
+                           <dimensions type="support" unit="mm">
+                              <dim type="diameter">37,49/34,07</dim>
+                              <!-- mesure du champ? -->
+                           </dimensions>
+                           <measure type="weight" unit="g">25,398</measure>
+                           <measure type="axis" unit="clock"/>
+                           <measure type="overstrikeOrient" unit="clock"/>
+                           <measure type="channelOrient" unit="clock">12-7</measure>
+                           <measure type="countermark" unit="clock"/>
+                        </support>
+                        <condition rend="well-struck, crushed chipped">
+                           <p xml:lang="en">The bulla is well-struck but quite crushed on both
+                              sides, slightly chipped at the opennings of the channel</p>
+                           <p xml:lang="fr">La bulle est bien frappée mais passablement écrasée sur
+                              les deux faces; légèrement échancrée aux orifices du canal</p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout n="whole">
+                           <rs type="execution">
+                              <seg xml:lang="fr">Frappé</seg>
+                              <seg xml:lang="en">Struck</seg>
+                           </rs>
+                           <rs type="shape">
+                              <seg xml:lang="fr">Ronde</seg>
+                              <seg xml:lang="en">Round</seg>
+                           </rs>
+                           <rs type="matrix" subtype="not-surviving">
+                              <idno type="SigiDoc">m-s5i53x</idno>
+                              <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+                              <idno type="PBW" ana="http://pbw2016.kdl.kcl.ac.uk/boulloterion/3302/"
+                                 >Ioannes 293</idno>
+                              <idno type="PBW" ana="http://pbw2016.kdl.kcl.ac.uk/boulloterion/2800/"
+                                 >Ioannes 293</idno>
+                              <!-- to be used if the seal has a parallel in the PBW with a boulloterion registered there -->
+                           </rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <seg xml:lang="fr">
+                           <placeName/>
+                        </seg>
+                        <seg xml:lang="en">
+                           <placeName/>
+                        </seg>
+                     </origPlace>
+                     <origDate type="analysis" notBefore="1101" notAfter="1150"
+                        evidence="epigraphy titulature" cert="high" resp="#MCP #JCC">
+                        <seg xml:lang="en">First half of the 12th century</seg>
+                        <seg xml:lang="fr">Première moitié du XIIe siècle</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="transferred" subtype="donated" when="2004-11-24">
+                     <!-- pas sûr de subtype et when -->
+                     <p xml:lang="en">George Zacos collection</p>
+                     <p xml:lang="fr">Collection Georges Zacos</p>
+                  </provenance>
+                  <acquisition>
+                     <p xml:lang="en">Donation of the Migore Foundation, Janet Zakos legacy, <date
+                           when="2004-11-24">24th November 2004</date>
+                     </p>
+                     <p xml:lang="fr">Don de la Fondation Migore, legs Janet Zakos, <date
+                           when="2004-11-24">24 Novembre 2004</date>
+                     </p>
+                  </acquisition>
+               </history>
+               <msPart n="r">
+                  <msIdentifier/>
+                  <msContents>
+                     <!-- ajouté ceci -->
+                     <summary n="r">
+                        <seg xml:lang="en">Obverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="r">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="fr">Iconographie avec de part et d'autre épigraphe en
+                                 colonne</p>
+                              <p xml:lang="en">Iconography with on either side epigraph on
+                                 columns</p>
+                           </layout>
+                        </layoutDesc>
+
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="r">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="r" xml:lang="fr" ana="person male saint Demetrios">Saint
+                                 Dèmètrios à mi-corps, de face, revêtu d’une cuirasse sous la
+                                 chlamyde bordée de perles. Il tient une lance en main droite et un
+                                 bouclier triangulaire orné de perles de l’autre.</figDesc>
+                              <figDesc n="r" xml:lang="en" ana="person male saint Demetrios">Saint
+                                 Demetrios, half-length, facing forward, wearing a breastplate under
+                                 a chlamys trimmed with pearls. He holds a spear in his right hand
+                                 and a triangular shield decorated with pearls in the
+                                 other.</figDesc>
+                              <figDesc n="decoR" xml:lang="fr">Cercle de grènetis</figDesc>
+                              <figDesc n="decoR" xml:lang="en">Circle of dots</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+               <msPart n="v">
+                  <msIdentifier/>
+                  <msContents>
+                     <summary n="v"><!-- ajouté ceci -->
+                        <seg xml:lang="en">Reverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="v">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="en">Linear legend of 7 lines</p>
+                              <p xml:lang="fr">Légende linéaire sur 7 lignes</p>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="v">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="decoV" xml:lang="fr">Cercle de grènetis; la prémière ligne
+                                 est précédée d'une croisette</figDesc>
+                              <figDesc n="decoV" xml:lang="en">Circle of dots; the first line is
+                                 preceded by a crosslet</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2025-04-02" who="#PE">Creation of the XML record.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp>
+         <surface n="r">
+            <desc>Obverse</desc>
+            <graphic type="photo" url="CdN2004-0174_1.jpg">
+               <desc xml:lang="en">CdN 2004-0174, obverse</desc>
+               <desc xml:lang="fr">CdN 2004-0174, avers</desc>
+            </graphic>
+         </surface>
+         <surface n="v">
+            <desc>Reverse</desc>
+            <graphic type="photo" url="CdN2004-0174_2.jpg">
+               <desc xml:lang="en">CdN 2004-0174, reverse</desc>
+               <desc xml:lang="fr">CdN 2004-0174, revers</desc>
+            </graphic>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" subtype="editorial" xml:space="preserve"> 
+            <div type="textpart" subtype="label" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="a"/><supplied reason="lost">Ὁ <expan><ex>ἅγιος</ex></expan> Δημή</supplied>
+                 <cb n="b" break="no"/>τριος
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab ana="nom">
+                         <lb n="1"/><expan><abbr>Ἰω</abbr><ex>άννης</ex></expan> <rs type="dignity" ref="#d0075">σε
+                         <lb n="2" break="no"/>βαστὸς</rs> καὶ 
+                         <lb n="3"/><rs type="office" subtype="military" ref="#of0244">μέγας δο
+                         <lb n="4" break="no"/><supplied reason="lost">μ</supplied>έστικος</rs> 
+                         <lb n="5"/>π<supplied reason="lost">ά</supplied>σης <placeName ref="#geo0041">Ἀνα
+                         <lb n="6" break="no"/><supplied reason="lost">το</supplied>λῆς</placeName> κα<supplied reason="lost">ὶ</supplied> 
+                         <lb n="7"/><placeName ref="#geo0040">Δύσεως</placeName>
+                      </ab>
+                  </div>
+              </div>
+         <div type="edition" subtype="diplomatic" xml:space="preserve"> 
+                  <div type="textpart" subtype="label" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="a"/>.....
+                 <cb n="b"/>τ|ρι̣|ο̣σ
+              </ab>
+            </div>
+            <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab>
+                         <lb n="1"/>i̣̅σ̣ε̣                  
+                         <lb n="2"/>rαο̣ςκαi 
+                         <lb n="3"/>μ̣ε̣γα̣ςδο
+                         <lb n="4"/>.e̣iḳoΣ̣ 
+                         <lb n="5"/>π.Σ̣η̣σανα̣ 
+                         <lb n="6"/>..λ̣η̣σκα.
+                         <lb n="7"/>δ̣υ̣Σ̣ε̣Σ̣
+                         </ab>
+                  </div>
+              </div>
+         <div type="translation">
+            <p>Ὁ ἅγιος Δημήτριος. || + Ἰωάννης σεβαστὸς καὶ μέγας δομέστικος πάσης Ἀνατολῆς καὶ
+               Δύσεως.</p>
+            <p xml:lang="en">Saint Demetrios. || +Ioannes, sebastos and megas domestikos of all the
+               East and the West </p>
+            <p xml:lang="fr">Saint Dèmètrios. || + Jean, sébaste et grand domestique de tout
+               l’Orient et de l’Occident</p>
+         </div>
+         <div type="commentary" subtype="text">
+            <!-- renvois internes à refaire -->
+            <p xml:lang="en">Despite the absence of a surname, the dignity, the high command assumed
+               by the sigillarius, and the date of the bull allow us to identify him with Jean
+               Axouch, who is well attested in the sources in these same capacities as sebastos and
+               megas domestikos. The seal that is the subject of the previous note, with the same
+               bust of Saint Demetrios, can also be attributed to him <bibl>
+                  <ptr target="Zacos Genève"/>, n° <citedRange unit="entry"
+               >86</citedRange></bibl>.Having been captured by the Crusaders during the siege of
+               Nicaea in 1097, the young Axouch, of Turkish origin, was raised at the imperial court
+               alongside the son of Alexios I Komnenos, the future John II. It is even highly likely
+               that he was baptized John in honor of the man who became his loyal friend and
+               companion in play and in arms. It was upon John II's accession to the throne in 1118
+               that Axouch was appointed to this very high military position, which he was able to
+               retain during the reign of Manuel Ist and until his death between 1150 and 1153/1154,
+               thanks to his unfailing loyalty he showed towards the imperial family. Both his
+               generosity and his humanity earned him the esteem and respect of his contemporaries
+               as well as the eulogy composed by NiJephoros Basilakes. Axouch founded a lineage that
+               was attested throughout the 12th century. His daughters Irene and Eudokia married two
+               grandnephews of John II, respectively Alexios (Barzos, Κομνηνοί I, no. 53) and
+               Stephen Komnenos (ibid., no. 57). His eldest son (ibid. II, pp. 117-135), the
+               protostrator Alexios, despite his military successes, fell into disgrace under Manuel
+               Ist; having been accused of conspiracy, he was forced to retire to a monastery. John
+               Comnenus the Fat, one of Alexios'sons was killed during a revolt against Alexios III
+               in 1200. After this date, the family disappears from the sources.</p>
+            <p xml:lang="en"/>
+            <p xml:lang="fr">Malgré l’absence de patronyme, la dignité, le haut commandement assumé
+               par le sigillant et la datation de la bulle autorisent l’identification de celui-ci
+               avec Jean Axouch, bien attesté dans les sources en ces mêmes qualités de sébaste et
+               de grand domestique. Le sceau qui fait l’objet de la notice précédente, au même buste
+               de saint Dèmètrios, peut aussi lui être attribué (<bibl>
+                  <ptr target="Zacos Genève"/>, n° <citedRange unit="entry"
+               >86</citedRange></bibl>).Capturé par les Croisés lors du siège de Nicée en 1097, le
+               jeune Axouch, d’origine turque, fut élevé à la cour impériale avec le fils d’Alexis
+               Ier Comnène, le futur Jean II. Il est même fort probable qu’il ait été baptisé Jean
+               en l’honneur de celui dont il devint le fidèle ami, compagnon de jeux et d’armes.
+               C’est d’ailleurs dès l’accession au trône de Jean II, en 1118, qu’Axouch fut nommé à
+               ce très haut poste militaire, qu’il sut garder également sous le règne de Manuel Ier
+               et jusqu’à sa mort, survenue entre 1150 et 1153/1154, grâce à la loyauté infaillible
+               dont il fit preuve envers la famille impériale. Tant sa générosité que son humanité
+               lui ont gagné l’estime et le respect de ses contemporains et lui ont valu l’éloge
+               funèbre que composa Nicéphore Basilakès. Axouch a fondé une lignée attestée tout au
+               long du XIIe siècle. Ses filles Irène et Eudocie épousèrent deux petits-neveux de
+               Jean II, respectivement Alexis (Barzos, Κομνηνοί I, no 53) et Étienne Comnène (ibid.,
+               no 57). Son fils aîné (ibid. II, p. 117-135), le prôtostratôr Alexis, malgré ses
+               succès militaires, tomba en disgrâce auprès de Manuel Ier ; accusé de complot, il fut
+               contraint de se retirer dans un monastère. Jean Comnène le Gros, l’un des fils
+               d’Alexis, trouva la mort lors d’une révolte contre Alexis III, en 1200. Après cette
+               date, la famille disparaît des sources.</p>
+            <p xml:lang="fr"/>
+         </div>
+         <div type="bibliography" subtype="edition">
+            <p><bibl>
+                  <ptr target="Zacos Genève"/>, n° <citedRange unit="entry">87</citedRange></bibl>; <bibl>
+                  <ptr target="Zacos2"/>, n° <citedRange unit="entry">526a</citedRange></bibl>
+               <bibl/>
+            </p>
+         </div>
+         <div type="bibliography" subtype="parallels">
+            <p> anc. coll. Zacos ; BZS 1958.106.3227 ; BZS 1955.1.2423 ; Stara Zagora, trouvé en 2006:
+            </p>
+            <p><bibl>
+               <ptr target="Zacos2"/>, n° <citedRange unit="entry">526b</citedRange></bibl>;
+            <bibl>
+               <ptr target="LaurentCorpus2"/>, n° <citedRange unit="entry">941</citedRange></bibl>;
+            <bibl>
+               <ptr target="DOseals3"/>, n° <citedRange unit="entry">99.8</citedRange></bibl>;
+            <bibl>
+               <ptr target="JordanovCorpus3"/>, n° <citedRange unit="entry">1018</citedRange></bibl></p>
+         </div>
+         <div type="bibliography" subtype="discussion">
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

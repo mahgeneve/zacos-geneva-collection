@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en">Basileios, protospatharios, epi tou koitonos and
+               praipositos</title>
+            <title xml:lang="fr">Basile, protospathaire, épi tou koitônos et préposite</title>
+            <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
+            <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+            <funder>
+               <orgName corresp="https://www.mahmah.ch/">MAH-Musée d'art et d'histoire - Genève,
+                  Cabinet de numismatique</orgName>, Suisse </funder>
+            <principal ref="#MCP"/>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <seg xml:lang="fr">Amélioration digitale</seg>
+               <seg xml:lang="en">Digital enhancement</seg>
+            </edition>
+            <editor role="digital-editor" xml:id="PE" when="2025-04-02">Pia Evening</editor>
+         </editionStmt>
+         <publicationStmt>
+            <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
+            <idno type="filename">CdN 2004-0511</idno>
+            <idno type="SigiDocID">s-HzIUNt</idno>
+            <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+            <idno type="sequence"/>
+            <!--  to be compiled automatically; leave as is  -->
+            <date when="2024-08-06"/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                  >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                  4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listPerson type="issuer">
+               <person gender="M" role="civil aristocracy">
+                  <persName xml:lang="grc">
+                     <forename>Βασίλειος</forename>/> <surname/>
+                  </persName>
+                  <persName xml:lang="fr">
+                     <forename>Basile</forename>/> <surname/>
+                  </persName>
+                  <persName xml:lang="en">
+                     <forename>Basileios</forename>/> <surname/>
+                  </persName>
+                  <idno type="PBW" ana="http://pbw2016.kdl.kcl.ac.uk/person/Basileios/20151/"
+                     >Basileios 20151</idno>
+                  <idno type="PBE"/>
+                  <idno type="PLP"/>
+                  <idno type="PLRE"/>
+                  <idno type="PcBE"/>
+                  <idno type="PmbZ"/>
+               </person>
+            </listPerson>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <seg xml:lang="en">Switzerland</seg>
+                     <seg xml:lang="fr">Suisse</seg>
+                  </country>
+                  <settlement>
+                     <seg xml:lang="en">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">City of
+                           Geneva</placeName>
+                     </seg>
+                     <seg xml:lang="fr">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">Ville de
+                           Genève</placeName>
+                     </seg>
+                  </settlement>
+                  <institution>MAH-Musée d'art et d'histoire</institution>
+                  <repository>Cabinet de numismatique</repository>
+                  <collection type="public">
+                     <rs type="collection-name" xml:lang="en">Byzantine seals collection</rs>
+                     <rs type="collection-name" xml:lang="fr">Collection de sceaux byzantins</rs>
+                  </collection>
+                  <idno type="inv-nr-current">CdN 2004-0511</idno>
+                  <altIdentifier>
+                     <repository/>
+                     <idno type="inv-nr-former"/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <!--https://github.com/SigiDoc/Guidelines/wiki/5.-Controlled-vocabularies#seals-category-->
+                  <summary n="whole">
+                     <seg xml:lang="fr">Administration centrale</seg>
+                     <seg xml:lang="en">Central administration</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>
+                              <term>
+                                 <seg xml:lang="fr">Sceau</seg>
+                                 <seg xml:lang="en">Seal</seg>
+                              </term>
+                              <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                              <interp type="workType" xml:lang="en">Original impression</interp>
+                           </objectType>
+                           <material>
+                              <seg xml:lang="fr">Plomb</seg>
+                              <seg xml:lang="en">Lead</seg>
+                           </material>
+                           <dimensions type="support" unit="mm">
+                              <dim type="diameter">33,66/30,20</dim>
+                              <!-- mesure du champ? -->
+                           </dimensions>
+                           <measure type="weight" unit="g">35,421</measure>
+                           <measure type="axis" unit="clock"/>
+                           <measure type="overstrikeOrient" unit="clock"/>
+                           <measure type="channelOrient" unit="clock">1-7</measure>
+                           <measure type="countermark" unit="clock"/>
+                        </support>
+                        <condition
+                           rend="well-struck well-preserved chipped broken not-centered blank-too-large worn-edge corroded">
+                           <p xml:lang="en">The half part of the edge is rather worn; broken at the
+                              openings of the channel; not centered stroke on a too large blank;
+                              traces of corrosion</p>
+                           <p xml:lang="fr">La moitié de la tranche est bien rogné; cassé aux
+                              orifices du canal; flan trop grand et frappe décentrée; tracs de
+                              corrosion sur les deux faces</p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout n="whole">
+                           <rs type="execution">
+                              <seg xml:lang="fr">Frappé</seg>
+                              <seg xml:lang="en">Struck</seg>
+                           </rs>
+                           <rs type="shape">
+                              <seg xml:lang="fr">Ronde</seg>
+                              <seg xml:lang="en">Round</seg>
+                           </rs>
+                           <rs type="matrix" subtype="not-surviving">
+                              <idno type="SigiDoc">m-yxvBbw</idno>
+                              <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+                              <idno type="PBW"/>
+                              <!-- to be used if the seal has a parallel in the PBW with a boulloterion registered there -->
+                           </rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <seg xml:lang="fr">
+                           <placeName/>
+                        </seg>
+                        <seg xml:lang="en">
+                           <placeName/>
+                        </seg>
+                     </origPlace>
+                     <origDate type="analysis" notBefore="1034" notAfter="1066"
+                        evidence="epigraphy titulature" cert="high" resp="#MCP #JCC">
+                        <seg xml:lang="en">Second third of the 11th century</seg>
+                        <seg xml:lang="fr">Deuxième tiers du XIe siècle</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="transferred" subtype="donated" when="2004-11-24">
+                     <!-- pas sûr de subtype et when -->
+                     <p xml:lang="en">George Zacos collection</p>
+                     <p xml:lang="fr">Collection Georges Zacos</p>
+                  </provenance>
+                  <acquisition>
+                     <p xml:lang="en">Donation of the Migore Foundation, Janet Zakos legacy, <date
+                           when="2004-11-24">24th November 2004</date>
+                     </p>
+                     <p xml:lang="fr">Don de la Fondation Migore, legs Janet Zakos, <date
+                           when="2004-11-24">24 Novembre 2004</date>
+                     </p>
+                  </acquisition>
+               </history>
+               <msPart n="r">
+                  <msIdentifier/>
+                  <msContents>
+                     <!-- ajouté ceci -->
+                     <summary n="r">
+                        <seg xml:lang="en">Obverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="r">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="fr">Légende linéaire sur 5 lignes</p>
+                              <p xml:lang="en">Linear legend of 5 lines</p>
+                           </layout>
+                        </layoutDesc>
+
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="r">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="r" xml:lang="fr" ana="Linear legend of 5 lines"/>
+                              <figDesc n="r" xml:lang="en" ana="Légende linéaire sur 5 lignes"/>
+                              <figDesc n="decoR" xml:lang="fr">Cercle de gros grènetis; la première
+                                 ligne est précédée d'une croisette</figDesc>
+                              <figDesc n="decoR" xml:lang="en">Circle of dots; the first line is
+                                 preceded by a crosslet</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+               <msPart n="v">
+                  <msIdentifier/>
+                  <msContents>
+                     <summary n="v"><!-- ajouté ceci -->
+                        <seg xml:lang="en">Reverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="v">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="en">Linear legend of 5 lines</p>
+                              <p xml:lang="fr">Légende linéaire sur 5 lignes</p>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="v">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="decoV" xml:lang="fr">Cercle de gros grènetis; la dernière
+                                 ligne est accostée de tirets ; au sommet du champ, une perle
+                                 cantonnée de tirets</figDesc>
+                              <figDesc n="decoV" xml:lang="en">Circle of dots; the last line is
+                                 between traits; above the legend, a pearl between traits</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2025-04-02" who="#PE">Creation of the XML record.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp>
+         <surface n="r">
+            <desc>Obverse</desc>
+            <graphic type="photo" url="CdN2004-0511_1.jpg">
+               <desc xml:lang="en">CdN 2004-0511, obverse</desc>
+               <desc xml:lang="fr">CdN 2004-0511, avers</desc>
+            </graphic>
+         </surface>
+         <surface n="v">
+            <desc>Reverse</desc>
+            <graphic type="photo" url="CdN2004-0511_2.jpg">
+               <desc xml:lang="en">CdN 2004-0511, reverse</desc>
+               <desc xml:lang="fr">CdN 2004-0511, revers</desc>
+            </graphic>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" subtype="editorial" xml:space="preserve"> 
+            <div type="textpart" subtype="face" rend="linear" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab ana="dat">
+                 <lb n="1"/><rs type="invocation" ref="#inv004"><expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan> 
+                 <lb n="2"/>βοήθει 
+                 <lb n="3"/>τῷ <supplied reason="lost">σ</supplied>ῷ δού
+                 <lb n="4" break="no"/>λῳ</rs> Βασι
+                 <lb n="5" break="no"/>λείῳ
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab ana="dat">
+                         <lb n="6"/><rs type="dignity" ref="#d0066"><expan><abbr><am>Α</am></abbr><ex>πρωτο</ex><abbr>σπαθ</abbr><ex>αρίῳ</ex></expan></rs> 
+                         <lb n="7"/><rs type="office" subtype="civil" ref="#of0068">ἐπὶ τοῦ 
+                         <lb n="8"/><expan><abbr>κ</abbr><ex>o</ex><abbr>ιτῶνος</abbr></expan></rs> 
+                         <lb n="9"/><expan><abbr><am>S</am></abbr><ex>καὶ</ex></expan> <rs type="office" subtype="civil" ref="#of0160"><expan><abbr>πραιπ</abbr><ex>ο</ex>
+                         <lb n="10" break="no"/><abbr>σίτ</abbr><ex>ῳ</ex></expan></rs>
+                      </ab>
+                  </div>
+              </div>
+         <div type="edition" subtype="diplomatic" xml:space="preserve"> 
+                  <div type="textpart" subtype="face" rend="linear" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <lb n="1"/>ΚΕ̅
+                 <lb n="2"/>RοΗΘΕΙ
+                 <lb n="3"/>Τ.Δ 
+                 <lb n="4"/>λraci 
+                 <lb n="5"/>λει
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab>
+                         <lb n="0"/>      
+                         <lb n="6"/>αΣπαΘ/  
+                         <lb n="7"/>επιτου
+                         <lb n="8"/>κ.ιτνος
+                         <lb n="9"/>Ϗ̣πραιπ/   
+                         <lb n="10"/>σιτ/ 
+                         </ab>
+                  </div>
+              </div>
+         <div type="translation">
+            <p>+ Κύριε βοήθει τῷ σῷ δούλῳ Βασιλείῳ || πρωτοσπαθαρίῳ, ἐπὶ τοῦ κoιτῶνος καὶ
+               πραιποσίτῳ.</p>
+            <p xml:lang="en">+ Lord, help your servant Basileios || protospatharios, epi tou
+               koitonos and praipositos.</p>
+            <p xml:lang="fr">+ Seigneur, accorde ton secours à ton serviteur Basile ||
+               protospathaire, épi tou koitônos et préposite.</p>
+         </div>
+         <div type="commentary" subtype="text">
+            <!-- renvois internes à refaire -->
+            <p xml:lang="en">If our datation is correct, the signatory may be Basileios Pediadites.
+               The office of praipositos, which was reserved to the eunuchs, appears as an
+               honorifique title from the VIe century on. Nevertheless, the mention of praipositos
+               at the end of the legend suggests that Basileios occupies effectively the charge of
+               the chief chamberlain of the emperor's private rooms, which means that he has to be a
+               eunuch. An other bilateral bulla in the name of Basileios bearing the same titles but
+               in a different order can be attributed to the same signatory (<bibl>
+                  <ptr target="Zacos2"/>, n° <citedRange unit="entry">965</citedRange></bibl>). In
+               the 11th century, four praepositi named Basileios are known either by the litterature
+               or sigillogaphy: Basileios Pédiadites, under Michael IV (1034-1041,<bibl>
+                  <ptr target="SkylitzèsEmpereurs2003"/>, p. <citedRange unit="page"
+                     >336-367</citedRange></bibl>). In the second half of the 11th century or the
+               beginning of the 12th century: a praepositos and chartophylax epi tou koitonos is
+               mentionned in a pittakion of Anna Dalassene, dated on 15 june 1087 (<bibl>
+                  <ptr target="MM6"/>, p. <citedRange unit="page">33</citedRange></bibl>), Basileios
+               Stroggylos known by his metrical seal bearing the bust of saint Basileios,kept in the Ermitage Museum (M-6428) and
+               Basileios, without a surname, adorned with Virgin Episkepsis effigy, whose seal is kept in Vienna(<bibl>
+                  <ptr target="BBÖ1"/>, n° <citedRange unit="entry">61</citedRange></bibl>).</p>
+            <p xml:lang="en"/>
+            <p xml:lang="fr">Si la datation que nous proposons pour cette bulle est correcte, le
+               signataire peut être rapproché de Basile Pédiaditès. La charge aulique de préposite,
+               réservée aux eunuques, apparaît aussi comme titre honorifique dès le VIe siècle.
+               Cependant, sa mention à la fin de la légende suggère que Basile exerce effectivement
+               la charge de premier chambellan de la chambre impériale et, en tant que tel, il ne
+               peut être qu’eunuque. Une bulle au nom de Basile pourrait avoir appartenu au même
+               personnage. également bilatérale, elle porte les trois mêmes distinctions, toutefois
+               la place des deux derniers titres est inversée (<bibl>
+                  <ptr target="Zacos2"/>, n° <citedRange unit="entry">965</citedRange></bibl>). Au
+               XIe siècle, quatre préposites prénommés Basile sont connus par les sources écrites ou
+               par la sigillographie : – Basile Pédiaditès, préposite sous le règne de Michel IV (1034-1041,<bibl>
+                  <ptr target="SkylitzèsEmpereurs2003"/>, p. <citedRange unit="page"
+                     >336-367</citedRange></bibl>). Puis, dans la seconde moitié du siècle ou au
+               début du XIIe siècle: le préposite épi tou koitônos et chartophylax du même service,
+               mentionné dans un pittakion d’Anne Dalassène, daté du 15 juin 1087 (<bibl>
+                  <ptr target="MM6"/>, p. <citedRange unit="page">33</citedRange></bibl>); Basile
+               Stroggylos, dont le sceau métrique, à l’effigie de saint Basile en buste, est
+               conservé aujourd’hui à l’Ermitage(Ermitage, M-6428) ; Basile, sans patronyme, dont le
+               sceau, à l’effigie de la Vierge Épiskepsis, est conservé à Vienne (<bibl>
+                  <ptr target="BBÖ1"/>, n° <citedRange unit="entry">61</citedRange></bibl>). </p>
+            <p xml:lang="fr"/>
+         </div>
+         <div type="bibliography" subtype="edition">
+            <p><bibl>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">71</citedRange></bibl>;
+               <bibl>
+                  <ptr target="Zacos2"/>, n° <citedRange unit="entry">963</citedRange></bibl>
+               <bibl/>
+            </p>
+         </div>
+         <div type="bibliography" subtype="parallels">
+            <p/>
+         </div>
+         <div type="bibliography" subtype="discussion">
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

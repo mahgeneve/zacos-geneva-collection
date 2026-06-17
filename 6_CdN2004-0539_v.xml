@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en">Romanos Lekapenos, Constantine VII and Christopher</title>
+            <title xml:lang="fr">Romain Ier Lécapène, Constantin VII et Christophore</title>
+            <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
+            <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+            <funder>
+               <orgName corresp="https://www.mahmah.ch/">MAH-Musée d'art et d'histoire - Genève,
+                  Cabinet de numismatique</orgName>, Suisse</funder>
+            <principal ref="#MCP"/>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <seg xml:lang="fr">Amélioration digitale</seg>
+               <seg xml:lang="en">Digital enhancement</seg>
+            </edition>
+            <editor role="digital-editor" xml:id="PE" when="2025-04-22">Pia Evening</editor>
+         </editionStmt>
+         <publicationStmt>
+            <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
+            <idno type="filename">CdN 2004-0539</idno>
+            <idno type="SigiDocID">s-NplgwC</idno>
+            <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+            <idno type="sequence"/>
+            <!--  to be compiled automatically; leave as is  -->
+            <date when="2024-08-06"/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                  >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                  4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listPerson type="issuer">
+               <person gender="M" role="imperial">
+                  <persName xml:lang="grc">
+                     <forename>Ῥωμανὸς</forename> <surname>Λεκαπηνὸς</surname></persName>
+                  <persName xml:lang="grc">
+                     <forename>Κωνσταντῖνος Ζ΄</forename></persName>
+                  <persName xml:lang="grc">
+                     <forename>Χριστόφορος</forename>
+                  <surname>Λεκαπηνὸς</surname> </persName>
+                  <persName xml:lang="fr">
+                     <forename>Romain</forename> <surname>Lécapène</surname></persName>
+                  <persName xml:lang="fr">
+                     <forename>Constantin VII</forename></persName>
+                  <persName xml:lang="fr">
+                     <forename>Christophore</forename>
+                  <surname>Lécapène</surname></persName>
+                  <persName xml:lang="en">
+                     <forename>Romanos</forename> <surname>Lekapenos</surname></persName>
+                  <persName xml:lang="en">
+                     <forename>Constantine VII</forename></persName>
+                  <persName xml:lang="en">
+                     <forename>Christopher</forename>/><surname>Lekapenos</surname></persName>
+                  <idno type="PBW"/>
+                  <idno type="PBE"/>
+                  <idno type="PLP"/>
+                  <idno type="PmbZ" ana="https://www.degruyterbrill.com/database/PMBZ/entry/PMBZ28987/html"></idno>
+                  <idno type="PmbZ" ana="https://www.degruyterbrill.com/database/PMBZ/entry/PMBZ25888/html"/>
+                  <idno type="PmbZ" ana="https://www.degruyterbrill.com/database/PMBZ/entry/PMBZ23428/html"></idno>
+               </person>
+            </listPerson>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <seg xml:lang="en">Switzerland</seg>
+                     <seg xml:lang="fr">Suisse</seg>
+                  </country>
+                  <settlement>
+                     <seg xml:lang="en">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">City of
+                           Geneva</placeName>
+                     </seg>
+                     <seg xml:lang="fr">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">Ville de
+                           Genève</placeName>
+                     </seg>
+                  </settlement>
+                  <institution>MAH-Musée d'art et d'histoire</institution>
+                  <repository>Cabinet de numismatique</repository>
+                  <collection type="public">
+                     <rs type="collection-name" xml:lang="en">Byzantine seals collection</rs>
+                     <rs type="collection-name" xml:lang="fr">Collection de sceaux byzantins</rs>
+                  </collection>
+                  <idno type="inv-nr-current">CdN 2004-0539</idno>
+                  <altIdentifier>
+                     <repository/>
+                     <idno type="inv-nr-former"/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <!--https://github.com/SigiDoc/Guidelines/wiki/5.-Controlled-vocabularies#seals-category-->
+                  <summary n="whole">
+                     <seg xml:lang="fr">impériale</seg>
+                     <seg xml:lang="en">imperial</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>
+                              <term>
+                                 <seg xml:lang="fr">Bulle d'or de 2 solidi</seg>
+                                 <seg xml:lang="en">Gold bulla of 2 solidi</seg>
+                              </term>
+                              <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                              <interp type="workType" xml:lang="en">Original impression</interp>
+                           </objectType>
+                           <material>
+                              <seg xml:lang="fr">Or</seg>
+                              <seg xml:lang="en">Gold</seg>
+                           </material>
+                           <dimensions type="support" unit="mm">
+                              <dim type="diameter">23,10/20,94</dim>
+                              <!-- mesure du champ? -->
+                           </dimensions>
+                           <measure type="weight" unit="g">8,603</measure>
+                           <measure type="axis" unit="clock"/>
+                           <measure type="overstrikeOrient" unit="clock"/>
+                           <measure type="channelOrient" unit="clock">12-6</measure>
+                           <measure type="countermark" unit="clock"/>
+                        </support>
+                        <condition rend="well-struck well-preserved chipped crushed">
+                           <p xml:lang="en">The bulla is well-struck and fairly well-preserved;
+                              chipped at the openings of the channel and quite crushed in the middle
+                              of the two sides</p>
+                           <p xml:lang="fr">La bulle est bien frappée et moyennement bien conservée;
+                              légèrement échancrée aux orifices du canal et écrasée au milieu du
+                              champ sur les deuxa faces</p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout n="whole">
+                           <rs type="execution">
+                              <seg xml:lang="fr">Frappé</seg>
+                              <seg xml:lang="en">Struck</seg>
+                           </rs>
+                           <rs type="shape">
+                              <seg xml:lang="fr">Ronde</seg>
+                              <seg xml:lang="en">Round</seg>
+                           </rs>
+                           <rs type="matrix" subtype="not-surviving">
+                              <idno type="SigiDoc">m-toP3Wp</idno>
+                              <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+                              <idno type="PBW"/>
+                              <!-- to be used if the seal has a parallel in the PBW with a boulloterion registered there -->
+                           </rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <seg xml:lang="fr">
+                           <placeName/>
+                        </seg>
+                        <seg xml:lang="en">
+                           <placeName/>
+                        </seg>
+                     </origPlace>
+                     <origDate type="analysis" notBefore="0921" notAfter="0930"
+                        evidence="historical-context prosopography reign" cert="high"
+                        resp="#MCP #JCC">
+                        <seg xml:lang="en">921-930</seg>
+                        <seg xml:lang="fr">921-930</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="transferred" subtype="donated" when="2004-11-24">
+                     <!-- pas sûr de subtype et when -->
+                     <p xml:lang="en">George Zacos collection</p>
+                     <p xml:lang="fr">Collection Georges Zacos</p>
+                  </provenance>
+                  <acquisition>
+                     <p xml:lang="en">Donation of the Migore Foundation, Janet Zakos legacy, <date
+                           when="2004-11-24">24th November 2004</date>
+                     </p>
+                     <p xml:lang="fr">Don de la Fondation Migore, legs Janet Zakos, <date
+                           when="2004-11-24">24 Novembre 2004</date>
+                     </p>
+                  </acquisition>
+               </history>
+               <msPart n="r">
+                  <msIdentifier/>
+                  <msContents>
+                     <!-- ajouté ceci -->
+                     <summary n="r">
+                        <seg xml:lang="en">Obverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="r">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="fr">Iconographie avec inscription à la circonférence</p>
+                              <p xml:lang="en">Iconography with a circular inscription</p>
+                           </layout>
+                        </layoutDesc>
+
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="r">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="r" xml:lang="fr" ana="person male Christ">Buste du Christ,
+                                 de face, imberbe (?), une croix derrière la tête. Vêtu du chitôn et
+                                 de l’himation, il bénit de la droite et tient les évangiles en main
+                                 gauche.</figDesc>
+                              <figDesc n="r" xml:lang="en" ana="person male Christ">Bust of Christ,
+                                 frontal, beardless (?), with a cross behind his head. Wearing the
+                                 chitôn and the himation, he blesses with his right hand and holds
+                                 the Gospels in his left hand.</figDesc>
+                              <figDesc n="decoR" xml:lang="fr">Cercle de grènetis; l'inscription est
+                                 précédée d'une croisette et suivie d'une étoile à 6 rais</figDesc>
+                              <figDesc n="decoR" xml:lang="en">Circle of dots; the inscription is
+                                 preceded by a crosslet and followed up by a star of 6
+                                 rays</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+               <msPart n="v">
+                  <msIdentifier/>
+                  <msContents>
+                     <summary n="v"><!-- ajouté ceci -->
+                        <seg xml:lang="en">Reverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="v">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="en">Iconography with a circular inscription</p>
+                              <p xml:lang="fr">Iconographie avec inscription à la circoférence</p>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="v">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="v" xml:lang="fr" ana="person male emperors">Trois
+                                 empereurs à mi-corps, de face. Au centre, Romain Ier Lécapène,
+                                 barbu, revêtu du lôros, dominant de sa plus haute taille les jeunes
+                                 co-empereurs, imberbes, semble-t-il, Constantin VII à sa droite et
+                                 Christophore à sa gauche, en chlamyde et divitision..</figDesc>
+                              <figDesc n="v" xml:lang="en" ana="person male emperors">Three
+                                 emperors, half-length, facing each other. In the centre, Roman I
+                                 Lekapenos, bearded and wearing the loros, higher than the young
+                                 co-emperors, apparently beardless, Constantine VII on his right and
+                                 Christophoros on his left, dressed with chlamys and
+                                 divitision.</figDesc>
+                              <figDesc n="decoV" xml:lang="fr">Tous trois portent une couronne à
+                                 pendilia, surmontée d’une croisette aux extrémités bouletées. </figDesc>
+                              <figDesc n="decoV" xml:lang="en">The crowns of the three emperors are
+                                 adorned with pendilia and surmounted by a cross with spherical
+                                 ends.</figDesc>
+                              <figDesc n="decoV" xml:lang="fr">Les couronnes des trois empereurs
+                                 sont dotées à pendilia et surmontées d’une croisette aux extrémités
+                                 bouletées.</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2025-04-22" who="#PE">Creation of the XML record.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp>
+         <surface n="r">
+            <desc>Obverse</desc>
+            <graphic type="photo" url="CdN2004-0539_1.jpg">
+               <desc xml:lang="en">CdN 2004-0539, obverse</desc>
+               <desc xml:lang="fr">CdN 2004-0539, avers</desc>
+            </graphic>
+         </surface>
+         <surface n="v">
+            <desc>Reverse</desc>
+            <graphic type="photo" url="CdN2004-0539_2.jpg">
+               <desc xml:lang="en">CdN 2004-0539, reverse</desc>
+               <desc xml:lang="fr">CdN 2004-0539, revers</desc>
+            </graphic>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" subtype="editorial" xml:space="preserve"> 
+            <div type="textpart" subtype="label" rend="circular" n="obv" xml:lang="la">
+              <ab>
+                 <lb n="1"/>Ihsus Xristus
+              </ab>
+            </div>
+            <div type="textpart" subtype="face" rend="circular" n="rev" xml:lang="la"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab ana="nom">
+                 <lb n="2"/><expan><abbr>Roman</abbr><ex>os</ex></expan> <expan><abbr>Consta</abbr><ex>ntinos</ex></expan> <supplied reason="lost">e</supplied>t <expan><abbr>Xristof</abbr><ex>oros</ex></expan> <expan><abbr>b</abbr><ex>asileis</ex></expan> <expan><abbr>R</abbr><ex>ômaiôn</ex></expan>
+              </ab>
+            </div>
+              </div>
+         <div type="edition" subtype="diplomatic" xml:space="preserve"> 
+            <div type="textpart" subtype="label" n="obv" rend="circular" xml:lang="la">
+                      <ab>
+                         <lb n="1"/>Issx    rists
+                      </ab>
+                  </div>
+                  <div type="textpart" subtype="face" rend="circular" n="rev" xml:lang="la"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <lb n="2"/>roacosạ.̣xrisofr
+              </ab>
+                  </div>
+              </div>
+         <div type="translation">
+            <p>+ Ihsus Xristus. || Romanos Constantinos et Xristoforos basileis Rômaiôn.</p>
+            <p xml:lang="en">Jesus Christ. || Romanos Konstantinos and Christophoros, emperors of
+               Romans.</p>
+            <p xml:lang="fr">Jésus Christ. || Romain Constantin et Christophore, empereurs des
+               Romains.</p>
+         </div>
+         <div type="commentary" subtype="text">
+            <!-- renvois internes à refaire -->
+            <p xml:lang="en">According to historical criteria, this disoldia can be dated between
+               May 921, the month of Christophorus' coronation, and 931, the year of his death.
+               However, the only coin issue - a solidus - showing the three co-emperors together is
+               dated by Philip Grierson to around 930. On the obverse of the gold coin, Christ is
+               depicted seated on a lyre-shaped throne. The combination of motifs on the disoldia is
+               not found on any other coins issued during the joint reign, but it is repeated on the
+               lead bullae issued during this period. This gold bulla is one of two disoldiai
+               preserved to this day. The second, , also minted in the name of Constantine VII,
+               dates from the end of his reign, . It depicts the emperor with his son Roman, the
+               future Roman II, , based on a well-known coin type. According to the chapter of the
+               Book of Ceremonies (ΙΙ, § 48) which describes the scale of value for gold bullae in
+               force in the tenth century, disoldiai were intended mainly to seal letters addressed
+               to political leaders considered to be of second rank, such as the king of Germany,
+               the doge of Venice, the leader of the Turks and that of Russia, or sent to the
+               religious leaders (catholicos) of Armenia and Albania.</p>
+            <p xml:lang="en"/>
+            <p xml:lang="fr">Selon les critères historiques, cette disoldia est datable entre mai
+               921, mois du couronnement de Christophore, et 931, année de sa mort. Toutefois, la
+               seule émission monétaire – un solidus –, où sont représentés les trois co-empereurs
+               ensemble, est datée par Philippe Grierson autour de 930. Sur l’avers de la monnaie
+               d’or, le Christ est figuré assis sur un trône en forme de lyre. La combinaison des
+               motifs de la disoldia ne se retrouve sur aucune émission monétaire du règne conjoint,
+               mais elle est reprise sur les bulles de plomb émises pendant cette période. Cette
+               bulle d’or est l’une des deux disoldiai conservées à ce jour. La seconde, également
+               frappée au nom de Constantin VII, date de la fin de son règne. L’empereur y est
+               représenté avec son fils Romain, le futur Romain II, d’après un type monétaire bien
+               connu. Suivant le chapitre du Livre des cérémonies (ΙΙ, § 48) qui décrit l’échelle de
+               valeur des bulles d’or en vigueur au Xe siècle, les disoldiai étaient destinées à
+               sceller principalement les lettres adressées à des chefs politiques jugés de second
+               ordre, tels le roi d’Allemagne, le doge de Venise, le chef des Turcs et celui de la
+               Russie, ou encore envoyées aux chefs religieux (catholicos) d’Arménie et
+               d’Albanie.</p>
+            <p xml:lang="fr"/>
+         </div>
+         <div type="bibliography" subtype="edition">
+            <p><bibl>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">6</citedRange></bibl>; <bibl>
+                  <ptr target="ZacosSpink3"/>, n° <citedRange unit="entry">1</citedRange></bibl>;
+               <bibl/>
+            </p>
+         </div>
+         <div type="bibliography" subtype="parallels">
+            <p/>
+         </div>
+         <div type="bibliography" subtype="discussion">
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

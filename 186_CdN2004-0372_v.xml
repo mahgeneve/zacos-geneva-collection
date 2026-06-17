@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en">Michael Stryphnos, protonobelissimohypertatos</title>
+            <title xml:lang="fr">Michel Stryphnos, protonobélissimohypertatos</title>
+            <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
+            <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+            <funder>
+               <orgName corresp="https://www.mahmah.ch/">MAH-Musée d'art et d'histoire - Genève,
+                  Cabinet de numismatique</orgName>, Suisse</funder>
+            <principal ref="#MCP"/>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <seg xml:lang="fr">Amélioration digitale</seg>
+               <seg xml:lang="en">Digital enhancement</seg>
+            </edition>
+            <editor role="digital-editor" xml:id="PE" when="2025-04-22">Pia Evening</editor>
+            <editor role="digital-editor" ref="#MCP" when="2026-04-07">Maria Campagnolo-Pothitou</editor>
+         </editionStmt>
+         <publicationStmt>
+            <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
+            <idno type="filename">CdN 2004-0372</idno>
+            <idno type="SigiDocID">s-HPnMJg</idno>
+            <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+            <idno type="sequence"/>
+            <!--  to be compiled automatically; leave as is  -->
+            <date when="2024-08-06"/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                  >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                  4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listPerson type="issuer">
+               <person gender="M" role="imperial aristocracy">
+                  <persName xml:lang="grc">
+                     <forename>Μιχαήλ</forename>/>
+                     <surname>Στρυφνός</surname>/>
+                  </persName>
+                  <persName xml:lang="fr">
+                     <forename>Michel</forename>/>
+                     <surname>Stryphnos</surname>/>
+                  </persName>
+                  <persName xml:lang="en">
+                     <forename>Michael</forename>/>
+                     <surname>Stryphnos</surname>/>
+                  </persName>
+                  <idno type="PBW" ana="http://pbw2016.kdl.kcl.ac.uk/person/Michael/260/">Michael 260</idno>
+                  
+                  <idno type="PBE"/>
+                  <idno type="PLP"/>
+                  <idno type="PLRE"/>
+                  <idno type="PcBE"/>
+                  <idno type="PmbZ"/>
+               </person>
+            </listPerson>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <seg xml:lang="en">Switzerland</seg>
+                     <seg xml:lang="fr">Suisse</seg>
+                  </country>
+                  <settlement>
+                     <seg xml:lang="en">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">City of
+                           Geneva</placeName>
+                     </seg>
+                     <seg xml:lang="fr">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">Ville de
+                           Genève</placeName>
+                     </seg>
+                  </settlement>
+                  <institution>MAH-Musée d'art et d'histoire</institution>
+                  <repository>Cabinet de numismatique</repository>
+                  <collection type="public">
+                     <rs type="collection-name" xml:lang="en">Byzantine seals collection</rs>
+                     <rs type="collection-name" xml:lang="fr">Collection de sceaux byzantins</rs>
+                  </collection>
+                  <idno type="inv-nr-current">CdN 2004-0372</idno>
+                  <altIdentifier>
+                     <repository/>
+                     <idno type="inv-nr-former"/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <!--https://github.com/SigiDoc/Guidelines/wiki/5.-Controlled-vocabularies#seals-category-->
+                  <summary n="whole">
+                     <seg xml:lang="fr">Dignitaires</seg>
+                     <seg xml:lang="en">Dignitaries</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>
+                              <term>
+                                 <seg xml:lang="fr">Sceau</seg>
+                                 <seg xml:lang="en">Seal</seg>
+                              </term>
+                              <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                              <interp type="workType" xml:lang="en">Original impression</interp>
+                           </objectType>
+                           <material>
+                              <seg xml:lang="fr">Plomb</seg>
+                              <seg xml:lang="en">Lead</seg>
+                           </material>
+                           <dimensions type="support" unit="mm">
+                              <dim type="diameter">42,16</dim>
+                              <!-- mesure du champ? -->
+                           </dimensions>
+                           <measure type="weight" unit="g">46,360</measure>
+                           <measure type="axis" unit="clock"/>
+                           <measure type="overstrikeOrient" unit="clock"/>
+                           <measure type="channelOrient" unit="clock">12-6</measure>
+                           <measure type="countermark" unit="clock"/>
+                        </support>
+                        <condition rend="well-struck well-preserved pierced">
+                           <p xml:lang="en">The bulla is well struck and well preserved, pierced instead of a channel</p>
+                           <p xml:lang="fr">La bulle est bien frappée et bien conservée; trouée à la place d'un canal</p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout n="whole">
+                           <rs type="execution">
+                              <seg xml:lang="fr">Frappé</seg>
+                              <seg xml:lang="en">Struck</seg>
+                           </rs>
+                           <rs type="shape">
+                              <seg xml:lang="fr">Ronde</seg>
+                              <seg xml:lang="en">Round</seg>
+                           </rs>
+                           <rs type="matrix" subtype="not-surviving">
+                              <idno type="SigiDoc">m-4pV0ZI</idno>
+                              <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+                              <idno type="PBW"/>
+                              <!-- to be used if the seal has a parallel in the PBW with a boulloterion registered there -->
+                           </rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <seg xml:lang="fr">
+                           <placeName/>
+                        </seg>
+                        <seg xml:lang="en">
+                           <placeName/>
+                        </seg>
+                     </origPlace><!--range okay?-->
+                     <origDate type="analysis" notBefore="1162" notAfter="1192" evidence="prosopography titulature" cert="high"
+                        resp="#MCP #JCC">
+                        <seg xml:lang="en">Before 1192</seg>
+                        <seg xml:lang="fr">Avant 1192</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="transferred" subtype="donated" when="2004-11-24">
+                     <!-- pas sûr de subtype et when -->
+                     <p xml:lang="en">George Zacos collection</p>
+                     <p xml:lang="fr">Collection Georges Zacos</p>
+                  </provenance>
+                  <acquisition>
+                     <p xml:lang="en">Donation of the Migore Foundation, Janet Zakos legacy, <date
+                           when="2004-11-24">24th November 2004</date>
+                     </p>
+                     <p xml:lang="fr">Don de la Fondation Migore, legs Janet Zakos, <date
+                           when="2004-11-24">24 Novembre 2004</date>
+                     </p>
+                  </acquisition>
+               </history>
+               <msPart n="r">
+                  <msIdentifier/>
+                  <msContents>
+                     <!-- ajouté ceci -->
+                     <summary n="r">
+                        <seg xml:lang="en">Obverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="r">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="fr">Iconographie avec épigraphes de part et d'autre de l'effigie</p>
+                              <p xml:lang="en">Iconography with epigraphs on either side of the effigy</p>
+                           </layout>
+                        </layoutDesc>
+
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="r">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="r" xml:lang="fr" ana="person male saint Theodore saint Hyakinthos">Deux saints en pied ; à gauche, saint
+                                 Théodore de face, en sa tenue militaire accoutumée, tenant une lance
+                                 en main droite et, de l’autre, un bouclier en forme d’écu, posé à terre.
+                                 À ses côtés, saint Hyacinthe passant à gauche, vêtu d’un court chitôn,
+                                 brandissant des deux mains une hache, qu’il dirige vers l’arbre dressé
+                                 derrière lui</figDesc>
+                              <figDesc n="r" xml:lang="en" ana="person male saint Theodore saint Hyakinthos">Two full-length saints; on the left, Saint
+                                 Theodore facing forward, in his usual military vestment, holding a spear
+                                 in his right hand and, in the other, a round shield resting on the ground.
+                                 At his side, Saint Hyakinthos passing to the left, clad with a short chiton,
+                                 grasping an axe with both hands, which he directs toward the tree standing
+                                 behind him</figDesc>
+                              <figDesc n="decoR" xml:lang="fr">Cercle de grènetis</figDesc>
+                              <figDesc n="decoR" xml:lang="en">Border of dots</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+               <msPart n="v">
+                  <msIdentifier/>
+                  <msContents>
+                     <summary n="v"><!-- ajouté ceci -->
+                        <seg xml:lang="en">Reverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="v">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="en">Linear legend of 6 lines</p>
+                              <p xml:lang="fr">Légende linéaire sur 6 lignes</p>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="v">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="decoV" xml:lang="fr">Cercle de grènetis; la légende est surmontée d'une croisette</figDesc>
+                              <figDesc n="decoV" xml:lang="en">Border of dots; above the legend, in the field, a crosslet</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2025-04-22" who="#PE">Creation of the XML record.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp>
+         <surface n="r">
+            <desc>Obverse</desc>
+            <graphic type="photo" url="CdN2004-0372_1.jpg">
+               <desc xml:lang="en">CdN 2004-0372, obverse</desc>
+               <desc xml:lang="fr">CdN 2004-0372, avers</desc>
+            </graphic>
+         </surface>
+         <surface n="v">
+            <desc>Reverse</desc>
+            <graphic type="photo" url="CdN2004-0372_2.jpg">
+               <desc xml:lang="en">CdN 2004-0372, reverse</desc>
+               <desc xml:lang="fr">CdN 2004-0372, revers</desc>
+            </graphic>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" subtype="editorial" xml:space="preserve"> 
+            <div type="textpart" subtype="label" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="a"/>Ὁ <expan><ex>ἅγιος</ex></expan> <expan><abbr>Θεόδωρ</abbr><ex>ος</ex></expan>
+                 <cb n="b"/>Ὁ <expan><ex>ἅγιος</ex></expan> <expan><abbr>Ἰάκινθ</abbr><ex>ος</ex></expan>
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab ana="gen">
+                            <lb n="1"/>Σφραγὶς 
+                            <lb n="2"/>γραφῶν Στρυ
+                            <lb n="3" break="no"/>φνοῦ Μιχαὴλ 
+                            <lb n="4"/><rs type="dignity" ref="#d0059">πρωτονωβε
+                            <lb n="5" break="no"/>λλισιμοϋ
+                            <lb n="6" break="no"/>περτάτου</rs>
+                      </ab>
+                  </div>
+              </div>
+         <div type="edition" subtype="diplomatic" xml:space="preserve"> 
+                  <div type="textpart" subtype="label" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="a"/>|θ|εο|δ|ρ/      
+                 <cb n="b"/>|ia|ki|n|θ/
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab>
+                         <lb n="0"/>
+                         <lb n="1"/>σφραγις                   
+                         <lb n="2"/>γραφνρυ
+                         <lb n="3"/>φνμιχαηλ
+                         <lb n="4"/>πρτονrε
+                         <lb n="5"/>λλισιμου
+                         <lb n="6"/>περτατ
+                         </ab>
+                  </div>
+              </div>
+         <div type="translation">
+            <p>Ὁ ἅγιος Θεόδωρος. Ὁ ἅγιος Ἰάκινθος. || + Σφραγὶς γραφῶν Στρυφνοῦ Μιχαὴλ πρωτονωβελλισιμοϋπερτάτου.</p>
+            <p xml:lang="en">Saint Theodore. Saint Hyakintos. || + Seal of the writings of Michael Stryphnos, protonobelissimohypertatos.</p>
+            <p xml:lang="fr">Saint Théodore. Saint Hyacinthe. || +Sceau des écrits du prôtonôbélissimohypertatos Michel Stryphnos.</p>
+         </div>
+         <div type="commentary" subtype="text">
+            <!-- renvois internes à refaire -->
+            <p xml:lang="en">This figure and his controversial career are well documented, both by
+               written sources and by sigillography.
+               The title of protonobelissimos-hypertatos, which established a higher rank
+               among the protonobelissimos, appears in sources from the last
+               third of the 12th century <bibl>
+                  <ptr target="BBÖ1"/>, p. <citedRange unit="page">296-297</citedRange></bibl>.
+               The seal presented here marks the beginning of the rapid rise of Michael
+               Stryphnos, which began during the reign of Isaac II Angelos (1185–1195). In
+               the privilege granted by the latter to the Genoese in April 1192, Michael is, in
+               fact, sebastos and ἐπὶ τοῦ βεστιαρίου. But it was undoubtedly his marriage to
+               Theodora Kamaterissa, sister of Empress Euphrosyne, that earned him, upon
+               the accession of Alexios III Angelos (1195–1203), his promotion to the high office
+               of megaduke of the fleet. In the exercise of this office, sources
+               mention only the authoritarian and abusive management of Michael Stryphnos, who,
+               seeking to enrich himself, is said to have neglected the fleet’s armament, going so far as to
+               sell the ships’ fittings,3 thereby weakening the
+               Empire’s maritime defense in the Mediterranean against the Venetians and the
+               Genoese. His contemporaries recall the greed displayed by this upstart
+               when he arrived in 1202 as governor of the theme of Hellas and the
+               Peloponnese to suppress the revolt led by the local notary of Corinth, Leo
+               Sgouros;4 furthermore, he bears responsibility for the attacks and pillaging that the
+               Genoese merchant Gafforio (Kaphourès) inflicted on the Aegean islands
+               in revenge for the ill-treatment he had received from the megadoux5.
+               Stryphnos left three other seals, which mark in these terms the
+               stages of his career:
+               – Στρεφνοῦ σφραγὶς πέφυκα βεστιαρίου <bibl>
+                  <ptr target="LaurentCorpus2"/>, n° <citedRange unit="entry">712</citedRange></bibl> ;
+               – Σφραγὶς βεβαιοῖ τὰς γραφὰς τὰς ἐνθάδε || Στρυφνοῦ σεβαστοῦ
+               Μιχαὴλ καὶ κρατύνει <bibl>
+                  <ptr target="Zacos1"/>, n° <citedRange unit="entry">2748bis</citedRange></bibl> ;<bibl>
+                     <ptr target="JordanovCorpus2"/>, n° <citedRange unit="entry">677</citedRange></bibl>;
+               – Δουκὸς μεγάλου Μιχαὴλ γραφῶν κῦρος || αὐγουσταδέλφης
+               συζύγου Θεοδώρας <bibl>
+                  <ptr target="Vatican"/>, n° <citedRange unit="entry">79</citedRange></bibl> ; <bibl>
+                     <ptr target="Zacos1"/>, n° <citedRange unit="entry">2749 a,b,c</citedRange></bibl> ;<bibl>
+                        <ptr target="Wassiliou-Seibt2011"/>, n° <citedRange unit="entry">658</citedRange></bibl>..
+               These seals bear the same rare iconographic motif as that of
+               our seal, depicting Saint Theodore alongside Saint Hyacinth,
+               in which the bishop of Amastris, in Paphlagonia, is shown felling the tree venerated
+               by the pagans of his city. The attachment to this motif suggests the
+               Paphlagonian origin of the family, of which Michel is the only
+               known representative in the sources. The Stryphnoi likely settled in Constantinople in the second half of the 12th century,
+               following the future emperor Andronikos I Komnenos <bibl>
+                  <ptr target="Cheynet1990"/>, p. <citedRange unit="page">441, note 84</citedRange></bibl>.</p>
+            <p xml:lang="en"></p>
+            <p xml:lang="fr">Le personnage et sa carrière contestée sont bien documentés, tant par
+               les sources écrites que par la sigillographie.
+               La dignité de prôtonôbélissimohypertatos, qui introduit une classe supérieure
+               parmi les protonobélissimes, apparaît dans les sources au dernier
+               tiers du XIIe siècle<bibl>
+                  <ptr target="BBÖ1"/>, p. <citedRange unit="page">296-297</citedRange></bibl>.
+               Le sceau présenté ici marque le début de l’ascension fulgurante2 de Michel
+               Stryphnos, commencée sous le règne d’Isaac II Ange (1185-1195). Dans
+               le privilège que ce dernier accorde aux Génois en avril 1192, Michel est, en
+               effet, sébaste et ἐπὶ τοῦ βεστιαρίου. Mais, c’est sans doute son mariage avec
+               Théodora Kamatèrissa, soeur de l’impératrice Euphrosynè, qui lui valut, à
+               l’avènement d’Alexis III Ange (1195-1203), sa promotion à la haute fonction
+               de mégaduc de la flotte. Dans l’exercice de cette charge, les sources ne
+               relèvent que la gestion autoritaire et abusive de Michel Stryphnos, qui,
+               cherchant à s’enrichir, aurait négligé l’armement de la flotte, allant jusqu’à
+               vendre l’accastillage des navires3, entraînant ainsi l’affaiblissement de la
+               défense maritime de l’Empire en Méditerranée, face aux Vénitiens et aux
+               Génois. Ses contemporains rappellent l’avidité dont ce parvenu fit preuve
+               lorsqu’il vint, en 1202, comme gouverneur du thème de l’Hellade et du
+               Péloponnèse, réprimer la révolte du notable local de Corinthe, Léon
+               Sgouros4 ; enfin, sur lui pèse la responsabilité des attaques et pillages que le
+               marchand génois Gafforio (Kaphourès) fit subir aux îles de la mer Égée
+               pour se venger du mauvais traitement qu’il avait reçu du mégaduc5.
+               Stryphnos a laissé trois autres sceaux, qui marquent en ces termes les
+               étapes de sa carrière :
+               – Στρεφνοῦ σφραγὶς πέφυκα βεστιαρίου <bibl>
+                  <ptr target="LaurentCorpus2"/>, n° <citedRange unit="entry">712</citedRange></bibl> ;
+               – Σφραγὶς βεβαιοῖ τὰς γραφὰς τὰς ἐνθάδε || Στρυφνοῦ σεβαστοῦ
+               Μιχαὴλ καὶ κρατύνει<bibl>
+                  <ptr target="Zacos1"/>, n° <citedRange unit="entry">2748bis</citedRange></bibl> ;<bibl>
+                     <ptr target="JordanovCorpus2"/>, n° <citedRange unit="entry">677</citedRange></bibl>
+               – Δουκὸς μεγάλου Μιχαὴλ γραφῶν κῦρος || αὐγουσταδέλφης
+               συζύγου Θεοδώρας <bibl>
+                  <ptr target="Vatican"/>, n° <citedRange unit="entry">79</citedRange></bibl> ; <bibl>
+                     <ptr target="Zacos1"/>, n° <citedRange unit="entry">2749 a,b,c</citedRange></bibl> ;<bibl>
+                        <ptr target="Wassiliou-Seibt2011"/>, n° <citedRange unit="entry">658</citedRange></bibl>.
+               Sur ces bulles figure le même, rare, motif iconographique que celui de
+               notre sceau, représentant saint Théodore aux côtés de saint Hyacinthe,
+               où l’on voit l’évêque d’Amastris, en Paphlagonie, abattre l’arbre vénéré
+               par les païens de sa ville. L’attachement à ce motif laisse supposer l’origine
+               paphlagonienne de la famille, dont Michel est le seul représentant
+               connu des sources. Les Stryphnoi sont probablement venus s’installer à Constantinople, dans la seconde moitié du XIIe siècle, en
+               suivant le futur empereur Andronic Ier Comnène <bibl>
+                  <ptr target="Cheynet1990"/>, p. <citedRange unit="page">441, note 84</citedRange></bibl>..</p>
+            <p xml:lang="fr"></p>
+         </div>
+         <div type="bibliography" subtype="edition">
+            <p><bibl>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">186</citedRange></bibl>;
+               <bibl>
+                  <ptr target="Zacos1"/>, n° <citedRange unit="entry">2748a</citedRange></bibl>
+               <bibl/>
+                  
+            </p>
+         </div>
+         <div type="bibliography" subtype="parallels">
+            <p>Zacos (BnF) 2972:
+               <bibl>
+                  <ptr target="Zacos1"/>, n° <citedRange unit="entry">2748b</citedRange></bibl></p>
+         </div>
+         <div type="bibliography" subtype="discussion">
+            <p><bibl>
+                  <ptr target="Vatican"/>, p. <citedRange unit="page">69, note 5</citedRange></bibl>
+               <bibl>
+                  <ptr target="SeibtWassiliou2015"/>, n° <citedRange unit="entry">36</citedRange></bibl></p>
+         </div>
+      </body>
+   </text>
+</TEI>

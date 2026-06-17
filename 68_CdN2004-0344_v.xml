@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en">Basileios, parakoimomenos</title>
+            <title xml:lang="fr">Basile, parakoimomène</title>
+            <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
+            <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+            <funder>
+               <orgName corresp="https://www.mahmah.ch/">MAH-Musée d'art et d'histoire - Genève,
+                  Cabinet de numismatique</orgName>, Suisse </funder>
+            <principal ref="#MCP"/>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <seg xml:lang="fr">Amélioration digitale</seg>
+               <seg xml:lang="en">Digital enhancement</seg>
+            </edition>
+            <editor role="digital-editor" xml:id="PE" when="2025-04-02">Pia Evening</editor>
+         </editionStmt>
+         <publicationStmt>
+            <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
+            <idno type="filename">CdN 2004-0344</idno>
+            <idno type="SigiDocID">s-gn6YSm</idno>
+            <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+            <idno type="sequence"/>
+            <!--  to be compiled automatically; leave as is  -->
+            <date when="2024-08-06"/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                  >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                  4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listPerson type="issuer">
+               <person gender="M" role="civil aristocracy">
+                  <persName xml:lang="grc">
+                     <forename>Βασίλειος</forename>/> <surname/>
+                  </persName>
+                  <persName xml:lang="fr">
+                     <forename>Basile</forename>/> <surname/>
+                  </persName>
+                  <persName xml:lang="en">
+                     <forename>Basileios</forename>/> <surname/>
+                  </persName>
+                  <idno type="PBW"/>
+                  <idno type="PBE"/>
+                  <idno type="PLP"/>
+                  <idno type="PLRE"/>
+                  <idno type="PcBE"/>
+                  <idno type="PmbZ"/>
+               </person>
+            </listPerson>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <seg xml:lang="en">Switzerland</seg>
+                     <seg xml:lang="fr">Suisse</seg>
+                  </country>
+                  <settlement>
+                     <seg xml:lang="en">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">City of
+                           Geneva</placeName>
+                     </seg>
+                     <seg xml:lang="fr">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">Ville de
+                           Genève</placeName>
+                     </seg>
+                  </settlement>
+                  <institution>MAH-Musée d'art et d'histoire</institution>
+                  <repository>Cabinet de numismatique</repository>
+                  <collection type="public">
+                     <rs type="collection-name" xml:lang="en">Byzantine seals collection</rs>
+                     <rs type="collection-name" xml:lang="fr">Collection de sceaux byzantins</rs>
+                  </collection>
+                  <idno type="inv-nr-current">CdN 2004-0344</idno>
+                  <altIdentifier>
+                     <repository/>
+                     <idno type="inv-nr-former"/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <!--https://github.com/SigiDoc/Guidelines/wiki/5.-Controlled-vocabularies#seals-category-->
+                  <summary n="whole">
+                     <seg xml:lang="fr">Administration centrale</seg>
+                     <seg xml:lang="en">Central administration</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>
+                              <term>
+                                 <seg xml:lang="fr">Sceau</seg>
+                                 <seg xml:lang="en">Seal</seg>
+                              </term>
+                              <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                              <interp type="workType" xml:lang="en">Original impression</interp>
+                           </objectType>
+                           <material>
+                              <seg xml:lang="fr">Plomb</seg>
+                              <seg xml:lang="en">Lead</seg>
+                           </material>
+                           <dimensions type="support" unit="mm">
+                              <dim type="diameter">25,54/24,06</dim>
+                              <!-- mesure du champ? -->
+                           </dimensions>
+                           <measure type="weight" unit="g">16,969</measure>
+                           <measure type="axis" unit="clock"/>
+                           <measure type="overstrikeOrient" unit="clock"/>
+                           <measure type="channelOrient" unit="clock">11-5</measure>
+                           <measure type="countermark" unit="clock"/>
+                        </support>
+                        <condition
+                           rend="well-struck well-preserved blank blank-too-small, obverse crushed worn-edge">
+                           <p xml:lang="en">The seal is well-struck and well-preserved, the obverse
+                              is slightly crushed, chipped at the openings of the channel,the first
+                              line of the reverse and the first letter of the six first lines are
+                              codemned by a small blank and the edge rather worn.</p>
+                           <p xml:lang="fr">Bien frappé et bien conservé, l'avers de la bulle est
+                              plutôt usé et le pourtour passablement rogné; la première ligne de la
+                              légende et la première lettre des six premières lignes sont
+                              supprimées.</p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout n="whole">
+                           <rs type="execution">
+                              <seg xml:lang="fr">Frappé</seg>
+                              <seg xml:lang="en">Struck</seg>
+                           </rs>
+                           <rs type="shape">
+                              <seg xml:lang="fr">Ronde</seg>
+                              <seg xml:lang="en">Round</seg>
+                           </rs>
+                           <rs type="matrix" subtype="not-surviving">
+                              <idno type="SigiDoc">m-KnFFhK</idno>
+                              <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+                              <idno type="PBW"/>
+                              <!-- to be used if the seal has a parallel in the PBW with a boulloterion registered there -->
+                           </rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <seg xml:lang="fr">
+                           <placeName/>
+                        </seg>
+                        <seg xml:lang="en">
+                           <placeName/>
+                        </seg>
+                     </origPlace>
+                     <origDate type="analysis" notBefore="0951" notAfter="1000"
+                        evidence="historical-context titulature prosopography epigraphy" cert="high"
+                        resp="#MCP #JCC">
+                        <seg xml:lang="en">Second half of the 10th century</seg>
+                        <seg xml:lang="fr">Seconde moitié du Xe siècle</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="transferred" subtype="donated" when="2004-11-24">
+                     <!-- pas sûr de subtype et when -->
+                     <p xml:lang="en">George Zacos collection</p>
+                     <p xml:lang="fr">Collection Georges Zacos</p>
+                  </provenance>
+                  <acquisition>
+                     <p xml:lang="en">Donation of the Migore Foundation, Janet Zakos legacy, <date
+                           when="2004-11-24">24th November 2004</date>
+                     </p>
+                     <p xml:lang="fr">Don de la Fondation Migore, legs Janet Zakos, <date
+                           when="2004-11-24">24 Novembre 2004</date>
+                     </p>
+                  </acquisition>
+               </history>
+               <msPart n="r">
+                  <msIdentifier/>
+                  <msContents>
+                     <!-- ajouté ceci -->
+                     <summary n="r">
+                        <seg xml:lang="en">Obverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="r">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="fr">Iconographie avec, de part et d'autre, épigraphe en
+                                 colonne</p>
+                              <p xml:lang="en">Iconography with, on either side, epigraph on
+                                 columns</p>
+                           </layout>
+                        </layoutDesc>
+
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="r">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="r" xml:lang="fr" ana="person, male, saint Basileios">Saint
+                                 Basile, en pied, de face, tenant en main gauche les Évangiles et
+                                 bénissant de la droite.</figDesc>
+                              <figDesc n="r" xml:lang="en" ana="person, male, saint Basileios">Saint
+                                 Basileios standing front view holding the Gospels on the left hand
+                                 and blessing with the right one.</figDesc>
+                              <figDesc n="decoR" xml:lang="fr">Cercle de grènetis</figDesc>
+                              <figDesc n="decoR" xml:lang="en">Circle of dots</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+               <msPart n="v">
+                  <msIdentifier/>
+                  <msContents>
+                     <summary n="v"><!-- ajouté ceci -->
+                        <seg xml:lang="en">Reverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="v">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="en">Linear metrical legend of 8 lines</p>
+                              <p xml:lang="fr">Légende métrique linéaire sur 8 lignes</p>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="v">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="decoV" xml:lang="fr">Cercle de grènetis; la dernière ligne
+                                 est flanquée de croisillons ornés de perles</figDesc>
+                              <figDesc n="decoV" xml:lang="en">Circle of dots; the last line is
+                                 between crosslets adorned with beads</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2025-04-02" who="#PE">Creation of the XML record.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp>
+         <surface n="r">
+            <desc>Obverse</desc>
+            <graphic type="photo" url="CdN2004-0344_1.jpg">
+               <desc xml:lang="en">CdN 2004-0344, obverse</desc>
+               <desc xml:lang="fr">CdN 2004-0344, avers</desc>
+            </graphic>
+         </surface>
+         <surface n="v">
+            <desc>Reverse</desc>
+            <graphic type="photo" url="CdN2004-0344_2.jpg">
+               <desc xml:lang="en">CdN 2004-0344, reverse</desc>
+               <desc xml:lang="de">CdN 2004-0344, revers</desc>
+            </graphic>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" subtype="editorial" xml:space="preserve"> 
+            <div type="textpart" subtype="label" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="a"/>Ὁ ἅγι<supplied reason="lost">ος</supplied>
+                 <cb n="b"/>Βασ<supplied reason="lost">ί</supplied>λε<supplied reason="lost">ιος</supplied>
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <lg type="metrical" met="dodecasyllable">
+                         <l n="1">
+                            <lb n="1"/><supplied reason="lost">Ὁμω</supplied>ν<supplied reason="lost">ύ
+                            <lb n="2" break="no"/>μ</supplied>ῳ σῷ τῷ 
+                            <lb n="3"/><rs type="office" subtype="civil" ref="#of0156"><expan><abbr><supplied reason="lost">π</supplied>αρακοι</abbr><ex>μω</ex><abbr>μέ
+                            <lb n="4" break="no"/><supplied reason="lost">ν</supplied>ῳ</abbr></expan></rs></l> <l n="2">νίκας κα
+                            <lb n="5" break="no"/><supplied reason="lost">τ’</supplied> ἐχθρῶ<supplied reason="omitted">ν</supplied> πρυ 
+                            <lb n="6" break="no"/><supplied reason="lost">τ</supplied>ανεύσοις 
+                            <lb n="7"/>τρισμάκ
+                            <lb n="8" break="no"/>αρ
+                         </l>
+                      </lg>
+                  </div>
+              </div>
+         <div type="edition" subtype="diplomatic" xml:space="preserve"> 
+                  <div type="textpart" subtype="label" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="a"/>O| α| Γ̣Ι|..
+                 <cb n="b"/>r|α|c/ |Λ|E|...
+              </ab>
+            </div>
+            <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab>
+                         <lb n="1"/>.ν̣.
+                         <lb n="2"/>.cΤ 
+                         <lb n="3"/>.α̣ΡακoΙ/ με
+                         <lb n="4"/>.̣νΙκαcκα
+                         <lb n="5"/>.εχθρπ̣Ρυ
+                         <lb n="6"/>.ανευcoΙc
+                         <lb n="7"/>τΡΙcμακ
+                         <lb n="8"/>αΡ
+                         </ab>
+                  </div>
+              </div>
+         <div type="translation">
+            <p>Ὁ ἅγιος Βασίλειος. || Ὁμωνύμῳ σῷ τῷ παρακοιμωμένῳ νίκας κατ’ ἐχθρῶν πρυτανεύσοις
+               τρισμάκαρ.</p>
+            <p xml:lang="en">Saint Basileios. || The three times blessed, may you preside over the
+               victories over the enemies of your namesake, the parakoimomenos.</p>
+            <p xml:lang="fr">Saint Basile. || Le trois fois bienheureux, veuille présider aux
+               victoires sur les ennemis de ton homonyme, le parakoimomène.</p>
+         </div>
+         <div type="commentary" subtype="text">
+            <!-- renvois internes à refaire -->
+            <p xml:lang="en">The epigraphy of the seal, typical of the 11th century, rules out its
+               attribution to Basileios Lecapenos, Roman I's natural son and all-powerful
+               parakoimomenos of four emperors. Our signatory, otherwise unknown, is the fourth
+               parakoimomenos named Basileios, the other two being, according to the list compiled by
+               Guilland, the future Basil I, under the reign of Michael III, in the middle of the
+               9th century, and the parakoimomenos of Michael VIII Palaiologos, of Turkish origin.
+               The bold and forthright invocation, νίκας κατ᾽ ἐχθρῶν, addressed to the patron saint,
+               can be understood as much in the sense of military victories as that of triumph over
+               the rivalries and enmities that could have arisen from the parakoimomeno's
+               confidential and privileged position at the emperor's side and favour. Samônas, at
+               the beginning of the 10th century, Basileios Lecapenos and Joseph Bringas, in the second
+               half of the same century, offer the best-known examples of the influence and power
+               that a parakoimomenos could have.</p>
+            <p xml:lang="en"/>
+            <p xml:lang="fr">L’épigraphie de la bulle caractéristique du XIe siècle exclut son
+               attribution à Basile Lécapène, le fils naturel de Romain Ier et tout-puissant
+               parakoimomène de quatre empereurs. Notre signataire,inconnu par ailleurs, est le
+               quatrième parakoimomène prénommé Basile, les deux autres étant, d’après la liste
+               dressée par Guilland, le futur Basile Ier, sous le règne de Michel III, au milieu du
+               IXe siècle, et le parakoimomène de Michel VIII Paléologue, d’origine turque.
+               L’invocation hardie et sans détour, νίκας κατ᾽ ἐχθρῶν, adressée au saint patron, peut
+               être comprise autant dans le sens des victoires militaires que celui de triomphe sur
+               les rivalités et inimitiés que pouvaient susciter le poste confidentiel et privilégié
+               du parakoimomène aux côtés de l’empereur et la faveur de celui-ci. Samônas, au début
+               du Xe siècle, Basile Lécapène et Joseph Bringas, dans la seconde moitié du même
+               siècle, offrent les exemples les plus connus de l’influence et du pouvoir qu’un
+               parakoimomène pouvait exercer.</p>
+            <p xml:lang="fr"/>
+         </div>
+         <div type="bibliography" subtype="edition">
+            <p><bibl>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">68</citedRange></bibl>
+               <bibl/>
+            </p>
+         </div>
+         <div type="bibliography" subtype="parallels">
+            <p/>
+         </div>
+         <div type="bibliography" subtype="discussion">
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

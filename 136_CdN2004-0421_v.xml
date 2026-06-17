@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en">Gregory Tzotzikios, anthypatos, patrikios, strategos of
+               Mantzikert</title>
+            <title xml:lang="fr">Grégoire Tzotzikios, anthypatos, patrice, stratège de
+               Mantzikert</title>
+            <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
+            <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+            <funder>
+               <orgName corresp="https://www.mahmah.ch/">MAH-Musée d'art et d'histoire - Genève,
+                  Cabinet de numismatique</orgName>, Suisse</funder>
+            <principal ref="#MCP"/>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <seg xml:lang="fr">Amélioration digitale</seg>
+               <seg xml:lang="en">Digital enhancement</seg>
+            </edition>
+            <editor role="digital-editor" xml:id="PE" when="2025-04-14">Pia Evening</editor>
+            <editor role="digital-editor" ref="#MCP" when="2026-02-05">Maria
+               Campagnolo-Pothitou</editor>
+         </editionStmt>
+         <publicationStmt>
+            <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
+            <idno type="filename">CdN 2004-0421</idno>
+            <idno type="SigiDocID">s-udtvux</idno>
+            <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+            <idno type="sequence"/>
+            <!--  to be compiled automatically; leave as is  -->
+            <date when="2024-08-06"/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                  >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                  4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listPerson type="issuer">
+               <person gender="M" role="civil aristocracy">
+                  <persName xml:lang="grc">
+                     <forename>Γρηγόριος</forename>/> <surname>Τζοτζίκιος</surname>/> </persName>
+                  <persName xml:lang="fr">
+                     <forename>Grégoire</forename>/> <surname>Tzotzikios</surname>/> </persName>
+                  <persName xml:lang="en">
+                     <forename>Gregory</forename>/> <surname>Tzotzikios</surname>/> </persName>
+                  <idno type="PBW" ana=""/>
+
+                  <idno type="PBE"/>
+                  <idno type="PLP"/>
+                  <idno type="PLRE"/>
+                  <idno type="PcBE"/>
+                  <idno type="PmbZ"/>
+               </person>
+            </listPerson>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <seg xml:lang="en">Switzerland</seg>
+                     <seg xml:lang="fr">Suisse</seg>
+                  </country>
+                  <settlement>
+                     <seg xml:lang="en">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">City of
+                           Geneva</placeName>
+                     </seg>
+                     <seg xml:lang="fr">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">Ville de
+                           Genève</placeName>
+                     </seg>
+                  </settlement>
+                  <institution>MAH-Musée d'art et d'histoire</institution>
+                  <repository>Cabinet de numismatique</repository>
+                  <collection type="public">
+                     <rs type="collection-name" xml:lang="en">Byzantine seals collection</rs>
+                     <rs type="collection-name" xml:lang="fr">Collection de sceaux byzantins</rs>
+                  </collection>
+                  <idno type="inv-nr-current">CdN 2004-0421</idno>
+                  <altIdentifier>
+                     <repository/>
+                     <idno type="inv-nr-former"/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <!--https://github.com/SigiDoc/Guidelines/wiki/5.-Controlled-vocabularies#seals-category-->
+                  <summary n="whole">
+                     <seg xml:lang="fr">Administration provinciale</seg>
+                     <seg xml:lang="en">Provincial administration</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>
+                              <term>
+                                 <seg xml:lang="fr">Sceau</seg>
+                                 <seg xml:lang="en">Seal</seg>
+                              </term>
+                              <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                              <interp type="workType" xml:lang="en">Original impression</interp>
+                           </objectType>
+                           <material>
+                              <seg xml:lang="fr">Plomb</seg>
+                              <seg xml:lang="en">Lead</seg>
+                           </material>
+                           <dimensions type="support" unit="mm">
+                              <dim type="diameter">27,44/25,42</dim>
+                              <!-- mesure du champ? -->
+                           </dimensions>
+                           <measure type="weight" unit="g">19,807</measure>
+                           <measure type="axis" unit="clock"/>
+                           <measure type="overstrikeOrient" unit="clock"/>
+                           <measure type="channelOrient" unit="clock">1-7</measure>
+                           <measure type="countermark" unit="clock"/>
+                        </support>
+                        <condition rend="well-struck crushed ">
+                           <p xml:lang="en">The bulla is well-struck rather crushed on both sides;
+                              the trail of the channel is also visible on both sides</p>
+                           <p xml:lang="fr">La bulle est bien frappée mais passablement écrasée sur
+                              les deux faces; un rigole est bien visible le long du canal</p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout n="whole">
+                           <rs type="execution">
+                              <seg xml:lang="fr">Frappé</seg>
+                              <seg xml:lang="en">Struck</seg>
+                           </rs>
+                           <rs type="shape">
+                              <seg xml:lang="fr">Ronde</seg>
+                              <seg xml:lang="en">Round</seg>
+                           </rs>
+                           <rs type="matrix" subtype="not-surviving">
+                              <idno type="SigiDoc">m-yghELU</idno>
+                              <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+                              <idno type="PBW"/>
+                              <!-- to be used if the seal has a parallel in the PBW with a boulloterion registered there -->
+                           </rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <seg xml:lang="fr">Mantzikert<placeName/>
+                        </seg>
+                        <seg xml:lang="en">Mantzikert<placeName/>
+                        </seg>
+                     </origPlace>
+                     <origDate type="analysis" notBefore="1026" notAfter="1050"
+                        evidence="onomastics historical-context titulature epigraphy" cert="high"
+                        resp="#MCP #JCC">
+                        <seg xml:lang="en">Second quarter of the 11th century</seg>
+                        <seg xml:lang="fr">Deuxième quart du XIe siècle</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="transferred" subtype="donated" when="2004-11-24">
+                     <!-- pas sûr de subtype et when -->
+                     <p xml:lang="en">George Zacos collection</p>
+                     <p xml:lang="fr">Collection Georges Zacos</p>
+                  </provenance>
+                  <acquisition>
+                     <p xml:lang="en">Donation of the Migore Foundation, Janet Zakos legacy, <date
+                           when="2004-11-24">24th November 2004</date>
+                     </p>
+                     <p xml:lang="fr">Don de la Fondation Migore, legs Janet Zakos, <date
+                           when="2004-11-24">24 Novembre 2004</date>
+                     </p>
+                  </acquisition>
+               </history>
+               <msPart n="r">
+                  <msIdentifier/>
+                  <msContents>
+                     <!-- ajouté ceci -->
+                     <summary n="r">
+                        <seg xml:lang="en">Obverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="r">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="fr">Iconographie avec épigraphe en colonnes de part et
+                                 d'autre de l'effigie</p>
+                              <p xml:lang="en">Iconography with epigraph on columns on either side
+                                 of the effigy</p>
+                           </layout>
+                        </layoutDesc>
+
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="r">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="r" xml:lang="fr" ana="person male saint Nicholas">Buste de
+                                 saint Nicolas tenant les Évangiles en main gauche et bénissant de
+                                 la droite</figDesc>
+                              <figDesc n="r" xml:lang="en" ana="person male saint Nicholas">Bust of
+                                 saint Nicholas facing forward, holding the Gospels in his left hand
+                                 and blessing with the right one</figDesc>
+                              <figDesc n="decoR" xml:lang="fr">Cercle de grènetis</figDesc>
+                              <figDesc n="decoR" xml:lang="en">Border of dots</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+               <msPart n="v">
+                  <msIdentifier/>
+                  <msContents>
+                     <summary n="v"><!-- ajouté ceci -->
+                        <seg xml:lang="en">Reverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="v">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="en">Linear legend of 7 lines</p>
+                              <p xml:lang="fr">Légende linéaire sur 7 lignes</p>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="v">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="decoV" xml:lang="fr">Cercle de grènetis; la légende est
+                                 précédée d'une croisette</figDesc>
+                              <figDesc n="decoV" xml:lang="en">Border of dots; the legend is
+                                 preceded by a crosslet</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2025-04-14" who="#PE">Creation of the XML record.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp>
+         <surface n="r">
+            <desc>Obverse</desc>
+            <graphic type="photo" url="CdN2004-0421_1.jpg">
+               <desc xml:lang="en">CdN 2004-0421, obverse</desc>
+               <desc xml:lang="fr">CdN 2004-0421, avers</desc>
+            </graphic>
+         </surface>
+         <surface n="v">
+            <desc>Reverse</desc>
+            <graphic type="photo" url="CdN2004-0421_2.jpg">
+               <desc xml:lang="en">CdN 2004-0421, reverse</desc>
+               <desc xml:lang="fr">CdN 2004-0421, revers</desc>
+            </graphic>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" subtype="editorial" xml:space="preserve"> 
+            <div type="textpart" subtype="label" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="a"/>Ὁ <expan><ex>ἅγιος</ex></expan> <expan><abbr>Νικ</abbr><ex>ό</ex>
+                 <cb n="b" break="no"/><abbr>λαος</abbr></expan>
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab ana="dat">
+                         <lb n="1"/><rs type="invocation" ref="#inv003"><expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan> <expan><abbr>β</abbr><ex>οή</ex><abbr>θ</abbr><ex>ει</ex></expan></rs> 
+                         <lb n="2"/>Γριγο<supplied reason="lost">ρ</supplied>ίῳ <rs type="dignity" ref="#d0006">ἀν
+                         <lb n="3" break="no"/>θυπά<supplied reason="lost">τ</supplied>o <expan><abbr>π</abbr><ex>ατ</ex><abbr><supplied reason="lost">ρ</supplied>ι</abbr><ex>κίῳ</ex></expan></rs> <supplied reason="lost"><expan><abbr><am>S</am></abbr><ex>καὶ</ex></expan></supplied> 
+                         <lb n="4"/><rs type="office" subtype="military" ref="#of0279">στρατη<supplied reason="lost">γ</supplied>ῷ</rs> 
+                         <lb n="5"/><placeName ref="#geo0322"><expan><abbr>Μανζ<supplied reason="lost">ι</supplied>κ</abbr><ex>έ</ex>
+                         <lb n="6" break="no"/><abbr>ρτ</abbr></expan></placeName> τo <expan><abbr>Τζοτ
+                         <lb n="7" break="no"/><supplied reason="lost">ζι</supplied>κ</abbr><ex>ίῳ</ex></expan>
+                      </ab>
+                  </div>
+              </div>
+         <div type="edition" subtype="diplomatic" xml:space="preserve"> 
+                  <div type="textpart" subtype="label" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="a"/>|ṇị|k/ 
+                 <cb n="b"/>λ| α|ο| σ  
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab>
+                         <lb n="1"/>̣  κεr/ θ/                                              
+                         <lb n="2"/>γριγο.ιαν
+                         <lb n="3"/>θυπα.οπ̣ρ̣ι̣⸣.
+                         <lb n="4"/>στρατ̣η. ̣ 
+                         <lb n="5"/>μανζ.κ/
+                         <lb n="6"/>ρτ̣τοτοτ̣ 
+                         <lb n="7"/>..κ/
+                         </ab>
+                  </div>
+              </div>
+         <div type="translation">
+            <p>Ὁ ἅγιος Νικόλαος. || + Κύριε βοήθει Γριγορίῳ ἀνθυπάτo πατρικίῳ καὶ στρατηγῷ Μανζικέρτ
+               τo Τζοτζικίῳ.</p>
+            <p xml:lang="en">Saint Nicholas. || + Lord, help Gregory Tzotzikios, anthypatos,
+               patrikios, strategos of Mantzikert</p>
+            <p xml:lang="fr">Saint Nicolas. || + Seigneur accorde ton secours à Grégoire Tzotzikios,
+               anthypatos, patrice, stratège de Mantzikert</p>
+         </div>
+         <div type="commentary" subtype="text">
+            <!-- renvois internes à refaire -->
+            <p xml:lang="en">Our signatory, attested only by this single bulla, enriches the list of
+               known representatives of this surname, as well as the – meager – list of strategos of
+               the Mantzikert theme. Like other families of Georgian origin, such as the Pakourianoi
+               or the Apokapai, the Tzotzikioi served the Empire with arms. In the first half of the
+               11th century, three other Tzotzikioi were in charge of sensitive military posts for
+               the defense of the Empire: – the strategos of Dorostolon, “son of the patrikios
+               Theudatos the Iberian,” according to Skylitzes, is the first member of the family
+               mentioned in the texts <bibl>
+                  <ptr target="Empereurs2003"/>, p. <citedRange unit="entry"
+               >297</citedRange></bibl>; – Kemalès, imperial protospatharios and hypatos, was
+               strategos of Artach <bibl>
+                  <ptr target="ZacosSpink3"/>, n° <citedRange unit="entry">262</citedRange></bibl>,
+               a stronghold in the region of Antioch, opposite the emirate of Aleppo; – Pherses,
+               anthypatos, patrikios, commanded the theme of Cappadocia<bibl>
+                  <ptr target="DOseals4"/>, n° <citedRange unit="entry">43.13</citedRange></bibl>.
+               The latter two are attested exclusively by their seals. Until now, two strategos from
+               Mantzikert were known from sigillography: Leon o tou Kataphlorou, protospatharios epi
+               tou Chrysotriklinou<bibl>
+                  <ptr target="CheynetTheodoridis"/>, n° <citedRange unit="entry"
+                  >100</citedRange></bibl>, and Nicephoros, protospatharios known from two seals<bibl>
+                  <ptr target="DOseals4"/>, n° <citedRange unit="entry">67.1</citedRange></bibl>; <bibl>
+                  <ptr target="CheynetTheodoridis"/>, p. <citedRange unit="page"
+                  >115, note 281</citedRange></bibl>. Judging by their title, they undoubtedly preceded
+               Gregory in this command, but it is interesting to note that, like him, they also
+               devoted themselves to Saint Nicholas. Mantzikert was one of the properties that the
+               Empire had inherited from the kouropalates David, archon of Tao/Tyak, who died in the
+               year 1000. A fortress dominating the entrance to the Anatolian plateau towards Asia
+               Minor, north of lake Van, it then became the capital of Vaspurakan. When, in 1054,
+               the citadel was besieged by the Seljuk sultan Togrul Beg, it was valiantly defended
+               by the strategos Basil Apokapes<bibl>
+                  <ptr target="Empereurs2003"/>, p. <citedRange unit="page"
+                     >382-383</citedRange></bibl>. However, it then passed under the control of the
+               Great Seljuks, for Romanos IV Diogenes recaptured it, along with Chliat, just before
+               the battle of 1071<bibl>
+                  <ptr target="Attaleiates2012"/>, p. <citedRange unit="page"
+                     >20, § 9-12</citedRange></bibl>.</p>
+            <p xml:lang="en"/>
+            <p xml:lang="fr">Notre signataire, attesté seulement par cette unique bulle, enrichit la
+               liste des représentants connus de ce patronyme, ainsi que celle – maigre – des
+               stratèges du thème de Mantzikert. Comme d’autres familles d’origine géorgienne, tels
+               les Pakourianoi ou les Apokapai, les Tzotzikioi ont servi l’Εmpire par les armes.
+               Dans la première moitié du XIe siècle, trois autres Tzotzikioi étaient en charge de
+               postes militaires sensibles pour la défense de l’Empire : – le stratège de
+               Dorostolon, « fils du patrice Theudatos l’Ibère », selon Skylitzès, est le premier
+               membre de la famille mentionné dans les textes <bibl>
+                  <ptr target="Empereurs2003"/>, p. <citedRange unit="entry"
+                     >297</citedRange></bibl>; – Kémalès, protospathaire impérial
+               et hypatos, fut stratège d’Artach <bibl>
+                  <ptr target="ZacosSpink3"/>, n° <citedRange unit="entry">262</citedRange></bibl>,, place forte de la région d’Antioche, face à
+               l’émirat d’Alep ; – Phersès, anthypatos, patrice, commandait le thème de Cappadoce<bibl>
+                  <ptr target="DOseals4"/>, n° <citedRange unit="entry">43.13</citedRange></bibl>.
+               Les deux derniers sont exclusivement attestés par leur sceau. Jusqu’à présent, deux
+               stratèges de Mantzikert étaient connus par la sigillographie : Léon o tou
+               Kataphlorou, protospathaire épi tou Chrysotriklinou<bibl>
+                  <ptr target="CheynetTheodoridis"/>, n° <citedRange unit="entry"
+                     >100</citedRange></bibl>, et Nicéphore, protospathaire dont on connaît deux sceaux<bibl>
+                        <ptr target="DOseals4"/>, n° <citedRange unit="entry">67.1</citedRange></bibl>; <bibl>
+                           <ptr target="CheynetTheodoridis"/>, p. <citedRange unit="page"
+                              >115, note 281</citedRange></bibl>. À
+               en juger par leur titre, ils ont sans doute précédé Grégoire dans ce commandement,
+               mais il est intéressant de noter que, comme ce dernier, ils se vouent également à
+               saint Nicolas. Mantzikert faisait partie des biens dont l’Empire avait hérité du
+               curopalate David, archonte de Tao/Tyak, mort en l’an 1000. Forteresse dominant
+               l’entrée du plateau anatolien vers l’Asie Mineure, au nord du lac de Van, elle devint
+               alors la capitale du Vaspourakan. Lorsque, en 1054, la citadelle subit le siège du
+               sultan seldjoukide Togrul Beg, elle fut vaillamment défendue par le stratège Basile
+               Apokapès<bibl>
+                  <ptr target="Empereurs2003"/>, p. <citedRange unit="page"
+                     >382-383</citedRange></bibl>.. Cependant, elle passa ensuite sous le contrôle des Grands Seldjoukides,
+               puisque Romain IV Diogène la reprit, ainsi que Chliat, juste avant la bataille de
+               1071<bibl>
+                  <ptr target="Attaleiates2012"/>, p. <citedRange unit="page"
+                     >20, § 9-12</citedRange></bibl>.</p>
+            <p xml:lang="fr"/>
+         </div>
+         <div type="bibliography" subtype="edition">
+            <p><bibl>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">136</citedRange></bibl>
+               <bibl/>
+            </p>
+         </div>
+         <div type="bibliography" subtype="parallels">
+            <p/>
+         </div>
+         <div type="bibliography" subtype="discussion">
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

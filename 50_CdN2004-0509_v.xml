@@ -19,7 +19,8 @@
                <seg xml:lang="fr">Amélioration digitale</seg>
                <seg xml:lang="en">Digital enhancement</seg>
             </edition>
-            <editor role="digital-editor" xml:id="PE" when="2025-04-02">Pia Evening</editor>
+             <editor role="digital-editor" xml:id="PE" when="2025-04-02">Pia Evening</editor>
+            <editor role="digital-editor" ref="#MCP" when="2025-07-08">Pia Evening</editor>
          </editionStmt>
          <publicationStmt>
             <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
@@ -310,11 +311,12 @@
          <div type="edition" subtype="diplomatic" xml:space="preserve"> 
                   <div type="textpart" subtype="face" rend="linear" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
               <ab>
-                 <lb n="1"/>κE.
+                 <lb n="1"/>κE.
                  <lb n="2"/>ΣΡARA
                  <lb n="3"/>ΣΙΛEΙοΝ
                  <lb n="4"/>ΗΣΦΡAΓΙΣ
                  <lb n="5"/>ΓΡAΦEΙ
+                 <lb n="0"/>
               </ab>
             </div>
                   <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
@@ -324,7 +326,7 @@
                          <lb n="8"/>ΤΗΝΤEΤοΝ
                          <lb n="9"/>EΚΤοΥΓE
                          <lb n="10"/>ΝΣΣΚΡΙ
-                         <lb n="11"/>ΒAΝ
+                         <lb n="11"/>RAΝ       
                          </ab>
                   </div>
               </div>

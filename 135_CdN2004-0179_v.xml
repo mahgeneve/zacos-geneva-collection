@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en">Theodore Aimilianos, anthypatos, patrikios, judge of the Velum and
+               of Macedonia</title>
+            <title xml:lang="fr">Théodore Aimilianos, anthypatos, patrice, juge du Velum et de
+               Macédoine</title>
+            <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
+            <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+            <funder>
+               <orgName corresp="https://www.mahmah.ch/">MAH-Musée d'art et d'histoire - Genève,
+                  Cabinet de numismatique</orgName>, Suisse</funder>
+            <principal ref="#MCP"/>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <seg xml:lang="fr">Amélioration digitale</seg>
+               <seg xml:lang="en">Digital enhancement</seg>
+            </edition>
+            <editor role="digital-editor" xml:id="PE" when="2025-04-14">Pia Evening</editor>
+            <editor role="digital-editor" ref="#MCP" when="2026-02-05">Maria
+               Campagnolo-Pothitou</editor>
+         </editionStmt>
+         <publicationStmt>
+            <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
+            <idno type="filename">CdN 2004-0179</idno>
+            <idno type="SigiDocID">s-iButFA</idno>
+            <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+            <idno type="sequence"/>
+            <!--  to be compiled automatically; leave as is  -->
+            <date when="2024-08-06"/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                  >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                  4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listPerson type="issuer">
+               <person gender="M" role="civil aristocracy">
+                  <persName xml:lang="grc">
+                     <forename>Θεόδωρος</forename>
+                     <surname>Αἰμιλιανός</surname>
+                  </persName>
+                  <persName xml:lang="fr">
+                     <forename>Théodore</forename>
+                     <surname>Aimilianos</surname>
+                  </persName>
+                  <persName xml:lang="en">
+                     <forename>Theodore</forename>
+                     <surname>Aimilianos</surname>
+                  </persName>
+                  <idno type="PBW" ana="http://pbw2016.kdl.kcl.ac.uk/person/Theodoros/20248/"
+                     >Theodoros 20248</idno>
+
+                  <idno type="PBE"/>
+                  <idno type="PLP"/>
+                  <idno type="PLRE"/>
+                  <idno type="PcBE"/>
+                  <idno type="PmbZ"/>
+               </person>
+            </listPerson>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <seg xml:lang="en">Switzerland</seg>
+                     <seg xml:lang="fr">Suisse</seg>
+                  </country>
+                  <settlement>
+                     <seg xml:lang="en">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">City of
+                           Geneva</placeName>
+                     </seg>
+                     <seg xml:lang="fr">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">Ville de
+                           Genève</placeName>
+                     </seg>
+                  </settlement>
+                  <institution>MAH-Musée d'art et d'histoire</institution>
+                  <repository>Cabinet de numismatique</repository>
+                  <collection type="public">
+                     <rs type="collection-name" xml:lang="en">Byzantine seals collection</rs>
+                     <rs type="collection-name" xml:lang="fr">Collection de sceaux byzantins</rs>
+                  </collection>
+                  <idno type="inv-nr-current">CdN 2004-0179</idno>
+                  <altIdentifier>
+                     <repository/>
+                     <idno type="inv-nr-former"/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <!--https://github.com/SigiDoc/Guidelines/wiki/5.-Controlled-vocabularies#seals-category-->
+                  <summary n="whole">
+                     <seg xml:lang="fr">Administration provinciale</seg>
+                     <seg xml:lang="en">Provincial administration</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>
+                              <term>
+                                 <seg xml:lang="fr">Sceau</seg>
+                                 <seg xml:lang="en">Seal</seg>
+                              </term>
+                              <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                              <interp type="workType" xml:lang="en">Original impression</interp>
+                           </objectType>
+                           <material>
+                              <seg xml:lang="fr">Plomb</seg>
+                              <seg xml:lang="en">Lead</seg>
+                           </material>
+                           <dimensions type="support" unit="mm">
+                              <dim type="diameter">27,46/26,29</dim>
+                              <!-- mesure du champ? -->
+                           </dimensions>
+                           <measure type="weight" unit="g">20,322</measure>
+                           <measure type="axis" unit="clock"/>
+                           <measure type="overstrikeOrient" unit="clock"/>
+                           <measure type="channelOrient" unit="clock">12-6</measure>
+                           <measure type="countermark" unit="clock"/>
+                        </support>
+                        <condition rend="well-struck well-preserved chipped obliterated">
+                           <p xml:lang="en">The bulla is well-strucke and well-preserved, although
+                              slightly chipped on the edge and obliterated on both sides</p>
+                           <p xml:lang="fr">La bulle est bien frappée et bien conservée bien que
+                              légèrement rognée sur la tranche et légèrement écrasée sur les deux
+                              faces</p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout n="whole">
+                           <rs type="execution">
+                              <seg xml:lang="fr">Frappé</seg>
+                              <seg xml:lang="en">Struck</seg>
+                           </rs>
+                           <rs type="shape">
+                              <seg xml:lang="fr">Ronde</seg>
+                              <seg xml:lang="en">Round</seg>
+                           </rs>
+                           <rs type="matrix" subtype="not-surviving">
+                              <idno type="SigiDoc">m-8zpss5</idno>
+                              <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+                              <idno type="PBW" ana="http://pbw2016.kdl.kcl.ac.uk/boulloterion/3574/"/>
+                              <!-- to be used if the seal has a parallel in the PBW with a boulloterion registered there -->
+                           </rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <seg xml:lang="fr">Macédoine <placeName/>
+                        </seg>
+                        <seg xml:lang="en">Macedonia <placeName/>
+                        </seg>
+                     </origPlace>
+                     <origDate type="analysis" notBefore="1051" notAfter="1075"
+                        evidence="iconography epigraphy prosopography titulature" cert="high"
+                        resp="#MCP #JCC">
+                        <seg xml:lang="en">Third quarter of the 11th century</seg>
+                        <seg xml:lang="fr">Troisième quart du XIe siècle</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="transferred" subtype="donated" when="2004-11-24">
+                     <!-- pas sûr de subtype et when -->
+                     <p xml:lang="en">George Zacos collection</p>
+                     <p xml:lang="fr">Collection Georges Zacos</p>
+                  </provenance>
+                  <acquisition>
+                     <p xml:lang="en">Donation of the Migore Foundation, Janet Zakos legacy, <date
+                           when="2004-11-24">24th November 2004</date>
+                     </p>
+                     <p xml:lang="fr">Don de la Fondation Migore, legs Janet Zakos, <date
+                           when="2004-11-24">24 Novembre 2004</date>
+                     </p>
+                  </acquisition>
+               </history>
+               <msPart n="r">
+                  <msIdentifier/>
+                  <msContents>
+                     <!-- ajouté ceci -->
+                     <summary n="r">
+                        <seg xml:lang="en">Obverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="r">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="fr">Iconographie avec épigraphe en colonnes de part et
+                                 d'autre de l'effigie</p>
+                              <p xml:lang="en">Iconography with epigraph on columns on either side
+                                 of the effigy</p>
+                           </layout>
+                        </layoutDesc>
+
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="r">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="r" xml:lang="fr" ana="person male prophet Elias">Le
+                                 prophète Élie en pied, de face, orant, doté d’une longue barbe et
+                                 d’une abondante chevelure.</figDesc>
+                              <figDesc n="r" xml:lang="en" ana="person male prophet Elias">Prophet
+                                 Elias praying, standing and facing forward, bearing a long beard
+                                 and thick hair</figDesc>
+                              <figDesc n="decoR" xml:lang="fr">Cercle de grènetis</figDesc>
+                              <figDesc n="decoR" xml:lang="en">Border of dots</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+               <msPart n="v">
+                  <msIdentifier/>
+                  <msContents>
+                     <summary n="v"><!-- ajouté ceci -->
+                        <seg xml:lang="en">Reverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="v">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="en">Linear legend of 6 lines</p>
+                              <p xml:lang="fr">Légende linéaire sur 6 lignes</p>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="v">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="decoV" xml:lang="fr">Cercle de grènetis; la légende est
+                                 surmontée d’un losange de perles cantonné de tirets</figDesc>
+
+                              <figDesc n="decoV" xml:lang="en">Border of dots; the legend is
+                                 surmounted of a lozenge made o pearls placed between
+                                 traits</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2025-04-14" who="#PE">Creation of the XML record.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp>
+         <surface n="r">
+            <desc>Obverse</desc>
+            <graphic type="photo" url="CdN2004-0179_1.jpg">
+               <desc xml:lang="en">CdN 2004-0179, obverse</desc>
+               <desc xml:lang="fr">CdN 2004-0179, avers</desc>
+            </graphic>
+         </surface>
+         <surface n="v">
+            <desc>Reverse</desc>
+            <graphic type="photo" url="CdN2004-0179_2.jpg">
+               <desc xml:lang="en">CdN 2004-0179, reverse</desc>
+               <desc xml:lang="fr">CdN 2004-0179, revers</desc>
+            </graphic>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" subtype="editorial" xml:space="preserve"> 
+            <div type="textpart" subtype="label" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="a"/>Ὁ ἅγιος 
+                 <cb n="b"/>Ἡλήας
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab ana="nom">
+                         <lb n="1"/><expan><abbr>Θεόδωρ</abbr><ex>ος</ex></expan> 
+                         <lb n="2"/><rs type="dignity" ref="#d0006"><expan><abbr>ἀνθύπατ</abbr><ex>ος</ex></expan> 
+                         <lb n="3"/><expan><abbr>π</abbr><ex>ατ</ex><abbr>ρί</abbr><ex>κιος</ex></expan></rs> <rs type="office" subtype="civil" ref="#of0112"><expan><abbr>κριτ</abbr><ex>ὴς</ex></expan></rs> <expan><abbr>τ</abbr><ex>οῦ</ex></expan> 
+                         <lb n="4"/><rs type="institution" ref="#org0007"><expan><abbr>βήλ</abbr><ex>ου</ex></expan></rs> <expan><abbr><am>S</am></abbr><ex>καὶ</ex></expan> <expan><abbr>τ</abbr><ex>ῆς</ex></expan> <placeName ref="#geo0036"><expan><abbr>Μα
+                         <lb n="5" break="no"/>κεδον</abbr><ex>ίας</ex></expan></placeName> ὁ <expan><abbr>Αἰ
+                         <lb n="6" break="no"/>μιλιαν</abbr><ex>ός</ex></expan>
+                      </ab>
+                  </div>
+              </div>
+         <div type="edition" subtype="diplomatic" xml:space="preserve"> 
+                  <div type="textpart" subtype="label" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="a"/>Ο| α|γι|ο|ς     
+                 <cb n="b"/>η|λη|α|σ
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab>
+                         <lb n="0"/>    
+                         <lb n="1"/>θεοδρ/                 
+                         <lb n="2"/>ανθυπατ/ 
+                         <lb n="3"/>πρι/ κριτ/ τ̣/
+                         <lb n="4"/>rη̣λ/ τ/ μα
+                         <lb n="5"/>κ̣εδον/ ο̣αι
+                         <lb n="6"/>μιλιαν/
+                         </ab>
+                  </div>
+              </div>
+         <div type="translation">
+            <p>Ὁ ἅγιος Ἡλήας. || Θεόδωρος ἀνθύπατος πατρίκιος, κριτὴς τοῦ βήλου καὶ τῆς Μακεδονίας ὁ
+               Αἰμιλιανός.</p>
+            <p xml:lang="en">Saint Elias. || Theodore Aimilianos, anthypatos, patrikios, judge of
+               the Velum and of Macedonia</p>
+            <p xml:lang="fr">Saint Elie. || Théodore Aimilianos, anthypatos, patrice, juge du Velum
+               et de Macédoine</p>
+         </div>
+         <div type="commentary" subtype="text">
+            <!-- renvois internes à refaire -->
+            <p xml:lang="en">The name Elias normally refers to the Old Testament prophet; however,
+               here, the inscription on the left column cannot be read as προφήτης. There are indeed
+               a few local saints named Elias, ἅγιος Ἠλίας. However, the representation of Elias
+               on our seal closely matches that appearing on the bullaes of the patriarchs of Antioch.
+               A fine example is that of the Zarnitz collection <bibl>
+                  <ptr target="Seibt1997"/>, n° <citedRange unit="entry">5.1.7</citedRange></bibl>.
+               Another seal can be attributed to Theodore Aimilianos, anthypatos, patrikios, and
+               judge of the Velum, dated from the same period and featuring on the obverse the bust
+               of the prophet Elias— an unusual motif in sigillography.<bibl>
+                  <ptr target="BBÖ2"/>, n° <citedRange unit="entry">44</citedRange></bibl>. This
+               would therefore be the stage immediately preceding his career as a civil officer. V.
+               Laurent published the bulla of a monk of the same name dating from the 11th century<bibl>
+                  <ptr target="LaurentCorpus2"/>, n° <citedRange unit="entry"
+                  >1449</citedRange></bibl>, but the saint depicted cannot be clearly identified, so
+               it is difficult to establish a connection with our signatory. The Aimilianos family
+               is not known from narrative sources, with the exception of the patriarch of Antioch
+               of that name. The two other attested representatives of this patronymic are known
+               only through their seals. In the first quarter of the 11th century, the
+               protospatharios Nicolas Aimilianos struck a bulla in his capacity as noumerarios
+               (Ermitage, M-6465) <bibl>
+                  <ptr target="BBÖ2"/>, p. <citedRange unit="page">72, note
+               290</citedRange></bibl>,whereas the vestes Eustratios, or Eustathios, would have been
+               a contemporary of Theodore, since his bulla is dated to the last quarter of the same
+               century(Ermitage, M-6087)<bibl>
+                  <ptr target="BBÖ2"/>, p. <citedRange unit="page">72, note 291</citedRange></bibl>; <bibl>
+                     <ptr target="Schlumberger1884"/>, p. <citedRange unit="page">356, n° 3 et 683, n°
+                        1</citedRange></bibl>;<bibl>
+                           <ptr target="Istanbul"/>, n° <citedRange unit="entry"
+                              >5.243</citedRange></bibl>.</p>
+            <p xml:lang="en"/>
+            <p xml:lang="fr">Le nom d’Élie renvoie normalement au prophète de l’Ancien Testament ;
+               or, ici, l’épigraphe en colonne à gauche ne peut être lue προφήτης. Il existe bien
+               quelques saints Élie locaux, ἅγιος Ἠλίας. Cependant, la représentation d’Élie sur
+               notre sceau correspond étroitement à celle figurant sur les bulles des patriarches
+               d’Antioche. Un bel exemple est celui de la collection Zarnitz<bibl>
+                  <ptr target="Seibt1997"/>, n° <citedRange unit="entry">5.1.7</citedRange></bibl>
+               Un autre sceau peut être attribué à Théodore Aimilianos, anthypatos, patrice et juge
+               du Velum, daté de la même période et présentant au droit le buste du prophète Élie –
+               motif peu commun en sigillographie<bibl>
+                  <ptr target="BBÖ2"/>, n° <citedRange unit="entry">44</citedRange></bibl>. Il
+               s’agirait donc de l’étape directement précédente de sa carrière de fonctionnaire
+               civil. V. Laurent a publié la bulle d’un moine homonyme datable au XIe siècle<bibl>
+                  <ptr target="LaurentCorpus2"/>, n° <citedRange unit="entry"
+                  >1449</citedRange></bibl>, mais le saint représenté ne peut être clairement
+               identifié, aussi est-il difficile d’établir une relation avec notre sigillant. La
+               famille Aimilianos n’est pas connue des sources narratives, à l’exception du
+               patriarche d’Antioche de ce nom. Les deux autres représentants attestés de ce
+               patronyme le sont seulement par leur sceau. Dans le premier quart du XIe siècle, le
+               protospathaire Nicolas Aimilianos a frappé une bulle en sa qualité de
+               noumérarios(Ermitage, M-6465) <bibl>
+                  <ptr target="BBÖ2"/>, p. <citedRange unit="page">72, note 290</citedRange></bibl>,
+               alors que le vestès Eustratios, ou Eustathios, serait contemporain de Théodore,
+               puisque sa bulle est datée du dernier quart de ce même siècle (Ermitage, M-6087)<bibl>
+                  <ptr target="BBÖ2"/>, p. <citedRange unit="page">72, note 291</citedRange></bibl>; <bibl>
+                  <ptr target="Schlumberger1884"/>, p. <citedRange unit="page">356, n° 3 et 683, n°
+                     1</citedRange></bibl>;<bibl>
+                  <ptr target="Istanbul"/>, n° <citedRange unit="entry"
+               >5.243</citedRange></bibl></p>
+            <p xml:lang="fr"/>
+         </div>
+         <div type="bibliography" subtype="edition">
+            <p><bibl>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry"
+                     >135</citedRange></bibl>
+               <bibl/>
+            </p>
+         </div>
+         <div type="bibliography" subtype="parallels">
+            <p/>
+         </div>
+         <div type="bibliography" subtype="discussion">
+            <bibl>
+               <ptr target="BBÖ2"/>, p. <citedRange unit="page"
+                  >71, note 288</citedRange></bibl><p/>
+         </div>
+      </body>
+   </text>
+</TEI>

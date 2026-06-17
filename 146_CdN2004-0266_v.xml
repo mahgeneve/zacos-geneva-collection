@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en">Gregory (?) Radenos, strategos and judge of Optimatoi</title>
+            <title xml:lang="fr">Grégoire (?) Radènos, stratège et juge des Optimates</title>
+            <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
+            <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+            <funder>
+               <orgName corresp="https://www.mahmah.ch/">MAH-Musée d'art et d'histoire - Genève,
+                  Cabinet de numismatique</orgName>, Suisse</funder>
+            <principal ref="#MCP"/>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <seg xml:lang="fr">Amélioration digitale</seg>
+               <seg xml:lang="en">Digital enhancement</seg>
+            </edition>
+            <editor role="digital-editor" xml:id="PE" when="2025-04-14">Pia Evening</editor>
+            <editor role="digital-editor" ref="#MCP" when="2026-02-10">Maria
+               Campagnolo-Pothitou</editor>
+         </editionStmt>
+         <publicationStmt>
+            <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
+            <idno type="filename">CdN 2004-0266</idno>
+            <idno type="SigiDocID">s-q3Hdf6</idno>
+            <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+            <idno type="sequence"/>
+            <!--  to be compiled automatically; leave as is  -->
+            <date when="2024-08-06"/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                  >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                  4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listPerson type="issuer">
+               <person gender="M" role="military aristocracy">
+                  <persName xml:lang="grc">
+                     <forename>Γρηγόριος</forename>
+                     <surname>Ραδηνός</surname>
+                  </persName>
+                  <persName xml:lang="fr">
+                     <forename>Grégoire</forename>
+                     <surname>Radènos</surname>
+                  </persName>
+                  <persName xml:lang="en">
+                     <forename>Gregory</forename>
+                     <surname>Radenos</surname>
+                  </persName>
+                  <idno type="PBW" ana=""/>
+
+                  <idno type="PBE"/>
+                  <idno type="PLP"/>
+                  <idno type="PLRE"/>
+                  <idno type="PcBE"/>
+                  <idno type="PmbZ"/>
+               </person>
+            </listPerson>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <seg xml:lang="en">Switzerland</seg>
+                     <seg xml:lang="fr">Suisse</seg>
+                  </country>
+                  <settlement>
+                     <seg xml:lang="en">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">City of
+                           Geneva</placeName>
+                     </seg>
+                     <seg xml:lang="fr">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">Ville de
+                           Genève</placeName>
+                     </seg>
+                  </settlement>
+                  <institution>MAH-Musée d'art et d'histoire</institution>
+                  <repository>Cabinet de numismatique</repository>
+                  <collection type="public">
+                     <rs type="collection-name" xml:lang="en">Byzantine seals collection</rs>
+                     <rs type="collection-name" xml:lang="fr">Collection de sceaux byzantins</rs>
+                  </collection>
+                  <idno type="inv-nr-current">CdN 2004-0266</idno>
+                  <altIdentifier>
+                     <repository/>
+                     <idno type="inv-nr-former"/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <!--https://github.com/SigiDoc/Guidelines/wiki/5.-Controlled-vocabularies#seals-category-->
+                  <summary n="whole">
+                     <seg xml:lang="fr">Administration provinciale</seg>
+                     <seg xml:lang="en">Provincial administration</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>
+                              <term>
+                                 <seg xml:lang="fr">Sceau</seg>
+                                 <seg xml:lang="en">Seal</seg>
+                              </term>
+                              <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                              <interp type="workType" xml:lang="en">Original impression</interp>
+                           </objectType>
+                           <material>
+                              <seg xml:lang="fr">Plomb</seg>
+                              <seg xml:lang="en">Lead</seg>
+                           </material>
+                           <dimensions type="support" unit="mm">
+                              <dim type="diameter">31</dim>
+                              <!-- mesure du champ? -->
+                           </dimensions>
+                           <measure type="weight" unit="g">19,741</measure>
+                           <measure type="axis" unit="clock"/>
+                           <measure type="overstrikeOrient" unit="clock"/>
+                           <measure type="channelOrient" unit="clock">12-6</measure>
+                           <measure type="countermark" unit="clock"/>
+                        </support>
+                        <condition rend="well-struck obliterated chipped">
+                           <p xml:lang="en">The bulla is well struck but rather obliterated on both
+                              sides; chipped at the openings of the channel</p>
+                           <p xml:lang="fr">La bulle est bien frappée mais passablement écrasée sur
+                              les deux faces; échancrée aux orifices du canal</p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout n="whole">
+                           <rs type="execution">
+                              <seg xml:lang="fr">Frappé</seg>
+                              <seg xml:lang="en">Struck</seg>
+                           </rs>
+                           <rs type="shape">
+                              <seg xml:lang="fr">Ronde</seg>
+                              <seg xml:lang="en">Round</seg>
+                           </rs>
+                           <rs type="matrix" subtype="not-surviving">
+                              <idno type="SigiDoc">m-5d8R5U</idno>
+                              <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+                              <idno type="PBW"/>
+                              <!-- to be used if the seal has a parallel in the PBW with a boulloterion registered there -->
+                           </rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <seg xml:lang="fr">Optimates <placeName/>
+                        </seg>
+                        <seg xml:lang="en">Optimatoi <placeName/>
+                        </seg>
+                     </origPlace>
+                     <origDate type="analysis" notBefore="1001" notAfter="1050"
+                        evidence="iconography onomastics titulature" cert="high" resp="#MCP #JCC">
+                        <seg xml:lang="en">First half of the 11th century</seg>
+                        <seg xml:lang="fr">Première moitié du XIe siècle</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="transferred" subtype="donated" when="2004-11-24">
+                     <!-- pas sûr de subtype et when -->
+                     <p xml:lang="en">George Zacos collection</p>
+                     <p xml:lang="fr">Collection Georges Zacos</p>
+                  </provenance>
+                  <acquisition>
+                     <p xml:lang="en">Donation of the Migore Foundation, Janet Zakos legacy, <date
+                           when="2004-11-24">24th November 2004</date>
+                     </p>
+                     <p xml:lang="fr">Don de la Fondation Migore, legs Janet Zakos, <date
+                           when="2004-11-24">24 Novembre 2004</date>
+                     </p>
+                  </acquisition>
+               </history>
+               <msPart n="r">
+                  <msIdentifier/>
+                  <msContents>
+                     <!-- ajouté ceci -->
+                     <summary n="r">
+                        <seg xml:lang="en">Obverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="r">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="fr">Iconographie avec des sigles de part et d'autres de
+                                 l'effigie et invocation circulaire</p>
+                              <p xml:lang="en">Iconography with sigla on either part of the effigy
+                                 and circular invocation</p>
+                           </layout>
+                        </layoutDesc>
+
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="r">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="r" xml:lang="fr" ana="person female Virgin Odighitria"
+                                 >Vierge Hodègètria à mi-corps, légèrement tournée vers l’Enfant
+                                 qu’elle porte sur le bras gauche et qu’elle désigne de la main
+                                 droite, à demi levée dans un geste d’adoration. Le Christ, au nimbe
+                                 crucigère orné de deux perles en chaque bras de la croix, bénit et
+                                 tient le Livre.</figDesc>
+                              <figDesc n="r" xml:lang="en" ana="person female Virgin Odighitria"
+                                 >Virgin Odighitria half-long, slightly turned to the Child seated on her
+                                 left arm, raising her right hand to show at him in a gesture of
+                                 adoration. The Christ, bearing a cross form nimbus decorated with a
+                                 pearl on each branch, is blessing with his right hand, holding the
+                                 Gospels in his left one.</figDesc>
+                              <figDesc n="decoR" xml:lang="fr">Cercle de grènetis; une croisette
+                                 précède l'inscription circulaire commençant à 8h</figDesc>
+                              <figDesc n="decoR" xml:lang="en">Border of dots; a crosslet precedes
+                                 the circular inscription starting at 8 o'clock</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+               <msPart n="v">
+                  <msIdentifier/>
+                  <msContents>
+                     <summary n="v"><!-- ajouté ceci -->
+                        <seg xml:lang="en">Reverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="v">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="en">Linear legend of 7 lines</p>
+                              <p xml:lang="fr">Légende linéaire sur 7 lignes</p>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="v">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="decoV" xml:lang="fr">Cercle de grènetis</figDesc>
+                              <figDesc n="decoV" xml:lang="en">Border of dots</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2025-04-14" who="#PE">Creation of the XML record.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp>
+         <surface n="r">
+            <desc>Obverse</desc>
+            <graphic type="photo" url="CdN2004-0266_1.jpg">
+               <desc xml:lang="en">CdN 2004-0266, obverse</desc>
+               <desc xml:lang="fr">CdN 2004-0266, avers</desc>
+            </graphic>
+         </surface>
+         <surface n="v">
+            <desc>Reverse</desc>
+            <graphic type="photo" url="CdN2004-0266_2.jpg">
+               <desc xml:lang="en">CdN 2004-0266, reverse</desc>
+               <desc xml:lang="fr">CdN 2004-0266, revers</desc>
+            </graphic>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" subtype="editorial" xml:space="preserve"> 
+            <div type="textpart" subtype="sigla" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="a"/><expan><abbr>Μ</abbr><ex>ήτ</ex><abbr>ηρ</abbr></expan> 
+                 <cb n="b"/><expan><abbr>Θ</abbr><supplied reason="lost"><ex>εο</ex><abbr>ῦ</abbr></supplied></expan>
+              </ab>
+            </div>
+            <div type="textpart" subtype="face" rend="circular" n="obv" xml:lang="grc">
+              <ab>
+                 <lb n="1"/><rs type="invocation" ref="#inv002"><expan><abbr>Θ</abbr><ex>εοτό</ex><abbr>κε</abbr></expan> <supplied reason="lost">βοήθει τῷ σῷ δούλῳ</supplied></rs>
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab ana="dat">
+                         <lb n="2"/>Γ<supplied reason="lost">ρη</supplied>
+                         <lb n="3" break="no"/>γορ<supplied reason="lost">ίῳ</supplied> τ<supplied reason="lost">ῷ</supplied> 
+                         <lb n="4"/><rs type="office" subtype="military" ref="#of0279"><expan><abbr>στρατηγ</abbr><ex>ῷ</ex></expan></rs> 
+                         <lb n="5"/><expan><abbr><am>S</am></abbr><ex>καὶ</ex></expan> <rs type="office" subtype="civil" ref="#of0112"><expan><abbr>κριτ</abbr><ex>ῇ</ex></expan></rs> τῶν 
+                         <lb n="6"/><placeName ref="#geo0065"><expan><abbr>Ὀπτιμάτ</abbr><ex>ων</ex></expan></placeName> 
+                         <lb n="7"/>τῷ Ῥαδη
+                         <lb n="8" break="no"/>νῷ
+                      </ab>
+                  </div>
+              </div>
+         <div type="edition" subtype="diplomatic" xml:space="preserve"> 
+                  <div type="textpart" subtype="sigla" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="a"/>̅
+                 <cb n="b"/>θ̣.
+              </ab>
+            </div>
+            <div type="textpart" subtype="face" rend="circular" n="obv" xml:lang="grc">
+              <ab>
+                 <lb n="1"/> θκε...
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab>
+                         <lb n="2"/>Γ̣..                                      
+                         <lb n="3"/>γορ..τ̣.
+                         <lb n="4"/>σ̣τρα̣τηγ/
+                         <lb n="5"/>̣κ̣ριτ/ τν
+                         <lb n="6"/>οπτι̣ματ/
+                         <lb n="7"/>τραδη
+                         <lb n="8"/>ν̣
+                         </ab>
+                  </div>
+              </div>
+         <div type="translation">
+            <p>Μήτηρ Θεοῦ. + Θεοτόκε βοήθει τῷ σῷ δούλῳ || Γρηγορίῳ τῷ στρατηγῷ καὶ κριτῇ τῶν
+               Ὀπτιμάτων τῷ Ῥαδηνῷ.</p>
+            <p xml:lang="en">Mother of God. + Mother of God help your servant || Gregory Radenos,
+               strategos and judge of Optimatoi</p>
+            <p xml:lang="fr">Mère de Dieu. +Mère de Dieu accorde ton secours à ton serviteur ||
+               Grégoire Radènos, stratège et juge des Optimates</p>
+         </div>
+         <div type="commentary" subtype="text">
+            <!-- renvois internes à refaire -->
+            <p xml:lang="en">Another Grégoire Radènos is known from a private seal, dated to the
+               mid-11th century, but with no mention of title or function and bearing the effigy of
+               Saint Procopius (Zacos (BnF) 446, unpublished; BZS 1958.106.1188, unpublished;
+                     <bibl><ptr target="JordanovCorpus3"/>, n° <citedRange unit="entry"
+                     >2710</citedRange></bibl>), which makes it difficult to reconcile the two
+               homonyms. The combination of the functions of judge and strategos can be explained,
+               once again, by the demilitarization, at least partial, of the theme. In the 11th
+               century, influential individuals managed to obtain the double role—even without legal
+               training—attracted by the significant income of a provincial judge <bibl><ptr
+                     target="Oikonomides1992"/>, p. <citedRange unit="page">148</citedRange></bibl>.
+               This trend, which, according to N. Oikonomides, led Constantine Monomachos to create
+               the office of epi ton kriseon<bibl><ptr target="Oikonomides1992"/>, p. <citedRange
+                     unit="page">149</citedRange></bibl>, intensified at the end of the century and
+               led to the disappearance of the office of provincial judge in the first quarter of
+               the 12th century.The administrative organization of the Optimatoi theme, located on
+               the Asian shore opposite Constantinople, differed from the others in that it was not
+               divided into turmae and drouggai; this is why Constantine VII does not consider it a
+               “true” theme. It was divided into two parts: the first was located
+               in the province of Thrace, the second in the province of Moesia. Contrary to what
+               their name suggests, the Optimatoi were not an elite corps, but a tagma of mule
+               drivers or grooms, called to serve in the imperial armies during military campaigns
+                     <bibl><ptr target="Oikonomides1972"/>, p. <citedRange unit="page"
+                     >339</citedRange></bibl>. They were commanded by a servant, of much lower rank
+               than that of strategos, as stated by Porphyrogenitos and attested to by the Taktikon
+               of Escorial (971-975)<bibl><ptr target="Oikonomides1972"/>, pp. <citedRange
+                     unit="page">271 and 304</citedRange></bibl>. Nevertheless, although few in
+               number, seals from the 11th century, including ours, provide evidence that the theme
+               of the Optimatoi had become normalized and had come under the authority of a
+               strategos. The three other strategos of the theme known from their seals are
+               Gregory Choirosphaktès<bibl><ptr target="BBÖ2"/>, n° <citedRange unit="entry"
+                     >328</citedRange></bibl> ; the protospatharios Nikephoros, <bibl><ptr
+                     target="DOseals3"/>, n° <citedRange unit="entry">71.21</citedRange></bibl>; and
+               Gregorios <bibl><ptr target="Istanbul"/>, n° <citedRange unit="entry"
+                     >3.89</citedRange></bibl>.From 1070-1080, following the new provincial
+               administration system, the theme even had a doux at its head, the first documented
+               being the proedros Leon Areianites<bibl><ptr target="DOseals3"/>, n° <citedRange
+                     unit="entry">71.27</citedRange></bibl>.The theme of the Optimatoi also
+               possessed at least one episkepsis, an imperial domain managed by a fiscal employee,
+               whose revenues covered the emperor's personal expenses.</p>
+
+            <p xml:lang="en"/>
+            <p xml:lang="fr">Un autre Grégoire Radènos est connu par un sceau privé, daté du milieu
+               du XIe siècle, mais sans mention de titre et fonction et à l’effigie de saint Procope
+               (Zacos (BnF) 446, inédit ; BZS 1958.106.1188, inédit; <bibl><ptr
+                     target="JordanovCorpus3"/>, n° <citedRange unit="entry"
+                  >2710</citedRange></bibl>ce qui rend difficile le rapprochement des deux
+               homonymes. Le cumul des fonctions de juge et de stratège s’explique, à nouveau, par
+               la démilitarisation, au moins partielle, du thème. Au XIe siècle, en effet, des
+               personnes influentes réussissaient à obtenir la double charge – et ce, même sans
+               formation de juriste – attirées par l’importance des revenus d’un juge de
+                     province<bibl><ptr target="Oikonomides1992"/>, p. <citedRange unit="page"
+                     >148</citedRange></bibl>. Cette tendance qui, d’après N. Oikonomidès, a amené
+               Constantin Monomaque à la création du bureau de l’épi tôn kriséôn<bibl><ptr
+                     target="Oikonomides1992"/>, p. <citedRange unit="page">149</citedRange></bibl>,
+               s’est amplifiée à la fin du siècle et aboutit à la disparition de la fonction de juge
+               de province dans le premier quart du XIIe siècle. L’organisation administrative du
+               thème des Optimates, situé sur la rive asiatique, face à Constantinople, différait
+               des autres en ce qu’il n’était pas divisé en tourmes et drouggai ; c’est pourquoi
+               Constantin VII ne le considère pas comme un « vrai » thème. Contrairement à ce que
+               leur nom le laisse penser, les Optimates n’étaient pas un corps d’élite, mais un
+               tagma de muletiers ou écuyers, appelés au service des armées impériales lors des
+               campagnes militaires<bibl><ptr target="Oikonomides1972"/>, p. <citedRange unit="page"
+                     >339</citedRange></bibl>. Ils étaient commandés par un domestique, de rang bien
+               inférieur à celui de stratège, ainsi que l’affirme le Porphyrogénète et comme
+               l’atteste le Taktikon de l’Escurial (971-975)<bibl><ptr target="Oikonomides1972"/>,
+                  p. <citedRange unit="page">271 et 304</citedRange></bibl>. Néanmoins, quoique peu
+               nombreux, des sceaux du XIe siècle, dont le nôtre, fournissent la preuve que le thème
+               des Optimates s’était normalisé et était passé sous l’autorité d’un stratège. Les
+               trois autres stratèges des Optimates connus par leurs sceaux sont Grégoire
+               Choirosphaktès <bibl><ptr target="BBÖ2"/>, n° <citedRange unit="entry"
+                     >328</citedRange></bibl> ; le protospathaire Nicéphore, <bibl><ptr
+                     target="DOseals3"/>, n° <citedRange unit="entry">71.21</citedRange></bibl>; et
+               Grégoire <bibl><ptr target="Istanbul"/>, n° <citedRange unit="entry"
+                     >3.89</citedRange></bibl>. Dès 1070-1080, suivant le nouveau régime
+               d’administration des provinces, le thème eut même à sa tête un duc, le premier
+               attesté étant le proèdre Léon Areianitès<bibl><ptr target="DOseals3"/>, n°
+                     <citedRange unit="entry">71.27</citedRange></bibl>. Le thème des Optimates
+               possédait aussi au moins une épiskepsis, domaine impérial géré par un employé fiscal,
+               dont les revenus assuraient les dépenses personnelles de l’empereur.</p>
+            <p xml:lang="fr"/>
+         </div>
+         <div type="bibliography" subtype="edition">
+            <p><bibl><ptr target="ZacosGenève"/>, n° <citedRange unit="entry"
+                  >146</citedRange></bibl>
+               <bibl/>
+            </p>
+         </div>
+         <div type="bibliography" subtype="parallels">
+            <p/>
+         </div>
+         <div type="bibliography" subtype="discussion">
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

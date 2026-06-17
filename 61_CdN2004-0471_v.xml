@@ -41,13 +41,13 @@
             <listPerson type="issuer">
                <person gender="M" role="civil aristocracy">
                   <persName xml:lang="grc">
-                     <forename>Μιχαὴλ</forename>/> <surname>Ῥαδηνός</surname>/> </persName>
+                     <forename>Μιχαήλ</forename>/> <surname>Ῥαδηνός</surname>/> </persName>
                   <persName xml:lang="fr">
                      <forename>Michel</forename>/> <surname>Radènos</surname>/> </persName>
                   <persName xml:lang="en">
                      <forename>Michael</forename>/> <surname>Radenos</surname>/> </persName>
                   <idno type="PBW"
-                     ana="http://pbw2016.kdl.kcl.ac.uk/boulloterion/3546/>Michael 20288"/>
+                     ana="http://pbw2016.kdl.kcl.ac.uk/person/Michael/20288/"/>
                   <idno type="PBE"/>
                   <idno type="PLP"/>
                   <idno type="PLRE"/>
@@ -138,7 +138,7 @@
                            <rs type="matrix" subtype="not-surviving">
                               <idno type="SigiDoc">m-QNg78k</idno>
                               <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
-                              <idno type="PBW"/>
+                              <idno type="PBW" ana="http://pbw2016.kdl.kcl.ac.uk/boulloterion/3546"/>Michael 20288/>
                               <!-- to be used if the seal has a parallel in the PBW with a boulloterion registered there -->
                            </rs>
                         </layout>
@@ -252,7 +252,7 @@
                               <figDesc n="decoV" xml:lang="fr">Cercle de grènetis; une croisette
                                  précède la première ligne; la légende est suivie d'une perle,
                                  écrasée, entre des tirets dont seul celui de gauche est
-                                 conservé.</figDesc>
+                                 conservé</figDesc>
                               <figDesc n="decoV" xml:lang="en">Circle of dots; a crosslet precedes
                                  the first line; the legend is followed by a pearl between traits;
                                  the pearl and the trait on the right are crushed</figDesc>
@@ -321,13 +321,14 @@
             </div>
             <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
                       <ab>
-                         <lb n="1"/>ΘΚΕṛ.                          
+                         <lb n="1"/>ΘΚΕṛ.                          
                          <lb n="2"/>ΗΘ// ΜΙΧΑΗΛ̣ 
                          <lb n="3"/>ΜΑΓΙΣΤΡ
                          <lb n="4"/>rΕΣΤΑΡΧϏ̣/  
                          <lb n="5"/>ΣΤΡΑΤΙοΤ  
                          <lb n="6"/>ΛοΓο̣ΘΕΤ 
                          <lb n="7"/>ΤΡ̣ΑΔΗ
+                         <lb n="0"/>      
                          </ab>
                   </div>
               </div>

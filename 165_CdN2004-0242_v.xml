@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en">Niketas Kastamonites, kouropalates</title>
+            <title xml:lang="fr">Nicétas Kastamonitès, curopalate</title>
+            <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
+            <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+            <funder>
+               <orgName corresp="https://www.mahmah.ch/">MAH-Musée d'art et d'histoire - Genève,
+                  Cabinet de numismatique</orgName>, Suisse</funder>
+            <principal ref="#MCP"/>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <seg xml:lang="fr">Amélioration digitale</seg>
+               <seg xml:lang="en">Digital enhancement</seg>
+            </edition>
+            <editor role="digital-editor" xml:id="PE" when="2025-04-22">Pia Evening</editor>
+            <editor role="digital-editor" ref="#MCP" when="2026-03-17">Maria
+               Campagnolo-Pothitou</editor>
+         </editionStmt>
+         <publicationStmt>
+            <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
+            <idno type="filename">CdN 2004-0242</idno>
+            <idno type="SigiDocID">s-5ZSj1p</idno>
+            <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+            <idno type="sequence"/>
+            <!--  to be compiled automatically; leave as is  -->
+            <date when="2024-08-06"/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                  >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                  4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listPerson type="issuer">
+               <person gender="M" role="civil aristocracy">
+                  <persName xml:lang="grc">
+                     <forename>Νικήτας</forename>
+                     <surname>Κασταμονίτης</surname>
+                  </persName>
+                  <persName xml:lang="fr">
+                     <forename>Nicétas</forename>
+                     <surname>kastamonitès</surname>
+                  </persName>
+                  <persName xml:lang="en">
+                     <forename>Niketas</forename>
+                     <surname>Kastamonites</surname>
+                  </persName>
+                  <idno type="PBW" ana="http://pbw2016.kdl.kcl.ac.uk/person/Niketas/108/">Niketas
+                     108</idno>
+
+                  <idno type="PBE"/>
+                  <idno type="PLP"/>
+                  <idno type="PLRE"/>
+                  <idno type="PcBE"/>
+                  <idno type="PmbZ"/>
+               </person>
+            </listPerson>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <seg xml:lang="en">Switzerland</seg>
+                     <seg xml:lang="fr">Suisse</seg>
+                  </country>
+                  <settlement>
+                     <seg xml:lang="en">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">City of
+                           Geneva</placeName>
+                     </seg>
+                     <seg xml:lang="fr">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">Ville de
+                           Genève</placeName>
+                     </seg>
+                  </settlement>
+                  <institution>MAH-Musée d'art et d'histoire</institution>
+                  <repository>Cabinet de numismatique</repository>
+                  <collection type="public">
+                     <rs type="collection-name" xml:lang="en">Byzantine seals collection</rs>
+                     <rs type="collection-name" xml:lang="fr">Collection de sceaux byzantins</rs>
+                  </collection>
+                  <idno type="inv-nr-current">CdN 2004-0242</idno>
+                  <altIdentifier>
+                     <repository/>
+                     <idno type="inv-nr-former"/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <!--https://github.com/SigiDoc/Guidelines/wiki/5.-Controlled-vocabularies#seals-category-->
+                  <summary n="whole">
+                     <seg xml:lang="fr">Dignitaires</seg>
+                     <seg xml:lang="en">Dignitaries</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>
+                              <term>
+                                 <seg xml:lang="fr">Sceau</seg>
+                                 <seg xml:lang="en">Seal</seg>
+                              </term>
+                              <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                              <interp type="workType" xml:lang="en">Original impression</interp>
+                           </objectType>
+                           <material>
+                              <seg xml:lang="fr">Plomb</seg>
+                              <seg xml:lang="en">Lead</seg>
+                           </material>
+                           <dimensions type="support" unit="mm">
+                              <dim type="diameter">23,37/22,56</dim>
+                              <!-- mesure du champ? -->
+                           </dimensions>
+                           <measure type="weight" unit="g">8,913</measure>
+                           <measure type="axis" unit="clock"/>
+                           <measure type="overstrikeOrient" unit="clock"/>
+                           <measure type="channelOrient" unit="clock">11-5</measure>
+                           <measure type="countermark" unit="clock"/>
+                        </support>
+                        <condition rend="well-struck well-preserved chipped not-centered">
+                           <p xml:lang="en">The bulla is well struck and well preserved although
+                              chipped at the openings of the channel and not-centered on the
+                              revers</p>
+                           <p xml:lang="fr">La bulle est bien frappée et bien conservée bien
+                              qu'échancrée aux orifices du canal et décentrée sur le revers</p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout n="whole">
+                           <rs type="execution">
+                              <seg xml:lang="fr">Frappé</seg>
+                              <seg xml:lang="en">Struck</seg>
+                           </rs>
+                           <rs type="shape">
+                              <seg xml:lang="fr">Ronde</seg>
+                              <seg xml:lang="en">Round</seg>
+                           </rs>
+                           <rs type="matrix" subtype="not-surviving">
+                              <idno type="SigiDoc">m-arl7Fh</idno>
+                              <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+                              <idno type="PBW"
+                                 >http://pbw2016.kdl.kcl.ac.uk/boulloterion/3614/</idno>
+                              <!-- to be used if the seal has a parallel in the PBW with a boulloterion registered there -->
+                           </rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <seg xml:lang="fr">
+                           <placeName/>
+                        </seg>
+                        <seg xml:lang="en">
+                           <placeName/>
+                        </seg>
+                     </origPlace>
+                     <origDate type="analysis" notBefore="1081" notAfter="1100"
+                        evidence="prosopography titulature iconography historical-context"
+                        cert="high" resp="#MCP #JCC">
+                        <seg xml:lang="en">End of the 11th century</seg>
+                        <seg xml:lang="fr">Fin du XIe siècle</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="transferred" subtype="donated" when="2004-11-24">
+                     <!-- pas sûr de subtype et when -->
+                     <p xml:lang="en">George Zacos collection</p>
+                     <p xml:lang="fr">Collection Georges Zacos</p>
+                  </provenance>
+                  <acquisition>
+                     <p xml:lang="en">Donation of the Migore Foundation, Janet Zakos legacy, <date
+                           when="2004-11-24">24th November 2004</date>
+                     </p>
+                     <p xml:lang="fr">Don de la Fondation Migore, legs Janet Zakos, <date
+                           when="2004-11-24">24 Novembre 2004</date>
+                     </p>
+                  </acquisition>
+               </history>
+               <msPart n="r">
+                  <msIdentifier/>
+                  <msContents>
+                     <!-- ajouté ceci -->
+                     <summary n="r">
+                        <seg xml:lang="en">Obverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="r">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="fr">Iconographie avec épigraphe en colonnes de part et
+                                 d'autre de l'effigie</p>
+                              <p xml:lang="en">Iconography with epigaph on columns on either side of
+                                 the effigy</p>
+                           </layout>
+                        </layoutDesc>
+
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="r">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="r" xml:lang="fr" ana="person male saint George">Saint
+                                 Georges en pied, de face, tenant la lance en main droite et
+                                 s’appuyant de la gauche sur le bouclier posé à terre. De</figDesc>
+                              <figDesc n="r" xml:lang="en" ana="person male saint George">Saint
+                                 George standing, facing forward, holding a spear in the right hand
+                                 and leaning on a shield placed on the ground.</figDesc>
+                              <figDesc n="decoR" xml:lang="fr">Cercle de grènetis</figDesc>
+                              <figDesc n="decoR" xml:lang="en">Border of dots</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+               <msPart n="v">
+                  <msIdentifier/>
+                  <msContents>
+                     <summary n="v"><!-- ajouté ceci -->
+                        <seg xml:lang="en">Reverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="v">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="en">Linear legend of 6 lines</p>
+                              <p xml:lang="fr">Légende linéaire sur 6 lignes</p>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="v">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="decoV" xml:lang="fr">>Cercle de grènetis; l'inscription
+                                 est surmontée d’une croisette ; la dernière ligne est accostée de
+                                 perles</figDesc>
+                              <figDesc n="decoV" xml:lang="en">Border of dots; the inscription is
+                                 surmounted by a crosslet, while the last line is placed between
+                                 pearls</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2025-04-22" who="#PE">Creation of the XML record.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp>
+         <surface n="r">
+            <desc>Obverse</desc>
+            <graphic type="photo" url="CdN2004-0242_1.jpg">
+               <desc xml:lang="en">CdN 2004-0242, obverse</desc>
+               <desc xml:lang="fr">CdN 2004-0242, avers</desc>
+            </graphic>
+         </surface>
+         <surface n="v">
+            <desc>Reverse</desc>
+            <graphic type="photo" url="CdN2004-0242_2.jpg">
+               <desc xml:lang="en">CdN 2004-0242, reverse</desc>
+               <desc xml:lang="fr">CdN 2004-0242, revers</desc>
+            </graphic>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" subtype="editorial" xml:space="preserve"> 
+            <div type="textpart" subtype="label" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="a"/><supplied reason="lost">Ὁ</supplied> ἅγιος 
+                 <cb n="b"/>Γεώργιος
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab ana="dat">
+                         <lb n="1"/><rs type="invocation" ref="#inv004"><expan><supplied reason="lost"><abbr>Κ</abbr><ex>ύρι</ex></supplied><abbr>ε</abbr></expan> <expan><abbr>βοήθ</abbr><ex>ει</ex></expan> 
+                         <lb n="2"/>τῷ σῷ <expan><abbr>δούλ</abbr><ex>ῳ</ex></expan></rs> 
+                         <lb n="3"/>Νικήτᾳ <rs type="dignity" ref="#d0035">κου
+                         <lb n="4" break="no"/>ροπαλάτῃ</rs> 
+                         <lb n="5"/>τῷ Καστα
+                         <lb n="6" break="no"/>μονίτ
+                         <lb n="7" break="no"/>ῃ
+                      </ab>
+                  </div>
+              </div>
+         <div type="edition" subtype="diplomatic" xml:space="preserve"> 
+                  <div type="textpart" subtype="label" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="a"/>.|α̣|γι|ο|ς  
+                 <cb n="b"/>γ̣ε̣|ρ|γι|ο|σ̣
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab>
+                         <lb n="0"/>    
+                         <lb n="1"/>.εrοηθ/                          
+                         <lb n="2"/>τσδλ/
+                         <lb n="3"/>ν̣ικητακ
+                         <lb n="4"/>ροπαλατη
+                         <lb n="5"/>τκαστα
+                         <lb n="6"/>μονιτ
+                         <lb n="7"/>η
+                         </ab>
+                  </div>
+              </div>
+         <div type="translation">
+            <p>Ὁ ἅγιος Γεώργιος. || + Κύριε βοήθει τῷ σῷ δούλῳ Νικήτᾳ κουροπαλάτῃ τῷ
+               Κασταμονίτῃ.</p>
+            <p xml:lang="en">Saint George. || + Lord, help your servant Niketas Kastamonites,
+               kouropalates</p>
+            <p xml:lang="fr">Saint Georges. || + Seigneur accorde ton secours à ton serviteur, le
+               curopalate Nicétas Kastamonitès</p>
+         </div>
+         <div type="commentary" subtype="text">
+            <!-- renvois internes à refaire -->
+            <p xml:lang="en">The signatory is likely to be Niketas, one of the finest generals of
+               Alexios Ist, who commanded the Byzantine fleet defeated in 1092 near Chios by the Emir
+               of Smyrna, Tzachas <bibl><ptr target="Alexiade1967"/>, ch. <citedRange unit="chapter"
+                     >VII, VIII § 2</citedRange></bibl>,and who later took part in the conspiracy
+               of the Anemas brothers, between 1097 and 1102/1104 <bibl><ptr target="Alexiade1967"
+                  />, ch. <citedRange unit="chapter">XII, V § 4</citedRange></bibl>. Several
+               contemporaries with the same name are mentioned in the sources: the vestarches, also a
+               devotee of Saint George, according to his seal <bibl><ptr target="Orghidan"/>, n°
+                     <citedRange unit="entry">440</citedRange></bibl> ; the protoproedros, who
+               attended the Synod of Blachernes in 1094<bibl><ptr target="Gautier1971"/>, p.
+                     <citedRange unit="page">213-214</citedRange></bibl>; the kouropalates and doux,
+               also devotee to Saint George on his bulla(Fogg 1824; Zacos (BnF) 290, unpublished).
+               Finally, there is a seal with no mention of office, bearing the effigy of the Virgin
+               in bust form, praying with a medallion <bibl><ptr target="DOsealsOnline"/>, n°
+                     <citedRange unit="entry">BZS 1958.106.353 et 1958.106.3775</citedRange></bibl>
+               ; Zacos (BnF) 291 ; <bibl><ptr target="Orghidan"/>, n° <citedRange unit="entry"
+                     >440</citedRange></bibl>;<bibl><ptr target="JordanovCorpus2"/>, n° <citedRange
+                     unit="entry">299</citedRange></bibl>. Despite the reservations expressed by
+               A.-K. Wassiliou and W. Seibt<bibl><ptr target="BBÖ2"/>, p. <citedRange unit="page"
+                     >117</citedRange></bibl>,the three seals bearing the image of Saint George
+               are attributed to Alexis' general. As for the fourth, the one bearing the image of
+               the Virgin Mary, some doubt remains. The Kastamonitai first appear in historical sources in the first half
+               of the 11th century in the person of the protospatharios Theodore, whose seal
+               was found at Pliska in Bulgaria <bibl><ptr target="JordanovCorpus2"/>, n° <citedRange
+                     unit="entry">297</citedRange></bibl>. Originally from Kastamôn in Paphlagonia,
+               as the family name suggests, the family rose to prominent position
+               during the reign of Alexios Ist. Niketas was its most
+               distinguished representative in the 11th century. Without ever losing their place within the aristocracy,
+               the Kastamonitai enjoyed their period of glory during the reign
+               of Isaac II Angelos, whose mother was a Kastamonitissa. Theodore, Isaac’s
+               uncle, even ruled the Empire for a time9. The numerous seals left
+               by the Kastamonitai are published in several works (PBW
+               (consulté le 17.3.2026), Kastamonites).</p>
+            <p xml:lang="en"/>
+            <p xml:lang="fr">Le sigillant s’identifie sans doute à Nicétas, l’un des meilleurs
+               généraux d’Alexis Ier, qui dirigeait la flotte byzantine vaincue, en 1092, près de
+               Chios, par l’émir de Smyrne, Tzachas <bibl><ptr target="Alexiade1967"/>, ch.
+                     <citedRange unit="chapter">VII, VIII § 2</citedRange></bibl>, et qui, plus
+               tard, participa à la conspiration des frères Anémas, entre 1097 et 1102/1104
+                     <bibl><ptr target="Alexiade1967"/>, ch. <citedRange unit="chapter">XII, V §
+                     4</citedRange></bibl>. Plusieurs homonymes, contemporains, sont attestés dans
+               les sources : le vestarque, également dévôt de saint Georges, selon son plomb
+                     <bibl><ptr target="Orghidan"/>, n° <citedRange unit="entry"
+                  >440</citedRange></bibl> ; le protoproèdre, qui assistait au synode des Blachernes
+               de 1094 <bibl><ptr target="Gautier1971"/>, p. <citedRange unit="page"
+                     >213-214</citedRange></bibl> ; le curopalate et duc, voué aussi à saint Georges
+               sur sa bulle (Fogg 1824; Zacos (BnF) 290, inédit). Enfin, on dispose d’un sceau sans
+               mention de fonction, à l’effigie de la Vierge en buste, orante avec le médaillon
+                     <bibl><ptr target="DOsealsOnline"/>, n° <citedRange unit="entry">BZS
+                     1958.106.353 et 1958.106.3775</citedRange></bibl> ; Zacos (BnF) 291 ;
+                     <bibl><ptr target="Orghidan"/>, n° <citedRange unit="entry"
+                  >440</citedRange></bibl>;<bibl><ptr target="JordanovCorpus2"/>, n° <citedRange
+                     unit="entry">299</citedRange></bibl>. En dépit des réserves de Al.-K. Wassiliou
+               et W. Seibt<bibl><ptr target="BBÖ2"/>, p. <citedRange unit="page"
+                  >117</citedRange></bibl>, on attribuera les trois sceaux à l’effigie de saint
+               Georges au général d’Alexis. Pour le quatrième, celui à l’effigie de la Vierge, le
+               doute est permis. Les Kastamonitai apparaissent dans les sources dans la première
+               moitié du XIe siècle en la personne du protospathaire Théodore, dont un sceau
+               provient de Pliska, en Bulgarie <bibl><ptr target="JordanovCorpus2"/>, n° <citedRange
+                     unit="entry">297</citedRange></bibl>. Originaire de Kastamôn, en Paphlagonie,
+               comme le patronyme l’indique, la famille accomplit son ascension sociale sous le
+               règne d’Alexis Ier. Nicétas en est le représentant le plus distingué au XIe siècle.
+               Sans jamais perdre leur place au sein de l’aristocratie, les Kastamonitai ont connu
+               leur période de gloire sous le règne d’Isaac II Ange, dont la mère était une
+               Kastamonitissa. Théodore, l’oncle d’Isaac, dirigea même un temps l’Empire9. Les
+               nombreux sceaux laissés par les Kastamonitai sont publiés dans plusieurs ouvrages(PBW
+               (consulté le 17.3.2026), Kastamonites).</p>
+            <p xml:lang="fr"/>
+         </div>
+         <div type="bibliography" subtype="edition">
+            <p><bibl><ptr target="GenèveZacos"/>, n° <citedRange
+                     unit="entry">165</citedRange></bibl>
+               <bibl/>
+            </p>
+         </div>
+         <div type="bibliography" subtype="parallels">
+            <p>BZS 1958.106. 1395:
+            </p>
+            <p>Zacos (BnF) 1216, inédit
+            </p>
+         </div>
+         <div type="bibliography" subtype="discussion">
+            <p><bibl><ptr target="BBÖ2"/>, p. <citedRange
+                     unit="page">117, note 580</citedRange></bibl>;
+               <bibl><ptr target="JordanovCorpus2"/>, n° <citedRange
+                     unit="entry">292</citedRange></bibl></p>
+         </div>
+      </body>
+   </text>
+</TEI>

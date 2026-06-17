@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en">Tiberios III</title>
+            <title xml:lang="fr">Tibère III</title>
+            <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
+            <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+            <funder>
+               <orgName corresp="https://www.mahmah.ch/">MAH-Musée d'art et d'histoire - Genève,
+                  Cabinet de numismatique</orgName>, Suisse</funder>
+            <principal ref="#MCP"/>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <seg xml:lang="fr">Amélioration digitale</seg>
+               <seg xml:lang="en">Digital enhancement</seg>
+            </edition>
+            <editor role="digital-editor" xml:id="PE" when="2025-04-22">Pia Evening</editor>
+         </editionStmt>
+         <publicationStmt>
+            <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
+            <idno type="filename">CdN 2004-0406</idno>
+            <idno type="SigiDocID">s-UO1YAZ</idno>
+            <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+            <idno type="sequence"/>
+            <!--  to be compiled automatically; leave as is  -->
+            <date when="2024-08-06"/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                  >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                  4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listPerson type="issuer">
+               <person gender="M" role="imperial">
+                  <persName xml:lang="grc">
+                     <forename>Τιβέριος Γ΄</forename>/> <surname/>
+                  </persName>
+                  <persName xml:lang="fr">
+                     <forename>Tibère III</forename>/> <surname/>
+                  </persName>
+                  <persName xml:lang="en">
+                     <forename>Tiberios III</forename>/> <surname/>
+                  </persName>
+                  <idno type="PBW"/>
+                  <idno type="PBW"/>
+                  <idno type="PBE"/>
+                  <idno type="PLP"/>
+                  <idno type="PLRE"/>
+                  <idno type="PcBE"/>
+                  <idno type="PmbZ" ana="https://www.degruyterbrill.com/database/PMBZ/entry/PMBZ19751/html"/>
+               </person>
+            </listPerson>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <seg xml:lang="en">Switzerland</seg>
+                     <seg xml:lang="fr">Suisse</seg>
+                  </country>
+                  <settlement>
+                     <seg xml:lang="en">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">City of
+                           Geneva</placeName>
+                     </seg>
+                     <seg xml:lang="fr">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">Ville de
+                           Genève</placeName>
+                     </seg>
+                  </settlement>
+                  <institution>MAH-Musée d'art et d'histoire</institution>
+                  <repository>Cabinet de numismatique</repository>
+                  <collection type="public">
+                     <rs type="collection-name" xml:lang="en">Byzantine seals collection</rs>
+                     <rs type="collection-name" xml:lang="fr">Collection de sceaux byzantins</rs>
+                  </collection>
+                  <idno type="inv-nr-current">CdN 2004-0406</idno>
+                  <altIdentifier>
+                     <repository/>
+                     <idno type="inv-nr-former"/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <!--https://github.com/SigiDoc/Guidelines/wiki/5.-Controlled-vocabularies#seals-category-->
+                  <summary n="whole">
+                     <seg xml:lang="fr">Impérial</seg>
+                     <seg xml:lang="en">Imperial</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>
+                              <term>
+                                 <seg xml:lang="fr">Sceau</seg>
+                                 <seg xml:lang="en">Seal</seg>
+                              </term>
+                              <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                              <interp type="workType" xml:lang="en">Original impression</interp>
+                           </objectType>
+                           <material>
+                              <seg xml:lang="fr">Plomb</seg>
+                              <seg xml:lang="en">Lead</seg>
+                           </material>
+                           <dimensions type="support" unit="mm">
+                              <dim type="diameter">32,90/28,71</dim>
+                              <!-- mesure du champ? -->
+                           </dimensions>
+                           <measure type="weight" unit="g">31,421</measure>
+                           <measure type="axis" unit="clock"/>
+                           <measure type="overstrikeOrient" unit="clock"/>
+                           <measure type="channelOrient" unit="clock">12-6</measure>
+                           <measure type="countermark" unit="clock"/>
+                        </support>
+                        <condition rend=" well-struck well-preserved chipped">
+                           <p xml:lang="en">The bulla is well-struck and well-preserved, quite
+                              chipped at the lower openning of the canal; slightly crushed on the
+                              upper part of the reverse</p>
+                           <p xml:lang="fr">La bulle est bien frappée et bien conservée, fortement
+                              échancrée à la partie inférieure de l'orifice et légèrement écrasée
+                              sur la partie supérieure du revers</p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout n="whole">
+                           <rs type="execution">
+                              <seg xml:lang="fr">Frappé</seg>
+                              <seg xml:lang="en">Struck</seg>
+                           </rs>
+                           <rs type="shape">
+                              <seg xml:lang="fr">Ronde</seg>
+                              <seg xml:lang="en">Round</seg>
+                           </rs>
+                           <rs type="matrix" subtype="not-surviving">
+                              <idno type="SigiDoc">m-YQaXX1</idno>
+                              <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+                              <idno type="PBW"/>
+                              <!-- to be used if the seal has a parallel in the PBW with a boulloterion registered there -->
+                           </rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <seg xml:lang="fr">
+                           <placeName/>
+                        </seg>
+                        <seg xml:lang="en">
+                           <placeName/>
+                        </seg>
+                     </origPlace>
+                     <origDate type="analysis" notBefore="0698" notAfter="0705"
+                        evidence="iconography prosopography reign" cert="high" resp="#MCP #JCC">
+                        <seg xml:lang="en">698-705</seg>
+                        <seg xml:lang="fr">698-705</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="transferred" subtype="donated" when="2004-11-24">
+                     <!-- pas sûr de subtype et when -->
+                     <p xml:lang="en">George Zacos collection</p>
+                     <p xml:lang="fr">Collection Georges Zacos</p>
+                  </provenance>
+                  <acquisition>
+                     <p xml:lang="en">Donation of the Migore Foundation, Janet Zakos legacy, <date
+                           when="2004-11-24">24th November 2004</date>
+                     </p>
+                     <p xml:lang="fr">Don de la Fondation Migore, legs Janet Zakos, <date
+                           when="2004-11-24">24 Novembre 2004</date>
+                     </p>
+                  </acquisition>
+               </history>
+               <msPart n="r">
+                  <msIdentifier/>
+                  <msContents>
+                     <!-- ajouté ceci -->
+                     <summary n="r">
+                        <seg xml:lang="en">Obverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="r">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="fr">Iconography</p>
+                              <p xml:lang="en">Iconographie</p>
+                           </layout>
+                        </layoutDesc>
+
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="r">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="r" xml:lang="fr" ana="person female Virgin">Vierge nimbée
+                                 en pied, de face, tenant l’Enfant au nimbe crucigère à demi couché
+                                 sur le bras gauche, la main droite serrant les pieds du
+                                 nourrisson.</figDesc>
+                              <figDesc n="r" xml:lang="en" ana="person female Virgin">Full-length
+                                 Virgin with a halo, facing forward, holding the Child with a
+                                 cruciform halo, half-lying on her left arm, her right hand
+                                 clutching the infant's feet.</figDesc>
+                              <figDesc n="decoR" xml:lang="fr">Cercle de feuillage; de part et
+                                 d’autre de l’effigie, une croisette pattée.</figDesc>
+                              <figDesc n="decoR" xml:lang="en">Circle of foliage; on either side of
+                                 the effigy, crosslet</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+               <msPart n="v">
+                  <msIdentifier/>
+                  <msContents>
+                     <summary n="v"><!-- ajouté ceci -->
+                        <seg xml:lang="en">Reverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="v">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="en">Iconography</p>
+                              <p xml:lang="fr">Iconographie</p>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="v">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="v" xml:lang="fr" ana="person male emperor">Buste de
+                                 l’empereur Tibère III de face, en tenue militaire. Le visage jeune,
+                                 moustachu, est ourlé d’une courte barbe. Sur les cheveux mi-longs
+                                 est posé le casque surmonté d’une crête, entouré d’un diadème
+                                 retenu par des rubans flottant à gauche. Vêtu de la cuirasse, il
+                                 tient en main droite une lance inclinée devant la poitrine et en
+                                 main gauche probablement un bouclier.</figDesc>
+                              <figDesc n="v" xml:lang="en" ana="person male emperor">Bust of Emperor
+                                 Tiberius III facing forward, in military attire. The young,
+                                 mustachioed face is framed by a short beard. On his medium-length
+                                 hair is a helmet topped with a crest, surrounded by a diadem held
+                                 in place by ribbons floating to the left. Wearing armor, he holds a
+                                 spear in his right hand, tilted in front of his chest, and in his
+                                 left hand, probably a shield.</figDesc>
+                              <figDesc n="decoR" xml:lang="fr">Cercle de feuillage</figDesc>
+                              <figDesc n="decoR" xml:lang="en">Circle of foliage</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2025-04-22" who="#PE">Creation of the XML record.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp>
+         <surface n="r">
+            <desc>Obverse</desc>
+            <graphic type="photo" url="CdN2004-0406_1.jpg">
+               <desc xml:lang="en">CdN 2004-0406, obverse</desc>
+               <desc xml:lang="fr">CdN 2004-0406, avers</desc>
+            </graphic>
+         </surface>
+         <surface n="v">
+            <desc>Reverse</desc>
+            <graphic type="photo" url="CdN2004-0406_2.jpg">
+               <desc xml:lang="en">CdN 2004-0406, reverse</desc>
+               <desc xml:lang="fr">CdN 2004-0406, revers</desc>
+            </graphic>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <!--<div type="edition" subtype="editorial" xml:space="preserve"> 
+           <div type="textpart" subtype="face" rend="circular" n="obv" xml:lang="la">
+              <ab/>
+            </div>
+           <div type="textpart" subtype="sigla" rend="columns" n="rev" xml:lang="grc">
+              <ab/>
+            </div>
+              </div>-->
+         <!--<div type="edition" subtype="diplomatic" xml:space="preserve"> 
+                  <div type="textpart" subtype="face" rend="circular" n="obv" xml:lang="la">
+              <ab>
+                 <lb n="1"/>
+              </ab>
+                  </div>
+            <div type="textpart" subtype="sigla" n="rev" rend="columns" xml:lang="grc">
+                      <ab/>
+                  </div>
+              </div>-->
+         <div type="translation">
+            <p/>
+            <p xml:lang="en"/>
+            <p xml:lang="fr"/>
+         </div>
+         <div type="commentary" subtype="text">
+            <!-- renvois internes à refaire -->
+            <p xml:lang="en">Although without inscription, this seal can easily be attributed to
+               Tiberios III Apsimar. The spear held in front of the chest, rather than behind the
+               head, is a feature that distinguishes the effigy of this emperor on his solidi from
+               those issued by Constantine IV (668-685). Apsimar, of foreign origin, was drongarius
+               of Korykos, dependent on the Cypriot fleet, when he usurped the throne of Leontios
+               (695-698) and ruled under the name of Tiberius III. During his brief reign, the
+               Empire suffered Muslim attacks on the eastern front, which was well defended by his
+               brother Heraclius, while the province of Africa fell definitively under Arab-Muslim
+               domination.</p>
+            <p xml:lang="en">The reverse side of the seal offers one of the finest examples of the
+               chosen motif, which can be found on two seals of Constantine IV (668-685), as well as
+               on certain seals of all his successors up to Nicephorus I (802-803). Even today, art
+               historians seem to ignore this iconography, for which there are no known parallels in
+               other artistic fields. As for sigillographers, they assimilate it to the well-known
+               type of the Virgin Hodegetria, which became widespread especially after the
+               restoration of the cult of images in 843. Between that date and 1059, the Virgin
+               Hodegetria was the almost exclusive motif on the seals of the patriarchs of
+               Constantinople. The image, which is said to originate from the icon that Saint Luke
+               painted during the Virgin's lifetime, depicts the Theotokos in bust or full-length
+               form, holding the Child, blessing, seated on her left arm—less often on her right arm
+               (dexiokratoussa)—whom she points to with her other hand. However, the variant that
+               appears on our seal is significant: Christ is depicted as an infant, half-lying down,
+               which seems to emphasize Mary's assumed motherhood, as she holds her child in a
+               natural, protective manner, wrapping her right arm around his legs. The peculiarity
+               of this motif cannot be attributed to a technical difficulty on the part of engravers
+               at the end of the 7th century and the beginning of the 8th century in depicting the
+               type that developed later. In our opinion, the composition of this “archaic” type of
+               the Hodegetria Virgin is deliberate. It seems to evoke the dogma formulated and
+               adopted by the Third Ecumenical Council (431), recognizing the Virgin as Theotokos,
+               Mother of God, and not simply as Christotokos, Mother of Christ. The cruciform halo
+               and the effigy of Christ as a newborn, as well as the Virgin's attitude as described
+               above, would be the artistic translation of this. On the other hand, it corresponds
+               strikingly to the description given by Patriarch Photios in 867 of an image of the
+               Virgin depicted in Hagia Sophia: Ἡ παρθένος τὸν κτίστην χερσὶν ὡς βρέφος
+               βαστάζει...παρθένος μήτηρ ἁγναῖς ἀγκάλαις τὸν κοινὸν φέρουσα πλάστην..., ὡς βρέφος
+               ἀνακλινόμενον... τῇ μὲν στοργῇ τῶν σπλάχνων τὴν ὄψιν πρὸς τὸ τεχθὲν συμπαθῶς
+               ἐπιστρέφουσα  (The Virgin holds the Creator in her arms like a newborn baby... a
+               virgin mother, holding our Creator in her immaculate arms... like a
+               newborn baby lying down... affectionately turning her gaze, driven by maternal love,
+               towards the fruit of her womb). The detail of the gaze turned towards the
+               newborn in the image described by Photios, which is absent from our motif, refers to a
+               later version of it, but clearly to a different type from the
+               classic Hodegetria Virgin. Therefore, we see in the iconography of
+               our seal a copy of an image of the Virgin that was widespread until the 9th century, which, for
+               reasons that were undoubtedly theological, was not maintained nor, curiously,
+               preserved in any way other than sigillography. This illustration is not an
+               isolated example of a holy image, unknown elsewhere and preserved in
+               sigillography. Our collection offers a second example, the seal of Zôsimas Rhizaios,
+               depicting Saint Orentios <bibl>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry"
+                     >380</citedRange></bibl>.</p>
+            <p xml:lang="fr">Bien qu’anépigraphe, ce sceau est aisément attribuable à Tibère III
+               Apsimar. La lance tenue devant la poitrine, et non derrière la tête, est une
+               caractéristique qui distingue l’effigie de cet empereur sur ses solidi de ceux émis
+               par Constantin IV (668-685). Apsimar, d’origine étrangère, était drongaire de
+               Korykos, dépendant de la flotte des Cibyrrhéotes, lorsqu’il usurpa le trône de Léonce
+               (695- 698) et exerça le pouvoir sous le nom de Tibère III. Pendant son bref règne,
+               l’Empire souffrit des attaques musulmanes sur le front oriental, bien défendu par son
+               frère Héraclius, alors que la province d’Afrique passa définitivement sous la
+               domination arabo-musulmane.</p>
+            <p xml:lang="fr">Le revers du sceau offre l’un des plus beaux exemples du motif choisi,
+               que l’on retrouve sur deux sceaux de Constantin IV (668-685), ainsi que sur certains
+               plombs de tous ses successeurs jusqu’à Nicéphore Ier (802-803). Aujourd’hui encore,
+               les historiens de l’art semblent ignorer cette iconographie, dont on ne connaît pas
+               de parallèle dans d’autres domaines artistiques. Quant aux sigillographes, ils
+               l’assimilent au type bien connu de la Vierge Hodègètria, répandu surtout après la
+               restauration du culte des images, en 843. Entre cette date et 1059, la Vierge
+               Hodègètria fut le motif presque exclusif des sceaux des patriarches de
+               Constantinople. L’image, qui trouverait son origine dans l’icône que saint Luc aurait
+               peinte du vivant de la Vierge, représente la Théotokos en buste ou en pied, tenant
+               l’Enfant, bénissant, assis sur son bras gauche – moins souvent sur le bras droit
+               (dexiokratoussa) –, qu’elle désigne de l’autre main. Or, la variante qui figure sur
+               notre sceau est de taille : le Christ est représenté tel un nourrisson, à demi
+               couché, ce qui semble vouloir mettre en exergue la maternité assumée de Marie, qui
+               tient son enfant de manière naturelle, c’est-à-dire protectrice, en entourant ses
+               jambes de son bras droit. La particularité de ce motif ne peut pas relever d’une
+               difficulté technique de la part des graveurs de la fin du viie siècle et du début du
+               viiie siècle à figurer le type développé ultérieurement. Selon nous, la composition
+               de ce type « archaïque » de la Vierge Hodègètria est délibérée. Elle paraît évoquer
+               le dogme formulé et adopté par le troisième concile oecuménique (431), reconnaissant
+               à la Vierge le statut de Théotokos, Mère de Dieu, et non pas simplement de
+               Christotokos, Mère du Christ. Le nimbe cruciforme et l’effigie du Christ en
+               nouveau-né, ainsi que l’attitude de la Vierge comme nous l’avons décrite plus haut,
+               en seraient la traduction artistique. D’autre part, elle correspond de manière
+               frappante à la description donnée par le patriarche Photios, en 867, d’une image de
+               la Vierge représentée à Sainte-Sophie : Ἡ παρθένος τὸν κτίστην χερσὶν ὡς βρέφος
+               βαστάζει...παρθένος μήτηρ ἁγναῖς ἀγκάλαις τὸν κοινὸν φέρουσα πλάστην..., ὡς βρέφος
+               ἀνακλινόμενον... τῇ μὲν στοργῇ τῶν σπλάχνων τὴν ὄψιν πρὸς τὸ τεχθὲν συμπαθῶς
+               ἐπιστρέφουσα. (La Vierge tient dans ses bras le Créateur comme un nouveau-né…, une
+               mère vierge, qui tient notre Créateur à tous dans ses bras immaculés, … comme un
+               nouveau-né couché… tournant affectueusement le regard, sous l’impulsion de l’amour
+               maternel, vers le fruit de ses entrailles). Le détail du regard tourné vers le
+               nouveau-né sur l’image décrite par Photios, absent sur notre motif, renvoie à une
+               version ultérieure à celui-ci, mais clairement à un type différent de celui,
+               classique, de la Vierge Hodègètria. Dès lors, nous voyons dans l’iconographie de
+               notre sceau la copie d’une image de la Vierge répandue jusqu’au IXe siècle, qui, pour
+               des raisons sans doute théologiques, n’a pas été maintenue ni, curieusement,
+               conservée autrement que par la sigillographie. Cette illustration ne serait pas un
+               exemple isolé d’une image sainte, inconnue par ailleurs et conservée en
+               sigillographie. Notre collection en offre un deuxième, le sceau de Zôsimas Rhizaios,
+               représentant saint Orentios. <bibl>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry"
+               >380</citedRange></bibl>.</p>
+
+         </div>
+         <div type="bibliography" subtype="edition">
+            <p><bibl>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">2</citedRange></bibl>
+               <bibl/>
+            </p>
+         </div>
+         <div type="bibliography" subtype="parallels">
+           <p> ancienne collection Zacos:
+              <bibl>
+                 <ptr target="Zacos1"/>, n° <citedRange unit="entry">28</citedRange></bibl>; 
+              <bibl>
+                 <ptr target="ZacosSpink2"/>, n° <citedRange unit="entry">194</citedRange></bibl>;
+              <bibl>
+                 <ptr target="Leontiades2006"/>, n° <citedRange unit="entry">1</citedRange></bibl></p>
+            <p> Musée d'Hérakleion: </p>
+               
+         </div>
+         <div type="bibliography" subtype="discussion">
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

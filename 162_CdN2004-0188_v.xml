@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en">Isaakios Komnenos, protospatharios and katepano of
+               Vaspourakan</title>
+            <title xml:lang="fr">Isaac Comnène, protospathaire et catépan du Vaspourakan</title>
+            <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
+            <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+            <funder>
+               <orgName corresp="https://www.mahmah.ch/">MAH-Musée d'art et d'histoire - Genève,
+                  Cabinet de numismatique</orgName>, Suisse</funder>
+            <principal ref="#MCP"/>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <seg xml:lang="fr">Amélioration digitale</seg>
+               <seg xml:lang="en">Digital enhancement</seg>
+            </edition>
+            <editor role="digital-editor" xml:id="PE" when="2025-04-14">Pia Evening</editor>
+            <editor role="digital-editor" ref="#MCP" when="2026-02-26">Maria
+               Campagnolo-Pothitou</editor>
+         </editionStmt>
+         <publicationStmt>
+            <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
+            <idno type="filename">CdN 2004-0188</idno>
+            <idno type="SigiDocID">s-6r3vqL</idno>
+            <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+            <idno type="sequence"/>
+            <!--  to be compiled automatically; leave as is  -->
+            <date when="2024-08-06"/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                  >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                  4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listPerson type="issuer">
+               <person gender="M" role="military aristocracy">
+                  <persName xml:lang="grc">
+                     <forename>Ἰσαάκιος</forename>
+                     <surname>Κομνηνός</surname>
+                  </persName>
+                  <persName xml:lang="fr">
+                     <forename>Isaac</forename>
+                     <surname>Comnène</surname>
+                  </persName>
+                  <persName xml:lang="en">
+                     <forename>Isaakios</forename>/> <surname>Komnenos</surname>/> </persName>
+                  <idno type="PBW" ana="http://pbw2016.kdl.kcl.ac.uk/person/Isaakios/1/">Isaakios 1</idno>
+
+                  <idno type="PBE"/>
+                  <idno type="PLP"/>
+                  <idno type="PLRE"/>
+                  <idno type="PcBE"/>
+                  <idno type="PmbZ"/>
+               </person>
+            </listPerson>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <seg xml:lang="en">Switzerland</seg>
+                     <seg xml:lang="fr">Suisse</seg>
+                  </country>
+                  <settlement>
+                     <seg xml:lang="en">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">City of
+                           Geneva</placeName>
+                     </seg>
+                     <seg xml:lang="fr">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">Ville de
+                           Genève</placeName>
+                     </seg>
+                  </settlement>
+                  <institution>MAH-Musée d'art et d'histoire</institution>
+                  <repository>Cabinet de numismatique</repository>
+                  <collection type="public">
+                     <rs type="collection-name" xml:lang="en">Byzantine seals collection</rs>
+                     <rs type="collection-name" xml:lang="fr">Collection de sceaux byzantins</rs>
+                  </collection>
+                  <idno type="inv-nr-current">CdN 2004-0188</idno>
+                  <altIdentifier>
+                     <repository/>
+                     <idno type="inv-nr-former"/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <!--https://github.com/SigiDoc/Guidelines/wiki/5.-Controlled-vocabularies#seals-category-->
+                  <summary n="whole">
+                     <seg xml:lang="fr">Administration provinciale</seg>
+                     <seg xml:lang="en">Provincial administration</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>
+                              <term>
+                                 <seg xml:lang="fr">Sceau</seg>
+                                 <seg xml:lang="en">Seal</seg>
+                              </term>
+                              <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                              <interp type="workType" xml:lang="en">Original impression</interp>
+                           </objectType>
+                           <material>
+                              <seg xml:lang="fr">Plomb</seg>
+                              <seg xml:lang="en">Lead</seg>
+                           </material>
+                           <dimensions type="support" unit="mm">
+                              <dim type="diameter">33,65/29,59</dim>
+                              <!-- mesure du champ? -->
+                           </dimensions>
+                           <measure type="weight" unit="g">23,523</measure>
+                           <measure type="axis" unit="clock"/>
+                           <measure type="overstrikeOrient" unit="clock"/>
+                           <measure type="channelOrient" unit="clock">12-6</measure>
+                           <measure type="countermark" unit="clock"/>
+                        </support>
+                        <condition rend="well-struck well-preserved broken corroded ">
+                           <p xml:lang="en">The bulla is well struck and well prserved, although
+                              corroded and broken on the edge; remnants of the mould</p>
+                           <p xml:lang="fr">La bulle est bien frappé et bien conservée, bien que
+                              légèrement corrodée et cassée sur une partie de la tranche; restes du
+                              moule de production du flan</p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout n="whole">
+                           <rs type="execution">
+                              <seg xml:lang="fr">Frappé</seg>
+                              <seg xml:lang="en">Struck</seg>
+                           </rs>
+                           <rs type="shape">
+                              <seg xml:lang="fr">Ronde</seg>
+                              <seg xml:lang="en">Round</seg>
+                           </rs>
+                           <rs type="matrix" subtype="not-surviving">
+                              <idno type="SigiDoc">m-tdsKe4</idno>
+                              <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+                              <idno type="PBW"/>
+                              <!-- to be used if the seal has a parallel in the PBW with a boulloterion registered there -->
+                           </rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <seg xml:lang="fr">Vaspourakan<placeName/>
+                        </seg>
+                        <seg xml:lang="en">Vaspourakan<placeName/>
+                        </seg>
+                     </origPlace>
+                     <origDate type="analysis" when="1044" evidence="prosopography titulature"
+                        cert="high" resp="#MCP #JCC">
+                        <seg xml:lang="en">1044</seg>
+                        <seg xml:lang="fr">1044</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="transferred" subtype="donated" when="2004-11-24">
+                     <!-- pas sûr de subtype et when -->
+                     <p xml:lang="en">George Zacos collection</p>
+                     <p xml:lang="fr">Collection Georges Zacos</p>
+                  </provenance>
+                  <acquisition>
+                     <p xml:lang="en">Donation of the Migore Foundation, Janet Zakos legacy, <date
+                           when="2004-11-24">24th November 2004</date>
+                     </p>
+                     <p xml:lang="fr">Don de la Fondation Migore, legs Janet Zakos, <date
+                           when="2004-11-24">24 Novembre 2004</date>
+                     </p>
+                  </acquisition>
+               </history>
+               <msPart n="r">
+                  <msIdentifier/>
+                  <msContents>
+                     <!-- ajouté ceci -->
+                     <summary n="r">
+                        <seg xml:lang="en">Obverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="r">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="fr">Iconogaphie avec epigraphe en colonnes de part et
+                                 d'autre de l'effigie et inscription circulaire</p>
+                              <p xml:lang="en">Iconography with epigraph on columns on either part
+                                 of the effigy and circular inscription</p>
+                           </layout>
+                        </layoutDesc>
+
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="r">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="r" xml:lang="fr" ana="person male saint George">Saint
+                                 Georges à mi-corps, de face, imberbe, à la belle chevelure bouclée,
+                                 tenant en main droite une lance au manche bouleté sous le tranchant
+                                 et, de l’autre, un bouclier orné de grosses perles.</figDesc>
+                              <figDesc n="r" xml:lang="en" ana="person male saint George">Saint
+                                 George, half-length, facing forward, beardless, with beautiful
+                                 curly hair, holding a spear in his right hand with a
+                                 ball-and-socket joint under the tip, and in his other hand a shield
+                                 decorated with large pearls.</figDesc>
+                              <figDesc n="decoR" xml:lang="fr">Cercle de grènetis; l'inscription,
+                                 qui commence à 9h, est précédée d'une croisette </figDesc>
+                              <figDesc n="decoR" xml:lang="en">Border of dots; the inscription,
+                                 preceded by a crosslet, is starting at 9h</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+               <msPart n="v">
+                  <msIdentifier/>
+                  <msContents>
+                     <summary n="v"><!-- ajouté ceci -->
+                        <seg xml:lang="en">Reverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="v">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="en">Linear legend of 5 lines</p>
+                              <p xml:lang="fr">Légende linéaire sur 5 lignes</p>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="v">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="decoV" xml:lang="fr">Cercle de grènetis; l'inscription est
+                                 suivie d’un losange de perles accosté de tirets</figDesc>
+                              <figDesc n="decoV" xml:lang="en">Border of dots; the inscription is
+                                 followed by a lozange of pearls placed between traits</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2025-04-14" who="#PE">Creation of the XML record.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp>
+         <surface n="r">
+            <desc>Obverse</desc>
+            <graphic type="photo" url="CdN2004-0188_1.jpg">
+               <desc xml:lang="en">CdN 2004-0188, obverse</desc>
+               <desc xml:lang="fr">CdN 2004-0188, avers</desc>
+            </graphic>
+         </surface>
+         <surface n="v">
+            <desc>Reverse</desc>
+            <graphic type="photo" url="CdN2004-0188_2.jpg">
+               <desc xml:lang="en">CdN 2004-0188, reverse</desc>
+               <desc xml:lang="fr">CdN 2004-0188, revers</desc>
+            </graphic>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" subtype="editorial" xml:space="preserve"> 
+            <div type="textpart" subtype="label" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="a"/>Ὁ <expan><ex>ἅγιος</ex></expan> <expan><abbr>Γε
+                 <cb n="b" break="no"/>ώργ</abbr><ex>ιος</ex></expan>
+              </ab>
+            </div>
+            <div type="textpart" subtype="face" rend="circular" n="obv" xml:lang="grc">
+              <ab ana="dat">
+                 <lb n="1"/><rs type="invocation" ref="#inv004"><expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan> <expan><abbr>β</abbr><supplied reason="lost"><ex>οή</ex><abbr>θ</abbr><ex>ει</ex></supplied></expan> <supplied reason="lost">τῷ σῷ</supplied> <expan><abbr>δούλ</abbr><ex>ῳ</ex></expan></rs>
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab ana="dat">
+                         <lb n="2"/>Ἰσα<supplied reason="omitted">α</supplied>κίῳ 
+                         <lb n="3"/><rs type="dignity" ref="#d0066"><expan><abbr><am>Α</am></abbr><ex>πρωτο</ex><abbr>σπαθ</abbr><ex>αρίῳ</ex></expan></rs> <expan><abbr><am>S</am></abbr><ex>καὶ</ex></expan> 
+                         <lb n="4"/><rs type="office" subtype="military" ref="#of0263"><expan><abbr>κατεπ</abbr><ex>άνω</ex></expan></rs> <placeName ref="#geo0069"><expan><abbr>Βα
+                         <lb n="5" break="no"/>σπρακ</abbr><ex>ανίας</ex></expan></placeName> τῷ 
+                         <lb n="6"/><expan><abbr>Κομνην</abbr><ex>ῷ</ex></expan>
+                      </ab>
+                  </div>
+              </div>
+         <div type="edition" subtype="diplomatic" xml:space="preserve"> 
+                  <div type="textpart" subtype="label" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="a"/>|Γ|e    
+                 <cb n="b"/>|ρ|γ/
+              </ab>
+            </div>
+            <div type="textpart" subtype="face" rend="circular" n="obv" xml:lang="grc">
+              <ab>
+                 <lb n="1"/> κεr...  ...δλ/
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab>
+                         <lb n="2"/>ισακι̣                      
+                         <lb n="3"/>ασπαθ/ 
+                         <lb n="4"/>κατεπ/ rα
+                         <lb n="5"/>σπρακ/ τ
+                         <lb n="6"/>κομνην
+                         <lb n="0"/>   
+                         </ab>
+                  </div>
+              </div>
+         <div type="translation">
+            <p>Ὁ ἅγιος Γεώργιος. + Κύριε βοήθει τῷ σῷ δούλῳ || Ἰσαακίῳ πρωτοσπαθαρίῳ καὶ κατεπάνω
+               Βασπρακανίας τῷ Κομνηνῷ.</p>
+            <p xml:lang="en">Saint George. + Lord, help your servant Isaakios Komnenos,
+               protospatharios and katepano of Vaspourakan</p>
+            <p xml:lang="fr">Saint Georges. + Seigneur accorde ton secours à Isaac Comnène,
+               protospathaire et catépan du Vaspourakan</p>
+         </div>
+         <div type="commentary" subtype="text">
+            <!-- renvois internes à refaire -->
+            <p xml:lang="en">The seals of the future Isaac I Komnenos (1057-1059) were studied by
+               J.-Cl. Cheynet in <bibl><ptr target="Cheynet2005"/></bibl>. All bearing the image of
+               Saint George, patron saint of the Comnenes, and allow us to supplement the
+               information provided by literary sources and trace Isaac's brilliant career from its
+               beginnings, probably around 1030 or 1035, to his deposition by Empress Theodora in
+               1056: – protospathiaros and strategos (second quarter of the 11th century) strategos
+               (second quarter of the 11th century)<bibl><ptr target="Istanbul"/> no. <citedRange
+                     unit="entry">2.239</citedRange></bibl>; – protospatharios and catepan of
+               Vaspurakan (our seal); – patrician and catepan of Iberia; – magistrate and duke, 1048
+               (Zacos (BnF) 250, unpublished); – magistrate, vestes and stratopedarch of the East
+                     <bibl><ptr target="Zacos1"/> no. <citedRange unit="entry"
+                  >2680</citedRange></bibl> and Zacos (BnF) 5054, unpublished. Located in the
+               southeast of Armenia, Vaspurakan (Vaasprakania/Asprakania for the Byzantines) was
+               ceded by the Iberian king Senacherim Artzrouni to Basil II in 1021, in exchange for
+               the dignity of sebastos and land holdings in Cappadocia. With Van as its center and
+               capital, the catepanate of Vaspurakan remained under Byzantine authority until at
+               least 1071, when it passed to the Seljuks after the Battle of Manzikert <bibl><ptr
+                     target="ZacosOrient"/> p. <citedRange unit="page">93-94</citedRange></bibl>. </p>
+            <p xml:lang="en"/>
+            <p xml:lang="fr">Les sceaux du futur Isaac Ier Comnène (1057-1059) ont été étudiés par
+               J.-Cl. Cheynet dans <bibl><ptr target="Cheynet2005"/></bibl>. Tous à l’effigie de
+               saint Georges – saint patron des Comnènes –, ils nous permettent de compléter les
+               informations fournies par les sources littéraires et de retracer la brillante
+               carrière qu’Isaac a accomplie depuis ses débuts, sans doute vers 1030 ou 1035,
+               jusqu’à sa déposition par l’impératrice Théodora, en 1056 : – protospathaire et
+               stratège (deuxième quart du XIe siècle)<bibl><ptr target="Istanbul"/> n° <citedRange
+                     unit="entry">2.239</citedRange></bibl> ; – protospathaire et catépan du
+               Vaspourakan (notre sceau) ; – patrice et catépan d’Ibérie ; – magistre et duc,
+               1048(Zacos (BnF) 250, inédit) ; – magistre, vestès et stratopédarque de l’Orient
+                     <bibl><ptr target="Zacos1"/> n° <citedRange unit="entry"
+                  >2680</citedRange></bibl> et Zacos (BnF) 5054, inédit.. Situé au sud-est de
+               l’Arménie, le Vaspourakan (Vaasprakania/ Asprakania pour les Byzantins) fut cédé par
+               le roi ibère Sénacherim Artzrouni à Basile II en 1021, en échange de la dignité de
+               sébaste et de biens fonciers en Cappadoce. Avec Van comme centre et capitale, le
+               catépanat du Vaspourakan est resté sous l’autorité byzantine au moins jusqu’à 1071,
+               lorsqu’il passa aux Seldjoukides après la bataille de Mantzikert <bibl><ptr
+                     target="ZacosOrient"/> p. <citedRange unit="page"
+               >93-94</citedRange></bibl>.</p>
+            <p xml:lang="fr"/>
+         </div>
+         <div type="bibliography" subtype="edition">
+            <p><bibl><ptr target="ZacosGenève"/> n° <citedRange unit="entry">162</citedRange></bibl>
+               <bibl/>
+            </p>
+         </div>
+         <div type="bibliography" subtype="parallels">
+            <p/>
+         </div>
+         <div type="bibliography" subtype="discussion">
+            <p><bibl><ptr target="Cheynet2005"/> p. <citedRange unit="page">55 et note 5</citedRange></bibl>
+            <bibl/></p>
+         </div>
+      </body>
+   </text>
+</TEI>

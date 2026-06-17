@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en">John Zonaras, patrikios</title>
+            <title xml:lang="fr">Jean Zônaras, patrice</title>
+            <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
+            <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+            <funder>
+               <orgName corresp="https://www.mahmah.ch/">MAH-Musée d'art et d'histoire - Genève,
+                  Cabinet de numismatique</orgName>, Suisse</funder>
+            <principal ref="#MCP"/>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <seg xml:lang="fr">Amélioration digitale</seg>
+               <seg xml:lang="en">Digital enhancement</seg>
+            </edition>
+            <editor role="digital-editor" xml:id="PE" when="2025-04-22">Pia Evening</editor>
+            <editor role="digital-editor" ref="#MCP" when="2026-03-23">Pia Evening</editor>
+         </editionStmt>
+         <publicationStmt>
+            <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
+            <idno type="filename">CdN 2004-0263</idno>
+            <idno type="SigiDocID">s-iIwydi</idno>
+            <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+            <idno type="sequence"/>
+            <!--  to be compiled automatically; leave as is  -->
+            <date when="2024-08-06"/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                  >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                  4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listPerson type="issuer">
+               <person gender="M" role="civil aristocracy">
+                  <persName xml:lang="grc">
+                     <forename>Ἰωάννης</forename>
+                     <surname>Ζωναρᾶς</surname>
+                  </persName>
+                  <persName xml:lang="fr">
+                     <forename>Jean</forename>
+                     <surname>Zônaras</surname>
+                  </persName>
+                  <persName xml:lang="en">
+                     <forename>John</forename>
+                     <surname>Zonaras</surname>
+                  </persName>
+                  <idno type="PBW" ana=""/>
+
+                  <idno type="PBE"/>
+                  <idno type="PLP"/>
+                  <idno type="PLRE"/>
+                  <idno type="PcBE"/>
+                  <idno type="PmbZ"/>
+               </person>
+            </listPerson>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <seg xml:lang="en">Switzerland</seg>
+                     <seg xml:lang="fr">Suisse</seg>
+                  </country>
+                  <settlement>
+                     <seg xml:lang="en">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">City of
+                           Geneva</placeName>
+                     </seg>
+                     <seg xml:lang="fr">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">Ville de
+                           Genève</placeName>
+                     </seg>
+                  </settlement>
+                  <institution>MAH-Musée d'art et d'histoire</institution>
+                  <repository>Cabinet de numismatique</repository>
+                  <collection type="public">
+                     <rs type="collection-name" xml:lang="en">Byzantine seals collection</rs>
+                     <rs type="collection-name" xml:lang="fr">Collection de sceaux byzantins</rs>
+                  </collection>
+                  <idno type="inv-nr-current">CdN 2004-0263</idno>
+                  <altIdentifier>
+                     <repository/>
+                     <idno type="inv-nr-former"/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <!--https://github.com/SigiDoc/Guidelines/wiki/5.-Controlled-vocabularies#seals-category-->
+                  <summary n="whole">
+                     <seg xml:lang="fr">Dignitaires</seg>
+                     <seg xml:lang="en">Dignitaries</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>
+                              <term>
+                                 <seg xml:lang="fr">Sceau</seg>
+                                 <seg xml:lang="en">Seal</seg>
+                              </term>
+                              <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                              <interp type="workType" xml:lang="en">Original impression</interp>
+                           </objectType>
+                           <material>
+                              <seg xml:lang="fr">Plomb</seg>
+                              <seg xml:lang="en">Lead</seg>
+                           </material>
+                           <dimensions type="support" unit="mm">
+                              <dim type="diameter">23,93</dim>
+                              <!-- mesure du champ? -->
+                           </dimensions>
+                           <measure type="weight" unit="g">8,826</measure>
+                           <measure type="axis" unit="clock"/>
+                           <measure type="overstrikeOrient" unit="clock"/>
+                           <measure type="channelOrient" unit="clock">12-6</measure>
+                           <measure type="countermark" unit="clock"/>
+                        </support>
+                        <condition rend=" well-struck well-preserved chipped not-centered">
+                           <p xml:lang="en">The bulla is well struck althoug out of center and well
+                              preserved, slightly chipped at the openings of the channel and </p>
+                           <p xml:lang="fr">La bulle est bien frappée bien que décentrée et bien
+                              conservée, légèrement échancrée aux orifices du canal</p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout n="whole">
+                           <rs type="execution">
+                              <seg xml:lang="fr">Frappé</seg>
+                              <seg xml:lang="en">Struck</seg>
+                           </rs>
+                           <rs type="shape">
+                              <seg xml:lang="fr">Ronde</seg>
+                              <seg xml:lang="en">Round</seg>
+                           </rs>
+                           <rs type="matrix" subtype="not-surviving">
+                              <idno type="SigiDoc">m-3YwmZu</idno>
+                              <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+                              <idno type="PBW"/>
+                              <!-- to be used if the seal has a parallel in the PBW with a boulloterion registered there -->
+                           </rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <seg xml:lang="fr">
+                           <placeName/>
+                        </seg>
+                        <seg xml:lang="en">
+                           <placeName/>
+                        </seg>
+                     </origPlace>
+                     <origDate type="analysis" notBefore="1051" notAfter="1100"
+                        evidence="epigraphy iconography onomastics" cert="high" resp="#MCP #JCC">
+                        <seg xml:lang="en">Second half of the 11th century</seg>
+                        <seg xml:lang="fr">Seconde moitié du XIe siècle</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="transferred" subtype="donated" when="2004-11-24">
+                     <!-- pas sûr de subtype et when -->
+                     <p xml:lang="en">George Zacos collection</p>
+                     <p xml:lang="fr">Collection Georges Zacos</p>
+                  </provenance>
+                  <acquisition>
+                     <p xml:lang="en">Donation of the Migore Foundation, Janet Zakos legacy, <date
+                           when="2004-11-24">24th November 2004</date>
+                     </p>
+                     <p xml:lang="fr">Don de la Fondation Migore, legs Janet Zakos, <date
+                           when="2004-11-24">24 Novembre 2004</date>
+                     </p>
+                  </acquisition>
+               </history>
+               <msPart n="r">
+                  <msIdentifier/>
+                  <msContents>
+                     <!-- ajouté ceci -->
+                     <summary n="r">
+                        <seg xml:lang="en">Obverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="r">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="fr">Iconographie avec sigles de part et d'autre de
+                                 l'effigie</p>
+                              <p xml:lang="en">iconography with sigla on either part of the
+                                 iconography</p>
+                           </layout>
+                        </layoutDesc>
+
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="r">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="r" xml:lang="fr" ana="person female Virgin Hodigitria"
+                                 >Vierge Hodègètria à mi-corps, tenant l’Enfant sur le bras gauche,
+                                 têtes regardant de face. Par un léger mouvement que chacun fait
+                                 vers l’autre, les nimbes se confondent. L’Enfant pose la main
+                                 droite sur le cou de la Théotokos, qui avance la sienne vers lui,
+                                 dans un geste d’adoration.</figDesc>
+                              <figDesc n="r" xml:lang="en" ana="person female Virgin Hodigitria"
+                                 >Virgin Hodigitria hlaf-length, bearing the Child on her left arm.
+                                 Both of them are facing forward while their halos interwine. The
+                                 child is putting his right hand on the neck of his mother, while
+                                 she is holding out her hand towards him in agesture of
+                                 worship.</figDesc>
+                              <figDesc n="decoR" xml:lang="fr">Cercle de grènetis</figDesc>
+                              <figDesc n="decoR" xml:lang="en">Border of dots</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+               <msPart n="v">
+                  <msIdentifier/>
+                  <msContents>
+                     <summary n="v"><!-- ajouté ceci -->
+                        <seg xml:lang="en">Reverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="v">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="en">Linear legend of 4 lines</p>
+                              <p xml:lang="fr">Légende linéaire sur 4 lignes</p>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="v">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="decoV" xml:lang="fr">Cercle de grènetis; l'inscription est
+                                 surmontée et suivie d’une croisette cantonnée de tirets</figDesc>
+                              <figDesc n="decoV" xml:lang="en">Border of dots; the inscription is
+                                 surmounted and followed by a crosslet placed between
+                                 traits</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2025-04-22" who="#PE">Creation of the XML record.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp>
+         <surface n="r">
+            <desc>Obverse</desc>
+            <graphic type="photo" url="CdN2004-0263_1.jpg">
+               <desc xml:lang="en">CdN 2004-0263, obverse</desc>
+               <desc xml:lang="fr">CdN 2004-0263, avers</desc>
+            </graphic>
+         </surface>
+         <surface n="v">
+            <desc>Reverse</desc>
+            <graphic type="photo" url="CdN2004-0263_2.jpg">
+               <desc xml:lang="en">CdN 2004-0263, reverse</desc>
+               <desc xml:lang="fr">CdN 2004-0263, revers</desc>
+            </graphic>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" subtype="editorial" xml:space="preserve"> 
+            <div type="textpart" subtype="sigla" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="a"/><expan><abbr>Μ</abbr><ex>ήτη</ex><abbr>ρ</abbr></expan> 
+                 <cb n="b"/><expan><abbr>Θ</abbr><ex>εοῦ</ex></expan>
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab ana="dat">
+                         <lb n="1"/><rs type="invocation" ref="#inv002"><expan><abbr>Θ</abbr><ex>εοτό</ex><abbr>κε</abbr></expan> <expan><abbr>β</abbr><ex>οή</ex><abbr>θ</abbr><ex>ει</ex></expan> 
+                         <lb n="2"/>τῷ σῷ <expan><abbr>δού</abbr><ex>λῳ</ex></expan></rs> 
+                         <lb n="3"/><expan><abbr>Ἰω</abbr><ex>άννῃ</ex></expan> <rs type="dignity" ref="#d0047"><expan><abbr>π</abbr><ex>ατ</ex><abbr>ρι</abbr><ex>κίῳ</ex></expan></rs> τῷ 
+                         <lb n="4"/>Ζωναρᾷ
+                      </ab>
+                  </div>
+              </div>
+         <div type="edition" subtype="diplomatic" xml:space="preserve"> 
+                  <div type="textpart" subtype="sigla" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="a"/>
+                 <cb n="b"/>θ
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab> 
+                         <lb n="0"/>   
+                         <lb n="1"/>Θκεr/ θ/                
+                         <lb n="2"/>τσδ/
+                         <lb n="3"/>i̅πριτ
+                         <lb n="4"/>ναρα
+                         <lb n="0"/>   
+                         </ab>
+                  </div>
+              </div>
+         <div type="translation">
+            <p>Μήτηρ Θεοῦ. || + Θεοτόκε βοήθει τῷ σῷ δούλῳ Ἰωάννῃ πατρικίῳ τῷ Ζωναρᾷ.</p>
+            <p xml:lang="en">Mother of God. || + Mother of God, help your servant John Zonaras, the
+               patrikios</p>
+            <p xml:lang="fr">Mère de Dieu. || +Mère de Dieu, accorde ton secours au patrice Jean
+               Zônaras</p>
+         </div>
+         <div type="commentary" subtype="text">
+            <!-- renvois internes à refaire -->
+            <p xml:lang="en">It is difficult to attribute this bulla to the historian of the same
+               name, a canonist of the 12th century. In his Epitomae historiarum, he informs us that
+               he served under Alexios Ist as protoasekretis, and even as megas drouggarios of the
+               Vigla, before taking the monastic habit around 1118. Among the Zonarades known from
+               the sources (see below and PLP n°s 6654– 6655), the historian is the only one to
+               have borne the first name John. If he lived until the mid-12th century, he cannot be
+               the owner of our seal, but rather his grandson. A family with a civil vocation, the
+               Zonarades served primarily in the judiciary, beginning in the 10th century. The first
+               member mentioned in the sources, attached to the office of the Eparch of
+               Constantinople during the reign of Constantine VII, did not enjoy an good reputation
+               (ὅς ἅτε εὐφυής κλέπτης καὶ μοχθηρός,
+               https://www.degruyterbrill.com/database/PMBZ/entry/PMBZ30669/html). We know from
+               their seals and some texts, at the end of the 11th century, of the vestes Basil
+               Zonaras <bibl><ptr target="BBÖ1"/>, n° <citedRange unit="entry"
+                  >106</citedRange></bibl> with a list of all the family members and relevant information; Nicholas, protovestarches, megas chartularios of the
+               stratiotikon and judge of the Hippodrome, in 1088; the latter was also, according to
+               his seals, magistros, judge of Thrace and Macedonia <bibl><ptr target="BBÖ1"/>, p. <citedRange unit="page"
+                     >235 and notes 2 and 3</citedRange></bibl>. In the second half of the 12th
+               century, another Nicholas,participated in his capacity of protoasekretis in the
+               synods of 1156 and 1157(PG 140, col. 148 et 180A). It may that the seals of megas
+               drouggarios of the Vigla and of nobelissimos4 have belonged to him. Christophore
+                     <bibl><ptr target="Istanbul"/>, n° <citedRange unit="entry"
+                  >7.125</citedRange></bibl> also a protoasekretis, is the father of Demetrios, a
+               specialist in schedography.</p>
+            <p xml:lang="en"/>
+            <p xml:lang="fr">Il est difficile d’attribuer cette bulle à l’historien homonyme,
+               canoniste du XIIe siècle. Dans son Epitomae historiarum, celui-ci nous fait savoir
+               qu’il a servi sous Alexis Ier en tant que prôtoasèkrètis, et même grand drongaire de
+               la Veille, avant de prendre l’habit monastique vers 1118. Parmi les Zônarades connus
+               des sources (cf. ci-après et PLP n°s 6654- 6655), l’historien est le seul à avoir
+               porté le prénom de Jean. S’il a vécu jusqu’au milieu du XIIe siècle, il ne peut être
+               le propriétaire de notre sceau, mais plutôt son petit-fils. Famille de vocation
+               civile, les Zônarades ont essentiellement servi dans la magistrature judiciaire, dès
+               le Xe siècle. Le premier cité dans les sources, attaché au bureau de l’éparque de
+               Constantinople, sous le règne de Constantin VII, ne jouissait pas d’une réputation
+               irréprochable (ὅς ἅτε εὐφυής κλέπτης καὶ μοχθηρός
+               https://www.degruyterbrill.com/database/PMBZ/entry/PMBZ30669/html). On connaît par
+               leurs sceaux et par les textes, à la fin du XIe siècle, Basile Zônaras, vestès
+                     <bibl><ptr target="BBÖ1"/>, n° <citedRange unit="entry"
+               >106</citedRange></bibl>, avec une notice sur les membres de la famille, avec toutes
+               les références; Nicolas, protovestarque, grand chartulaire du stratiôtikon et juge de
+               l’Hippodrome, en 1088 ; celui-ci fut aussi, d’après ses sceaux, magistre, juge de
+               Thrace et de Macédoine <bibl><ptr target="BBÖ1"/>, p. <citedRange unit="page"
+                     >235 et notes 2 et 3</citedRange></bibl>. Dans la seconde moitié du XIIe siècle, un autre Nicolas,
+               prôtoasèkrètis, participait aux synodes de 1156 et 1157(PG 140, col. 148 et 180A), à
+               qui pourraient avoir appartenu les sceaux de grand drongaire de la Veille et de
+               nobélissime <bibl><ptr target="LaurentCorpus2"/>, n° <citedRange unit="entry"
+                     >893</citedRange></bibl> (qui attribuait par erreur le plomb au juge de Thrace
+               et de Macédoine); <bibl><ptr target="Athens2001"/>, n° <citedRange unit="entry"
+                     >87</citedRange></bibl>. Christophore <bibl><ptr target="Istanbul"/>, n°
+                     <citedRange unit="entry">7.125</citedRange></bibl>, également prôtoasèkrètis,
+               est le père de Dèmètrios, spécialiste de schédographie6.</p>
+            <p xml:lang="fr"/>
+         </div>
+         <div type="bibliography" subtype="edition">
+            <p><bibl><ptr target="LaurentCorpus2"/>, n° <citedRange unit="entry"
+                     >174</citedRange></bibl>
+               <bibl/>
+            </p>
+         </div>
+         <div type="bibliography" subtype="parallels">
+            <p>Zacos (BnF) 620, inédit </p>
+            <p>coll. Seibt 318, inédit</p>
+         </div>
+         <div type="bibliography" subtype="discussion">
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

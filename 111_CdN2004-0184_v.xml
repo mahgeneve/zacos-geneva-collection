@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en">Nicephore Ouranos, magistros, vestes, vestarches and doux of
+               Antioch</title>
+            <title xml:lang="fr">Nicéphore Ouranos, magistre, vestès, vestarque et duc
+               d’Antioche</title>
+            <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
+            <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+            <funder>
+               <orgName corresp="https://www.mahmah.ch/">MAH-Musée d'art et d'histoire - Genève,
+                  Cabinet de numismatique</orgName>, Suisse </funder>
+            <principal ref="#MCP"/>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <seg xml:lang="fr">Amélioration digitale</seg>
+               <seg xml:lang="en">Digital enhancement</seg>
+            </edition>
+            <editor role="digital-editor" xml:id="PE" when="2025-04-02">Pia Evening</editor>
+            <editor role="digital-editor" ref="#MCP" when="2026-01-19">Maria Campagnolo-Pothitou</editor>
+         </editionStmt>
+         <publicationStmt>
+            <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
+            <idno type="filename">CdN 2004-0184</idno>
+            <idno type="SigiDocID">s-onQx32</idno>
+            <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+            <idno type="sequence"/>
+            <!--  to be compiled automatically; leave as is  -->
+            <date when="2024-08-06"/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                  >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                  4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listPerson type="issuer">
+               <person gender="M" role="military aristocracy">
+                  <persName xml:lang="grc">
+                     <forename>Νικηφόρος</forename>/> <surname>Οὐρανός</surname>/> </persName>
+                  <persName xml:lang="fr">
+                     <forename>Nicéphore</forename>/> <surname>Ouranos</surname>/> </persName>
+                  <persName xml:lang="en">
+                     <forename>Nicephore</forename>/> <surname>Ouranos</surname>/> </persName>
+                  <idno type="PBW" ana="http://pbw2016.kdl.kcl.ac.uk/person/Nikephoros/157/"
+                     >Nikephoros 157</idno>
+                  <idno type="PBE"/>
+                  <idno type="PLP"/>
+                  <idno type="PLRE"/>
+                  <idno type="PcBE"/>
+                  <idno type="PmbZ"
+                     >https://www.degruyterbrill.com/database/PMBZ/entry/PMBZ27771/html</idno>
+               </person>
+            </listPerson>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <seg xml:lang="en">Switzerland</seg>
+                     <seg xml:lang="fr">Suisse</seg>
+                  </country>
+                  <settlement>
+                     <seg xml:lang="en">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">City of
+                           Geneva</placeName>
+                     </seg>
+                     <seg xml:lang="fr">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">Ville de
+                           Genève</placeName>
+                     </seg>
+                  </settlement>
+                  <institution>MAH-Musée d'art et d'histoire</institution>
+                  <repository>Cabinet de numismatique</repository>
+                  <collection type="public">
+                     <rs type="collection-name" xml:lang="en">Byzantine seals collection</rs>
+                     <rs type="collection-name" xml:lang="fr">Collection de sceaux byzantins</rs>
+                  </collection>
+                  <idno type="inv-nr-current">CdN 2004-0184</idno>
+                  <altIdentifier>
+                     <repository/>
+                     <idno type="inv-nr-former"/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <!--https://github.com/SigiDoc/Guidelines/wiki/5.-Controlled-vocabularies#seals-category-->
+                  <summary n="whole">
+                     <seg xml:lang="fr">Administration provinciale</seg>
+                     <seg xml:lang="en">Provincial administration</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>
+                              <term>
+                                 <seg xml:lang="fr">Sceau</seg>
+                                 <seg xml:lang="en">Seal</seg>
+                              </term>
+                              <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                              <interp type="workType" xml:lang="en">Original impression</interp>
+                           </objectType>
+                           <material>
+                              <seg xml:lang="fr">Plomb</seg>
+                              <seg xml:lang="en">Lead</seg>
+                           </material>
+                           <dimensions type="support" unit="mm">
+                              <dim type="diameter">30</dim>
+                              <!-- mesure du champ? -->
+                           </dimensions>
+                           <measure type="weight" unit="g">27,380</measure>
+                           <measure type="axis" unit="clock"/>
+                           <measure type="overstrikeOrient" unit="clock"/>
+                           <measure type="channelOrient" unit="clock">12-6</measure>
+                           <measure type="countermark" unit="clock"/>
+                        </support>
+                        <condition rend="well-struck well-preserved chipped crushed">
+                           <p xml:lang="en">The bulla is well-struck and rather well-preserved;
+                              slightly chipped at the openings of the channel, it is partially
+                              crushed on both sides </p>
+                           <p xml:lang="fr">La bulle est bien frappée et relativement bien
+                              conservée; légèrement échancrée aux orifices du canal et partiellement
+                              écrasée sur le revers.</p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout n="whole">
+                           <rs type="execution">
+                              <seg xml:lang="fr">Frappé</seg>
+                              <seg xml:lang="en">Struck</seg>
+                           </rs>
+                           <rs type="shape">
+                              <seg xml:lang="fr">Ronde</seg>
+                              <seg xml:lang="en">Round</seg>
+                           </rs>
+                           <rs type="matrix" subtype="not-surviving">
+                              <idno type="SigiDoc">m-0YdkC0</idno>
+                              <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+                              <idno type="PBW"/>
+                              <!-- to be used if the seal has a parallel in the PBW with a boulloterion registered there -->
+                           </rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <seg xml:lang="fr">Antioche<placeName/>
+                        </seg>
+                        <seg xml:lang="en">Antioch<placeName/>
+                        </seg>
+                     </origPlace>
+                     <origDate type="analysis" notBefore="0999" notAfter="1006"
+                        evidence="epigraphy prosopography titulature" cert="high" resp="#MCP #JCC">
+                        <seg xml:lang="en">999-1006</seg>
+                        <seg xml:lang="fr">999-1006</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="transferred" subtype="donated" when="2004-11-24">
+                     <!-- pas sûr de subtype et when -->
+                     <p xml:lang="en">George Zacos collection</p>
+                     <p xml:lang="fr">Collection Georges Zacos</p>
+                  </provenance>
+                  <acquisition>
+                     <p xml:lang="en">Donation of the Migore Foundation, Janet Zakos legacy, <date
+                           when="2004-11-24">24th November 2004</date>
+                     </p>
+                     <p xml:lang="fr">Don de la Fondation Migore, legs Janet Zakos, <date
+                           when="2004-11-24">24 Novembre 2004</date>
+                     </p>
+                  </acquisition>
+               </history>
+               <msPart n="r">
+                  <msIdentifier/>
+                  <msContents>
+                     <!-- ajouté ceci -->
+                     <summary n="r">
+                        <seg xml:lang="en">Obverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="r">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="fr">Légende linéaire sur 5 lignes</p>
+                              <p xml:lang="en">Linear legend of 5 lines</p>
+                           </layout>
+                        </layoutDesc>
+
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="r">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+
+                              <figDesc n="decoR" xml:lang="fr">Cercle de grènetis; la légende est
+                                 précédée d’une croisette ; au sommet et à la base du champ, une
+                                 étoile à six rais entre deux tirets</figDesc>
+                              <figDesc n="decoR" xml:lang="en">Circle of dots; the legend is
+                                 preceded by a crosslet; above and under the legend, a six-ray star
+                                 placed between traits</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+               <msPart n="v">
+                  <msIdentifier/>
+                  <msContents>
+                     <summary n="v"><!-- ajouté ceci -->
+                        <seg xml:lang="en">Reverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="v">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="fr">Légende linéaire sur 5 lignes</p>
+                              <p xml:lang="en">Linear legend of 5 lines</p>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="v">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="decoV" xml:lang="fr">Cercle de grènetis; la légende
+                                 estsurmontée et suivie, comme au droit, d’une étoile à six
+                                 rais</figDesc>
+                              <figDesc n="decoV" xml:lang="en">Circle of dots; above and under the
+                                 legend, a six-ray star placed between traits</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2025-04-02" who="#PE">Creation of the XML record.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp>
+         <surface n="r">
+            <desc>Obverse</desc>
+            <graphic type="photo" url="CdN2004-0184_1.jpg">
+               <desc xml:lang="en">CdN 2004-0184, obverse</desc>
+               <desc xml:lang="fr">CdN 2004-0184, avers</desc>
+            </graphic>
+         </surface>
+         <surface n="v">
+            <desc>Reverse</desc>
+            <graphic type="photo" url="CdN2004-0184_2.jpg">
+               <desc xml:lang="en">CdN 2004-0184, reverse</desc>
+               <desc xml:lang="fr">CdN 2004-0184, revers</desc>
+            </graphic>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" subtype="editorial" xml:space="preserve"> 
+            <div type="textpart" subtype="face" rend="linear" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab ana="dat">
+                 <lb n="1"/><rs type="invocation" ref="#inv004"><expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan> βοή
+                 <lb n="2" break="no"/>θει τῶ σῷ 
+                 <lb n="3"/>δούλῳ</rs> Νι
+                 <lb n="4" break="no"/>κ<supplied reason="lost">η</supplied>φόρῳ <rs type="dignity" ref="#d0038">μα
+                 <lb n="5" break="no"/>γίστρῳ</rs>
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab ana="dat">
+                         <lb n="6"/><rs type="dignity" ref="#d0018">βέστῃ</rs> 
+                         <lb n="7"/><rs type="dignity" ref="#d0017">βεστάρχ<supplied reason="lost">ῃ</supplied></rs> 
+                         <lb n="8"/><expan><abbr><am>S</am></abbr><ex>καὶ</ex></expan> <rs type="office" subtype="military" ref="#of0245">δουκὶ</rs> <placeName ref="#geo0001"><supplied reason="lost">Ἀν</supplied>
+                         <lb n="9" break="no"/>τιοχεία<supplied reason="lost">ς</supplied></placeName> 
+                         <lb n="10"/><supplied reason="lost">τ</supplied>ῷ <expan><abbr>Οὐραν</abbr><ex>ῷ</ex></expan>
+                      </ab>
+                  </div>
+              </div>
+         <div type="edition" subtype="diplomatic" xml:space="preserve"> 
+                  <div type="textpart" subtype="face" rend="linear" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <lb n="0"/>   
+                 <lb n="1"/>̣ Keroη                   
+                 <lb n="2"/>θει τσ
+                 <lb n="3"/>δουλνι
+                 <lb n="4"/>κ.φορμα
+                 <lb n="5"/>γιστρ
+                 <lb n="0"/> 
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab> 
+                         <lb n="0"/>  ̣
+                         <lb n="6"/>rεστη                        
+                         <lb n="7"/>rεσταρ̣χ̣. 
+                         <lb n="8"/>̣δουκι..
+                         <lb n="9"/>τιοχεια̣.
+                         <lb n="10"/>. rαν
+                         <lb n="0"/>   ̣
+                         </ab>
+                  </div>
+              </div>
+         <div type="translation">
+            <p>+ Κύριε βοήθει τῶ σῷ δούλῳ Νικηφόρῳ μαγίστρῳ || βέστῃ, βεστάρχῃ καὶ δουκὶ Ἀντιοχείας
+               τῷ Οὐρανῷ.</p>
+            <p xml:lang="en">Lord, help your servant Nicephore Ouranos, magistros, vestes,
+               vestarches and doux of Antioch</p>
+            <p xml:lang="fr">Seigneur, accorde ton secours à ton serviteur Nicéphore Ouranos,
+               magistre, vestès, vestarque et duc d’Antioche</p>
+         </div>
+         <div type="commentary" subtype="text">
+            <!-- renvois internes à refaire -->
+            <p xml:lang="en">The character is identified by his name and the functions
+               he performs. The seal's epigraphy would suggest a later date,
+               particularly with the horseshoe-shaped “ou” that appeared around 1040. The
+               career of Nikephoros Ouranos, one of the most brilliant and loyal generals
+               of Basil II, has been studied a lot. Among the main points, let us recall that when he
+                was sent to Baghdad by Basil II in 980 to negotiate with the
+               rebel Bardas Skleros, he held the trusted position of inkwell attendant,
+               epi tou kanikleiou, and was titled vestes <bibl>
+                  <ptr target="Emperors2003"/>, p. <citedRange unit="page">274</citedRange></bibl>.
+               Upon his return to Constantinople, he began the military career for which we know him.
+               Promoted to magistrate, he was entrusted with the high office of commander of the entire
+               West. In this capacity, Ouranos inflicted a crushing defeat on the Bulgarians at
+               Spercheios in 997, where tsar Samuel and his son Romanos themselves nearly perished.
+               This resounding victory earned him, in December 999, the position of doux
+               of Antioch, with the mission of defending the eastern border of the Empire against
+               attacks by the Arab tribes of Harran in northern Syria. Nicéphore Ouranos successfully fulfilled his
+               duties until around 1006, enabling Basil II to wage
+               war against the Bulgarians in the west. After that date, at around the age of sixty,
+               he disappears from the historical record. Drawing on his literary talents and military experience
+               , Nicéphore wrote the Taktika, which, while bearing his personal mark,
+               largely draws on the works of his predecessors from the 10th century. A close
+               collaborator of the emperor, he was chosen as epitropos of the Athonite monastery of
+               Lavra and intervened in the Athonite conflicts. Nicephore left several seals.
+               The first indicates his position as domestic of the Scholes, according to a document from
+               Vatopedi dated 998: Θεοτόκε βοήθει τῷ σῷ δούλῳ Νικηφόρῳ μαγίστρῳ καὶ δομεστίκῳ τῶν
+              σχολῶν, known from several copies, including <bibl>
+                  <ptr target="Zacos2"/>, n° <citedRange unit="entry">863</citedRange></bibl>; <bibl>
+                     <ptr target="JordanovCorpus2"/>, n° <citedRange unit="entry"
+                        >997-999</citedRange></bibl>. The seal of the same name, without title or function, Θεοτόκε
+               βοήθει τῷ σῷ δούλῳ Νικηφόρῳ τῷ Οὐρανῷ, also depicting a praying Virgin in a
+               medallion, is probably contemporary. Appointed in the East, Nicephorus obtained a very
+               broad command with full powers: Θεοτόκε βοήθει τῷ σῷ δούλῳ Νικηφόρῳ
+               μαγίστρῳ τῷ κρατοῦντι τῆς Ἀνατολῆς τῷ Οὐρανῷ, Mother of God, bring your help to
+               magistrate Nicephore Ouranos, plenipotentiary in the East<bibl>
+                  <ptr target="DOseals3"/>, n° <citedRange unit="entry">99.11</citedRange></bibl>.
+               A final bilateral type bears the curious formula “magister of Antioch”: Κύριε
+               βοήθει τῷ σῷ δούλῳ Νικηφόρῳ μαγίστρῳ Ἀντιοχείας τῷ Οὐρανῷ; however, it seems
+               that it was common. The Ouranos family remained in the shadows, despite
+               Nicephore's success. In the mid-11th century, two other Ouranoi are known from
+               sources: Michael, also doux of Antioch, in 1056<bibl>
+                  <ptr target="Empereurs2003"/>, p. <citedRange unit="page">398</citedRange></bibl>,
+               but whose relationship to the illustrious general is doubted by Skylitzes, and Symeon,
+               vestarches, kensor, and judge of Cappadocia, devotee of the Virgin Nikopoios (1070-1080)<bibl>
+                  <ptr target="DOseals4"/>, n° <citedRange unit="entry">43.4</citedRange></bibl>. A
+               namesake or the same person but placed under the protection of Saint Nicholas, was
+               also a judge <bibl>
+                  <ptr target="Wassiliou-Seibt2011"/>, n° <citedRange unit="entry"
+                     >1145</citedRange></bibl>.
+         </p>
+            <p xml:lang="en"/>
+            <p xml:lang="fr">L’identification du personnage est assurée par son nom et les fonctions
+               qu’il exerce. L’ épigraphie du sceau suggérerait une datation plus tardive avec,
+               notamment, le "ou" en forme de fer à cheval qui apparaît en principe vers 1040. La
+               carrière de Nicéphore Ouranos, l’un des plus brillants et des plus fidèles généraux
+               de Basile II, a été maintes fois étudiée. Rappelons-en les grandes lignes. Lorsque
+               Nicéphore Ouranos fut envoyé à Bagdad par Basile II, en 980, pour négocier avec le
+               rebelle Bardas Sklèros, il assumait la fonction de confiance de préposé à l’encrier,
+               épi tou kanikleiou, et il était titré vestès <bibl>
+                  <ptr target="Empereurs2003"/>, p. <citedRange unit="page">274</citedRange></bibl>.
+               À son retour à Constantinople, il commença la carrière militaire que nous lui
+               connaissons. Promu magistre, il se vit confier la haute charge de commandant de tout
+               l’Occident. À ce titre, Ouranos infligea une écrasante défaite aux Bulgares à
+               Spercheios, en 997, où le tsar Samuel et son fils Romain faillirent eux-mêmes périr.
+               Cette victoire retentissante lui valut, dès décembre 999, d’obtenir la charge de duc
+               d’Antioche, avec pour mission de défendre la frontière orientale de l’Empire face aux
+               attaques des tribus arabes du Harran, en Syrie du Nord. Nicéphore Ouranos remplit sa
+               tâche avec succès, jusqu’en 1006 environ, permettant ainsi à Basile II de mener la
+               guerre contre les Bulgares, à l’ouest. Après cette date, âgé d’environ soixante ans,
+               il disparaît des sources. Fort de ses qualités de lettré et de son expérience
+               militaire, Nicéphore rédigea des Taktika, qui, tout en portant sa marque personnelle,
+               reprennent largement les oeuvres de ses prédécesseurs du xe siècle4. Proche
+               collaborateur de l’empereur, il fut choisi comme épitrope du monastère athonite de
+               Lavra et intervint dans les conflits athonites5. Nicéphore a laissé plusieurs sceaux.
+               Le premier signale sa qualité de domestique des Scholes, selon un document de
+               Vatopédi daté de 998 : Θεοτόκε βοήθει τῷ σῷ δούλῳ Νικηφόρῳ μαγίστρῳ καὶ δομεστίκῳ τῶν
+               σχολῶν, connu par plusieurs exemplaires, dont <bibl>
+                  <ptr target="Zacos2"/>, n° <citedRange unit="entry">863</citedRange></bibl>; <bibl>
+                  <ptr target="JordanovCorpus2"/>, n° <citedRange unit="entry"
+                  >997-999</citedRange></bibl>. Le sceau homonyme, sans titre ni fonction, Θεοτόκε
+               βοήθει τῷ σῷ δούλῳ Νικηφόρῳ τῷ Οὐρανῷ7, représentant également une Vierge orante au
+               médaillon, est probablement contemporain. Nommé en Orient, Nicéphore obtint un très
+               large commandement avec tous les pouvoirs : Θεοτόκε βοήθει τῷ σῷ δούλῳ Νικηφόρῳ
+               μαγίστρῳ τῷ κρατοῦντι τῆς Ἀνατολῆς τῷ Οὐρανῷ, Mère de Dieu, apporte ton secours au
+               magistre Nicéphore Ouranos, plénipotentiaire en Orient<bibl>
+                  <ptr target="DOseals3"/>, n° <citedRange unit="entry">99.11</citedRange></bibl>.
+               Un dernier type bilatéral porte la curieuse formule « magistre d’Antioche » : Κύριε
+               βοήθει τῷ σῷ δούλῳ Νικηφόρῳ μαγίστρῳ Ἀντιοχείας τῷ Οὐρανῷ ; il semble pourtant
+               qu’elle était courante. La famille Ouranos est restée dans l’ombre, en dépit de la
+               réussite de Nicéphore. Au milieu du XIe siècle, deux autres Ouranoi sont connus des
+               sources : Michel, également duc d’Antioche, en 1056<bibl>
+                  <ptr target="Empereurs2003"/>, p. <citedRange unit="page">398</citedRange></bibl>,
+               mais dont Skylitzès doute de la parenté avec l’illustre général, et Syméon,
+               vestarque, kensôr et juge de Cappadoce, dévôt de la Vierge Nikopoios (1070-1080)<bibl>
+                  <ptr target="DOseals4"/>, n° <citedRange unit="entry">43.4</citedRange></bibl>. Un
+               homonyme ou le même personnage mais placé sous la protection de saint Nicolas,fut
+               aussi juge<bibl>
+                  <ptr target="Wassiliou-Seibt2011"/>, n° <citedRange unit="entry"
+                  >1145</citedRange></bibl>.</p>
+            <p xml:lang="fr"/>
+         </div>
+         <div type="bibliography" subtype="edition">
+            <p><bibl>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">111</citedRange></bibl>
+               <bibl/>
+            </p>
+         </div>
+         <div type="bibliography" subtype="parallels">
+            <p/>
+         </div>
+         <div type="bibliography" subtype="discussion">
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

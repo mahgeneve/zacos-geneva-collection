@@ -324,17 +324,18 @@
             </div>
             <div type="textpart" subtype="face" rend="circular" n="obv" xml:lang="grc">
               <ab>
-                 <lb n="1"/>ΗRΛΑΧΕΡΝ/ τΗΣΑ̣
+                 <lb n="1"/>ΗRΛΑΧΕΡΝ/ τΗΣΑ̣
               </ab>
             </div>
             <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
                       <ab>
+                         <lb n="0"/>     
                          <lb n="1"/>θΚΕR// Θ/
                          <lb n="2"/>i̅ΠΡοΤ
                          <lb n="3"/>ΠΡΟΕΔΡϏ
                          <lb n="4"/>ΕΠΙτΗΣR⸣
                          <lb n="5"/>ΣΑΚΕΛ
-                         <lb n="6"/>ΛΗΣ
+                         <lb n="6"/>ΛΗΣ       
                          </ab>
                   </div>
               </div>

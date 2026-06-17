@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en">Bardas, the protonotarios</title>
+            <title xml:lang="fr">Bardas, le protonotaire</title>
+            <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
+            <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+            <funder>
+               <orgName corresp="https://www.mahmah.ch/">MAH-Musée d'art et d'histoire - Genève,
+                  Cabinet de numismatique</orgName>, Suisse </funder>
+            <principal ref="#MCP"/>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <seg xml:lang="fr">Amélioration digitale</seg>
+               <seg xml:lang="en">Digital enhancement</seg>
+            </edition>
+            <editor role="digital-editor" xml:id="PE" when="2025-04-02">Pia Evening</editor>
+         </editionStmt>
+         <publicationStmt>
+            <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
+            <idno type="filename">CdN 2004-0615</idno>
+            <idno type="SigiDocID">s-OMxgDu</idno>
+            <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+            <idno type="sequence"/>
+            <!--  to be compiled automatically; leave as is  -->
+            <date when="2024-08-06"/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                  >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                  4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listPerson type="issuer">
+               <person gender="M" role="civil aristocracy">
+                  <persName xml:lang="grc">
+                     <forename>Βάρδας</forename>/> <surname/>
+                  </persName>
+                  <persName xml:lang="fr">
+                     <forename>Bardas</forename>/> <surname/>
+                  </persName>
+                  <persName xml:lang="en">
+                     <forename>Bardas</forename>/> <surname/>
+                  </persName>
+                  <idno type="PBW"/>
+                  <idno type="PBE"/>
+                  <idno type="PLP"/>
+                  <idno type="PLRE"/>
+                  <idno type="PcBE"/>
+                  <idno type="PmbZ"/>
+               </person>
+            </listPerson>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <seg xml:lang="en">Switzerland</seg>
+                     <seg xml:lang="fr">Suisse</seg>
+                  </country>
+                  <settlement>
+                     <seg xml:lang="en">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">City of
+                           Geneva</placeName>
+                     </seg>
+                     <seg xml:lang="fr">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">Ville de
+                           Genève</placeName>
+                     </seg>
+                  </settlement>
+                  <institution>MAH-Musée d'art et d'histoire</institution>
+                  <repository>Cabinet de numismatique</repository>
+                  <collection type="public">
+                     <rs type="collection-name" xml:lang="en">Byzantine seals collection</rs>
+                     <rs type="collection-name" xml:lang="fr">Collection de sceaux byzantins</rs>
+                  </collection>
+                  <idno type="inv-nr-current">CdN 2004-0615</idno>
+                  <altIdentifier>
+                     <repository/>
+                     <idno type="inv-nr-former"/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <!--https://github.com/SigiDoc/Guidelines/wiki/5.-Controlled-vocabularies#seals-category-->
+                  <summary n="whole">
+                     <seg xml:lang="fr">Administration centrale</seg>
+                     <seg xml:lang="en">Central administration</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>
+                              <term>
+                                 <seg xml:lang="fr">Sceau</seg>
+                                 <seg xml:lang="en">Seal</seg>
+                              </term>
+                              <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                              <interp type="workType" xml:lang="en">Original impression</interp>
+                           </objectType>
+                           <material>
+                              <seg xml:lang="fr">Plomb</seg>
+                              <seg xml:lang="en">Lead</seg>
+                           </material>
+                           <dimensions type="support" unit="mm">
+                              <dim type="diameter">9,07/27,01</dim>
+                              <!-- mesure du champ? -->
+                           </dimensions>
+                           <measure type="weight" unit="g">10,960</measure>
+                           <measure type="axis" unit="clock"/>
+                           <measure type="overstrikeOrient" unit="clock"/>
+                           <measure type="channelOrient" unit="clock">1-7</measure>
+                           <measure type="countermark" unit="clock"/>
+                        </support>
+                        <condition rend="well-struck, well-preserved double-struck broken">
+                           <p xml:lang="en">The bulla is well-struck and well-preserved, rather
+                              broken at the opennings of the channel; it presents traces of a double
+                              struck on the reverse</p>
+                           <p xml:lang="fr">La bulle est bien frappée et bien conservée, elle est
+                              fortement échancrée aux orifices du canal et présente des traces d'une
+                              surfrappe sur le revers</p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout n="whole">
+                           <rs type="execution">
+                              <seg xml:lang="fr">Frappé</seg>
+                              <seg xml:lang="en">Struck</seg>
+                           </rs>
+                           <rs type="shape">
+                              <seg xml:lang="fr">Ronde</seg>
+                              <seg xml:lang="en">Round</seg>
+                           </rs>
+                           <rs type="matrix" subtype="not-surviving">
+                              <idno type="SigiDoc">m-qhKHTK</idno>
+                              <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+                              <idno type="PBW"/>
+                              <!-- to be used if the seal has a parallel in the PBW with a boulloterion registered there -->
+                           </rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <seg xml:lang="fr">
+                           <placeName/>
+                        </seg>
+                        <seg xml:lang="en">
+                           <placeName/>
+                        </seg>
+                     </origPlace>
+                     <origDate type="analysis" notBefore="1101" notAfter="1150"
+                        evidence="linguistic-features epigraphy parallel titulature" cert="high"
+                        resp="#MCP #JCC">
+                        <seg xml:lang="en">First half of the 12th century</seg>
+                        <seg xml:lang="fr">Première moitié du XIIe siècle</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="transferred" subtype="donated" when="2004-11-24">
+                     <!-- pas sûr de subtype et when -->
+                     <p xml:lang="en">George Zacos collection</p>
+                     <p xml:lang="fr">Collection Georges Zacos</p>
+                  </provenance>
+                  <acquisition>
+                     <p xml:lang="en">Donation of the Migore Foundation, Janet Zakos legacy, <date
+                           when="2004-11-24">24th November 2004</date>
+                     </p>
+                     <p xml:lang="fr">Don de la Fondation Migore, legs Janet Zakos, <date
+                           when="2004-11-24">24 Novembre 2004</date>
+                     </p>
+                  </acquisition>
+               </history>
+               <msPart n="r">
+                  <msIdentifier/>
+                  <msContents>
+                     <!-- ajouté ceci -->
+                     <summary n="r">
+                        <seg xml:lang="en">Obverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="r">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="fr">Iconographie, avec de part et d'autre, épigraphe en
+                                 colonne</p>
+                              <p xml:lang="en">Iconography with, on either side, epigraph on
+                                 columns</p>
+                           </layout>
+                        </layoutDesc>
+
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="r">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="r" xml:lang="fr" ana="person male saint John the Baptist"
+                                 >Saint Jean Prodrome en pied, de face, vêtu d'un ample manteau,
+                                 tenant une longue croix processionnelle en main droite et un
+                                 εἰλητάριον en main gauche.</figDesc>
+                              <figDesc n="r" xml:lang="en" ana="person male saint John Baptiste"
+                                 >Saint John the Baptist standing front view, wearing a large mantel
+                                 and holding a processional cross in the right hand and an
+                                 εἰλητάριον in the left one.</figDesc>
+                              <figDesc n="decoR" xml:lang="fr">Cercle de grènetis</figDesc>
+                              <figDesc n="decoR" xml:lang="en">Circle of dots</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+               <msPart n="v">
+                  <msIdentifier/>
+                  <msContents>
+                     <summary n="v"><!-- ajouté ceci -->
+                        <seg xml:lang="en">Reverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="v">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="en">Linear metrical legend of 5 lines</p>
+                              <p xml:lang="fr">Légende métrique linéaire sur 5 lignes</p>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="v">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="decoV" xml:lang="fr">Cercle de grènetis; la légende est
+                                 surmontée d'un croisette partiellement effacée</figDesc>
+                              <figDesc n="decoV" xml:lang="en">circle of dots; a crosslet partially
+                                 crushed above the legend</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2025-04-02" who="#PE">Creation of the XML record.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp>
+         <surface n="r">
+            <desc>Obverse</desc>
+            <graphic type="photo" url="CdN2004-0615_1.jpg">
+               <desc xml:lang="en">CdN 2004-0615, obverse</desc>
+               <desc xml:lang="fr">CdN 2004-0615, avers</desc>
+            </graphic>
+         </surface>
+         <surface n="v">
+            <desc>Reverse</desc>
+            <graphic type="photo" url="CdN2004-0615_2.jpg">
+               <desc xml:lang="en">CdN 2004-0615, reverse</desc>
+               <desc xml:lang="fr">CdN 2004-0615, revers</desc>
+            </graphic>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" subtype="editorial" xml:space="preserve"> 
+            <div type="textpart" subtype="label" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="a"/>Ὁ <expan><ex>ἅγιος</ex></expan> <supplied reason="lost"><expan><abbr>Ἰω</abbr><ex>άννης</ex></expan></supplied> ὁ 
+                 <cb n="b"/><supplied reason="lost">Πρό</supplied>δρομος
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <lg type="metrical" met="dodecasyllable">
+                         <l n="1">
+                            <lb n="1"/>Tὸν <rs type="office" subtype="civil" ref="#of0172"><expan><abbr><am>Α</am></abbr><ex>πρωτο</ex><abbr>νο
+                            <lb n="2" break="no"/>τάριον</abbr></expan></rs> 
+                            <lb n="3"/>Πρόδρομε 
+                            <lb n="4"/>σκέποις
+                         </l>
+                      </lg>
+                  </div>
+              </div>
+         <div type="edition" subtype="diplomatic" xml:space="preserve"> 
+                  <div type="textpart" subtype="label" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="a"/>| .. |Ο̣
+                 <cb n="b"/>. |δρο|μ|ο|c
+              </ab>
+            </div>
+            <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab>
+                         <lb n="0"/>   ̣
+                         <lb n="1"/>Τονανο
+                         <lb n="2"/>ταριον 
+                         <lb n="3"/>προδρομΕ̣
+                         <lb n="4"/>σκεποισ
+                         </ab>
+                  </div>
+              </div>
+         <div type="translation">
+            <p>Ὁ ἅγιος Ἰωάννης ὁ Πρόδρομος. || + Tὸν πρωτονοτάριον Πρόδρομε σκέποις.</p>
+            <p xml:lang="en">Saint John the Baptist. || + The Baptist, may protect the
+               protonotarios</p>
+            <p xml:lang="fr">Saint Jean Prodrome. || + Prodrome, veuille protéger le
+               protonotaire.</p>
+         </div>
+         <div type="commentary" subtype="text">
+            <!-- renvois internes à refaire -->
+            <p xml:lang="en">Without any further details as to the department in which this
+               anonymous prothonotarios worked, we can assume that he was attached to the Drome. The
+               first lines of the reverse bear traces of the legend of an over-struck bulla. The
+               parallel copy in the Zacos collection, which is very well preserved and has the same
+               iconographic type and legend, makes it possible to read our seal, which is a perfect
+               dodecasyllabic, and to note that the legend was accentuated. Accentuation, which is
+               rare on bullae, is mainly found under the Komnenoi.</p>
+            <p xml:lang="en">Head of the notarioi of a department,the protonotarios
+               could exercise his office in the imperial chancellery, in a
+               sékréton or in a theme, under the orders of a strategos. The protonotarios
+               of Drome was the πρωτονοτάριος par excellence in
+               historiographical sources. Unlike the other protonotarioi, he
+               had no notarioi under him, although he was empowered to replace,
+               in his absence, the logothetes of that office.</p>
+            <p xml:lang="fr">Sans plus de précision sur le service où ce protonotaire anonyme
+               exerçait, on admettra qu’il était rattaché au drome. Les premières lignes du revers
+               portent des traces appartenant à la légende d’un sceau surfrappé. L’exemplaire
+               parallèle de la collection Zacos, d’une très bonne conservation, au type
+               iconographique et à la légende identiques, permet d’assurer la lecture de notre
+               sceau, soit un parfait dodécasyllabe, et de noter que la légende était accentuée.
+               L’accentuation, rare sur les bulles, se rencontre principalement sous les
+               Comnènes.</p>
+            <p xml:lang="fr">Chef des notaires d’un service, comme son titre l’indique, le protonotaire
+               pouvait exercer sa charge dans la chancellerie impériale, dans un
+               sékréton ou bien dans un thème, sous les ordres d’un stratège. Le protonotaire
+               du Drome était le πρωτονοτάριος par excellence dans les
+               sources historiographiques. À la différence des autres protonotaires, il
+               n’avait pas de notaires sous ses ordres, alors qu’il était habilité à remplacer,
+               en son absence, le logothète de ce bureau.</p>
+         </div>
+         <div type="bibliography" subtype="edition">
+            <p>(<bibl>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">76</citedRange></bibl>;
+               (<bibl>
+                  <ptr target="ZacosSpink3"/>, n° <citedRange unit="entry">252</citedRange></bibl>)
+               <bibl/>
+            </p>
+         </div>
+         <div type="bibliography" subtype="parallels">
+            <bibl>
+               <ptr target="Zacos2"/>, n° <citedRange unit="page">686</citedRange></bibl><p/>
+         </div>
+         <div type="bibliography" subtype="discussion">
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

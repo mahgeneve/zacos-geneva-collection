@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en">George Manganes, sebastos</title>
+            <title xml:lang="fr">Georges Manganès, sébaste</title>
+            <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
+            <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+            <funder>
+               <orgName corresp="https://www.mahmah.ch/">MAH-Musée d'art et d'histoire - Genève,
+                  Cabinet de numismatique</orgName>, Suisse</funder>
+            <principal ref="#MCP"/>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <seg xml:lang="fr">Amélioration digitale</seg>
+               <seg xml:lang="en">Digital enhancement</seg>
+            </edition>
+            <editor role="digital-editor" xml:id="PE" when="2025-04-22">Pia Evening</editor>
+            <editor role="digital-editor" ref="#MCP" when="2026-06-11">Maria
+               Campagnolo-Pothitou</editor>
+         </editionStmt>
+         <publicationStmt>
+            <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet5 de numismatique</authority>
+            <idno type="filename">CdN 2004-0236</idno>
+            <idno type="SigiDocID">s-7CxgCJ</idno>
+            <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+            <idno type="sequence"/>
+            <!--  to be compiled automatically; leave as is  -->
+            <date when="2024-08-06"/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                  >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                  4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listPerson type="issuer">
+               <person gender="M" role="aristocracy">
+                  <persName xml:lang="grc">
+                     <forename>Γεώργιος</forename>
+                     <surname>Μαγγάνης</surname>
+                  </persName>
+                  <persName xml:lang="fr">
+                     <forename>Georges</forename>
+                     <surname>Manganès</surname>
+                  </persName>
+                  <persName xml:lang="en">
+                     <forename>George</forename>
+                     <surname>Manganes</surname>
+                  </persName>
+                  <idno type="PBW" ana="http://pbw2016.kdl.kcl.ac.uk/person/Georgios/20298/"
+                     >Georgios 20298</idno>
+
+                  <idno type="PBE"/>
+                  <idno type="PLP"/>
+                  <idno type="PLRE"/>
+                  <idno type="PcBE"/>
+                  <idno type="PmbZ"/>
+               </person>
+            </listPerson>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <seg xml:lang="en">Switzerland</seg>
+                     <seg xml:lang="fr">Suisse</seg>
+                  </country>
+                  <settlement>
+                     <seg xml:lang="en">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">City of
+                           Geneva</placeName>
+                     </seg>
+                     <seg xml:lang="fr">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">Ville de
+                           Genève</placeName>
+                     </seg>
+                  </settlement>
+                  <institution>MAH-Musée d'art et d'histoire</institution>
+                  <repository>Cabinet de numismatique</repository>
+                  <collection type="public">
+                     <rs type="collection-name" xml:lang="en">Byzantine seals collection</rs>
+                     <rs type="collection-name" xml:lang="fr">Collection de sceaux byzantins</rs>
+                  </collection>
+                  <idno type="inv-nr-current">CdN 2004-0236</idno>
+                  <altIdentifier>
+                     <repository/>
+                     <idno type="inv-nr-former"/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <!--https://github.com/SigiDoc/Guidelines/wiki/5.-Controlled-vocabularies#seals-category-->
+                  <summary n="whole">
+                     <seg xml:lang="fr">Dignitaires</seg>
+                     <seg xml:lang="en">Dignitaries</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>
+                              <term>
+                                 <seg xml:lang="fr">Sceau</seg>
+                                 <seg xml:lang="en">Seal</seg>
+                              </term>
+                              <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                              <interp type="workType" xml:lang="en">Original impression</interp>
+                           </objectType>
+                           <material>
+                              <seg xml:lang="fr">Plomb</seg>
+                              <seg xml:lang="en">Lead</seg>
+                           </material>
+                           <dimensions type="support" unit="mm">
+                              <dim type="diameter">34,22/31,32</dim>
+                              <!-- mesure du champ? -->
+                           </dimensions>
+                           <measure type="weight" unit="g">17,296</measure>
+                           <measure type="axis" unit="clock"/>
+                           <measure type="overstrikeOrient" unit="clock"/>
+                           <measure type="channelOrient" unit="clock">12-6</measure>
+                           <measure type="countermark" unit="clock"/>
+                        </support>
+                        <condition rend="well-struck chipped obliterated">
+                           <p xml:lang="en">The bulla is well struck but fairly well preserved;
+                              partially obliterated on the reverse and chipped at the openings of
+                              the channel</p>
+                           <p xml:lang="fr">La bulle est bien frappée mais moyennement bien
+                              conservée, partiellement écrasée sur le revers et légèrement échancrée
+                              aux orifices du canal</p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout n="whole">
+                           <rs type="execution">
+                              <seg xml:lang="fr">Frappé</seg>
+                              <seg xml:lang="en">Struck</seg>
+                           </rs>
+                           <rs type="shape">
+                              <seg xml:lang="fr">Ronde</seg>
+                              <seg xml:lang="en">Round</seg>
+                           </rs>
+                           <rs type="matrix" subtype="not-surviving">
+                              <idno type="SigiDoc">m-w5YSY7</idno>
+                              <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+                              <idno type="PBW"/>
+                              <!-- to be used if the seal has a parallel in the PBW with a boulloterion registered there -->
+                           </rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <seg xml:lang="fr">
+                           <placeName/>
+                        </seg>
+                        <seg xml:lang="en">
+                           <placeName/>
+                        </seg>
+                     </origPlace>
+                     <origDate type="analysis" notBefore="1101" notAfter="1125"
+                        evidence="prosopography epigraphy titulature" cert="high" resp="#MCP #JCC">
+                        <seg xml:lang="en">First quarter of the 12th century</seg>
+                        <seg xml:lang="fr">Premier quart du XIIe siècle</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="transferred" subtype="donated" when="2004-11-24">
+                     <!-- pas sûr de subtype et when -->
+                     <p xml:lang="en">George Zacos collection</p>
+                     <p xml:lang="fr">Collection Georges Zacos</p>
+                  </provenance>
+                  <acquisition>
+                     <p xml:lang="en">Donation of the Migore Foundation, Janet Zakos legacy, <date
+                           when="2004-11-24">24th November 2004</date>
+                     </p>
+                     <p xml:lang="fr">Don de la Fondation Migore, legs Janet Zakos, <date
+                           when="2004-11-24">24 Novembre 2004</date>
+                     </p>
+                  </acquisition>
+               </history>
+               <msPart n="r">
+                  <msIdentifier/>
+                  <msContents>
+                     <!-- ajouté ceci -->
+                     <summary n="r">
+                        <seg xml:lang="en">Obverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="r">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="fr">Légende métrique linéaire sur 4 lignes</p>
+                              <p xml:lang="en">Linear metrical legend of 4 lines</p>
+                           </layout>
+                        </layoutDesc>
+
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="r">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="r" xml:lang="fr" ana="text"/>
+                              <figDesc n="r" xml:lang="en" ana="text"/>
+                              <figDesc n="decoR" xml:lang="fr">Cercle de grènetis; la légende est
+                                 surmontée d'une croisette</figDesc>
+                              <figDesc n="decoR" xml:lang="en">Border of dots; the legend is
+                                 surmounted by a crosslet</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+               <msPart n="v">
+                  <msIdentifier/>
+                  <msContents>
+                     <summary n="v"><!-- ajouté ceci -->
+                        <seg xml:lang="en">Reverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="v">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="fr">Légende métrique linéaire sur 4 lignes</p>
+                              <p xml:lang="en">Linear metrical legend of 4 lines</p>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="v">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="decoV" xml:lang="fr">Cercle de grènetis</figDesc>
+                              <figDesc n="decoV" xml:lang="en">Border of dots</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2025-04-22" who="#PE">Creation of the XML record.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp>
+         <surface n="r">
+            <desc>Obverse</desc>
+            <graphic type="photo" url="CdN2004-0236_1.jpg">
+               <desc xml:lang="en">CdN 2004-0236, obverse</desc>
+               <desc xml:lang="fr">CdN 2004-0236, avers</desc>
+            </graphic>
+         </surface>
+         <surface n="v">
+            <desc>Reverse</desc>
+            <graphic type="photo" url="CdN2004-0236_2.jpg">
+               <desc xml:lang="en">CdN 2004-0236, reverse</desc>
+               <desc xml:lang="fr">CdN 2004-0236, revers</desc>
+            </graphic>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" subtype="editorial" xml:space="preserve"> 
+            <div type="textpart" subtype="face" rend="linear" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <lg type="metrical" met="dodecasyllable">
+                 <l n="1">
+                    <lb n="1"/>Σφραγὶς 
+                    <lb n="2"/><rs type="dignity" ref="#d0075">σεβαστοῦ</rs> 
+                    <lb n="3"/>Μαγγάνη 
+                    <lb n="4"/>Γεωργίου
+                 </l>
+              </lg>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <lg type="metrical" met="dodecasyllable">
+                         <l n="2">
+                            <lb n="5"/>ἐξ εὐλα
+                            <lb n="6" break="no"/>βείας οὐ 
+                            <lb n="7"/>φέρει θεῖον 
+                            <lb n="8"/>τύπον
+                         </l>
+                      </lg>
+                  </div>
+              </div>
+         <div type="edition" subtype="diplomatic" xml:space="preserve"> 
+                  <div type="textpart" subtype="face" rend="linear" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <lb n="0"/>      
+                 <lb n="1"/>σφραγις         
+                 <lb n="2"/>σεrαου
+                 <lb n="3"/>μαγγανη
+                 <lb n="4"/>γεργι
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab>
+                         <lb n="5"/>Εξευλα            
+                         <lb n="6"/>rειασου
+                         <lb n="7"/>φερθον
+                         <lb n="8"/>τυπον
+                         </ab>
+                  </div>
+              </div>
+         <div type="translation">
+            <p>+ Σφραγὶς σεβαστοῦ Μαγγάνη Γεωργίου || ἐξ εὐλαβείας οὐ φέρει θεῖον τύπον.</p>
+            <p> xml:lang="en"/>+ Out of religious respect, the seal of George Manganes does not
+               feature any religious image.</p>
+            <p> xml:lang="fr"/>+ Par réserve religieuse, le sceau du sébaste Georges Manganès ne
+               porte pas de représentation sainte.</p>
+         </div>
+         <div type="commentary" subtype="text">
+            <!-- renvois internes à refaire -->
+            <p xml:lang="en">Unless this is a third namesake who is otherwise unknown, the signatory
+               of this bulla could be identified as the hypographeus, or personal secretary, of
+               Alexios Komnenos, mentioned in the Alexiad <bibl>
+                  <ptr target="Skoulatos1980"/>, n° <citedRange unit="entry"
+               >66</citedRange></bibl>.. In 1081, George Manganes had succeeded in aiding Alexis’s
+               power struggle by cleverly diverting the attention of his rival for the imperial
+               throne, Nikephoros Melissenos. Anne Komnene even makes a connection between the name
+               Manganes and his cunning nature (οἷον μαγγανευόμενος): the verb μαγγανεύομαι means,
+               among other things, to plot or to use underhanded means. The hypographeus
+               participated in the synodal meeting of 1092 <bibl>
+                  <ptr target="RallesPotles5"/>, p. <citedRange unit="page"
+               >58.5</citedRange></bibl>, as well as in the Synod of Blachernae in 1094, in his
+               capacity of protoproedros <bibl>
+                  <ptr target="Gautier1971"/>, p. <citedRange unit="page">256</citedRange></bibl>.
+               Consequently, he must have been granted the rank of sebastos—several ranks higher
+               than that of protoproedros—somewhat later, perhaps through an alliance with the
+               imperial family, what Jordanov doubts <bibl>
+                  <ptr target="Jordanov2"/>, p. <citedRange unit="page">263</citedRange></bibl>.Four other types of seals can be attributed to the same individual,
+               three of which make no mention of a title or office <bibl>
+                  <ptr target="Seyrig"/>, n° <citedRange unit="page">310</citedRange></bibl>; <bibl>
+                  <ptr target="Istanbul"/>, n° <citedRange unit="entry">7.80</citedRange></bibl>; <bibl>
+                  <ptr target="Wassiliou-Seibt2011"/>, n° <citedRange unit="entry">53; 54;
+                     257</citedRange></bibl>. The seal from the Seyrig Collection, dated 1078–1081,
+               identifies him as Ὁ δοῦλος τοῦ σεβαστοῦ Γεώργιος ὁ Μαγγάνης, thus attesting that he
+               already enjoyed the privilege, as a doulos (servant) of Alexios, of belonging for
+               life to the circle of the future emperor’s protégés, in exchange for his services <bibl>
+                  <ptr target="Cheynet1990"/>, p. <citedRange unit="page"
+                     >1987-301</citedRange></bibl>.
+               The second namesake mentioned in the sources, most likely a descendant of our
+               seal-bearer, is the subject of entry <bibl>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">181</citedRange></bibl>
+               <bibl/>. The unexpected “iconoclastic” nature of the legend has been largely
+               discussed in the article cited below, in which the author attempts to explore the historical
+               and theological foundations of such a stance in the early 12th century. Actually, at
+               the same time as Georges Manganès, Anne Komnene, Nikephoros (Bryennios), George
+               Doukas, and the sebastos George, who is likely George Doukas, had engraved on their
+               seals an “iconoclastic” inscription almost identical to that of Manganès, and this
+               has most probably occurred in the context of the dynastic crisis surrounding the
+               succession of Alexios I. Maria Campagnolo suggests that George Manganes, George
+               Doukas, and the sebastos George were supporters of the porphyrogenitos Anne Komnene
+               in her claim to the throne for her husband, Caesar Nikephoros Bryennios, at the
+               expense of her brother and legitimate heir, the future John II Komnenos. A few months
+               before the death of Alexios I (1118), the metropolitan Eustratios of Nicaea, an
+               influential theologian close to the emperor as well as to Anne, was removed from
+               office, accused, in particular, of having supported, in 1094 (!), positions against
+               the representation of the image of Christ. With Eustratios' removal from the palace,
+               Anne lost a supporter for her claims before her father. The legend, with its
+               iconoclastic overtones, marks—in our view—the expression of the princess’s deep
+               bitterness toward the dogmatic purists.</p>
+            <p xml:lang="en">In another article, Ms. Wassiliou-Seibt rejected this hypothesis,
+               relying primarily on epigraphic evidence. See also <bibl>
+                  <ptr target="Wassiliou-Seibt2017"/></bibl>; <bibl>
+                  <ptr target="Wassiliou-Seibt2016"/>n° <citedRange unit="entry"
+                  >2836</citedRange></bibl>.</p>
+            <p xml:lang="fr">À moins qu’il ne s’agisse d’un troisième homonyme inconnu par ailleurs,
+               le signataire de cette bulle pourrait être identifié à l’hypographeus, secrétaire
+               personnel, d’Alexis Comnène, cité dans l’Alexiade <bibl>
+                  <ptr target="Skoulatos1980"/>, n° <citedRange unit="entry">66</citedRange></bibl>.
+               En 1081, Georges Manganès avait réussi à servir la lutte pour le pouvoir d’Alexis en
+               détournant, par astuce, l’attention de son rival au trône impérial, Nicéphore
+               Mélissène. Anne Comnène établit même un rapport entre le nom de Manganès et son
+               esprit malin (οἷον μαγγανευόμενος) : le verbe μαγγανεύομαι signifie en effet, entre
+               autres, comploter, employer des moyens pour tricher. L’hypographeus participait à la
+               réunion synodale de 1092 <bibl>
+                  <ptr target="RallesPotles5"/>, p. <citedRange unit="page"
+               >58.5</citedRange></bibl>, ainsi qu’au synode des Blachernes de 1094 <bibl>
+                  <ptr target="Gautier1971"/>, p. <citedRange unit="page">256</citedRange></bibl>,
+               avec le titre de protoproèdre. Par conséquent, il aura reçu la dignité de sébaste,
+               plus élevée de plusieurs échelons que celle de protoproèdre, sensiblement plus tard,
+               peut-être par une alliance avec la famille impériale, ce dont Jordanov doute <bibl>
+                  <ptr target="Jordanov2"/>, p. <citedRange unit="page">263</citedRange></bibl>. Quatre autres types de sceaux
+               peuvent être attribués au même personnage, dont trois sans mention de titre ou de
+               fonction <bibl>
+                  <ptr target="Seyrig"/>, n° <citedRange unit="page">310</citedRange></bibl>; <bibl>
+                  <ptr target="Istanbul"/>, n° <citedRange unit="entry">7.80</citedRange></bibl>; <bibl>
+                  <ptr target="Wassiliou-Seibt2011"/>, n° <citedRange unit="entry">53; 54;
+                     257</citedRange></bibl>. Celui de la collection Seyrig, daté de 1078-1081, le
+               désigne en tant que Ὁ δοῦλος τοῦ σεβαστοῦ Γεώργιος ὁ Μαγγάνης, témoignant ainsi que
+               celui-ci jouissait déjà du privilège, en tant que doulos, serviteur, d’Alexis, de
+               faire partie à vie du cercle des protégés du futur empereur, en échange de ses services <bibl>
+                  <ptr target="Cheynet1990"/>, p. <citedRange unit="page"
+                  >1987-301</citedRange></bibl>. Le second homonyme cité par les sources, très
+               probablement un descendant de notre sigillant, fait l’objet de la notice <bibl>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">181</citedRange></bibl>.
+               Le caractère « iconoclaste » aussi surprenant qu'inattendu de la légende, a fait
+               l’objet de l’article cité ci-après, dans lequel l'auteure essaie de percer le fondement
+               historique et théologique d’une telle prise de position au début du XIIe siècle. En
+               fait, au même moment que Georges Manganès, Anne Comnène, Nicéphore (Bryennios),
+               Georges Doukas et le sébaste Georges, qui correspond sans doute à Georges Doukas, ont
+               fait graver sur leur sceau une légende « iconoclaste » presque identique à celle de
+               Manganès, et ce, dans le cadre de la crise dynastique autour de la succession
+               d’Alexis Ier. Dans cet article, Maria Campagnolo suggère de voir en Georges Manganès, Georges
+               Doukas et le sébaste Georges des partisans de la porphyrogénète Anne Comnène dans sa
+               revendication du trône pour son époux, le césar Nicéphore Bryennios, aux dépens de
+               son frère et héritier légitime, le futur Jean II Comnène. Quelques mois avant la mort
+               d’Alexis Ier (1118), le métropolite Eustrate de Nicée, théologien influent auprès de
+               l’empereur et proche d’Anne, fut démis de ses fonctions, accusé, en particulier,
+               d’avoir soutenu, en 1094 (!), des positions contre la représentation de l’image du
+               Christ. Par l’éloignement d’Eustrate du palais, Anne perdait un soutien pour ses
+               revendications auprès de son père. La légende aux relents iconoclastes marque – selon
+               nous – l’expression de la profonde amertume de la princesse envers les rigoristes du
+               dogme.</p>
+            <p xml:lang="fr">Dans un autre article, Mme Wassiliou-Seibt a rejeté cette hypothèse en
+               se basant surtout sur des critères épigraphiques. Voir aussi, <bibl>
+                  <ptr target="Wassiliou-Seibt2017"/></bibl>; <bibl>
+                  <ptr target="Wassiliou-Seibt2016"/>n° <citedRange unit="entry"
+                  >2836</citedRange></bibl>.</p>
+         </div>
+         <div type="bibliography" subtype="edition">
+            <p><bibl>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">216</citedRange></bibl>; <bibl>
+                  <ptr target="Campagnolo-Pothitou2014"/></bibl>
+               <bibl/>
+            </p>
+         </div>
+         <div type="bibliography" subtype="parallels">
+            <p/>
+         </div>
+         <div type="bibliography" subtype="discussion">
+            <p><bibl>
+                  <ptr target="Zacos1"/>, p.<citedRange unit="page">1510</citedRange></bibl>; <bibl>
+                  <ptr target="Seyrig"/>, n° <citedRange unit="entry">310</citedRange></bibl>; <bibl>
+                  <ptr target="Seibt1997"/>, p. <citedRange unit="page">141</citedRange></bibl>
+               <bibl/>
+               <bibl/></p>
+         </div>
+      </body>
+   </text>
+</TEI>

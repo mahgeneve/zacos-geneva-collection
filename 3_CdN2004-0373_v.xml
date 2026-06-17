@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en">Justinian II and Tiberios</title>
+            <title xml:lang="fr">Justinien II et Tibère</title>
+            <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
+            <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+            <funder>
+               <orgName corresp="https://www.mahmah.ch/">MAH-Musée d'art et d'histoire - Genève,
+                  Cabinet de numismatique</orgName>, Suisse</funder>
+            <principal ref="#MCP"/>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <seg xml:lang="fr">Amélioration digitale</seg>
+               <seg xml:lang="en">Digital enhancement</seg>
+            </edition>
+            <editor role="digital-editor" xml:id="PE" when="2025-04-22">Pia Evening</editor>
+         </editionStmt>
+         <publicationStmt>
+            <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
+            <idno type="filename">CdN 2004-0373</idno>
+            <idno type="SigiDocID">s-CQqhRG</idno>
+            <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+            <idno type="sequence"/>
+            <!--  to be compiled automatically; leave as is  -->
+            <date when="2024-08-06"/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                  >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                  4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listPerson type="issuer">
+               <person gender="M" role="imperial">
+                  <persName xml:lang="grc">
+                     <forename>Ἰουστινιανός Β΄</forename>/> 
+                     <surname/>
+                  </persName>
+                  <persName xml:lang="grc">
+                     <forename>ἰΤιβέριος΄</forename>/>
+                  </persName>
+                  <persName xml:lang="fr">
+                     <forename>Justinien II</forename>/>  <surname/>
+                  </persName>
+                  <persName xml:lang="fr">
+                  <forename>Tibère</forename>/>
+                  </persName>
+                  <persName xml:lang="en">
+                     <forename>Justinian II</forename>/> 
+                     <surname/>
+                  </persName>
+                     <persName xml:lang="en">
+                     <forename>Tiberios</forename>/>
+                  </persName>
+                  <idno type="PBW"/>
+
+                  <idno type="PBE"/>
+                  <idno type="PLP"/>
+                  <idno type="PLRE"/>
+                  <idno type="PcBE"/>
+                  <idno type="PmbZ" ana= "https://www.degruyterbrill.com/database/PMBZ/entry/PMBZ14702/html/"/>
+               </person>
+            </listPerson>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <seg xml:lang="en">Switzerland</seg>
+                     <seg xml:lang="fr">Suisse</seg>
+                  </country>
+                  <settlement>
+                     <seg xml:lang="en">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">City of
+                           Geneva</placeName>
+                     </seg>
+                     <seg xml:lang="fr">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">Ville de
+                           Genève</placeName>
+                     </seg>
+                  </settlement>
+                  <institution>MAH-Musée d'art et d'histoire</institution>
+                  <repository>Cabinet de numismatique</repository>
+                  <collection type="public">
+                     <rs type="collection-name" xml:lang="en">Byzantine seals collection</rs>
+                     <rs type="collection-name" xml:lang="fr">Collection de sceaux byzantins</rs>
+                  </collection>
+                  <idno type="inv-nr-current">CdN 2004-0373</idno>
+                  <altIdentifier>
+                     <repository/>
+                     <idno type="inv-nr-former"/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <!--https://github.com/SigiDoc/Guidelines/wiki/5.-Controlled-vocabularies#seals-category-->
+                  <summary n="whole">
+                     <seg xml:lang="fr">impérial</seg>
+                     <seg xml:lang="en">imperial</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>
+                              <term>
+                                 <seg xml:lang="fr">Sceau</seg>
+                                 <seg xml:lang="en">Seal</seg>
+                              </term>
+                              <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                              <interp type="workType" xml:lang="en">Original impression</interp>
+                           </objectType>
+                           <material>
+                              <seg xml:lang="fr">Plomb</seg>
+                              <seg xml:lang="en">Lead</seg>
+                           </material>
+                           <dimensions type="support" unit="mm">
+                              <dim type="diameter">37,94/33,21</dim>
+                              <!-- mesure du champ? -->
+                           </dimensions>
+                           <measure type="weight" unit="g">37,94/33,21</measure>
+                           <measure type="axis" unit="clock"/>
+                           <measure type="overstrikeOrient" unit="clock"/>
+                           <measure type="channelOrient" unit="clock">12-6</measure>
+                           <measure type="countermark" unit="clock"/>
+                        </support>
+                        <condition rend="well-struck well-preserved chipped">
+                           <p xml:lang="en">The bulla is well-struck and well-preserved, chipped at
+                              the opennings of the channel </p>
+                           <p xml:lang="fr">La bulle est bien frappée et bien conservée; échancrée
+                              aux orifices du canal</p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout n="whole">
+                           <rs type="execution">
+                              <seg xml:lang="fr">Frappé</seg>
+                              <seg xml:lang="en">Struck</seg>
+                           </rs>
+                           <rs type="shape">
+                              <seg xml:lang="fr">Ronde</seg>
+                              <seg xml:lang="en">Round</seg>
+                           </rs>
+                           <rs type="matrix" subtype="not-surviving">
+                              <idno type="SigiDoc">m-BWzjUX</idno>
+                              <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+                              <idno type="PBW"/>
+                              <!-- to be used if the seal has a parallel in the PBW with a boulloterion registered there -->
+                           </rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <seg xml:lang="fr">
+                           <placeName/>
+                        </seg>
+                        <seg xml:lang="en">
+                           <placeName/>
+                        </seg>
+                     </origPlace>
+                     <origDate type="analysis" notBefore="0705" notAfter="0711"
+                        evidence="prosopography iconography reign" cert="high" resp="#MCP #JCC">
+                        <seg xml:lang="en">Second reign, 705-711</seg>
+                        <seg xml:lang="fr">Second règne, 705-711</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="transferred" subtype="donated" when="2004-11-24">
+                     <!-- pas sûr de subtype et when -->
+                     <p xml:lang="en">George Zacos collection</p>
+                     <p xml:lang="fr">Collection Georges Zacos</p>
+                  </provenance>
+                  <acquisition>
+                     <p xml:lang="en">Donation of the Migore Foundation, Janet Zakos legacy, <date
+                           when="2004-11-24">24th November 2004</date>
+                     </p>
+                     <p xml:lang="fr">Don de la Fondation Migore, legs Janet Zakos, <date
+                           when="2004-11-24">24 Novembre 2004</date>
+                     </p>
+                  </acquisition>
+               </history>
+               <msPart n="r">
+                  <msIdentifier/>
+                  <msContents>
+                     <!-- ajouté ceci -->
+                     <summary n="r">
+                        <seg xml:lang="en">Obverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="r">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="fr">Iconographie</p>
+                              <p xml:lang="en">Iconography</p>
+                           </layout>
+                        </layoutDesc>
+
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="r">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="r" xml:lang="fr"
+                                 ana="person female Virgin with the Child palm tree">Au centre du
+                                 champ, Vierge nimbée de face, en pied, vêtue du chitôn, de
+                                 l’himation et du maphorion, portant sur le bras gauche l’Enfant au
+                                 nimbe cruciforme, à demi couché, dont elle entoure les pieds de son
+                                 bras droit. De part et d’autre des effigies, un grand palmier
+                                 stylisé dont le feuillage, incliné vers la Vierge, porte à
+                                 mi-hauteur une croisette pattée dans un clipeus.</figDesc>
+                              <figDesc n="r" xml:lang="en"
+                                 ana="person female Virgin with the Child palm tree">In the center
+                                 of the field, the Virgin is depicted facing forward, full-length,
+                                 dressed in a chiton, himation, and maphorion, carrying the Child
+                                 with a cruciform halo on her left arm, half-lying, whose feet she
+                                 embraces with her right arm. On either side of the effigies, a
+                                 large stylized palm tree whose foliage, inclined towards the
+                                 Virgin, bears a small cross pattée in a clipeus halfway
+                                 up.</figDesc>
+                              <figDesc n="decoR" xml:lang="fr">Cercle de feuillage</figDesc>
+                              <figDesc n="decoR" xml:lang="en">Circle of leaves</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+               <msPart n="v">
+                  <msIdentifier/>
+                  <msContents>
+                     <summary n="v"><!-- ajouté ceci -->
+                        <seg xml:lang="en">Reverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="v">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="en">Iconography with a circular inscription</p>
+                              <p xml:lang="fr">Iconographie avec inscription circulaire</p>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="v">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="v" xml:lang="fr"
+                                 ana="person male Justinian and Tiberius cross">L’ empereur
+                                 Justinien II, à gauche, et son fils Tibère, à droite, à mi-corps,
+                                 de face. Justinien, de plus grande taille, porte moustache et barbe
+                                 courte. Tibère est imberbe. Tous deux sont vêtus du costume
+                                 consulaire, la chlamyde, retenue par une grosse fibule sur l’épaule
+                                 droite, endossée sur le divitision, et portent une couronne
+                                 surmontée d’un globe crucigère. Ils tiennent entre eux de leur main
+                                 droite une longue croix potencée élevée sur quatre degrés, la main
+                                 de Tibère est placée au-dessus de celle de son père.</figDesc>
+                              <figDesc n="v" xml:lang="en"
+                                 ana="person male Justinian and Tiberius cross">Emperor Justinian
+                                 II, on the left, and his son Tiberius, on the right, half-length,
+                                 facing forward. Justinian, who is taller, has a mustache and short
+                                 beard. Tiberius bears no beard. Both are dressed in consular
+                                 costume, the chlamys, held in place by a large fibula on the right
+                                 shoulder, worn over the divitision, and wear a crown surmounted by
+                                 a globe and cross. They hold between them with their right hands a
+                                 long cross potente raised on four steps, Tiberius' hand placed
+                                 above that of his father.</figDesc>
+                              <figDesc n="decoV" xml:lang="fr">Cercle de feuillage</figDesc>
+                              <figDesc n="decoV" xml:lang="en">Circle of leaves</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2025-04-22" who="#PE">Creation of the XML record.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp>
+         <surface n="r">
+            <desc>Obverse</desc>
+            <graphic type="photo" url="CdN2004-0373_1.jpg">
+               <desc xml:lang="en">CdN 2004-0373, obverse</desc>
+               <desc xml:lang="fr">CdN 2004-0373, avers</desc>
+            </graphic>
+         </surface>
+         <surface n="v">
+            <desc>Reverse</desc>
+            <graphic type="photo" url="CdN2004-0373_2.jpg">
+               <desc xml:lang="en">CdN 2004-0373, reverse</desc>
+               <desc xml:lang="fr">CdN 2004-0373, revers</desc>
+            </graphic>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" subtype="editorial" xml:space="preserve"> 
+            <!--<div type="textpart" subtype="face" rend="columns" n="obv" xml:lang="la">
+              <ab/>
+            </div>-->
+            <div type="textpart" subtype="face" rend="circular" n="rev" xml:lang="la"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab ana="nom">
+                 <lb n="1"/><expan><abbr>D</abbr><ex>omini</ex></expan> <expan><abbr>N</abbr><ex>ostri</ex></expan> Iustini<supplied reason="lost">an</supplied>us et Tiberius <expan><abbr>P</abbr><ex>erpetui</ex></expan> <rs type="dignity" ref="#d0011"><supplied reason="lost"><expan><abbr>A</abbr><ex>ugusti</ex></expan></supplied></rs>
+              </ab>
+            </div>
+              </div>
+         <div type="edition" subtype="diplomatic" xml:space="preserve"> 
+            <!--<div type="textpart" subtype="face" n="obv" rend="columns" xml:lang="la">
+                      <ab/>
+                  </div>-->
+                  <div type="textpart" subtype="face" rend="circular" n="rev" xml:lang="la"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <lb n="1"/>dṇistini.. settiERISPP..
+              </ab>
+                  </div>
+              </div>
+         <div type="translation">
+            <p>Domini Nostri Iustinianus et Tiberius Perpetui Augusti.</p>
+            <p xml:lang="en">Our Lords Justinian and Tiberios perpetual Augustoi</p>
+            <p xml:lang="fr">Nos Seigneurs Justinien et Tibère Augustes perpétuels</p>
+         </div>
+         <div type="commentary" subtype="text">
+            <!-- renvois internes à refaire -->
+            <p xml:lang="en">Despite the mutilation (his nose was cut off) that was supposed to
+               deprive him of the right to reign, Justinian II managed to return to the throne in
+               705, after ten years of exile. Since then, nose removal was no longer practiced for
+               keeping somebody away from the exercise of supreme power. Tiberius was one year old
+               when Justinian brought him from the land of the Khazars, where he was born, with his
+               mother Theodora, daughter of the king of the Khazars. Both were crowned and
+               associated with power. This seal is the only surviving example from the second reign
+               of Justinian II. It reproduces the portraits that appear on the solidi from the joint
+               reign of Justinian II and Tiberius (705-711)1. Based on Tiberius's size, the seal
+               must correspond to the early years of the reign. An issue of solidus depicts him as
+               larger in size.</p>
+            <p xml:lang="en">This seal is the only surviving example from the second reign
+               of Justinian II. It reproduces the portraits that appear on the solidi from the joint
+               reign of Justinian II and Tiberius (705-711). According to Tiberius's size, the seal
+               must correspond to the early years of the reign. An issue of solidus depicts him as
+               larger in size. About the iconography on the obvers, cf.<bibl>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry"
+                     >2</citedRange></bibl>.</p>
+            <p xml:lang="fr">Ce sceau est l’unique exemplaire conservé du second règne de Justinien
+               II. Il reproduit les portraits qui figurent sur les solidi du règne conjoint de
+               Justinien II et de Tibère (705-711)1. D’après la taille de Tibère, le sceau doit
+               correspondre aux premières années du règne. Une émission de solidus le représente en
+               effet de plus grande taille. au sujet de l'iconographie à l'avers voir <bibl>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry"
+                     >2</citedRange></bibl></p>
+            <p xml:lang="fr">Malgré la mutilation (le nez coupé) qui devait le priver du droit de
+               régner, Justinien II a réussi à remonter sur le trône, en 705, au terme d’un exil de
+               dix ans. Dès lors, on n’a plus pratiqué l’ablation du nez à ceux qu’on voulait tenir
+               éloigné de l’exercice du pouvoir suprême. Tibère était âgé d’un an lorsque Justinien
+               le fit venir du pays des Khazars, où il était né, avec sa mère Théodora, fille du roi
+               des Khazars. Tous les deux furent couronnés et associés au pouvoir.</p>
+         </div>
+         <div type="bibliography" subtype="edition">
+            <p><bibl>
+                  <ptr target="Zacos2"/>, n° <citedRange unit="entry"
+                     >29</citedRange></bibl>
+               <bibl>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry"
+                     >3</citedRange></bibl>
+               <bibl/>
+            </p>
+         </div>
+         <div type="bibliography" subtype="parallels">
+            <p/>
+         </div>
+         <div type="bibliography" subtype="discussion">
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

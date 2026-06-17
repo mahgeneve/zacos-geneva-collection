@@ -151,9 +151,9 @@
                <history>
                   <origin>
                      <origPlace>
-                        <seg xml:lang="fr">Optimates<placeName/>
+                        <seg xml:lang="fr">Optimates <placeName/>
                         </seg>
-                        <seg xml:lang="en">Optimatai<placeName/>
+                        <seg xml:lang="en">Optimatai <placeName/>
                         </seg>
                      </origPlace>
                      <origDate type="analysis" notBefore="1041" notAfter="1060"

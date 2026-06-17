@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en">Andronikos Kantakouzenos, sebastos</title>
+            <title xml:lang="fr">Andronic Cantacuzène, sébaste</title>
+            <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
+            <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+            <funder>
+               <orgName corresp="https://www.mahmah.ch/">MAH-Musée d'art et d'histoire - Genève,
+                  Cabinet de numismatique</orgName>, Suisse</funder>
+            <principal ref="#MCP"/>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <seg xml:lang="fr">Amélioration digitale</seg>
+               <seg xml:lang="en">Digital enhancement</seg>
+            </edition>
+            <editor role="digital-editor" xml:id="PE" when="2025-04-22">Pia Evening</editor>
+            <editor role="digital-editor" ref="#MCP" when="2026-04-29">Maria
+               Campagnolo-Pothitou</editor>
+         </editionStmt>
+         <publicationStmt>
+            <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
+            <idno type="filename">CdN 2004-0207</idno>
+            <idno type="SigiDocID">s-tp5LGp</idno>
+            <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+            <idno type="sequence"/>
+            <!--  to be compiled automatically; leave as is  -->
+            <date when="2024-08-06"/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                  >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                  4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listPerson type="issuer">
+               <person gender="M" role="imperial aristocracy">
+                  <persName xml:lang="grc">
+                     <forename>Ἀνδρόνικος</forename>/> <surname>Καντακουζηνός</surname>/> </persName>
+                  <persName xml:lang="fr">
+                     <forename>Andronic </forename>/> <surname>Cantacuzène</surname>/> </persName>
+                  <persName xml:lang="en">
+                     <forename>Andronikos</forename>/> <surname>Kantakouzenos</surname>/> </persName>
+                  <idno type="PBW" ana="http://pbw2016.kdl.kcl.ac.uk/person/Andronikos/20131/"
+                     >Andronikos 20131</idno>
+
+                  <idno type="PBE"/>
+                  <idno type="PLP"/>
+                  <idno type="PLRE"/>
+                  <idno type="PcBE"/>
+                  <idno type="PmbZ"/>
+               </person>
+            </listPerson>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <seg xml:lang="en">Switzerland</seg>
+                     <seg xml:lang="fr">Suisse</seg>
+                  </country>
+                  <settlement>
+                     <seg xml:lang="en">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">City of
+                           Geneva</placeName>
+                     </seg>
+                     <seg xml:lang="fr">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">Ville de
+                           Genève</placeName>
+                     </seg>
+                  </settlement>
+                  <institution>MAH-Musée d'art et d'histoire</institution>
+                  <repository>Cabinet de numismatique</repository>
+                  <collection type="public">
+                     <rs type="collection-name" xml:lang="en">Byzantine seals collection</rs>
+                     <rs type="collection-name" xml:lang="fr">Collection de sceaux byzantins</rs>
+                  </collection>
+                  <idno type="inv-nr-current">CdN 2004-0207</idno>
+                  <altIdentifier>
+                     <repository/>
+                     <idno type="inv-nr-former"/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <!--https://github.com/SigiDoc/Guidelines/wiki/5.-Controlled-vocabularies#seals-category-->
+                  <summary n="whole">
+                     <seg xml:lang="fr">Dignitaires</seg>
+                     <seg xml:lang="en">Dignitaries</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>
+                              <term>
+                                 <seg xml:lang="fr">Sceau</seg>
+                                 <seg xml:lang="en">Seal</seg>
+                              </term>
+                              <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                              <interp type="workType" xml:lang="en">Original impression</interp>
+                           </objectType>
+                           <material>
+                              <seg xml:lang="fr">Plomb</seg>
+                              <seg xml:lang="en">Lead</seg>
+                           </material>
+                           <dimensions type="support" unit="mm">
+                              <dim type="diameter">32,93/31,17</dim>
+                              <!-- mesure du champ? -->
+                           </dimensions>
+                           <measure type="weight" unit="g">21,428</measure>
+                           <measure type="axis" unit="clock"/>
+                           <measure type="overstrikeOrient" unit="clock"/>
+                           <measure type="channelOrient" unit="clock">12-6</measure>
+                           <measure type="countermark" unit="clock"/>
+                        </support>
+                        <condition rend="well-struck well-preserved chipped">
+                           <p xml:lang="en">The bulla is well struck and well preserved although
+                              roughly chipped at the lower openning of the channel</p>
+                           <p xml:lang="fr">La bulle est bien frappée et bien conservée bien que
+                              fortement échancrée à l'orifice inférieur du canal</p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout n="whole">
+                           <rs type="execution">
+                              <seg xml:lang="fr">Frappé</seg>
+                              <seg xml:lang="en">Struck</seg>
+                           </rs>
+                           <rs type="shape">
+                              <seg xml:lang="fr">Ronde</seg>
+                              <seg xml:lang="en">Round</seg>
+                           </rs>
+                           <rs type="matrix" subtype="not-surviving">
+                              <idno type="SigiDoc">m-KZDAOi</idno>
+                              <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+                              <idno type="PBW"
+                                 >http://pbw2016.kdl.kcl.ac.uk/boulloterion/6752/</idno>
+                              <!-- to be used if the seal has a parallel in the PBW with a boulloterion registered there -->
+                           </rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <seg xml:lang="fr">
+                           <placeName/>
+                        </seg>
+                        <seg xml:lang="en">
+                           <placeName/>
+                        </seg>
+                     </origPlace>
+                     <origDate type="analysis" notBefore="1151" notAfter="1200"
+                        evidence="epigraphy iconography onomastics" cert="high" resp="#MCP #JCC">
+                        <seg xml:lang="en">Second half of the 12th century</seg>
+                        <seg xml:lang="fr">Seconde moitié du XIIe siècle</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="transferred" subtype="donated" when="2004-11-24">
+                     <!-- pas sûr de subtype et when -->
+                     <p xml:lang="en">George Zacos collection</p>
+                     <p xml:lang="fr">Collection Georges Zacos</p>
+                  </provenance>
+                  <acquisition>
+                     <p xml:lang="en">Donation of the Migore Foundation, Janet Zakos legacy, <date
+                           when="2004-11-24">24th November 2004</date>
+                     </p>
+                     <p xml:lang="fr">Don de la Fondation Migore, legs Janet Zakos, <date
+                           when="2004-11-24">24 Novembre 2004</date>
+                     </p>
+                  </acquisition>
+               </history>
+               <msPart n="r">
+                  <msIdentifier/>
+                  <msContents>
+                     <!-- ajouté ceci -->
+                     <summary n="r">
+                        <seg xml:lang="en">Obverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="r">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="fr">Iconographie avec épigraphes en colonnes de part et
+                                 d'autre de l'effigie</p>
+                              <p xml:lang="en">Iconography with epigraphs on columns on either side
+                                 of the effigy</p>
+                           </layout>
+                        </layoutDesc>
+
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="r">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="r" xml:lang="fr" ana="person male saints Theodore">Les
+                                 deux saints Théodore en pied, de face, vêtus de leur tenue
+                                 militaire, chitôn court sous la cuirasse, main gauche appuyée sur
+                                 un petit bouclier posé à terre. Le saint, à gauche, saisit une
+                                 lance de la main droite, levée jusqu’au visage, tandis que son
+                                 collègue, le poing droit placé à hauteur de la taille, tient aussi
+                                 une lance, moins nettement visible car la partie centrale du champ
+                                 a été déformée par la boursouflure du canal.</figDesc>
+                              <figDesc n="r" xml:lang="en" ana="person male saints Theodore">The two
+                                 saints Theodore, standing, facing forward, clad in military garb,
+                                 wearing a short chiton beneath their breastplates, with their left
+                                 hands resting on small shields placed on the ground. The saint on
+                                 the left grasps a spear in his right hand, raised up to his face,
+                                 whilst his companion, with his right fist at waist height, also
+                                 holds a spear, though less clearly visible as the central part of
+                                 the panel has been distorted by the bulge of the channel.</figDesc>
+                              <figDesc n="decoR" xml:lang="fr">Cercle de grènetis; entre les nimbes,
+                                 deux signes d'abréviation mal conservés</figDesc>
+                              <figDesc n="decoR" xml:lang="en">Border of dots; between the halos,
+                                 two abreviation symbols poorly preserved</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+               <msPart n="v">
+                  <msIdentifier/>
+                  <msContents>
+                     <summary n="v"><!-- ajouté ceci -->
+                        <seg xml:lang="en">Reverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="v">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="en">15-syllab metrical linear legend of 5 lines</p>
+                              <p xml:lang="fr">Légende linéaire métrique de 15 syllabes sur 5
+                                 lignes</p>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="v">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="decoV" xml:lang="fr">Cercle de grènetis; au sommet du
+                                 champ, une croisette; la dernière ligne est suivie de deux points,
+                                 et un tiret</figDesc>
+                              <figDesc n="decoV" xml:lang="en">Border of dots; at the top of the
+                                 legend, a crosslet; the last line is followed by two dots and a
+                                 trait</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2025-04-22" who="#PE">Creation of the XML record.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp>
+         <surface n="r">
+            <desc>Obverse</desc>
+            <graphic type="photo" url="CdN2004-0207_1.jpg">
+               <desc xml:lang="en">CdN 2004-0207, obverse</desc>
+               <desc xml:lang="fr">CdN 2004-0207, avers</desc>
+            </graphic>
+         </surface>
+         <surface n="v">
+            <desc>Reverse</desc>
+            <graphic type="photo" url="CdN2004-0207_2.jpg">
+               <desc xml:lang="en">CdN 2004-0207, reverse</desc>
+               <desc xml:lang="fr">CdN 2004-0207, revers</desc>
+            </graphic>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" subtype="editorial" xml:space="preserve"> 
+            <div type="textpart" subtype="label" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="a"/>Ὁ <expan><ex>ἅγιος</ex></expan>
+                 <cb n="b"/><expan><abbr><supplied reason="lost">Θε</supplied>ό<supplied reason="lost">δ</supplied>ωρο</abbr><ex>ς</ex></expan>
+                 <cb n="c"/>Ὁ <expan><ex>ἅγιος</ex></expan>
+                 <cb n="d"/><expan><abbr>Θεόδωρο</abbr><ex>ς</ex></expan>
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab ana="gen">
+                         <lb n="1"/>Σφραγὶς 
+                         <lb n="2"/>Ἀνδρονίκου 
+                         <lb n="3"/><rs type="dignity" ref="#d0075">σεβαστοῦ</rs> τοῦ 
+                         <lb n="4"/>Κατακουζη
+                         <lb n="5" break="no"/>νοῦ
+                      </ab>
+                  </div>
+              </div>
+         <div type="edition" subtype="diplomatic" xml:space="preserve"> 
+                  <div type="textpart" subtype="label" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="a"/>
+                 <cb n="b"/>.. |o|.|ρ̣o
+                 <cb n="c"/>
+                 <cb n="d"/>θε|ο|δ|ρo 
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab>
+                         <lb n="0"/>    
+                         <lb n="1"/>σφραγις                     
+                         <lb n="2"/>ανδρο̣νικ
+                         <lb n="3"/>σεrα̣τ
+                         <lb n="4"/>κατα̣κη
+                         <lb n="5"/>νου
+                         </ab>
+                  </div>
+              </div>
+         <div type="translation">
+            <p>Ὁ ἅγιος Θεόδωρος. Ὁ ἅγιος Θεόδωρος. || + Σφραγὶς Ἀνδρονίκου σεβαστοῦ τοῦ
+               Κατακουζηνοῦ.</p>
+            <p xml:lang="en">Saint Theodore. Saint Theodore. || + Seal of the sebastos Andronikos
+               Ka(n)takouzenos.</p>
+            <p xml:lang="fr">Saint Théodore. Saint Théodore. || + Sceau du sébaste Andronic
+               Ca(n)tacuzène.</p>
+         </div>
+         <div type="commentary" subtype="text">
+            <!-- renvois internes à refaire -->
+            <p xml:lang="en">Katakouzenos is the ancient spelling of the name Kantakouzenos. Based
+               on the date of thebulla, Andronikos can be identified as the doux of the theme of
+               Mylasa-Melanoudion, whom Isaac II Angelos sent on a diplomatic mission to Frederick
+               Barbarossa in 1189, when the latter was crossing Byzantine territory during the third
+               Crusade. According to Choniates, Andronikos, son-in-law of Isaac II, commanded at
+               Anchialos in 1187 and secured the rear of the emperor, who was fighting the
+               Bulgarians in Thrace. The title of sebastos indicates that Andronikos was related to
+               the Komnenoi. His family had likely been so since the reign of Alexios Ist, when the
+               first Cantacuzene mentioned in the sources, a high officer, distinguished himself in
+               fighting the Cumans and the Normans between 1094 and 1108. As powerful landowners in
+               the Peloponnese, which several of them governed in the 13th and 14th centuries, the
+               Cantacuzenes were related to various aristocratic families: the Philantropenoi,
+               Tarchaneiôtai, Komnenoi, Angeloi, Palaiologoi, Raoul and Phakrasai. They managed to
+               remain at the forefront until the end of the Empire, rising to the highest office
+               under John VI Cantacuzene (1347–1354) and his daughter Helen, wife of the co-emperor
+               and future emperor John V Palaiologos (1341/1354–1391). Other members shared in the
+               family’s imperial glory: Eirini Kantakouzene married the sebastokrator Constantine
+               Palaiologos, the younger brother of Michael VIII; Matthew, the son of John VI, was
+               also proclaimed emperor, whilst his brother Manuel received the title of despot and
+               ruled Constantinople from 1349 to 1380.</p>
+            <p xml:lang="en"/>
+            <p xml:lang="fr"> Katakouzènos est la graphie ancienne du nom Kantakouzènos. D’après la
+               datation de la bulle, Andronic peut être identifié au duc du thème de
+               Mylasa-Mélanoudion, qu’Isaac II Ange envoya en ambassade auprès de Frédéric
+               Barberousse, en 1189, lorsque celui-ci traversait le territoire byzantin lors de la
+               troisième croisade. Selon Chôniatès, Andronic, gambros d’Isaac II, commandait à
+               Anchialos, en 1187, et assurait les arrières de l’empereur, qui combattait les
+               Bulgares en Thrace. La dignité de sébaste indique qu’Andronic était apparenté aux
+               Comnènes. Sa famille le fut sans doute dès le règne d’Alexis Ier, lorsque le premier
+               Cantacuzène cité dans les sources, officier d’élite, se distingua en combattant les
+               Coumans et les Normands, entre 1094 et 1108. Grands propriétaires fonciers dans le
+               Péloponnèse, que plusieurs d’entre eux gouvernèrent aux XIIIe et XIVe siècles, les
+               Cantacuzènes étaient apparentés à différentes familles de l’aristocratie : les
+               Philantropénoi, Tarchaneiôtai, Comnènes, Anges, Paléologues, Raoul et Phakrasai. Ils
+               surent se maintenir aux premiers rangs jusqu’à la fin de l’Empire, en se hissant
+               jusqu’au pouvoir suprême avec Jean VI Cantacuzène (1347-1354) et sa fille Hélène,
+               épouse du co-empereur et futur empereur Jean V Paléologue (1341/1354-1391). D’autres
+               membres ont partagé la gloire impériale de la famille : Irène Kantakouzènè épousa le
+               sébastokratôr Constantin Paléologue, le jeune frère de Michel VIII ; Matthieu, le
+               fils de Jean VI, fut aussi proclamé empereur, tandis que son frère Manuel reçut le
+               titre de despote et gouverna Constantinople de 1349 à 1380.</p>
+            <p xml:lang="fr"/>
+         </div>
+         <div type="bibliography" subtype="edition">
+            <p><bibl>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">201a</citedRange></bibl>
+               <bibl/>
+            </p>
+         </div>
+         <div type="bibliography" subtype="parallels">
+            <p> Ermitage, M-8201: </p>
+         </div>
+         <div type="bibliography" subtype="discussion">
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

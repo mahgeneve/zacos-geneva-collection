@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en">John Alyattes, sebastos</title>
+            <title xml:lang="fr">Jean Alyattès, sébaste</title>
+            <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
+            <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+            <funder>
+               <orgName corresp="https://www.mahmah.ch/">MAH-Musée d'art et d'histoire - Genève,
+                  Cabinet de numismatique</orgName>, Suisse</funder>
+            <principal ref="#MCP"/>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <seg xml:lang="fr">Amélioration digitale</seg>
+               <seg xml:lang="en">Digital enhancement</seg>
+            </edition>
+            <editor role="digital-editor" xml:id="PE" when="2025-04-22">Pia Evening</editor>
+            <editor role="digital-editor" ref="#MCP" when="2026-04-08">Maria
+               Campagnolo-Pothitou</editor>
+         </editionStmt>
+         <publicationStmt>
+            <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
+            <idno type="filename">CdN 2004-0218</idno>
+            <idno type="SigiDocID">s-QjAzCx</idno>
+            <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+            <idno type="sequence"/>
+            <!--  to be compiled automatically; leave as is  -->
+            <date when="2024-08-06"/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                  >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                  4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listPerson type="issuer">
+               <person gender="M" role="imperial aristocracy">
+                  <persName xml:lang="grc">
+                     <forename>Ἰωάννης</forename>
+                     <surname>Ἀλυάττης</surname>
+                  </persName>
+                  <persName xml:lang="fr">
+                     <forename>Jean</forename>
+                     <surname>Alyatès</surname>
+                  </persName>
+                  <persName xml:lang="en">
+                     <forename>John</forename>
+                     <surname>Alyates</surname>
+                  </persName>
+                  <idno type="PBW" ana="http://pbw2016.kdl.kcl.ac.uk/person/Ioannes/20284/">Ioannes
+                     20284</idno>
+                  <idno type="PBE"/>
+                  <idno type="PLP"/>
+                  <idno type="PLRE"/>
+                  <idno type="PcBE"/>
+                  <idno type="PmbZ"/>
+               </person>
+            </listPerson>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <seg xml:lang="en">Switzerland</seg>
+                     <seg xml:lang="fr">Suisse</seg>
+                  </country>
+                  <settlement>
+                     <seg xml:lang="en">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">City of
+                           Geneva</placeName>
+                     </seg>
+                     <seg xml:lang="fr">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">Ville de
+                           Genève</placeName>
+                     </seg>
+                  </settlement>
+                  <institution>MAH-Musée d'art et d'histoire</institution>
+                  <repository>Cabinet de numismatique</repository>
+                  <collection type="public">
+                     <rs type="collection-name" xml:lang="en">Byzantine seals collection</rs>
+                     <rs type="collection-name" xml:lang="fr">Collection de sceaux byzantins</rs>
+                  </collection>
+                  <idno type="inv-nr-current">CdN 2004-0218</idno>
+                  <altIdentifier>
+                     <repository/>
+                     <idno type="inv-nr-former"/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <!--https://github.com/SigiDoc/Guidelines/wiki/5.-Controlled-vocabularies#seals-category-->
+                  <summary n="whole">
+                     <seg xml:lang="fr">Dignitaires</seg>
+                     <seg xml:lang="en">Dignitaries</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>
+                              <term>
+                                 <seg xml:lang="fr">Sceau</seg>
+                                 <seg xml:lang="en">Seal</seg>
+                              </term>
+                              <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                              <interp type="workType" xml:lang="en">Original impression</interp>
+                           </objectType>
+                           <material>
+                              <seg xml:lang="fr">Plomb</seg>
+                              <seg xml:lang="en">Lead</seg>
+                           </material>
+                           <dimensions type="support" unit="mm">
+                              <dim type="diameter">31,83/30,11</dim>
+                              <!-- mesure du champ? -->
+                           </dimensions>
+                           <measure type="weight" unit="g">24,402</measure>
+                           <measure type="axis" unit="clock"/>
+                           <measure type="overstrikeOrient" unit="clock"/>
+                           <measure type="channelOrient" unit="clock">1-7</measure>
+                           <measure type="countermark" unit="clock"/>
+                        </support>
+                        <condition rend="well-struck  well-preserved chipped worn-edge">
+                           <p xml:lang="en">The bulla is well struck and well preserved, rather
+                              chipped at the lower openning of the channel and worn on the edge.</p>
+                           <p xml:lang="fr">La bulle est bien frappée et bien conservée, bien que
+                              cassée au niveau de l'orifice inférieur du canal et rognée sur la
+                              tranche.</p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout n="whole">
+                           <rs type="execution">
+                              <seg xml:lang="fr">Frappé</seg>
+                              <seg xml:lang="en">Struck</seg>
+                           </rs>
+                           <rs type="shape">
+                              <seg xml:lang="fr">Ronde</seg>
+                              <seg xml:lang="en">Round</seg>
+                           </rs>
+                           <rs type="matrix" subtype="not-surviving">
+                              <idno type="SigiDoc">m-3klRHM</idno>
+                              <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+                              <idno type="PBW"
+                                 >http://pbw2016.kdl.kcl.ac.uk/boulloterion/1619/</idno>
+                              <!-- to be used if the seal has a parallel in the PBW with a boulloterion registered there -->
+                           </rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <seg xml:lang="fr">
+                           <placeName/>
+                        </seg>
+                        <seg xml:lang="en">
+                           <placeName/>
+                        </seg>
+                     </origPlace>
+                     <origDate type="analysis" notBefore="1181" notAfter="1220"
+                        evidence="epigraphy iconography prosopography titulature" cert="high"
+                        resp="#MCP #JCC">
+                        <seg xml:lang="en">End of the 12th century/beginning of the 13th
+                           century</seg>
+                        <seg xml:lang="fr">Fin du XIIe siècle/début du XIIIe siècle</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="transferred" subtype="donated" when="2004-11-24">
+                     <!-- pas sûr de subtype et when -->
+                     <p xml:lang="en">George Zacos collection</p>
+                     <p xml:lang="fr">Collection Georges Zacos</p>
+                  </provenance>
+                  <acquisition>
+                     <p xml:lang="en">Donation of the Migore Foundation, Janet Zakos legacy, <date
+                           when="2004-11-24">24th November 2004</date>
+                     </p>
+                     <p xml:lang="fr">Don de la Fondation Migore, legs Janet Zakos, <date
+                           when="2004-11-24">24 Novembre 2004</date>
+                     </p>
+                  </acquisition>
+               </history>
+               <msPart n="r">
+                  <msIdentifier/>
+                  <msContents>
+                     <!-- ajouté ceci -->
+                     <summary n="r">
+                        <seg xml:lang="en">Obverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="r">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="fr">Iconographie avec épigraphe en colonnes de part et
+                                 d'autre de l'effigie</p>
+                              <p xml:lang="en">Iconography with epigraph on columns on either side
+                                 of the effigy</p>
+                           </layout>
+                        </layoutDesc>
+
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="r">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="r" xml:lang="fr" ana="person male saint Demetrios">Saint
+                                 Dèmètrios en pied, de face, tenant une longue lance en main droite,
+                                 la gauche appuyée sur un bouclier posé à terre.</figDesc>
+                              <figDesc n="r" xml:lang="en" ana="person male saint Demetrios">Saint
+                                 Demetrios standing, facing forward, clad with his customary
+                                 military vestment, holding a spear in his right hand, his left one
+                                 relying on his shield resting on the ground.</figDesc>
+                              <figDesc n="decoR" xml:lang="fr">Cercle de grènetis fortement emportée
+                                 par l'usure de la tranche</figDesc>
+                              <figDesc n="decoR" xml:lang="en">Border of dots largely lacking due to
+                                 the worn-edge</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+               <msPart n="v">
+                  <msIdentifier/>
+                  <msContents>
+                     <summary n="v"><!-- ajouté ceci -->
+                        <seg xml:lang="en">Reverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="v">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="en">Linear metrical legend of 7 lines</p>
+                              <p xml:lang="fr">Légende métrique linéaire sur 7 lignes</p>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="v">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="decoV" xml:lang="fr">Cercle de grènetis; la légende est
+                                 précédée d'une croisette</figDesc>
+                              <figDesc n="decoV" xml:lang="en">Border of dots; the légend is
+                                 preceded by a crosslet</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2025-04-22" who="#PE">Creation of the XML record.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp>
+         <surface n="r">
+            <desc>Obverse</desc>
+            <graphic type="photo" url="CdN2004-0218_1.jpg">
+               <desc xml:lang="en">CdN 2004-0218, obverse</desc>
+               <desc xml:lang="fr">CdN 2004-0218, avers</desc>
+            </graphic>
+         </surface>
+         <surface n="v">
+            <desc>Reverse</desc>
+            <graphic type="photo" url="CdN2004-0218_2.jpg">
+               <desc xml:lang="en">CdN 2004-0218, reverse</desc>
+               <desc xml:lang="fr">CdN 2004-0218, revers</desc>
+            </graphic>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" subtype="editorial" xml:space="preserve"> 
+            <div type="textpart" subtype="label" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="a"/>Ὁ ἅγιο<supplied reason="lost">ς</supplied> 
+                 <cb n="b"/><expan><abbr>Δημήτριο</abbr><ex>ς</ex></expan>
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <lg type="metrical" met="dodecasyllable">
+                         <l n="1">
+                         <lb n="1"/>Σ<supplied reason="lost">φ</supplied>
+                         <lb n="2" break="no"/>ραγὶς <rs type="dignity" ref="#d0075">σε<supplied reason="lost">β</supplied>
+                         <lb n="3" break="no"/>αστοῦ</rs> Ἰωάννου 
+                         <lb n="4"/>Ἀλυάττου</l> <l n="2">μάρ<supplied reason="lost">τ</supplied>
+                         <lb n="5" break="no"/>υρα Δημήτριον 
+                         <lb n="6"/>ὄρθιον <supplied reason="lost">φ</supplied>έ
+                         <lb n="7" break="no"/>ρε<supplied reason="lost">ι</supplied></l>
+                      </lg>
+                  </div>
+              </div>
+         <div type="edition" subtype="diplomatic" xml:space="preserve"> 
+                  <div type="textpart" subtype="label" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="a"/>ο|ạ|γι|ο̣|.       
+                 <cb n="b"/>δ|ι|τρι|ο/
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab>
+                         <lb n="1"/>σ.                            
+                         <lb n="2"/>Ραγισσε.
+                         <lb n="3"/>αστια
+                         <lb n="4"/>αλυαττμαρ.
+                         <lb n="5"/>Υραδηητριον̣ 
+                         <lb n="6"/>ορθιον.ε
+                         <lb n="7"/>ρε̣.
+                         </ab>
+                  </div>
+              </div>
+         <div type="translation">
+            <p>Ὁ ἅγιος Δημήτριος. || + Σφραγὶς σεβαστοῦ Ἰωάννου Ἀλυάττου μάρτυρα Δημήτριον ὄρθιον
+               φέρει.</p>
+            <p xml:lang="en">Saint Demetrios. || + Seal of the sebastos John Alyattes represents
+               saint Demetrios standing</p>
+            <p xml:lang="fr">Saint Dèmètrios. || + Le sceau du sébaste Jean Alyattès porte le martyr
+               Dèmètrios en pied.</p>
+         </div>
+         <div type="commentary" subtype="text">
+            <!-- renvois internes à refaire -->
+            <p xml:lang="en">Our seal likely belongs to the high-ranking official who signed three
+               documents in 11971, 1198, and 11992, without any mention of his title. An Athenian
+               seal, with the same obverse and very similar inscription, can be attributed to him :
+               Σφράγισμα Ἰωάννου σεβαστοῦ τοῦ Ἀλυάτου <bibl>
+                  <ptr target="Athens2000"/>, n° <citedRange unit="entry">10</citedRange></bibl>;<bibl>
+                  <ptr target="Laurent1932"/>, n° <citedRange unit="entry">713</citedRange></bibl>.
+               In contrast, the bilateral cup, with an irregular engraving and no mention of the
+               title of sebastos belongs to a younger namesake (Ἰωάννου σφράγισμα τοῦ Ἀλυάτου, BZS
+               1958.106.1028, and Zacos (BnF) 1191, unpublished, mentionned in <bibl>
+                  <ptr target="Wassiliou-Seibt2011"/>, n° <citedRange unit="entry"
+                  >1052</citedRange></bibl>). A family with a military tradition in the 10th and
+               11th centuries, the Alyatai or Alyattai are believed to have originated from Alyatta
+               in Bithynia <bibl>
+                  <ptr target="ODB"/>, p. <citedRange unit="page">72</citedRange></bibl>; <bibl>
+                  <ptr target="BBÖ1"/>, n° <citedRange unit="entry">148</citedRange></bibl>.They
+               appear in historical sources alongside the strategos Anthes, who died fighting
+               alongside the usurper Bardas Skleros in 976 <bibl>
+                  <ptr target="Seibt1976"/>, p. <citedRange unit="page">37</citedRange></bibl>. From
+               the time of the Komnenoi onward, the family became involved in civil administration.
+               After the fall of Constantinople in 1204, a branch of the family settled in Epirus,
+               as two of them are mentioned in the decisions of Chômatianos, Metropolitan of Ohrid7.
+               A third individual is attested as a grand logariast in Epirus in 12288. An Alyates
+               wrote the preface to a praktikon in the middle of the century. His identification
+               with Nicephorus, epi tou kanikleiou in 1258, or with Alexis Alyates, vestiarios, is
+               not certain9.</p>
+            <p xml:lang="en"/>
+            <p xml:lang="fr">Notre sigillant correspond sans doute au haut fonctionnaire qui signe
+               trois documents en 1197, 1198 et 1199, sans mention de dignité. Un plomb athénien,
+               au même avers et d’épigraphie très proche, lui est attribuable : Σφράγισμα Ἰωάννου
+               σεβαστοῦ τοῦ Ἀλυάτου <bibl>
+                  <ptr target="Athens2000"/>, n° <citedRange unit="entry">10</citedRange></bibl>;<bibl>
+                  <ptr target="Laurent1932"/>, n° <citedRange unit="entry">713</citedRange></bibl>.
+               En revanche, la bulle bilatérale, d’une gravure irrégulière, sans mention du titre de
+               sébaste, appartient à un homonyme plus jeune(Ἰωάννου σφράγισμα τοῦ Ἀλυάτου, BZS
+               1958.106.1028, and Zacos (BnF) 1191, unpublished, mentionned in <bibl>
+                  <ptr target="Wassiliou-Seibt2011"/>, n° <citedRange unit="entry"
+                  >1052</citedRange></bibl>. Lignée de tradition militaire aux Xe et XIe siècles,
+               les Alyatai ou Alyattai seraient originaires d’Alyatta en Bithynie <bibl><ptr
+                     target="ODB"/>, p. <citedRange unit="page">72</citedRange></bibl>; <bibl>
+                  <ptr target="BBÖ1"/>, n° <citedRange unit="entry">148</citedRange></bibl>. Ils
+               apparaissent dans les sources avec le stratège Anthès, mort en combattant aux côtés
+               de l’usurpateur Bardas Sklèros, en 976<bibl>
+                  <ptr target="Seibt1976"/>, p. <citedRange unit="page">37</citedRange></bibl>. À partir de l’époque des Comnènes, la
+               famille s’engage dans l’administration civile. Après la chute de Constantinople en
+               1204, une branche de la famille s’établit en Épire, puisque deux d’entre eux sont
+               cités dans les décisions de Chômatianos, métropolite d’Ochride7. Un troisième est
+               attesté comme grand logariaste en Épire en 12288. Un Alyatès rédigea la préface d’un
+               praktikon au milieu du siècle. Son identification à Nicéphore, épi tou kanikleiou en
+               1258, ou à Alexis Alyatès, vestiarios, n’est pas assurée9.</p>
+            <p xml:lang="fr"/>
+         </div>
+         <div type="bibliography" subtype="edition">
+            <p><bibl>
+                  <ptr target="ZacosGenève"/>, p. <citedRange unit="page">195</citedRange></bibl>.
+               <bibl/>
+            </p>
+         </div>
+         <div type="bibliography" subtype="parallels">
+            <p>ancienne collection Schlumberger:
+               <bibl>
+                  <ptr target="Laurent1932"/>, n° <citedRange unit="entry">701</citedRange></bibl>.</p>
+         </div>
+         <div type="bibliography" subtype="discussion">
+            <p><bibl>
+                  <ptr target="Athens2000"/>, p. <citedRange unit="page">61, note 39</citedRange></bibl>.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

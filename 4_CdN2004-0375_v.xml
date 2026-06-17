@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en">Anastasios II</title>
+            <title xml:lang="fr">Anastase II</title>
+            <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
+            <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+            <funder>
+               <orgName corresp="https://www.mahmah.ch/">MAH-Musée d'art et d'histoire - Genève,
+                  Cabinet de numismatique</orgName>, Suisse</funder>
+            <principal ref="#MCP"/>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <seg xml:lang="fr">Amélioration digitale</seg>
+               <seg xml:lang="en">Digital enhancement</seg>
+            </edition>
+            <editor role="digital-editor" xml:id="PE" when="2025-04-22">Pia Evening</editor>
+         </editionStmt>
+         <publicationStmt>
+            <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
+            <idno type="filename">CdN 2004-0375</idno>
+            <idno type="SigiDocID">s-MabXpG</idno>
+            <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+            <idno type="sequence"/>
+            <!--  to be compiled automatically; leave as is  -->
+            <date when="2024-08-06"/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                  >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                  4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listPerson type="issuer">
+               <person gender="M" role="imperial">
+                  <persName xml:lang="grc">
+                     <forename>Άναστάσιος B'</forename>/> <surname/>
+                  </persName>
+                  <persName xml:lang="fr">
+                     <forename>Anastase II</forename>/> <surname/>
+                  </persName>
+                  <persName xml:lang="en">
+                     <forename>Anastasios II</forename>/> <surname/>
+                  </persName>
+                  <idno type="PBW"/>
+
+                  <idno type="PBE"/>
+                  <idno type="PLP"/>
+                  <idno type="PLRE"/>
+                  <idno type="PcBE"/>
+                  <idno type="PmbZ" ana= "https://www.degruyterbrill.com/database/PMBZ/entry/PMBZ11318/html"/>
+               </person>
+            </listPerson>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <seg xml:lang="en">Switzerland</seg>
+                     <seg xml:lang="fr">Suisse</seg>
+                  </country>
+                  <settlement>
+                     <seg xml:lang="en">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">City of
+                           Geneva</placeName>
+                     </seg>
+                     <seg xml:lang="fr">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">Ville de
+                           Genève</placeName>
+                     </seg>
+                  </settlement>
+                  <institution>MAH-Musée d'art et d'histoire</institution>
+                  <repository>Cabinet de numismatique</repository>
+                  <collection type="public">
+                     <rs type="collection-name" xml:lang="en">Byzantine seals collection</rs>
+                     <rs type="collection-name" xml:lang="fr">Collection de sceaux byzantins</rs>
+                  </collection>
+                  <idno type="inv-nr-current">CdN 2004-0375</idno>
+                  <altIdentifier>
+                     <repository/>
+                     <idno type="inv-nr-former"/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <!--https://github.com/SigiDoc/Guidelines/wiki/5.-Controlled-vocabularies#seals-category-->
+                  <summary n="whole">
+                     <seg xml:lang="fr">Impérial</seg>
+                     <seg xml:lang="en">Imperial</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>
+                              <term>
+                                 <seg xml:lang="fr">Sceau</seg>
+                                 <seg xml:lang="en">Seal</seg>
+                              </term>
+                              <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                              <interp type="workType" xml:lang="en">Original impression</interp>
+                           </objectType>
+                           <material>
+                              <seg xml:lang="fr">Plomb</seg>
+                              <seg xml:lang="en">Lead</seg>
+                           </material>
+                           <dimensions type="support" unit="mm">
+                              <dim type="diameter">40,69/37,88</dim>
+                              <!-- mesure du champ? -->
+                           </dimensions>
+                           <measure type="weight" unit="g">38,973</measure>
+                           <measure type="axis" unit="clock"/>
+                           <measure type="overstrikeOrient" unit="clock"/>
+                           <measure type="channelOrient" unit="clock">12-6</measure>
+                           <measure type="countermark" unit="clock"/>
+                        </support>
+                        <condition rend="well-struck well-preserved chipped">
+                           <p xml:lang="en">The bulla is well-struck and well-preserved, quite
+                              chipped at the opennings of the channel </p>
+                           <p xml:lang="fr">La bulle est bien frappée et bien conservée; fortement
+                              échancrée aux orifices du canal</p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout n="whole">
+                           <rs type="execution">
+                              <seg xml:lang="fr">Frappé</seg>
+                              <seg xml:lang="en">Struck</seg>
+                           </rs>
+                           <rs type="shape">
+                              <seg xml:lang="fr">Ronde</seg>
+                              <seg xml:lang="en">Round</seg>
+                           </rs>
+                           <rs type="matrix" subtype="not-surviving">
+                              <idno type="SigiDoc">m-e4kUJ1</idno>
+                              <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+                              <idno type="PBW"/>
+                              <!-- to be used if the seal has a parallel in the PBW with a boulloterion registered there -->
+                           </rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <seg xml:lang="fr">
+                           <placeName/>
+                        </seg>
+                        <seg xml:lang="en">
+                           <placeName/>
+                        </seg>
+                     </origPlace>
+                     <origDate type="analysis" notBefore="0713" notAfter="0715"
+                        evidence="prosopography iconography reign" cert="high" resp="#MCP #JCC">
+                        <seg xml:lang="en">713-715</seg>
+                        <seg xml:lang="fr">713-715</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="transferred" subtype="donated" when="2004-11-24">
+                     <!-- pas sûr de subtype et when -->
+                     <p xml:lang="en">George Zacos collection</p>
+                     <p xml:lang="fr">Collection Georges Zacos</p>
+                  </provenance>
+                  <acquisition>
+                     <p xml:lang="en">Donation of the Migore Foundation, Janet Zakos legacy, <date
+                           when="2004-11-24">24th November 2004</date>
+                     </p>
+                     <p xml:lang="fr">Don de la Fondation Migore, legs Janet Zakos, <date
+                           when="2004-11-24">24 Novembre 2004</date>
+                     </p>
+                  </acquisition>
+               </history>
+               <msPart n="r">
+                  <msIdentifier/>
+                  <msContents>
+                     <!-- ajouté ceci -->
+                     <summary n="r">
+                        <seg xml:lang="en">Obverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="r">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="fr">Iconographie avec de part et d'autre des croix</p>
+                              <p xml:lang="en">Iconography with on either side crosses</p>
+                           </layout>
+                        </layoutDesc>
+
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="r">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="r" xml:lang="fr" ana="person female Virgin with the Child"
+                                 >Vierge Hodègètria nimbée en pied, de face, tenant l’Enfant au
+                                 nimbe crucigère à demi couché sur le bras gauche, la main droite
+                                 posée sur les genoux du nourrisson. De part et d’autre de
+                                 l’effigie, à mi-hauteur, une croisette pattée. En haut, à droite,
+                                 un petit personnage, qui pourrait être l’empereur.</figDesc>
+                              <figDesc n="r" xml:lang="en" ana="person female Virgin with the Child"
+                                 >Virgin Hodegetria with a halo, full-length, facing forward,
+                                 holding the Child with a cruciform halo, half-lying on her left
+                                 arm, her right hand resting on the infant's knees. On either side
+                                 of the effigy, halfway up, is a small cross pattée. At the top, on
+                                 the right, is a small figure, who could be the emperor.</figDesc>
+                              <figDesc n="decoR" xml:lang="fr">Cercle de feuillage</figDesc>
+                              <figDesc n="decoR" xml:lang="en">Circle of leaves</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+               <msPart n="v">
+                  <msIdentifier/>
+                  <msContents>
+                     <summary n="v"><!-- ajouté ceci -->
+                        <seg xml:lang="en">Reverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="v">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="fr">Iconographie avec inscription circulaire</p>
+                              <p xml:lang="en">Iconography with a circular inscription</p>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="v">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="v" xml:lang="fr" ana="person male emperor">L’empereur
+                                 Anastase II à mi-corps, de face, portant une barbe courte et une
+                                 fine moustache, les cheveux mi-longs et bouclés, coiffés du stemma
+                                 surmonté d’une croix. Revêtu de la chlamyde et du divitision, il
+                                 tient en main droite le globe surmonté d’une croix et, en main
+                                 gauche, l’akakia.</figDesc>
+                              <figDesc n="v" xml:lang="en" ana="person male emperor">Emperor
+                                 Anastasius II, half-length, facing forward, wearing a short beard
+                                 and a thin mustache, with medium-length curly hair, wearing the
+                                 stemma surmounted by a cross. Wearing a chlamys and divitision, he
+                                 holds a globe surmounted by a cross in his right hand and the
+                                 akakia in his left hand. The emperor is depicted in profile,
+                                 wearing a short beard and a thin mustache, with medium-length curly
+                                 hair, topped with a stemma surmounted by a cross..</figDesc>
+                              <figDesc n="decoV" xml:lang="fr">Cercle de feuillage</figDesc>
+                              <figDesc n="decoV" xml:lang="en">Circle of leaves</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2025-04-22" who="#PE">Creation of the XML record.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp>
+         <surface n="r">
+            <desc>Obverse</desc>
+            <graphic type="photo" url="CdN2004-0375_1.jpg">
+               <desc xml:lang="en">CdN 2004-0375, obverse</desc>
+               <desc xml:lang="fr">CdN 2004-0375, avers</desc>
+            </graphic>
+         </surface>
+         <surface n="v">
+            <desc>Reverse</desc>
+            <graphic type="photo" url="CdN2004-0375_2.jpg">
+               <desc xml:lang="en">CdN 2004-0375, reverse</desc>
+               <desc xml:lang="fr">CdN 2004-0375, revers</desc>
+            </graphic>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" subtype="editorial" xml:space="preserve"> 
+            <!--<div type="textpart" subtype="face" rend="columns" n="obv" xml:lang="la">
+              <ab/>
+            </div>-->
+            <div type="textpart" subtype="face" rend="circular" n="rev" xml:lang="la"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab ana="nom">
+                 <lb n="1"/><expan><abbr>D</abbr><ex>ominus</ex></expan> <expan><abbr>n</abbr><ex>oster</ex></expan> Artemius <supplied reason="lost">A</supplied>nastasius <expan><abbr>mul</abbr><ex>tos</ex></expan> <expan><supplied reason="lost"><abbr>a</abbr></supplied><ex>nnos</ex></expan>
+              </ab>
+            </div>
+              </div>
+         <div type="edition" subtype="diplomatic" xml:space="preserve"> 
+            <!--<div type="textpart" subtype="face" n="obv" rend="columns" xml:lang="la">
+                      <ab/>
+                  </div>-->
+                  <div type="textpart" subtype="face" rend="circular" n="rev" xml:lang="la"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <lb n="1"/>̣νaptemis.nastasisml.
+              </ab>
+                  </div>
+              </div>
+         <div type="translation">
+            <p>Dominus noster Artemius Anastasius multos annos.</p>
+            <p xml:lang="en">(To)Our Lord Artemius Anastasius many years</p>
+            <p xml:lang="fr">(A) notre seigneur Artemius Anastasius, beaucoup d'années</p>
+         </div>
+         <div type="commentary" subtype="text">
+            <!-- renvois internes à refaire -->
+            <p xml:lang="en">When Georges Bouraphos' plans and these of his accomplices' to usurp
+               the throne by blinding Philippikos Bardanes (711-713)
+               were thwarted,  the protoasekretis Artemios has been  proclaimed
+               emperor by the crowd, in the Church of Hagia Sophia. He took the name Anastasius in
+               honor of Anastasius I (491-518), whose memory as a just and prudent administrator
+               remained vivid.
+               This seal, the only known example of Anastasius II, reproduces the portrait
+               that appears on almost all of his coin issues. The faded letters
+               at the end of the circular inscription most likely correspond
+               to the abbreviation of the wishes that complete the inscription on all
+               of his gold coins.</p>
+            <p xml:lang="en"/>
+            <p xml:lang="fr">Lorsque les projets de Georges Bouraphos et de ses complices d’usurper
+               le trône en crevant les yeux à Philippikos Bardanès (711-713) eurent avorté, c’est le
+               prôtoasèkrètis Artémios que la foule proclama empereur dans l’église de
+               Sainte-Sophie. Il prit le nom d’Anastase en hommage à Anastase Ier (491-518), dont le
+               souvenir d’administrateur juste et prudent était resté vivace. Ce sceau, unique
+               exemplaire connu d’Anastase II, reproduit le portrait qui figure sur presque toutes
+               ses émissions monétaires. Les lettres effacées à la fin de l’inscription circulaire
+               correspondent fort probablement à l’abréviation des voeux qui complètent
+               l’inscription de toutes ses monnaies d’or.</p>
+            <p xml:lang="fr"/>
+         </div>
+         <div type="bibliography" subtype="edition">
+            <p><bibl>
+                  <ptr target="Zacos2"/>, n° <citedRange unit="entry"
+                     >31</citedRange></bibl>.
+               <bibl/>
+            </p>
+         </div>
+         <div type="bibliography" subtype="parallels">
+            <p/>
+         </div>
+         <div type="bibliography" subtype="discussion">
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

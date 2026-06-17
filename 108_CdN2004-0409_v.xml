@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en">Christophore Mitylenaios, imperial protospatharios judge of the
+               Hippodromos and of the Anatolikoi</title>
+            <title xml:lang="fr">Christophore Mitylènaios, protospathaire impérial, juge de
+               l’Hippodrome et des Anatoliques</title>
+            <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
+            <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+            <funder>
+               <orgName corresp="https://www.mahmah.ch/">MAH-Musée d'art et d'histoire - Genève,
+                  Cabinet de numismatique</orgName>, Suisse </funder>
+            <principal ref="#MCP"/>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <seg xml:lang="fr">Amélioration digitale</seg>
+               <seg xml:lang="en">Digital enhancement</seg>
+            </edition>
+            <editor role="digital-editor" xml:id="PE" when="2025-04-02">Pia Evening</editor>
+            <editor role="digital-editor" ref="#MCP" when="2026-01-15">Maria Campagnolo-Pothitou</editor>
+         </editionStmt>
+         <publicationStmt>
+            <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
+            <idno type="filename">CdN 2004-0409</idno>
+            <idno type="SigiDocID">s-Elajw3</idno>
+            <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+            <idno type="sequence"/>
+            <!--  to be compiled automatically; leave as is  -->
+            <date when="2024-08-06"/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                  >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                  4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listPerson type="issuer">
+               <person gender="M" role="civil aristocracy">
+                  <persName xml:lang="grc">
+                     <forename>Χριστόφορος</forename>/> <surname>Μιτυληναῖος</surname>/> </persName>
+                  <persName xml:lang="fr">
+                     <forename>Christophore</forename>/> <surname>Mitylènaios</surname>/> </persName>
+                  <persName xml:lang="en">
+                     <forename>Christophore</forename>/> <surname>Mitylenaios</surname>/> </persName>
+                  <idno type="PBW" ana="http://pbw2016.kdl.kcl.ac.uk/person/Christophoros/20132/"
+                     >Christophoros 20132</idno>
+                  <idno type="PBE"/>
+                  <idno type="PLP"/>
+                  <idno type="PLRE"/>
+                  <idno type="PcBE"/>
+                  <idno type="PmbZ"/>
+               </person>
+            </listPerson>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <seg xml:lang="en">Switzerland</seg>
+                     <seg xml:lang="fr">Suisse</seg>
+                  </country>
+                  <settlement>
+                     <seg xml:lang="en">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">City of
+                           Geneva</placeName>
+                     </seg>
+                     <seg xml:lang="fr">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">Ville de
+                           Genève</placeName>
+                     </seg>
+                  </settlement>
+                  <institution>MAH-Musée d'art et d'histoire</institution>
+                  <repository>Cabinet de numismatique</repository>
+                  <collection type="public">
+                     <rs type="collection-name" xml:lang="en">Byzantine seals collection</rs>
+                     <rs type="collection-name" xml:lang="fr">Collection de sceaux byzantins</rs>
+                  </collection>
+                  <idno type="inv-nr-current">CdN 2004-0409</idno>
+                  <altIdentifier>
+                     <repository/>
+                     <idno type="inv-nr-former"/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <!--https://github.com/SigiDoc/Guidelines/wiki/5.-Controlled-vocabularies#seals-category-->
+                  <summary n="whole">
+                     <seg xml:lang="fr">Administration provinciale</seg>
+                     <seg xml:lang="en">Provincial administration</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>
+                              <term>
+                                 <seg xml:lang="fr">Sceau</seg>
+                                 <seg xml:lang="en">Seal</seg>
+                              </term>
+                              <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                              <interp type="workType" xml:lang="en">Original impression</interp>
+                           </objectType>
+                           <material>
+                              <seg xml:lang="fr">Plomb</seg>
+                              <seg xml:lang="en">Lead</seg>
+                           </material>
+                           <dimensions type="support" unit="mm">
+                              <dim type="diameter">30,37/28,28</dim>
+                              <!-- mesure du champ? -->
+                           </dimensions>
+                           <measure type="weight" unit="g">15,439</measure>
+                           <measure type="axis" unit="clock"/>
+                           <measure type="overstrikeOrient" unit="clock"/>
+                           <measure type="channelOrient" unit="clock">1-7</measure>
+                           <measure type="countermark" unit="clock"/>
+                        </support>
+                        <condition rend="well-struck well-preserved chipped crushed">
+                           <p xml:lang="en">The bulla is well-struck, but slightly not centered on
+                              the obverse, and well-preserved; slightly chipped at the openings of
+                              the channel and partially crushed on the reverse.</p>
+                           <p xml:lang="fr">La bulle est bien frappée, même si légèrement décentré
+                              sur l'avers, et bien conservée; légèrement échancrée aux orifices du
+                              canal et partiellement écrasée sur le revers.</p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout n="whole">
+                           <rs type="execution">
+                              <seg xml:lang="fr">Frappé</seg>
+                              <seg xml:lang="en">Struck</seg>
+                           </rs>
+                           <rs type="shape">
+                              <seg xml:lang="fr">Ronde</seg>
+                              <seg xml:lang="en">Round</seg>
+                           </rs>
+                           <rs type="matrix" subtype="not-surviving">
+                              <idno type="SigiDoc">m-MuN3NP</idno>
+                              <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+                              <idno type="PBW"/>
+                              <!-- to be used if the seal has a parallel in the PBW with a boulloterion registered there -->
+                           </rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <seg xml:lang="fr">Anatoliques<placeName/>
+                        </seg>
+                        <seg xml:lang="en">Anatolikoi<placeName/>
+                        </seg>
+                     </origPlace>
+                     <origDate type="analysis" notBefore="1026" notAfter="1050"
+                        evidence="epigraphy prosopography titulature onomastics" cert="high"
+                        resp="#MCP #JCC">
+                        <seg xml:lang="en">Second quarter of the 11th century</seg>
+                        <seg xml:lang="fr">Second quart du XIe siècle</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="transferred" subtype="donated" when="2004-11-24">
+                     <!-- pas sûr de subtype et when -->
+                     <p xml:lang="en">George Zacos collection</p>
+                     <p xml:lang="fr">Collection Georges Zacos</p>
+                  </provenance>
+                  <acquisition>
+                     <p xml:lang="en">Donation of the Migore Foundation, Janet Zakos legacy, <date
+                           when="2004-11-24">24th November 2004</date>
+                     </p>
+                     <p xml:lang="fr">Don de la Fondation Migore, legs Janet Zakos, <date
+                           when="2004-11-24">24 Novembre 2004</date>
+                     </p>
+                  </acquisition>
+               </history>
+               <msPart n="r">
+                  <msIdentifier/>
+                  <msContents>
+                     <!-- ajouté ceci -->
+                     <summary n="r">
+                        <seg xml:lang="en">Obverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="r">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="fr">Légende linéaire sur 6 lignes</p>
+                              <p xml:lang="en">Linear legend of 6 lines</p>
+                           </layout>
+                        </layoutDesc>
+
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="r">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="decoR" xml:lang="fr">Cercle de grènetis; la légende est
+                                 surmontée un tiret accosté de deux perles et précédée d'une croix,
+                                 alors que la dernière ligne est cantonnée de tirets</figDesc>
+                              <figDesc n="decoR" xml:lang="en">Circle of dots; the legend is
+                                 preceded by a crosslet and surmounted by a trait between two
+                                 pearls, while the last line is placed between traits</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+               <msPart n="v">
+                  <msIdentifier/>
+                  <msContents>
+                     <summary n="v"><!-- ajouté ceci -->
+                        <seg xml:lang="en">Reverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="v">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="en">Linear legend of six lines</p>
+                              <p xml:lang="fr">Légende linéaire sur 6 lignes</p>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="v">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="decoV" xml:lang="fr">Cercle de grènetis; la dernière ligne
+                                 est placée entre deux tirets ; au sommet et à la base du champ, une
+                                 perle accostée de tirets</figDesc>
+                              <figDesc n="decoV" xml:lang="en">Circle of dots; the last line is
+                                 between traits; above and under the legend, a pearl between
+                                 traits</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2025-04-02" who="#PE">Creation of the XML record.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp>
+         <surface n="r">
+            <desc>Obverse</desc>
+            <graphic type="photo" url="CdN2004-0409_1.jpg">
+               <desc xml:lang="en">CdN 2004-0409, obverse</desc>
+               <desc xml:lang="fr">CdN 2004-0409, avers</desc>
+            </graphic>
+         </surface>
+         <surface n="v">
+            <desc>Reverse</desc>
+            <graphic type="photo" url="CdN2004-0409_2.jpg">
+               <desc xml:lang="en">CdN 2004-0409, reverse</desc>
+               <desc xml:lang="fr">CdN 2004-0409, revers</desc>
+            </graphic>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" subtype="editorial" xml:space="preserve"> 
+            <div type="textpart" subtype="face" rend="linear" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab ana="dat">
+                 <lb n="1"/><rs type="invocation" ref="#inv004"><expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan> βο
+                 <lb n="2" break="no"/>ήθει <supplied reason="lost">τ</supplied>ῷ 
+                 <lb n="3"/>σῷ <expan><abbr>δούλ</abbr><ex>ῳ</ex></expan></rs> <expan><abbr>Χρισ
+                 <lb n="4" break="no"/>τοφόρ</abbr><ex>ῳ</ex></expan> <rs type="dignity" ref="#d0067"><expan><abbr>β</abbr><ex>ασιλικῷ</ex></expan> <expan><abbr><am>Α</am></abbr><ex>πρωτο</ex>
+                 <lb n="5" break="no"/><abbr>σπαθα
+                 <lb n="6" break="no"/>ρ</abbr><ex>ίῳ</ex></expan></rs>
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab ana="dat">
+                         <lb n="7"/><rs type="office" subtype="civil" ref="#of0112"><expan><abbr><supplied reason="lost">κ</supplied>ριτ</abbr><ex>ῇ</ex></expan></rs> ἐ
+                         <lb n="8" break="no"/>πὶ <expan><abbr>τ</abbr><ex>οῦ</ex></expan> <rs type="institution" ref="#org0017"><expan><abbr>Ἱππο
+                         <lb n="9" break="no"/><supplied reason="lost">δ</supplied>ρόμ</abbr><ex>ου</ex></expan></rs> <expan><abbr>κ</abbr><ex>αὶ</ex></expan> τῶν 
+                         <lb n="10"/><placeName ref="#geo0016"><expan><abbr>Ἀνατολικ</abbr><ex>ῶν</ex></expan></placeName> 
+                         <lb n="11"/>τῷ Μιτυλη
+                         <lb n="12" break="no"/>ναίῳ
+                      </ab>
+                  </div>
+              </div>
+         <div type="edition" subtype="diplomatic" xml:space="preserve"> 
+                  <div type="textpart" subtype="face" rend="linear" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <lb n="0"/>
+                 <lb n="1"/>Kero 
+                 <lb n="2"/>ηθει.
+                 <lb n="3"/>σδλ/ χρις
+                 <lb n="4"/>τοφορ/ rʹαʹ
+                 <lb n="5"/>σπαθα
+                 <lb n="6"/>ρ/ 
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab>
+                         <lb n="0"/>   
+                         <lb n="7"/>.ρι̣τ̣/ ε                                              
+                         <lb n="8"/>π̣ιτ/  ιππο 
+                         <lb n="9"/>.ρομ/  κ/ τν
+                         <lb n="10"/>ανατολικ/
+                         <lb n="11"/>τμιτυλη
+                         <lb n="12"/>ναι
+                         <lb n="0"/>̣̣
+                         </ab>
+                  </div>
+              </div>
+         <div type="translation">
+            <p>+ Κύριε βοήθει τῷ σῷ δούλῳ Χριστοφόρῳ βασιλικῷ πρωτοσπαθαρίῳ || κριτῇ ἐπὶ τοῦ
+               Ἱπποδρόμου καὶ τῶν Ἀνατολικῶν τῷ Μιτυληναίῳ.</p>
+            <p xml:lang="en">Lord, help your servant Christophore Mitylenaios, imperial
+               protospatharios judge of the Hippodromos and of the Anatolikoi</p>
+            <p xml:lang="fr">Seigneur accorde ton secours à Christophore Mitylènaios, protospathaire
+               impérial, juge de l’Hippodrome et des Anatoliques</p>
+         </div>
+         <div type="commentary" subtype="text">
+            <!-- renvois internes à refaire -->
+            <p xml:lang="en">The judges of the Hippodrome or the Velum often combined their duties
+               in the capital with those of provincial judge, assuming civil administration, a very
+               lucrative and therefore highly sought-after combination. According to several seals
+               from the first half of the 11th century, all bilateral, Christophore Mitylenaios was
+               imperial protospatharios and theme judge in Mesopotamia (1020-1040)<bibl>
+                  <ptr target="BBÖ2"/>, n° <citedRange unit="entry">198</citedRange></bibl> , in
+               Charsianon (second quarter of the 11th century)<bibl>
+                  <ptr target="BBÖ2"/>, p. <citedRange unit="page">200.332</citedRange></bibl>, then
+               epi tou Chrysotriklinou, judge of Velum and Paphlagonia (first half of the 11th century)<bibl>
+                  <ptr target="Seyrig"/>, n° <citedRange unit="entry">193</citedRange></bibl>. We
+               have a namesake, whom Al.-K. Wassiliou-Seibt and W. Seibt consider to be a relative
+               of this judge, namely the well-known poet of the first half of the 11th century, who,
+               according to the surviving manuscripts, was patrikios and judge of Velum and, later,
+               patrikios anthypatos, judge of Paphlagonia and Armenia. However, it is likely that
+               our judge should be identified with the poet of the same name, as the range of
+               positions held by him is consistent within a single career. Probably originating from the
+               island of Mytilene (Lesbos), the family produced several civil officers and
+               clergymen, active in the 11th century, known mainly through sigillography <bibl>
+                  <ptr target="JordanovCorpus2"/>, p. <citedRange unit="page"
+                  >294-295</citedRange></bibl>: 
+               – Constantine, presented in <bibl>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">36</citedRange></bibl>;
+               – Jean, according to four types of seals belonging to at least two, if not three
+               namesakes: protospatharios and drongarios of the imperial fleet <bibl>
+                  <ptr target="Seibt1997"/>, n° <citedRange unit="entry">4.3.8</citedRange></bibl>;
+               protospatharius and judge of the Optimates <bibl>
+                  <ptr target="DOseals3"/>, n° <citedRange unit="entry">71.24</citedRange></bibl>;
+               protospatharios and judge of Paphlagonia, possibly the brother of the poet for whom
+               he composed a funeral oration <bibl>
+                  <ptr target="DOseals4"/>, n° <citedRange unit="entry">11.12</citedRange></bibl>;
+               finally, a last private seal, without title or function <bibl><ptr
+                     target="DOsealsOnline"/>, n° <citedRange unit="entry">BZS
+                     1955.1.3201</citedRange></bibl>; – Niketas, asekretis <bibl>
+                  <ptr target="JordanovCorpus2"/>, n° <citedRange unit="entry"
+                  >470</citedRange></bibl>, was also asekretis and judge of the Aegean Sea <bibl>
+                  <ptr target="DOseals2"/>, n° <citedRange unit="entry">40.18</citedRange></bibl>;
+               – Michael, metropolitan of Thessaloniki <bibl>
+                  <ptr target="Leontiades2006"/>, n° <citedRange unit="entry"
+                     >45</citedRange></bibl>.</p>
+            <p xml:lang="en"/>
+            <p xml:lang="fr">Les juges de l’Hippodrome ou du Velum cumulent souvent leur charge dans
+               la capitale avec celle de juge d’une province, assumant son administration civile,
+               une combinaison très lucrative et donc très recherchée. Selon plusieurs sceaux de la
+               première moitié du XIe siècle, tous bilatéraux, Christophore Mitylènaios fut
+               protospathaire impérial et juge de thème, en Mésopotamie (1020-1040)<bibl>
+                  <ptr target="BBÖ2"/>, n° <citedRange unit="entry">198</citedRange></bibl> , dans
+               le Charsianon (deuxième quart du XIe siècle)<bibl>
+                  <ptr target="BBÖ2"/>, p. <citedRange unit="page">200.332</citedRange></bibl>, puis
+               épi tou Chrysotriklinou, juge du Velum et de Paphlagonie (première moitié du XIe siècle)<bibl>
+                  <ptr target="Seyrig"/>, n° <citedRange unit="entry">193</citedRange></bibl>. Nous
+               avons un homonyme, que Al.-K. Wassiliou-Seibt et W. Seibt considèrent comme un parent
+               de ce juge, c’est le poète bien connu de la première moitié du XIe siècle, qui,
+               d’après les manuscrits conservés, fut patrice et juge du Velum et, plus tard, patrice
+               anthypatos, juge de Paphlagonie et des Arméniaques. Cependant, il est probable qu’il
+               faille identifier notre juge au poète homonyme, car l’ensemble des charges exercées
+               est cohérent au sein d’une même carrière. Originaire vraisemblablement de l’île de
+               Mytilène (Lesbos), la famille a fourni plusieurs fonctionnaires civils et
+               ecclésiastiques, actifs au XIe siècle, essentiellement connus par la sigillographie <bibl>
+                  <ptr target="JordanovCorpus2"/>, p. <citedRange unit="page"
+                  >294-295</citedRange></bibl>: – Constantin, présenté dans <bibl>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">36</citedRange></bibl> ;
+               – Jean, selon quatre types de sceaux ayant appartenu au moins à deux, sinon trois
+               homonymes : protospathaire et drongaire de la flotte impériale <bibl>
+                  <ptr target="Seibt1997"/>, n° <citedRange unit="entry">4.3.8</citedRange></bibl>;
+               protospathaire et juge des Optimates <bibl>
+                  <ptr target="DOseals3"/>, n° <citedRange unit="entry">71.24</citedRange></bibl>;
+               protospathaire et juge de Paphlagonie, peut-être le frère du poète pour lequel il
+               composa un éloge funèbre <bibl>
+                  <ptr target="DOseals4"/>, n° <citedRange unit="entry">11.12</citedRange></bibl>;
+               enfin, un dernier sceau privé, sans titre et fonction <bibl>
+                  <ptr target="DOsealsOnline"/>, n° <citedRange unit="entry">BZS
+                     1955.1.3201</citedRange></bibl>() ; – Nicétas, asèkrètis <bibl>
+                  <ptr target="JordanovCorpus2"/>, n° <citedRange unit="entry"
+                  >470</citedRange></bibl>, fut aussi asèkrètis et juge de la mer Égée <bibl>
+                  <ptr target="DOseals2"/>, n° <citedRange unit="entry">40.18</citedRange></bibl>; –
+               Michel, métropolite de Thessalonique <bibl>
+                  <ptr target="Leontiades2006"/>, n° <citedRange unit="entry"
+               >45</citedRange></bibl>.</p>
+            <p xml:lang="fr"/>
+         </div>
+         <div type="bibliography" subtype="edition">
+            <p><bibl>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">108</citedRange></bibl>
+               <bibl/>
+            </p>
+         </div>
+         <div type="bibliography" subtype="parallels">
+            <p/>
+         </div>
+         <div type="bibliography" subtype="discussion">
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

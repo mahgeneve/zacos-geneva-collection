@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en">Michael Boïlas, sebastos</title>
+            <title xml:lang="fr">Michel Boïlas, sébaste</title>
+            <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
+            <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+            <funder>
+               <orgName corresp="https://www.mahmah.ch/">MAH-Musée d'art et d'histoire - Genève,
+                  Cabinet de numismatique</orgName>, Suisse</funder>
+            <principal ref="#MCP"/>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <seg xml:lang="fr">Amélioration digitale</seg>
+               <seg xml:lang="en">Digital enhancement</seg>
+            </edition>
+            <editor role="digital-editor" xml:id="PE" when="2025-04-22">Pia Evening</editor>
+            <editor role="digital-editor" ref="#MCP" when="2026-04-16">Maria
+               Campagnolo-Pothitou</editor>
+         </editionStmt>
+         <publicationStmt>
+            <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
+            <idno type="filename">CdN 2004-0331</idno>
+            <idno type="SigiDocID">s-HvjcXf</idno>
+            <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+            <idno type="sequence"/>
+            <!--  to be compiled automatically; leave as is  -->
+            <date when="2024-08-06"/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                  >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                  4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listPerson type="issuer">
+               <person gender="M" role="imperial aristocracy">
+                  <persName xml:lang="grc">
+                     <forename>Μιχαήλ</forename>/> <surname>Βοϊλᾶς</surname>/> </persName>
+                  <persName xml:lang="fr">
+                     <forename>Michel</forename>
+                     <surname>Boïlas</surname>
+                  </persName>
+                  <persName xml:lang="en">
+                     <forename>Michael</forename>
+                     <surname>Boïlas</surname>
+                  </persName>
+                  <idno type="PBW" ana=""/>
+                  <idno type="PBE"/>
+                  <idno type="PLP"/>
+                  <idno type="PLRE"/>
+                  <idno type="PcBE"/>
+                  <idno type="PmbZ"/>
+               </person>
+            </listPerson>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <seg xml:lang="en">Switzerland</seg>
+                     <seg xml:lang="fr">Suisse</seg>
+                  </country>
+                  <settlement>
+                     <seg xml:lang="en">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">City of
+                           Geneva</placeName>
+                     </seg>
+                     <seg xml:lang="fr">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">Ville de
+                           Genève</placeName>
+                     </seg>
+                  </settlement>
+                  <institution>MAH-Musée d'art et d'histoire</institution>
+                  <repository>Cabinet de numismatique</repository>
+                  <collection type="public">
+                     <rs type="collection-name" xml:lang="en">Byzantine seals collection</rs>
+                     <rs type="collection-name" xml:lang="fr">Collection de sceaux byzantins</rs>
+                  </collection>
+                  <idno type="inv-nr-current">CdN 2004-0331</idno>
+                  <altIdentifier>
+                     <repository/>
+                     <idno type="inv-nr-former"/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <!--https://github.com/SigiDoc/Guidelines/wiki/5.-Controlled-vocabularies#seals-category-->
+                  <summary n="whole">
+                     <seg xml:lang="fr">Dignitaires</seg>
+                     <seg xml:lang="en">Dignitaries</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>
+                              <term>
+                                 <seg xml:lang="fr">Sceau</seg>
+                                 <seg xml:lang="en">Seal</seg>
+                              </term>
+                              <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                              <interp type="workType" xml:lang="en">Original impression</interp>
+                           </objectType>
+                           <material>
+                              <seg xml:lang="fr">Plomb</seg>
+                              <seg xml:lang="en">Lead</seg>
+                           </material>
+                           <dimensions type="support" unit="mm">
+                              <dim type="diameter">34,44/35,93</dim>
+                              <!-- mesure du champ? -->
+                           </dimensions>
+                           <measure type="weight" unit="g">34,304</measure>
+                           <measure type="axis" unit="clock"/>
+                           <measure type="overstrikeOrient" unit="clock"/>
+                           <measure type="channelOrient" unit="clock">12-7</measure>
+                           <measure type="countermark" unit="clock"/>
+                        </support>
+                        <condition rend="well-struck well-preserved chipped">
+                           <p xml:lang="en">The bulla is well struck and well preserved, rather
+                              chipped at the opennings of the channel</p>
+                           <p xml:lang="fr">La bulle est bien frappée et bien conservée,
+                              echancrée aux orifices du canal</p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout n="whole">
+                           <rs type="execution">
+                              <seg xml:lang="fr">Frappé</seg>
+                              <seg xml:lang="en">Struck</seg>
+                           </rs>
+                           <rs type="shape">
+                              <seg xml:lang="fr">Ronde</seg>
+                              <seg xml:lang="en">Round</seg>
+                           </rs>
+                           <rs type="matrix" subtype="not-surviving">
+                              <idno type="SigiDoc">m-Uat2bd</idno>
+                              <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+                              <idno type="PBW"/>
+                              <!-- to be used if the seal has a parallel in the PBW with a boulloterion registered there -->
+                           </rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <seg xml:lang="fr">
+                           <placeName/>
+                        </seg>
+                        <seg xml:lang="en">
+                           <placeName/>
+                        </seg>
+                     </origPlace>
+                     <origDate type="analysis" notBefore="1201" notAfter="1300"
+                        evidence="epigraphy iconography" cert="high" resp="#MCP #JCC">
+                        <seg xml:lang="en">13th century</seg>
+                        <seg xml:lang="fr">XIIIe siècle</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="transferred" subtype="donated" when="2004-11-24">
+                     <!-- pas sûr de subtype et when -->
+                     <p xml:lang="en">George Zacos collection</p>
+                     <p xml:lang="fr">Collection Georges Zacos</p>
+                  </provenance>
+                  <acquisition>
+                     <p xml:lang="en">Donation of the Migore Foundation, Janet Zakos legacy, <date
+                           when="2004-11-24">24th November 2004</date>
+                     </p>
+                     <p xml:lang="fr">Don de la Fondation Migore, legs Janet Zakos, <date
+                           when="2004-11-24">24 Novembre 2004</date>
+                     </p>
+                  </acquisition>
+               </history>
+               <msPart n="r">
+                  <msIdentifier/>
+                  <msContents>
+                     <!-- ajouté ceci -->
+                     <summary n="r">
+                        <seg xml:lang="en">Obverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="r">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="fr">Iconographie avec des sigles de part et d'autre de
+                                 l'effigie</p>
+                              <p xml:lang="en">Iconography with sigla on either part of the
+                                 effigy</p>
+                           </layout>
+                        </layoutDesc>
+
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="r">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="r" xml:lang="fr" ana="person male archangel Michael">Saint
+                                 Michel de type Chôniatès, de face, en pied, ailes éployées. Revêtu
+                                 de la tunique courte sous la cuirasse et la chlamyde, l’archange
+                                 brandit en main droite une épée nue et saisit de la main gauche le
+                                 fourreau de l’épée dont la pointe repose, de biais, sur le
+                                 sol.</figDesc>
+                              <figDesc n="r" xml:lang="en" ana="person male archangel Michael">Saint
+                                 Michael of Chôniatès type, standing, with outstretched wings facing
+                                 forward. Clad in a short tunic beneath a cuirass and a chlamys, the
+                                 archangel is holding a drawn sword in his right hand, grasping the
+                                 scabbard of the sword with his left hand, its tip resting at an
+                                 angle on the ground.</figDesc>
+                              <figDesc n="decoR" xml:lang="fr">Cercle de grènetis</figDesc>
+                              <figDesc n="decoR" xml:lang="en">Border of dots</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+               <msPart n="v">
+                  <msIdentifier/>
+                  <msContents>
+                     <summary n="v"><!-- ajouté ceci -->
+                        <seg xml:lang="en">Reverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="v">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="en">Metrical linear legend of 6 lines</p>
+                              <p xml:lang="fr">Légende métrique linéaire sur 6 lignes</p>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="v">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="decoV" xml:lang="fr">Cercle de grènetis; la légende est
+                                 surmontée d’une croisette et suivie d’un ornement de courbes et de
+                                 perles.</figDesc>
+                              <figDesc n="decoV" xml:lang="en">Border of dots; the legend is
+                                 surmounted by a crosslet and followed by a wavy ornement.</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2025-04-22" who="#PE">Creation of the XML record.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp>
+         <surface n="r">
+            <desc>Obverse</desc>
+            <graphic type="photo" url="CdN2004-0331_1.jpg">
+               <desc xml:lang="en">CdN 2004-0331, obverse</desc>
+               <desc xml:lang="fr">CdN 2004-0331, avers</desc>
+            </graphic>
+         </surface>
+         <surface n="v">
+            <desc>Reverse</desc>
+            <graphic type="photo" url="CdN2004-0331_2.jpg">
+               <desc xml:lang="en">CdN 2004-0331, reverse</desc>
+               <desc xml:lang="fr">CdN 2004-0331, revers</desc>
+            </graphic>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" subtype="editorial" xml:space="preserve"> 
+            <div type="textpart" subtype="sigla" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="a"/><expan><abbr>Ἀρχ</abbr><ex>άγγελος</ex></expan> 
+                 <cb n="b"/><expan><abbr>Μ</abbr><ex>ι</ex><abbr>χ</abbr><ex>αήλ</ex></expan>
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <lg type="metrical" met="dodecasyllable">
+                         <l n="1">
+                            <lb n="1"/>Πτέρυξι 
+                            <lb n="2"/>ταῖς σαῖς καὶ λό
+                            <lb n="3" break="no"/>γους καὶ πρακτέα</l> 
+                            <l n="2"><lb n="4"/>σκέποις <rs type="dignity" ref="#d0075">σεβα
+                            <lb n="5" break="no"/>στοῦ</rs> Μιχαὴλ 
+                            <lb n="6"/>τοῦ Βοϊλᾶ 
+                         </l>
+                      </lg>
+                  </div>
+              </div>
+         <div type="edition" subtype="diplomatic" xml:space="preserve"> 
+                  <div type="textpart" subtype="sigla" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="a"/>χ|αρ
+                 <cb n="b"/>χ|
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab>
+                         <lb n="0"/>       
+                         <lb n="1"/>πτερυξι                        
+                         <lb n="2"/>ταιςσαισκαιλο
+                         <lb n="3"/>γσκαιπρακτεα
+                         <lb n="4"/>σκεποισσεβα
+                         <lb n="5"/>στουμιχαηλ
+                         <lb n="6"/>τουβοιλα
+                         <lb n="0"/>    
+                         </ab>
+                  </div>
+              </div>
+         <div type="translation">
+            <p>Ἀρχάγγελος Μιχαήλ. || + Πτέρυξι ταῖς σαῖς καὶ λόγους καὶ πρακτέα σκέποις σεβαστοῦ
+               Μιχαὴλ τοῦ Βοϊλᾶ.</p>
+            <p xml:lang="en">Archangel Michael. || + May protect with your wings the words and the
+               acts of the sebastos Michael Boïlas.</p>
+            <p xml:lang="fr">L'archange Michel. || + Veuille protéger de tes ailes les paroles et
+               les actes du sébaste Michel Boïlas.</p>
+         </div>
+         <div type="commentary" subtype="text">
+            <!-- renvois internes à refaire -->
+            <p xml:lang="en">Michael Boïlas is only known by this seal, the only one too struck in
+               this family name. Originated from the bulgarian nobility, as indicated by their
+               family name, the Boïlades entered in the service of the Empire from the 8th century
+               on. In the 11th century, several of them are mentionned in the sources for their
+               involvement in revolts or conspiracies, during Romanos Ist Lekapenos's reign, such as
+               the patrikios Bardas, strategos of Chaldia <bibl>
+                  <ptr target="Empereurs2003"/>, p. <citedRange unit="page">183</citedRange></bibl>,
+               and Romanos, the favourite at the court of Constantine IX Monomachos <bibl>
+                  <ptr target="Empereurs2003"/>, p. <citedRange unit="page">183</citedRange></bibl>; <bibl>
+                  <ptr target="PsellosChronographie1928"/>, p. <citedRange unit="page"
+                     >38-45</citedRange></bibl>. The memeber o the family the most well-documented
+               is the protospatharios and hypatos Eustathios Boïlas, known through the testament he drafted in 1059.
+               Originated from Cappadocia, Eustathios established with his family in the borders of Syria, where he acquired an important enough property to enable him to
+               provide for Michael Apokapes, doux of Edessa, and his sons, in whose service he
+               remained for fifteen years. His will is a rare and valuable source of information
+               on land ownership in the eastern provinces of the Empire in the 11th
+               century.</p>
+            <p xml:lang="en"/>
+            <p xml:lang="fr">Michel Boïlas n’est connu que par ce sceau, qui est aussi l’unique
+               bulle publiée au nom de ce nom de famille. Bulgares de noble origine, ainsi que le
+               rappelle le haut titre devenu leur patronyme, les Boïladés entrèrent au service de
+               l’Empire dès le VIIIe siècle. Au XIe siècle, plusieurs d’entre eux sont cités dans
+               les sources pour leur participation à des révoltes ou des complots, tels le patrice
+               Bardas, stratège de Chaldie, sous le règne de Romain Ier Lécapène <bibl>
+                  <ptr target="Empereurs2003"/>, p. <citedRange unit="page">183</citedRange></bibl>,
+               et Romain, le favori à la cour de Constantin IX Monomaque <bibl>
+                  <ptr target="Empereurs2003"/>, p. <citedRange unit="page">183</citedRange></bibl>; <bibl>
+                  <ptr target="PsellosChronographie1928"/>, p. <citedRange unit="page"
+                     >38-45</citedRange></bibl>. Le membre de la famille le mieux documenté reste
+               néanmoins le protospathaire et hypatos Eustathe Boïlas, connu grâce à son testament,
+               rédigé en 1059. Originaire de Cappadoce, il s’installa avec sa famille aux confins de
+               la Syrie, où il devint propriétaire d’une fortune assez honorable pour pouvoir en
+               faire profiter le duc d’Édesse Michel Apokapès et ses fils, au service desquels il
+               resta quinze ans. Son testament constitue une rare et précieuse source d’informations
+               sur la propriété foncière dans les provinces orientales de l’Empire au XIe
+               siècle.</p>
+            <p xml:lang="fr"/>
+         </div>
+         <div type="bibliography" subtype="edition">
+            <p><bibl>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">199a</citedRange></bibl>
+               <bibl/>
+            </p>
+         </div>
+         <div type="bibliography" subtype="parallels">
+            <p> Genève, CdN 2004-0380:
+               <bibl>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">199b</citedRange></bibl></p>
+            <p> Munich, Staatliche Münzsammlung </p>
+            <p> ancienne collection Zarnitz:
+            <bibl>
+               <ptr target="Seibt1997"/>, n° <citedRange unit="entry">4.1.10</citedRange></bibl></p>
+            <p> Fogg 777 </p>
+            <p> BZS. 1955.1.3959; BZS. 1958.106.5192 </p>
+            <p> Zacos (BnF) 818 </p>
+            <p> Baltimore, Walters Art Gallery </p>
+            <p> collection Théodoridis, n° 69:
+               <bibl>
+                  <ptr target="CheynetTheodoridis"/>, n° <citedRange unit="entry">29</citedRange></bibl></p>
+            
+         </div>
+         <div type="bibliography" subtype="discussion">
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

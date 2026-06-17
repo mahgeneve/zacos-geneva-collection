@@ -39,7 +39,7 @@
             <listPerson type="issuer">
                <person gender="M" role="civil aristocracy">
                   <persName xml:lang="grc">
-                     <forename>Μιχαὴλ</forename>/> <surname>Παλαιολόγος</surname>/> </persName>
+                     <forename>Μιχαήλ</forename>/> <surname>Παλαιολόγος</surname>/> </persName>
                   <persName xml:lang="fr">
                      <forename>Michel</forename>/> <surname>Paléologue</surname>/> </persName>
                   <persName xml:lang="en">
@@ -318,7 +318,7 @@
             </div>
                   <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
                       <ab>
-                         <lb n="2"/>ΛΟΓΟΘΕ
+                         <lb n="2"/>ΛΟΓΟΘΕ
                          <lb n="3"/>ΤΣΦΡΓΙ     
                          <lb n="4"/>ΠΛΕ                               
                          <lb n="5"/>ΟΛΟυΓΟ

@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en">Constantine Katakalon, vestes, judge of the Hippodrome and of the
+               Aegean sea</title>
+            <title xml:lang="fr">Constantin Katakalôn, vestès, juge de l’Hippodrome et de la mer
+               Égée</title>
+            <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
+            <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+            <funder>
+               <orgName corresp="https://www.mahmah.ch/">MAH-Musée d'art et d'histoire - Genève,
+                  Cabinet de numismatique</orgName>, Suisse</funder>
+            <principal ref="#MCP"/>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <seg xml:lang="fr">Amélioration digitale</seg>
+               <seg xml:lang="en">Digital enhancement</seg>
+            </edition>
+            <editor role="digital-editor" xml:id="PE" when="2025-04-14">Pia Evening</editor>
+            <editor role="digital-editor" ref="#MCP" when="2026-02-05">Maria
+               Campagnolo-Pothitou</editor>
+         </editionStmt>
+         <publicationStmt>
+            <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
+            <idno type="filename">CdN 2004-0282</idno>
+            <idno type="SigiDocID">s-c11g8l</idno>
+            <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+            <idno type="sequence"/>
+            <!--  to be compiled automatically; leave as is  -->
+            <date when="2024-08-06"/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                  >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                  4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listPerson type="issuer">
+               <person gender="M" role="civil aristocracy">
+                  <persName xml:lang="grc">
+                     <forename>Κωνσταντῖνος</forename>
+                     <surname>Κατακαλὼν</surname>
+                  </persName>
+                  <persName xml:lang="fr">
+                     <forename>Constantin</forename>
+                     <surname>Katakalôn</surname>
+                  </persName>
+                  <persName xml:lang="en">
+                     <forename>Constantine</forename>
+                     <surname>Katakalon</surname>
+                  </persName>
+                  <idno type="PBW" ana=""/>
+                  <idno type="PBE"/>
+                  <idno type="PLP"/>
+                  <idno type="PLRE"/>
+                  <idno type="PcBE"/>
+                  <idno type="PmbZ"/>
+               </person>
+            </listPerson>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <seg xml:lang="en">Switzerland</seg>
+                     <seg xml:lang="fr">Suisse</seg>
+                  </country>
+                  <settlement>
+                     <seg xml:lang="en">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">City of
+                           Geneva</placeName>
+                     </seg>
+                     <seg xml:lang="fr">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">Ville de
+                           Genève</placeName>
+                     </seg>
+                  </settlement>
+                  <institution>MAH-Musée d'art et d'histoire</institution>
+                  <repository>Cabinet de numismatique</repository>
+                  <collection type="public">
+                     <rs type="collection-name" xml:lang="en">Byzantine seals collection</rs>
+                     <rs type="collection-name" xml:lang="fr">Collection de sceaux byzantins</rs>
+                  </collection>
+                  <idno type="inv-nr-current">CdN 2004-0282</idno>
+                  <altIdentifier>
+                     <repository/>
+                     <idno type="inv-nr-former"/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <!--https://github.com/SigiDoc/Guidelines/wiki/5.-Controlled-vocabularies#seals-category-->
+                  <summary n="whole">
+                     <seg xml:lang="fr">Administration provincial</seg>
+                     <seg xml:lang="en">Provincial administration</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>
+                              <term>
+                                 <seg xml:lang="fr">Sceau</seg>
+                                 <seg xml:lang="en">Seal</seg>
+                              </term>
+                              <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                              <interp type="workType" xml:lang="en">Original impression</interp>
+                           </objectType>
+                           <material>
+                              <seg xml:lang="fr">Plomb</seg>
+                              <seg xml:lang="en">Lead</seg>
+                           </material>
+                           <dimensions type="support" unit="mm">
+                              <dim type="diameter">28,11/27,35</dim>
+                              <!-- mesure du champ? -->
+                           </dimensions>
+                           <measure type="weight" unit="g">17,958</measure>
+                           <measure type="axis" unit="clock"/>
+                           <measure type="overstrikeOrient" unit="clock"/>
+                           <measure type="channelOrient" unit="clock">12-6</measure>
+                           <measure type="countermark" unit="clock"/>
+                        </support>
+                        <condition rend="well-struck well-preserved chipped">
+                           <p xml:lang="en">The bulla is well struck and well preserved, very
+                              slightly chipped on the edge</p>
+                           <p xml:lang="fr">La bulle est bine frappée et bien conservée, bien que
+                              légèrement rognée sur la tranche </p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout n="whole">
+                           <rs type="execution">
+                              <seg xml:lang="fr">Frappé</seg>
+                              <seg xml:lang="en">Struck</seg>
+                           </rs>
+                           <rs type="shape">
+                              <seg xml:lang="fr">Ronde</seg>
+                              <seg xml:lang="en">Round</seg>
+                           </rs>
+                           <rs type="matrix" subtype="not-surviving">
+                              <idno type="SigiDoc">m-AJUngp</idno>
+                              <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+                              <idno type="PBW"/>
+                              <!-- to be used if the seal has a parallel in the PBW with a boulloterion registered there -->
+                           </rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <seg xml:lang="fr">Mer Egée<placeName/>
+                        </seg>
+                        <seg xml:lang="en">Aegean Sea<placeName/>
+                        </seg>
+                     </origPlace>
+                     <origDate type="analysis" notBefore="1041" notAfter="1060"
+                        evidence="onomastics epigraphy titulature" cert="high" resp="#MCP #JCC">
+                        <seg xml:lang="en">Mid-11th century</seg>
+                        <seg xml:lang="fr">Milieu du XIe siècle</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="transferred" subtype="donated" when="2004-11-24">
+                     <!-- pas sûr de subtype et when -->
+                     <p xml:lang="en">George Zacos collection</p>
+                     <p xml:lang="fr">Collection Georges Zacos</p>
+                  </provenance>
+                  <acquisition>
+                     <p xml:lang="en">Donation of the Migore Foundation, Janet Zakos legacy, <date
+                           when="2004-11-24">24th November 2004</date>
+                     </p>
+                     <p xml:lang="fr">Don de la Fondation Migore, legs Janet Zakos, <date
+                           when="2004-11-24">24 Novembre 2004</date>
+                     </p>
+                  </acquisition>
+               </history>
+               <msPart n="r">
+                  <msIdentifier/>
+                  <msContents>
+                     <!-- ajouté ceci -->
+                     <summary n="r">
+                        <seg xml:lang="en">Obverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="r">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="fr">Légende linéaire sur 6 lignes</p>
+                              <p xml:lang="en">Linear legend of 6 lines</p>
+                           </layout>
+                        </layoutDesc>
+
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="r">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+
+                              <figDesc n="decoR" xml:lang="fr">Cercle de grènetis; la légende est
+                                 précédée d’une croisette ; la dernière ligne est accostée de
+                                 tirets</figDesc>
+                              <figDesc n="decoR" xml:lang="en">Border of dots; the legend is
+                                 preceded by a crosslet and the last line is placed between
+                                 traits</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+               <msPart n="v">
+                  <msIdentifier/>
+                  <msContents>
+                     <summary n="v"><!-- ajouté ceci -->
+                        <seg xml:lang="en">Reverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="v">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="fr">Légende linéaire sur 5 lignes</p>
+                              <p xml:lang="en">Linear legend of 5 lines</p>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="v">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="decoV" xml:lang="fr">Cercle de grènetis; la légende est
+                                 surmontée et suivie d’une perle accostée de tirets</figDesc>
+                              <figDesc n="decoV" xml:lang="en">Border of dots; the legend is
+                                 surmounted and followed by a pearl placed between traits</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2025-04-14" who="#PE">Creation of the XML record.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp>
+         <surface n="r">
+            <desc>Obverse</desc>
+            <graphic type="photo" url="CdN2004-0282_1.jpg">
+               <desc xml:lang="en">CdN 2004-0282, obverse</desc>
+               <desc xml:lang="fr">CdN 2004-0282, avers</desc>
+            </graphic>
+         </surface>
+         <surface n="v">
+            <desc>Reverse</desc>
+            <graphic type="photo" url="CdN2004-0282_2.jpg">
+               <desc xml:lang="en">CdN 2004-0282, reverse</desc>
+               <desc xml:lang="fr">CdN 2004-0282, revers</desc>
+            </graphic>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" subtype="editorial" xml:space="preserve"> 
+            <div type="textpart" subtype="face" rend="linear" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab ana="dat">  
+                 <lb n="1"/><rs type="invocation" ref="#inv003"><expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan> βο
+                 <lb n="2" break="no"/>ήθει</rs> <expan><abbr>Κων</abbr><ex>σταντίνῳ</ex></expan> 
+                 <lb n="3"/><rs type="dignity" ref="#d0018">βέστῃ</rs> <rs type="office" subtype="civil" ref="#of0112">κρι
+                 <lb n="4" break="no"/>τῇ</rs> ἐπὶ τοῦ <rs type="institution" ref="#org0017"><expan><abbr>Ἱ
+                 <lb n="5" break="no"/>πποδρό
+                 <lb n="6" break="no"/>μ</abbr><ex>ου</ex></expan></rs>
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab ana="dat">
+                         <lb n="7"/>καὶ τοῦ 
+                         <lb n="8"/><placeName ref="#geo0039">Αἰγαίου 
+                         <lb n="9"/>Πελάγους</placeName> 
+                         <lb n="10"/>τῷ Κατα
+                         <lb n="11" break="no"/>καλών
+                      </ab>
+                  </div>
+              </div>
+         <div type="edition" subtype="diplomatic" xml:space="preserve"> 
+                  <div type="textpart" subtype="face" rend="linear" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <lb n="1"/> Kerο                                     
+                 <lb n="2"/>ηθεικν
+                 <lb n="3"/>rεστηκρι
+                 <lb n="4"/>τηεπιτι
+                 <lb n="5"/>οδρο
+                 <lb n="6"/>μ/ 
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab>
+                         <lb n="0"/> 
+                         <lb n="7"/>καιτ                    
+                         <lb n="8"/>αιγαιου
+                         <lb n="9"/>πελαγους
+                         <lb n="10"/>τκατα
+                         <lb n="11"/>καλν
+                         <lb n="0"/> 
+                         </ab>
+                  </div>
+              </div>
+         <div type="translation">
+            <p>+ Κύριε βοήθει Κωνσταντίνῳ βέστῃ, κριτῇ ἐπὶ τοῦ Ἱπποδρόμου || καὶ τοῦ Αἰγαίου
+               Πελάγους τῷ Κατακαλών.</p>
+            <p xml:lang="en">Lord, help Constantine Katakalon, vestes, judge of the Hippodrome and
+               of the Aegean sea</p>
+            <p xml:lang="fr">Seigneur, accorde ton secours à Constantin Katakalôn, vestès, juge de
+               l’Hippodrome et de la mer Égée</p>
+         </div>
+         <div type="commentary" subtype="text">
+            <!-- renvois internes à refaire -->
+            <p xml:lang="en">The illustrious 11th-century Katakalon family appears in 9th-century
+               sources, with the domestikos of the Scholes, Leon Katakalon Abidelas. Among the many
+               known namesakes in the sources, mostly military figures <bibl>
+                  <ptr target="CheynetTheodoridis"/>, p. <citedRange unit="page"
+                     >112-113</citedRange></bibl>, our seal could be linked to the
+               spatharocandidatos, chartoularios and episkeptites of Rodandos, whose seal, also
+               bilateral, is slightly older <bibl>
+                  <ptr target="DOseals4"/>, n° <citedRange unit="entry">46.1</citedRange></bibl>.
+               Several members of the family are attested by sigillography in the 11th century,
+               serving the Empire, including both military personnel (Demetrius, patrikios and
+               strategos, then patrikios and katepano of Paradounavon<bibl>
+                  <ptr target="JordanovCorpus2"/>, n° <citedRange unit="entry"
+                  >300-304</citedRange></bibl>; <bibl>
+                  <ptr target="DOseals1"/>, n° <citedRange unit="entry">67.1</citedRange></bibl>,
+               John, protospatharios and tagmatophylax<bibl>
+                  <ptr target="Athens2001"/>, n° <citedRange unit="entry">117</citedRange></bibl>)
+               and fiscal officials, such as two bishops of Rodandos, Epiphanios <bibl>
+                  <ptr target="ZacosOrient"/>, n° <citedRange unit="entry">43</citedRange></bibl>; <bibl>
+                  <ptr target="DOseals4"/>, n° <citedRange unit="entry">46.3</citedRange></bibl>,
+               and the chartoularios Constantine<bibl>
+                  <ptr target="BBÖ2"/>, p. <citedRange unit="page">64, note 249</citedRange></bibl>,
+               perhaps the same person as our seal-bearer. At the beginning of the same century,
+               Theodore Katakalon, protospatharios, was Grand Curator of the imperial estate of
+               Eleutherios. Through marriages with several aristocratic families, the name also
+               appears as a second surname, notably among the Bryennioi and Euphorbènoi, such as
+               Constantine Euphorbenos Katakalon, general of Alexis Ist and future doux of Cyprus<bibl>
+                  <ptr target="Orghidan"/>, n° <citedRange unit="entry">205</citedRange></bibl>;<bibl>
+                  <ptr target="DOseals2"/>, n° <citedRange unit="entry">38.6</citedRange></bibl>,
+               and his son Nicephore, who became Alexis's son-in-law by marrying his daughter, Maria
+               Komnena. In the 12th century, the Katakalon are represented by Alexis and Andronicos,
+               sons of this couple. Another Andronicos died young in the army of Alexis III Angelos,
+               and then the family almost disappears from the records. Nicholas Katakalon left a
+               private seal, dated to the 13th/14th century, bearing the image of the Virgin
+               Hodegetria (Vente Gorny 147, mars 2006, n° 2709). Κατάκαλος is also attested as a
+               single name in a declined form. Sometimes, it is difficult to distinguish: was the
+               famous magistros and doux of Antioch, Katakalon Kékaumenos, named after his parents'
+               family names, or was Katakalon a "given forename"? <bibl>
+                  <ptr target="Zacos2"/>, n° <citedRange unit="entry">931 et
+               996</citedRange></bibl></p>
+            <p xml:lang="en"/>
+            <p xml:lang="fr">Illustre famille du XIe siècle, les Katakalôn apparaissent dans les
+               sources du IXe siècle, avec le domestique des Scholes Léon Katakalôn Abidélas. Parmi
+               les nombreux homonymes connus des sources, majoritairement des militaires <bibl>
+                  <ptr target="CheynetTheodoridis"/>, p. <citedRange unit="page"
+                     >112-113</citedRange></bibl>, notre sigillant pourrait être rapproché du
+               spatharocandidat, chartulaire et épiskeptitès de Rodandos, dont le sceau, également
+               bilatéral, est un peu plus ancien<bibl>
+                  <ptr target="DOseals4"/>, n° <citedRange unit="entry">46.1</citedRange></bibl>.
+               Plusieurs membres de la famille sont attestés par la sigillographie au XIe siècle, au
+               service de l’Empire, aussi bien des militaires (Dèmètrios, patrice et stratège, puis
+               patrice et catépan du Paradounavon <bibl>
+                  <ptr target="JordanovCorpus2"/>, n° <citedRange unit="entry"
+                  >300-304</citedRange></bibl>; <bibl>
+                  <ptr target="DOseals1"/>, n° <citedRange unit="entry">67.1</citedRange></bibl>;
+               Jean, protospathaire et tagmatophylax<bibl>
+                  <ptr target="Athens2001"/>, n° <citedRange unit="entry">117</citedRange></bibl>))
+               que des fonctionnaires fiscaux, tels deux épiskeptitai de Rodandos, Épiphane <bibl>
+                  <ptr target="ZacosOrient"/>, n° <citedRange unit="entry">43</citedRange></bibl>; <bibl>
+                  <ptr target="DOseals4"/>, n° <citedRange unit="entry">46.3</citedRange></bibl>,et
+               le chartulaire Constantin<bibl>
+                  <ptr target="BBÖ2"/>, p. <citedRange unit="page">64, note
+               249</citedRange></bibl>,, peut-être identique à notre sigillant. Au début du même
+               siècle, Théodore Katakalôn, protospathaire, était grand curateur du domaine impérial
+               d’Éleuthériou. À travers des unions matrimoniales avec plusieurs familles
+               aristocratiques, le nom figure aussi comme second patronyme, notamment chez les
+               Bryennioi et les Euphorbènoi, tels Constantin Euphorbènos Katakalôn, général d’Alexis
+               Ier et futur duc de Chypre<bibl>
+                  <ptr target="Orghidan"/>, n° <citedRange unit="entry">205</citedRange></bibl>;<bibl>
+                  <ptr target="DOseals2"/>, n° <citedRange unit="entry">38.6</citedRange></bibl>,,
+               et son fils Nicéphore, devenu gendre d’Alexis en épousant sa fille, Marie Comnène. Au
+               XIIe siècle, les Katakalôn sont représentés par Alexis et Andronic, fils de ce
+               couple. Un autre Andronic périt jeune dans l’armée d’Alexis III Ange, puis la famille
+               disparaît presque des sources. Nicolas Katakalôn a laissé un sceau privé, daté du
+               XIIIe/XIVe siècle, à l’effigie de la Vierge Hodègètria (Vente Gorny 147, mars 2006,
+               n° 2709). Κατάκαλος est aussi attesté comme nom unique sous une forme qui se décline.
+               Parfois, il est difficile de faire la distinction : le fameux magistre et duc
+               d’Antioche, Katakalôn Kékauménos, était-il nommé d’après les noms de famille de ses
+               parents ou Katakalôn était-il un « prénom » ?<bibl>
+                  <ptr target="Zacos2"/>, n° <citedRange unit="entry">931 et
+               996</citedRange></bibl></p>
+            <p xml:lang="fr"/>
+         </div>
+         <div type="bibliography" subtype="edition">
+            <p><bibl>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">138</citedRange></bibl>
+               <bibl/>
+            </p>
+         </div>
+         <div type="bibliography" subtype="parallels">
+            <p/>
+         </div>
+         <div type="bibliography" subtype="discussion">
+            <p>
+               <bibl>
+                  <ptr target="JordanovCorpus2"/>, p. <citedRange unit="page"
+                  >200</citedRange></bibl>; <bibl>
+                  <ptr target="CheynetTheodoridis"/>, p. <citedRange unit="page">113, note
+                     273</citedRange></bibl></p>
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en">Constantine IX Monomachos</title>
+            <title xml:lang="fr">Constantin IX Monomaque</title>
+            <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
+            <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+            <funder>
+               <orgName corresp="https://www.mahmah.ch/">MAH-Musée d'art et d'histoire - Genève,
+                  Cabinet de numismatique</orgName>, Suisse</funder>
+            <principal ref="#MCP"/>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <seg xml:lang="fr">Amélioration digitale</seg>
+               <seg xml:lang="en">Digital enhancement</seg>
+            </edition>
+            <editor role="digital-editor" xml:id="PE" when="2025-06-02">Pia Evening</editor>
+         </editionStmt>
+         <publicationStmt>
+            <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
+            <idno type="filename">CdN 2004-0537</idno>
+            <idno type="SigiDocID">s-X8AP5g</idno>
+            <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+            <idno type="sequence"/>
+            <!--  to be compiled automatically; leave as is  -->
+            <date when="2024-08-06"/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                  >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                  4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listPerson type="issuer">
+               <person gender="M" role="imperial">
+                  <persName xml:lang="grc">
+                     <forename>Κωνσταντῖνος Θ΄</forename>/>
+                     <surname>Μονομάχος</surname>/>
+                  </persName>
+                  <persName xml:lang="fr">
+                     <forename>Constantin IX</forename>
+                     <surname>Monomaque</surname>/>
+                  </persName>
+                  <persName xml:lang="en">
+                     <forename>Constantine IX</forename>/>
+                     <surname>Monomachos</surname>/>
+                  </persName>
+                  <idno type="PBW" ana="http://pbw2016.kdl.kcl.ac.uk/person/Konstantinos/115/">Konstantinos 115</idno>
+                  <idno type="PBW"/>
+                  <idno type="PBE"/>
+                  <idno type="PLP"/>
+                  <idno type="PLRE"/>
+                  <idno type="PcBE"/>
+                  <idno type="PmbZ"/>
+               </person>
+            </listPerson>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <seg xml:lang="en">Switzerland</seg>
+                     <seg xml:lang="fr">Suisse</seg>
+                  </country>
+                  <settlement>
+                     <seg xml:lang="en">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">City of
+                           Geneva</placeName>
+                     </seg>
+                     <seg xml:lang="fr">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">Ville de
+                           Genève</placeName>
+                     </seg>
+                  </settlement>
+                  <institution>MAH-Musée d'art et d'histoire</institution>
+                  <repository>Cabinet de numismatique</repository>
+                  <collection type="public">
+                     <rs type="collection-name" xml:lang="en">Byzantine seals collection</rs>
+                     <rs type="collection-name" xml:lang="fr">Collection de sceaux byzantins</rs>
+                  </collection>
+                  <idno type="inv-nr-current">CdN 2004-0537</idno>
+                  <altIdentifier>
+                     <repository/>
+                     <idno type="inv-nr-former"/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <!--https://github.com/SigiDoc/Guidelines/wiki/5.-Controlled-vocabularies#seals-category-->
+                  <summary n="whole">
+                     <seg xml:lang="fr">impérial</seg>
+                     <seg xml:lang="en">imperial</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>
+                              <term>
+                                 <seg xml:lang="fr">Bulle d'or de 5 solidi (Pentasoldia)</seg>
+                                 <seg xml:lang="en">Golden bulla of 5 solidi (Pentasoldia)</seg>
+                              </term>
+                              <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                              <interp type="workType" xml:lang="en">Original impression</interp>
+                           </objectType>
+                           <material>
+                              <seg xml:lang="fr">Or</seg>
+                              <seg xml:lang="en">Gold</seg>
+                           </material>
+                           <dimensions type="support" unit="mm">
+                              <dim type="diameter">28,50</dim>
+                              <!-- mesure du champ? -->
+                           </dimensions>
+                           <measure type="weight" unit="g">21,906</measure>
+                           <measure type="axis" unit="clock"/>
+                           <measure type="overstrikeOrient" unit="clock"/>
+                           <measure type="channelOrient" unit="clock">12-6</measure>
+                           <measure type="countermark" unit="clock"/>
+                        </support>
+                        <condition rend="well-preserved deformed-blank crushed not-centered">
+                           <p xml:lang="en">The bulla is well-preserved, struck slightly off-center and slightly crushed, it presents strange droplets on the obverse</p>
+                           <p xml:lang="fr">La bulle est décentrée et légèrement écrasée, mais bien conservée; sur l'avers, elle présente des "gouttelettes" de métal inattendues</p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout n="whole">
+                           <rs type="execution">
+                              <seg xml:lang="fr">Frappé</seg>
+                              <seg xml:lang="en">Struck</seg>
+                           </rs>
+                           <rs type="shape">
+                              <seg xml:lang="fr">Ronde</seg>
+                              <seg xml:lang="en">Round</seg>
+                           </rs>
+                           <rs type="matrix" subtype="not-surviving">
+                              <idno type="SigiDoc">m-ttfgkF</idno>
+                              <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+                              <idno type="PBW"/>
+                              <!-- to be used if the seal has a parallel in the PBW with a boulloterion registered there -->
+                           </rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <seg xml:lang="fr">
+                           <placeName/>
+                        </seg>
+                        <seg xml:lang="en">
+                           <placeName/>
+                        </seg>
+                     </origPlace>
+                     <origDate type="analysis" notBefore="1044" notAfter="1046" evidence="prosopography reign iconography" cert="high" resp="#MCP #JCC">
+                        <seg xml:lang="en">1044-1045/1046</seg>
+                        <seg xml:lang="fr">1044-1045/1046</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="transferred" subtype="donated" when="2004-11-24">
+                     <!-- pas sûr de subtype et when -->
+                     <p xml:lang="en">George Zacos collection</p>
+                     <p xml:lang="fr">Collection Georges Zacos</p>
+                  </provenance>
+                  <acquisition>
+                     <p xml:lang="en">Donation of the Migore Foundation, Janet Zakos legacy, <date
+                           when="2004-11-24">24th November 2004</date>
+                     </p>
+                     <p xml:lang="fr">Don de la Fondation Migore, legs Janet Zakos, <date
+                           when="2004-11-24">24 Novembre 2004</date>
+                     </p>
+                  </acquisition>
+               </history>
+               <msPart n="r">
+                  <msIdentifier/>
+                  <msContents>
+                     <!-- ajouté ceci -->
+                     <summary n="r">
+                        <seg xml:lang="en">Obverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="r">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="fr">Iconographie avec de part et d'autre des sigles et inscription circulaire</p>
+                              <p xml:lang="en">Iconography with sigla on either side and circular inscription</p>
+                           </layout>
+                        </layoutDesc>
+
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="r">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="r" xml:lang="fr" ana="person male Christ">Buste du Christ barbu, de face,
+                                 tenant les évangiles en main gauche.</figDesc>
+                              <figDesc n="r" xml:lang="en" ana="person male Christ">Bust of beaded Christ, front view, holding the Gospels on his right hand</figDesc>
+                              <figDesc n="decoR" xml:lang="fr">Cercle de grènetis; les branches du nimbe cruciforme
+                                 sont ornées d’un X formé de cinq perles; l'inscription est précédée d'une croisette</figDesc>
+                              <figDesc n="decoR" xml:lang="en">Circle of dots; the branches of the cruciform halo
+                                 are adorned with an X formed by five pearls; the iscription is preceded by a crosslet</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+               <msPart n="v">
+                  <msIdentifier/>
+                  <msContents>
+                     <summary n="v"><!-- ajouté ceci -->
+                        <seg xml:lang="en">Reverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="v">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="fr">Iconographie avec inscription circulaire</p>
+                              <p xml:lang="en">Iconography with circular inscription</p>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="v">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="v" xml:lang="fr" ana="person male emperor">L’empereur à mi-corps, de face, portant une barbe courte,
+                                 couronné du stemma crucigère garni de pendeloques à terminaison trifide.
+                                 Il est vêtu du lôros simplifié avec le maniakion. En main droite, il tient le
+                                 labarum légèrement en biais, et en main gauche, ramenée devant la
+                                 poitrine, l’akakia (?).</figDesc>
+                              <figDesc n="v" xml:lang="en" ana="person male emperor">The emperor is shown from the waist up, facing forward, with a short beard,
+                                 crowned with the stemma crucigerum adorned with pendants ending in trifid shapes.
+                                 He is dressed in the simplified lôros with the maniakion. In his right hand, he holds the
+                                 labarum slightly askew, and in his left hand, brought in front of his
+                                 chest, the akakia (?)</figDesc>
+                              <figDesc n="decoV" xml:lang="fr">Cercle de grènetis</figDesc>
+                              <figDesc n="decoV" xml:lang="en">Circle of dots</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2025-06-02" who="#PE">Creation of the XML record.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp>
+         <surface n="r">
+            <desc>Obverse</desc>
+            <graphic type="photo" url="CdN2004-0537_1.jpg">
+               <desc xml:lang="en">CdN 2004-0537, obverse</desc>
+               <desc xml:lang="fr">CdN 2004-0537, avers</desc>
+            </graphic>
+         </surface>
+         <surface n="v">
+            <desc>Reverse</desc>
+            <graphic type="photo" url="CdN2004-0537_2.jpg">
+               <desc xml:lang="en">CdN 2004-0537, reverse</desc>
+               <desc xml:lang="fr">CdN 2004-0537, revers</desc>
+            </graphic>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" subtype="editorial" xml:space="preserve"> 
+            <div type="textpart" subtype="sigla" rend="columns" n="obv" xml:lang="grc">
+              <ab>
+                 <cb n="a"/><expan><abbr>Ἰ</abbr><ex>ησοῦ</ex><abbr>ς</abbr></expan> 
+                 <cb n="b"/><expan><abbr>Χ</abbr><ex>ριστό</ex><abbr>ς</abbr></expan>
+              </ab>
+            </div>
+            <div type="textpart" subtype="label" rend="circular" n="obv" xml:lang="grc">
+              <ab>
+                 <lb n="1"/>Ἐμμανουήλ
+              </ab>
+            </div>
+            <div type="textpart" subtype="face" rend="circular" n="rev" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab ana="und">
+                 <lb n="2"/><expan><abbr>Κων<supplied reason="lost">στ</supplied>αντ</abbr><ex>ῖνος</ex></expan> <rs type="dignity" ref="#d0013">αὐτοκράτ<supplied reason="lost">ωρ</supplied></rs>
+              </ab>
+            </div>
+              </div>
+         <div type="edition" subtype="diplomatic" xml:space="preserve"> 
+            <div type="textpart" subtype="sigla" rend="columns" n="obv" xml:lang="grc">
+              <ab>
+                 <cb n="a"/>ισ 
+                 <cb n="b"/>χσ
+              </ab>
+            </div>
+            <div type="textpart" subtype="label" n="obv" rend="circular" xml:lang="grc">
+                      <ab>
+                         <lb n="1"/>Εμμα   ν̣ο̣υ̣η̣λ
+                      </ab>
+                  </div>
+                  <div type="textpart" subtype="face" rend="circular" n="rev" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <lb n="2"/>cn..ạntauocra̣
+              </ab>
+                  </div>
+              </div>
+         <div type="translation">
+            <p>Ἰησοῦς Χριστός. + Ἐμμανουήλ. || Κωνσταντῖνος αὐτοκράτωρ.</p>
+            <p xml:lang="en">Jesus Christ. + Emmanuel. || Constantine emperor.</p>
+            <p xml:lang="fr">Jésus Christ. + Emmanuel. || Constantin empereur.</p>
+         </div>
+         <div type="commentary" subtype="text">
+            <!-- renvois internes à refaire -->
+            <p xml:lang="en">To our knowledge, this pentasoldia is the only gold bullion coin preserved
+               in the name of Constantine IX Monomachos (1042-1055). According to
+               G. Zacos, the disoldia (two-solidi coin) attached to a chrysobulle
+               (χρυσόβουλλον σιγίλλιον) from 1052 signed by this emperor, preserved
+               at the Lavra monastery on Mount Athos, did not belong to
+               Constantine IX, but rather to Alexius I
+               Comnenus. The bull, detached from its original document, was
+               attached to the sigillion of 1052 at a later date.
+               The interest of our pentasoldia lies both in the absence of any known parallel
+               and in the fact that it is the only preserved gold bullion coin that exceeds the maximum value
+               of four Byzantine gold sous provided for by the De cerimoniis (II,
+               § 48). Constantine VII mentions the issuance by himself and his son
+               Romanus II of a gold bullion coin worth 12 solidi to the Caliph of Egypt.
+               According to the Arab author Boha ed-din, a gold bullion coin weighing 15 dinars (the equivalent
+               of 12 solidi) accompanied a letter from Isaac II Angelus to
+               Saladin in 1189. Finally, the gold bullion with which Constantine IX Monomachos
+               sealed his letter of 1049 to Emperor Henry III was, it seems,
+               large enough to make a chalice. Even if this information is exaggerated, it is clear that the value
+               of the bulla significantly exceeded the norms of the time. An official issue
+               of a pentasoldia cannot therefore be ruled out.
+               However, some aspects of the manufacture of this prestigious coin
+               invite questions about how it was made, such as the square, smoothed edge, the
+               slightly raised relief, the off-center strike, part of the
+               blank flattened, and finally, “droplets” of metal visible in various places
+               on the obverse. It should be noted that this last feature can also be seen
+               on a gold bulla of two nomismata, minted in the name of
+               Michael VII Doukas, acquired by Thomas Whittemore before 1950 and
+               bequeathed to the Harvard University Art Museum (HUAM), where it is
+               currently kept.
+               All the questions raised by this unique and surprising coin in
+               several respects led us to conduct an in-depth examination,
+               based on a series of laboratory analyses. They are discussed
+               in the article cited below. At the end of our research, we were able to
+               conclude that, based on its iconographic type, the issue must date from
+               the early years of the reign of Constantine IX, most likely
+               in the context of the war waged between 1044 and 1045/1046 against
+               the Armenian king Gagik II and the Persarmenian Abû l-Aswar (Aplespharès)
+               for the annexation of the rich state of Ani and Greater Armenia.
+               The real interest of this bull, however, lies in the new light it sheds
+               on the techniques used to manufacture gold bulls in the
+               11th century, the relationship between the method of manufacture and the
+               gradual devaluation of gold currency from this pivotal period in the Empire's history,
+               and finally, the reform policy pursued by
+               Constantine IX.
+               </p>
+            <p xml:lang="en"></p>
+            <p xml:lang="fr">Cette pentasoldia est à notre connaissance l’unique bulle d’or conservée
+               au nom de Constantin IX Monomaque (1042-1055). D’après
+               G. Zacos, la disoldia (bulle de deux solidi) appendue à un chrysobulle
+               (χρυσόβουλλον σιγίλλιον) de 1052 signé par cet empereur, conservée
+               au monastère de Lavra, au mont Athos, n’aurait pas appartenu à
+               Constantin IX, mais plutôt à Alexis Ier
+               Comnène. La bulle, détachée de son document initial, aurait été
+               appendue sur le sigillion de 1052 à une époque ultérieure <bibl>
+                  <ptr target="Zacos1"/>, n° <citedRange unit="entry">79</citedRange></bibl>.
+               L’intérêt de notre pentasoldia repose à la fois sur l’absence de parallèle connu
+               et sur le fait qu’elle soit la seule bulle d’or conservée qui dépasse la valeur
+               maximale de quatre sous d’or byzantins prévue par le De cerimoniis (II,
+               § 48). Constantin VII cite, en effet, l’émission par lui-même et son fils
+               Romain II d’une bulle d’or de 12 solidi à l’intention du calife d’égypte.
+               D’après l’auteur arabe Boha ed-din, une bulle d’or pesant 15 dinars (l’équivalent
+               de 12 solidi) accompagnait une lettre d’Isaac II Ange adressée à
+               Saladin en 1189. Enfin, la bulle d’or dont Constantin IX Monomaque
+               scella sa lettre de 1049 à l’intention de l’empereur Henri III était, paraît-il,
+               suffisamment grosse pour en faire un calice. Même si cette information serait exagérée, on doit comprendre que la valeur
+               de la bulle dépassait nettement les normes en vigueur. Une émission
+               officielle d’une pentasoldia n’est donc pas à exclure.
+               Cependant, quelques aspects de la facture de cette bulle prestigieuse
+               invitent à s’interroger quant à son mode de fabrication, tels la tranche
+               carrée et lissée, le relief peu saillant, la frappe décentrée, une partie du
+               flan aplatie, enfin, des « gouttelettes » de métal visibles à divers endroits
+               de l’avers. Notons en passant que cette dernière particularité s’observe
+               également sur une bulle d’or de deux nomismata, frappée au nom de
+               Michel VII Doukas, acquise par Thomas Whittemore avant 1950 et
+               léguée au Harvard University Art Museum (HUAM), où elle est
+               actuellement conservée.
+               Toutes les questions soulevées par cette pièce unique et surprenante à
+               plusieurs égards, nous ont conduits à effectuer un examen approfondi,
+               fondé sur une série d’analyses en laboratoire. Elles sont discutées
+                  dans l’article cité infra. Au terme de notre recherche, nous avons pu
+                  conclure que, d’après son type iconographique, l’émission doit se situer
+                  dans les premières années du règne de Constantin IX, très probablement
+                  dans le cadre de la guerre menée entre 1044 et 1045/1046 contre
+                  le roi arménien Gagik II et le Persarménien Abû l-Aswar (Aplespharès)
+                  pour l’annexion du riche état d’Ani et de la Grande Arménie.
+                  Le véritable intérêt de cette bulle réside, toutefois, en l’éclairage nouveau
+                  qu’elle apporte sur les techniques de fabrication des bulles d’or au
+                  XIe siècle, la relation entre le mode de fabrication de celles-ci et la
+                  dévaluation progressive de la monnaie d’or à partir de cette époque
+                  charnière de l’Empire, enfin, sur la politique de réformes suivie par
+                  Constantin IX.</p>
+            <p xml:lang="fr"></p>
+         </div>
+         <div type="bibliography" subtype="edition">
+            <p><bibl>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">8</citedRange></bibl>
+               <bibl/>;
+               <bibl>
+                  <ptr target="CampagnoloPothitou2016"/>, p. <citedRange unit="page">71-81</citedRange></bibl>
+            </p>
+         </div>
+         <div type="bibliography" subtype="parallels">
+            <p/>
+         </div>
+         <div type="bibliography" subtype="discussion">
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

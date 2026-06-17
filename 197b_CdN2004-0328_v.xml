@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en">Michael Atouemes, sebastos</title>
+            <title xml:lang="fr">Michel Atouémès, sébaste</title>
+            <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
+            <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+            <funder>
+               <orgName corresp="https://www.mahmah.ch/">MAH-Musée d'art et d'histoire - Genève,
+                  Cabinet de numismatique</orgName>, Suisse</funder>
+            <principal ref="#MCP"/>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <seg xml:lang="fr">Amélioration digitale</seg>
+               <seg xml:lang="en">Digital enhancement</seg>
+            </edition>
+            <editor role="digital-editor" xml:id="PE" when="2025-04-22">Pia Evening</editor>
+            <editor role="digital-editor" ref="#MCP" when="2026-04-09">Maria
+               Campagnolo-Pothitou</editor>
+         </editionStmt>
+         <publicationStmt>
+            <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
+            <idno type="filename">CdN 2004-0328</idno>
+            <idno type="SigiDocID">s-LOeUPh</idno>
+            <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+            <idno type="sequence"/>
+            <!--  to be compiled automatically; leave as is  -->
+            <date when="2024-08-06"/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                  >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                  4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listPerson type="issuer">
+               <person gender="M" role="imperial aristocracy">
+                  <persName xml:lang="grc">
+                     <forename>Μιχαήλ</forename>
+                     <surname>Ἀτουέμης</surname>
+                  </persName>
+                  <persName xml:lang="fr">
+                     <forename>Michel</forename>
+                     <surname>Atouémès</surname>
+                  </persName>
+                  <persName xml:lang="en">
+                     <forename>Michael</forename>
+                     <surname>Atouemes</surname>
+                  </persName>
+                  <idno type="PBW" ana="http://pbw2016.kdl.kcl.ac.uk/person/Michael/20170/">Michael
+                     20170</idno>
+
+                  <idno type="PBE"/>
+                  <idno type="PLP"/>
+                  <idno type="PLRE"/>
+                  <idno type="PcBE"/>
+                  <idno type="PmbZ"/>
+               </person>
+            </listPerson>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <seg xml:lang="en">Switzerland</seg>
+                     <seg xml:lang="fr">Suisse</seg>
+                  </country>
+                  <settlement>
+                     <seg xml:lang="en">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">City of
+                           Geneva</placeName>
+                     </seg>
+                     <seg xml:lang="fr">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">Ville de
+                           Genève</placeName>
+                     </seg>
+                  </settlement>
+                  <institution>MAH-Musée d'art et d'histoire</institution>
+                  <repository>Cabinet de numismatique</repository>
+                  <collection type="public">
+                     <rs type="collection-name" xml:lang="en">Byzantine seals collection</rs>
+                     <rs type="collection-name" xml:lang="fr">Collection de sceaux byzantins</rs>
+                  </collection>
+                  <idno type="inv-nr-current">CdN 2004-0328</idno>
+                  <altIdentifier>
+                     <repository/>
+                     <idno type="inv-nr-former"/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <!--https://github.com/SigiDoc/Guidelines/wiki/5.-Controlled-vocabularies#seals-category-->
+                  <summary n="whole">
+                     <seg xml:lang="fr">Dignitaires</seg>
+                     <seg xml:lang="en">Dignitaries</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>
+                              <term>
+                                 <seg xml:lang="fr">Sceau</seg>
+                                 <seg xml:lang="en">Seal</seg>
+                              </term>
+                              <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                              <interp type="workType" xml:lang="en">Original impression</interp>
+                           </objectType>
+                           <material>
+                              <seg xml:lang="fr">Plomb</seg>
+                              <seg xml:lang="en">Lead</seg>
+                           </material>
+                           <dimensions type="support" unit="mm">
+                              <dim type="diameter">38,90/36,64</dim>
+                              <!-- mesure du champ? -->
+                           </dimensions>
+                           <measure type="weight" unit="g">36,822</measure>
+                           <measure type="axis" unit="clock"/>
+                           <measure type="overstrikeOrient" unit="clock"/>
+                           <measure type="channelOrient" unit="clock">12-6</measure>
+                           <measure type="countermark" unit="clock"/>
+                        </support>
+                        <condition rend="well-struck well-preserved obliterated worn-edge">
+                           <p xml:lang="en">The bulla is well struck and well preserved with a
+                              yellowish homogenous patina; worn on the edge and partially
+                              obliterated</p>
+                           <p xml:lang="fr">La bulle est bien frappée et très bien conservée avec
+                              une patine jaune claire; rognée sur tranche et partiellement
+                              écrasée</p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout n="whole">
+                           <rs type="execution">
+                              <seg xml:lang="fr">Frappé</seg>
+                              <seg xml:lang="en">Struck</seg>
+                           </rs>
+                           <rs type="shape">
+                              <seg xml:lang="fr">Ronde</seg>
+                              <seg xml:lang="en">Round</seg>
+                           </rs>
+                           <rs type="matrix" subtype="not-surviving">
+                              <idno type="SigiDoc">m-1doVtZ</idno>
+                              <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+                              <idno type="PBW"
+                                 >http://pbw2016.kdl.kcl.ac.uk/boulloterion/1646/</idno>
+                              <!-- to be used if the seal has a parallel in the PBW with a boulloterion registered there -->
+                           </rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <seg xml:lang="fr">
+                           <placeName/>
+                        </seg>
+                        <seg xml:lang="en">
+                           <placeName/>
+                        </seg>
+                     </origPlace>
+                     <origDate type="analysis" notBefore="1251" notAfter="1300"
+                        evidence="prosopography epigraphy iconography" cert="high" resp="#MCP #JCC">
+                        <seg xml:lang="en">Second half of the 13th century</seg>
+                        <seg xml:lang="fr">Seconde moitié du XIIIe siècle</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="transferred" subtype="donated" when="2004-11-24">
+                     <!-- pas sûr de subtype et when -->
+                     <p xml:lang="en">George Zacos collection</p>
+                     <p xml:lang="fr">Collection Georges Zacos</p>
+                  </provenance>
+                  <acquisition>
+                     <p xml:lang="en">Donation of the Migore Foundation, Janet Zakos legacy, <date
+                           when="2004-11-24">24th November 2004</date>
+                     </p>
+                     <p xml:lang="fr">Don de la Fondation Migore, legs Janet Zakos, <date
+                           when="2004-11-24">24 Novembre 2004</date>
+                     </p>
+                  </acquisition>
+               </history>
+               <msPart n="r">
+                  <msIdentifier/>
+                  <msContents>
+                     <!-- ajouté ceci -->
+                     <summary n="r">
+                        <seg xml:lang="en">Obverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="r">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="fr">Iconographie avec sigles en colonnes de part et
+                                 d'autre de l'effigie</p>
+                              <p xml:lang="en">Iconography with sigla on columns on either side of
+                                 the effigy </p>
+                           </layout>
+                        </layoutDesc>
+
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="r">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="r" xml:lang="fr" ana="person male archangel Michael"
+                                 >L'archange Michel de type Chôniatès, de face, revêtu du lôros
+                                 droit dont le pan retombe sur le bras gauche, tenant en main droite
+                                 un labarum posé au sol et de l’autre un globe surmonté d'une
+                                 croisette faite de trois perles.</figDesc>
+                              <figDesc n="r" xml:lang="en" ana="person male archangel Michael">The
+                                 archangel Michael of the Choniatès type, standing, facing forward,
+                                 wearing the right-sided loros, falling over his left arm, holding
+                                 in his right hand a labarum relying on the ground and in the left
+                                 one a globe surmounted a crosslet made of three pearls.</figDesc>
+                              <figDesc n="decoR" xml:lang="fr">Cercle de grènetis</figDesc>
+                              <figDesc n="decoR" xml:lang="en">Border of dots</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+               <msPart n="v">
+                  <msIdentifier/>
+                  <msContents>
+                     <summary n="v"><!-- ajouté ceci -->
+                        <seg xml:lang="en">Reverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="v">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="en">Linear metrical legend of 6 lines</p>
+                              <p xml:lang="fr">Légende métrique linéaire sur 6 lignes</p>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="v">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="decoV" xml:lang="fr">Cercle de grènetis; la légende est terminée par deux points ;
+                                 au sommet du champ, une croisette, et à la base, un ornement de courbes
+                                 et de perles</figDesc>
+                              <figDesc n="decoV" xml:lang="en">Border of dots; the legend ends with two dots;
+                                 at the top of the field, a crosslet, and at the bottom, an ornament of curves
+                                 and pearls</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2025-04-22" who="#PE">Creation of the XML record.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp>
+         <surface n="r">
+            <desc>Obverse</desc>
+            <graphic type="photo" url="CdN2004-0328_1.jpg">
+               <desc xml:lang="en">CdN 2004-0328, obverse</desc>
+               <desc xml:lang="fr">CdN 2004-0328, avers</desc>
+            </graphic>
+         </surface>
+         <surface n="v">
+            <desc>Reverse</desc>
+            <graphic type="photo" url="CdN2004-0328_2.jpg">
+               <desc xml:lang="en">CdN 2004-0328, reverse</desc>
+               <desc xml:lang="fr">CdN 2004-0328, revers</desc>
+            </graphic>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" subtype="editorial" xml:space="preserve"> 
+            <div type="textpart" subtype="sigla" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="a"/><expan><abbr>Ἀρχ</abbr><ex>άγγελος</ex></expan> 
+                 <cb n="b"/><expan><abbr>Μιχ</abbr><ex>αήλ</ex></expan>
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <lg type="metrical" met="dodecasyllable">
+                         <l n="1">
+                            <lb n="1"/>Ἄρχων Μι
+                            <lb n="2" break="no"/>χαὴλ ταγμά
+                            <lb n="3" break="no"/>των οὐρανίων</l>
+                            <l n="2"><lb n="4"/><expan><abbr>φρούρ</abbr><ex>ε</ex><abbr>ι</abbr></expan> Μιχα
+                            <lb n="5" break="no"/>ὴλ <rs type="dignity" ref="#d0075">σεβαστὸν</rs> 
+                            <lb n="6"/>Ἀτουέμην
+                         </l>
+                      </lg>
+                  </div>
+              </div>
+         <div type="edition" subtype="diplomatic" xml:space="preserve"> 
+                  <div type="textpart" subtype="sigla" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="a"/>x̣|̣  
+                 <cb n="b"/>x|mi
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab>
+                         <lb n="0"/>       
+                         <lb n="1"/>xnmi                        
+                         <lb n="2"/>χαηλταγμα
+                         <lb n="3"/>τνρανιν
+                         <lb n="4"/>φρουριμιχα
+                         <lb n="5"/>ηλσεβαον
+                         <lb n="6"/>ατεν
+                         <lb n="0"/>    ̣̣
+                         </ab>
+                  </div>
+              </div>
+         <div type="translation">
+            <p>Ἀρχάγγελος Μιχαήλ. || + Ἄρχων Μιχαὴλ ταγμάτων οὐρανίων, φρούρει Μιχαὴλ σεβαστὸν
+               Ἀτουέμην.</p>
+            <p xml:lang="en">Archangel Michael. || Michael, commander of the heavenly hosts,
+               protects the sebastos Michael Atouemes.</p>
+            <p xml:lang="fr">Archange Michel. || Michel, chef des armées célestes, garde le sébaste
+               Michel Atouémès.</p>
+         </div>
+         <div type="commentary" subtype="text">
+            <!-- renvois internes à refaire -->
+            <p xml:lang="en">The name Michel Atouémès appears in two manuscripts dated
+               1310<bibl>
+                  <ptr target="JordanovCorpus2"/>, p. <citedRange unit="page">72</citedRange></bibl> and 1349 <bibl>
+                     <ptr target="JordanovCorpus2"/>, p. <citedRange unit="page">72</citedRange></bibl>., respectively. Michel, along with his brother Constantin,
+               was involved in the drafting of the first manuscript, which was composed in Crete; however,
+               the date of 1349 rules out any connection with our signatory,
+               even though the inscription on our seal suggests the seal-bearer’s taste for
+               the fine arts.
+               The discovery of a parallel seal at Jambol, on the site of a
+               fortress, led its publisher to view Michel as an officer, which is
+               possible but not certain. The discovery of a parallel seal at Jambol, on the site of a
+               fortress, led its publisher to identify Michel as an officer, which is
+               possible but not certain.
+               Also listed under the variant Atoumès, the surname Atouémès
+               is derived from the Armenian first name Atom or Atovm . Also listed under the variant Atoumès, the surname Atouémès
+               is derived from the Armenian first name Atom or Atovm <bibl>
+                  <ptr target="BBÖ1"/>, p. <citedRange unit="page">317-318</citedRange></bibl>.. Its appearance
+               in Byzantine sources as early as the 11th century could be linked
+               to the settlement of the Prince of Vaspourakan, Senacherim,
+               and his family in the Empire, in Cappadocia, after he had
+               donated his kingdom to the basileus in 1021 in exchange for titles and
+               landholdings for himself and his four sons. One of them, Atom,
+               left a seal in the third quarter of the 11th century, in the name of Atouémès
+               Senacherim, titled proèdre <bibl>
+                  <ptr target="Cheynet2006"/>, p. <citedRange unit="page">220-221</citedRange></bibl>.. Related to the Angels and the Monomachs, it was during the
+               Palaiologos era that the Atouémai family came to occupy a more prominent place in
+               historical sources and society <bibl>
+                  <ptr target="BBÖ1"/>, p. <citedRange unit="page">317</citedRange></bibl>. Two of them served as sebastos: Bardas, mentioned in
+               a manuscript from 1216 <bibl>
+                  <ptr target="JordanovCorpus2"/>, p. <citedRange unit="page">72</citedRange></bibl>, and Nicephorus <bibl>
+                     <ptr target="CheynetTheodoridis"/>, n° <citedRange unit="entry">25</citedRange></bibl>. Finally, the grand chamberlain
+               Alexis Atouémès, uncle of John V Palaiologos, was a witness to the pact
+               concluded with the Venetians in 13578.</p>
+            <p xml:lang="en">A Nicéphore Atoumès,
+               a contemporary of Nicéphore Atouémès, was also a sebastos according to his seal <bibl>
+                  <ptr target="BBÖ1"/>, no. <citedRange unit="entry">174</citedRange></bibl>,
+               the obverse of which bears a soaring eagle facing forward, looking to the left. Perhaps we should
+               distinguish the form Atouemes, of Armenian origin, as we have noted, from the form
+               Atoumes, of Turkish origin.</p>
+            <p xml:lang="fr">Le nom de Michel Atouémès est attesté sur deux manuscrits datés
+               respectivement de 1310 <bibl>
+                  <ptr target="JordanovCorpus2"/>, p. <citedRange unit="page">72</citedRange></bibl> et de 1349 <bibl>
+                     <ptr target="JordanovCorpus2"/>, p. <citedRange unit="page">72</citedRange></bibl>. Michel, avec son frère Constantin,
+               participa d’ailleurs à la rédaction du premier, composé en Crète, mais
+               la date de 1349 infirme tout rapprochement avec notre signataire,
+               même si la légende de notre sceau suggère le goût du sigillant pour les
+               belles-lettres.
+               La découverte d’un sceau parallèle à Jambol, sur l’emplacement d’une
+               forteresse, a conduit son éditeur à voir en Michel un officier, ce qui est
+               possible mais non certain.
+               Répertorié aussi sous la variante Atoumès, le patronyme Atouémès
+               est dérivé du prénom arménien Atom ou Atovm <bibl>
+                  <ptr target="BBÖ1"/>, p. <citedRange unit="page">317-318</citedRange></bibl>. Son apparition
+               dans les sources byzantines dès le XIe siècle pourrait être mise en
+               relation avec l’établissement du prince du Vaspourakan, Sénachérim,
+               et de sa famille dans l’Empire, en Cappadoce, après que celui-ci eut
+               fait don de son royaume au basileus, en 1021, en échange de titres et
+               de biens fonciers pour lui-même et ses quatre fils. L’un d’eux, Atom,
+               a laissé un sceau au troisième quart du XIe siècle, au nom de Atouémès
+               Sénachérim, titré proèdre <bibl>
+                  <ptr target="Cheynet2006"/>, p. <citedRange unit="page">220-221</citedRange></bibl>.
+               Apparentés aux Anges et aux Monomaques, c’est à l’époque des
+               Paléologues que les Atouémai occupent une plus large place dans les
+               sources et la société <bibl>
+                  <ptr target="BBÖ1"/>, p. <citedRange unit="page">317</citedRange></bibl>. Deux furent sébastes : Bardas, mentionné dans
+               un manuscrit de 1216 <bibl>
+                  <ptr target="JordanovCorpus2"/>, p. <citedRange unit="page">72</citedRange></bibl>, et Nicéphore <bibl>
+                     <ptr target="CheynetTheodoridis"/>, n° <citedRange unit="entry">25</citedRange></bibl>. Enfin, le grand domestique
+               Alexis Atouémès, oncle de Jean V Paléologue, fut témoin du pacte
+               conclu avec les Vénitiens en 1357.</p>
+            <p xml:lang="fr">Un Nicéphore Atoumès,
+               contemporain de Nicéphore Atouémès, fut également sébaste selon son sceau <bibl>
+                  <ptr target="BBÖ1"/>, n° <citedRange unit="entry">174</citedRange></bibl>,
+               dont le droit porte une aigle essorante de face, regardant à gauche. Peut-être faut-il
+               distinguer la forme Atouémès, d’origine arménienne, nous l’avons dit, de la forme
+               Atoumès, d’origine turque.</p>
+         </div>
+         <div type="bibliography" subtype="edition">
+            <p><bibl>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">197b</citedRange></bibl>
+               
+               <bibl/>
+            </p>
+         </div>
+         <div type="bibliography" subtype="parallels">
+            <p> Musée historique de Jambol:
+               <bibl>
+                  <ptr target="JordanovCorpus2"/>, n° <citedRange unit="entry">68</citedRange></bibl></p>
+            <p> ancienne collection Zacos:
+               <bibl>
+                  <ptr target="ZacosSpink3"/>, n° <citedRange unit="entry">301</citedRange></bibl></p>
+         </div>
+         <div type="bibliography" subtype="discussion">
+            <p> 
+               <bibl>
+                  <ptr target="Wassiliou-Seibt2011"/>, n° <citedRange unit="entry">158b</citedRange></bibl></p>
+         </div>
+      </body>
+   </text>
+</TEI>

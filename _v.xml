@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en">Konstantinos Choirosphaktes, praitor</title>
+            <title xml:lang="fr">Constantin Choirosphaktès, préteur</title>
+            <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
+            <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+            <funder>
+               <orgName corresp="https://www.mahmah.ch/">MAH-Musée d'art et d'histoire - Genève,
+                  Cabinet de numismatique</orgName>, Suisse </funder>
+            <principal ref="#MCP"/>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <seg xml:lang="fr">Amélioration digitale</seg>
+               <seg xml:lang="en">Digital enhancement</seg>
+            </edition>
+            <editor role="digital-editor" xml:id="PE" when="2025-04-02">Pia Evening</editor>
+         </editionStmt>
+         <publicationStmt>
+            <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
+            <idno type="filename">CdN 2004-0468</idno>
+            <idno type="SigiDocID">s-cQ2Hxu</idno>
+            <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+            <idno type="sequence"/>
+            <!--  to be compiled automatically; leave as is  -->
+            <date when="2024-08-06"/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                  >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                  4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listPerson type="issuer">
+               <person gender="M" role="civil aristocracy">
+                  <persName xml:lang="grc">
+                     <forename>Κωνσταντῖνος</forename>/> <surname>Χοιροσφάκτης</surname>/> </persName>
+                  <persName xml:lang="fr">
+                     <forename>Constantin</forename>/> <surname>Choirosphaktès</surname>/> </persName>
+                  <persName xml:lang="en">
+                     <forename>Konstantinos</forename>/> <surname>Choirosphaktes</surname>/> </persName>
+                  <idno type="PBW" ana="http://pbw2016.kdl.kcl.ac.uk/boulloterion/3716/"
+                     >Konstantinos 126</idno>
+
+                  <idno type="PBE"/>
+                  <idno type="PLP"/>
+                  <idno type="PLRE"/>
+                  <idno type="PcBE"/>
+                  <idno type="PmbZ"/>
+               </person>
+            </listPerson>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <seg xml:lang="en">Switzerland</seg>
+                     <seg xml:lang="fr">Suisse</seg>
+                  </country>
+                  <settlement>
+                     <seg xml:lang="en">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">City of
+                           Geneva</placeName>
+                     </seg>
+                     <seg xml:lang="fr">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">Ville de
+                           Genève</placeName>
+                     </seg>
+                  </settlement>
+                  <institution>MAH-Musée d'art et d'histoire</institution>
+                  <repository>Cabinet de numismatique</repository>
+                  <collection type="public">
+                     <rs type="collection-name" xml:lang="en">Byzantine seals collection</rs>
+                     <rs type="collection-name" xml:lang="fr">Collection de sceaux byzantins</rs>
+                  </collection>
+                  <idno type="inv-nr-current">CdN 2004-0468</idno>
+                  <altIdentifier>
+                     <repository/>
+                     <idno type="inv-nr-former"/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <!--https://github.com/SigiDoc/Guidelines/wiki/5.-Controlled-vocabularies#seals-category-->
+                  <summary n="whole">
+                     <seg xml:lang="fr">Administration centrale</seg>
+                     <seg xml:lang="en">Central administration</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>
+                              <term>
+                                 <seg xml:lang="fr">Sceau</seg>
+                                 <seg xml:lang="en">Seal</seg>
+                              </term>
+                              <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                              <interp type="workType" xml:lang="en">Original impression</interp>
+                           </objectType>
+                           <material>
+                              <seg xml:lang="fr">Plomb</seg>
+                              <seg xml:lang="en">Lead</seg>
+                           </material>
+                           <dimensions type="support" unit="mm">
+                              <dim type="diameter">21,25/19,98</dim>
+                              <!-- mesure du champ? -->
+                           </dimensions>
+                           <measure type="weight" unit="g">7,670</measure>
+                           <measure type="axis" unit="clock"/>
+                           <measure type="overstrikeOrient" unit="clock"/>
+                           <measure type="channelOrient" unit="clock">12-6</measure>
+                           <measure type="countermark" unit="clock"/>
+                        </support>
+                        <condition rend="well-struck well-preserved chipped">
+                           <p xml:lang="en">The bulla is well-struck and well-preserved, slightly
+                              chipped at the opennings of the channel</p>
+                           <p xml:lang="fr">La bulle est bien frappée et bien conservée; légèrement
+                              échancrée aux orifices du canal</p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout n="whole">
+                           <rs type="execution">
+                              <seg xml:lang="fr">Frappé</seg>
+                              <seg xml:lang="en">Struck</seg>
+                           </rs>
+                           <rs type="shape">
+                              <seg xml:lang="fr">Ronde</seg>
+                              <seg xml:lang="en">Round</seg>
+                           </rs>
+                           <rs type="matrix" subtype="not-surviving">
+                              <idno type="SigiDoc">m-1O1Wco</idno>
+                              <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+                              <idno type="PBW"/>
+                              <!-- to be used if the seal has a parallel in the PBW with a boulloterion registered there -->
+                           </rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <seg xml:lang="fr">
+                           <placeName/>
+                        </seg>
+                        <seg xml:lang="en">
+                           <placeName/>
+                        </seg>
+                     </origPlace>
+                     <origDate type="analysis" notBefore="1081" notAfter="1100"
+                        evidence="prosopography titulature historical-context" cert="high"
+                        resp="#MCP #JCC">
+                        <seg xml:lang="en">End of the 11th century</seg>
+                        <seg xml:lang="fr">Fin du XIe siècle</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="transferred" subtype="donated" when="2004-11-24">
+                     <!-- pas sûr de subtype et when -->
+                     <p xml:lang="en">George Zacos collection</p>
+                     <p xml:lang="fr">Collection Georges Zacos</p>
+                  </provenance>
+                  <acquisition>
+                     <p xml:lang="en">Donation of the Migore Foundation, Janet Zakos legacy, <date
+                           when="2004-11-24">24th November 2004</date>
+                     </p>
+                     <p xml:lang="fr">Don de la Fondation Migore, legs Janet Zakos, <date
+                           when="2004-11-24">24 Novembre 2004</date>
+                     </p>
+                  </acquisition>
+               </history>
+               <msPart n="r">
+                  <msIdentifier/>
+                  <msContents>
+                     <!-- ajouté ceci -->
+                     <summary n="r">
+                        <seg xml:lang="en">Obverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="r">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="fr">Légende métrique linéaire sur 5 lignes</p>
+                              <p xml:lang="en">Linear metrical legend of 5 lines</p>
+                           </layout>
+                        </layoutDesc>
+
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="r">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="r" xml:lang="fr" ana="texte"/>
+                              <figDesc n="r" xml:lang="en" ana="text"/>
+                              <figDesc n="decoR" xml:lang="fr">Cercle de grènetis; la première ligne
+                                 est précédée d'une croisette</figDesc>
+                              <figDesc n="decoR" xml:lang="en">Circle of dots; the first line is
+                                 preceded by a crosslet</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+               <msPart n="v">
+                  <msIdentifier/>
+                  <msContents>
+                     <summary n="v"><!-- ajouté ceci -->
+                        <seg xml:lang="en">Reverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="v">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="en">Linear metrical legend of 5 lines</p>
+                              <p xml:lang="fr">Légende métrique linéaire sur 5 lignes</p>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="v">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="decoV" xml:lang="fr">Cercle de grènetis</figDesc>
+                              <figDesc n="decoV" xml:lang="en">Circle of dots</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2025-04-02" who="#PE">Creation of the XML record.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp>
+         <surface n="r">
+            <desc>Obverse</desc>
+            <graphic type="photo" url="CdN2004-0468_1.jpg">
+               <desc xml:lang="en">CdN 2004-0468, obverse</desc>
+               <desc xml:lang="fr">CdN 2004-0468, avers</desc>
+            </graphic>
+         </surface>
+         <surface n="v">
+            <desc>Reverse</desc>
+            <graphic type="photo" url="CdN2004-0468_2.jpg">
+               <desc xml:lang="en">CdN 2004-0468, reverse</desc>
+               <desc xml:lang="fr">CdN 2004-0468, revers</desc>
+            </graphic>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" subtype="editorial" xml:space="preserve"> 
+            <div type="textpart" subtype="face" rend="linear" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <lg type="metrical" met="dodecasyllable">
+                 <l n="1">
+                    <lb n="1"/><expan><abbr>Χ</abbr><ex>ριστὸ</ex><abbr>ς</abbr></expan> βο
+                    <lb n="2" break="no"/>ηθὸς ἐν 
+                    <lb n="3"/>λόγοις ἐν 
+                    <lb n="4"/>πρακτέ
+                    <lb n="5" break="no"/>οις
+                 </l>
+              </lg>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <lg type="metrical" met="dodecasyllable">
+                         <l n="2">
+                            <lb n="6"/><expan><abbr>Κων</abbr><ex>σταντίνῳ</ex></expan> 
+                            <lb n="7"/><rs type="office" subtype="civil" ref="#of0161">πραίτω
+                            <lb n="8" break="no"/>ρι</rs> τῷ Χοι
+                            <lb n="9" break="no"/>ροσφά
+                            <lb n="10" break="no"/>κτῃ
+                         </l>
+                      </lg>
+                  </div>
+              </div>
+         <div type="edition" subtype="diplomatic" xml:space="preserve"> 
+                  <div type="textpart" subtype="face" rend="linear" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <lb n="1"/>xcRo
+                 <lb n="2"/>ηθοσεν         
+                 <lb n="3"/>λογο̣ισεν
+                 <lb n="4"/>πρακτε
+                 <lb n="5"/>οισ
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab>
+                         <lb n="6"/>κν              
+                         <lb n="7"/>πραιτ 
+                         <lb n="8"/>ρ̣ιτχοι
+                         <lb n="9"/>ροσφα
+                         <lb n="10"/>κτη
+                         </ab>
+                  </div>
+              </div>
+         <div type="translation">
+            <p>+ Χριστὸς βοηθὸς ἐν λόγοις ἐν πρακτέοις || Κωνσταντίνῳ πραίτωρι τῷ Χοιροσφάκτῃ.</p>
+            <p xml:lang="en">It is Christ who comes to the aid of the praetor Konstantinos
+               Choirosphaktes in his actions and words.</p>
+            <p xml:lang="fr">C’est le Christ qui porte secours au préteur Constantin Choirosphaktès
+               dans ses actes et paroles.</p>
+         </div>
+         <div type="commentary" subtype="text">
+            <!-- renvois internes à refaire -->
+            <p xml:lang="en">Konstantinos Choirosphaktes is well documented in literary and
+               diplomatic sources, which attest to his intelligence in politics and diplomacy. This
+               undoubtedly earned him a brilliant cursus honorum within the administration of the
+               Empire, accomplished under Nikephoros Botaneiates and Alexios I Komnenos, who, in a
+               pittakion of 1181, considered Konstatninos to be his oikeios anthrôpos, his
+               right-hand man. Proedros in 1078, then promoted to protoproedros, Konstatninos was
+               successively katepano of dignities (1081), protonotarios of the drome, and prefect of
+               petitions (<bibl>
+                  <ptr target="JordanovCorpus2"/>, n° <citedRange unit="entry"
+                  >751</citedRange></bibl>; <bibl>
+                  <ptr target="BBÖ2"/>, n° <citedRange unit="entry">217</citedRange></bibl>).. In
+               1094, at the Synod of Blachernae, he held the high dignity of kouropalates. He was
+               for a time praetor of Hellas and the Peloponnese, but as far as his bulla does not
+               include any dignity, it is not possible to establish the exact chronology of his
+               tenure in this office. It was undoubtedly on this occasion that he met Saint
+               Meletios, before the latter's death, that is, before 1105. On the other hand,we
+               cannot attribute with certainty to him the seal of Konstatninos Choirosphaktes,
+               anthypatos and notarios of “our holy emperor,” dated to the third quarter of the 11th
+               century, but rather to an older namesake(<bibl>
+                  <ptr target="Sode1997"/>, n° <citedRange unit="entry"
+                     >445</citedRange></bibl>).</p>
+            <p xml:lang="en"/>
+            <p xml:lang="fr">Constantin Choirosphaktès est bien attesté dans les sources littéraires
+               et diplomatiques, qui font état de son intelligence en politique et en diplomatie.
+               C’est ce qui lui a sans doute valu un brillant cursus honorum au sein de
+               l’administration de l’Empire, accompli sous Nicéphore Botaneiatès et Alexis Ier
+               Comnène, qui, dans un pittakion de 1181, considère Constantin comme son oikeios
+               anthrôpos, son homme de confiance. Proèdre en 1078, puis promu protoproèdre,
+               Constantin fut successivement catépan des dignités (1081), protonotaire du drome,
+               préposé aux requêtes(<bibl>
+                  <ptr target="JordanovCorpus2"/>, n° <citedRange unit="entry"
+                  >751</citedRange></bibl>; <bibl>
+                  <ptr target="BBÖ2"/>, n° <citedRange unit="entry">217</citedRange></bibl>). En
+               1094, lors du synode des Blachernes, il portait la haute dignité de curopalate. Il
+               fut un temps préteur de l’Hellade et du Péloponnèse, mais sa bulle ne comportant pas
+               de dignité, il n’est pas possible de fixer la chronologie exacte de l’exercice de
+               cette charge. C’est sans doute à cette occasion qu’il rencontra saint Mélètios, avant
+               la mort de ce dernier, soit avant 1105. En revanche, on ne peut lui attribuer de
+               façon certaine le sceau de Constantin Choirosphaktès, anthypatos et notaire de «
+               notre saint empereur », daté du troisième quart du XIe siècle, mais plutôt à un
+               homonyme plus ancien(<bibl>
+                  <ptr target="Sode1997"/>, n° <citedRange unit="entry"
+                     >445</citedRange></bibl>).</p>
+            <p xml:lang="fr"/>
+         </div>
+         <div type="bibliography" subtype="edition">
+            <p><bibl>
+                  <ptr target="Zacos Genève"/>, n° <citedRange unit="entry">72</citedRange></bibl>
+               <bibl>
+                  <ptr target="ZacosSpink1"/>, n° <citedRange unit="entry">59</citedRange></bibl>
+               <bibl/>
+            </p>
+         </div>
+         <div type="bibliography" subtype="parallels">
+            <p> BZS 1955.1.4070 ; BZS 1958.106.1650 ; BZS 1958.106.2422 ; BZS 19 58.106.4934; coll.
+               Thierry (Dg.14-206) ; (BnF) CM 1 et CM 1 bis ; Zacos (BnF) 694-697:</p>
+            <bibl>
+               <ptr target="Laurent1932"/>, n° <citedRange unit="entry">738</citedRange></bibl>
+         </div>
+         <div type="bibliography" subtype="discussion">
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -313,11 +313,12 @@
          <div type="edition" subtype="diplomatic" xml:space="preserve"> 
                   <div type="textpart" subtype="face" rend="linear" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
               <ab>
-                 <lb n="1"/>rcι 
+                 <lb n="1"/>rcι 
                  <lb n="2"/>ΛΕιυπ 
                  <lb n="3"/>ΤϏr̅̅ʹΝο 
                  <lb n="4"/>ΤΡι
-              </ab>
+                 <lb n="0"/>
+        </ab>
             </div>
                   <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
                       <ab>
@@ -325,7 +326,7 @@
                          <lb n="2"/>ΤιΠΡοc 
                          <lb n="3"/>πΝΤοcΕΝ 
                          <lb n="4"/>ΤγΕΝι 
-                         <lb n="5"/>.
+                         <lb n="5"/> .
                       </ab>
                   </div>
               </div>

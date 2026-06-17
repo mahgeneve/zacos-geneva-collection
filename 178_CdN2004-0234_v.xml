@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en">Michael Tarchaneiotes, patrikios and protoanthypatos</title>
+            <title xml:lang="fr">Michel Tarchaneiôtès, patrice et prôtoanthypatos</title>
+            <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
+            <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+            <funder>
+               <orgName corresp="https://www.mahmah.ch/">MAH-Musée d'art et d'histoire - Genève,
+                  Cabinet de numismatique</orgName>, Suisse</funder>
+            <principal ref="#MCP"/>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <seg xml:lang="fr">Amélioration digitale</seg>
+               <seg xml:lang="en">Digital enhancement</seg>
+            </edition>
+            <editor role="digital-editor" xml:id="PE" when="2025-04-22">Pia Evening</editor>
+            <editor role="digital-editor" ref="#MCP" when="2026-03-30">Maria
+               Campagnolo-Pothitou</editor>
+         </editionStmt>
+         <publicationStmt>
+            <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
+            <idno type="filename">CdN 2004-0234</idno>
+            <idno type="SigiDocID">s-KLMDWO</idno>
+            <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+            <idno type="sequence"/>
+            <!--  to be compiled automatically; leave as is  -->
+            <date when="2024-08-06"/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                  >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                  4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listPerson type="issuer">
+               <person gender="M" role="civil aristocracy">
+                  <persName xml:lang="grc">
+                     <forename>Μιχαήλ</forename>/> <surname>Ταρχανειώτης</surname>/> </persName>
+                  <persName xml:lang="fr">
+                     <forename>Michel</forename>/> <surname>Tarchaneiôtès</surname>/> </persName>
+                  <persName xml:lang="en">
+                     <forename>Michael</forename>/> <surname>Tarchaneiotes</surname>/> </persName>
+                  <idno type="PBW" ana="http://pbw2016.kdl.kcl.ac.uk/person/Michael/20394/">Michael
+                     20394</idno>
+                  <idno type="PBE"/>
+                  <idno type="PLP"/>
+                  <idno type="PLRE"/>
+                  <idno type="PcBE"/>
+                  <idno type="PmbZ"/>
+               </person>
+            </listPerson>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <seg xml:lang="en">Switzerland</seg>
+                     <seg xml:lang="fr">Suisse</seg>
+                  </country>
+                  <settlement>
+                     <seg xml:lang="en">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">City of
+                           Geneva</placeName>
+                     </seg>
+                     <seg xml:lang="fr">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">Ville de
+                           Genève</placeName>
+                     </seg>
+                  </settlement>
+                  <institution>MAH-Musée d'art et d'histoire</institution>
+                  <repository>Cabinet de numismatique</repository>
+                  <collection type="public">
+                     <rs type="collection-name" xml:lang="en">Byzantine seals collection</rs>
+                     <rs type="collection-name" xml:lang="fr">Collection de sceaux byzantins</rs>
+                  </collection>
+                  <idno type="inv-nr-current">CdN 2004-0234</idno>
+                  <altIdentifier>
+                     <repository/>
+                     <idno type="inv-nr-former"/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <!--https://github.com/SigiDoc/Guidelines/wiki/5.-Controlled-vocabularies#seals-category-->
+                  <summary n="whole">
+                     <seg xml:lang="fr">Dignitaires</seg>
+                     <seg xml:lang="en">Dignitaries</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>
+                              <term>
+                                 <seg xml:lang="fr">Sceau</seg>
+                                 <seg xml:lang="en">Seal</seg>
+                              </term>
+                              <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                              <interp type="workType" xml:lang="en">Original impression</interp>
+                           </objectType>
+                           <material>
+                              <seg xml:lang="fr">Plomb</seg>
+                              <seg xml:lang="en">Lead</seg>
+                           </material>
+                           <dimensions type="support" unit="mm">
+                              <dim type="diameter">29,43/27,42</dim>
+                              <!-- mesure du champ? -->
+                           </dimensions>
+                           <measure type="weight" unit="g">14,883</measure>
+                           <measure type="axis" unit="clock"/>
+                           <measure type="overstrikeOrient" unit="clock"/>
+                           <measure type="channelOrient" unit="clock">1-7</measure>
+                           <measure type="countermark" unit="clock"/>
+                        </support>
+                        <condition rend="well-struck well-preserved broken">
+                           <p xml:lang="en">The bulla is well struck and well preserved, although
+                              broken on a part of the edge, near the upper openning of the channel </p>
+                           <p xml:lang="fr">La bulle est bien frappée et bien concervée bien que
+                              fortement échancrée à l'orifice supérieur du canal</p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout n="whole">
+                           <rs type="execution">
+                              <seg xml:lang="fr">Frappé</seg>
+                              <seg xml:lang="en">Struck</seg>
+                           </rs>
+                           <rs type="shape">
+                              <seg xml:lang="fr">Ronde</seg>
+                              <seg xml:lang="en">Round</seg>
+                           </rs>
+                           <rs type="matrix" subtype="not-surviving">
+                              <idno type="SigiDoc">m-qzMQwy</idno>
+                              <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+                              <idno type="PBW"
+                                 >http://pbw2016.kdl.kcl.ac.uk/boulloterion/3948/</idno>
+                              <!-- to be used if the seal has a parallel in the PBW with a boulloterion registered there -->
+                           </rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <seg xml:lang="fr">
+                           <placeName/>
+                        </seg>
+                        <seg xml:lang="en">
+                           <placeName/>
+                        </seg>
+                     </origPlace>
+                     <origDate type="analysis" notBefore="1060" notAfter="1090"
+                        evidence="epigraphy iconography onomastics" cert="high" resp="#MCP #JCC">
+                        <seg xml:lang="en">1060-1090</seg>
+                        <seg xml:lang="fr">1060-1090</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="transferred" subtype="donated" when="2004-11-24">
+                     <!-- pas sûr de subtype et when -->
+                     <p xml:lang="en">George Zacos collection</p>
+                     <p xml:lang="fr">Collection Georges Zacos</p>
+                  </provenance>
+                  <acquisition>
+                     <p xml:lang="en">Donation of the Migore Foundation, Janet Zakos legacy, <date
+                           when="2004-11-24">24th November 2004</date>
+                     </p>
+                     <p xml:lang="fr">Don de la Fondation Migore, legs Janet Zakos, <date
+                           when="2004-11-24">24 Novembre 2004</date>
+                     </p>
+                  </acquisition>
+               </history>
+               <msPart n="r">
+                  <msIdentifier/>
+                  <msContents>
+                     <!-- ajouté ceci -->
+                     <summary n="r">
+                        <seg xml:lang="en">Obverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="r">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="fr">Iconographie avec épigraphe en colonnes de part et
+                                 d'autre de l'effigie</p>
+                              <p xml:lang="en">Iconography with epigraph on columns on either part
+                                 of the effigy</p>
+                           </layout>
+                        </layoutDesc>
+
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="r">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="r" xml:lang="fr" ana="person male saint Demetrios">Saint
+                                 Dèmètrios à mi-corps, de face, visage imberbe, doté d’une abondante
+                                 chevelure frisée, en sa tenue militaire accoutumée, armé de la
+                                 lance en main droite et d’un bouclier richement orné de perles en
+                                 main gauche</figDesc>
+                              <figDesc n="r" xml:lang="en" ana="person male saint Demetrios">Saint
+                                 Dèmètrios half-length, facing forward, beardless, bearing abundant
+                                 curla hair, clad with the usual military costume, holding a spear
+                                 in his right hand and a richly pearl-decorated shield in his left
+                                 one</figDesc>
+                              <figDesc n="decoR" xml:lang="fr">Cercle de grènetis</figDesc>
+                              <figDesc n="decoR" xml:lang="en">Border of dots</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+               <msPart n="v">
+                  <msIdentifier/>
+                  <msContents>
+                     <summary n="v"><!-- ajouté ceci -->
+                        <seg xml:lang="en">Reverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="v">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="en">Linear legend of 6 lines</p>
+                              <p xml:lang="fr">Légende linéaire sur 6 lignes</p>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="v">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="decoV" xml:lang="fr">Cercle de grènetis; la légende est
+                                 précédée d'une croisette</figDesc>
+                              <figDesc n="decoV" xml:lang="en">Border of dots; the legend is
+                                 preceded by a crosslet</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2025-04-22" who="#PE">Creation of the XML record.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp>
+         <surface n="r">
+            <desc>Obverse</desc>
+            <graphic type="photo" url="CdN2004-0234_1.jpg">
+               <desc xml:lang="en">CdN 2004-0234, obverse</desc>
+               <desc xml:lang="fr">CdN 2004-0234, avers</desc>
+            </graphic>
+         </surface>
+         <surface n="v">
+            <desc>Reverse</desc>
+            <graphic type="photo" url="CdN2004-0234_2.jpg">
+               <desc xml:lang="en">CdN 2004-0234, reverse</desc>
+               <desc xml:lang="fr">CdN 2004-0234, revers</desc>
+            </graphic>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" subtype="editorial" xml:space="preserve"> 
+            <div type="textpart" subtype="label" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="a"/><expan><abbr>Ὁ ἅ</abbr><ex>γιος</ex></expan> <expan><abbr>Δημ</abbr><ex>ή</ex>
+                 <cb n="b" break="no"/><abbr>τριο</abbr><ex>ς</ex></expan>
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab ana="dat">
+                         <lb n="1"/><rs type="invocation" ref="#inv004"><expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan> <expan><abbr>β</abbr><ex>οή</ex><abbr>θ</abbr><ex>ει</ex></expan> 
+                         <lb n="2"/>τῷ σῷ <expan><abbr>δούλ</abbr><ex>ῳ</ex></expan></rs> 
+                         <lb n="3"/>Μιχαὴλ <rs type="dignity" ref="#d0047"><expan><abbr>π</abbr><ex>ατ</ex><abbr>ρι</abbr><ex>κίῳ</ex></expan></rs> 
+                         <lb n="4"/><expan><abbr><am>S</am></abbr><ex>καὶ</ex></expan> <rs type="dignity" ref="#d0052"><expan><abbr><am>Α</am></abbr><ex>πρω</ex><abbr>τανθυπ</abbr><ex>ά</ex><abbr>τ</abbr><ex>ῳ</ex></expan></rs> 
+                         <lb n="5"/>τῷ Ταρχα
+                         <lb n="6" break="no"/>νιώτῃ
+                      </ab>
+                  </div>
+              </div>
+         <div type="edition" subtype="diplomatic" xml:space="preserve"> 
+                  <div type="textpart" subtype="label" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="a"/>|δ|η|μ/  
+                 <cb n="b"/>τ|ρι|ο/ 
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab>
+                         <lb n="1"/> κεr/ θ/                         
+                         <lb n="2"/>τσδλ/
+                         <lb n="3"/>μιχαηλπρι
+                         <lb n="4"/>ατανθυπ/ τ/
+                         <lb n="5"/>τταρχα
+                         <lb n="6"/>νιτη
+                         </ab>
+                  </div>
+              </div>
+         <div type="translation">
+            <p>Ὁ ἅγιος Δημήτριος. || + Κύριε βοήθει τῷ σῷ δούλῳ Μιχαὴλ πατρικίῳ καὶ πρωτανθυπάτῳ τῷ
+               Ταρχανιώτῃ.</p>
+            <p xml:lang="en">Saint Demetrios. || + Lord, help your servant Michael Tarchaneiotes,
+               patrikios and prôtanthypatos</p>
+            <p xml:lang="fr">Saint Dèmètrios. || + Seigneur, accorde ton secours à Michel
+               Tarchaneiôtès, patrice et prôtoanthypatos</p>
+         </div>
+         <div type="commentary" subtype="text">
+            <!-- renvois internes à refaire -->
+            <p xml:lang="en"/>
+            <p xml:lang="en"/>
+            <p xml:lang="fr">Selon un autre plomb, connu en plusieurs exemplaires, également à
+               l’effigie de saint Dèmètrios, Michel Tarchaneiôtès, paré des mêmes dignités, fut
+               aussi stratège (Ermitage, M-2129, M-2758, M-6865; <bibl><ptr target="Istanbul"/>, n°
+                     <citedRange unit="entry">2.240</citedRange></bibl>; <bibl><ptr
+                     target="JordanovCorpus2"/>, n° <citedRange unit="entry">704 et
+                  705</citedRange></bibl>; pièce parallèle au Musée de Burgas; BZS 1958.106.5365,
+               inédit ; Zacos (BnF) 615, inédit ; Vente Gorny 101 (mars 2000), n° 1164).Sans doute
+               faudrait-il distinguer notre sigillant de l’homonyme, contemporain et également
+               patrice, dont les bulles portent l’effigie de saint Michel<bibl><ptr target="BBÖ1"/>,
+                  n° <citedRange unit="entry">146</citedRange></bibl>; <bibl><ptr
+                     target="Athens2001"/>, n° <citedRange unit="entry">251</citedRange></bibl>;
+               Ermitage, M-3156. Les sources narratives ne connaissent aucun
+               Michel. Les Tarchaneiôtai apparaissent sous Basile II, lorsque le catépan Grégoire
+               servit en Italie. Tout au long du XIe siècle, les membres de cette famille, établie à
+               Andrinople, occupèrent d’importants postes dans l’armée : Basile fut stratèlatès
+               d’Occident en 1067 ; Joseph fut duc d’Antioche jusqu’à sa mort, en 1074 ; Katakalôn,
+               son fils, défendait Andrinople contre les Coumans, en 1095. Ensuite, ils passèrent au
+               second rang, avant de redevenir l’une des lignées les plus éminentes sous les
+               Paléologues. Toutes les références sont données dans <bibl><ptr target="Leontiades1998"/></bibl>.</p>
+            <p xml:lang="fr"/>
+         </div>
+         <div type="bibliography" subtype="edition">
+            <p><bibl><ptr target="ZacosGenève"/>,
+                  n° <citedRange unit="entry">178</citedRange></bibl>;
+               <bibl><ptr target="Leontiades1998"/>,
+                  n° <citedRange unit="entry">6</citedRange></bibl>
+               <bibl/>
+            </p>
+         </div>
+         <div type="bibliography" subtype="parallels">
+            <p>BZS 1955.1.3345:
+               <bibl><ptr target="DOsealsOnline"/>,
+                  n° <citedRange unit="entry">BZS 1955.1.3345</citedRange></bibl></p>
+            <p>BZS 1955.1.3346:
+               <bibl><ptr target="DOsealsOnline"/>,
+                  n° <citedRange unit="entry">BZS 1955.1.3346</citedRange></bibl></p>
+         </div>
+         <div type="bibliography" subtype="discussion">
+            <p><bibl><ptr target="BBÖ1"/>,
+                  n° <citedRange unit="entry">146</citedRange></bibl></p>
+         </div>
+      </body>
+   </text>
+</TEI>

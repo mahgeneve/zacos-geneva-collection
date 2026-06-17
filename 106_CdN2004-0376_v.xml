@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en">Nicephore Botaneiates, kouropalates and doux of the
+               Anatolikoi</title>
+            <title xml:lang="fr">Nicéphore Botaneiatès, curopalate et duc des Anatoliques</title>
+            <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
+            <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+            <funder>
+               <orgName corresp="https://www.mahmah.ch/">MAH-Musée d'art et d'histoire - Genève,
+                  Cabinet de numismatique</orgName>, Suisse </funder>
+            <principal ref="#MCP"/>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <seg xml:lang="fr">Amélioration digitale</seg>
+               <seg xml:lang="en">Digital enhancement</seg>
+            </edition>
+            <editor role="digital-editor" xml:id="PE" when="2025-04-02">Pia Evening</editor>
+            <editor role="digital-editor" ref="#MCP" when="2026-01-19">Maria Campagnolo-Pothitou</editor>
+         </editionStmt>
+         <publicationStmt>
+            <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
+            <idno type="filename">CdN 2004-0376</idno>
+            <idno type="SigiDocID">s-IWw2A0</idno>
+            <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+            <idno type="sequence"/>
+            <!--  to be compiled automatically; leave as is  -->
+            <date when="2024-08-06"/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                  >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                  4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listPerson type="issuer">
+               <person gender="M" role="military aristocracy">
+                  <persName xml:lang="grc">
+                     <forename>Νικηφόρος</forename>
+                     <surname>Βοτανειάτης</surname>
+                  </persName>
+                  <persName xml:lang="fr">
+                     <forename>Nicéphore</forename>/> <surname>Botaneiatès</surname>/> </persName>
+                  <persName xml:lang="en">
+                     <forename>Nicephore</forename>/> <surname>Botaneiates</surname>/> </persName>
+                  <idno type="PBW" ana="http://pbw2016.kdl.kcl.ac.uk/person/Nikephoros/3/"/>
+                  <idno type="PBE"/>
+                  <idno type="PLP"/>
+                  <idno type="PLRE"/>
+                  <idno type="PcBE"/>
+                  <idno type="PmbZ"/>
+               </person>
+            </listPerson>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <seg xml:lang="en">Switzerland</seg>
+                     <seg xml:lang="fr">Suisse</seg>
+                  </country>
+                  <settlement>
+                     <seg xml:lang="en">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">City of
+                           Geneva</placeName>
+                     </seg>
+                     <seg xml:lang="fr">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">Ville de
+                           Genève</placeName>
+                     </seg>
+                  </settlement>
+                  <institution>MAH-Musée d'art et d'histoire</institution>
+                  <repository>Cabinet de numismatique</repository>
+                  <collection type="public">
+                     <rs type="collection-name" xml:lang="en">Byzantine seals collection</rs>
+                     <rs type="collection-name" xml:lang="fr">Collection de sceaux byzantins</rs>
+                  </collection>
+                  <idno type="inv-nr-current">CdN 2004-0376</idno>
+                  <altIdentifier>
+                     <repository/>
+                     <idno type="inv-nr-former"/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <!--https://github.com/SigiDoc/Guidelines/wiki/5.-Controlled-vocabularies#seals-category-->
+                  <summary n="whole">
+                     <seg xml:lang="fr">Administration provinciale</seg>
+                     <seg xml:lang="en">Provincial administration</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>
+                              <term>
+                                 <seg xml:lang="fr">Sceau</seg>
+                                 <seg xml:lang="en">Seal</seg>
+                              </term>
+                              <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                              <interp type="workType" xml:lang="en">Original impression</interp>
+                           </objectType>
+                           <material>
+                              <seg xml:lang="fr">Plomb</seg>
+                              <seg xml:lang="en">Lead</seg>
+                           </material>
+                           <dimensions type="support" unit="mm">
+                              <dim type="diameter">30,18/27,19</dim>
+                              <!-- mesure du champ? -->
+                           </dimensions>
+                           <measure type="weight" unit="g">22,467</measure>
+                           <measure type="axis" unit="clock"/>
+                           <measure type="overstrikeOrient" unit="clock"/>
+                           <measure type="channelOrient" unit="clock">12-6</measure>
+                           <measure type="countermark" unit="clock"/>
+                        </support>
+                        <condition rend="well-struck well-preserved chipped not-centered">
+                           <p xml:lang="en">The bulla is well-struck and well-preserved,chipped at
+                              the openings of the channel; the obverse is not centered leaving out
+                              of the field the left part of the epigraph.</p>
+                           <p xml:lang="fr">La bulle est bien frappée et bien conservée; légèrement
+                              échancrée aux orifices du canal; la frappe sur l'avers est décentrée
+                              laissant hors champ la partie gauche de l'épigraphe</p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout n="whole">
+                           <rs type="execution">
+                              <seg xml:lang="fr">Frappé</seg>
+                              <seg xml:lang="en">Struck</seg>
+                           </rs>
+                           <rs type="shape">
+                              <seg xml:lang="fr">Ronde</seg>
+                              <seg xml:lang="en">Round</seg>
+                           </rs>
+                           <rs type="matrix" subtype="not-surviving">
+                              <idno type="SigiDoc">m-XNDXV4</idno>
+                              <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+                              <idno type="PBW" ana= "http://pbw2016.kdl.kcl.ac.uk/boulloterion/2771/">Nikephoros 3</idno>
+                              <!-- to be used if the seal has a parallel in the PBW with a boulloterion registered there -->
+                           </rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <seg xml:lang="fr">Anatoliques<placeName/>
+                        </seg>
+                        <seg xml:lang="en">Anatolikoi<placeName/>
+                        </seg>
+                     </origPlace>
+                     <origDate type="analysis" notBefore="1075" notAfter="1077"
+                        evidence="prosopography titulature historical-context" cert="high"
+                        resp="#MCP #JCC">
+                        <seg xml:lang="en">1075-1077</seg>
+                        <seg xml:lang="fr">1075-1077</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="transferred" subtype="donated" when="2004-11-24">
+                     <!-- pas sûr de subtype et when -->
+                     <p xml:lang="en">George Zacos collection</p>
+                     <p xml:lang="fr">Collection Georges Zacos</p>
+                  </provenance>
+                  <acquisition>
+                     <p xml:lang="en">Donation of the Migore Foundation, Janet Zakos legacy, <date
+                           when="2004-11-24">24th November 2004</date>
+                     </p>
+                     <p xml:lang="fr">Don de la Fondation Migore, legs Janet Zakos, <date
+                           when="2004-11-24">24 Novembre 2004</date>
+                     </p>
+                  </acquisition>
+               </history>
+               <msPart n="r">
+                  <msIdentifier/>
+                  <msContents>
+                     <!-- ajouté ceci -->
+                     <summary n="r">
+                        <seg xml:lang="en">Obverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="r">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="fr">Iconographie avec epigraphe en colonnes de part et
+                                 d'autre de l'effigie</p>
+                              <p xml:lang="en">Iconography with epigraph on columns on either side
+                                 of the effigy</p>
+                           </layout>
+                        </layoutDesc>
+
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="r">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="r" xml:lang="fr" ana="person male saint Demetrios">Saint
+                                 Dèmètrios en pied, de face, tenant la lance en main droite et
+                                 s’appuyant de la gauche sur un bouclier triangulaire posé à
+                                 terre.</figDesc>
+                              <figDesc n="r" xml:lang="en" ana="person male saint Demetrios">Saint
+                                 Demetrios standing facing forward, holding a spear on the right
+                                 hand and relying on a triangular shield placed on the
+                                 ground</figDesc>
+                              <figDesc n="decoR" xml:lang="fr">Cercle de grènetis; la lance porte à
+                                 sa pointe une décoration trifide</figDesc>
+                              <figDesc n="decoR" xml:lang="en">Circle of dots; the shield is
+                                 decorated at its peak with a trifid element</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+               <msPart n="v">
+                  <msIdentifier/>
+                  <msContents>
+                     <summary n="v"><!-- ajouté ceci -->
+                        <seg xml:lang="en">Reverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="v">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="en">Linear legend of 7 lines</p>
+                              <p xml:lang="fr">Légende linéaire sur 7 lignes</p>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="v">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="decoV" xml:lang="fr">Cercle de grènetis; la légende est
+                                 précédée d’une croisette et surmontée d’une perle accostée de
+                                 tirets</figDesc>
+                              <figDesc n="decoV" xml:lang="en">Circle of dots; the legend is
+                                 preceded by a crosslet and surmounted by a pearl between
+                                 traits</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2025-04-02" who="#PE">Creation of the XML record.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp>
+         <surface n="r">
+            <desc>Obverse</desc>
+            <graphic type="photo" url="CdN2004-0376_1.jpg">
+               <desc xml:lang="en">CdN 2004-0376, obverse</desc>
+               <desc xml:lang="fr">CdN 2004-0376, avers</desc>
+            </graphic>
+         </surface>
+         <surface n="v">
+            <desc>Reverse</desc>
+            <graphic type="photo" url="CdN2004-0376_2.jpg">
+               <desc xml:lang="en">CdN 2004-0376, reverse</desc>
+               <desc xml:lang="fr">CdN 2004-0376, revers</desc>
+            </graphic>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" subtype="editorial" xml:space="preserve"> 
+            <div type="textpart" subtype="label" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="a"/><supplied reason="lost">Ὁ <expan><ex>ἅγιος</ex></expan> Δημή</supplied>
+                 <cb n="b" break="no"/>τριος
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab ana="dat nom">
+                         <lb n="1"/><rs type="invocation" ref="#inv003"><expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan> <expan><abbr>β</abbr><ex>οή</ex><abbr>θ</abbr><ex>ει</ex></expan></rs> 
+                         <lb n="2"/>Νικηφόρo
+                         <lb n="3"/><rs type="dignity" ref="d0035"><expan><abbr>κουροπαλά</abbr><ex>τῃ</ex></expan></rs> 
+                         <lb n="4"/><expan><abbr><am>S</am></abbr><ex>καὶ</ex></expan> <rs type="office" subtype="military" ref="#of0245">δοὺξ</rs> τῶν <placeName ref="#geo0016"><expan><abbr>Ἀ
+                         <lb n="5" break="no"/>νατ</abbr><ex>ο</ex><abbr>λικ</abbr><ex>ῶν</ex></expan></placeName> τῷ 
+                         <lb n="6"/>Βοτανει
+                         <lb n="7" break="no"/>άτῃ
+                      </ab>
+                  </div>
+              </div>
+         <div type="edition" subtype="diplomatic" xml:space="preserve"> 
+                  <div type="textpart" subtype="label" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="a"/>....
+                 <cb n="b"/>τ|ρ|ι|ο|σ
+              </ab>
+            </div>
+            <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab>
+                         <lb n="0"/>    
+                         <lb n="1"/>κεr/ θ/                             
+                         <lb n="2"/>νικηφορο 
+                         <lb n="3"/>κροπαλα/
+                         <lb n="4"/>δξτνα
+                         <lb n="5"/>νατ/ λικ/ τ
+                         <lb n="6"/>rοτανει
+                         <lb n="7"/>ατη
+                         </ab>
+                  </div>
+              </div>
+         <div type="translation">
+            <p>Ὁ ἅγιος Δημήτριος. || + Κύριε βοήθει Νικηφόρo κουροπαλάτῃ καὶ δοὺξ τῶν Ἀνατολικῶν τῷ
+               Βοτανειάτῃ.</p>
+            <p xml:lang="en">Saint Demetrios. || + Lord, help Nicephore Botaneiates, kouropalates
+               and doux of the Anatolikoi</p>
+            <p xml:lang="fr">Saint Démétrios. || + Seigneur accorde ton secours à Nicéphore
+               Botaneiatès, curopalate et duc des Anatoliques</p>
+         </div>
+         <div type="commentary" subtype="text">
+            <!-- renvois internes à refaire -->
+            <p xml:lang="en">As Olga Karagiorgou notes <bibl>
+                  <ptr target="Karagiorgou2008"/>, p. <citedRange unit="page"
+                  >120-122</citedRange></bibl>, syntax and spelling errors are common on almost all
+               of Nicéphore's seals of Nikephoros and even in his signature, which is surprising for
+               a lover of books, according to Attaleiatès. The seal presented here bears witness to
+               the last stage of the long career of Nikephoros Botaneiatès before his rebellion
+               against Michael VII in October 1077 and his coronation in June 1078. Already titled
+               curopalate in 1074 <bibl>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">164</citedRange></bibl>,
+               Nicephorus must have been appointed Duke of the Anatolians between 1075 and 1077,
+               after having held – for the second time – the same position in the Opsikion
+               (1074-1075). This valiant warrior was praised both by his admirers, such as Michael
+               Attaleiates, and by his opponents, such as Bryennios; his experience and courage
+               earned him high commands in all regions of the Empire: doux of Opsikion (1057-1059);
+               of Edessa and Antioch (1059-1061); of Thessaloniki (1061-1063); of Cyprus
+               (1065-1067); of Antioch (1067-1068); of the Peloponnese and Hellas (1068-1074); of
+               the Opsikion (1074-1075) ; and, at the end, doux of Anatolikoi.</p>
+            <p xml:lang="en"/>
+            <p xml:lang="fr">Comme le remarque Olga Karagiorgou <bibl>
+                  <ptr target="Karagiorgou2008"/>, p. <citedRange unit="page"
+                  >120-122</citedRange></bibl>, les fautes de syntaxe et d’orthographe sont
+               fréquentes sur presque tous les sceaux de Nicéphore et jusque dans sa signature, ce
+               qui ne peut qu’étonner pour un amateur de livres, aux dires d’Attaleiatès. Le sceau
+               présenté ici témoigne de la dernière étape de la longue carrière de Nicéphore
+               Botaneiatès avant sa rébellion contre Michel VII, en octobre 1077, et son
+               couronnement en juin 1078. Déjà titré curopalate en 1074 <bibl>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">164</citedRange></bibl>,
+               Nicéphore a dû être nommé duc des Anatoliques entre 1075 et 1077, après avoir exercé
+               – pour la deuxième fois – la même charge dans l’Opsikion (1074-1075). Ce vaillant
+               combattant fut loué tant par ses admirateurs, tel Michel Attaleiatès, que par ses
+               opposants, comme Bryennios ; son expérience et son courage lui valurent de hauts
+               commandements dans toutes les régions de l’Empire : duc de l’Opsikion (1057-1059) ;
+               d’Édesse et d’Antioche (1059-1061) ; de Thessalonique (1061-1063) ; de Chypre
+               (1065-1067)3 ; d’Antioche (1067-1068) ; du Péloponnèse et de l’Hellade (1068-1074) ;
+               de l’Opsikion (1074-1075) ; enfin, duc des Anatoliques.</p>
+            <p xml:lang="fr"/>
+         </div>
+         <div type="bibliography" subtype="edition">
+            <p><bibl>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">106</citedRange></bibl>; <bibl>
+                  <ptr target="Zacos1"/>, n° <citedRange unit="entry">2690 bis
+                  (b)</citedRange></bibl>
+               <bibl/>
+            </p>
+         </div>
+         <div type="bibliography" subtype="parallels">
+            <p> anc. coll. Zacos: <bibl>
+                  <ptr target="Zacos1"/>, n° <citedRange unit="entry">2690 bis
+                  (a)</citedRange></bibl></p>
+            <p> Fogg 1571 : <bibl>
+                  <ptr target="DOseals3"/>, n° <citedRange unit="entry">86.38
+               </citedRange></bibl></p>
+            <p> Munich, Staatliche Münzsammlung, fonds Zarnitz 655; Zacos (BnF) 878</p>
+            <p/>
+         </div>
+         <div type="bibliography" subtype="discussion">
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

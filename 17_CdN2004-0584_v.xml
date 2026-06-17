@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en">John III Doukas-Batatzes</title>
+            <title xml:lang="fr">Jean III Doukas-Batatzès</title>
+            <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
+            <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+            <funder>
+               <orgName corresp="https://www.mahmah.ch/">MAH-Musée d'art et d'histoire - Genève,
+                  Cabinet de numismatique</orgName>, Suisse</funder>
+            <principal ref="#MCP"/>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <seg xml:lang="fr">Amélioration digitale</seg>
+               <seg xml:lang="en">Digital enhancement</seg>
+            </edition>
+            <editor role="digital-editor" xml:id="PE" when="2025-06-02">Pia Evening</editor>
+         </editionStmt>
+         <publicationStmt>
+            <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
+            <idno type="filename">CdN 2004-0584</idno>
+            <idno type="SigiDocID">s-o8PE0z</idno>
+            <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+            <idno type="sequence"/>
+            <!--  to be compiled automatically; leave as is  -->
+            <date when="2024-08-06"/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                  >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                  4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listPerson type="issuer">
+               <person gender="M" role="imperial">
+                  <persName xml:lang="grc">
+                     <forename>Ἰωάννης Γ΄</forename>/> <surname>Δούκας-Βατάτζης</surname>/> </persName>
+                  <persName xml:lang="fr">
+                     <forename>Jean III</forename>/> <surname>Doukas-Batatzès</surname>/> </persName>
+                  <persName xml:lang="en">
+                     <forename>John III</forename>/> <surname>Doukas-Batatzes</surname>/> </persName>
+                  <idno type="PBW" ana="http://pbw2016.kdl.kcl.ac.uk/person/Ioannes/3/">Ioannes 3</idno>
+                  <idno type="PBE"/>
+                  <idno type="PLP"/>
+                  <idno type="PLRE"/>
+                  <idno type="PcBE"/>
+                  <idno type="PmbZ"/>
+               </person>
+            </listPerson>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <seg xml:lang="en">Switzerland</seg>
+                     <seg xml:lang="fr">Suisse</seg>
+                  </country>
+                  <settlement>
+                     <seg xml:lang="en">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">City of
+                           Geneva</placeName>
+                     </seg>
+                     <seg xml:lang="fr">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">Ville de
+                           Genève</placeName>
+                     </seg>
+                  </settlement>
+                  <institution>MAH-Musée d'art et d'histoire</institution>
+                  <repository>Cabinet de numismatique</repository>
+                  <collection type="public">
+                     <rs type="collection-name" xml:lang="en">Byzantine seals collection</rs>
+                     <rs type="collection-name" xml:lang="fr">Collection de sceaux byzantins</rs>
+                  </collection>
+                  <idno type="inv-nr-current">CdN 2004-0584</idno>
+                  <altIdentifier>
+                     <repository/>
+                     <idno type="inv-nr-former"/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <!--https://github.com/SigiDoc/Guidelines/wiki/5.-Controlled-vocabularies#seals-category-->
+                  <summary n="whole">
+                     <seg xml:lang="fr">impérial</seg>
+                     <seg xml:lang="en">imperial</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>
+                              <term>
+                                 <seg xml:lang="fr">Sceau</seg>
+                                 <seg xml:lang="en">Seal</seg>
+                              </term>
+                              <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                              <interp type="workType" xml:lang="en">Original impression</interp>
+                           </objectType>
+                           <material>
+                              <seg xml:lang="fr">Plomb</seg>
+                              <seg xml:lang="en">Lead</seg>
+                           </material>
+                           <dimensions type="support" unit="mm">
+                              <dim type="diameter">29,18/27,83</dim>
+                              <!-- mesure du champ? -->
+                           </dimensions>
+                           <measure type="weight" unit="g">27,112</measure>
+                           <measure type="axis" unit="clock"/>
+                           <measure type="overstrikeOrient" unit="clock"/>
+                           <measure type="channelOrient" unit="clock">12-6</measure>
+                           <measure type="countermark" unit="clock"/>
+                        </support>
+                        <condition rend="well-struck chipped blank-too-small crushed not-centered">
+                           <p xml:lang="en">The bulla is well-struck but not so well-preserved;
+                              crushed on both sides, the blank is too small and the strike
+                              off-center</p>
+                           <p xml:lang="fr">La bulle est bien frappée mais non pas si bien conservée
+                              ; écrasée des deux côtés, le flan est trop petit et la frappe
+                              décentrée.</p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout n="whole">
+                           <rs type="execution">
+                              <seg xml:lang="fr">Frappé</seg>
+                              <seg xml:lang="en">Struck</seg>
+                           </rs>
+                           <rs type="shape">
+                              <seg xml:lang="fr">Ronde</seg>
+                              <seg xml:lang="en">Round</seg>
+                           </rs>
+                           <rs type="matrix" subtype="not-surviving">
+                              <idno type="SigiDoc">m-qxEBln</idno>
+                              <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+                              <idno type="PBW"/>
+                              <!-- to be used if the seal has a parallel in the PBW with a boulloterion registered there -->
+                           </rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <seg xml:lang="fr">
+                           <placeName/>
+                        </seg>
+                        <seg xml:lang="en">
+                           <placeName/>
+                        </seg>
+                     </origPlace>
+                     <origDate type="analysis" notBefore="1222" notAfter="1254"
+                        evidence="prosopography iconography reign" cert="high" resp="#MCP #JCC">
+                        <seg xml:lang="en">1222-1254</seg>
+                        <seg xml:lang="fr">1222-1254</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="transferred" subtype="donated" when="2004-11-24">
+                     <!-- pas sûr de subtype et when -->
+                     <p xml:lang="en">George Zacos collection</p>
+                     <p xml:lang="fr">Collection Georges Zacos</p>
+                  </provenance>
+                  <acquisition>
+                     <p xml:lang="en">Donation of the Migore Foundation, Janet Zakos legacy, <date
+                           when="2004-11-24">24th November 2004</date>
+                     </p>
+                     <p xml:lang="fr">Don de la Fondation Migore, legs Janet Zakos, <date
+                           when="2004-11-24">24 Novembre 2004</date>
+                     </p>
+                  </acquisition>
+               </history>
+               <msPart n="r">
+                  <msIdentifier/>
+                  <msContents>
+                     <!-- ajouté ceci -->
+                     <summary n="r">
+                        <seg xml:lang="en">Obverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="r">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="fr">Iconographie avec des sigles conservées seulement à
+                                 droite</p>
+                              <p xml:lang="en">Iconography with sigla preserved only on the
+                                 right</p>
+                           </layout>
+                        </layoutDesc>
+
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="r">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="r" xml:lang="fr" ana="person male Christ">Christ en pied,
+                                 de face, au nimbe crucigère, visage plein, à peine barbu ou
+                                 imberbe, cheveux courts ; vêtu de l’himation et du chitôn drapé sur
+                                 l’épaule gauche et retombant en formant un long pli, il tient
+                                 l’évangile en main gauche et bénit de la droite.</figDesc>
+                              <figDesc n="r" xml:lang="en" ana="person male Christ">Christ standing,
+                                 facing forward, with a cruciferous halo, a full face, barely
+                                 bearded or beardless, short hair; dressed in the himation and
+                                 chiton draped over his left shoulder and falling in a long fold, he
+                                 holds the Gospel in his left hand and blesses with his
+                                 right.</figDesc>
+                              <figDesc n="decoR" xml:lang="fr">Cercle de grènetis</figDesc>
+                              <figDesc n="decoR" xml:lang="en">Circle of dots</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+               <msPart n="v">
+                  <msIdentifier/>
+                  <msContents>
+                     <summary n="v"><!-- ajouté ceci -->
+                        <seg xml:lang="en">Reverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="v">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="en">Iconography with epigraph on columns preserved mainly
+                                 on the left</p>
+                              <p xml:lang="fr">Iconographie avec une épigraphe en colonne conservée
+                                 surtout à gauche</p>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="v">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="v" xml:lang="fr" ana="person male Christ">L’empereur en
+                                 pied, barbu, portant une couronne à pendilia, vêtu du divitision et
+                                 d’une chlamyde couvrant jusqu’à mi-corps, richement ornée de perles
+                                 disposées dans des croisillons, relevée sur les bras et rejetée
+                                 derrière les épaules. Jean tient en main droite un long labarum
+                                 posé au sol et en main gauche un globe surmonté d’une croix
+                                 patriarcale.</figDesc>
+                              <figDesc n="v" xml:lang="en" ana="person male Christ">The emperor
+                                 stands full-length, bearded, wearing a pendilia crown, dressed in a
+                                 divitision and a chlamys covering half his body, richly adorned
+                                 with pearls arranged in cross-shaped patterns, raised over his arms
+                                 and thrown back behind his shoulders. John holds in his right hand
+                                 a long labarum placed on the ground and in his left hand a globe
+                                 surmounted by a patriarchal cross.</figDesc>
+                              <figDesc n="decoV" xml:lang="fr">Pas de trace de grènetis</figDesc>
+                              <figDesc n="decoV" xml:lang="en">No trace of dots</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2025-06-02" who="#PE">Creation of the XML record.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp>
+         <surface n="r">
+            <desc>Obverse</desc>
+            <graphic type="photo" url="CdN2004-0584_1.jpg">
+               <desc xml:lang="en">CdN 2004-0584, obverse</desc>
+               <desc xml:lang="fr">CdN 2004-0584, avers</desc>
+            </graphic>
+         </surface>
+         <surface n="v">
+            <desc>Reverse</desc>
+            <graphic type="photo" url="CdN2004-0584_2.jpg">
+               <desc xml:lang="en">CdN 2004-0584, reverse</desc>
+               <desc xml:lang="fr">CdN 2004-0584, revers</desc>
+            </graphic>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" subtype="editorial" xml:space="preserve"> 
+            <div type="textpart" subtype="sigla" rend="columns" n="obv" xml:lang="grc">
+              <ab>
+                 <cb n="a"/><expan><supplied reason="lost"><abbr>Ἰ</abbr><ex>ησοῦ</ex></supplied><abbr>ς</abbr></expan> 
+                 <cb n="b"/><expan><abbr>Χ</abbr><ex>ριστό</ex><abbr>ς</abbr></expan>
+              </ab>
+            </div>
+            <div type="textpart" subtype="face" rend="columns" n="rev" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab ana="nom">
+                 <cb n="c"/><expan><abbr>Ἰω</abbr><ex>άννης</ex></expan> <rs type="dignity" ref="#d0022">δεσπό<supplied reason="lost">της</supplied></rs> 
+                 <cb n="d"/><supplied reason="lost">ὁ</supplied> δ<supplied reason="lost">ούκας</supplied>
+              </ab>
+            </div>
+              </div>
+         <div type="edition" subtype="diplomatic" xml:space="preserve"> 
+            <div type="textpart" subtype="sigla" rend="columns" n="obv" xml:lang="grc">
+              <ab>
+                 <cb n="a"/>.c̣
+                 <cb n="b"/>xc
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" rend="columns" n="rev" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="c"/>ị             
+                 <cb n="d"/>δες
+                 <cb n="e"/>π̣ο
+                 <cb n="f"/>. 
+                 <cb n="g"/>δ..
+              </ab>
+                  </div>
+              </div>
+         <div type="translation">
+            <p>Ἰησοῦς Χριστός. || Ἰωάννης δεσπότης ὁ Δούκας.</p>
+            <p xml:lang="en">Jesus Christ.|| John, despotes, Doukas.</p>
+            <p xml:lang="fr">Jésus Christ.|| Jean, despote, Doukas.</p>
+         </div>
+         <div type="commentary" subtype="text">
+            <!-- renvois internes à refaire -->
+            <p xml:lang="en">This lead seal is part of a series bearing the name of John III, all
+               featuring the same combination of Christ and the emperor standing full-length.
+               However, the few iconographic differences that distinguish them do not allow us to
+               establish with certainty the chronological order in which they were created, nor to
+               link them to one of the emperor's many coin issues. W. Seibt considered this seal to
+               be a forgery, no doubt because of the motif and its rapid execution, compared to the
+               three other types preserved. Nevertheless, there is nothing in the overall
+               workmanship of our piece to confirm this hypothesis. John III always and only signed
+               his seals and coins with the patronymic Doukas, although he seems to have come from
+               the Batatzai, a well-known military family in the 12th century. However, his place in
+               the family tree is unclear. Successor to Theodore I Lascaris through his marriage
+               to his daughter Irene, widow of Constantine Palaiologos, John III ruled the Empire of
+               Nicaea with prudence and intelligence. Thanks to his territorial reconquests in the
+               Balkans and, above all, the subjugation of the Empire of Thessaloniki, John III
+               largely paved the way for the return of the Byzantine emperor to Constantinople in 1261. His
+               sobriety, integrity and constant concern for the weakest members of society
+               earned him the epithet of "eleemon", that is the merciful, as well as
+               sainthood (his feast day is celebrated on 4 November).</p>
+            <p xml:lang="en"/>
+            <p xml:lang="fr">Ce plomb fait partie d’une série de sceaux au nom de Jean III,
+               présentant tous la même combinaison du Christ et de l’empereur en pied. Cependant,
+               les quelques différences iconographiques qui les distinguent ne permettent pas
+               d’établir avec certitude l’ordre chronologique dans lequel ils ont été créés, ni de
+               les rapprocher d’une des très nombreuses émissions monétaires de cet empereur. W.
+               Seibt a considéré ce sceau comme un faux, sans doute à cause du motif et de son
+               exécution rapide, par rapport aux trois autres types conservés. Néanmoins, rien dans
+               la facture d’ensemble de notre pièce ne permet de confirmer cette hypothèse. Jean III
+               a toujours et uniquement signé ses sceaux et monnaies par le patronyme Doukas, alors
+               qu’il semble issu des Batatzai, famille de militaires bien connue au XIIe siècle.
+               Toutefois, sa place dans leur arbre généalogique n’est pas claire. Successeur de
+               Théodore Ier Lascaris par son mariage avec sa fille Irène, veuve de Constantin
+               Paléologue, Jean III a gouverné l’Empire de Nicée avec prudence et intelligence.
+               Grâce à ses reconquêtes territoriales dans les Balkans et surtout par la soumission
+               de l’Empire de Thessalonique, Jean III a largement préparé le retour de l’empereur
+               byzantin à Constantinople, en 1261. Sa sobriété, son intégrité et son souci constant
+               pour la situation des plus faibles lui ont valu l’épithète d’éléèmôn, le
+               miséricordieux, ainsi que le statut de saint (il est fêté le 4 novembre).</p>
+            <p xml:lang="fr"/>
+         </div>
+         <div type="bibliography" subtype="edition">
+            <p><bibl>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">17</citedRange></bibl>;
+               <bibl>
+                  <ptr target="Zacos1"/>, n° <citedRange unit="entry">118b</citedRange></bibl>;
+               <bibl>
+                     <ptr target="ZacosSpink1"/>, n° <citedRange unit="entry">5</citedRange></bibl>;
+               <bibl/>
+            </p>
+         </div>
+         <div type="bibliography" subtype="parallels">
+            <p>ANS, 1959.196.1: </p>
+         </div>
+         <div type="bibliography" subtype="discussion">
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en">Leontakes Tzintziloukes, patrikios and hoplitarches</title>
+            <title xml:lang="fr">Léontakis Tzintziloukès, patrice et hoplitarque</title>
+            <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
+            <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+            <funder>
+               <orgName corresp="https://www.mahmah.ch/">MAH-Musée d'art et d'histoire - Genève,
+                  Cabinet de numismatique</orgName>, Suisse </funder>
+            <principal ref="#MCP"/>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <seg xml:lang="fr">Amélioration digitale</seg>
+               <seg xml:lang="en">Digital enhancement</seg>
+            </edition>
+            <editor role="digital-editor" xml:id="PE" when="2025-04-02">Pia Evening</editor>
+         </editionStmt>
+         <publicationStmt>
+            <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
+            <idno type="filename">CdN 2004-0515</idno>
+            <idno type="SigiDocID">s-65XvQi</idno>
+            <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+            <idno type="sequence"/>
+            <!--  to be compiled automatically; leave as is  -->
+            <date when="2024-08-06"/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                  >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                  4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listPerson type="issuer">
+               <person gender="M" role="civil aristocracy">
+                  <persName xml:lang="grc">
+                     <forename>Λεοντάκης</forename>/> <surname>Τζιντζιλούκης</surname>/> </persName>
+                  <persName xml:lang="fr">
+                     <forename>Léontakis</forename>/> <surname>Tzintziloukès</surname>/> </persName>
+                  <persName xml:lang="en">
+                     <forename>Leontakes</forename>/> <surname>Tzintziloukes</surname>/> </persName>
+                  <idno type="PBW" ana="http://pbw2016.kdl.kcl.ac.uk/person/Leontakes/20102/"
+                     >Leontakes 20102 </idno>
+
+                  <idno type="PBE"/>
+                  <idno type="PLP"/>
+                  <idno type="PLRE"/>
+                  <idno type="PcBE"/>
+                  <idno type="PmbZ"/>
+               </person>
+            </listPerson>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <seg xml:lang="en">Switzerland</seg>
+                     <seg xml:lang="fr">Suisse</seg>
+                  </country>
+                  <settlement>
+                     <seg xml:lang="en">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">City of
+                           Geneva</placeName>
+                     </seg>
+                     <seg xml:lang="fr">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">Ville de
+                           Genève</placeName>
+                     </seg>
+                  </settlement>
+                  <institution>MAH-Musée d'art et d'histoire</institution>
+                  <repository>Cabinet de numismatique</repository>
+                  <collection type="public">
+                     <rs type="collection-name" xml:lang="en">Byzantine seals collection</rs>
+                     <rs type="collection-name" xml:lang="fr">Collection de sceaux byzantins</rs>
+                  </collection>
+                  <idno type="inv-nr-current">CdN 2004-0515</idno>
+                  <altIdentifier>
+                     <repository/>
+                     <idno type="inv-nr-former"/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <!--https://github.com/SigiDoc/Guidelines/wiki/5.-Controlled-vocabularies#seals-category-->
+                  <summary n="whole">
+                     <seg xml:lang="fr">Administration centrale</seg>
+                     <seg xml:lang="en">Central administration</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>
+                              <term>
+                                 <seg xml:lang="fr">Sceau</seg>
+                                 <seg xml:lang="en">Seal</seg>
+                              </term>
+                              <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                              <interp type="workType" xml:lang="en">Original impression</interp>
+                           </objectType>
+                           <material>
+                              <seg xml:lang="fr">Plomb</seg>
+                              <seg xml:lang="en">Lead</seg>
+                           </material>
+                           <dimensions type="support" unit="mm">
+                              <dim type="diameter">30,73/29,98</dim>
+                              <!-- mesure du champ? -->
+                           </dimensions>
+                           <measure type="weight" unit="g">16,188</measure>
+                           <measure type="axis" unit="clock"/>
+                           <measure type="overstrikeOrient" unit="clock"/>
+                           <measure type="channelOrient" unit="clock"/>
+                           <measure type="countermark" unit="clock"/>
+                        </support>
+                        <condition rend="well-struck crushed chipped">
+                           <p xml:lang="en">The bulla is well-struck and well-preserved, but
+                              slightly crushed on the obverse and chipped at the opennings of the
+                              channel </p>
+                           <p xml:lang="fr">La bulle est bien frappée et bien conservée, mais
+                              légèrement écrasée sur l'avers et échancrée aux orifices du canal</p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout n="whole">
+                           <rs type="execution">
+                              <seg xml:lang="fr">Frappé</seg>
+                              <seg xml:lang="en">Struck</seg>
+                           </rs>
+                           <rs type="shape">
+                              <seg xml:lang="fr">Ronde</seg>
+                              <seg xml:lang="en">Round</seg>
+                           </rs>
+                           <rs type="matrix" subtype="not-surviving">
+                              <idno type="SigiDoc">m-cz3UnI</idno>
+                              <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+                              <idno type="PBW"/>
+                              <!-- to be used if the seal has a parallel in the PBW with a boulloterion registered there -->
+                           </rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <seg xml:lang="fr">
+                           <placeName/>
+                        </seg>
+                        <seg xml:lang="en">
+                           <placeName/>
+                        </seg>
+                     </origPlace>
+                     <origDate type="analysis" notBefore="1001" notAfter="1050"
+                        evidence="onomastics prosopography titulature historical-context"
+                        cert="high" resp="#MCP #JCC">
+                        <seg xml:lang="en">First half of the 11th century</seg>
+                        <seg xml:lang="fr">Première moitié du XIe siècle</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="transferred" subtype="donated" when="2004-11-24">
+                     <!-- pas sûr de subtype et when -->
+                     <p xml:lang="en">George Zacos collection</p>
+                     <p xml:lang="fr">Collection Georges Zacos</p>
+                  </provenance>
+                  <acquisition>
+                     <p xml:lang="en">Donation of the Migore Foundation, Janet Zakos legacy, <date
+                           when="2004-11-24">24th November 2004</date>
+                     </p>
+                     <p xml:lang="fr">Don de la Fondation Migore, legs Janet Zakos, <date
+                           when="2004-11-24">24 Novembre 2004</date>
+                     </p>
+                  </acquisition>
+               </history>
+               <msPart n="r">
+                  <msIdentifier/>
+                  <msContents>
+                     <!-- ajouté ceci -->
+                     <summary n="r">
+                        <seg xml:lang="en">Obverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="r">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="fr">Iconographie avec de part et d'autre épigraphe en colonne; au pourtour, à gauche, traces
+                                 d’une croisette précédant une inscription invocative, sans doute antérieure,
+                                 dont seulement la fin est conservée, à droite,
+                                 
+                              </p>
+                              <p xml:lang="en">Iconography with on either side epigraph on columns; on the periphery, on the left, traces
+                                 of a cross preceding an invocation, undoubtedly earlier,
+                                 of which only the end is preserved, on the right</p>
+                           </layout>
+                        </layoutDesc>
+
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="r">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="r" xml:lang="fr" ana="person male saint Panteleïmon">Buste de saint Pantéléèmôn, de face,
+                                 imberbe, cheveux frisés, tenant en main droite, ramenée devant la poitrine,
+                                 une croisette ou une pincette et en main gauche un étui (?).</figDesc>
+                              <figDesc n="r" xml:lang="en" ana="person male saint Panteleïmon">Bust of Saint Panteleimon, facing forward,
+                                 beardless, curly hair, holding in his right hand, brought up in front of his chest,
+                                 a small cross or tweezers, and in his left hand a case (?)</figDesc>
+                              <figDesc n="decoR" xml:lang="fr">Cercle de grènetis; large auréole de perles</figDesc>
+                              <figDesc n="decoR" xml:lang="en">Circle of dots; large nimbus of pearls</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+               <msPart n="v">
+                  <msIdentifier/>
+                  <msContents>
+                     <summary n="v"><!-- ajouté ceci -->
+                        <seg xml:lang="en">Reverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="v">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="en">Linear legend of 6 lines</p>
+                              <p xml:lang="fr">Légende linéaire sur 6 lignes</p>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="v">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="decoV" xml:lang="fr">Cercle de grènetis; la première ligne est précédée d'une croisette</figDesc>
+                              <figDesc n="decoV" xml:lang="en">Circle of dots; the first line is preceded by a crosslet</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2025-04-02" who="#PE">Creation of the XML record.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp>
+         <surface n="r">
+            <desc>Obverse</desc>
+            <graphic type="photo" url="CdN2004-0515_1.jpg">
+               <desc xml:lang="en">CdN 2004-0515, obverse</desc>
+               <desc xml:lang="fr">CdN 2004-0515, avers</desc>
+            </graphic>
+         </surface>
+         <surface n="v">
+            <desc>Reverse</desc>
+            <graphic type="photo" url="CdN2004-0515_2.jpg">
+               <desc xml:lang="en">CdN 2004-0515, reverse</desc>
+               <desc xml:lang="fr">CdN 2004-0515, revers</desc>
+            </graphic>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" subtype="editorial" xml:space="preserve"> 
+            <div type="textpart" subtype="label" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="a"/><supplied reason="lost">Ὁ <expan><ex>ἅγιος</ex></expan></supplied> <expan><abbr><supplied reason="lost">Π</supplied>αντ</abbr><ex>ε</ex>
+                 <cb n="b" break="no"/><abbr>λεήμο</abbr><ex>ν</ex></expan>
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab ana="nom">
+                         <lb n="1"/>Λεω<supplied reason="lost">ν</supplied>
+                         <lb n="2" break="no"/>τάκις <rs type="dignity" ref="d0047">πα
+                         <lb n="3" break="no"/>τρίκιος</rs> <expan><abbr><am>S</am></abbr><ex>καὶ</ex></expan> 
+                         <lb n="4"/><rs type="office" subtype="military" ref="#of0295"><expan><abbr>ὁπλιτάρχ</abbr><ex>ης</ex></expan></rs> 
+                         <lb n="5"/>ὁ Τζιντζι
+                         <lb n="6" break="no"/>λούκις
+                      </ab>
+                  </div>
+              </div>
+         <div type="edition" subtype="diplomatic" xml:space="preserve"> 
+                  <div type="textpart" subtype="label" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="a"/>..α̣|ν̣τ/    
+                 <cb n="b"/>λ|ε|ημ|ο/
+              </ab>
+            </div>
+            <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab>
+                         <lb n="1"/>Λ.ον̣                     
+                         <lb n="2"/>τακισπα̣  
+                         <lb n="3"/>τρικιος.
+                         <lb n="4"/>οπλιταρχ/
+                         <lb n="5"/>οτζιντζι
+                         <lb n="6"/>λκισ
+                         </ab>
+                  </div>
+              </div>
+         <div type="translation">
+            <p>Ὁ ἅγιος Παντελεήμον. || + Λεωντάκις πατρίκιος καὶ ὁπλιτάρχης ὁ Τζιντζιλούκις.</p>
+            <p xml:lang="en">Saint Panteleïmon. || + Leontakes Tzintziloukes, patrikios and hoplitarches </p>
+            <p xml:lang="fr">Saint Pantéléèmôn. || + Léontakis Tzintziloukès, patrice et hoplitarque</p>
+         </div>
+         <div type="commentary" subtype="text">
+            <!-- renvois internes à refaire -->
+            <p xml:lang="en">The first name Leontakes, a diminutive of Leon, is rare. However, the unpublished bulla
+               from the Zacos collection, dated to the mid-11th century, bearing the name
+               Leontakes Tzintziloukes and the effigy of Saint Michael, could hardly
+               be attributed to our signatory, just as the bullae of
+               Leon, a devotee of Saint George, cannot be attributed to him. To our knowledge, the bulla of
+               Leontakes offers one of the rare occurrences in sigillography of the
+               military office of hoplitarches. Commander-in-chief of the infantry
+               of an army in operation, the hoplite commander or archigetes appears only
+               in the Taktikon of El Escorial, following the strategoi of the great
+               themes. At the presumed date of the seal, the dignity of patrikios still offered
+               Leontakis an honorable rank in the hierarchical ladder. Founder
+               of the monastery of Tzintziloukai, in the diocese of Mosynoupolis, the
+               monk Kosmas is the first representative of the family mentioned
+               in sources, as a close advisor to Emperor
+               Michael IV. The same Kosmas, whose seal we know, is
+               also attested in a document dated in 1045, as he had been sent by
+               Konstantinos Monomachos to inspect the monasteries of Mount Athos
+               before a new typikon was established in their favor. The
+               Tzintziloukai served the Empire under the Komnenoi. The most famous,
+               Basil, facilitated the return of Manuel Komnenos to Constantinople after
+               the unexpected death of his father in Cilicia.</p>
+            <p xml:lang="en"/>
+            <p xml:lang="fr">Le prénom Léontakis, diminutif de Léon, est rare. Cependant, la bulle
+               inédite de la collection Zacos datée du milieu du XIe siècle, au nom de
+               Léontakis Tzintziloukès et à l’effigie de saint Michel (<bibl>
+                  <ptr target="JordanovCorpus2"/>, n° <citedRange unit="entry"
+                     >714</citedRange></bibl>), pourrait difficilement
+               être attribuée à notre titulaire, au même titre que les bulles de
+               Léon, dévot de saint Georges <bibl>
+                  <ptr target="JordanovCorpus2"/>, n° <citedRange unit="entry"
+                     >713</citedRange></bibl>. À notre connaissance, la bulle de
+               Léontakis offre une des rares occurrences en sigillographie de la
+               charge militaire d’hoplitarque(<bibl>
+                  <ptr target="Cheynet2008a"/>, p. <citedRange unit="page"
+                     >352</citedRange></bibl>) . Commandant en chef de l’infanterie
+               d’une armée en opération, l’hoplitarque ou archègètès apparaît seulement
+               dans le Taktikon de l’Escurial, à la suite des stratèges des grands
+               thèmes. À la date présumée du sceau, la dignité de patrice offre encore
+               à Léontakis un rang honorable sur l’échelle hiérarchique. Fondateur
+               du monastère des Tzintziloukai, dans le diocèse de Mosynoupolis, le
+               moine Kosmas est le premier représentant de la famille mentionné
+               dans les sources, et ce, en tant que proche conseiller de l’empereur
+               Michel IV. Le même Kosmas, dont nous connaissons le sceau (<bibl>
+                  <ptr target="LaurentCorpus5.2"/>, n° <citedRange unit="entry"
+                     >1271</citedRange></bibl>), est
+               également attesté dans un acte de 1045, car il avait été envoyé par
+               Constantin Monomaque inspecter les monastères du mont Athos
+               avant qu’un nouveau typikon ne fût établi en leur faveur. Les
+               Tzintziloukai ont servi l’Empire sous les Comnènes. Le plus fameux,
+               Basile, facilita le retour de Manuel Comnène à Constantinople après
+               la mort inopinée de son père en Cilicie.</p>
+            <p xml:lang="fr"/>
+         </div>
+         <div type="bibliography" subtype="edition">
+            <p><bibl>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry"
+                     >97</citedRange></bibl>
+               <bibl/>
+            </p>
+         </div>
+         <div type="bibliography" subtype="parallels">
+            <p/>
+         </div>
+         <div type="bibliography" subtype="discussion">
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

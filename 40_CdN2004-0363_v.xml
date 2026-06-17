@@ -20,7 +20,8 @@
                <seg xml:lang="en">Digital enhancement</seg>
             </edition>
             <editor role="digital-editor" xml:id="PE" when="2025-04-02">Pia Evening</editor>
-            <editor role="digital-editor" resp="#MCP" when="2025-05-27">Maria Campagnolo-Pothitou</editor>
+            <editor role="digital-editor" resp="#MCP" when="2025-05-27">Maria
+               Campagnolo-Pothitou</editor>
          </editionStmt>
          <publicationStmt>
             <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
@@ -40,12 +41,16 @@
             <listPerson type="issuer">
                <person gender="M" role="civil aristocracy">
                   <persName xml:lang="grc">
-                     <forename>Κωνσταντῖνος</forename> <surname>Ῥαδηνὸς</surname></persName>
+                     <forename>Κωνσταντῖνος</forename>
+                     <surname>Ῥαδηνός</surname></persName>
                   <persName xml:lang="fr">
-                     <forename>Constantin</forename> <surname>Radènos</surname></persName>
+                     <forename>Constantin</forename>
+                     <surname>Radènos</surname></persName>
                   <persName xml:lang="en">
-                     <forename>Constantine</forename> <surname>Radenos</surname></persName>
-                  <idno type="PBW" ana="http://pbw2016.kdl.kcl.ac.uk/person/Konstantinos/20354/">Konstantinos 20354</idno>
+                     <forename>Constantine</forename>
+                     <surname>Radenos</surname></persName>
+                  <idno type="PBW" ana="http://pbw2016.kdl.kcl.ac.uk/person/Konstantinos/20354/"
+                     >Konstantinos 20354</idno>
                   <idno type="PBE"/>
                   <idno type="PLP"/>
                   <idno type="PLRE"/>
@@ -323,7 +328,7 @@
             </div>
             <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
                       <ab>
-                         <lb n="1"/>AγΝΗ 
+                         <lb n="1"/>AγΝΗ 
                          <lb n="2"/>ΡAΔΗΝοΝ
                          <lb n="3"/>cοΝΜAγιc
                          <lb n="4"/>ΤΡοΝοιΚΕΤ͵
@@ -335,24 +340,58 @@
                   </div>
               </div>
          <div type="translation">
-            <p>Μήτηρ Θεοῦ. || + Ἁγνή, Ῥαδηνὸν σὸν μάγιστρον οἰκέτην, βέστην τὸν Κωνσταντῖνον ἔνφορον σκέποις.</p>
-            <p xml:lang="en">Pure, please protect your servant Constantine Radenos, magistros, vestes
-               and ephoros.</p>
-            <p xml:lang="fr">Pure, veuille protéger ton serviteur Constantin Radènos, magistre, vestès
-               et éphore.</p>
+            <p>Μήτηρ Θεοῦ. || + Ἁγνή, Ῥαδηνὸν σὸν μάγιστρον οἰκέτην, βέστην τὸν Κωνσταντῖνον ἔνφορον
+               σκέποις.</p>
+            <p xml:lang="en">Pure, please protect your servant Constantine Radenos, magistros,
+               vestes and ephoros.</p>
+            <p xml:lang="fr">Pure, veuille protéger ton serviteur Constantin Radènos, magistre,
+               vestès et éphore.</p>
          </div>
          <div type="commentary" subtype="text">
             <!-- renvois internes à refaire -->
             <p xml:lang="en">Like John, Constantine is a common forename among Radenos' family
                members. In fact, no fewer than eleven different seals bear the name of Constantine
-               Radenos, dating from the first third of the 11th century to the very beginning of the
-               13th century. When an effigy occupies the obverse of these seals, it is
-               always that of the Virgin in various attitudes. According to Al.-K. Wassiliou and W.
-               Seibt, our signatory could be identified with the magistrate Radenos, whose seal,
-               without any forename and dated between 1070 and 1080, gives him as symponos, i.e.
-               first deputy of the eparch of Constantinople. If we accept this suggestion, it is no
-               longer difficult to link our sigillant to the eparch mentioned in the Alexiad. The
-               seal presented here would therefore mark a prior stage in Constantine's career.</p>
+               Radenos, dating from the first third of the 11th century to the very begining of the
+               13th century. When an effigy occupies the obverse of these seals, it is always that
+               of the Virgin in various attitudes. According to Al.-K. Wassiliou and W. Seibt, our
+               signatory could be identified with the magistrate Radenos, whose seal, without any
+               forename and dated between 1070 and 1080, gives him as symponos, i.e. first deputy of
+               the eparch of Constantinople. If we accept this suggestion, it is no longer difficult
+               to link our sigillant to the eparch mentioned in the Alexiad. The seal presented here
+               would therefore mark a prior stage in Constantine's career.</p>
+            <p xml:lang="en">The list of Radènoi recorded in sources, mainly
+            sigillographic, is very long <bibl>
+               <ptr target="Radenoi2019"/>, p. <citedRange unit="page"
+                  >15-104</citedRange></bibl>. According to Symeon Magistros, the family takes its name
+            from Radè, their place of origin, located in the Anatolian theme. From the beginning
+            of the 10th century, the Radènoi were among the Constantinopolitan elite, since
+            Patrician John, the oldest known member in narrative sources, served
+            as ambassador to Empress Zoe Karbonopsina, regent of Constantine VII, to
+            conclude a truce with the Arabs of Tarsus and Melitene in 916. In 921/922, this
+            same patrician, then drongarius of the fleet, won a victory over Emir Leo of
+            Tripoli. Towards the end of the same century, the family became related to the Lecapenus family through the
+            marriage of Constantine Radenos to Sophia, great-granddaughter of Emperor Romanus
+            I. Favored by their kinship with Romanus III Argyrus (1028-1034), the
+            Radènoi were able to maintain their position at the top of the hierarchy, now holding
+            high administrative positions, such as Constantine, judge and imperial tax collector
+            in the first half of the 11th century, the eparch Radènos in 1081, or
+            Psellos' disciple and friend, Michael, proedros and praetor of the Thracians <bibl>
+               <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">60</citedRange></bibl>.
+               Finally, two metropolitans from the Radenoi family, Michael of Euchaïtes and Demetrios of
+               Cyzicos, were promoted to syncellus by this emperor. In addition, several Radenai
+               married high-ranking officials, as evidenced by their seals, and two other
+               ladies, Irene, in the first half of the 11th century, and Anne, in the second half, were
+               honored with the only palatial dignity reserved for women, that of zoste or
+              patrikia with a belt. The important place that this illustrious lineage occupied in
+               Constantinople is also highlighted by the foundation of the monastery τοῦ Σωτῆρος
+               τῶν Ῥαδηνῶν, attested since 1061. The seals of the Radenoi, titled sebastes, prove
+               that the family was also related to the Comnenes and that its members remained
+               active until the Palaiologan time. According to the Novgorod Chronicle (p. 337),
+               a Radenos was even approached as a candidate for supreme power in 1204,but he
+               refused the throne. Like Jean, Constantin was a name frequently given among the
+               Radènoi. So that no fewer than eleven different seals have come down to us
+               in the name of Constantine Radenos, spanning from the first third of the 11th century to the very
+               beginning of the 13th century.</p>
             <p xml:lang="fr">Comme Jean, Constantin était un prénom fréquemment donné chez les
                Radènoi. Tant il est vrai que pas moins de onze sceaux différents nous sont parvenus
                au nom de Constantin Radènos, s’étendant du premier tiers du XIe siècle jusqu’au tout
@@ -364,14 +403,46 @@
                n’est plus difficile de rapprocher notre sigillant de l’éparque mentionné dans
                l’Alexiade. Dès lors, le sceau présenté ici marquerait une étape antérieure dans la
                carrière de Constantin.</p>
+            <p xml:lang="fr">La liste des Radènoi répertoriés dans les sources, majoritairement
+               sigillographiques, est très longue <bibl>
+                  <ptr target="Campagnolo2019"/>, p. <citedRange unit="page"
+                  >15-104</citedRange></bibl>. Selon Syméon Magistros, la famille tire son patronyme
+               de Radè, leur localité d’origine, située dans le thème des Anatoliques. Dès le début
+               du Xe siècle, les Radènoi comptaient parmi l’élite constantinopolitaine, puisque le
+               patrice Jean, le plus ancien membre connu des sources narratives, servit
+               d’ambassadeur à l’impératrice Zoé Karbônopsina, régente de Constantin VII, pour
+               conclure une trêve avec les Arabes de Tarse et de Mélitène, en 916. En 921/922, ce
+               même patrice, alors drongaire de la flotte, remporta une victoire sur l’émir Léon de
+               Tripoli. Vers la fin de ce même siècle, la famille s’apparenta aux Lécapènes par le
+               mariage de Constantin Radènos avec Sophie, arrière-petite-fille de l’empereur Romain
+               Ier. Favorisés par leurs liens de parenté avec Romain III Argyre (1028-1034), les
+               Radènoi purent maintenir leur rang au sommet de la hiérarchie, exerçant désormais de
+               hautes fonctions administratives, tels Constantin, juge et préposé à la sacelle
+               impériale dans la première moitié du XIe siècle, l’éparque Radènos en 1081, ou bien
+               le disciple et ami de Psellos, Michel, proèdre et préteur des Thracésiens <bibl>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">60</citedRange></bibl>.
+               Enfin, deux métropolites issus des Radènoi, Michel d’Euchaïtes et Dèmètrios de
+               Cyzique, furent promus syncelles par cet empereur. D’autre part, plusieurs Radènai
+               épousèrent de hauts fonctionnaires, comme le prouvent leurs sceaux, et deux autres
+               dames, Irène, dans la première moitié du XIe siècle, et Anne, dans la seconde, furent
+               honorées de l’unique dignité palatiale réservée aux femmes, celle de zôstè ou
+               patricienne à ceinture. La place importante que cette illustre lignée occupait à
+               Constantinople est enfin mise en exergue par la fondation du monastère τοῦ Σωτῆρος
+               τῶν Ῥαδηνῶν, attesté depuis 1061. Les sceaux des Radènoi, titrés sébastes, prouvent
+               que la famille était aussi apparentée aux Comnènes et que ses membres restèrent
+               actifs jusqu’à l’époque des Paléologues. D’après la Chronique de Novgorod (p. 337),
+               un Radènos fut même pressenti comme candidat au pouvoir suprême en 1204, mais il
+               refusa le trône. Comme Jean, Constantin était un prénom fréquemment donné chez les
+               Radènoi. Tant il est vrai que pas moins de onze sceaux différents nous sont parvenus
+               au nom de Constantin Radènos, s’étendant du premier tiers du XIe siècle jusqu’au tout
+               début du XIIIe siècle.</p>
          </div>
          <div type="bibliography" subtype="edition">
             <p>
                <bibl>
-               <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">40</citedRange></bibl>;
-               <bibl>
-                  <ptr target="Campagnolo2019"/>, n° <citedRange unit="entry">40</citedRange></bibl>.
-            </p>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">40</citedRange></bibl>; <bibl>
+                  <ptr target="Campagnolo2019"/>, n° <citedRange unit="entry"
+               >40</citedRange></bibl>. </p>
          </div>
          <div type="bibliography" subtype="parallels">
             <p/>
@@ -380,7 +451,7 @@
             <p>
                <bibl>
                   <ptr target="BBÖ2"/>, p. <citedRange unit="page">43</citedRange></bibl>
-               </p>
+            </p>
          </div>
       </body>
    </text>

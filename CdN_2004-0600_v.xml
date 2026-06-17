@@ -5,7 +5,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title xml:lang="en">Aaron, proedros and doukas</title>
+            <title xml:lang="en">Aaron, proedros and doux</title>
             <title xml:lang="fr">Aarôn, proèdre et duc</title>
             <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
             <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
@@ -19,7 +19,8 @@
                <seg xml:lang="fr">Amélioration digitale</seg>
                <seg xml:lang="en">Digital enhancement</seg>
             </edition>
-            <editor role="digital-editor" ref="#MCP" when="2025-01-29">Maria Campagnolo-Pothitou</editor>
+            <editor role="digital-editor" ref="#MCP" when="2025-01-29">Maria
+               Campagnolo-Pothitou</editor>
          </editionStmt>
          <publicationStmt>
             <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
@@ -39,18 +40,19 @@
             <listPerson type="issuer">
                <person gender="M" role="military aristocracy">
                   <persName xml:lang="grc">
-                     <forename>Ἀαρών</forename>
-                     <surname></surname>
+                     <forename>Ἀαρὼν</forename>
+                     <surname/>
                   </persName>
                   <persName xml:lang="fr">
                      <forename>Aarôn</forename>
-                     <surname></surname>
+                     <surname/>
                   </persName>
                   <persName xml:lang="en">
                      <forename>Aaron</forename>
-                     <surname></surname>
+                     <surname/>
                   </persName>
-                  <idno type="PBW" corresp="http://pbw2016.kdl.kcl.ac.uk/boulloterion/1117/">Aaron 101</idno>
+                  <idno type="PBW" corresp="http://pbw2016.kdl.kcl.ac.uk/boulloterion/1117/">Aaron
+                     101</idno>
                   <idno type="PBE"/>
                   <idno type="PLP"/>
                   <idno type="PLRE"/>
@@ -120,10 +122,10 @@
                            <measure type="countermark" unit="clock"/>
                         </support>
                         <condition rend="well-preserved well-struck chipped">
-                           <p xml:lang="en">The seal is well preserved and well struck; trimmed
-                              on a part of the periphery; lead residues from the mould.</p>
-                           <p xml:lang="fr">Le sceau est bien conservé et bien frappé; rogné
-                              sur une partie de la tranche; restes du plomb du moule.</p>
+                           <p xml:lang="en">The seal is well preserved and well struck; trimmed on a
+                              part of the periphery; lead residues from the mould.</p>
+                           <p xml:lang="fr">Le sceau est bien conservé et bien frappé; rogné sur une
+                              partie de la tranche; restes du plomb du moule.</p>
                         </condition>
                      </supportDesc>
                      <layoutDesc>
@@ -150,15 +152,15 @@
                   <origin>
                      <origPlace>
                         <seg xml:lang="fr">
-                           <placeName></placeName>
+                           <placeName/>
                         </seg>
                         <seg xml:lang="en">
-                           <placeName></placeName>
+                           <placeName/>
                         </seg>
                      </origPlace>
                      <origDate type="analysis" notBefore="1056" notAfter="1057"
-                        evidence="epigraphy onomastics prosopography titulature"
-                        cert="high" resp="#MCP #JCC">
+                        evidence="epigraphy onomastics prosopography titulature" cert="high"
+                        resp="#MCP #JCC">
                         <seg xml:lang="en">Mid of the 11th century</seg>
                         <seg xml:lang="fr">Milieu du XIe siècle</seg>
                      </origDate>
@@ -205,12 +207,20 @@
                      <decoDesc>
                         <decoNote>
                            <figure>
-                              <figDesc n="r" xml:lang="fr" ana="person male saint Théodore debout lance bouclier">Saint Théodore en pied, de
-                                 face, tenant une lance dans la main droite et s'appuyant de la gauche sur un bouclier posé par terre. De part et d'aute de l'effigie, épigraphe en colonne.</figDesc>
-                              <figDesc n="r" xml:lang="en" ana="person male saint Théodore standing spear shield">Saint Theodore standing, facing,
-                                 holding a spear and leaning with his left hand on a shield on the ground. On either side of the effigy, epigraph in columns.</figDesc>
-                              <figDesc n="decoR" xml:lang="fr">Cercle de grènetis; au sommet du champ, trois tirets; une croisette précède la légende</figDesc>
-                              <figDesc n="decoR" xml:lang="en">Border of dots; three traits on the summit; the legend is preceded by a crosslet</figDesc>
+                              <figDesc n="r" xml:lang="fr"
+                                 ana="person male saint Théodore debout lance bouclier">Saint
+                                 Théodore en pied, de face, tenant une lance dans la main droite et
+                                 s'appuyant de la gauche sur un bouclier posé par terre. De part et
+                                 d'aute de l'effigie, épigraphe en colonne.</figDesc>
+                              <figDesc n="r" xml:lang="en"
+                                 ana="person male saint Théodore standing spear shield">Saint
+                                 Theodore standing, facing, holding a spear and leaning with his
+                                 left hand on a shield on the ground. On either side of the effigy,
+                                 epigraph in columns.</figDesc>
+                              <figDesc n="decoR" xml:lang="fr">Cercle de grènetis; au sommet du
+                                 champ, trois tirets; une croisette précède la légende</figDesc>
+                              <figDesc n="decoR" xml:lang="en">Border of dots; three traits on the
+                                 summit; the legend is preceded by a crosslet</figDesc>
                            </figure>
                         </decoNote>
                      </decoDesc>
@@ -244,8 +254,8 @@
                      <decoDesc>
                         <decoNote>
                            <figure>
-                              <figDesc n="decoV" xml:lang="fr"></figDesc>
-                              <figDesc n="decoV" xml:lang="en"></figDesc>
+                              <figDesc n="decoV" xml:lang="fr"/>
+                              <figDesc n="decoV" xml:lang="en"/>
                            </figure>
                         </decoNote>
                      </decoDesc>
@@ -261,7 +271,7 @@
       </encodingDesc>
       <revisionDesc>
          <change when="2025-01-29" who="#MCP">Creation of the XML record.</change>
-         <change when="2025-01-29" who="#MCP"></change>
+         <change when="2025-01-29" who="#MCP"/>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -293,7 +303,7 @@
                   
                   <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
                       <ab>
-                   <lb n="1"/>+ <rs type="invocation" ref ="#inv004"><expan><abbr>K</abbr><ex>ύρι</ex><abbr>ε</abbr></expan><expan><abbr>β</abbr><ex>οή</ex>
+                   <lb n="1"/>+ <rs type="invocation" ref="#inv004"><expan><abbr>K</abbr><ex>ύρι</ex><abbr>ε</abbr></expan><expan><abbr>β</abbr><ex>οή</ex>
                     <abbr>θ</abbr><ex>ει</ex></expan></rs>
                       <lb n="2"/><forename>Ἀαρών</forename>
                       <lb n="3"/><rs type="dignity" ref="#d0051">προαί
@@ -321,52 +331,58 @@
          <div type="translation">
             <p> Ὁ ἅγιος Θεόδωρος/+ Κύριε βοήθει Ἀαρὼν προαίδρῳ καὶ δουκί.</p>
             <p xml:lang="en">Saint Theodore/Lord aid your servant Aaron, proedros and doukas.</p>
-            <p xml:lang="fr">Saint Théodore/Seigneur accorde ton secours à Aarôn, proèdre et duc.</p>
+            <p xml:lang="fr">Saint Théodore/Seigneur accorde ton secours à Aarôn, proèdre et
+               duc.</p>
          </div>
-         <div type="commentary" subtype="text"><!-- renvois internes à refaire -->
-            <p xml:lang="en">Aarôn is the third son of the last Bulgarian tsar, Ivan Vladislav, who was defeated by Basil II in 1018. 
-               He is therefore the paternal uncle of Samuel and George Alousianos. After initially having refused to surrender to the 
-               Byzantines by taking refuge in the mοnt Tmoros, Aarôn and his two elder brothers, Prousianos and Alousianos, accepted the welcome
-               of the emperor, who, according to Skylitzès, bestowed upon them the dignities of magistrate, for the first, and of patrice for the other two.
-               They were entrusted with great commands in the East. 
-               Aarôn faithfully served at least three emperors - Constantine Monomachus, Michael VI and his brother-in-law Isaac Comnenus, husband of his sister Catherine -
-               without ever meddling in the affairs of the emperor. Aarôn's brilliant military career, well documented 
-               in Byzantine and Armenian sources, is complemented by the many seals he left behind, all bearing the effigy of Saint Theodore.
-               
-               Translated with DeepL.com (free version)</p>
-            <p xml:lang="fr">Aarôn est le troisième fils du dernier tsar bulgare, Ivan Vladislav, vaincu par Basile II en 1018. 
-               Il est donc l’oncle paternel de Samuel et de Georges Alousianos. Après avoir refusé, dans un premier temps, de se rendre aux 
-               Byzantins en se réfugiant au mοnt Tmoros, Aarôn et ses deux frères aînés, Prousianos et Alousianos, ont fini par accepter l’accueil
-               de l’empereur, qui les gratifia, selon Skylitzès, des dignités de magistre et de patrice. Ils se sont vu confier de grands commandements en Orient. 
-               Aarôn servit fidèlement au moins trois empereurs –  Constantin Monomaque, Michel VI et son beau-frère Isaac Comnène, époux de 
-               sa sœur Catherine – sans jamais se mêler aux actions compromettantes de ses frères. La brillante carrière militaire d’Aarôn, bien attestée 
-               dans les sources byzantines et arméniennes, est complétée par les nombreux sceaux qu’il a laissés, tous à l’effigie de saint Théodore.</p>
+         <div type="commentary" subtype="text">
+            <!-- renvois internes à refaire -->
+            <p xml:lang="en">Aarôn is the third son of the last Bulgarian tsar, Ivan Vladislav, who
+               was defeated by Basil II in 1018. He is therefore the paternal uncle of Samuel and
+               George Alousianos. After initially having refused to surrender to the Byzantines by
+               taking refuge in the mοnt Tmoros, Aarôn and his two elder brothers, Prousianos and
+               Alousianos, accepted the welcome of the emperor, who, according to Skylitzès,
+               bestowed upon them the dignities of magistrate, for the first, and of patrice for the
+               other two. They were entrusted with great commands in the East. Aarôn faithfully
+               served at least three emperors - Constantine Monomachus, Michael VI and his
+               brother-in-law Isaac Comnenus, husband of his sister Catherine - without ever
+               meddling in the affairs of the emperor. Aarôn's brilliant military career, well
+               documented in Byzantine and Armenian sources, is complemented by the many seals he
+               left behind, all bearing the effigy of Saint Theodore. </p>
+            <p xml:lang="fr">Aarôn est le troisième fils du dernier tsar bulgare, Ivan Vladislav,
+               vaincu par Basile II en 1018. Il est donc l’oncle paternel de Samuel et de Georges
+               Alousianos. Après avoir refusé, dans un premier temps, de se rendre aux Byzantins en
+               se réfugiant au mοnt Tmoros, Aarôn et ses deux frères aînés, Prousianos et
+               Alousianos, ont fini par accepter l’accueil de l’empereur, qui les gratifia, selon
+               Skylitzès, des dignités de magistre et de patrice. Ils se sont vu confier de grands
+               commandements en Orient. Aarôn servit fidèlement au moins trois empereurs –
+               Constantin Monomaque, Michel VI et son beau-frère Isaac Comnène, époux de sa sœur
+               Catherine – sans jamais se mêler aux actions compromettantes de ses frères. La
+               brillante carrière militaire d’Aarôn, bien attestée dans les sources byzantines et
+               arméniennes, est complétée par les nombreux sceaux qu’il a laissés, tous à l’effigie
+               de saint Théodore.</p>
          </div>
          <div type="bibliography" subtype="edition">
             <p>
                <bibl>
-                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">91A</citedRange></bibl>;
-               <bibl>
-                  <ptr target="Zacos2"/>, n° <citedRange unit="entry">353a</citedRange></bibl>;
-               <bibl>
-                  <ptr target="ZacosSpink2"/>, n° <citedRange unit="entry"
-                  >215</citedRange>.</bibl>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">91A</citedRange></bibl>; <bibl>
+                  <ptr target="Zacos2"/>, n° <citedRange unit="entry">353a</citedRange></bibl>; <bibl>
+                  <ptr target="ZacosSpink2"/>, n° <citedRange unit="entry">215</citedRange>.</bibl>
             </p>
          </div>
          <div type="bibliography" subtype="parallels">
             <p>Athens, collection D. Doukas: <bibl>
-               <ptr target="Koltsida-Makri2008"/>, p. <citedRange unit="page">139</citedRange>,n° <citedRange unit="entry"
-                  >1</citedRange>. </bibl>
+                  <ptr target="Koltsida-Makri2008"/>, p. <citedRange unit="page">139</citedRange>,n°
+                     <citedRange unit="entry">1</citedRange>. </bibl>
             </p>
-            <p>Fogg inédit: 1075
-            </p>
+            <p>Fogg 1075 inédit:</p>
          </div>
          <div type="bibliography" subtype="discussion">
-            <p>Le sceau de Génève est mentionné dans
+            <p> <bibl>
+                  <ptr target="JordanovKorpus na pecatite na srednovekovna... 2001"/>, p.
+                     <citedRange unit="page">189</citedRange>. </bibl>
                <bibl>
-                  <ptr target="JordanovKorpus na pecatite na srednovekovna... 2001"/>, p. <citedRange unit="page">189</citedRange>. </bibl>
-            <bibl>
-                  <ptr target="Seibt Sigillographische Beiträge zur Bulgarischen Geschichte 1995"/>, p. <citedRange unit="page">225</citedRange>. </bibl>
+                  <ptr target="Seibt Sigillographische Beiträge zur Bulgarischen Geschichte 1995"/>,
+                  p. <citedRange unit="page">225</citedRange>. </bibl>
             </p>
          </div>
       </body>

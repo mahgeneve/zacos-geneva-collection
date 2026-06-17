@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en">Romanos Skleros, proedros, stratopedarches of the East and doux of
+               Antioch</title>
+            <title xml:lang="fr">Romain Sklèros, proèdre, stratopédarque d’Orient et duc
+               d’Antioche</title>
+            <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
+            <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+            <funder>
+               <orgName corresp="https://www.mahmah.ch/">MAH-Musée d'art et d'histoire - Genève,
+                  Cabinet de numismatique</orgName>, Suisse </funder>
+            <principal ref="#MCP"/>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <seg xml:lang="fr">Amélioration digitale</seg>
+               <seg xml:lang="en">Digital enhancement</seg>
+            </edition>
+            <editor role="digital-editor" xml:id="PE" when="2025-04-02">Pia Evening</editor>
+            <editor role="digital-editor" ref="#MCP" when="2026-01-20">Maria Campagnolo-Pothitou</editor>
+         </editionStmt>
+         <publicationStmt>
+            <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
+            <idno type="filename">CdN 2004-0189</idno>
+            <idno type="SigiDocID">s-Ox0A1X</idno>
+            <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+            <idno type="sequence"/>
+            <!--  to be compiled automatically; leave as is  -->
+            <date when="2024-08-06"/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                  >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                  4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listPerson type="issuer">
+               <person gender="M" role="military aristocracy">
+                  <persName xml:lang="grc">
+                     <forename>Ῥωμανός</forename>/> <surname>Σκληρός</surname>/> </persName>
+                  <persName xml:lang="fr">
+                     <forename>Romain</forename>/> <surname>Sklèros</surname>/> </persName>
+                  <persName xml:lang="en">
+                     <forename>Romanos</forename>/> <surname>Skleros</surname>/> </persName>
+                  <idno type="PBW" ana="http://pbw2016.kdl.kcl.ac.uk/person/Romanos/104/">Romanos
+                     104"</idno>
+                  <idno type="PBE"/>
+                  <idno type="PLP"/>
+                  <idno type="PLRE"/>
+                  <idno type="PcBE"/>
+                  <idno type="PmbZ"/>
+               </person>
+            </listPerson>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <seg xml:lang="en">Switzerland</seg>
+                     <seg xml:lang="fr">Suisse</seg>
+                  </country>
+                  <settlement>
+                     <seg xml:lang="en">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">City of
+                           Geneva</placeName>
+                     </seg>
+                     <seg xml:lang="fr">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">Ville de
+                           Genève</placeName>
+                     </seg>
+                  </settlement>
+                  <institution>MAH-Musée d'art et d'histoire</institution>
+                  <repository>Cabinet de numismatique</repository>
+                  <collection type="public">
+                     <rs type="collection-name" xml:lang="en">Byzantine seals collection</rs>
+                     <rs type="collection-name" xml:lang="fr">Collection de sceaux byzantins</rs>
+                  </collection>
+                  <idno type="inv-nr-current">CdN 2004-0189</idno>
+                  <altIdentifier>
+                     <repository/>
+                     <idno type="inv-nr-former"/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <!--https://github.com/SigiDoc/Guidelines/wiki/5.-Controlled-vocabularies#seals-category-->
+                  <summary n="whole">
+                     <seg xml:lang="fr">Administration provinciale</seg>
+                     <seg xml:lang="en">Provincial administration</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>
+                              <term>
+                                 <seg xml:lang="fr">Sceau</seg>
+                                 <seg xml:lang="en">Seal</seg>
+                              </term>
+                              <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                              <interp type="workType" xml:lang="en">Original impression</interp>
+                           </objectType>
+                           <material>
+                              <seg xml:lang="fr">Plomb</seg>
+                              <seg xml:lang="en">Lead</seg>
+                           </material>
+                           <dimensions type="support" unit="mm">
+                              <dim type="diameter">27</dim>
+                              <!-- mesure du champ? -->
+                           </dimensions>
+                           <measure type="weight" unit="g">23,523</measure>
+                           <measure type="axis" unit="clock"/>
+                           <measure type="overstrikeOrient" unit="clock"/>
+                           <measure type="channelOrient" unit="clock">12-6</measure>
+                           <measure type="countermark" unit="clock"/>
+                        </support>
+                        <condition rend="well-struck well-preserved worn-edge chipped">
+                           <p xml:lang="en">The bulla is well-struck and well-preserved, slightly
+                              chipped at the openings of the channel and slightly worn on the
+                              edge</p>
+                           <p xml:lang="fr">La bulle est bien frappée et bien conservée; légèrement
+                              ébréché aux orifices du canal ainsi que sur la tranche</p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout n="whole">
+                           <rs type="execution">
+                              <seg xml:lang="fr">Frappé</seg>
+                              <seg xml:lang="en">Struck</seg>
+                           </rs>
+                           <rs type="shape">
+                              <seg xml:lang="fr">Ronde</seg>
+                              <seg xml:lang="en">Round</seg>
+                           </rs>
+                           <rs type="matrix" subtype="not-surviving">
+                              <idno type="SigiDoc">m-c37EYp</idno>
+                              <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+                              <idno type="PBW" ana="http://pbw2016.kdl.kcl.ac.uk/boulloterion/6/"
+                              />"/>
+                              <!-- to be used if the seal has a parallel in the PBW with a boulloterion registered there -->
+                           </rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <seg xml:lang="fr">Antioche<placeName/>
+                        </seg>
+                        <seg xml:lang="en">Antioch<placeName/>
+                        </seg>
+                     </origPlace>
+                     <origDate type="analysis" notBefore="1056" notAfter="1058"
+                        evidence="prosopography iconography titulature historical-context"
+                        cert="low" resp="#MCP #JCC">
+                        <seg xml:lang="en">Around 1057 ?</seg>
+                        <seg xml:lang="fr">Vers 1057 ?</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="transferred" subtype="donated" when="2004-11-24">
+                     <!-- pas sûr de subtype et when -->
+                     <p xml:lang="en">George Zacos collection</p>
+                     <p xml:lang="fr">Collection Georges Zacos</p>
+                  </provenance>
+                  <acquisition>
+                     <p xml:lang="en">Donation of the Migore Foundation, Janet Zakos legacy, <date
+                           when="2004-11-24">24th November 2004</date>
+                     </p>
+                     <p xml:lang="fr">Don de la Fondation Migore, legs Janet Zakos, <date
+                           when="2004-11-24">24 Novembre 2004</date>
+                     </p>
+                  </acquisition>
+               </history>
+               <msPart n="r">
+                  <msIdentifier/>
+                  <msContents>
+                     <!-- ajouté ceci -->
+                     <summary n="r">
+                        <seg xml:lang="en">Obverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="r">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="fr">Iconographie avec des sigles de part et d'autre de
+                                 l'effigie</p>
+                              <p xml:lang="en">Iconography with sigla on either side of the
+                                 effigy</p>
+                           </layout>
+                        </layoutDesc>
+
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="r">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="r" xml:lang="fr" ana="person male archangel Michael"
+                                 >L’archange Michel, de face, debout sur un souppédion ovale, revêtu
+                                 des parements impériaux, le lôros droit dont le pan retombe sur le
+                                 bras gauche, tenant en main droite un long sceptre à terminaison
+                                 trifoliée et en main gauche un globe crucigère.</figDesc>
+                              <figDesc n="r" xml:lang="en" ana="person male archangel Michael">The
+                                 archangel Michael, facing forward, standing on an oval pedestal,
+                                 dressed in imperial robes, the straight loros with the flap falling
+                                 over his left arm, holding a long scepter with a trifoliate end in
+                                 his right hand and a cruciferous globe in his left hand.</figDesc>
+                              <figDesc n="decoR" xml:lang="fr">Cercle de gros grènetis</figDesc>
+                              <figDesc n="decoR" xml:lang="en">Circle of large dots</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+               <msPart n="v">
+                  <msIdentifier/>
+                  <msContents>
+                     <summary n="v"><!-- ajouté ceci -->
+                        <seg xml:lang="en">Reverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="v">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="en">Linear legend of 8 lines</p>
+                              <p xml:lang="fr">Légende linéaire sur 8 lignes</p>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="v">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="decoV" xml:lang="fr">Cercle de grènetis; la légende
+                                 estsurmontée d’un croisillon de perles accosté de tirets</figDesc>
+                              <figDesc n="decoV" xml:lang="en">Circle of dots; the legend is
+                                 surmounted by a crosslet of pearls between traits</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2025-04-02" who="#PE">Creation of the XML record.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp>
+         <surface n="r">
+            <desc>Obverse</desc>
+            <graphic type="photo" url="CdN2004-0189_1.jpg">
+               <desc xml:lang="en">CdN 2004-0189, obverse</desc>
+               <desc xml:lang="fr">CdN 2004-0189, avers</desc>
+            </graphic>
+         </surface>
+         <surface n="v">
+            <desc>Reverse</desc>
+            <graphic type="photo" url="CdN2004-0189_2.jpg">
+               <desc xml:lang="en">CdN 2004-0189, reverse</desc>
+               <desc xml:lang="fr">CdN 2004-0189, revers</desc>
+            </graphic>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" subtype="editorial" xml:space="preserve"> 
+            <div type="textpart" subtype="sigla" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="a"/><expan><abbr>Μ</abbr><ex>ι</ex>
+                 <cb n="b" break="no"/><abbr>χ</abbr><ex>αήλ</ex></expan> 
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab ana="nom">
+                         <lb n="1"/><expan><abbr>Ῥωμαν</abbr><ex>ὸς</ex></expan> 
+                         <lb n="2"/><rs type="dignity" ref="#d0051"><expan><abbr>πρόεδρο</abbr><ex>ς</ex></expan></rs> 
+                         <lb n="3"/><rs type="office" subtype="military" ref="#of0282"><expan><abbr>στρατοπε
+                         <lb n="4" break="no"/>δάρχ</abbr><ex>ης</ex></expan></rs> τῖς <placeName ref="#geo0041">Ἀνα
+                         <lb n="5" break="no"/>τολῆς</placeName> <expan><abbr><am>S</am></abbr><ex>καὶ</ex></expan> <rs type="office" subtype="military" ref="#of0245">δοὺξ</rs> 
+                         <lb n="6"/><placeName ref="#geo0001"><expan><abbr>Ἀντιοχ</abbr><ex>ε</ex><abbr>ία</abbr><ex>ς</ex></expan></placeName> 
+                         <lb n="7"/>ὁ Σκλη
+                         <lb n="8" break="no"/>ρός
+                      </ab>
+                  </div>
+              </div>
+         <div type="edition" subtype="diplomatic" xml:space="preserve"> 
+                  <div type="textpart" subtype="sigla" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="a"/>Μ
+                 <cb n="b"/>Χ
+              </ab>
+            </div>
+            <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab>
+                         <lb n="1"/>ρμαν/ 
+                         <lb n="2"/>προε̣δρο/                                             
+                         <lb n="3"/>στρατοπε
+                         <lb n="4"/>δαρχ/ τισανα
+                         <lb n="5"/>τολησ/ δ̣ξ
+                         <lb n="6"/>αντιοχια/
+                         <lb n="7"/>οσκλη
+                         <lb n="8"/>ροσ
+                         </ab>
+                  </div>
+              </div>
+         <div type="translation">
+            <p>Μιχαήλ. || Ῥωμανὸς, πρόεδρος, στρατοπεδάρχης τῖς Ἀνατολῆς καὶ δοὺξ Ἀντιοχείας ὁ
+               Σκληρός.</p>
+            <p xml:lang="en">Michael. || + Romanos Skleros, proedros, stratopedarches of the East and doux of Antioch</p>
+            <p xml:lang="fr">Michel. || + Romain Sklèros, proèdre, stratopédarque d'Orient et duc d'Antioche</p>
+         </div>
+         <div type="commentary" subtype="text">
+            <!-- renvois internes à refaire -->
+            <p xml:lang="en">It is difficult to accurately date this bulla bearing the image of Saint Michael,
+               which is believed to be later than those featuring Saint George.
+               It is unclear whether it predates or postdates Romanos' disgrace
+               under Theodora (1055-1056) and Michael VI (1056-
+               1057), before returning to favor under Isaac I Komnenos, whom he had
+               successfully supported during his rebellion against Michael VI.
+               The replacement of one patron saint's effigy with another on the
+               seals of a dignitary during his career is a rare phenomenon,
+               but it is conclusively attested. It implies a major change
+               in the life or career of the signatory<bibl>
+                  <ptr target="Cheynet2008g"/>, p. <citedRange unit="page"
+                     >121-123</citedRange></bibl>. A study of a number of
+               cases involving generals, including that of Romanos Skleros, reveals
+               that the particular attraction to Saint Michael as a patron saint,
+               observed between the accession of Constantine IX Monomachos
+               (1043) and Isaac Komnenos (1057), was more a matter of political allegiance
+               than personal or family devotion<bibl>
+                  <ptr target="Cheynet2002b"/>, p. <citedRange unit="page"
+                     >285-305</citedRange></bibl>. Thus, Romanos
+               Skleros, after devoting himself to Saint George, the saint venerated by the Monomachos family,
+               is said to have opted for the archistrategos of the heavenly armies,
+               protector of the powerful faction of Patriarch Michael Keroularios. Very
+               influential at the court of Isaac Komnenos and Constantine X Doukas, it was
+               to this faction that Romanos owed his return to the top ranks of the
+               military hierarchy.
+            </p>
+            <p xml:lang="en"/>
+            <p xml:lang="fr">Il est difficile de dater avec précision cette bulle à l’effigie de saint
+               Michel, qu’on supposera postérieure à celles où figure saint Georges.
+               On ne sait en effet si elle est antérieure ou postérieure à la disgrâce que
+               connut Romain sous Théodora (1055-1056) et Michel VI (1056-
+               1057), avant de revenir en faveur sous Isaac Ier Comnène, qu’il avait
+               soutenu avec succès, lors de sa rébellion contre Michel VI.
+               Le remplacement de l’effigie d’un saint patron par un autre sur les
+               sceaux d’un dignitaire au cours de sa carrière est un phénomène rare,
+               attesté cependant de manière probante. Cela suppose un changement
+               majeur dans la vie ou la carrière du sigillant. L’étude d’un certain
+               nombre de cas de généraux, dont celui de Romain Sklèros, laisse apparaître
+               que l’attirance particulière pour saint Michel comme saint tutélaire,
+               observée entre l’avènement de Constantin IX Monomaque
+               (1043) et Isaac Comnène (1057), relevait plutôt d’une allégeance politique
+               que d’une dévotion personnelle ou familiale<bibl>
+                  <ptr target="Cheynet2002b"/>, p. <citedRange unit="page"
+                     >285-305</citedRange></bibl>. Ainsi, Romain
+               Sklèros, après s’être voué à saint Georges, le saint vénéré de la famille
+               des Monomaques, aurait opté pour l’archistratège des armées célestes,
+               protecteur de la puissante faction du patriarche Michel Cérulaire. Très
+               influente à la cour d’Isaac Comnène et de Constantin X Doukas, c’est
+               à cette faction que Romain a dû son retour aux premiers rangs de la
+               hiérarchie militaire.</p>
+            <p xml:lang="fr"/>
+         </div>
+         <div type="bibliography" subtype="edition">
+            <p><bibl>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry"
+                     >113</citedRange></bibl>
+               <bibl/>
+            </p>
+         </div>
+         <div type="bibliography" subtype="parallels">
+            <p>Ermitage, M-8087 et M-2935: 
+               <bibl>
+                  <ptr target="Sandrovskaja1977"/>, n° <citedRange unit="entry"
+                     >753</citedRange></bibl></p>
+               <p>ancienne collection Seyrig: 
+                  <bibl>
+                     <ptr target="Seyrig"/>, n° <citedRange unit="entry"
+                        >159</citedRange></bibl></p>
+                  <p>Zacos (BnF) 547: 
+                     <bibl>
+                        <ptr target="ZacosOrient"/>, n° <citedRange unit="entry"
+                           >5</citedRange></bibl>
+            </p>
+         </div>
+         <div type="bibliography" subtype="discussion">
+            <p><bibl>
+               <ptr target="Seibt1976"/>, p. <citedRange unit="page"
+                  >82</citedRange></bibl>
+                  </p>
+         </div>
+      </body>
+   </text>
+</TEI>

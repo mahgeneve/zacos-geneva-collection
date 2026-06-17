@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en">Michael Kamateros, protonobelissimos</title>
+            <title xml:lang="fr">Michel Kamatèros, protonobélissime</title>
+            <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
+            <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+            <funder>
+               <orgName corresp="https://www.mahmah.ch/">MAH-Musée d'art et d'histoire - Genève,
+                  Cabinet de numismatique</orgName>, Suisse</funder>
+            <principal ref="#MCP"/>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <seg xml:lang="fr">Amélioration digitale</seg>
+               <seg xml:lang="en">Digital enhancement</seg>
+            </edition>
+            <editor role="digital-editor" xml:id="PE" when="2025-04-22">Pia Evening</editor>
+            <editor role="digital-editor" ref="#MCP" when="2026-03-31">Maria
+               Campagnolo-Pothitou</editor>
+         </editionStmt>
+         <publicationStmt>
+            <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
+            <idno type="filename">CdN 2004-0462</idno>
+            <idno type="SigiDocID">s-hslOx4</idno>
+            <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+            <idno type="sequence"/>
+            <!--  to be compiled automatically; leave as is  -->
+            <date when="2024-08-06"/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                  >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                  4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listPerson type="issuer">
+               <person gender="M" role="civil aristocracy">
+                  <persName xml:lang="grc">
+                     <forename>Μιχαήλ</forename>
+                     <surname>Καματηρός</surname>
+                  </persName>
+                  <persName xml:lang="fr">
+                     <forename>Michel</forename>
+                     <surname>Kamatèros</surname>
+                  </persName>
+                  <persName xml:lang="en">
+                     <forename>Michael</forename>
+                     <surname>Kamateros</surname>
+                  </persName>
+                  <idno type="PBW" ana="http://pbw2016.kdl.kcl.ac.uk/person/Michael/20240/">Michael
+                     20240</idno>
+
+                  <idno type="PBE"/>
+                  <idno type="PLP"/>
+                  <idno type="PLRE"/>
+                  <idno type="PcBE"/>
+                  <idno type="PmbZ"/>
+               </person>
+            </listPerson>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <seg xml:lang="en">Switzerland</seg>
+                     <seg xml:lang="fr">Suisse</seg>
+                  </country>
+                  <settlement>
+                     <seg xml:lang="en">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">City of
+                           Geneva</placeName>
+                     </seg>
+                     <seg xml:lang="fr">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">Ville de
+                           Genève</placeName>
+                     </seg>
+                  </settlement>
+                  <institution>MAH-Musée d'art et d'histoire</institution>
+                  <repository>Cabinet de numismatique</repository>
+                  <collection type="public">
+                     <rs type="collection-name" xml:lang="en">Byzantine seals collection</rs>
+                     <rs type="collection-name" xml:lang="fr">Collection de sceaux byzantins</rs>
+                  </collection>
+                  <idno type="inv-nr-current">CdN 2004-0462</idno>
+                  <altIdentifier>
+                     <repository/>
+                     <idno type="inv-nr-former"/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <!--https://github.com/SigiDoc/Guidelines/wiki/5.-Controlled-vocabularies#seals-category-->
+                  <summary n="whole">
+                     <seg xml:lang="fr">Dignitaires</seg>
+                     <seg xml:lang="en">Dignitary</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>
+                              <term>
+                                 <seg xml:lang="fr">Sceau</seg>
+                                 <seg xml:lang="en">Seal</seg>
+                              </term>
+                              <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                              <interp type="workType" xml:lang="en">Original impression</interp>
+                           </objectType>
+                           <material>
+                              <seg xml:lang="fr">Plomb</seg>
+                              <seg xml:lang="en">Lead</seg>
+                           </material>
+                           <dimensions type="support" unit="mm">
+                              <dim type="diameter">36/34</dim>
+                              <!-- mesure du champ? -->
+                           </dimensions>
+                           <measure type="weight" unit="g">24,608</measure>
+                           <measure type="axis" unit="clock"/>
+                           <measure type="overstrikeOrient" unit="clock"/>
+                           <measure type="channelOrient" unit="clock">12-6</measure>
+                           <measure type="countermark" unit="clock"/>
+                        </support>
+                           <condition rend="well-struck well-preserved ">
+                              <p xml:lang="en">The bulla is very well struck and  preserved</p>
+                              <p xml:lang="fr">La bulles est très bien frappée et conservée</p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout n="whole">
+                           <rs type="execution">
+                              <seg xml:lang="fr">Frappé</seg>
+                              <seg xml:lang="en">Struck</seg>
+                           </rs>
+                           <rs type="shape">
+                              <seg xml:lang="fr">Ronde</seg>
+                              <seg xml:lang="en">Round</seg>
+                           </rs>
+                           <rs type="matrix" subtype="not-surviving">
+                              <idno type="SigiDoc">m-0qBbAL</idno>
+                              <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+                              <idno type="PBW" >"http://pbw2016.kdl.kcl.ac.uk/boulloterion/1746//></idno>
+                              <!-- to be used if the seal has a parallel in the PBW with a boulloterion registered there -->
+                           </rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <seg xml:lang="fr">
+                           <placeName/>
+                        </seg>
+                        <seg xml:lang="en">
+                           <placeName/>
+                        </seg>
+                     </origPlace>
+                     <origDate type="analysis" notBefore="1151" notAfter="1175"
+                        evidence="epigraphy prosopography titulature" cert="high" resp="#MCP #JCC">
+                        <seg xml:lang="en">Third quarter of the 12th century</seg>
+                        <seg xml:lang="fr">Troisième quart du XIIe siècle</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="transferred" subtype="donated" when="2004-11-24">
+                     <!-- pas sûr de subtype et when -->
+                     <p xml:lang="en">George Zacos collection</p>
+                     <p xml:lang="fr">Collection Georges Zacos</p>
+                  </provenance>
+                  <acquisition>
+                     <p xml:lang="en">Donation of the Migore Foundation, Janet Zakos legacy, <date
+                           when="2004-11-24">24th November 2004</date>
+                     </p>
+                     <p xml:lang="fr">Don de la Fondation Migore, legs Janet Zakos, <date
+                           when="2004-11-24">24 Novembre 2004</date>
+                     </p>
+                  </acquisition>
+               </history>
+               <msPart n="r">
+                  <msIdentifier/>
+                  <msContents>
+                     <!-- ajouté ceci -->
+                     <summary n="r">
+                        <seg xml:lang="en">Obverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="r">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="fr">Légende métrique linéaire sur 4 lignes</p>
+                              <p xml:lang="en">Linear metrical legend of 4 lines</p>
+                           </layout>
+                        </layoutDesc>
+
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="r">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="r" xml:lang="fr" ana="text"/>
+                              <figDesc n="r" xml:lang="en" ana="text"/>
+                              <figDesc n="decoR" xml:lang="fr">Cercle de grènetis; la légende est
+                                 surmontée d'une croisette cantonnées de tirets</figDesc>
+                              <figDesc n="decoR" xml:lang="en">Border of dots; the legend is
+                                 surmounted by a crosslet between traits</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+               <msPart n="v">
+                  <msIdentifier/>
+                  <msContents>
+                     <summary n="v"><!-- ajouté ceci -->
+                        <seg xml:lang="en">Reverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="v">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="fr">Légende métrique linéaire sur 5 lignes</p>
+                              <p xml:lang="en">Linear metrical legend of 5 lines</p>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="v">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="decoV" xml:lang="fr">Cercle de grènetis; la légende est
+                                 suivie de deux points</figDesc>
+                              <figDesc n="decoV" xml:lang="en">Border of dots; the legend is
+                                 followed by two dots</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2025-04-22" who="#PE">Creation of the XML record.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp>
+         <surface n="r">
+            <desc>Obverse</desc>
+            <graphic type="photo" url="CdN2004-0462_1.jpg">
+               <desc xml:lang="en">CdN 2004-0462, obverse</desc>
+               <desc xml:lang="fr">CdN 2004-0462, avers</desc>
+            </graphic>
+         </surface>
+         <surface n="v">
+            <desc>Reverse</desc>
+            <graphic type="photo" url="CdN2004-0462_2.jpg">
+               <desc xml:lang="en">CdN 2004-0462, reverse</desc>
+               <desc xml:lang="fr">CdN 2004-0462, revers</desc>
+            </graphic>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" subtype="editorial" xml:space="preserve"> 
+            <div type="textpart" subtype="face" rend="linear" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <lg type="metrical" met="dodecasyllable">
+                 <l n="1">
+                    <lb n="1"/>Πράξεις 
+                    <lb n="2"/>σφραγίζ<supplied reason="lost">ω</supplied> 
+                    <lb n="3"/>Μιχαὴλ τὰς 
+                    <lb n="4"/>ἐγγράφους 
+                 </l>
+              </lg>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <lg type="metrical" met="dodecasyllable">
+                         <l n="2">
+                            <lb n="5"/>τοῦ 
+                            <lb n="6"/>Καματηροῦ 
+                            <lb n="7"/><rs type="dignity" ref="#d0058">πρωτονω
+                            <lb n="8" break="no"/>βελλισί
+                            <lb n="9" break="no"/>μου</rs>
+                         </l>
+                      </lg>
+                  </div>
+              </div>
+         <div type="edition" subtype="diplomatic" xml:space="preserve"> 
+                  <div type="textpart" subtype="face" rend="linear" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <lb n="0"/>  
+                 <lb n="1"/>πραξεις               
+                 <lb n="2"/>σφραγιζ.
+                 <lb n="3"/>Μιχαηλτας 
+                 <lb n="4"/>εγγραφσ
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab>
+                         <lb n="5"/>Του                 
+                         <lb n="6"/>καμαρ
+                         <lb n="7"/>πρτον
+                         <lb n="8"/>rελλισι
+                         <lb n="9"/>μου 
+                         </ab>
+                  </div>
+              </div>
+         <div type="translation">
+            <p>+ Πράξεις σφραγίζω Μιχαὴλ τὰς ἐγγράφους || τοῦ Καματηροῦ πρωτονωβελλισίμου.</p>
+            <p xml:lang="en">I seal protonobelissimos Michel Kamateros' writings.</p>
+            <p xml:lang="fr">Je scelle les actes écrits du protonobélissime Michel Kamatèros.</p>
+         </div>
+         <div type="commentary" subtype="text">
+            <!-- renvois internes à refaire -->
+            <p xml:lang="en">The same Michael Kamateros left another metrical seal with the same
+               obverse, in his capacity of nobelissimos<bibl>
+                  <ptr target="JordanovCorpus2"/>, n° <citedRange unit="entry"
+                     >256</citedRange></bibl>. The numerous bullae we know in the name of Michael
+               Kamateros are dated between the second half of the 11th century and the 12th century
+               and are all listed by Ch. Stavrakos <bibl>
+                  <ptr target="Athens2001"/>, p. <citedRange unit="page">183-184</citedRange></bibl>
+               and I. Jordanov <bibl>
+                  <ptr target="JordanovCorpus2"/>, p. <citedRange unit="page"
+                     >172-173</citedRange></bibl>.The family link beween them is not evident: one group
+               of seals bear the Virgin's effigy, others the effigy of saint Michael and another one
+               that of saint John the Baptist. However our signatory is not so difficult to
+               identify, if we exclude two homonyms: Michael Kamateros Doukas, son of Gregorios and
+               Eirini Doukaina, passed away at the age of three, and Michael Italikos' student who,
+               according to a Italikos letter dated in 1139-1141, he was Romanos' son <bibl>
+                  <ptr target="JordanovCorpus2"/>, p. <citedRange unit="page"
+                     >172-173</citedRange></bibl>. In this letter, Italikos complains that his disciple
+               has abandoned the study of letters to devote himself to a military career, although
+               the incompatibility between a military post and that of epi ton deeseon within the
+               same career is not absolute. Another Kamateros, John, was in fact successively doux
+               and epi ton deeseon. Our signatory is effectively attested in his capacity of
+               protonobelissimos, epi ton deeseon and phylax, while he was attending the synod of
+               March 1166. It is also probable that it is the same who is mentionned in the synod of
+               May 1157 as megaloepiphanestatos, protokourator and epi ton deeseon.</p>
+            <p xml:lang="en"/>
+            <p xml:lang="fr">Le même Michel Kamatèros a laissé une bulle métrique de même avers,
+               lorsqu’il était simplement nobélissime <bibl>
+                  <ptr target="JordanovCorpus2"/>, n° <citedRange unit="entry"
+                     >256</citedRange></bibl>. Les nombreuses bulles qui nous sont parvenues au nom de
+               Michel Kamatèros, datées entre la seconde moitié du XIe siècle et le XIIe siècle, ont
+               été répertoriées par Ch. Stavrakos <bibl>
+                  <ptr target="Athens2001"/>, p. <citedRange unit="page"
+                     >183-184</citedRange></bibl>, puis par I. Jordanov <bibl>
+                        <ptr target="JordanovCorpus2"/>, p. <citedRange unit="page"
+                           >172-173</citedRange></bibl>. La mise en relation de ces homonymes n’est pas
+               évidente : un groupe de sceaux porte l’effigie de la Vierge, d’autres plombs celle de
+               saint Michel, un autre saint Jean Prodrome. Cependant, l’identification de notre
+               sigillant ne semble pas très difficile, si nous écartons deux homonymes : Michel
+               Kamatèros Doukas, fils du sébaste Grégoire et d’Irène Doukaina, mort en bas âge, et
+               l’élève de Michel Italikos, dont une lettre datée de 1139-1141 le désigne comme fils
+               de Romain<bibl>
+                  <ptr target="JordanovCorpus2"/>, p. <citedRange unit="page"
+                     >172-173</citedRange></bibl> et dans laquelle il se plaint que son disciple ait
+               abandonné les lettres pour se consacrer à la vie militaire, quoique l’incompatibilité
+               entre un poste militaire et celui d’épi tôn déèséôn dans une même carrière n’est pas
+               totale. Un autre Kamatèros, Jean, fut en effet successivement duc et épi tôn déèséôn.
+               Notre Michel est, en effet, bien attesté en sa qualité de protonobélissime, épi tôn
+               déèséôn et phylax, au synode de mars 1166, et c’est fort probablement le même
+               personnage que le mégaloépiphanestatos, protocurateur et épi tôn déèséôn, mentionné
+               au synode de mai 1157.</p>
+         </div>
+         <div type="bibliography" subtype="edition">
+            <p><bibl>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">182b</citedRange></bibl>;
+               <bibl>
+                  <ptr target="ZacosSpink1"/>, n° <citedRange unit="entry">81</citedRange></bibl>
+               <bibl/>
+            </p>
+         </div>
+         <div type="bibliography" subtype="parallels">
+            <p>Athens, Numismatic Museum, n° 419a
+               <bibl>
+                  <ptr target="Athens1917"/>, n° <citedRange unit="entry">419a</citedRange></bibl>;
+               <bibl>
+                  <ptr target="Athens2001"/>, n° <citedRange unit="entry">104</citedRange></bibl>;
+               <bibl>
+                  <ptr target="Laurent1932"/>, n° <citedRange unit="entry">311</citedRange></bibl></p>
+         </div>
+         <div type="bibliography" subtype="discussion">
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

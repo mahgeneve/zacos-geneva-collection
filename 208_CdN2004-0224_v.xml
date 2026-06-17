@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en">Stephanos Doukas, sebastos</title>
+            <title xml:lang="fr">Étienne Doukas, sébaste</title>
+            <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
+            <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+            <funder>
+               <orgName corresp="https://www.mahmah.ch/">MAH-Musée d'art et d'histoire - Genève,
+                  Cabinet de numismatique</orgName>, Suisse</funder>
+            <principal ref="#MCP"/>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <seg xml:lang="fr">Amélioration digitale</seg>
+               <seg xml:lang="en">Digital enhancement</seg>
+            </edition>
+            <editor role="digital-editor" xml:id="PE" when="2025-04-22">Pia Evening</editor>
+            <editor role="digital-editor" ref="#MCP" when="2026-06-09">Maria
+               Campagnolo-Pothitou</editor>
+         </editionStmt>
+         <publicationStmt>
+            <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
+            <idno type="filename">CdN 2004-0224</idno>
+            <idno type="SigiDocID">s-UfDcKQ</idno>
+            <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+            <idno type="sequence"/>
+            <!--  to be compiled automatically; leave as is  -->
+            <date when="2024-08-06"/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                  >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                  4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listPerson type="issuer">
+               <person gender="M" role="aristocracy">
+                  <persName xml:lang="grc">
+                     <forename>Στέφανος</forename>/> <surname>Δούκας</surname>/> </persName>
+                  <persName xml:lang="fr">
+                     <forename>Etienne</forename>/> <surname>Doukas</surname>/> </persName>
+                  <persName xml:lang="en">
+                     <forename>Stephanos</forename>/> <surname>Doukas</surname>/> </persName>
+                  <idno type="PBW" ana="http://pbw2016.kdl.kcl.ac.uk/person/Stephanos/20112/"
+                     >Stephanos 20112</idno>
+
+                  <idno type="PBE"/>
+                  <idno type="PLP"/>
+                  <idno type="PLRE"/>
+                  <idno type="PcBE"/>
+                  <idno type="PmbZ"/>
+               </person>
+            </listPerson>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <seg xml:lang="en">Switzerland</seg>
+                     <seg xml:lang="fr">Suisse</seg>
+                  </country>
+                  <settlement>
+                     <seg xml:lang="en">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">City of
+                           Geneva</placeName>
+                     </seg>
+                     <seg xml:lang="fr">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">Ville de
+                           Genève</placeName>
+                     </seg>
+                  </settlement>
+                  <institution>MAH-Musée d'art et d'histoire</institution>
+                  <repository>Cabinet de numismatique</repository>
+                  <collection type="public">
+                     <rs type="collection-name" xml:lang="en">Byzantine seals collection</rs>
+                     <rs type="collection-name" xml:lang="fr">Collection de sceaux byzantins</rs>
+                  </collection>
+                  <idno type="inv-nr-current">CdN 2004-0224</idno>
+                  <altIdentifier>
+                     <repository/>
+                     <idno type="inv-nr-former"/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <!--https://github.com/SigiDoc/Guidelines/wiki/5.-Controlled-vocabularies#seals-category-->
+                  <summary n="whole">
+                     <seg xml:lang="fr">Dignitaires</seg>
+                     <seg xml:lang="en">Dignitaries</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>
+                              <term>
+                                 <seg xml:lang="fr">Sceau</seg>
+                                 <seg xml:lang="en">Seal</seg>
+                              </term>
+                              <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                              <interp type="workType" xml:lang="en">Original impression</interp>
+                           </objectType>
+                           <material>
+                              <seg xml:lang="fr">Plomb</seg>
+                              <seg xml:lang="en">Lead</seg>
+                           </material>
+                           <dimensions type="support" unit="mm">
+                              <dim type="diameter">27,10/25,60</dim>
+                              <!-- mesure du champ? -->
+                           </dimensions>
+                           <measure type="weight" unit="g">11,015</measure>
+                           <measure type="axis" unit="clock"/>
+                           <measure type="overstrikeOrient" unit="clock"/>
+                           <measure type="channelOrient" unit="clock">12-6</measure>
+                           <measure type="countermark" unit="clock"/>
+                        </support>
+                        <condition rend="well-struck well-preserved chipped">
+                           <p xml:lang="en">The bulla is well struck and well preserved, slightly
+                              chipped at the openings of the channel</p>
+                           <p xml:lang="fr">La bulle est bien frappée et bien conservée, légèrement
+                              échancrée aux orifices du canal</p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout n="whole">
+                           <rs type="execution">
+                              <seg xml:lang="fr">Frappé</seg>
+                              <seg xml:lang="en">Struck</seg>
+                           </rs>
+                           <rs type="shape">
+                              <seg xml:lang="fr">Ronde</seg>
+                              <seg xml:lang="en">Round</seg>
+                           </rs>
+                           <rs type="matrix" subtype="not-surviving">
+                              <idno type="SigiDoc">m-7rIniQ</idno>
+                              <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+                              <idno type="PBW"
+                                 >http://pbw2016.kdl.kcl.ac.uk/boulloterion/5815/</idno>
+                              <!-- to be used if the seal has a parallel in the PBW with a boulloterion registered there -->
+                           </rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <seg xml:lang="fr">
+                           <placeName/>
+                        </seg>
+                        <seg xml:lang="en">
+                           <placeName/>
+                        </seg>
+                     </origPlace>
+                     <origDate type="analysis" notBefore="1101" notAfter="1150"
+                        evidence="epigraphy onomastics" cert="high" resp="#MCP #JCC">
+                        <seg xml:lang="en">First half of the 12th century</seg>
+                        <seg xml:lang="fr">Première moitié du XIIe siècle</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="transferred" subtype="donated" when="2004-11-24">
+                     <!-- pas sûr de subtype et when -->
+                     <p xml:lang="en">George Zacos collection</p>
+                     <p xml:lang="fr">Collection Georges Zacos</p>
+                  </provenance>
+                  <acquisition>
+                     <p xml:lang="en">Donation of the Migore Foundation, Janet Zakos legacy, <date
+                           when="2004-11-24">24th November 2004</date>
+                     </p>
+                     <p xml:lang="fr">Don de la Fondation Migore, legs Janet Zakos, <date
+                           when="2004-11-24">24 Novembre 2004</date>
+                     </p>
+                  </acquisition>
+               </history>
+               <msPart n="r">
+                  <msIdentifier/>
+                  <msContents>
+                     <!-- ajouté ceci -->
+                     <summary n="r">
+                        <seg xml:lang="en">Obverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="r">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="fr">Iconographie avec èpigraphes en colonnes de part et
+                                 d'autre de l'effigie</p>
+                              <p xml:lang="en">Iconography with epigraphs on columns on either side
+                                 of the effigy</p>
+                           </layout>
+                        </layoutDesc>
+
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="r">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="r" xml:lang="fr" ana="person male Saint George">Buste de
+                                 saint Georges, de face, imberbe, à l’abondante chevelure bouclée,
+                                 vêtu de la cuirasse sous la chlamyde, armé d’une lance et d’un
+                                 bouclier rond, bordé de perles et orné en son centre d’un motif
+                                 trifide.</figDesc>
+                              <figDesc n="r" xml:lang="en" ana="person male Saint George">Bust of
+                                 Saint George unbearded, with an abundant curly hair,facing forward;
+                                 he is wearing a cuirass and his chlamys, armed with a spear and a
+                                 round shield, edged with pearls and adorned in the center with a
+                                 three-pronged motif</figDesc>
+                              <figDesc n="decoR" xml:lang="fr">Cercle de grènetis</figDesc>
+                              <figDesc n="decoR" xml:lang="en">Border of dots</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+               <msPart n="v">
+                  <msIdentifier/>
+                  <msContents>
+                     <summary n="v"><!-- ajouté ceci -->
+                        <seg xml:lang="en">Reverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="v">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="en">Linear metrical legend of 5 lines</p>
+                              <p xml:lang="fr">Légende métrique linéaire sur 5 lignes</p>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="v">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="decoV" xml:lang="fr">Cercle de grènetis; la légende est
+                                 surmontée d'une perle accostée de traits; une perle à la fin de la
+                                 quatrième ligne</figDesc>
+                              <figDesc n="decoV" xml:lang="en">Border of dots; the legend is
+                                 preceded by a pearl placed between traits; a dot at the end of the
+                                 fourth line</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2025-04-22" who="#PE">Creation of the XML record.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp>
+         <surface n="r">
+            <desc>Obverse</desc>
+            <graphic type="photo" url="CdN2004-0224_1.jpg">
+               <desc xml:lang="en">CdN 2004-0224, obverse</desc>
+               <desc xml:lang="fr">CdN 2004-0224, avers</desc>
+            </graphic>
+         </surface>
+         <surface n="v">
+            <desc>Reverse</desc>
+            <graphic type="photo" url="CdN2004-0224_2.jpg">
+               <desc xml:lang="en">CdN 2004-0224, reverse</desc>
+               <desc xml:lang="fr">CdN 2004-0224, revers</desc>
+            </graphic>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" subtype="editorial" xml:space="preserve"> 
+            <div type="textpart" subtype="label" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="a"/>Ὁ <expan><abbr>ἅγιο</abbr><ex>ς</ex></expan> 
+                 <cb n="b"/><expan><abbr>Γεώργι</abbr><ex>ος</ex></expan>
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <lg type="metrical" met="dodecasyllable">
+                         <l n="1">
+                            <lb n="1"/>Δούκαν <rs type="dignity" ref="#d0075">σε
+                            <lb n="2" break="no"/>βαστὸν</rs> Στέ
+                            <lb n="3" break="no"/>φανον μάρ
+                            <lb n="4" break="no"/>τυς σκέ
+                            <lb n="5" break="no"/>ποις
+                         </l>
+                      </lg>
+                  </div>
+              </div>
+         <div type="edition" subtype="diplomatic" xml:space="preserve"> 
+                  <div type="textpart" subtype="label" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="a"/>ο|α|γιο/  
+                 <cb n="b"/>γ|ε|ρ|γι/
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab>
+                         <lb n="0"/>
+                         <lb n="1"/>δκανσε̣                    
+                         <lb n="2"/>rαονε̣ 
+                         <lb n="3"/>φανονμαρ
+                         <lb n="4"/>τυσσκε
+                         <lb n="5"/>ποισ
+                         </ab>
+                  </div>
+              </div>
+         <div type="translation">
+            <p>Ὁ ἅγιος Γεώργιος. || Δούκαν σεβαστὸν Στέφανον, μάρτυς, σκέποις.</p>
+            <p xml:lang="en">Saint George. || Martyr, may protect the sebastos Stephanos Doukas </p>
+            <p xml:lang="fr">Saint Georges. || Martyr, veuille protéger le sébaste Étienne
+               Doukas.</p>
+         </div>
+         <div type="commentary" subtype="text">
+            <!-- renvois internes à refaire -->
+            <p xml:lang="en">The various pieces identified as parallels or very similar, bearing the
+               same legend and depicting Saint George in bust, are all struck with boulloteria
+               differing only slightly on the reverse, in the ornamentation inserted in the last two
+               lines of the legend but unevenly preserved on the various seals. The signatory is not
+               mentioned elsewhere in the sources, but his rank of sebastos suggests that he was
+               close to the Comnenus imperial family, either through marriage or through Empress
+               Irene Doukaina. On the other hand, the first name Étienne is rarely found among the
+               Doukai. In fact, D. Polemis lists only two instances: one was a son of Constantine
+               Doukas, who is known to have been castrated following the failure of his father’s
+               rebellion in 913 <bibl>
+                  <ptr target="Empereurs2003"/>, p. <citedRange unit="page">169</citedRange></bibl>,
+               and the other, the king of Serbia Stephan Radoslav (1228-1234), grand-son of the
+               empress euphrosyne Doukaina. A third namesake would be one of Eirini Doukaina's
+               brother, although dead in early age. The forename Stephanos is very common among the
+               Kontostephanoi allied to the Doukas family in the middle of the 12th century (Maria
+               Doukaina got married with Alexios Kontostephanos, son of Stephanos and Anna, John's
+               II daughter. Another, bilateral, bulla in the name of the sebastos Stephanos Doukas
+               could be, according to its epigraphy, later than ours <bibl>
+                  <ptr target="Seyrig"/>, n° <citedRange unit="entry">66</citedRange></bibl>; it
+               could have belonged to the same person, as O. Karaghiorgou suggests, if, however he
+               lived a long life<bibl>
+                  <ptr target="Wassiliou-Seibt2011"/>, n° <citedRange unit="entry"
+                  >657</citedRange></bibl>.</p>
+            <p xml:lang="en"/>
+            <p xml:lang="fr">Les différentes pièces signalées comme parallèles ou très proches, de
+               même légende, invoquant saint Georges figuré en buste, sont toutes issues de
+               boullôtèria qui diffèrent de très peu, au revers, selon l’ornementation insérée aux
+               deux dernières lignes de la légende, au reste inégalement conservées sur les divers
+               plombs. Le sigillant est inconnu par ailleurs dans les sources, mais sa dignité de
+               sébaste suggère qu’il était proche de la famille impériale des Comnènes, soit par
+               mariage, soit par l’impératrice Irène Doukaina. D’autre part, le prénom Étienne est
+               peu porté chez les Doukai. En effet, D. Polemis n’en répertorie que deux, un fils de
+               Constantin Doukas, dont on sait qu’il fut castré après l’échec de la rébellion de son
+               père en 913 <bibl>
+                  <ptr target="Empereurs2003"/>, p. <citedRange unit="page">169</citedRange></bibl>,
+               et le roi Étienne Radoslav de Serbie (1228-1234), petit-fils de l’impératrice
+               Euphrosynè Doukaina. Un troisième homonyme serait l’un des frères de l’impératrice
+               Irène Doukaina, pourtant mort en bas âge. Ce nom de baptême est en revanche assez
+               courant chez les Kontostéphanoi auxquels les Doukai s’allièrent au milieu du XIIe
+               siècle (Marie Doukaina épousa Alexis Kontostéphanos, fils d’Étienne et d’Anne, fille
+               de Jean II Comnène). Une autre bulle, bilatérale, au nom du sébaste Étienne Doukas <bibl>
+                  <ptr target="Seyrig"/>, n° <citedRange unit="entry">66</citedRange></bibl> et
+               Benaki 13881, serait, d’après son épigraphie, postérieure à la nôtre ; elle aurait
+               donc pu appartenir au même personnage, comme soutenu par O. Karaghiorgou, si celui-ci
+               a joui d’une longue vie <bibl>
+                  <ptr target="Wassiliou-Seibt2011"/>, n° <citedRange unit="entry"
+                  >657</citedRange></bibl>.</p>
+            <p xml:lang="fr"/>
+         </div>
+         <div type="bibliography" subtype="edition">
+            <p><bibl>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">208</citedRange></bibl>
+               <bibl/>
+            </p>
+         </div>
+         <div type="bibliography" subtype="parallels">
+            <p>Ermitage, M-7993:</p>
+            <p> Athènes, Musée Benaki, inv. 13922:</p>
+            <p>Zacos (BnF) 922:</p>
+         </div>
+         <div type="bibliography" subtype="discussion">
+            <p><bibl>
+               <ptr target="Wassiliou-Seibt2011"/>, n° <citedRange unit="entry"
+                  >657</citedRange></bibl></p>
+         </div>
+      </body>
+   </text>
+</TEI>

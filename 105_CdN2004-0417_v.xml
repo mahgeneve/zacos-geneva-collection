@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en">John Kenchres, protospatharios, epi tou Chrysotriklinou, imperial
+               notary of the Phylax and chrysoteles of Anatolikoi</title>
+            <title xml:lang="fr">Jean Kenchrès, protospathaire, épi tou Chrysotriklinou, notaire
+               impérial du Phylax et chrysotélès des Anatoliques</title>
+            <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
+            <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+            <funder>
+               <orgName corresp="https://www.mahmah.ch/">MAH-Musée d'art et d'histoire - Genève,
+                  Cabinet de numismatique</orgName>, Suisse </funder>
+            <principal ref="#MCP"/>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <seg xml:lang="fr">Amélioration digitale</seg>
+               <seg xml:lang="en">Digital enhancement</seg>
+            </edition>
+            <editor role="digital-editor" xml:id="PE" when="2025-04-02">Pia Evening</editor>
+         </editionStmt>
+         <publicationStmt>
+            <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
+            <idno type="filename">CdN 2004-0417</idno>
+            <idno type="SigiDocID">s-V5fHh7</idno>
+            <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+            <idno type="sequence"/>
+            <!--  to be compiled automatically; leave as is  -->
+            <date when="2024-08-06"/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                  >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                  4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listPerson type="issuer">
+               <person gender="M" role="civil aristocracy">
+                  <persName xml:lang="grc">
+                     <forename>Ἰωάννης</forename>
+                     <surname>Κεγχρῆς</surname>
+                  </persName>
+                  <persName xml:lang="fr">
+                     <forename>Jean</forename>
+                     <surname>Kenchrès</surname>
+                  </persName>
+                  <persName xml:lang="en">
+                     <forename>John</forename>
+                     <surname>Kenchres</surname>
+                  </persName>
+                  <idno type="PBW" ana="http://pbw2016.kdl.kcl.ac.uk/person/Ioannes/2104/">Ioannes 2104</idno>
+
+                  <idno type="PBE"/>
+                  <idno type="PLP"/>
+                  <idno type="PLRE"/>
+                  <idno type="PcBE"/>
+                  <idno type="PmbZ"/>
+               </person>
+            </listPerson>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <seg xml:lang="en">Switzerland</seg>
+                     <seg xml:lang="fr">Suisse</seg>
+                  </country>
+                  <settlement>
+                     <seg xml:lang="en">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">City of
+                           Geneva</placeName>
+                     </seg>
+                     <seg xml:lang="fr">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">Ville de
+                           Genève</placeName>
+                     </seg>
+                  </settlement>
+                  <institution>MAH-Musée d'art et d'histoire</institution>
+                  <repository>Cabinet de numismatique</repository>
+                  <collection type="public">
+                     <rs type="collection-name" xml:lang="en">Byzantine seals collection</rs>
+                     <rs type="collection-name" xml:lang="fr">Collection de sceaux byzantins</rs>
+                  </collection>
+                  <idno type="inv-nr-current">CdN 2004-0417</idno>
+                  <altIdentifier>
+                     <repository/>
+                     <idno type="inv-nr-former"/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <!--https://github.com/SigiDoc/Guidelines/wiki/5.-Controlled-vocabularies#seals-category-->
+                  <summary n="whole">
+                     <seg xml:lang="fr">Administration provinciale</seg>
+                     <seg xml:lang="en">Provincial administration</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>
+                              <term>
+                                 <seg xml:lang="fr">Sceau</seg>
+                                 <seg xml:lang="en">Seal</seg>
+                              </term>
+                              <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                              <interp type="workType" xml:lang="en">Original impression</interp>
+                           </objectType>
+                           <material>
+                              <seg xml:lang="fr">Plomb</seg>
+                              <seg xml:lang="en">Lead</seg>
+                           </material>
+                           <dimensions type="support" unit="mm">
+                              <dim type="diameter">29,40/28,55</dim>
+                              <!-- mesure du champ? -->
+                           </dimensions>
+                           <measure type="weight" unit="g">20,011</measure>
+                           <measure type="axis" unit="clock"/>
+                           <measure type="overstrikeOrient" unit="clock"/>
+                           <measure type="channelOrient" unit="clock">12-6</measure>
+                           <measure type="countermark" unit="clock"/>
+                        </support>
+                        <condition rend="well-struck well-preserved chipped crushed">
+                           <p xml:lang="en">The bulla is well-struck and well-preserved, slightly
+                              chipped at the openings of the channel and slightly crushed on the
+                              obverse.</p>
+                           <p xml:lang="fr">La bulle est bien frappée et bien conservée; légèrement
+                              échancrée aux orifices du canal et aussi légèrement écrasée sur
+                              l'avers.</p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout n="whole">
+                           <rs type="execution">
+                              <seg xml:lang="fr">Frappé</seg>
+                              <seg xml:lang="en">Struck</seg>
+                           </rs>
+                           <rs type="shape">
+                              <seg xml:lang="fr">Ronde</seg>
+                              <seg xml:lang="en">Round</seg>
+                           </rs>
+                           <rs type="matrix" subtype="not-surviving">
+                              <idno type="SigiDoc">m-rKssXs</idno>
+                              <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+                              <idno type="PBW"/>
+                              <!-- to be used if the seal has a parallel in the PBW with a boulloterion registered there -->
+                           </rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <seg xml:lang="fr">Anatoliques<placeName/>
+                        </seg>
+                        <seg xml:lang="en">Anatolikoi<placeName/>
+                        </seg>
+                     </origPlace>
+                     <origDate type="analysis" notBefore="1034" notAfter="1066"
+                        evidence="epigraphy onomastics titulature iconography" cert="high"
+                        resp="#MCP #JCC">
+                        <seg xml:lang="en">Second third of the 11th century</seg>
+                        <seg xml:lang="fr">Second tiers du XIe siècle</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="transferred" subtype="donated" when="2004-11-24">
+                     <!-- pas sûr de subtype et when -->
+                     <p xml:lang="en">George Zacos collection</p>
+                     <p xml:lang="fr">Collection Georges Zacos</p>
+                  </provenance>
+                  <acquisition>
+                     <p xml:lang="en">Donation of the Migore Foundation, Janet Zakos legacy, <date
+                           when="2004-11-24">24th November 2004</date>
+                     </p>
+                     <p xml:lang="fr">Don de la Fondation Migore, legs Janet Zakos, <date
+                           when="2004-11-24">24 Novembre 2004</date>
+                     </p>
+                  </acquisition>
+               </history>
+               <msPart n="r">
+                  <msIdentifier/>
+                  <msContents>
+                     <!-- ajouté ceci -->
+                     <summary n="r">
+                        <seg xml:lang="en">Obverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="r">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="fr">Iconographie avec épigraphe de part et d'autre de
+                                 l'effigie et inscription circulaire</p>
+                              <p xml:lang="en">Iconography with epigraph on either side of the
+                                 effigy and circular inscription</p>
+                           </layout>
+                        </layoutDesc>
+
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="r">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="r" xml:lang="fr" ana="person male saint John the Baptist"
+                                 >Saint Jean Baptiste en pied, de face, le visage entouré d’une
+                                 barbe abondante et d’une longue chevelure, vêtu de sa mélote,
+                                 tenant en main gauche un εἰλητάριον, la droite levée dans le geste
+                                 de l’allocution, à côté d’un petit cyprès figuré à gauche (allusion
+                                 à Matthieu 3, 10).</figDesc>
+                              <figDesc n="r" xml:lang="en" ana="person man saint John the Baptist"
+                                 >Saint John the Baptist standing full-length, facing forward, his
+                                 face framed by a thick beard and long hair, dressed in his melota,
+                                 holding an εἰλητάριον in his left hand, his right hand raised in a
+                                 gesture of speech, next to a small cypress tree depicted on the
+                                 left (allusion to Matthew 3:10).</figDesc>
+                              <figDesc n="decoR" xml:lang="fr">Cercle de grènetis; une croisette
+                                 précède l'inscription qui commence à 7h00</figDesc>
+                              <figDesc n="decoR" xml:lang="en">Border of dots; a crosslet precedes
+                                 the inscription which starts at 7 o'clock</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+               <msPart n="v">
+                  <msIdentifier/>
+                  <msContents>
+                     <summary n="v"><!-- ajouté ceci -->
+                        <seg xml:lang="en">Reverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="v">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="en">Linear legend of 7 lines</p>
+                              <p xml:lang="fr">Légende linéaire sur 7 lignes</p>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="v">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="decoV" xml:lang="fr">Cercle de grènetis; la légende est
+                                 surmontée et suivie d'un croisillon de perles accosté de
+                                 tirets</figDesc>
+                              <figDesc n="decoV" xml:lang="en">Border of dots; the legend is
+                                 surmounted and followed by a crosslet of pearls between
+                                 traits</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2025-04-02" who="#PE">Creation of the XML record.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp>
+         <surface n="r">
+            <desc>Obverse</desc>
+            <graphic type="photo" url="CdN2004-0417_1.jpg">
+               <desc xml:lang="en">CdN 2004-0417, obverse</desc>
+               <desc xml:lang="fr">CdN 2004-0417, avers</desc>
+            </graphic>
+         </surface>
+         <surface n="v">
+            <desc>Reverse</desc>
+            <graphic type="photo" url="CdN2004-0417_2.jpg">
+               <desc xml:lang="en">CdN 2004-0417, reverse</desc>
+               <desc xml:lang="fr">CdN 2004-0417, revers</desc>
+            </graphic>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" subtype="editorial" xml:space="preserve"> 
+            <div type="textpart" subtype="label" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="a"/>Ὁ <expan><ex>ἅγιος</ex></expan> <expan><abbr>Ἰω</abbr><ex>άννης</ex></expan> ὁ 
+                 <cb n="b" break="no"/><expan><abbr>Πρ</abbr><ex>ό</ex><abbr>δρ</abbr><ex>ο</ex><abbr>μο</abbr><ex>ς</ex></expan>
+              </ab>
+            </div>
+            <div type="textpart" subtype="face" rend="circular" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab ana="dat">
+                 <lb n="1"/><rs type="invocation" ref="#inv016"><expan><abbr>Προφήτ</abbr><ex>α</ex></expan> <expan><abbr>β</abbr><ex>οή</ex><abbr>θ</abbr><ex>ει</ex></expan> τῷ σῷ <expan><abbr><supplied reason="lost">δ</supplied>ούλ</abbr><ex>ῳ</ex></expan></rs> <expan><abbr>Ἰω</abbr><ex>άννῃ</ex></expan>
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab ana="dat">
+                         <lb n="2"/><rs type="dignity" ref="#d0066"><expan><ex>πρωτο</ex><abbr>σπαθ</abbr><ex>αρίῳ</ex></expan></rs> <rs type="office" subtype="civil" ref="#of0070">ἐ
+                         <lb n="3" break="no"/>πὶ τοῦ <expan><abbr>Χρ</abbr><ex>υσο</ex><abbr><am>Γ</am></abbr><ex>τρι</ex><abbr>κλ</abbr><ex>ίνου</ex></expan></rs> 
+                         <lb n="4"/><rs type="office" subtype="civil" ref="#of0144"><expan><abbr>β</abbr><ex>ασιλικῷ</ex></expan> <expan><abbr>νοταρ</abbr><ex>ίῳ</ex></expan></rs> τοῦ 
+                         <lb n="5"/><rs type="institution" ref="#org0022"><expan><abbr>φύλακ</abbr><ex>ος</ex></expan></rs> <expan><abbr><am>S</am></abbr><ex>καὶ</ex></expan> <rs type="office" subtype="civil" ref="of0195"><expan><abbr>χρ</abbr><ex>υσο</ex><abbr>τε
+                         <lb n="6" break="no"/>λ</abbr><ex>ῇ</ex></expan></rs> τȏν <placeName ref="#geo0016"><expan><abbr>Ἀνατ</abbr><ex>ο</ex>
+                         <lb n="7" break="no"/><abbr>λικ</abbr><ex>ῶν</ex></expan></placeName> τῶν 
+                         <lb n="8"/>Κε<supplied reason="omitted">γ</supplied>χρῖ
+                      </ab>
+                  </div>
+              </div>
+         <div type="edition" subtype="diplomatic" xml:space="preserve"> 
+                  <div type="textpart" subtype="label" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="a"/>| i̅|o  
+                 <cb n="b"/> |δρ/ |μ/ |ο/
+              </ab>
+            </div>
+            <div type="textpart" subtype="face" rend="circular" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <lb n="1"/>προφητ/  R/// Θ/    τσ̣.̣λ/ i̅
+              </ab>
+            </div>
+            <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab>
+                         <lb n="2"/>α̅σπαθ/ ε                                   
+                         <lb n="3"/>πιτγ̅κλ/ 
+                         <lb n="4"/>r⸣ νοταρ/ του
+                         <lb n="5"/>φυλακ/ τε
+                         <lb n="6"/>λ/ τονανατ/
+                         <lb n="7"/>λικ/ τν
+                         <lb n="8"/>κεχρι
+                         </ab>
+                  </div>
+              </div>
+         <div type="translation">
+            <p>Ὁ ἅγιος Ἰωάννης ὁ Πρόδρομος. + Προφήτα, βοήθει τῷ σῷ δούλῳ Ἰωάννῃ || πρωτοσπαθαρίῳ
+               ἐπὶ τοῦ Χρυσοτρικλίνου, βασιλικῷ νοταρίῳ τοῦ φύλακος καὶ χρυσοτελῇ τȏν Ἀνατολικῶν τῶν
+               Κεγχρῖ.</p>
+            <p xml:lang="en">Saint John the Baptist. + Prophet, help your servant John,
+               protospatharios, epi tou Chrysotriklinou, imperial notary of the Phylax and
+               chrysoteles of Anatolikoi, of the lineage of Kenchrai</p>
+            <p xml:lang="fr">Saint Jean Baptiste. + Prophète, apporte ton secours à ton serviteur
+               Jean, protospathaire, épi tou Chrysotriklinou, notaire du Phylax et chrysotélès des
+               Anatoliques, de la lignée des Kenchrai.</p>
+         </div>
+         <div type="commentary" subtype="text">
+            <!-- renvois internes à refaire -->
+            <p xml:lang="en">The owner of this seal could be the father of Elpidios Kenchrès,
+               mentioned in the lawsuit brought against Michel Psellos, who had decided, before
+               1056, to break off the engagement of his adopted daughter to this young man, but who
+               was sentenced to a financial penalty. Two other Kenchrai are known in the 11th
+               century, undoubtedly relatives of the previous two: Symeon, who, according to a
+               letter sent to him by his friend Psellos, was forced to take monastic vows, and
+               Romanos, attested by a single seal, with no mention of dignity or function. The
+               interest of the seal presented here lies in the combination of two functions of the
+               tax administration—a source of considerable income for the holder—one of which is
+               exercised at court, that of protonotarios of the Phylax, and the other, that of
+               chrysoteles, in the provincial administration. The function of chrysoteles, absent
+               from the Taktika of precedence of the 10th century, appears around the year 1000.
+               Subordinate to the theme judge, this tax agent collects the chrysoteleia, a tax
+               instituted by Anastasios I, paid in gold coins rather than in kind. Several seals of
+               chrysoteleis of various themes have been preserved, dating from the 11th century.
+               Several lead seals have survived bearing the names of officials attached to the
+               Phylax, a service which, in the first half of the 11th century, constituted an
+               autonomous secretariat independent of the treasury. Located in the imperial palace,
+               next to the Chrysotriklinos, the Phylax was a repository, created in the 9th century
+               to house the emperor's private treasury, as well as the crown's precious objects. It
+               is mentioned for the last time under this name in a chrysoboullos logos of 1086. It
+               still appears in the lists of precedence at synods until the reign of Manuel
+               Komnenos. Subsequently, the services of the Phylax and the sacelle were replaced by
+               two vestiaria, the Phylax being absorbed by the oikeiakon vestiarion.</p>
+            <p xml:lang="en"/>
+            <p xml:lang="fr">Le propriétaire de ce sceau pourrait être le père d’Elpidios Kenchrès,
+               mentionné dans le procès intenté contre Michel Psellos, qui avait décidé, avant 1056,
+               de rompre les fiançailles de sa fille adoptive avec ce jeune homme, mais qui fut
+               condamné à une pénalité financière. Deux autres Kenchrai sont connus au xie siècle,
+               sans doute parents des deux précédents : Syméon, dont on sait, par une lettre que son
+               ami Psellos lui a adressée, qu’il fut contraint de prendre l’habit monastique, et
+               Romain, attesté par un unique sceau, sans mention de dignité ni de fonction <bibl>
+                  <ptr target="Seyrig"/>, n° <citedRange unit="entry">305</citedRange></bibl>.
+               L’intérêt du sceau présenté ici réside dans le cumul de deux fonctions de
+               l’administration fiscale – source de revenus fort appréciables pour le détenteur –,
+               dont l’une est exercée à la cour, celle de protonotaire du Phylax, et l’autre, celle
+               de chrysotélès, dans l’administration provinciale. La fonction de chrysotélès,
+               absente des Taktika de préséance du xe siècle, apparaît vers l’an 1000. Subordonné du
+               juge de thème, cet agent fiscal y perçoit la chrysotéleia, taxe instituée par
+               Anastase Ier, payée en pièces d’or et non plus en nature. Des
+               sceaux de chrysotélai de plusieurs thèmes sont conservés, datés du XIe siècle<bibl>
+                  <ptr target="Istanbul"/>, p. <citedRange unit="page">261</citedRange></bibl>.
+               Plusieurs plombs nous sont parvenus au nom de fonctionnaires attachés au Phylax,
+               service qui, dans la première moitié du XIe siècle, constituait un sékréton autonome
+               et indépendant du fisc <bibl>
+                  <ptr target="LaurentCorpus2"/>, n° <citedRange unit="entry">671-675</citedRange></bibl>; <bibl>
+                     <ptr target="DOseals4"/>, n°  <citedRange unit="entry">22.2</citedRange></bibl>;<bibl>
+                        <ptr target="DOseals5"/>, n°  <citedRange unit="entry">27.1-6</citedRange></bibl>; <bibl>
+                           <ptr target="Athens1996"/>, n°  <citedRange unit="entry">15</citedRange></bibl>. Situé dans le palais impérial, à côté du Chrysotriklinos, le
+               Phylax était un dépôt, créé au IXe siècle pour abriter la caisse privée de
+               l’empereur, ainsi que les objets précieux de la couronne. Il est mentionné pour la
+               dernière fois sous ce nom dans un chrysobulle de 1086. Il apparaît encore dans les
+               listes de préséance aux synodes jusqu’au règne de Manuel Comnène. Ensuite, les
+               services du Phylax et de la sacelle ont laissé la place à deux vestiaria, le Phylax
+               étant absorbé par l’oikeiakon vestiarion.</p>
+            <p xml:lang="fr"/>
+         </div>
+         <div type="bibliography" subtype="edition">
+            <p><bibl>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">105</citedRange></bibl>
+               <bibl/>
+            </p>
+         </div>
+         <div type="bibliography" subtype="parallels">
+            <p> Istanbul 1324-6: <bibl>
+                  <ptr target="Istanbul"/>, n° <citedRange unit="entry">3.17</citedRange></bibl></p>
+         </div>
+         <div type="bibliography" subtype="discussion">
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

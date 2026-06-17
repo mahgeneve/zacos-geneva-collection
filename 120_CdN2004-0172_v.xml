@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en">Michael Saronites, vestarches and katepano of Bulgaria</title>
+            <title xml:lang="fr">Michel Sarônitès, vestarque et catépan de Bulgarie</title>
+            <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
+            <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+            <funder>
+               <orgName corresp="https://www.mahmah.ch/">MAH-Musée d'art et d'histoire - Genève,
+                  Cabinet de numismatique</orgName>, Suisse</funder>
+            <principal ref="#MCP"/>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <seg xml:lang="fr">Amélioration digitale</seg>
+               <seg xml:lang="en">Digital enhancement</seg>
+            </edition>
+            <editor role="digital-editor" xml:id="PE" when="2025-04-14">Pia Evening</editor>
+            <editor role="digital-editor" ref="#MCP" when="2026-01-21">Maria Campagnolo-Pothitou</editor>
+         </editionStmt>
+         <publicationStmt>
+            <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
+            <idno type="filename">CdN 2004-0172</idno>
+            <idno type="SigiDocID">s-cc76As</idno>
+            <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+            <idno type="sequence"/>
+            <!--  to be compiled automatically; leave as is  -->
+            <date when="2024-08-06"/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                  >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                  4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listPerson type="issuer">
+               <person gender="M" role="military aristocracy">
+                  <persName xml:lang="grc">
+                     <forename>Μιχαήλ</forename>/> <surname>Σαρωνίτης</surname>/> </persName>
+                  <persName xml:lang="fr">
+                     <forename>Michel</forename>/> <surname>Sarônitès</surname>/> </persName>
+                  <persName xml:lang="en">
+                     <forename>Michael</forename>/> <surname>Saronites</surname>/> </persName>
+                  <idno type="PBW" ana="http://pbw2016.kdl.kcl.ac.uk/person/Michael/102/">Michael
+                     102</idno>
+                  <idno type="PBE"/>
+                  <idno type="PLP"/>
+                  <idno type="PLRE"/>
+                  <idno type="PcBE"/>
+                  <idno type="PmbZ"/>
+               </person>
+            </listPerson>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <seg xml:lang="en">Switzerland</seg>
+                     <seg xml:lang="fr">Suisse</seg>
+                  </country>
+                  <settlement>
+                     <seg xml:lang="en">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">City of
+                           Geneva</placeName>
+                     </seg>
+                     <seg xml:lang="fr">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">Ville de
+                           Genève</placeName>
+                     </seg>
+                  </settlement>
+                  <institution>MAH-Musée d'art et d'histoire</institution>
+                  <repository>Cabinet de numismatique</repository>
+                  <collection type="public">
+                     <rs type="collection-name" xml:lang="en">Byzantine seals collection</rs>
+                     <rs type="collection-name" xml:lang="fr">Collection de sceaux byzantins</rs>
+                  </collection>
+                  <idno type="inv-nr-current">CdN 2004-0172</idno>
+                  <altIdentifier>
+                     <repository/>
+                     <idno type="inv-nr-former"/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <!--https://github.com/SigiDoc/Guidelines/wiki/5.-Controlled-vocabularies#seals-category-->
+                  <summary n="whole">
+                     <seg xml:lang="fr">Administration provinciale</seg>
+                     <seg xml:lang="en">Provincial administrtation</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>
+                              <term>
+                                 <seg xml:lang="fr">Sceau</seg>
+                                 <seg xml:lang="en">Seal</seg>
+                              </term>
+                              <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                              <interp type="workType" xml:lang="en">Original impression</interp>
+                           </objectType>
+                           <material>
+                              <seg xml:lang="fr">Plomb</seg>
+                              <seg xml:lang="en">Lead</seg>
+                           </material>
+                           <dimensions type="support" unit="mm">
+                              <dim type="diameter">24,87/</dim>
+                              <!-- mesure du champ? -->
+                           </dimensions>
+                           <measure type="weight" unit="g">12,265</measure>
+                           <measure type="axis" unit="clock"/>
+                           <measure type="overstrikeOrient" unit="clock"/>
+                           <measure type="channelOrient" unit="clock">1-7</measure>
+                           <measure type="countermark" unit="clock"/>
+                        </support>
+                        <condition rend="well-struck well-preserved clipped worn-edge">
+                           <p xml:lang="en">The bulla is well-struck and well-preserved, although
+                              the edge is partially clipped and rather worn</p>
+                           <p xml:lang="fr">La bulle est bien frappée et relativement bien
+                              conservée, bien que la tranche est partiellement cassée et
+                              endommagée</p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout n="whole">
+                           <rs type="execution">
+                              <seg xml:lang="fr">Frappé</seg>
+                              <seg xml:lang="en">Struck</seg>
+                           </rs>
+                           <rs type="shape">
+                              <seg xml:lang="fr">Ronde</seg>
+                              <seg xml:lang="en">Round</seg>
+                           </rs>
+                           <rs type="matrix" subtype="not-surviving">
+                              <idno type="SigiDoc">m-6GRpsp</idno>
+                              <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+                              <idno type="PBW" ana="http://pbw2016.kdl.kcl.ac.uk/boulloterion/3322/"
+                                 >Michael 102</idno>
+                              <!-- to be used if the seal has a parallel in the PBW with a boulloterion registered there -->
+                           </rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <seg xml:lang="fr">Bulgarie<placeName/>
+                        </seg>
+                        <seg xml:lang="en">Bulgaria<placeName/>
+                        </seg>
+                     </origPlace>
+                     <origDate type="analysis" notBefore="1060" notAfter="1065"
+                        evidence="prosopography iconography titulature" cert="high" resp="#MCP #JCC">
+                        <seg xml:lang="en">1060-1065</seg>
+                        <seg xml:lang="fr">1060-1065</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="transferred" subtype="donated" when="2004-11-24">
+                     <!-- pas sûr de subtype et when -->
+                     <p xml:lang="en">George Zacos collection</p>
+                     <p xml:lang="fr">Collection Georges Zacos</p>
+                  </provenance>
+                  <acquisition>
+                     <p xml:lang="en">Donation of the Migore Foundation, Janet Zakos legacy, <date
+                           when="2004-11-24">24th November 2004</date>
+                     </p>
+                     <p xml:lang="fr">Don de la Fondation Migore, legs Janet Zakos, <date
+                           when="2004-11-24">24 Novembre 2004</date>
+                     </p>
+                  </acquisition>
+               </history>
+               <msPart n="r">
+                  <msIdentifier/>
+                  <msContents>
+                     <!-- ajouté ceci -->
+                     <summary n="r">
+                        <seg xml:lang="en">Obverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="r">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="fr">Iconographie avec épigraphe en colonnes de part et
+                                 d'autre de l'effigie</p>
+                              <p xml:lang="en">Iconography with epigraph on columns on either side
+                                 of the effigy</p>
+                           </layout>
+                        </layoutDesc>
+
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="r">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="r" xml:lang="fr" ana="person male archangel Michael"
+                                 >L’archange Michel en pied, de face, en tenue militaire, tunique
+                                 courte sous la cuirasse et la chlamyde bordée de perles, tenant en
+                                 main droite un long sceptre à terminaison trifoliée et de l’autre
+                                 un globe crucigère.</figDesc>
+                              <figDesc n="r" xml:lang="en" ana="person male archangel Michael">The
+                                 archangel Michael standing full-length, facing forward, in military
+                                 attire, wearing a short tunic under his breastplate and a chlamys
+                                 trimmed with pearls, holding a long scepter with a trefoil finial
+                                 in his right hand and a globe with a cross in his left.</figDesc>
+                              <figDesc n="decoR" xml:lang="fr">Cercle d'épais grènetis; l'épigraphe
+                                 est conservé seulement à droite</figDesc>
+                              <figDesc n="decoR" xml:lang="en">Circle of large dots; the epigraph is
+                                 visible only on the right side</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+               <msPart n="v">
+                  <msIdentifier/>
+                  <msContents>
+                     <summary n="v"><!-- ajouté ceci -->
+                        <seg xml:lang="en">Reverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="v">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="en">Linear legend of 7 lines</p>
+                              <p xml:lang="fr">Légende linéaire sur 7 lignes</p>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="v">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="decoV" xml:lang="fr">Cercle de grènetis; la première ligne
+                                 est précédée d'une croisette</figDesc>
+                              <figDesc n="decoV" xml:lang="en">Circle of dots; a crosslet precedes
+                                 the first line</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2025-04-14" who="#PE">Creation of the XML record.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp>
+         <surface n="r">
+            <desc>Obverse</desc>
+            <graphic type="photo" url="CdN2004-0172_1.jpg">
+               <desc xml:lang="en">CdN 2004-0172, obverse</desc>
+               <desc xml:lang="fr">CdN 2004-0172, avers</desc>
+            </graphic>
+         </surface>
+         <surface n="v">
+            <desc>Reverse</desc>
+            <graphic type="photo" url="CdN2004-0172_2.jpg">
+               <desc xml:lang="en">CdN 2004-0172, reverse</desc>
+               <desc xml:lang="fr">CdN 2004-0172, revers</desc>
+            </graphic>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" subtype="editorial" xml:space="preserve"> 
+            <div type="textpart" subtype="label" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="a"/><expan><abbr><supplied reason="lost">Μι</supplied>
+                 <cb n="b" break="no"/>χα</abbr><ex>ήλ</ex></expan>
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab ana="dat">
+                         <lb n="1"/><rs type="invocation" ref="#inv003"><expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan> <expan><abbr>β</abbr><ex>οή</ex><abbr>θ</abbr><ex>ει</ex></expan></rs> 
+                         <lb n="2"/>Μιχαὴλ 
+                         <lb n="3"/><rs type="dignity" ref="#d0017">βεστάρχῃ</rs> 
+                         <lb n="4"/><expan><abbr><am>S</am></abbr><ex>καὶ</ex></expan> <rs type="office" subtype="military" ref="#of0263"><expan><abbr>κατεπάν</abbr><ex>ω</ex></expan></rs> 
+                         <lb n="5"/><placeName ref="#geo0020">Βουλγαρία<supplied reason="lost">ς</supplied></placeName> 
+                         <lb n="6"/>τῷ Σαρο
+                         <lb n="7" break="no"/>νίτῃ
+                      </ab>
+                  </div>
+              </div>
+         <div type="edition" subtype="diplomatic" xml:space="preserve"> 
+                  <div type="textpart" subtype="label" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="a"/>..
+                 <cb n="b"/>x|a
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab>
+                         <lb n="1"/> κε̅r/ θ/       
+                         <lb n="2"/>Μιχαηλ                           
+                         <lb n="3"/>rεσταρχη
+                         <lb n="4"/>κατεπαν/
+                         <lb n="5"/>rλγαρια.
+                         <lb n="6"/>τσαρο
+                         <lb n="7"/>νιτη̣
+                         </ab>
+                  </div>
+              </div>
+         <div type="translation">
+            <p>Μιχαήλ. || + Κύριε βοήθει Μιχαὴλ βεστάρχῃ καὶ κατεπάνω Βουλγαρίας τῷ Σαρονίτῃ.</p>
+            <p xml:lang="en">Michael. || + Lord, help Michael Saronites, vestarches and katepano of
+               Bulgaria.</p>
+            <p xml:lang="fr">Michel. || + Seigneur, accorde ton secours à Michel Sarônitès,
+               vestarque et catépan de Bulgarie.</p>
+         </div>
+         <div type="commentary" subtype="text">
+            <!-- renvois internes à refaire -->
+            <p xml:lang="en">Several future emperors or pretenders, such as Romanos Diogenes,
+               Nicephoros Botaneiates, and Nicephoros Melissenos, held the position of doux/katepano
+               of Bulgaria, a strategic province of the Empire in the 11th and 12th centuries, as it
+               covered, along with the Paradounavon, the Danube border. Michael Saronitès is the
+               best documented of his lineage. His numerous seals, all bearing the image of the
+               eponymous archangel, have been studied in the articles listed below. They enable us
+               to reconstruct his brilliant military career in the service of the Empire in the
+               second half of the 11th century, particularly under Constantine X Doukas and Michael
+               VII: protospatharios and strategos of Macedonia <bibl>
+                  <ptr target="DOseals1"/>, n° <citedRange unit="entry">43.30</citedRange></bibl>,
+               patrikios and praepositos at the stable, anthypatos and katepano (Zacos (BnF) 574,
+               inédit), vestarches and katepano of Bulgaria, before being promoted to magistros and
+               doux of Edessa around 1065<bibl>
+                  <ptr target="ZacosOrient"/>, n° <citedRange unit="entry"
+               >43.30</citedRange></bibl>. He is undoubtedly the Saronites sent by Michael VII to
+               lead the Macedonians, Franks, and Romans to suppress the rebellion of Constantine
+               Bodin – the Bulgarian Tsar Peter III – at the end of 1073. His seal as magistros and
+               doux of the whole West, preserved in several copies <bibl>
+               <ptr target="DOseals1"/>, n° <citedRange unit="entry">1.20</citedRange></bibl>, seems to bear witness to this
+               final stage. This military victory earned him the high title of proedros<bibl>
+               <ptr target="CheynetTheodoridis"/>, n° <citedRange unit="entry">185</citedRange></bibl></p>
+            <p xml:lang="en"/>
+            <p xml:lang="fr">Plusieurs futurs empereurs ou prétendants, tels Romain Diogénès,
+               Nicéphore Botaneiatès ou Nicéphore Mélissènos, occupèrent le poste de duc/catépan de
+               Bulgarie, province stratégique de l’Empire aux XIe et XIIe siècles, puisqu’elle
+               couvrait, avec le Paradounavon, la frontière danubienne. Michel Sarônitès est le
+               mieux attesté de sa lignée. Ses nombreux sceaux, tous à l’effigie de l’archange
+               éponyme, ont été étudiés dans les articles indiqués ci-dessous. Ils permettent de
+               reconstituer sa brillante carrière militaire au service de l’Empire dans la seconde
+               moitié du XIe siècle, plus particulièrement sous Constantin X Doukas et Michel VII :
+               protospathaire et stratège de Macédoine<bibl>
+                  <ptr target="DOseals1"/>, n° <citedRange unit="entry">43.30</citedRange></bibl>, patrice et préposé à l’étable, anthypatos
+               et catépan2, vestarque et catépan de Bulgarie, avant d’être promu magistre et duc
+               d’Édesse, vers 1065<bibl>
+                  <ptr target="ZacosOrient"/>, n° <citedRange unit="entry"
+                     >43.30</citedRange></bibl>. Il correspond sans doute au Sarônitès envoyé par Michel VII, à
+               la tête des Macédoniens, des Francs et des Romains4, réprimer la rébellion de
+               Constantin Bodin – le tsar bulgare Pierre III – à la fin de 1073. Son sceau de
+               magistre et duc de tout l’Occident, conservé en plusieurs exemplaires<bibl>
+                  <ptr target="DOseals1"/>, n° <citedRange unit="entry">1.20</citedRange></bibl>, témoigne,
+               semble-t-il, de cette ultime étape. Cette victoire militaire lui aura valu le haut
+               titre de proèdre<bibl>
+                  <ptr target="CheynetTheodoridis"/>, n° <citedRange unit="entry">185</citedRange></bibl>.</p>
+            <p xml:lang="fr"/>
+         </div>
+         <div type="bibliography" subtype="edition">
+            <p><bibl>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">120</citedRange></bibl>
+               <bibl/>
+            </p>
+         </div>
+         <div type="bibliography" subtype="parallels">
+            <p> ANS, Newell 16558:
+               </p>
+         </div>
+         <div type="bibliography" subtype="discussion">
+            <p>
+            <bibl>
+               <ptr target="Mordtmann1882-83"/>, p. <citedRange unit="page">144-145</citedRange></bibl>;
+            <bibl>
+               <ptr target="CheynetTheodoridis"/>, n° <citedRange unit="entry">185</citedRange></bibl>;
+               <bibl>
+                  <ptr target="ZacosOrient"/>, n° <citedRange unit="entry">31</citedRange></bibl>;
+               <bibl>
+                  <ptr target="Seyrig"/>, p. <citedRange unit="page">50</citedRange></bibl>;
+               <bibl>
+                  <ptr target="Nesbitt2005"/>, p. <citedRange unit="page">119-121</citedRange></bibl>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

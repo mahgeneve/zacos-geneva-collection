@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en">Eudocia Komnene, sebaste</title>
+            <title xml:lang="fr">Eudocie Komnènè, sébastè</title>
+            <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
+            <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+            <funder>
+               <orgName corresp="https://www.mahmah.ch/">MAH-Musée d'art et d'histoire - Genève,
+                  Cabinet de numismatique</orgName>, Suisse</funder>
+            <principal ref="#MCP"/>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <seg xml:lang="fr">Amélioration digitale</seg>
+               <seg xml:lang="en">Digital enhancement</seg>
+            </edition>
+            <editor role="digital-editor" xml:id="PE" when="2025-04-22">Pia Evening</editor>
+            <editor role="digital-editor" ref="#MCP" when="2026-06-11">Maria
+               Campagnolo-Pothitou</editor>
+         </editionStmt>
+         <publicationStmt>
+            <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
+            <idno type="filename">CdN 2004-0298</idno>
+            <idno type="SigiDocID">s-FVPDhI</idno>
+            <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+            <idno type="sequence"/>
+            <!--  to be compiled automatically; leave as is  -->
+            <date when="2024-08-06"/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                  >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                  4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listPerson type="issuer">
+               <person gender="F" role=" aristocracy">
+                  <persName xml:lang="grc">
+                     <forename>Εὐδοκία</forename>
+                     <surname>Κομνηνή</surname>
+                  </persName>
+                  <persName xml:lang="fr">
+                     <forename>Eudocie</forename>
+                     <surname>Komnènè</surname>
+                  </persName>
+                  <persName xml:lang="en">
+                     <forename>Eudocia</forename>
+                     <surname>Komnene</surname>
+                  </persName>
+                  <idno type="PBW"/>
+                  <idno type="PBE"/>
+                  <idno type="PLP"/>
+                  <idno type="PLRE"/>
+                  <idno type="PcBE"/>
+                  <idno type="PmbZ"/>
+               </person>
+            </listPerson>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <seg xml:lang="en">Switzerland</seg>
+                     <seg xml:lang="fr">Suisse</seg>
+                  </country>
+                  <settlement>
+                     <seg xml:lang="en">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">City of
+                           Geneva</placeName>
+                     </seg>
+                     <seg xml:lang="fr">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">Ville de
+                           Genève</placeName>
+                     </seg>
+                  </settlement>
+                  <institution>MAH-Musée d'art et d'histoire</institution>
+                  <repository>Cabinet de numismatique</repository>
+                  <collection type="public">
+                     <rs type="collection-name" xml:lang="en">Byzantine seals collection</rs>
+                     <rs type="collection-name" xml:lang="fr">Collection de sceaux byzantins</rs>
+                  </collection>
+                  <idno type="inv-nr-current">CdN 2004-0298</idno>
+                  <altIdentifier>
+                     <repository/>
+                     <idno type="inv-nr-former"/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <!--https://github.com/SigiDoc/Guidelines/wiki/5.-Controlled-vocabularies#seals-category-->
+                  <summary n="whole">
+                     <seg xml:lang="fr">Dignitaires</seg>
+                     <seg xml:lang="en">Dignitaries</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>
+                              <term>
+                                 <seg xml:lang="fr">Sceau</seg>
+                                 <seg xml:lang="en">Seal</seg>
+                              </term>
+                              <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                              <interp type="workType" xml:lang="en">Original impression</interp>
+                           </objectType>
+                           <material>
+                              <seg xml:lang="fr">Plomb</seg>
+                              <seg xml:lang="en">Lead</seg>
+                           </material>
+                           <dimensions type="support" unit="mm">
+                              <dim type="diameter">33,38/30,79</dim>
+                              <!-- mesure du champ? -->
+                           </dimensions>
+                           <measure type="weight" unit="g">21,018</measure>
+                           <measure type="axis" unit="clock"/>
+                           <measure type="overstrikeOrient" unit="clock"/>
+                           <measure type="channelOrient" unit="clock">12-6</measure>
+                           <measure type="countermark" unit="clock"/>
+                        </support>
+                        <condition rend="well-struck well-preserved worn-edge">
+                           <p xml:lang="en">The bulla is well struck and well preserved although
+                              worn on the edge</p>
+                           <p xml:lang="fr">La bulle est bien frappée et bien conservée bien que
+                              rognée et déformée sur la tranche</p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout n="whole">
+                           <rs type="execution">
+                              <seg xml:lang="fr">Frappé</seg>
+                              <seg xml:lang="en">Struck</seg>
+                           </rs>
+                           <rs type="shape">
+                              <seg xml:lang="fr">Ronde</seg>
+                              <seg xml:lang="en">Round</seg>
+                           </rs>
+                           <rs type="matrix" subtype="not-surviving">
+                              <idno type="SigiDoc">m-1AaBse</idno>
+                              <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+                              <idno type="PBW"/>
+                              <!-- to be used if the seal has a parallel in the PBW with a boulloterion registered there -->
+                           </rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <seg xml:lang="fr">
+                           <placeName/>
+                        </seg>
+                        <seg xml:lang="en">
+                           <placeName/>
+                        </seg>
+                     </origPlace>
+                     <origDate type="analysis" notBefore="1151" notAfter="1200"
+                        evidence="iconography epigraphy onomastics" cert="high" resp="#MCP #JCC">
+                        <seg xml:lang="en">Second half of the 12th century</seg>
+                        <seg xml:lang="fr">Seconde moitié du XIIe siècle</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="transferred" subtype="donated" when="2004-11-24">
+                     <!-- pas sûr de subtype et when -->
+                     <p xml:lang="en">George Zacos collection</p>
+                     <p xml:lang="fr">Collection Georges Zacos</p>
+                  </provenance>
+                  <acquisition>
+                     <p xml:lang="en">Donation of the Migore Foundation, Janet Zakos legacy, <date
+                           when="2004-11-24">24th November 2004</date>
+                     </p>
+                     <p xml:lang="fr">Don de la Fondation Migore, legs Janet Zakos, <date
+                           when="2004-11-24">24 Novembre 2004</date>
+                     </p>
+                  </acquisition>
+               </history>
+               <msPart n="r">
+                  <msIdentifier/>
+                  <msContents>
+                     <!-- ajouté ceci -->
+                     <summary n="r">
+                        <seg xml:lang="en">Obverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="r">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="fr">Iconographie avec des sigles de part et d'autre de
+                                 l'effigie</p>
+                              <p xml:lang="en">Iconography with sigla on either part of the
+                                 effigy</p>
+                           </layout>
+                        </layoutDesc>
+
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="r">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="r" xml:lang="fr" ana="person male Christ">Christ à
+                                 mi-corps, de face, cheveux longs et barbe courte, vêtu du chitôn et
+                                 de l’himation, bénissant de la droite et tenant en main gauche les
+                                 Évangiles, au plat orné de cinq perles.</figDesc>
+                              <figDesc n="r" xml:lang="en" ana="person male Christ">Christ
+                                 half-length, facing forward, bearing long hair and short beard,
+                                 clad with the tunic and the himation; he's blessing with his right
+                                 hand, holding in his left one the Gospels adorned with five
+                                 pearls</figDesc>
+                              <figDesc n="decoR" xml:lang="fr">Cercle de grènetis</figDesc>
+                              <figDesc n="decoR" xml:lang="en">Border of dots</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+               <msPart n="v">
+                  <msIdentifier/>
+                  <msContents>
+                     <summary n="v"><!-- ajouté ceci -->
+                        <seg xml:lang="en">Reverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="v">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="en">Linear metrical legend of 4 lines</p>
+                              <p xml:lang="fr">Légende linéaire métrique sur 4 lignes</p>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="v">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="decoV" xml:lang="fr">Cercle de grènetis; la légende est
+                                 surmontée d’une croisette et suivie d’une perle accostée de tirets
+                                 :</figDesc>
+                              <figDesc n="decoV" xml:lang="en">Border of dots; the legend is
+                                 surmounted by a crosslet and followed by a pearl placed between
+                                 traits</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2025-04-22" who="#PE">Creation of the XML record.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp>
+         <surface n="r">
+            <desc>Obverse</desc>
+            <graphic type="photo" url="CdN2004-0298_1.jpg">
+               <desc xml:lang="en">CdN 2004-0298, obverse</desc>
+               <desc xml:lang="fr">CdN 2004-0298, avers</desc>
+            </graphic>
+         </surface>
+         <surface n="v">
+            <desc>Reverse</desc>
+            <graphic type="photo" url="CdN2004-0298_2.jpg">
+               <desc xml:lang="en">CdN 2004-0298, reverse</desc>
+               <desc xml:lang="fr">CdN 2004-0298, revers</desc>
+            </graphic>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" subtype="editorial" xml:space="preserve"> 
+            <div type="textpart" subtype="sigla" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="a"/><expan><abbr>Ἰ</abbr><ex>ησοῦ</ex><abbr>ς</abbr></expan> 
+                 <cb n="b"/><expan><abbr>Χ</abbr><ex>ριστό</ex><abbr>ς</abbr></expan>
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <lg type="metrical" met="dodecasyllable" ana="gen">
+                         <l n="1">
+                         <lb n="1"/>Σφραγὶς 
+                         <lb n="2"/><rs type="dignity" ref="#d0071">σεβαστῆς</rs> 
+                         <lb n="3"/>Κομνηνῆς 
+                         <lb n="4"/>Εὐδοκία<supplied reason="lost">ς</supplied></l>
+                      </lg>
+                  </div>
+              </div>
+         <div type="edition" subtype="diplomatic" xml:space="preserve"> 
+                  <div type="textpart" subtype="sigla" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="a"/>ιΣ̅   
+                 <cb n="b"/>ΧΣ̅ 
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab>
+                         <lb n="0"/>     
+                         <lb n="1"/>σφραγι̣ς̣                
+                         <lb n="2"/>σεrαης̣ 
+                         <lb n="3"/>κοσ̣ 
+                         <lb n="4"/>ευδοκια̣.
+                         <lb n="0"/>  
+                         </ab>
+                  </div>
+              </div>
+         <div type="translation">
+            <p>Ἰησοῦς Χριστός. || + Σφραγὶς σεβαστῆς Κομνηνῆς Εὐδοκίας.</p>
+            <p xml:lang="en">Jesus Christ. || + Seal of the sebaste Eudokia Komnene</p>
+            <p xml:lang="fr">Jésus Christ. || + Sceau de la sébastè Eudocie Komnènè</p>
+         </div>
+         <div type="commentary" subtype="text">
+            <!-- renvois internes à refaire -->
+            <p xml:lang="en">The date of the bulla and the title of its owner exclude to identify
+               her as one of the four princesses with the same name, among the many Eudocia Komnene
+               mentioned in the sources: – the sister of Alexios Ist, wife of the magistros, later
+               kaisar Nikephoros Melissenos, who left a seal as magistrissa and kaesarissa, bearing
+               the image of the Virgin Mary<bibl>
+                  <ptr target="Barzos1984a"/>, n° <citedRange unit="entry">13</citedRange></bibl> ;<bibl>
+                     <ptr target="Zacos1"/>, n° <citedRange unit="entry">2700 et
+                        2700bis</citedRange></bibl>;– the porphyrogenitos daughter of the same emperor,
+               who became a nun at the beginning of the 12th century, after her unhappy marriage to
+               Michael Iasites, and who died around 1136. A seal is attributed to her, but without
+               certainty<bibl>
+                  <ptr target="Barzos1984a"/>, n° <citedRange unit="entry">37</citedRange></bibl> ;<bibl>
+                     <ptr target="BBÖ1"/>, n° <citedRange unit="entry">40</citedRange></bibl>; – the daughter of John II Komnenos, wife of the despotes Theodore
+               Batatzes, named on her seal as πορφυροφυής (porphyrogenitus)<bibl>
+                  <ptr target="Barzos1984a"/>, n° <citedRange unit="entry">80</citedRange></bibl> ;<bibl>
+                     <ptr target="Zacos1"/>, n° <citedRange unit="entry">2728</citedRange></bibl>; – the daughter of the
+               sebastokrator Isaac Komnenos, Alexius' Ist brother, wife to a grandson of the same
+               name as Emperor Nikephoros Botaneiates, sebastos and doux of Hellas4. Born between
+               1070 and 1100, she was, according to Barzos, still alive in 1150, but she is said to
+               have taken the monastic veil under the name of Xene, before 1146<bibl>
+                  <ptr target="Barzos1984a"/>, n° <citedRange unit="entry">30</citedRange></bibl>. One possible
+               candidate for the ownership of this seal would be Eudokia Komnene, niece of Manuel I
+               through her mother Theodora, and wife of Theodore Styppeiotes, megalodoxotatos, epi
+               tou Kanikleiou, and oikeios to the emperor. She is mentioned in a poem by Prodromos,
+               according to which, in gratitude to the Virgin, who had saved from illness her son
+               Manuel, Eudokia offered the icon of the Virgin Hodegon a peplum woven from gold
+               thread <bibl>
+                  <ptr target="Barzos1984b"/>, n° <citedRange unit="entry"
+                     >146a</citedRange></bibl>. However, it is possible that the signatory of our seal is a Komnene whose
+               place in the imperial family tree is unknown. Another possible candidacy, which would
+               account for the uniqueness of this seal, is promoted by the signatory’s choice of
+               design. Actually, apart from imperial and a few ecclesiastical seals, those belonging
+               to laypeople bearing the image of Christ are quite rare. Among the ladies of the
+               aristocracy, who place themselves almost exclusively under the protection of the
+               Virgin, only three—who were empresses—entrust themselves to Christ: Irene Doukaina <bibl>
+                  <ptr target="DOseals6"/>, n° <citedRange unit="entry">89.1 et 2</citedRange></bibl>,l’épouse
+               d’Alexis Ier (1081- 1118), Irène, augousta<bibl>
+                  <ptr target="DOseals6"/>, n° <citedRange unit="entry">90.1 et 2</citedRange></bibl>
+               the wife of Alexios Ist (1081– 1118), Irene, Augusta <bibl>
+                  <ptr target="DOseals6"/>, n° <citedRange unit="entry">90.1 et 2</citedRange></bibl> the wife of John II Komnenos
+               (1118–1143), and Irene Komnene<bibl>
+                  <ptr target="DOseals6"/>, n° <citedRange unit="entry">103.1</citedRange></bibl>, the wife of John III Doukas (1222–1254). It so
+               happens that Emperor Alexios III Angelos called himself Komnenos. His daughter
+               Eudokia, who was married to Stephen of Serbia, may have borne this surname. The
+               presence of Christ on the seal of a daughter of an emperor and queen would be
+               justified, but it would be strange if Eudokia did not mention her origin.</p>
+            <p xml:lang="en"/>
+            <p xml:lang="fr">La datation de la bulle et la titulature de sa propriétaire excluent
+               d’identifier celle-ci à quatre princesses homonymes, parmi les nombreuses Eudocie
+               Comnène attestées dans les sources : – la soeur d’Alexis Ier, épouse du magistre,
+               puis césar Nicéphore Mélissènos, qui a laissé son sceau de magistrissa et césarissa,
+               à l’effigie de la Vierge<bibl>
+                  <ptr target="Barzos1984a"/>, n° <citedRange unit="entry">13</citedRange></bibl> ;<bibl>
+                  <ptr target="Zacos1"/>, n° <citedRange unit="entry">2700 et
+                  2700bis</citedRange></bibl>; – la fille porphyrogénète du même empereur, devenue
+               nonne au début du XIIe siècle, après son mariage malheureux avec Michel Iasitès, et
+               décédée vers 1136. Un sceau lui est attribué, mais sans certitude<bibl>
+                  <ptr target="Barzos1984a"/>, n° <citedRange unit="entry">37</citedRange></bibl> ;<bibl>
+                  <ptr target="BBÖ1"/>, n° <citedRange unit="entry">40</citedRange></bibl>; – la
+               fille de Jean II Comnène, épouse du despote Théodore Batatzès, dite πορφυροφυής,
+               porphyrogénète, sur son sceau <bibl>
+                  <ptr target="Barzos1984a"/>, n° <citedRange unit="entry">80</citedRange></bibl> ;<bibl>
+                  <ptr target="Zacos1"/>, n° <citedRange unit="entry">2728</citedRange></bibl>; –
+               la fille du sébastokratôr Isaac Comnène, le frère d’Alexis Ier, épouse d’un
+               petit-fils homonyme de l’empereur Nicéphore Botaneiatès, sébaste et duc de l’Hellade
+               (Ermitage M-8090). Née entre 1070 et 1100, elle serait toujours en vie en 1150, selon
+               Barzos, mais elle aurait pris l’habit monastique sous le nom de Xénè, avant 1146 <bibl>
+                  <ptr target="Barzos1984a"/>, n° <citedRange unit="entry">30</citedRange></bibl>.
+               Une candidate potentielle à la propriété de ce sceau serait Eudocie Komnènè, nièce de
+               Manuel Ier, par sa mère Théodora, et épouse de Théodore Styppeiôtès, mégalodoxotatos,
+               épi tou kanikleiou et oikeios de l’empereur. Elle est citée dans un poème de
+               Prodromos, d’après lequel, en remerciement à la Vierge, qui a sauvé son fils Manuel,
+               malade, Eudocie a offert à l’icône de la Vierge tôn Hodègôn un peplum tissé de fils
+               d’or <bibl>
+                  <ptr target="Barzos1984b"/>, n° <citedRange unit="entry"
+               >146a</citedRange></bibl>. Mais, il est possible que la signataire de notre sceau
+               soit une Komnènè dont la place dans l’arbre généalogique de la famille impériale
+               n’est pas connue. Une autre candidature possible, qui justifierait la particularité
+               de ce plomb, repose sur le choix iconographique de la signataire. En dehors des
+               bulles impériales et de quelques sceaux ecclésiastiques, en effet, les sceaux des
+               laïcs à l’effigie du Christ sont plutôt rares. Parmi les dames de l’aristocratie, qui
+               se placent presque exclusivement sous la protection de la Vierge, trois seulement,
+               qui furent impératrices, s’en remettent au Christ : Irène Doukaina <bibl>
+                  <ptr target="DOseals6"/>, n° <citedRange unit="entry">89.1 et 2</citedRange></bibl>,l’épouse
+               d’Alexis Ier (1081- 1118), Irène, augousta <bibl>
+                  <ptr target="DOseals6"/>, n° <citedRange unit="entry">90.1 et 2</citedRange></bibl>,l’épouse de Jean II Comnène (1118-1143),
+               et Irène Komnènè <bibl>
+                  <ptr target="DOseals6"/>, n° <citedRange unit="entry">103.1</citedRange></bibl>,, l’épouse de Jean III Doukas (1222-1254). Il se trouve que
+               l’empereur Alexis III Ange se faisait appeler Comnène. Sa fille Eudocie, donnée en
+               mariage à Étienne de Serbie, portait peut-être ce patronyme. La présence du Christ
+               sur le sceau d’une fille d’empereur et reine serait justifiée, mais il serait étrange
+               qu’Eudocie ne fasse pas mention de son origine.</p>
+            <p xml:lang="fr"/>
+         </div>
+         <div type="bibliography" subtype="edition">
+            <p><bibl> <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">214</citedRange></bibl>
+            <bibl/></p>
+         </div>
+         <div type="bibliography" subtype="parallels">
+            <p>BZS 1958.106.1250:
+               <bibl>
+                  <ptr target="DOSealsOnline"/>, n° <citedRange unit="entry">BZS.1958.106.1250</citedRange></bibl></p>
+            <p>Vente Vecchi 13 (1998), n° 1310: </p>
+            <p>Istanbul 857:
+               <bibl>
+                  <ptr target="Istanbul"/>, n° <citedRange unit="entry">5.185</citedRange></bibl></p>
+         </div>
+         <div type="bibliography" subtype="discussion">
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

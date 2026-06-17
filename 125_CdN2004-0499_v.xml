@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en">Michael, spatharokandidatos, imperial notarios of the genikon and
+               judge of Charsianon</title>
+            <title xml:lang="fr">Michel, spatharocandidat, notaire impérial du génikon et juge du
+               Charsianon</title>
+            <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
+            <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+            <funder>
+               <orgName corresp="https://www.mahmah.ch/">MAH-Musée d'art et d'histoire - Genève,
+                  Cabinet de numismatique</orgName>, Suisse</funder>
+            <principal ref="#MCP"/>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <seg xml:lang="fr">Amélioration digitale</seg>
+               <seg xml:lang="en">Digital enhancement</seg>
+            </edition>
+            <editor role="digital-editor" xml:id="PE" when="2025-04-14">Pia Evening</editor>
+            <editor role="digital-editor" ref="#MCP" when="2026-01-26">Maria Campagnolo-Pothitou</editor>
+         </editionStmt>
+         <publicationStmt>
+            <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
+            <idno type="filename">CdN 2004-0499</idno>
+            <idno type="SigiDocID">s-veWIU3</idno>
+            <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+            <idno type="sequence"/>
+            <!--  to be compiled automatically; leave as is  -->
+            <date when="2024-08-06"/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                  >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                  4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listPerson type="issuer">
+               <person gender="M" role="civil aristocracy">
+                  <persName xml:lang="grc">
+                     <forename>Μιχαήλ</forename>
+                     <surname/>
+                  </persName>
+                  <persName xml:lang="fr">
+                     <forename>Michel</forename>
+                     <surname/>
+                  </persName>
+                  <persName xml:lang="en">
+                     <forename>Michael</forename>
+                     <surname/>
+                  </persName>
+                  <idno type="PBW" ana="http://pbw2016.kdl.kcl.ac.uk/person/Michael/20220/">Michael 20220</idno>
+                  <idno type="PBE"/>
+                  <idno type="PLP"/>
+                  <idno type="PLRE"/>
+                  <idno type="PcBE"/>
+                  <idno type="PmbZ"/>
+               </person>
+            </listPerson>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <seg xml:lang="en">Switzerland</seg>
+                     <seg xml:lang="fr">Suisse</seg>
+                  </country>
+                  <settlement>
+                     <seg xml:lang="en">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">City of
+                           Geneva</placeName>
+                     </seg>
+                     <seg xml:lang="fr">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">Ville de
+                           Genève</placeName>
+                     </seg>
+                  </settlement>
+                  <institution>MAH-Musée d'art et d'histoire</institution>
+                  <repository>Cabinet de numismatique</repository>
+                  <collection type="public">
+                     <rs type="collection-name" xml:lang="en">Byzantine seals collection</rs>
+                     <rs type="collection-name" xml:lang="fr">Collection de sceaux byzantins</rs>
+                  </collection>
+                  <idno type="inv-nr-current">CdN 2004-0499</idno>
+                  <altIdentifier>
+                     <repository/>
+                     <idno type="inv-nr-former"/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <!--https://github.com/SigiDoc/Guidelines/wiki/5.-Controlled-vocabularies#seals-category-->
+                  <summary n="whole">
+                     <seg xml:lang="fr">Administration provinciale</seg>
+                     <seg xml:lang="en">Provincial administration</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>
+                              <term>
+                                 <seg xml:lang="fr">Sceau</seg>
+                                 <seg xml:lang="en">Seal</seg>
+                              </term>
+                              <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                              <interp type="workType" xml:lang="en">Original impression</interp>
+                           </objectType>
+                           <material>
+                              <seg xml:lang="fr">Plomb</seg>
+                              <seg xml:lang="en">Lead</seg>
+                           </material>
+                           <dimensions type="support" unit="mm">
+                              <dim type="diameter">28,11/26,38</dim>
+                              <!-- mesure du champ? -->
+                           </dimensions>
+                           <measure type="weight" unit="g">11,566</measure>
+                           <measure type="axis" unit="clock"/>
+                           <measure type="overstrikeOrient" unit="clock"/>
+                           <measure type="channelOrient" unit="clock">12-6</measure>
+                           <measure type="countermark" unit="clock"/>
+                        </support>
+                        <condition rend="well-struck well-preserved chipped crushed">
+                           <p xml:lang="en">The bulla is well-srtuck and well-preserved, partially
+                              slightly crushed on both sides and chipped at the upper opening of the
+                              channel</p>
+                           <p xml:lang="fr">La bulle est bien frappée et bien conservée, bien que
+                              partiellement écrasée sur les deux faces; échancrée à l'orifice
+                              supérieur du canal</p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout n="whole">
+                           <rs type="execution">
+                              <seg xml:lang="fr">Frappé</seg>
+                              <seg xml:lang="en">Struck</seg>
+                           </rs>
+                           <rs type="shape">
+                              <seg xml:lang="fr">Ronde</seg>
+                              <seg xml:lang="en">Round</seg>
+                           </rs>
+                           <rs type="matrix" subtype="not-surviving">
+                              <idno type="SigiDoc">m-Q2I255</idno>
+                              <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+                              <idno type="PBW"/>
+                              <!-- to be used if the seal has a parallel in the PBW with a boulloterion registered there -->
+                           </rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <seg xml:lang="fr">Charsianon <placeName/>
+                        </seg>
+                        <seg xml:lang="en">Charsianon <placeName/>
+                        </seg>
+                     </origPlace>
+                     <origDate type="analysis" notBefore="1001" notAfter="1050"
+                        evidence="epigraphy iconography titulature" cert="high" resp="#MCP #JCC">
+                        <seg xml:lang="en">First half of the 11th century</seg>
+                        <seg xml:lang="fr">Première moitié du XIe siècle</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="transferred" subtype="donated" when="2004-11-24">
+                     <!-- pas sûr de subtype et when -->
+                     <p xml:lang="en">George Zacos collection</p>
+                     <p xml:lang="fr">Collection Georges Zacos</p>
+                  </provenance>
+                  <acquisition>
+                     <p xml:lang="en">Donation of the Migore Foundation, Janet Zakos legacy, <date
+                           when="2004-11-24">24th November 2004</date>
+                     </p>
+                     <p xml:lang="fr">Don de la Fondation Migore, legs Janet Zakos, <date
+                           when="2004-11-24">24 Novembre 2004</date>
+                     </p>
+                  </acquisition>
+               </history>
+               <msPart n="r">
+                  <msIdentifier/>
+                  <msContents>
+                     <!-- ajouté ceci -->
+                     <summary n="r">
+                        <seg xml:lang="en">Obverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="r">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="fr">Iconographie avec épigraphe en colonnes de part et
+                                 d'autre de l'effigie</p>
+                              <p xml:lang="en">Iconography with epigraph on columns on either side
+                                 of the effigy</p>
+                           </layout>
+                        </layoutDesc>
+
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="r">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="r" xml:lang="fr" ana="person male saint John Chrysostome"
+                                 >Saint Jean Chrysostome nimbé, de face, debout sur un souppédion,
+                                 en tenue épiscopale, bénissant de la droite et tenant les Évangiles
+                                 en main gauche.</figDesc>
+                              <figDesc n="r" xml:lang="en" ana="person male saint John Chrysostome"
+                                 >Saint John Chrysostome nimbate, facing forward, standing on a
+                                 souppedion, wearing his episcopal costume, he's blessing and is
+                                 holding the Gospels</figDesc>
+                              <figDesc n="decoR" xml:lang="fr">Cercle de grènetis</figDesc>
+                              <figDesc n="decoR" xml:lang="en">Border of dots</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+               <msPart n="v">
+                  <msIdentifier/>
+                  <msContents>
+                     <summary n="v"><!-- ajouté ceci -->
+                        <seg xml:lang="en">Reverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="v">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="en">Linear legend of 7 lines</p>
+                              <p xml:lang="fr">Légende linéaire sur 7 lignes</p>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="v">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="decoV" xml:lang="fr">Cercle de grènetis</figDesc>
+                              <figDesc n="decoV" xml:lang="en">Border of dots</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2025-04-14" who="#PE">Creation of the XML record.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp>
+         <surface n="r">
+            <desc>Obverse</desc>
+            <graphic type="photo" url="CdN2004-0499_1.jpg">
+               <desc xml:lang="en">CdN 2004-0499, obverse</desc>
+               <desc xml:lang="fr">CdN 2004-0499, avers</desc>
+            </graphic>
+         </surface>
+         <surface n="v">
+            <desc>Reverse</desc>
+            <graphic type="photo" url="CdN2004-0499_2.jpg">
+               <desc xml:lang="en">CdN 2004-0499, reverse</desc>
+               <desc xml:lang="fr">CdN 2004-0499, revers</desc>
+            </graphic>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" subtype="editorial" xml:space="preserve"> 
+            <div type="textpart" subtype="label" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="a"/>Ὁ <expan><ex>ἅγιος</ex></expan> <expan><abbr>Ἰω</abbr><ex>άννης</ex></expan> ὁ 
+                 <cb n="b"/><expan><abbr>Χρ</abbr><ex>υσό</ex><abbr>στ</abbr><ex>ο</ex><abbr>μ</abbr><ex>ος</ex></expan>
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab ana="dat">
+                         <lb n="1"/><rs type="invocation" ref="#inv001"><expan><abbr>Θ</abbr><ex>εοτό</ex><abbr>κε</abbr></expan> <expan><abbr>β</abbr><ex>οή</ex><abbr>θ</abbr><ex>ει</ex></expan></rs> 
+                         <lb n="2"/>Μιχαὴλ 
+                         <lb n="3"/><rs type="dignity" ref="#d0080"><expan><abbr><supplied reason="lost">σ</supplied>παθ</abbr><ex>αρο</ex><abbr>κ</abbr><ex>αν</ex><abbr>δ</abbr><ex>ι</ex><abbr>δ</abbr><ex>άτῳ</ex></expan></rs> <rs type="office" subtype="civil" ref="#of0144"><expan><abbr>β</abbr><ex>ασιλικῷ</ex></expan> <expan><abbr>ν</abbr><ex>οταρίῳ</ex></expan></rs> 
+                         <lb n="4"/><supplied reason="lost">τ</supplied>οῦ <rs type="institution" ref="#org0011"><expan><abbr>γεν</abbr><ex>ικοῦ</ex></expan></rs> <rs type="institution" ref="#org0059"><expan><abbr>λογ</abbr><ex>ο</ex>
+                         <lb n="5" break="no"/><abbr>θ</abbr><ex>εσίου</ex></expan></rs> <expan><abbr><am>S</am></abbr><ex>καὶ</ex></expan> <rs type="office" subtype="civil" ref="#of0112">κριτῇ</rs> 
+                         <lb n="6"/><placeName ref="#geo0093"><expan><abbr>Χαρσ</abbr><ex>ι</ex><abbr><supplied reason="lost">α</supplied>
+                         <lb n="7" break="no"/>ν</abbr><ex>οῦ</ex></expan></placeName>
+                      </ab>
+                  </div>
+              </div>
+         <div type="edition" subtype="diplomatic" xml:space="preserve"> 
+                  <div type="textpart" subtype="label" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="a"/>| i̅|o
+                 <cb n="b"/>|ct / |m /
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab>
+                         <lb n="1"/>θk̅eṛ/ θ/                                           
+                         <lb n="2"/>ṃιχαηλ
+                         <lb n="3"/>.παθ/ κ/ δδ/ ṛν̣̅
+                         <lb n="4"/>. γεν/ λογ/ 
+                         <lb n="5"/>θ/ κριτη
+                         <lb n="6"/>χαρσ/ .
+                         <lb n="7"/>ν/
+                         </ab>
+                  </div>
+              </div>
+         <div type="translation">
+            <p>Ὁ ἅγιος Ἰωάννης ὁ Χρυσόστομος. || Θεοτόκε βοήθει Μιχαὴλ σπαθαροκανδιδάτῳ, βασιλικῷ
+               νοταρίῳ τοῦ γενικοῦ λογοθεσίου καὶ κριτῇ Χαρσιανοῦ.</p>
+            <p xml:lang="en">Saint John Chrysostome. || Mother of God, help Michael,
+               spatharocandidatos, imperial notarios of the genikon and judge of Charsianon.</p>
+            <p xml:lang="fr">Saint Jean Chrysostome. || Mère de Dieu, accorde ton secours à Michel,
+               spatharocandidat, notaire impérial du génikon et juge du Charsianon</p>
+         </div>
+         <div type="commentary" subtype="text">
+            <!-- renvois internes à refaire -->
+            <p xml:lang="en">The title of spatharocandidatos, which appeared in the 9th century as a combination of the
+               dignities of spatharios and candidatos, was conferred on middle-ranking officials
+               until the end of the 11th century<bibl><ptr target="Oikonomides1972"/>, p. <citedRange
+                     unit="page">297</citedRange></bibl>.
+               The region and theme of Charsianon take their name from the fortress
+               of the same name that was located there. Initially a tourma, which became a kleisoura at the
+               beginning of the 9th century, the theme of Charsianon was created between 863 and 873,
+               carved out of the neighboring themes of Cappadocia, Bucellarii, and
+               Armeniakoi<bibl><ptr target="DOseals4"/>, p. <citedRange
+                     unit="page">107</citedRange></bibl>. Although not one of the most prestigious themes,
+               the army of Charsianon, along with those of Anatolikoi,
+               Cappadocia, and Lykandos, played a major role in the fight against
+               the Muslims in the 9th and 10th centuries. Illustrious families, such as the
+               Maleïnoi, the Argyroi, and perhaps the Diogenai, originated from
+               Charsianon or had settled there.
+               When Constantine IX conquered the Armenian kingdom of Ani in 1045,
+               the deposed king, Gagik II, was allowed to settle with his people in
+               Charsianon<bibl><ptr target="Empereurs2003"/>, p. <citedRange
+                     unit="page">363</citedRange></bibl>, which created tensions with the local aristocracy. According to
+               the two seals he signed as Kakikios Aniotes, Gagik would have
+               assumed the office of doux of this theme<bibl><ptr target="CheynetTheodoridis"/>, n° <citedRange
+                     unit="entry">6</citedRange></bibl>.</p>
+            <p xml:lang="en"/>
+            <p xml:lang="fr">Le titre de spatharocandidat, qui apparaît au IXe siècle par cumul de la
+               dignité de spathaire avec celle de candidat, est conféré à des fonctionnaires
+               de rang moyen jusqu’à la fin du XIe siècle<bibl><ptr target="Oikonomides1972"/>, p. <citedRange
+                     unit="page">297</citedRange></bibl>.
+               La région et le thème du Charsianon tirent leur nom de la forteresse
+               homonyme qui s’y trouvait. D’abord tourma, devenue kleisoura au
+               début du IXe siècle, le thème du Charsianon fut créé entre 863 et 873,
+               taillé dans les thèmes voisins de Cappadoce, des Bucellaires et des
+               Arméniaques<bibl><ptr target="DOseals4"/>, p. <citedRange
+                     unit="page">107</citedRange></bibl>. Quoiqu’il ne figure pas parmi les thèmes les plus prestigieux,
+               l’armée du Charsianon, avec celles des Anatoliques, de
+               Cappadoce et de Lykandos, a joué un grand rôle dans la lutte contre
+               les musulmans aux IXe et Xe siècles. D’illustres familles, comme les
+               Maléïnoi, les Argyroi et peut-être les Diogènai, étaient originaires
+               du Charsianon ou s’y étaient établies.
+               Lorsque Constantin IX, en 1045, conquit le royaume arménien d’Ani,
+               le roi déchu, Gagik II, fut autorisé à s’installer avec ses gens dans le
+               Charsianon<bibl><ptr target="Empereurs2003"/>, p. <citedRange
+                     unit="page">363</citedRange></bibl>, ce qui créa des tensions avec l’aristocratie locale. Selon
+               les deux sceaux qu’il signe en tant que Kakikios Aniôtès, Gagik aurait
+               assumé la charge de duc de ce thème<bibl><ptr target="CheynetTheodoridis"/>, n° <citedRange
+                     unit="entry">6</citedRange></bibl>.</p>
+            <p xml:lang="fr"/>
+         </div>
+         <div type="bibliography" subtype="edition">
+            <p><bibl><ptr target="ZacosGenève"/>, n° <citedRange
+                     unit="entry">125</citedRange></bibl>;
+               <bibl><ptr target="Zacos2"/>, n° <citedRange
+                     unit="entry">600</citedRange></bibl>
+               <bibl/>
+            </p>
+         </div>
+         <div type="bibliography" subtype="parallels">
+            <p/>
+         </div>
+         <div type="bibliography" subtype="discussion">
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

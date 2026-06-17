@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en">Michael, kensor, judge of the Hippodrome and of the
+               Cephalonia</title>
+            <title xml:lang="fr">Michel, kensôr, juge de l’Hippodrome et de Céphalonie</title>
+            <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
+            <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+            <funder>
+               <orgName corresp="https://www.mahmah.ch/">MAH-Musée d'art et d'histoire - Genève,
+                  Cabinet de numismatique</orgName>, Suisse</funder>
+            <principal ref="#MCP"/>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <seg xml:lang="fr">Amélioration digitale</seg>
+               <seg xml:lang="en">Digital enhancement</seg>
+            </edition>
+            <editor role="digital-editor" xml:id="PE" when="2025-04-14">Pia Evening</editor>
+            <editor role="digital-editor" ref="#MCP" when="2026-01-26">Maria Campagnolo-Pothitou</editor>
+         </editionStmt>
+         <publicationStmt>
+            <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
+            <idno type="filename">CdN 2004-0415</idno>
+            <idno type="SigiDocID">s-jYvF0h</idno>
+            <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+            <idno type="sequence"/>
+            <!--  to be compiled automatically; leave as is  -->
+            <date when="2024-08-06"/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                  >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                  4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listPerson type="issuer">
+               <person gender="M" role="civil aristocracy">
+                  <persName xml:lang="grc">
+                     <forename>Μιχαήλ</forename>
+                     <surname/>
+                  </persName>
+                  <persName xml:lang="fr">
+                     <forename>Michel</forename>
+                     <surname/>
+                  </persName>
+                  <persName xml:lang="en">
+                     <forename>Michael</forename>
+                     <surname/>
+                  </persName>
+                  <idno type="PBW" ana=""/>
+                  <idno type="PBE"/>
+                  <idno type="PLP"/>
+                  <idno type="PLRE"/>
+                  <idno type="PcBE"/>
+                  <idno type="PmbZ"/>
+               </person>
+            </listPerson>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <seg xml:lang="en">Switzerland</seg>
+                     <seg xml:lang="fr">Suisse</seg>
+                  </country>
+                  <settlement>
+                     <seg xml:lang="en">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">City of
+                           Geneva</placeName>
+                     </seg>
+                     <seg xml:lang="fr">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">Ville de
+                           Genève</placeName>
+                     </seg>
+                  </settlement>
+                  <institution>MAH-Musée d'art et d'histoire</institution>
+                  <repository>Cabinet de numismatique</repository>
+                  <collection type="public">
+                     <rs type="collection-name" xml:lang="en">Byzantine seals collection</rs>
+                     <rs type="collection-name" xml:lang="fr">Collection de sceaux byzantins</rs>
+                  </collection>
+                  <idno type="inv-nr-current">CdN 2004-0415</idno>
+                  <altIdentifier>
+                     <repository/>
+                     <idno type="inv-nr-former"/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <!--https://github.com/SigiDoc/Guidelines/wiki/5.-Controlled-vocabularies#seals-category-->
+                  <summary n="whole">
+                     <seg xml:lang="fr">Administration provinciale</seg>
+                     <seg xml:lang="en">Provincial administration</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>
+                              <term>
+                                 <seg xml:lang="fr">Sceau</seg>
+                                 <seg xml:lang="en">Seal</seg>
+                              </term>
+                              <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                              <interp type="workType" xml:lang="en">Original impression</interp>
+                           </objectType>
+                           <material>
+                              <seg xml:lang="fr">Plomb</seg>
+                              <seg xml:lang="en">Lead</seg>
+                           </material>
+                           <dimensions type="support" unit="mm">
+                              <dim type="diameter">30,00/28,89</dim>
+                              <!-- mesure du champ? -->
+                           </dimensions>
+                           <measure type="weight" unit="g">27,482</measure>
+                           <measure type="axis" unit="clock"/>
+                           <measure type="overstrikeOrient" unit="clock"/>
+                           <measure type="channelOrient" unit="clock">12-6</measure>
+                           <measure type="countermark" unit="clock"/>
+                        </support>
+                        <condition rend="well-struck obliterated worn-edge">
+                           <p xml:lang="en">The bulla is well-struck but obliterated on both sides
+                              and worn on the edge</p>
+                           <p xml:lang="fr">La bulle est bien frappée, mais plutôt écrasée sur les
+                              deux faces, alors que la tranche est partiellement rognée</p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout n="whole">
+                           <rs type="execution">
+                              <seg xml:lang="fr">Frappé</seg>
+                              <seg xml:lang="en">Struck</seg>
+                           </rs>
+                           <rs type="shape">
+                              <seg xml:lang="fr">Ronde</seg>
+                              <seg xml:lang="en">Round</seg>
+                           </rs>
+                           <rs type="matrix" subtype="not-surviving">
+                              <idno type="SigiDoc">m-EXEFaq</idno>
+                              <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+                              <idno type="PBW"/>
+                              <!-- to be used if the seal has a parallel in the PBW with a boulloterion registered there -->
+                           </rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <seg xml:lang="fr">Céphalonie<placeName/>
+                        </seg>
+                        <seg xml:lang="en">Cephalonia<placeName/>
+                        </seg>
+                     </origPlace>
+                     <origDate type="analysis" notBefore="1051" notAfter="1100"
+                        evidence="titulature historical-context iconography epigraphy" cert="high"
+                        resp="#MCP #JCC">
+                        <seg xml:lang="en">Second half of the 11th century</seg>
+                        <seg xml:lang="fr">Seconde moitié du XIe siècle</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="transferred" subtype="donated" when="2004-11-24">
+                     <!-- pas sûr de subtype et when -->
+                     <p xml:lang="en">George Zacos collection</p>
+                     <p xml:lang="fr">Collection Georges Zacos</p>
+                  </provenance>
+                  <acquisition>
+                     <p xml:lang="en">Donation of the Migore Foundation, Janet Zakos legacy, <date
+                           when="2004-11-24">24th November 2004</date>
+                     </p>
+                     <p xml:lang="fr">Don de la Fondation Migore, legs Janet Zakos, <date
+                           when="2004-11-24">24 Novembre 2004</date>
+                     </p>
+                  </acquisition>
+               </history>
+               <msPart n="r">
+                  <msIdentifier/>
+                  <msContents>
+                     <!-- ajouté ceci -->
+                     <summary n="r">
+                        <seg xml:lang="en">Obverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="r">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="fr">Iconographie avec épigraphe de aprt et d'autre de
+                                 l'effigie</p>
+                              <p xml:lang="en">Iconogaphy with epigraph on either side of the
+                                 effigy</p>
+                           </layout>
+                        </layoutDesc>
+
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="r">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="r" xml:lang="fr" ana="person male archangel Michael"
+                                 >L’archange Michel nimbé, de face, debout sur un souppédion, revêtu
+                                 de la tunique courte et de la chlamyde militaires, tenant une lance
+                                 en main droite et dans la gauche un globe crucigère.</figDesc>
+                              <figDesc n="r" xml:lang="en" ana="person male archangel Michael"
+                                 >Archangel Michael nimbate standing on a souppedion, facing
+                                 forward, bearing the military costume, holding a spear in the right
+                                 hand and a cruciferous globe in the left one. </figDesc>
+                              <figDesc n="decoR" xml:lang="fr">Cercle de grosses perles insérées
+                                 entre deux cercles de fin grènetis</figDesc>
+                              <figDesc n="decoR" xml:lang="en">Circle of pearls inserted in a double
+                                 circle of dots</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+               <msPart n="v">
+                  <msIdentifier/>
+                  <msContents>
+                     <summary n="v"><!-- ajouté ceci -->
+                        <seg xml:lang="en">Reverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="v">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="en">Linear legend of 7 lines</p>
+                              <p xml:lang="fr">Légende linéaire sur 7 lignes</p>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="v">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="decoV" xml:lang="fr">Cercle de grosses perles insérées
+                                 entre deux cercles de fin grènetis; la première ligne est précédée
+                                 d’une croisette ; au sommet et à la base du champ, une perle
+                                 accostée de tirets</figDesc>
+                              <figDesc n="decoV" xml:lang="en">Circle of pearls inserted in a double
+                                 circle of dots; a crosslet precedes the first line, while a pearl
+                                 between traits is placed above and under the inscription</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2025-04-14" who="#PE">Creation of the XML record.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp>
+         <surface n="r">
+            <desc>Obverse</desc>
+            <graphic type="photo" url="CdN2004-0415_1.jpg">
+               <desc xml:lang="en">CdN 2004-0415, obverse</desc>
+               <desc xml:lang="fr">CdN 2004-0415, avers</desc>
+            </graphic>
+         </surface>
+         <surface n="v">
+            <desc>Reverse</desc>
+            <graphic type="photo" url="CdN2004-0415_2.jpg">
+               <desc xml:lang="en">CdN 2004-0415, reverse</desc>
+               <desc xml:lang="fr">CdN 2004-0415, revers</desc>
+            </graphic>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" subtype="editorial" xml:space="preserve"> 
+            <div type="textpart" subtype="label" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="a"/><expan><abbr>Μι
+                 <cb n="b" break="no"/>χα</abbr><ex>ήλ</ex></expan>
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab ana="dat">
+                         <lb n="1"/><rs type="invocation" ref="#inv003"><expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan> <expan><abbr>β</abbr><ex>οή</ex><abbr>θ</abbr><ex>ει</ex></expan></rs> 
+                         <lb n="2"/>Μιχαὴλ <rs type="office" subtype="civil" ref="#of0095">κέν
+                         <lb n="3" break="no"/>σωρι</rs> <rs type="office" subtype="civil" ref="#of0112">κριτῇ</rs> 
+                         <lb n="4"/>ἐπὶ τοῦ <rs type="institution" ref="#org0017">Ἱππο
+                         <lb n="5" break="no"/>δρόμου</rs> καὶ 
+                         <lb n="6"/>τῆς <placeName ref="#geo0054"><expan><abbr><am>S</am></abbr><ex>Κε</ex><abbr>φαλ
+                         <lb n="7" break="no"/>ληνίας</abbr></expan></placeName>
+                      </ab>
+                  </div>
+              </div>
+         <div type="edition" subtype="diplomatic" xml:space="preserve"> 
+                  <div type="textpart" subtype="label" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="a"/>μ|i   
+                 <cb n="b"/>x|a
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab>
+                         <lb n="0"/>  
+                         <lb n="1"/> κε̣r/ θ/                                    
+                         <lb n="2"/>μιχαηλκεν
+                         <lb n="3"/>σρικριτη
+                         <lb n="4"/>επιτιππο
+                         <lb n="5"/>δ̣ρ̣ομκαι
+                         <lb n="6"/>τησϏ̣φαλ
+                         <lb n="7"/>λ̣ηνι̣ασ
+                         <lb n="0"/> 
+                         </ab>
+                  </div>
+              </div>
+         <div type="translation">
+            <p>Μιχαήλ. || + Κύριε βοήθει Μιχαὴλ κένσωρι, κριτῇ ἐπὶ τοῦ Ἱπποδρόμου καὶ τῆς
+               Κεφαλληνίας.</p>
+            <p xml:lang="en">Michael. || + Lord, help Michael, kensor, judge of the Hippodrome and of
+               the Cephalonia</p>
+            <p xml:lang="fr">Michel. || + Seigneur accorde ton secours à Michel, kensôr, juge de
+               l’Hippodrome et de Céphalonie</p>
+         </div>
+         <div type="commentary" subtype="text">
+            <!-- renvois internes à refaire -->
+            <p xml:lang="en">Cephalonia was the seat of the island theme of the same name, which
+               included all the Ionian Islands. The surviving sigillographic material suggests that
+               this theme was created around the middle of the eighth century<bibl><ptr target="DOseals2"/>, n° <citedRange
+                     unit="entry">1.15, 1.17, 1.18</citedRange></bibl>, while the first
+               mention of a strategos of Cephalonia in literary sources dates from 809, when the
+               patrikios Paul commanded the Greek fleet against Pepin, son of Charlemagne, in
+               Venice. In the Taktika of the 9th and 10th centuries, the strategos of Cephalonia
+               precedes those of Samos and the Aegean Sea. For two centuries, Cephalonia, thanks to
+               the theme's fleet, was one of the main defensive bases on the western border of the
+               Empire, forming with the themes of the Peloponnese, Dyrrachion, Nicopolis and
+               Dalmatia, a barrier against attacks and invasions by the Arab squadrons of Syria,
+               Egypt, and North Africa. A seal reveals to us a tourmark of the plοιμόν of Kefalonia.
+               When the Muslims of Africa and Sicily were driven out of southern Italy at the end of
+               the 10th century, Cephalonia became a secondary stopover on the route connecting
+               Byzantium to the West. This naval base, like those of Durazzo and Corfu, fell into
+               decline, but the island managed to withstand the siege of 1085. Another tax collector
+               from Kefalonia left his seal in the mid-11th century: Philip, protospatharios,
+               exactor, and judge of Cephalonia. The island had a customs post, as several
+               merchants' seals are known to exist.</p>
+            <p xml:lang="en"/>
+            <p xml:lang="fr">Céphalonie fut le siège du thème insulaire homonyme qui comprenait
+               toutes les îles Ioniennes. Le matériel sigillographique conservé suggère que ce thème
+               fut créé vers le milieu du VIIIe siècle<bibl><ptr target="DOseals2"/>, n° <citedRange
+                     unit="entry">1.15, 1.17, 1.18</citedRange></bibl>, alors que la première
+               mention d’un stratège de Céphalonie dans les sources littéraires date de 809,
+               lorsque le patrice Paul commandait la flotte grecque contre Pépin, fils de
+               Charlemagne, à Venise. Dans les Taktika du IXe et du Xe siècle, le stratège de
+               Céphalonie précède ceux de Samos et de la mer Égée<bibl><ptr target="Oikonomides1972"/>, p. <citedRange
+                     unit="page">101, 105, 139, 247, 265</citedRange></bibl>. Deux siècles durant, Céphalonie,
+               grâce à la flotte du thème, a été l’une des principales bases de défense sur la
+               frontière occidentale de l’Empire, formant avec les thèmes du Péloponnèse, de
+               Dyrrachion, de Nicopolis et de Dalmatie une barrière contre les attaques et les
+               invasions des escadres arabes de Syrie, d’Égypte et d’Afrique du Nord. Un sceau nous
+               fait connaître un tourmarque des plοïmôn de Céphalonie<bibl><ptr target="Vatican"/>, n° <citedRange
+                     unit="page">96</citedRange></bibl>. Lorsque les musulmans
+               d’Afrique et de Sicile furent chassés d’Italie du Sud à la fin du Xe siècle,
+               Céphalonie devint une escale secondaire dans l’itinéraire reliant Byzance à
+               l’Occident. Cette base navale, comme celles de Durazzo et de Corfou, périclita, mais
+               l’île a réussi à ne pas succomber au siège de 1085. Un autre agent fiscal de
+               Céphalonie a laissé son sceau vers le milieu du XIe siècle : Philippe,
+               protospathaire, exaktôr et juge de Céphalonie<bibl><ptr target="ZAcos2"/>, n° <citedRange
+                     unit="entry">674</citedRange></bibl>. L’île disposait d’un poste de douane,
+               puisque plusieurs sceaux de commerciaires sont connus<bibl><ptr target="Zacos2"/>, n° <citedRange
+                     unit="entry">1075</citedRange></bibl>;<bibl><ptr target="Istanbul"/>, n° <citedRange
+                           unit="entry">1.52</citedRange></bibl>.</p>
+            <p xml:lang="fr"/>
+         </div>
+         <div type="bibliography" subtype="edition">
+            <p><bibl><ptr target="ZacosGenève"/>, n° <citedRange
+                     unit="entry">122</citedRange></bibl>;
+               <bibl><ptr target="Zacos2"/>, n° <citedRange
+                     unit="entry">580</citedRange></bibl><bibl/>
+            </p>
+         </div>
+         <div type="bibliography" subtype="parallels">
+            <p/>
+         </div>
+         <div type="bibliography" subtype="discussion">
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

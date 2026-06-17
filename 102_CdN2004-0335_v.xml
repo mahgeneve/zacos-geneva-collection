@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en">Kheres, sebastos and stratopedarches</title>
+            <title xml:lang="fr">Chérès, sébaste et stratopédarque</title>
+            <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
+            <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+            <funder>
+               <orgName corresp="https://www.mahmah.ch/">MAH-Musée d'art et d'histoire - Genève,
+                  Cabinet de numismatique</orgName>, Suisse </funder>
+            <principal ref="#MCP"/>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <seg xml:lang="fr">Amélioration digitale</seg>
+               <seg xml:lang="en">Digital enhancement</seg>
+            </edition>
+            <editor role="digital-editor" xml:id="PE" when="2025-04-02">Pia Evening</editor>
+            <editor role="digital-editor" ref="#MCP" when="2026-01-07">Maria Campagnolo-Pothitou</editor>
+         </editionStmt>
+         <publicationStmt>
+            <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
+            <idno type="filename">CdN 2004-0335</idno>
+            <idno type="SigiDocID">s-opSR0f</idno>
+            <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+            <idno type="sequence"/>
+            <!--  to be compiled automatically; leave as is  -->
+            <date when="2024-08-06"/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                  >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                  4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listPerson type="issuer">
+               <person gender="M" role="civil aristocracy">
+                  <persName xml:lang="grc">
+                     <forename/>
+                     <surname>Χερῆς</surname>/> </persName>
+                  <persName xml:lang="fr">
+                     <forename/>
+                     <surname>Chérès</surname>/> </persName>
+                  <persName xml:lang="en">
+                     <forename/>
+                     <surname>Cheres</surname>/> </persName>
+                  <idno type="PBW"/>
+
+                  <idno type="PBE"/>
+                  <idno type="PLP"/>
+                  <idno type="PLRE"/>
+                  <idno type="PcBE"/>
+                  <idno type="PmbZ"/>
+               </person>
+            </listPerson>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <seg xml:lang="en">Switzerland</seg>
+                     <seg xml:lang="fr">Suisse</seg>
+                  </country>
+                  <settlement>
+                     <seg xml:lang="en">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">City of
+                           Geneva</placeName>
+                     </seg>
+                     <seg xml:lang="fr">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">Ville de
+                           Genève</placeName>
+                     </seg>
+                  </settlement>
+                  <institution>MAH-Musée d'art et d'histoire</institution>
+                  <repository>Cabinet de numismatique</repository>
+                  <collection type="public">
+                     <rs type="collection-name" xml:lang="en">Byzantine seals collection</rs>
+                     <rs type="collection-name" xml:lang="fr">Collection de sceaux byzantins</rs>
+                  </collection>
+                  <idno type="inv-nr-current">CdN 2004-0335</idno>
+                  <altIdentifier>
+                     <repository/>
+                     <idno type="inv-nr-former"/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <!--https://github.com/SigiDoc/Guidelines/wiki/5.-Controlled-vocabularies#seals-category-->
+                  <summary n="whole">
+                     <seg xml:lang="fr">Administration centrale</seg>
+                     <seg xml:lang="en">Central administration</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>
+                              <term>
+                                 <seg xml:lang="fr">Sceau</seg>
+                                 <seg xml:lang="en">Seal</seg>
+                              </term>
+                              <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                              <interp type="workType" xml:lang="en">Original impression</interp>
+                           </objectType>
+                           <material>
+                              <seg xml:lang="fr">Plomb</seg>
+                              <seg xml:lang="en">Lead</seg>
+                           </material>
+                           <dimensions type="support" unit="mm">
+                              <dim type="diameter">36,06/32,22</dim>
+                              <!-- mesure du champ? -->
+                           </dimensions>
+                           <measure type="weight" unit="g">32,937</measure>
+                           <measure type="axis" unit="clock"/>
+                           <measure type="overstrikeOrient" unit="clock"/>
+                           <measure type="channelOrient" unit="clock">12-6</measure>
+                           <measure type="countermark" unit="clock"/>
+                        </support>
+                        <condition rend="well-struck crushed chipped not-centered worn-edge">
+                           <p xml:lang="en">The bulla is quite well-struck but not centered and
+                              rather well-preserved; it is slightly crushed on the obverse, quite
+                              chipped on the upper opening of the canal and quite worn on the left
+                              part of the edge </p>
+                           <p xml:lang="fr">La bulle est relativement bien frappée, mais décentrée
+                              et moyennement bien conservée; bien échancrée à l'orifice supérieur du
+                              canal, elle est passablement écrasée sur les deux faces et rognée sur
+                              la partie gauche du bord.</p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout n="whole">
+                           <rs type="execution">
+                              <seg xml:lang="fr">Frappé</seg>
+                              <seg xml:lang="en">Struck</seg>
+                           </rs>
+                           <rs type="shape">
+                              <seg xml:lang="fr">Ronde</seg>
+                              <seg xml:lang="en">Round</seg>
+                           </rs>
+                           <rs type="matrix" subtype="not-surviving">
+                              <idno type="SigiDoc">m-1xzN5E</idno>
+                              <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+                              <idno type="PBW"/>
+                              <!-- to be used if the seal has a parallel in the PBW with a boulloterion registered there -->
+                           </rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <seg xml:lang="fr">
+                           <placeName/>
+                        </seg>
+                        <seg xml:lang="en">
+                           <placeName/>
+                        </seg>
+                     </origPlace>
+                     <origDate type="analysis" notBefore="1301" notAfter="1400"
+                        evidence="epigraphy linguistic-features" cert="high" resp="#MCP #JCC">
+                        <seg xml:lang="en">14th century</seg>
+                        <seg xml:lang="fr">XIVe siècle</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="transferred" subtype="donated" when="2004-11-24">
+                     <!-- pas sûr de subtype et when -->
+                     <p xml:lang="en">George Zacos collection</p>
+                     <p xml:lang="fr">Collection Georges Zacos</p>
+                  </provenance>
+                  <acquisition>
+                     <p xml:lang="en">Donation of the Migore Foundation, Janet Zakos legacy, <date
+                           when="2004-11-24">24th November 2004</date>
+                     </p>
+                     <p xml:lang="fr">Don de la Fondation Migore, legs Janet Zakos, <date
+                           when="2004-11-24">24 Novembre 2004</date>
+                     </p>
+                  </acquisition>
+               </history>
+               <msPart n="r">
+                  <msIdentifier/>
+                  <msContents>
+                     <!-- ajouté ceci -->
+                     <summary n="r">
+                        <seg xml:lang="en">Obverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="r">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="fr">Iconographie avec des sigles de part et d'autre de
+                                 l'effigie</p>
+                              <p xml:lang="en">Iconography with sigla on either side of the
+                                 effigy</p>
+                           </layout>
+                        </layoutDesc>
+
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="r">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="r" xml:lang="fr"
+                                 ana="person female Virgin Mary with the Child">Vierge Hodègètria, à
+                                 mi-corps, tournée, tête légèrement inclinée, vers l’Enfant qu’elle
+                                 porte sur le bras gauche. La Théotokos, vêtue du chitôn et du
+                                 maphorion, tend la main droite en signe d’adoration vers le Christ
+                                 au nimbe crucigère, qui bénit de la droite.</figDesc>
+                              <figDesc n="r" xml:lang="en"
+                                 ana="person female Virgin Mary with the Child">Virgin Hodegetria,
+                                 half-length, turned, head slightly inclined towards the Child she
+                                 carries on her left arm. Dressed in a chiton and maphorion, she
+                                 extends her right hand in a sign of adoration towards Christ who
+                                 bears a cruciform halo and blesses with his right hand.</figDesc>
+                              <figDesc n="decoR" xml:lang="fr">Cercle de grènetis; les sigles sont
+                                 visibles surtout à droite</figDesc>
+                              <figDesc n="decoR" xml:lang="en">Circle of dots; sigla are visible
+                                 mainly on the right</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+               <msPart n="v">
+                  <msIdentifier/>
+                  <msContents>
+                     <summary n="v"><!-- ajouté ceci -->
+                        <seg xml:lang="en">Reverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="v">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="en">Linear metrical legend of 5 lines</p>
+                              <p xml:lang="fr">Légende métrique linéaire sur 5 lignes</p>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="v">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="decoV" xml:lang="fr">Double cercle de grènetis;
+                                 l'iinscription est précédée d'une croisette</figDesc>
+                              <figDesc n="decoV" xml:lang="en">Double circle of dots; a crosslet
+                                 precedes the legend</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2025-04-02" who="#PE">Creation of the XML record.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp>
+         <surface n="r">
+            <desc>Obverse</desc>
+            <graphic type="photo" url="CdN2004-0335_1.jpg">
+               <desc xml:lang="en">CdN 2004-0335, obverse</desc>
+               <desc xml:lang="fr">CdN 2004-0335, avers</desc>
+            </graphic>
+         </surface>
+         <surface n="v">
+            <desc>Reverse</desc>
+            <graphic type="photo" url="CdN2004-0335_2.jpg">
+               <desc xml:lang="en">CdN 2004-0335, reverse</desc>
+               <desc xml:lang="fr">CdN 2004-0335, revers</desc>
+            </graphic>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" subtype="editorial" xml:space="preserve"> 
+            <div type="textpart" subtype="sigla" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="a"/><expan><supplied reason="lost"><abbr>Μ</abbr><ex>ήτη</ex></supplied><abbr>ρ</abbr></expan> <supplied reason="lost"><expan><abbr>Θ</abbr><ex>εο</ex><abbr>ῦ</abbr></expan></supplied>
+                 <cb n="b"/><app type="alternative"><lem><expan><abbr>Ἰ</abbr><ex>ησοῦ</ex><abbr>ς</abbr></expan></lem><rdg><expan><abbr>Ἰ</abbr><ex>ησοῦ</ex></expan></rdg></app>
+                 <cb n="c"/><app type="alternative"><lem><expan><abbr>Χ</abbr><ex>ριστό</ex><abbr>ς</abbr></expan></lem><rdg><expan><abbr>Χ</abbr><ex>ριστο</ex><abbr>ῦ</abbr></expan></rdg></app>
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <lg type="metrical" met="dodecasyllable" ana="gen">
+                         <l n="1">
+                            <lb n="1"/><expan><abbr>Σφραγ</abbr><ex>ὶς</ex></expan> 
+                            <lb n="2"/><rs type="dignity" ref="d0075">σεβαστοῦ</rs> 
+                            <lb n="3"/>Χερῆ <rs type="office" subtype="military" ref="#of0282"><expan><abbr>στρ</abbr><ex>α</ex>
+                            <lb n="4" break="no"/><abbr>τοπεδάρ
+                            <lb n="5" break="no"/>χου</abbr></expan></rs>
+                         </l>
+                      </lg>
+                  </div>
+              </div>
+         <div type="edition" subtype="diplomatic" xml:space="preserve"> 
+                  <div type="textpart" subtype="sigla" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="a"/>.Ρ
+                 <cb n="b"/>iΣ̣̅
+                 <cb n="c"/>xc̣
+              </ab>
+            </div>
+            <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab>
+                         <lb n="1"/>σφραγ/             
+                         <lb n="2"/>σεβο 
+                         <lb n="3"/>χερη̣ρ/ 
+                         <lb n="4"/>τοπεαρ
+                         <lb n="5"/>χο
+                         </ab>
+                  </div>
+              </div>
+         <div type="translation">
+            <p>Μήτηρ Θεοῦ. Ἰησοῦς Χριστός. <hi rend="italic">vel</hi> Μήτηρ Θεοῦ Ἰησοῦ Χριστοῦ. || +
+               Σφραγὶς σεβαστοῦ Χερῆ στρατοπεδάρχου.</p>
+            <p xml:lang="en">Mother of God. Jesus Christ. <hi rend="italic">vel</hi> Mother of God,
+               Jesus Christ. || + Kheres' seal, sebastos and stratopedarches</p>
+            <p xml:lang="fr">Mère de Dieu. Jésus Christ. <hi rend="italic">vel</hi> Mère de Dieu,
+               Jésus Christ. || + Sceau de Chérès, sébaste et stratopédarque</p>
+         </div>
+         <div type="commentary" subtype="text">
+            <!-- renvois internes à refaire -->
+            <p xml:lang="en">The owner and his surname are not known elsewhere. Certain epigraphic
+               criteria (the letter D in the fourth line and the variations in the engraving of the
+               A's in the second and fourth line) suggest a date at the end of the 13th century:
+               However, the curious ligature of CT and P in the third line, the unnecessary
+               abbreviation after the A, and the irregularity of the modules suggest a later date,
+               in the 14th century. The office of stratopedarches was created in 967 by Nicephorus II
+               Phocas, who entrusted it to the eunuch Peter Phocas. Before that date, the term was
+               synonymous with strategos and very rarely used by historiographers. Much more than a
+               commander-in-chief, the function designated, according to N. Oikonomides, the
+               commander-in-chief of the army in campaign. This remained the mission of this
+               high-ranking figure until the Latin occupation of 1204. During the Palaiologan era,
+               when Kheres was active, the stratopedarches had become a dignitary of medium
+               rank, under the orders of the grand stratopedarches, but without exercising any
+               effective military authority.</p>
+            <p xml:lang="en"/>
+            <p xml:lang="fr">Le titulaire et son patronyme ne sont pas connus par ailleurs. Certains
+               critères épigraphiques (la lettre D, à la quatrième ligne, et les variantes dans la
+               gravure des A sur la deuxième ligne)suggéreraient une datation à la fin du XIIIe
+               siècle : Mais la curieuse ligature de CT et P à la troisième ligne, l'abbréviation
+               inutile après l'A et l’irrégularité des modules feraient préférer une datation plus
+               tardive, au XIVe siècle. La charge de stratopédarque fut créée en 967 par Nicéphore
+               II Phocas, qui la confia à l’eunuque Pierre Phocas. Avant cette date, le terme était
+               synonyme de stratège et très rarement utilisé par les historiographes. Bien plus
+               qu’un commandant en chef, la fonction désignait, d’après N. Oikonomidès, le
+               commandant en chef de l’armée en campagne<bibl>
+                  <ptr target="Oikonomides1972"/>, p. <citedRange unit="page">334-335</citedRange></bibl>. Telle est restée la mission de ce haut
+               personnage jusqu’à l’occupation latine de 1204. À l’époque des Paléologues, où notre
+               titulaire était actif, le stratopédarque était devenu un dignitaire de rang moyen,
+               sous les ordres du grand stratopédarque, mais sans exercer de charge militaire
+               effective.</p>
+            <p xml:lang="fr"/>
+         </div>
+         <div type="bibliography" subtype="edition">
+            <p><bibl>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">102</citedRange></bibl>
+               <bibl/>
+            </p>
+         </div>
+         <div type="bibliography" subtype="parallels">
+            <p/>
+         </div>
+         <div type="bibliography" subtype="discussion">
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

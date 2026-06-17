@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en">Andronic II Palaiologos</title>
+            <title xml:lang="fr">Andronic II Paléologue</title>
+            <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
+            <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+            <funder>
+               <orgName corresp="https://www.mahmah.ch/">MAH-Musée d'art et d'histoire - Genève,
+                  Cabinet de numismatique</orgName>, Suisse</funder>
+            <principal ref="#MCP"/>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <seg xml:lang="fr">Amélioration digitale</seg>
+               <seg xml:lang="en">Digital enhancement</seg>
+            </edition>
+            <editor role="digital-editor" xml:id="PE" when="2025-06-02">Pia Evening</editor>
+         </editionStmt>
+         <publicationStmt>
+            <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
+            <idno type="filename">CdN 2004-0180</idno>
+            <idno type="SigiDocID">s-o31fCd</idno>
+            <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+            <idno type="sequence"/>
+            <!--  to be compiled automatically; leave as is  -->
+            <date when="2024-08-06"/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                  >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                  4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listPerson type="issuer">
+               <person gender="M" role="imperial">
+                  <persName xml:lang="grc">
+                     <forename>Ἀνδρόνικος B'</forename>/> <surname>Παλαιολόγος</surname>/> </persName>
+                  <persName xml:lang="fr">
+                     <forename>Andronic II</forename>/> <surname>Paléologue</surname>/> </persName>
+                  <persName xml:lang="en">
+                     <forename>Andronic II</forename>/> <surname>Palaiologos</surname>/> </persName>
+                  <idno type="PBW"/>
+                  <idno type="PBE"/>
+                  <idno type="PLP" ana="https://archive.org/details/ErichTrappProsopographischesLexikonDerPALAIOLOGENZEIT/page/n3889/mode/2up">21436</idno>
+                  <idno type="PLRE"/>
+                  <idno type="PcBE"/>
+                  <idno type="PmbZ"/>
+               </person>
+            </listPerson>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <seg xml:lang="en">Switzerland</seg>
+                     <seg xml:lang="fr">Suisse</seg>
+                  </country>
+                  <settlement>
+                     <seg xml:lang="en">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">City of
+                           Geneva</placeName>
+                     </seg>
+                     <seg xml:lang="fr">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">Ville de
+                           Genève</placeName>
+                     </seg>
+                  </settlement>
+                  <institution>MAH-Musée d'art et d'histoire</institution>
+                  <repository>Cabinet de numismatique</repository>
+                  <collection type="public">
+                     <rs type="collection-name" xml:lang="en">Byzantine seals collection</rs>
+                     <rs type="collection-name" xml:lang="fr">Collection de sceaux byzantins</rs>
+                  </collection>
+                  <idno type="inv-nr-current">CdN 2004-0180</idno>
+                  <altIdentifier>
+                     <repository/>
+                     <idno type="inv-nr-former"/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <!--https://github.com/SigiDoc/Guidelines/wiki/5.-Controlled-vocabularies#seals-category-->
+                  <summary n="whole">
+                     <seg xml:lang="fr">impériale</seg>
+                     <seg xml:lang="en">imperial</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>
+                              <term>
+                                 <seg xml:lang="fr">Sceau</seg>
+                                 <seg xml:lang="en">Seal</seg>
+                              </term>
+                              <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                              <interp type="workType" xml:lang="en">Original impression</interp>
+                           </objectType>
+                           <material>
+                              <seg xml:lang="fr">Plomb</seg>
+                              <seg xml:lang="en">Lead</seg>
+                           </material>
+                           <dimensions type="support" unit="mm">
+                              <dim type="diameter">40,55/36,05</dim>
+                              <!-- mesure du champ? -->
+                           </dimensions>
+                           <measure type="weight" unit="g">24,449</measure>
+                           <measure type="axis" unit="clock"/>
+                           <measure type="overstrikeOrient" unit="clock"/>
+                           <measure type="channelOrient" unit="clock">12-6</measure>
+                           <measure type="countermark" unit="clock"/>
+                        </support>
+                        <condition rend="well-struck well-preserved chipped crushed worn-edge">
+                           <p xml:lang="en">The bulla is well-struck; slightly chipped at the
+                              opennings of the channel and slightly crushed on both sides; the edge
+                              is partially worn</p>
+                           <p xml:lang="fr">La bulle est bien frappée, mais l'avers est décentré ;
+                              légèrement échancré aux orifices du canal et légèrement écrasé sur les
+                              deux faces; le bord est partiellement usé.</p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout n="whole">
+                           <rs type="execution">
+                              <seg xml:lang="fr">Frappé</seg>
+                              <seg xml:lang="en">Struck</seg>
+                           </rs>
+                           <rs type="shape">
+                              <seg xml:lang="fr">Ronde</seg>
+                              <seg xml:lang="en">Round</seg>
+                           </rs>
+                           <rs type="matrix" subtype="not-surviving">
+                              <idno type="SigiDoc">m-f1W835</idno>
+                              <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+                              <idno type="PBW"/>
+                              <!-- to be used if the seal has a parallel in the PBW with a boulloterion registered there -->
+                           </rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <seg xml:lang="fr">
+                           <placeName/>
+                        </seg>
+                        <seg xml:lang="en">
+                           <placeName/>
+                        </seg>
+                     </origPlace>
+                     <origDate type="analysis" notBefore="1282" notAfter="1295"
+                        evidence="prosopography iconography reign" cert="high" resp="#MCP #JCC">
+                        <seg xml:lang="en">1282-1295</seg>
+                        <seg xml:lang="fr">1282-1295</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="transferred" subtype="donated" when="2004-11-24">
+                     <!-- pas sûr de subtype et when -->
+                     <p xml:lang="en">George Zacos collection</p>
+                     <p xml:lang="fr">Collection Georges Zacos</p>
+                  </provenance>
+                  <acquisition>
+                     <p xml:lang="en">Donation of the Migore Foundation, Janet Zakos legacy, <date
+                           when="2004-11-24">24th November 2004</date>
+                     </p>
+                     <p xml:lang="fr">Don de la Fondation Migore, legs Janet Zakos, <date
+                           when="2004-11-24">24 Novembre 2004</date>
+                     </p>
+                  </acquisition>
+               </history>
+               <msPart n="r">
+                  <msIdentifier/>
+                  <msContents>
+                     <!-- ajouté ceci -->
+                     <summary n="r">
+                        <seg xml:lang="en">Obverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="r">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="fr">Iconographie avec, de part et d'autre, des sigles</p>
+                              <p xml:lang="en">Iconography with, on either side, sigla</p>
+                           </layout>
+                        </layoutDesc>
+
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="r">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="r" xml:lang="fr"
+                                 ana="person male archangel Michael Choniates">L’archange Michel, de
+                                 type Chôniatès, de face, en pied, ailes largement éployées, revêtu
+                                 du costume militaire, chitôn court et cuirasse sous la chlamyde,
+                                 brandissant l’épée de la main droite et tenant le fourreau en main
+                                 gauche.</figDesc>
+                              <figDesc n="r" xml:lang="en"
+                                 ana="person male archangel Michael Choniates">The archangel
+                                 Michael, of the Choniates type, front view, full length, wings
+                                 spread wide, dressed in military costume, short chiton and cuirass
+                                 under the chlamys, brandishing a sword in his right hand and
+                                 holding the scabbard in his left hand.</figDesc>
+                              <figDesc n="decoR" xml:lang="fr">Cercle de grènetis passablement
+                                 écrasé</figDesc>
+                              <figDesc n="decoR" xml:lang="en">Circle of dots largely
+                                 crushed</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+               <msPart n="v">
+                  <msIdentifier/>
+                  <msContents>
+                     <summary n="v"><!-- ajouté ceci -->
+                        <seg xml:lang="en">Reverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="v">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="en">Linear metrical legend of 6 lines</p>
+                              <p xml:lang="fr">Légende métrique linéaire sur 6 lignes</p>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="v">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="decoV" xml:lang="fr">Cercle de grènetis; la légende est
+                                 surmontée d'une croisette et la dernière ligne est suivie par une
+                                 perle; à la base, un losange de perles.</figDesc>
+                              <figDesc n="decoV" xml:lang="en">Circle of dots; above the legend,
+                                 there is a crosslet while under it, a losange made of pearls; the
+                                 last line is followed by a bead.</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2025-06-02" who="#PE">Creation of the XML record.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp>
+         <surface n="r">
+            <desc>Obverse</desc>
+            <graphic type="photo" url="CdN2004-0180_1.jpg">
+               <desc xml:lang="en">CdN 2004-0180, obverse</desc>
+               <desc xml:lang="fr">CdN 2004-0180, avers</desc>
+            </graphic>
+         </surface>
+         <surface n="v">
+            <desc>Reverse</desc>
+            <graphic type="photo" url="CdN2004-0180_2.jpg">
+               <desc xml:lang="en">CdN 2004-0180, reverse</desc>
+               <desc xml:lang="fr">CdN 2004-0180, revers</desc>
+            </graphic>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" subtype="editorial" xml:space="preserve"> 
+            <div type="textpart" subtype="sigla" rend="columns" n="obv" xml:lang="grc">
+              <ab>
+                 <cb n="a"/><expan><abbr>Ἀρχ</abbr><ex>άγγελος</ex></expan> 
+                 <cb n="b"/><expan><abbr>Μ</abbr><ex>ι</ex><abbr>χ</abbr><ex>αήλ</ex></expan>
+              </ab>
+            </div>
+            <div type="textpart" subtype="face" rend="linear" n="rev" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <lg type="metrical" met="dodecasyllable">
+                 <l n="0">
+                 <lb n="1"/>Ἀρχιστρά
+                 <lb n="2" break="no"/>τηγε ταγμά
+                 <lb n="3" break="no"/>των οὐρανίων</l> 
+                 <l n="2"><lb n="4"/>Ἀνδρόνικον σκ
+                 <lb n="5" break="no"/>έποις με τὸν 
+                 <lb n="6"/>βασιλέα
+                 </l>
+              </lg>
+            </div>
+              </div>
+         <div type="edition" subtype="diplomatic" xml:space="preserve"> 
+            <div type="textpart" subtype="sigla" rend="columns" n="obv" xml:lang="grc">
+              <ab>
+                 <cb n="a"/>x|ρ
+                 <cb n="b"/>x|  
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" rend="linear" n="rev" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <lb n="0"/>   
+                 <lb n="1"/>ρχιστρ             
+                 <lb n="2"/>τηγτγ
+                 <lb n="3"/>τνρνιν
+                 <lb n="4"/>νδρονικονσκ
+                 <lb n="5"/>̣π̣οιστον
+                 <lb n="6"/>.σιλ
+                 <lb n="0"/>
+                 
+              </ab>
+                  </div>
+              </div>
+         <div type="translation">
+            <p>Ἀρχάγγελος Μιχαήλ. || + Ἀρχιστράτηγε ταγμάτων οὐρανίων Ἀνδρόνικον σκέποις με τὸν
+               βασιλέα.</p>
+            <p xml:lang="en">Archangel Michael.|| + Thee,Archistrategos of the heavenly hosts,
+               protect me, Andronic, the basileus.</p>
+            <p xml:lang="fr">Archange Michel.|| + Archistratège des contingents célestes,
+               protège-moi, Andronic, le basileus.</p>
+         </div>
+         <div type="commentary" subtype="text">
+            <!-- renvois internes à refaire -->
+            <p xml:lang="en">Based on the epigraphy, characteristic of the palaiologan era, this
+               seal could have belonged to one of the three emperors of the same name, Andronikos II
+               (1282-1320), Andronikos III (1328-1341) or Andronikos IV (1376-1379). Based on
+               the iconography, G. Zacos and A. Veglery, the first publishers of the seal, attributed it
+               to Andronikos II. The archangel Michael appears only on the
+               copper coins issued by this emperor, during his reign alone or with his
+               co-emperor Michael IX (1294-1320). We therefore accept this identification, as well as
+               the proposed dating, namely the beginning of the reign of Andronikos II, before
+               his son Michael IX came to power. The personal nature of the legend,
+               which is reminiscent of that of Theodore II Lascaris <bibl>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">18a and
+                     18b</citedRange></bibl>, suggests that this seal was for a private use. It is one of four
+               types known to us for Andronikos II, similar to the seal of Michael VIII <bibl>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">
+                     19</citedRange></bibl>.</p>
+            <p xml:lang="en"/>
+            <p xml:lang="fr">De par l’épigraphie, caractéristique de l’époque des Paléologues, ce
+               sceau pourrait avoir appartenu à l’un des trois empereurs homonymes, Andronic II
+               (1282-1320), Andronic III (1328-1341) ou Andronic IV (1376-1379). En se fondant sur
+               l’iconographie, G. Zacos et A. Veglery, les premiers éditeurs du sceau, l’ont
+               attribué à Andronic II. L’archange Michel, en effet, figure uniquement sur les
+               monnaies de cuivre émises par cet empereur, durant son règne seul ou avec le
+               co-empereur Michel IX (1294-1320). Aussi acceptons-nous cette identification, ainsi
+               que la datation proposée, à savoir le début du règne d’Andronic II, avant
+               l’association au pouvoir de son fils Michel IX. Le caractère personnel de la légende,
+               qui rappelle celle de Théodore II Lascaris <bibl>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">18a et
+                  18b</citedRange></bibl>, suggère un usage privé de ce sceau. C’est l’un des quatre
+               types que nous connaissons pour Andronic II, semblable au sceau de Michel VIII <bibl>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">
+               19</citedRange></bibl>.</p>
+            <p xml:lang="fr"/>
+         </div>
+         <div type="bibliography" subtype="edition">
+            <p><bibl>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">21</citedRange></bibl>;
+                     <bibl><ptr target="Zacos1"/>, n° <citedRange unit="entry"
+                  >2757b</citedRange></bibl>
+               <bibl/>
+            </p>
+         </div>
+         <div type="bibliography" subtype="parallels">
+            <p>ancienne collection Zacos:
+               <bibl><ptr target="Zacos1"/>, n° <citedRange unit="entry"
+                     >2757a</citedRange></bibl></p>
+         </div>
+         <div type="bibliography" subtype="discussion">
+            <p><bibl>
+                  <ptr target="Wassiliou-Seibt2011"/>, n° <citedRange unit="entry">155</citedRange></bibl></p>
+         </div>
+      </body>
+   </text>
+</TEI>

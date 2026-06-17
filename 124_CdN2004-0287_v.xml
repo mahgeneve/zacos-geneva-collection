@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en">Leon Promoudenos, protospatharios epi tou Chrysotriklinou,
+               protonotarios, judge of the Hippodrome, Chaldia and Derzene</title>
+            <title xml:lang="fr">Léon Promoudènos, protospathaire épi tou Chrysotriklinou,
+               protonotaire, juge de l’Hippodrome, de Chaldie et Derzènè</title>
+            <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
+            <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+            <funder>
+               <orgName corresp="https://www.mahmah.ch/">MAH-Musée d'art et d'histoire - Genève,
+                  Cabinet de numismatique</orgName>, Suisse</funder>
+            <principal ref="#MCP"/>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <seg xml:lang="fr">Amélioration digitale</seg>
+               <seg xml:lang="en">Digital enhancement</seg>
+            </edition>
+            <editor role="digital-editor" xml:id="PE" when="2025-04-14">Pia Evening</editor>
+            <editor role="digital-editor" ref="#MCP" when="2026-01-26">Maria Campagnolo-Pothitou</editor>
+         </editionStmt>
+         <publicationStmt>
+            <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
+            <idno type="filename">CdN 2004-0287</idno>
+            <idno type="SigiDocID">s-iQW1Du</idno>
+            <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+            <idno type="sequence"/>
+            <!--  to be compiled automatically; leave as is  -->
+            <date when="2024-08-06"/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                  >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                  4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listPerson type="issuer">
+               <person gender="M" role="civil aristocracy">
+                  <persName xml:lang="grc">
+                     <forename>Λέων</forename>/> <surname>Προμουδηνὸς</surname>/> </persName>
+                  <persName xml:lang="fr">
+                     <forename>Léon</forename>/> <surname>Promoudènos</surname>/> </persName>
+                  <persName xml:lang="en">
+                     <forename>Leon</forename>/> <surname>Promoudenos</surname>/> </persName>
+                  <idno type="PBW"/>
+                  <idno type="PBE"/>
+                  <idno type="PLP"/>
+                  <idno type="PLRE"/>
+                  <idno type="PcBE"/>
+                  <idno type="PmbZ"/>
+               </person>
+            </listPerson>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <seg xml:lang="en">Switzerland</seg>
+                     <seg xml:lang="fr">Suisse</seg>
+                  </country>
+                  <settlement>
+                     <seg xml:lang="en">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">City of
+                           Geneva</placeName>
+                     </seg>
+                     <seg xml:lang="fr">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">Ville de
+                           Genève</placeName>
+                     </seg>
+                  </settlement>
+                  <institution>MAH-Musée d'art et d'histoire</institution>
+                  <repository>Cabinet de numismatique</repository>
+                  <collection type="public">
+                     <rs type="collection-name" xml:lang="en">Byzantine seals collection</rs>
+                     <rs type="collection-name" xml:lang="fr">Collection de sceaux byzantins</rs>
+                  </collection>
+                  <idno type="inv-nr-current">CdN 2004-0287</idno>
+                  <altIdentifier>
+                     <repository/>
+                     <idno type="inv-nr-former"/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <!--https://github.com/SigiDoc/Guidelines/wiki/5.-Controlled-vocabularies#seals-category-->
+                  <summary n="whole">
+                     <seg xml:lang="fr">Administration provinciale</seg>
+                     <seg xml:lang="en">Provincial administration</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>
+                              <term>
+                                 <seg xml:lang="fr">Sceau</seg>
+                                 <seg xml:lang="en">Seal</seg>
+                              </term>
+                              <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                              <interp type="workType" xml:lang="en">Original impression</interp>
+                           </objectType>
+                           <material>
+                              <seg xml:lang="fr">Plomb</seg>
+                              <seg xml:lang="en">Lead</seg>
+                           </material>
+                           <dimensions type="support" unit="mm">
+                              <dim type="diameter">26,05/28,32</dim>
+                              <!-- mesure du champ? -->
+                           </dimensions>
+                           <measure type="weight" unit="g">19,591</measure>
+                           <measure type="axis" unit="clock"/>
+                           <measure type="overstrikeOrient" unit="clock"/>
+                           <measure type="channelOrient" unit="clock">12-6</measure>
+                           <measure type="countermark" unit="clock"/>
+                        </support>
+                        <condition rend="well-struck well-preserved corroded chipped">
+                           <p xml:lang="en">The bulla is well-struck and well-preserved, slightly
+                              corrodes on both sides and chipped on the edge</p>
+                           <p xml:lang="fr">La bulle est bien frappée et bien conservée, légèrement
+                              corrodée sur les deux faces et rognée sur la tranche</p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout n="whole">
+                           <rs type="execution">
+                              <seg xml:lang="fr">Frappé</seg>
+                              <seg xml:lang="en">Struck</seg>
+                           </rs>
+                           <rs type="shape">
+                              <seg xml:lang="fr">Ronde</seg>
+                              <seg xml:lang="en">Round</seg>
+                           </rs>
+                           <rs type="matrix" subtype="not-surviving">
+                              <idno type="SigiDoc">m-nz7DiB</idno>
+                              <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+                              <idno type="PBW"/>
+                              <!-- to be used if the seal has a parallel in the PBW with a boulloterion registered there -->
+                           </rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <seg xml:lang="fr">Chaldie <placeName/>
+                        </seg>
+                        <seg xml:lang="fr">Derzènè <placeName/>
+                        </seg>
+                        <seg xml:lang="en">Chaldia <placeName/>
+                        </seg>
+                        <seg xml:lang="en">Derzene <placeName/>
+                        </seg>
+                     </origPlace>
+                     <origDate type="analysis" notBefore="1041" notAfter="1060"
+                        evidence="onomastics epigraphy titulature" cert="high" resp="#MCP #JCC">
+                        <seg xml:lang="en">Mid-11th century</seg>
+                        <seg xml:lang="fr">Milieu du XIe siècle</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="transferred" subtype="donated" when="2004-11-24">
+                     <!-- pas sûr de subtype et when -->
+                     <p xml:lang="en">George Zacos collection</p>
+                     <p xml:lang="fr">Collection Georges Zacos</p>
+                  </provenance>
+                  <acquisition>
+                     <p xml:lang="en">Donation of the Migore Foundation, Janet Zakos legacy, <date
+                           when="2004-11-24">24th November 2004</date>
+                     </p>
+                     <p xml:lang="fr">Don de la Fondation Migore, legs Janet Zakos, <date
+                           when="2004-11-24">24 Novembre 2004</date>
+                     </p>
+                  </acquisition>
+               </history>
+               <msPart n="r">
+                  <msIdentifier/>
+                  <msContents>
+                     <!-- ajouté ceci -->
+                     <summary n="r">
+                        <seg xml:lang="en">Obverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="r">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="fr">Légende linéaire sur 6 lignes</p>
+                              <p xml:lang="en">Linear legend of 6 lines</p>
+                           </layout>
+                        </layoutDesc>
+
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="r">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="decoR" xml:lang="fr">Cercle de grènetis; la légende est
+                                 précédée d’une croisette ; la dernière ligne est flanquée de
+                                 tirets</figDesc>
+                              <figDesc n="decoR" xml:lang="en">Border of dots; the inscription is
+                                 preceded by a crosslet; the last line is placed between
+                                 traits</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+               <msPart n="v">
+                  <msIdentifier/>
+                  <msContents>
+                     <summary n="v"><!-- ajouté ceci -->
+                        <seg xml:lang="en">Reverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="v">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="en">Linear legend of 5 lines</p>
+                              <p xml:lang="fr">Légende linéaire sur 5 lignes</p>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="v">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="decoV" xml:lang="fr">Cercle de grènetis</figDesc>
+                              <figDesc n="decoV" xml:lang="en">Border of dots</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2025-04-14" who="#PE">Creation of the XML record.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp>
+         <surface n="r">
+            <desc>Obverse</desc>
+            <graphic type="photo" url="CdN2004-0287_1.jpg">
+               <desc xml:lang="en">CdN 2004-0287, obverse</desc>
+               <desc xml:lang="fr">CdN 2004-0287, avers</desc>
+            </graphic>
+         </surface>
+         <surface n="v">
+            <desc>Reverse</desc>
+            <graphic type="photo" url="CdN2004-0287_2.jpg">
+               <desc xml:lang="en">CdN 2004-0287, reverse</desc>
+               <desc xml:lang="fr">CdN 2004-0287, revers</desc>
+            </graphic>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" subtype="editorial" xml:space="preserve"> 
+            <div type="textpart" subtype="face" rend="linear" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab ana="dat">
+                 <lb n="1"/><rs type="invocation" ref="#inv004"><expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan> <expan><abbr>β</abbr><ex>οή</ex><abbr>θ</abbr><ex>ει</ex></expan>
+                 <lb n="2"/>τῷ σῷ <expan><abbr>δού</abbr><ex>λῳ</ex></expan></rs> 
+                 <lb n="3"/>Λέοντι <rs type="dignity" ref="#d0066"><expan><abbr><am>Α</am></abbr><ex>πρωτο</ex>
+                 <lb n="4" break="no"/><abbr>σπαθ</abbr><ex>αρίῳ</ex></expan></rs> <rs type="office" subtype="civil" ref="#of0070">ἐπὶ 
+                 <lb n="5"/><expan><abbr>τ</abbr><ex>οῦ</ex></expan> <expan><abbr>Χρ</abbr><ex>υσο</ex><abbr><am>Γ</am></abbr><ex>τρι</ex><abbr>κλή
+                 <lb n="6" break="no"/>ν</abbr><ex>ου</ex></expan></rs>
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab ana="dat">
+                         <lb n="7"/><rs type="office" subtype="civil" ref="#of0172"><expan><abbr><am>Α</am></abbr><ex>πρωτο</ex><abbr>νοτα</abbr><ex>ρίῳ</ex></expan></rs> 
+                         <lb n="8"/><expan><abbr><am>S</am></abbr><ex>καὶ</ex></expan> <rs type="office" subtype="civil" ref="#of0112"><expan><abbr>κριτ</abbr><ex>ῇ</ex></expan></rs> ἐπὶ 
+                         <lb n="9"/><expan><abbr>τ</abbr><ex>οῦ</ex></expan> <rs type="institution" ref="#org0017"><expan><abbr>Ἱπποδ</abbr><ex>ρόμου</ex></expan></rs> <placeName ref="#geo0055"><expan><abbr>Χα</abbr><ex>λ</ex>
+                         <lb n="10" break="no"/><abbr>δίας</abbr></expan></placeName> <expan><abbr><am>S</am></abbr><ex>καὶ</ex></expan> <placeName ref="#geo0128"><expan><abbr>Δερ
+                         <lb n="11" break="no"/>ξ</abbr><ex>ηνῆς</ex></expan></placeName> τῷ <expan><abbr>Πρ</abbr><ex>ο</ex><abbr>μ</abbr><ex>ου</ex>
+                         <lb n="12" break="no"/><abbr>δηνῷ</abbr></expan>
+                      </ab>
+                  </div>
+              </div>
+         <div type="edition" subtype="diplomatic" xml:space="preserve"> 
+                  <div type="textpart" subtype="face" rend="linear" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <lb n="1"/>̣ κεr/ θ/                                                 
+                 <lb n="2"/>τσδ/
+                 <lb n="3"/>λ̣εοντια̅
+                 <lb n="4"/>σ̣παθ/ επι
+                 <lb n="5"/>τ̣/ γκλη
+                 <lb n="6"/>ν̣ /   
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab>
+                         <lb n="7"/>α̣̅nota/                                  
+                         <lb n="8"/>Ϗ̣kριτ/ επι
+                         <lb n="9"/>τ̣/ ιοδ/ χα /
+                         <lb n="10"/>διασδερ
+                         <lb n="11"/>ξ̣/ τπρ/ μ/
+                         <lb n="12"/>δην
+                         </ab>
+                  </div>
+              </div>
+         <div type="translation">
+            <p>+ Κύριε βοήθει τῷ σῷ δούλῳ Λέοντι πρωτοσπαθαρίῳ ἐπὶ τοῦ Χρυσοτρικλήνου ||
+               πρωτονοταρίῳ καὶ κριτῇ ἐπὶ τοῦ Ἱπποδρόμου Χαλδίας καὶ Δερξηνῆς τῷ Προμουδηνῷ.</p>
+            <p xml:lang="en">Lord, he your servant Leon Promoudenos, protospatharios epi tou Chrysotriklinou,
+               protonotarios, judge of the Hippodrome, Chaldia and Derzene</p>
+            <p xml:lang="fr">Seigneur accorde ton secours à Léon Promoudènos, protospathaire épi tou Chrysotriklinou,
+               protonotaire, juge de l’Hippodrome, de Chaldie et Derzènè</p>
+         </div>
+         <div type="commentary" subtype="text">
+            <!-- renvois internes à refaire -->
+            <p xml:lang="en">The surname, listed in several forms (Προμοτηνός,
+               Προμοντηνός, Προμουντηνός, and Προμουνδηνός), seems to be related
+               to the palace and district of Constantinople τῶν Προμότου
+               or τῶν Προμούντων<bibl><ptr target="Janin1950"/>, p. <citedRange
+                     unit="page">229, 540</citedRange></bibl>.
+               The family, which appears in sources mainly in the 11th century, produced
+               several civil oficers, known almost exclusively through sigillography,
+               such as our signatory<bibl><ptr target="BBÖ"/>, p. <citedRange
+                     unit="page">178-179</citedRange></bibl>. The best attested among them is undoubtedly
+               the magistros Constantine Promoundenos, whose career we can
+               reconstruct in its entirety through the seals he left behind<bibl><ptr target="Istanbul"/>, n° <citedRange
+                     unit="entry">3.11</citedRange></bibl>.
+               A theme of modest importance, Derzene (today Terzan, in the
+               region of Erzerum) is always associated with that of Chaldie<bibl><ptr target="DOseals4"/>, n° <citedRange
+                     unit="entry">61</citedRange></bibl>, sometimes
+               even with that of Tarôn<bibl><ptr target="ZacosOrient"/>, n° <citedRange
+                     unit="entry">29</citedRange></bibl>. We do not know of
+               any strategos for this theme, which was undoubtedly annexed to the Empire at
+               the time of the conquest of Theodosioupolis in 949, and already mentioned
+               in De administrando imperio. On the other hand, several officials
+               who administered it are known from sigillography.<bibl><ptr target="ZacosOrient"/>, n° <citedRange
+                     unit="entry">27,28,29</citedRange></bibl>.</p>
+            <p xml:lang="en"/>
+            <p xml:lang="fr">Le patronyme, répertorié sous plusieurs formes (Προμοτηνός,
+               Προμοντηνός, Προμουντηνός et Προμουνδηνός), semble être en rapport
+               avec le palais et le quartier constantinopolitains τῶν Προμότου
+               ou τῶν Προμούντων<bibl><ptr target="Janin1950"/>, p. <citedRange
+                     unit="page">229, 540</citedRange></bibl>.
+               La famille, présente dans les sources principalement au XIe siècle, a fourni
+               plusieurs fonctionnaires civils, connus presque exclusivement par la sigillographie,
+               comme notre signataire<bibl><ptr target="BBÖ"/>, p. <citedRange
+                     unit="page">178-179</citedRange></bibl>. Le mieux attesté d’entre eux est sans
+               doute le magistre Constantin Promoundènos, dont nous pouvons
+               reconstituer l’essentiel de sa carrière à travers les sceaux qu’il a laissés <bibl><ptr target="Istanbul"/>, n° <citedRange
+                     unit="entry">3.11</citedRange></bibl>.
+               Thème d’importance modeste, Derzènè (aujourd’hui Terzan, dans la
+               région d’Erzerum) est toujours associé à celui de Chaldie<bibl><ptr target="DOseals4"/>, n° <citedRange
+                     unit="entry">61</citedRange></bibl>, parfois
+               même également à celui de Tarôn<bibl><ptr target="ZacosOrient"/>, n° <citedRange
+                     unit="entry">29</citedRange></bibl>. Nous ne connaissons en effet
+               aucun stratège pour ce thème, annexé sans doute à l’Empire au
+               moment de la conquête de Théodosioupolis, en 949, et déjà mentionné
+               dans le De administrando imperio. En revanche, plusieurs fonctionnaires
+               qui l’ont administré sont connus par la sigillographie<bibl><ptr target="ZacosOrient"/>, n° <citedRange
+                     unit="entry">27,28,29</citedRange></bibl>.</p>
+            <p xml:lang="fr"/>
+         </div>
+         <div type="bibliography" subtype="edition">
+            <p><bibl><ptr target="ZacosGenève"/>, n° <citedRange
+                     unit="entry">124</citedRange></bibl>
+               <bibl/>
+            </p>
+         </div>
+         <div type="bibliography" subtype="parallels">
+            <p/>
+         </div>
+         <div type="bibliography" subtype="discussion">
+            <bibl><ptr target="BBÖ2"/>, p. <citedRange
+                  unit="page">179, note 239</citedRange></bibl><p/>
+         </div>
+      </body>
+   </text>
+</TEI>

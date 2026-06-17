@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en">Theodore Spanopoulos, protokouropalates</title>
+            <title xml:lang="fr">Théodore Spanopoulos, protocuropalate</title>
+            <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
+            <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+            <funder>
+               <orgName corresp="https://www.mahmah.ch/">MAH-Musée d'art et d'histoire - Genève,
+                  Cabinet de numismatique</orgName>, Suisse</funder>
+            <principal ref="#MCP"/>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <seg xml:lang="fr">Amélioration digitale</seg>
+               <seg xml:lang="en">Digital enhancement</seg>
+            </edition>
+            <editor role="digital-editor" xml:id="PE" when="2025-04-22">Pia Evening</editor>
+            <editor role="digital-editor" ref="#MCP" when="2026-03-30">Maria
+               Campagnolo-Pothitou</editor>
+         </editionStmt>
+         <publicationStmt>
+            <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
+            <idno type="filename">CdN 2004-0227</idno>
+            <idno type="SigiDocID">s-14ojwu</idno>
+            <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+            <idno type="sequence"/>
+            <!--  to be compiled automatically; leave as is  -->
+            <date when="2024-08-06"/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                  >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                  4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listPerson type="issuer">
+               <person gender="M" role="civil aristocracy">
+                  <persName xml:lang="grc">
+                     <forename>Θεόδωρος</forename>
+                     <surname>Σπανόπουλος</surname>
+                  </persName>
+                  <persName xml:lang="fr">
+                     <forename>Théodore</forename>
+                     <surname>Spanopoulos</surname>
+                  </persName>
+                  <persName xml:lang="en">
+                     <forename>Theodore</forename>
+                     <surname>Spanopoulos</surname>
+                  </persName>
+                  <idno type="PBW" ana=""/>
+
+                  <idno type="PBE"/>
+                  <idno type="PLP"/>
+                  <idno type="PLRE"/>
+                  <idno type="PcBE"/>
+                  <idno type="PmbZ"/>
+               </person>
+            </listPerson>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <seg xml:lang="en">Switzerland</seg>
+                     <seg xml:lang="fr">Suisse</seg>
+                  </country>
+                  <settlement>
+                     <seg xml:lang="en">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">City of
+                           Geneva</placeName>
+                     </seg>
+                     <seg xml:lang="fr">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">Ville de
+                           Genève</placeName>
+                     </seg>
+                  </settlement>
+                  <institution>MAH-Musée d'art et d'histoire</institution>
+                  <repository>Cabinet de numismatique</repository>
+                  <collection type="public">
+                     <rs type="collection-name" xml:lang="en">Byzantine seals collection</rs>
+                     <rs type="collection-name" xml:lang="fr">Collection de sceaux byzantins</rs>
+                  </collection>
+                  <idno type="inv-nr-current">CdN 2004-0227</idno>
+                  <altIdentifier>
+                     <repository/>
+                     <idno type="inv-nr-former"/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <!--https://github.com/SigiDoc/Guidelines/wiki/5.-Controlled-vocabularies#seals-category-->
+                  <summary n="whole">
+                     <seg xml:lang="fr">Dignitaires</seg>
+                     <seg xml:lang="en">Dignitaries</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>
+                              <term>
+                                 <seg xml:lang="fr">Sceau</seg>
+                                 <seg xml:lang="en">Seal</seg>
+                              </term>
+                              <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                              <interp type="workType" xml:lang="en">Original impression</interp>
+                           </objectType>
+                           <material>
+                              <seg xml:lang="fr">Plomb</seg>
+                              <seg xml:lang="en">Lead</seg>
+                           </material>
+                           <dimensions type="support" unit="mm">
+                              <dim type="diameter">31,37/28,93</dim>
+                              <!-- mesure du champ? -->
+                           </dimensions>
+                           <measure type="weight" unit="g">36,353</measure>
+                           <measure type="axis" unit="clock"/>
+                           <measure type="overstrikeOrient" unit="clock"/>
+                           <measure type="channelOrient" unit="clock">1-7</measure>
+                           <measure type="countermark" unit="clock"/>
+                        </support>
+                        <condition rend="well-struck well-preserved worn-edge">
+                           <p xml:lang="en">The bulla is well struck and well preserved, slightly
+                              worn on some parts of the edge</p>
+                           <p xml:lang="fr">La bulle est bien frappée et bien conservée, légèrement
+                              rognée sur une partie de la tranche</p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout n="whole">
+                           <rs type="execution">
+                              <seg xml:lang="fr">Frappé</seg>
+                              <seg xml:lang="en">Struck</seg>
+                           </rs>
+                           <rs type="shape">
+                              <seg xml:lang="fr">Ronde</seg>
+                              <seg xml:lang="en">Round</seg>
+                           </rs>
+                           <rs type="matrix" subtype="not-surviving">
+                              <idno type="SigiDoc">m-hOsV7i</idno>
+                              <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+                              <idno type="PBW"/>
+                              <!-- to be used if the seal has a parallel in the PBW with a boulloterion registered there -->
+                           </rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <seg xml:lang="fr">
+                           <placeName/>
+                        </seg>
+                        <seg xml:lang="en">
+                           <placeName/>
+                        </seg>
+                     </origPlace>
+                     <origDate type="analysis" notBefore="1141" notAfter="1160"
+                        evidence="epigraphy onomastics" cert="high" resp="#MCP #JCC">
+                        <seg xml:lang="en">Mid-12th century</seg>
+                        <seg xml:lang="fr">Milieu du XIIe siècle</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="transferred" subtype="donated" when="2004-11-24">
+                     <!-- pas sûr de subtype et when -->
+                     <p xml:lang="en">George Zacos collection</p>
+                     <p xml:lang="fr">Collection Georges Zacos</p>
+                  </provenance>
+                  <acquisition>
+                     <p xml:lang="en">Donation of the Migore Foundation, Janet Zakos legacy, <date
+                           when="2004-11-24">24th November 2004</date>
+                     </p>
+                     <p xml:lang="fr">Don de la Fondation Migore, legs Janet Zakos, <date
+                           when="2004-11-24">24 Novembre 2004</date>
+                     </p>
+                  </acquisition>
+               </history>
+               <msPart n="r">
+                  <msIdentifier/>
+                  <msContents>
+                     <!-- ajouté ceci -->
+                     <summary n="r">
+                        <seg xml:lang="en">Obverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="r">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="fr">Légende métrique linéaire sur 5 lignes </p>
+                              <p xml:lang="en">Linear metrical legend of 5 lines</p>
+                           </layout>
+                        </layoutDesc>
+
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="r">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="r" xml:lang="fr" ana="text"/>
+                              <figDesc n="r" xml:lang="en" ana="text"/>
+                              <figDesc n="decoR" xml:lang="fr">Cercle de grènetis; la légende est
+                                 surmontée d'une croisette</figDesc>
+                              <figDesc n="decoR" xml:lang="en">Border of dots; the legend is
+                                 surmounted by a crosslet</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+               <msPart n="v">
+                  <msIdentifier/>
+                  <msContents>
+                     <summary n="v"><!-- ajouté ceci -->
+                        <seg xml:lang="en">Reverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="v">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="fr">Légende métrique linéaire sur 5 lignes </p>
+                              <p xml:lang="en">Linear metrical legend of 5 lines</p>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="v">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="decoV" xml:lang="fr">Cercle de grènetis; la légende est
+                                 surmontée d'une croisette</figDesc>
+                              <figDesc n="decoV" xml:lang="en">Border of dots; the legend is
+                                 surmounted by a crosslet</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2025-04-22" who="#PE">Creation of the XML record.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp>
+         <surface n="r">
+            <desc>Obverse</desc>
+            <graphic type="photo" url="CdN2004-0227_1.jpg">
+               <desc xml:lang="en">CdN 2004-0227, obverse</desc>
+               <desc xml:lang="fr">CdN 2004-0227, avers</desc>
+            </graphic>
+         </surface>
+         <surface n="v">
+            <desc>Reverse</desc>
+            <graphic type="photo" url="CdN2004-0227_2.jpg">
+               <desc xml:lang="en">CdN 2004-0227, reverse</desc>
+               <desc xml:lang="fr">CdN 2004-0227, revers</desc>
+            </graphic>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" subtype="editorial" xml:space="preserve"> 
+            <div type="textpart" subtype="face" rend="linear" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <lg type="metrical" met="dodecasyllable">
+                 <l n="1">
+                    <lb n="1"/>Σφράγισ
+                    <lb n="2" break="no"/>μα γραφῶν 
+                    <lb n="3"/><rs type="dignity" ref="#d0053">πρωτοκου
+                    <lb n="4" break="no"/>ροπαλά
+                    <lb n="5" break="no"/>του</rs>
+                 </l>
+              </lg>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <lg type="metrical" met="dodecasyllable">
+                         <l n="2">
+                            <lb n="6"/>τῶν Σπα
+                            <lb n="7" break="no"/>νοπούλων 
+                            <lb n="8"/>ἐκ γένους 
+                            <lb n="9"/>Θεοδώ
+                            <lb n="10" break="no"/>ρου
+                         </l>
+                      </lg>
+                  </div>
+              </div>
+         <div type="edition" subtype="diplomatic" xml:space="preserve"> 
+                  <div type="textpart" subtype="face" rend="linear" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <lb n="0"/>                          
+                 <lb n="1"/>σφραγις
+                 <lb n="2"/>μαγραφν
+                 <lb n="3"/>πρτοκου
+                 <lb n="4"/>ροπαλα
+                 <lb n="5"/>του
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab>
+                         <lb n="0"/>     ̣                         
+                         <lb n="6"/>τνσπα
+                         <lb n="7"/>νοπλν
+                         <lb n="8"/>εκγενους
+                         <lb n="9"/>θεοδ
+                         <lb n="10"/>ρου
+                         </ab>
+                  </div>
+              </div>
+         <div type="translation">
+            <p>+ Σφράγισμα γραφῶν πρωτοκουροπαλάτου || τῶν Σπανοπούλων ἐκ γένους Θεοδώρου.</p>
+            <p xml:lang="en">Seal of the protokouropalates' writings || from the Spanopouloi'
+               family.</p>
+            <p xml:lang="fr">Sceau des écrits du protocuropalate Théodore, issu de la famille des
+               Spanopouloi.</p>
+         </div>
+         <div type="commentary" subtype="text">
+            <!-- renvois internes à refaire -->
+            <p xml:lang="en">This bulla is lacking in the commentaries by W. Seibt and J.-Cl.
+               Cheynet on the Spanopouloi, whose numerous members are known by the sigillographic
+               and diplomatic sources <bibl>
+                  <ptr target="BBÖ1"/>, n° <citedRange unit="entry">150</citedRange></bibl>; <bibl>
+                  <ptr target="CheynetTheodoridis"/>, p. <citedRange unit="page"
+                     >206-207</citedRange></bibl>. Nevertheless, our protokouropalates can not be
+               confused with his elder namesake - most probably, his grand-father- who, according to
+               his seal dated in the third quarter of the 11th century, he has been vestes, judge of
+               the Velum and of the Armeniakoi(collection Bedoukian <bibl>
+                  <ptr target="BBÖ1"/>, p. <citedRange unit="page">286</citedRange></bibl>). Yet, he
+               could be linked to the owner of a seal in Theodoridis' collection, bearing the
+               Virgin's effigy and the legend Θεόδωρὸν με τὸν Σπανόπουλον σκέποις, εὐεργέτις,
+               δίδουσα κὲ πλάτος βίου <bibl>
+                  <ptr target="CheynetTheodoridis"/>, n° <citedRange unit="entry"
+                     >197</citedRange></bibl>. The surname Spanopoulos, which first appears in
+               sigillography in the mid-11th century, is still attested during the
+               Palaiologos period (PLP, nos. 26454–26463). In the 11th century, several members of this family
+               served the Empire in civil offices, primarily in
+               the administration of the themes. Under Alexios Komnenos, they retained a position of
+               distinction. George Spanopoulos is attested in 1106 and 1109 as γενικὸς λογοθέτης. V.
+               Laurent identifies him, moreover, as the praetor whose seal bears the effigy of Saint
+               George on horseback <bibl>
+                  <ptr target="LaurentCorpus2"/>, n° <citedRange unit="entry"
+                     >1144</citedRange></bibl>.In addition to these officials, there is Anne Spanopoulina,
+               who is mentioned in 1092 as the first cousin of Marie Serblias, a member
+               of another well-known family of the civil aristocracy.
+               
+              </p>
+            <p xml:lang="en"/>
+            <p xml:lang="fr">Notre bulle ne figure pas dans les commentaires de W. Seibt et de
+               J.-Cl. Cheynet, qui répertorient les nombreux Spanopouloi attestés dans les sources
+               diplomatiques et sigillographiques <bibl>
+                  <ptr target="BBÖ1"/>, n° <citedRange unit="entry">150</citedRange></bibl>; <bibl>
+                  <ptr target="CheynetTheodoridis"/>, p. <citedRange unit="page"
+                     >206-207</citedRange></bibl>. D’autre part, le protocuropalate ne saurait être
+               confondu avec son ancêtre homonyme – sans doute son grand-père – qui fut, selon son
+               sceau du troisième quart du XIe siècle, vestès, juge du Velum et des Arméniaques
+               (collection Bedoukian <bibl>
+                  <ptr target="BBÖ1"/>, p. <citedRange unit="page">286</citedRange></bibl>). Mais,
+               il pourrait être rapproché du titulaire de la bulle de la collection Theodoridis, qui
+               est orné d’une effigie de la Vierge et porte une légende aux accents plus personnels
+               : Θεόδωρὸν με τὸν Σπανόπουλον σκέποις, εὐεργέτις, δίδουσα κὲ πλάτος βίου <bibl>
+                  <ptr target="CheynetTheodoridis"/>, n° <citedRange unit="entry"
+                  >197</citedRange></bibl>. Le patronyme Spanopoulos, qui apparaît d’abord en
+               sigillographie, au milieu du XIe siècle, est toujours attesté à l’époque des
+               Paléologues (PLP, nos 26454-26463). Au XIe siècle, plusieurs membres de cette famille
+               servirent l’Empire en occupant des charges civiles, essentiellement dans
+               l’administration des thèmes. Sous Alexis Comnène, ils conservèrent une place de
+               choix. Georges Spanopoulos est attesté en 1106 et 1109 comme γενικὸς λογοθέτης. V.
+               Laurent l’identifie d’ailleurs au préteur dont le sceau porte l’effigie de saint
+               Georges à cheval <bibl>
+                  <ptr target="LaurentCorpus2"/>, n° <citedRange unit="entry"
+                  >1144</citedRange></bibl>. Aux fonctionnaires peut s’ajouter Anne Spanopoulina,
+               mentionnée en 10926 en tant que cousine issue de germains de Marie Serblias, membre
+               d’une autre famille bien connue de l’aristocratie civile.</p>
+            <p xml:lang="fr"/>
+         </div>
+         <div type="bibliography" subtype="edition">
+            <p><bibl>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">180</citedRange></bibl>
+               <bibl/>
+            </p>
+         </div>
+         <div type="bibliography" subtype="parallels">
+            <p/>
+         </div>
+         <div type="bibliography" subtype="discussion">
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

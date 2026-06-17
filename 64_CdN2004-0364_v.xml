@@ -46,7 +46,8 @@
                      <forename>Basile</forename>/> <surname>Chasanès</surname>/> </persName>
                   <persName xml:lang="en">
                      <forename>Basileios</forename>/> <surname>Chasanes</surname>/> </persName>
-                  <idno type="PBW" ana="http://pbw2016.kdl.kcl.ac.uk/person/Basileios/20188/">Basileios 20188</idno>
+                  <idno type="PBW" ana="http://pbw2016.kdl.kcl.ac.uk/person/Basileios/20188/"
+                     >Basileios 20188</idno>
                   <idno type="PBE"/>
                   <idno type="PLP"/>
                   <idno type="PLRE"/>
@@ -214,13 +215,15 @@
                                  mains levées, esquissant le geste de la prière vers un buste du
                                  Christ ou une Manus Dei (?), qui apparaît en médaillon au haut du
                                  champ. De part et d’autre de l’effigie, inscription en colonne pour
-                                 Saint Basile;inscription circulaire précédée d'une croisette</figDesc>
+                                 Saint Basile;inscription circulaire précédée d'une
+                                 croisette</figDesc>
                               <figDesc n="r" xml:lang="en" ana="person male saint Basileios">Saint
                                  Basileios standing on a souppedion, slightly turned to the left,
                                  hands raised, making a gesture of prayer towards a bust of Christ
                                  or a Manus Dei (?), which appears in a medallion at the top of the
                                  field. On either side of the effigy, an epigraph on columns for
-                                 Saint Basileios; circular inscription preceded by a crosslet</figDesc>
+                                 Saint Basileios; circular inscription preceded by a
+                                 crosslet</figDesc>
                               <figDesc n="decoR" xml:lang="fr">Cercle de grènetis</figDesc>
                               <figDesc n="decoR" xml:lang="en">Circle of dots</figDesc>
                            </figure>
@@ -330,32 +333,67 @@
             </div>
             <div type="textpart" subtype="face" rend="circular" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
               <ab>
-                 <lb n="1"/>ΚΕRοΗΘΕΙ    ΤΣΔλ̣
+                 <lb n="1"/>ΚΕRοΗΘΕΙ    ΤΣΔλ̣
               </ab>
             </div>
             <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
                       <ab>
-                         <lb n="2"/> 
-                         <lb n="3"/>
-                         <lb n="4"/>
-                         <lb n="5"/>
-                         <lb n="6"/>
-                         <lb n="7"/>
+                         <lb n="0"/>       
+                         <lb n="2"/>RΑΣiλΕi/    
+                         <lb n="3"/>ΜΑΓΙστρ
+                         <lb n="4"/>ΚΡιτ/  τRΗ   
+                         <lb n="5"/>RΝοτΑΡιΤ   
+                         <lb n="6"/>τ̣Φιοσο   
+                         <lb n="7"/>ΦΤΧ/
+                         <lb n="0"/>   
                          </ab>
                   </div>
               </div>
          <div type="translation">
             <p>Ὁ ἅγιος Βασίλειος. Κύριε βοήθει τῷ σῷ δούλῳ || Βασιλείῳ μαγίστρῳ, κριτῇ τοῦ βήλου,
                βασιλικῷ νοταρίῳ, τῷ τοῦ Φιλοσόφου, τῷ Χασάνῃ.</p>
-            <p xml:lang="en"/>
-            <p xml:lang="fr"/>
+            <p xml:lang="en">Saint Basileios. Lord, aid your servant || + Basileios Chasanes,
+               magistros, judge of the Velum and imperial notarios, son of the Philosophos.</p>
+            <p xml:lang="fr">Saint Basile. Seigneur accorde ton secours à ton serviteur || + Basile
+               Chasanès, magistre, juge du Velum et notaire impérial, fils de Philosophos.</p>
          </div>
          <div type="commentary" subtype="text">
             <!-- renvois internes à refaire -->
-            <p xml:lang="en"/>
-            <p xml:lang="en"/>
-            <p xml:lang="fr"/>
-            <p xml:lang="fr"/>
+            <p xml:lang="en">The surname can be identified on the basis of two other seals left by
+               Basil, very close to this one, on the same obverse: ... Βασιλείῳ πατρικίῳ ἀνθυπάτῳ,
+               κριτῇ τοῦ βήλου, τῷ υἱῷ τοῦ Φιλοσόφου τῷ Χασάνῃ (BZS.1958.106.4091); Θεοτόκε βοήθει
+               Βασιλείῳ μαγίστρῳ, κριτῇ τοῦ βήλου τῷ Χασάνῃ, τῷ υἱῷ τοῦ Φιλοσόφου (Stavrakos,
+               Familiennamen, p. 405).The patronymic Chasanes suggests an Arab or Turkish origin
+               (Hasan, the good), but an Armenian origin cannot be excluded, at least for some of
+               them. The name appears in the 10th/11th century, under the form of Χασάνιος or
+               Χασάνης, attested almost exclusively by sigillography, before giving the
+               transmissible name Chasanes and Chasanopoulos (p. ex. BZS 1958.106.1337 ; BZS
+               1958.106.1890) at the 11th/12th century. The dignities and functions indicated by
+               their seals prove the Chasanes' capacity for assimilation and their rise to the heart
+               of the Byzantine aristocracy, where they held both civil and military positions.</p>
+            <p xml:lang="en">As the surname Philosophos is attested in the mid-11th century
+               (Flusin-Cheynet, p. 389; Gray Birch, n° 17941), J.-Cl. Cheynet suggests that our
+               Chasanes is the descendant of a matrimonial alliance between the Chasanes and
+               Philosophos families.</p>
+            <p xml:lang="fr">L’identification du patronyme se fonde sur deux autres sceaux laissés
+               par Basile, très proches de celui-ci, au même avers : ... Βασιλείῳ πατρικίῳ ἀνθυπάτῳ,
+               κριτῇ τοῦ βήλου, τῷ υἱῷ τοῦ Φιλοσόφου τῷ Χασάνῃ (BZS.1958.106.4091); Θεοτόκε βοήθει
+               Βασιλείῳ, μαγίστρῳ, κριτῇ τοῦ βήλου τῷ Χασάνῃ, τῷ υἱῷ τοῦ Φιλοσόφου (<bibl>
+                  <ptr target="Athens2000"/>, p. <citedRange unit="page">405</citedRange></bibl>).
+               Le patronyme Chasanès donne à penser à une origine arabe ou turque (Hasan, le bon),
+               mais une origine arménienne n’est pas à exclure, au moins pour certains d’entre eux.
+               Le nom apparaît au Xe/XIe siècle, sous la forme de Χασάνιος ou Χασάνης, attesté
+               presque exclusivement par la sigillographie, avant de donner le nom transmissible
+               Chasanès et Chasanopoulos (p. ex. BZS 1958.106.1337 ; BZS 1958.106.1890) aux XIe et
+               XIIe siècles. Les dignités et les fonctions signalées par leurs sceaux prouvent les
+               capacités d’assimilation et l’ascension des Chasanai au sein de l’aristocratie
+               byzantine, où ils occupèrent des charges civiles autant que militaires.</p>
+            <p xml:lang="fr">Le patronyme Philosophos étant attesté au milieu du XIe siècle (<bibl>
+                  <ptr target="SkylitzèsEmpereurs2003"/>, p. <citedRange unit="page"
+                     >389</citedRange></bibl>; <bibl>
+                  <ptr target="Birch1898"/>, n° <citedRange unit="entry">17941</citedRange></bibl>),
+               J.-Cl. Cheynet propose de voir en notre signataire le descendant d’une alliance
+               matrimoniale entre les familles Chasanès et Philosophos.</p>
          </div>
          <div type="bibliography" subtype="edition">
             <p><bibl>

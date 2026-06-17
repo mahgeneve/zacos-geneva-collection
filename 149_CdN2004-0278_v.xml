@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en">Theodore Komnenos, nobelissimos and doux of Paphlagonia</title>
+            <title xml:lang="fr">Théodore Comnène, nobélissime et duc de Paphlagonie</title>
+            <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
+            <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+            <funder>
+               <orgName corresp="https://www.mahmah.ch/">MAH-Musée d'art et d'histoire - Genève,
+                  Cabinet de numismatique</orgName>, Suisse</funder>
+            <principal ref="#MCP"/>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <seg xml:lang="fr">Amélioration digitale</seg>
+               <seg xml:lang="en">Digital enhancement</seg>
+            </edition>
+            <editor role="digital-editor" xml:id="PE" when="2025-04-14">Pia Evening</editor>
+            <editor role="digital-editor" ref="#MCP" when="2026-02-10">Maria
+               Campagnolo-Pothitou</editor>
+         </editionStmt>
+         <publicationStmt>
+            <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
+            <idno type="filename">CdN 2004-0278</idno>
+            <idno type="SigiDocID">s-sVTo8y</idno>
+            <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+            <idno type="sequence"/>
+            <!--  to be compiled automatically; leave as is  -->
+            <date when="2024-08-06"/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                  >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                  4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listPerson type="issuer">
+               <person gender="M" role="military aristocracy">
+                  <persName xml:lang="grc">
+                     <forename>Θεόδωρος</forename>
+                     <surname>Κομνηνός</surname>
+                  </persName>
+                  <persName xml:lang="fr">
+                     <forename>Théodore</forename>
+                     <surname>Comnène</surname>
+                  </persName>
+                  <persName xml:lang="en">
+                     <forename>Theodore</forename>
+                     <surname>Komnenos</surname>
+                  </persName>
+
+                  <idno type="PBW" ana=""/>
+                  <idno type="PBE"/>
+                  <idno type="PLP"/>
+                  <idno type="PLRE"/>
+                  <idno type="PcBE"/>
+                  <idno type="PmbZ"/>
+               </person>
+            </listPerson>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <seg xml:lang="en">Switzerland</seg>
+                     <seg xml:lang="fr">Suisse</seg>
+                  </country>
+                  <settlement>
+                     <seg xml:lang="en">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">City of
+                           Geneva</placeName>
+                     </seg>
+                     <seg xml:lang="fr">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">Ville de
+                           Genève</placeName>
+                     </seg>
+                  </settlement>
+                  <institution>MAH-Musée d'art et d'histoire</institution>
+                  <repository>Cabinet de numismatique</repository>
+                  <collection type="public">
+                     <rs type="collection-name" xml:lang="en">Byzantine seals collection</rs>
+                     <rs type="collection-name" xml:lang="fr">Collection de sceaux byzantins</rs>
+                  </collection>
+                  <idno type="inv-nr-current">CdN 2004-0278</idno>
+                  <altIdentifier>
+                     <repository/>
+                     <idno type="inv-nr-former"/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <!--https://github.com/SigiDoc/Guidelines/wiki/5.-Controlled-vocabularies#seals-category-->
+                  <summary n="whole">
+                     <seg xml:lang="fr">Administration provinciale</seg>
+                     <seg xml:lang="en">Provincial administration</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>
+                              <term>
+                                 <seg xml:lang="fr">Sceau</seg>
+                                 <seg xml:lang="en">Seal</seg>
+                              </term>
+                              <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                              <interp type="workType" xml:lang="en">Original impression</interp>
+                           </objectType>
+                           <material>
+                              <seg xml:lang="fr">Plomb</seg>
+                              <seg xml:lang="en">Lead</seg>
+                           </material>
+                           <dimensions type="support" unit="mm">
+                              <dim type="diameter">32,33/30,61</dim>
+                              <!-- mesure du champ? -->
+                           </dimensions>
+                           <measure type="weight" unit="g">20,454</measure>
+                           <measure type="axis" unit="clock"/>
+                           <measure type="overstrikeOrient" unit="clock"/>
+                           <measure type="channelOrient" unit="clock">12-6</measure>
+                           <measure type="countermark" unit="clock"/>
+                        </support>
+                        <condition rend="well-struck well-preserved chipped obliterated">
+                           <p xml:lang="en">The bulla is well struck and well preserved although
+                              slightly and partially obliterated on the reverse; slightly chipped at
+                              the openings of the channel</p>
+                           <p xml:lang="fr">La bulle est bien frappée et bien conservée, même si
+                              légèrement partiellement écrasée sur le revers; très légement
+                              échancrée aux orifices du canal</p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout n="whole">
+                           <rs type="execution">
+                              <seg xml:lang="fr">Frappé</seg>
+                              <seg xml:lang="en">Struck</seg>
+                           </rs>
+                           <rs type="shape">
+                              <seg xml:lang="fr">Ronde</seg>
+                              <seg xml:lang="en">Round</seg>
+                           </rs>
+                           <rs type="matrix" subtype="not-surviving">
+                              <idno type="SigiDoc">m-HupNc0</idno>
+                              <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+                              <idno type="PBW"/>
+                              <!-- to be used if the seal has a parallel in the PBW with a boulloterion registered there -->
+                           </rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <seg xml:lang="fr">Paphlagonie<placeName/>
+                        </seg>
+                        <seg xml:lang="en">Paphlagonia<placeName/>
+                        </seg>
+                     </origPlace>
+                     <origDate type="analysis" notBefore="1080" notAfter="1085"
+                        evidence="prosopography titulature historical-context epigraphy iconography"
+                        cert="high" resp="#MCP #JCC">
+                        <seg xml:lang="en">1080-1085</seg>
+                        <seg xml:lang="fr">1080-1085</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="transferred" subtype="donated" when="2004-11-24">
+                     <!-- pas sûr de subtype et when -->
+                     <p xml:lang="en">George Zacos collection</p>
+                     <p xml:lang="fr">Collection Georges Zacos</p>
+                  </provenance>
+                  <acquisition>
+                     <p xml:lang="en">Donation of the Migore Foundation, Janet Zakos legacy, <date
+                           when="2004-11-24">24th November 2004</date>
+                     </p>
+                     <p xml:lang="fr">Don de la Fondation Migore, legs Janet Zakos, <date
+                           when="2004-11-24">24 Novembre 2004</date>
+                     </p>
+                  </acquisition>
+               </history>
+               <msPart n="r">
+                  <msIdentifier/>
+                  <msContents>
+                     <!-- ajouté ceci -->
+                     <summary n="r">
+                        <seg xml:lang="en">Obverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="r">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="fr">Iconographie avec épigraphe en colonnes de part et
+                                 d'autre de l'effigie</p>
+                              <p xml:lang="en">Iconography with epigraph en columns on either side
+                                 of the effigy</p>
+                           </layout>
+                        </layoutDesc>
+
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="r">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="r" xml:lang="fr" ana="person male saint Demetrios">Saint
+                                 Dèmètrios, de face, debout sur un souppédion, en grand appareil
+                                 militaire, armé d’une longue lance et d’un bouclier à la pointe
+                                 dotée d’un ornement trifide.</figDesc>
+                              <figDesc n="r" xml:lang="en" ana="person male saint Demetrios">Saint
+                                 Demetrios in military costume,standing on a souppedion, facing
+                                 forward, grasping a spear with his right hand and relying his left
+                                 one on a shield adorned with a trifid element at its peak</figDesc>
+                              <figDesc n="decoR" xml:lang="fr">Cercle de gros grènetis</figDesc>
+                              <figDesc n="decoR" xml:lang="en">Border of big dots</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+               <msPart n="v">
+                  <msIdentifier/>
+                  <msContents>
+                     <summary n="v"><!-- ajouté ceci -->
+                        <seg xml:lang="en">Reverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="v">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="en">Linear legend of 7 lines</p>
+                              <p xml:lang="fr">Légende linéaire sur 7 lignes</p>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="v">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="decoV" xml:lang="fr">Cercle de grènetis; la légende est
+                                 précédée d’une croisette et surmontée d’une perle accostée de
+                                 tirets ; la dernière ligne est cantonnée de tirets</figDesc>
+                              <figDesc n="decoV" xml:lang="en">Border of dots; a crosslet precedes
+                                 the legend which is surmounted by a pearl placed between traits;
+                                 the last line is also placed between traits</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2025-04-14" who="#PE">Creation of the XML record.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp>
+         <surface n="r">
+            <desc>Obverse</desc>
+            <graphic type="photo" url="CdN2004-0278_1.jpg">
+               <desc xml:lang="en">CdN 2004-0278, obverse</desc>
+               <desc xml:lang="fr">CdN 2004-0278, avers</desc>
+            </graphic>
+         </surface>
+         <surface n="v">
+            <desc>Reverse</desc>
+            <graphic type="photo" url="CdN2004-0278_2.jpg">
+               <desc xml:lang="en">CdN 2004-0278, reverse</desc>
+               <desc xml:lang="fr">CdN 2004-0278, revers</desc>
+            </graphic>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" subtype="editorial" xml:space="preserve"> 
+            <div type="textpart" subtype="label" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="a"/>Ὁ <expan><ex>ἅγιος</ex></expan> Δημή
+                 <cb n="b" break="no"/>τριος
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab ana="dat">
+                         <lb n="1"/><rs type="invocation" ref="#inv004"><expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan> <expan><abbr>β</abbr><ex>οή</ex><abbr>θ</abbr><ex>ει</ex></expan> 
+                         <lb n="2"/><supplied reason="lost">τ</supplied>ῷ σῷ <expan><abbr>δού</abbr><ex>λῳ</ex></expan></rs> 
+                         <lb n="3"/><expan><abbr><supplied reason="lost">Θ</supplied>εοδώρ</abbr><ex>ῳ</ex></expan> <rs type="dignity" ref="#d0040">νω
+                         <lb n="4" break="no"/><supplied reason="lost">β</supplied>ελλισίμῳ</rs> 
+                         <lb n="5"/><expan><abbr><am>S</am></abbr><ex>καὶ</ex></expan> <rs type="office" subtype="military" ref="#of0245"><expan><abbr>δου</abbr><ex>κὶ</ex></expan></rs> <placeName ref="#geo0043"><expan><abbr>Παφλαγ</abbr><ex>ονίας</ex></expan></placeName> 
+                         <lb n="6"/>τῷ Κομνη
+                         <lb n="7" break="no"/>νῷ
+                      </ab>
+                  </div>
+              </div>
+         <div type="edition" subtype="diplomatic" xml:space="preserve"> 
+                  <div type="textpart" subtype="label" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="a"/>| δη|μ|η
+                 <cb n="b"/>τ|ρι̣|ο|σ
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab>
+                         <lb n="0"/>      
+                         <lb n="1"/> κεrθ̣/                               
+                         <lb n="2"/>.σδ/
+                         <lb n="3"/>.εοδρ/ n
+                         <lb n="4"/>.ελλισιμ
+                         <lb n="5"/>δ⸣ παφλαγ/
+                         <lb n="6"/>τκομνη̣ 
+                         <lb n="7"/>ν
+                         </ab>
+                  </div>
+              </div>
+         <div type="translation">
+            <p>Ὁ ἅγιος Δημήτριος. || + Κύριε βοήθει τῷ σῷ δούλῳ Θεοδώρῳ νωβελλισίμῳ καὶ δουκὶ
+               Παφλαγονίας τῷ Κομνηνῷ.</p>
+            <p xml:lang="en">Saint Demetrios. || + Lord, help your servant Theodore Komnenos,
+               nobelissimos and doux of Paphlagonia</p>
+            <p xml:lang="fr">Saint Dèmètrios. || + Seigneur, accorde ton secours Théodore Comnène,
+               nobélissime et duc de Paphlagonie</p>
+         </div>
+         <div type="commentary" subtype="text">
+            <!-- renvois internes à refaire -->
+            <p xml:lang="en">On the identity of the signatory see also <bibl><ptr
+                     target="ZacosGenève"/>, n° <citedRange unit="entry"
+               >148</citedRange></bibl>.Identifying this prominent figure is difficult. It could be
+               Theodore Dokeianos<bibl><ptr target="Barzòs1986a"/>, n° <citedRange unit="entry"
+                     >9</citedRange></bibl> born Komnenos on his mother's side<bibl><ptr
+                     target="Barzòs1986a"/>, n° <citedRange unit="entry">5</citedRange></bibl>.
+               Sister of Emperor Isaac and John Komnenos, she had married a general, Michael (?)
+               Dokeianos, and owned land in Paphlagonia. Although his qualities are highlighted,
+               Theodore Dokeianos' career is not mentioned at all in the sources, among others in
+               Psellos' letters n°s 113, 120 and 170. However, we know that in 1074 he welcomed his
+               first cousin Alexios Komnenos to his home in Paphlagonia when the latter was bringing
+               the rebel Roussel de Bailleul captive to Constantinople<bibl><ptr
+                     target="Alexiade1967"/>, vol. <citedRange unit="volume">I, III, §
+                     4</citedRange></bibl>. Theodore Dokeianos may have chosen to take his mother's
+               name, illustrious by the purple worn by his uncle Isaac<bibl><ptr
+                     target="CheynetTheodoridis"/>, p. <citedRange unit="page"
+                  >78</citedRange></bibl>.</p>
+            <p xml:lang="en"/>
+            <p xml:lang="fr">Sur le signataire de ce sceau, voir aussi <bibl><ptr
+                     target="ZacosGenève"/>, n° <citedRange unit="entry"
+               >148</citedRange></bibl>.L’identification de ce haut personnage fait difficulté. Il
+               pourrait s’agir de Théodore Dokeianos<bibl><ptr target="Barzòs1986a"/>, n°
+                     <citedRange unit="entry">9</citedRange></bibl> né Comnène par sa mère<bibl><ptr
+                     target="Barzòs1986a"/>, n° <citedRange unit="entry">5</citedRange></bibl>.
+               Soeur de l’empereur Isaac et de Jean Comnène, celle-ci avait épousé un général,
+               Michel (?) Dokeianos et possédait des biens fonciers en Paphlagonie. Bien que ses
+               qualités soient mises en exergue, la carrière de Théodore Dokeianos n’est nullement
+               évoquée dans les sources, dans les lettres n°s 113, 120 et 170 de Psellos, entre
+               autres. On sait pourtant qu’en 1074 il accueillit son cousin germain Alexis Comnène
+               en sa demeure de Paphlagonie, lorsque ce dernier ramenait le rebelle Roussel de
+               Bailleul captif à Constantinople<bibl><ptr target="Alexiade1967"/>, vol. <citedRange
+                     unit="volume">I, III, § 4</citedRange></bibl>. Théodore Dokeianos aura choisi
+               de relever le nom de sa mère, illustré par la pourpre que porta son oncle
+                     Isaac<bibl><ptr target="CheynetTheodoridis"/>, p. <citedRange unit="page"
+                     >78</citedRange></bibl>. </p>
+            <p xml:lang="fr"/>
+         </div>
+         <div type="bibliography" subtype="edition">
+            <p><bibl><ptr target="ZacosGenève"/>, n° <citedRange unit="entry"
+                  >149</citedRange></bibl>
+               <bibl/>
+            </p>
+         </div>
+         <div type="bibliography" subtype="parallels">
+            <p>BZS 1947.2.1097: <bibl><ptr target="DOseals4"/>, n° <citedRange unit="entry"
+                     >11.5</citedRange></bibl></p>
+            <p>anc. coll. Zacos : <bibl><ptr target="ZacosSpink1"/>, n° <citedRange unit="entry"
+                     >42</citedRange></bibl></p>
+            <p>BZS 1947.2.1097: <bibl><ptr target="DOseals4"/>, n° <citedRange unit="entry"
+                     >11.5</citedRange></bibl></p>
+            <p> Zacos (BnF) 247: <bibl><ptr target="Cheynet2005"/>, p. <citedRange unit="page"
+                     >61 et pl. II ; p. 196, fig. 5</citedRange></bibl></p>
+
+         </div>
+         <div type="bibliography" subtype="discussion">
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

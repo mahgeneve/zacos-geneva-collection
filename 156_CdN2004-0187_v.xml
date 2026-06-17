@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en">Nicholas, protospatharios and strategos of Servia (?)</title>
+            <title xml:lang="fr">Nicolas, protospathaire et stratège de Servia (?)</title>
+            <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
+            <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+            <funder>
+               <orgName corresp="https://www.mahmah.ch/">MAH-Musée d'art et d'histoire - Genève,
+                  Cabinet de numismatique</orgName>, Suisse</funder>
+            <principal ref="#MCP"/>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <seg xml:lang="fr">Amélioration digitale</seg>
+               <seg xml:lang="en">Digital enhancement</seg>
+            </edition>
+            <editor role="digital-editor" xml:id="PE" when="2025-04-14">Pia Evening</editor>
+            <editor role="digital-editor" ref="#MCP" when="2026-02-25">Maria
+               Campagnolo-Pothitou</editor>
+         </editionStmt>
+         <publicationStmt>
+            <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
+            <idno type="filename">CdN 2004-0187</idno>
+            <idno type="SigiDocID">s-sBT0jQ</idno>
+            <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+            <idno type="sequence"/>
+            <!--  to be compiled automatically; leave as is  -->
+            <date when="2024-08-06"/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                  >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                  4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listPerson type="issuer">
+               <person gender="M" role="military aristocracy">
+                  <persName xml:lang="grc">
+                     <forename>Νικόλαος</forename>/> <surname/>
+                  </persName>
+                  <persName xml:lang="fr">
+                     <forename>Nicolas</forename>/> <surname/>
+                  </persName>
+                  <persName xml:lang="en">
+                     <forename>Nicholas</forename>/> <surname/>
+                  </persName>
+                  <idno type="PBW" ana="http://pbw2016.kdl.kcl.ac.uk/person/Nikolaos/20146/"
+                     >Nikolaos 20146</idno>
+
+                  <idno type="PBE"/>
+                  <idno type="PLP"/>
+                  <idno type="PLRE"/>
+                  <idno type="PcBE"/>
+                  <idno type="PmbZ"/>
+               </person>
+            </listPerson>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <seg xml:lang="en">Switzerland</seg>
+                     <seg xml:lang="fr">Suisse</seg>
+                  </country>
+                  <settlement>
+                     <seg xml:lang="en">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">City of
+                           Geneva</placeName>
+                     </seg>
+                     <seg xml:lang="fr">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">Ville de
+                           Genève</placeName>
+                     </seg>
+                  </settlement>
+                  <institution>MAH-Musée d'art et d'histoire</institution>
+                  <repository>Cabinet de numismatique</repository>
+                  <collection type="public">
+                     <rs type="collection-name" xml:lang="en">Byzantine seals collection</rs>
+                     <rs type="collection-name" xml:lang="fr">Collection de sceaux byzantins</rs>
+                  </collection>
+                  <idno type="inv-nr-current">CdN 2004-0187</idno>
+                  <altIdentifier>
+                     <repository/>
+                     <idno type="inv-nr-former"/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <!--https://github.com/SigiDoc/Guidelines/wiki/5.-Controlled-vocabularies#seals-category-->
+                  <summary n="whole">
+                     <seg xml:lang="fr">Administration provinciale</seg>
+                     <seg xml:lang="en">Provincial administrtation</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>
+                              <term>
+                                 <seg xml:lang="fr">Sceau</seg>
+                                 <seg xml:lang="en">Seal</seg>
+                              </term>
+                              <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                              <interp type="workType" xml:lang="en">Original impression</interp>
+                           </objectType>
+                           <material>
+                              <seg xml:lang="fr">Plomb</seg>
+                              <seg xml:lang="en">Lead</seg>
+                           </material>
+                           <dimensions type="support" unit="mm">
+                              <dim type="diameter">24,69/22,77</dim>
+                              <!-- mesure du champ? -->
+                           </dimensions>
+                           <measure type="weight" unit="g">7,850</measure>
+                           <measure type="axis" unit="clock"/>
+                           <measure type="overstrikeOrient" unit="clock"/>
+                           <measure type="channelOrient" unit="clock">1-6</measure>
+                           <measure type="countermark" unit="clock"/>
+                        </support>
+                        <condition rend="well-struck well-preserved chipped">
+                           <p xml:lang="en">The bulla is well struck and well preserved, slightly
+                              chipped at the openings of the channel</p>
+                           <p xml:lang="fr">La bulle est bien frappée et bien conservée, légèrement
+                              écahncrée aux orifices du canal</p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout n="whole">
+                           <rs type="execution">
+                              <seg xml:lang="fr">Frappé</seg>
+                              <seg xml:lang="en">Struck</seg>
+                           </rs>
+                           <rs type="shape">
+                              <seg xml:lang="fr">Ronde</seg>
+                              <seg xml:lang="en">Round</seg>
+                           </rs>
+                           <rs type="matrix" subtype="not-surviving">
+                              <idno type="SigiDoc">m-0M4k6E</idno>
+                              <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+                              <idno type="PBW"/>
+                              <!-- to be used if the seal has a parallel in the PBW with a boulloterion registered there -->
+                           </rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <seg xml:lang="fr">
+                           <placeName/>Serbie ou Serblia</seg>
+                        <seg xml:lang="en">Serbia or Serblia<placeName/>
+                        </seg>
+                     </origPlace>
+                     <origDate type="analysis" notBefore="0981" notAfter="1020"
+                        evidence="epigraphy titulature" cert="high" resp="#MCP #JCC">
+                        <seg xml:lang="en">End of the 10th / beginning of the 11th century</seg>
+                        <seg xml:lang="fr">Fin du Xe siècle / début du XIe siècle</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="transferred" subtype="donated" when="2004-11-24">
+                     <!-- pas sûr de subtype et when -->
+                     <p xml:lang="en">George Zacos collection</p>
+                     <p xml:lang="fr">Collection Georges Zacos</p>
+                  </provenance>
+                  <acquisition>
+                     <p xml:lang="en">Donation of the Migore Foundation, Janet Zakos legacy, <date
+                           when="2004-11-24">24th November 2004</date>
+                     </p>
+                     <p xml:lang="fr">Don de la Fondation Migore, legs Janet Zakos, <date
+                           when="2004-11-24">24 Novembre 2004</date>
+                     </p>
+                  </acquisition>
+               </history>
+               <msPart n="r">
+                  <msIdentifier/>
+                  <msContents>
+                     <!-- ajouté ceci -->
+                     <summary n="r">
+                        <seg xml:lang="en">Obverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="r">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="fr">Iconographie avec épigraphe en colonnes de part et
+                                 d'autre de l'effigie</p>
+                              <p xml:lang="en">Iconography with epigraph on columns on either side
+                                 of the effigy</p>
+                           </layout>
+                        </layoutDesc>
+
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="r">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="r" xml:lang="fr" ana="person male saint Nicholas">Buste de
+                                 saint Nicolas, de face, en sa tenue épiscopale accoutumée,
+                                 bénissant de la droite et tenant l’Évangile en main
+                                 gauche.</figDesc>
+                              <figDesc n="r" xml:lang="en" ana="person male saint Nicholas">Bust of
+                                 Saint Nicholas facing forward, clad with his traditional episcopal
+                                 costume, blessing with the right hand and holding the Gospels in
+                                 his left one</figDesc>
+                              <figDesc n="decoR" xml:lang="fr">Cercle de grènetis</figDesc>
+                              <figDesc n="decoR" xml:lang="en">Border of dots</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+               <msPart n="v">
+                  <msIdentifier/>
+                  <msContents>
+                     <summary n="v"><!-- ajouté ceci -->
+                        <seg xml:lang="en">Reverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="v">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="en">Linear legend of 4 or 5 lines</p>
+                              <p xml:lang="fr">Légende linéaire sur 4 ou 5 lignes</p>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="v">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="decoV" xml:lang="fr">Cercle de grènetis; si il y a 5
+                                 lignes, la dernière est écrasée</figDesc>
+                              <figDesc n="decoV" xml:lang="en">Border of dots; if 5 lines, the last
+                                 one is crushed</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2025-04-14" who="#PE">Creation of the XML record.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp>
+         <surface n="r">
+            <desc>Obverse</desc>
+            <graphic type="photo" url="CdN2004-0187_1.jpg">
+               <desc xml:lang="en">CdN 2004-0187, obverse</desc>
+               <desc xml:lang="fr">CdN 2004-0187, avers</desc>
+            </graphic>
+         </surface>
+         <surface n="v">
+            <desc>Reverse</desc>
+            <graphic type="photo" url="CdN2004-0187_2.jpg">
+               <desc xml:lang="en">CdN 2004-0187, reverse</desc>
+               <desc xml:lang="fr">CdN 2004-0187, revers</desc>
+            </graphic>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" subtype="editorial" xml:space="preserve"> 
+            <div type="textpart" subtype="label" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="a"/>Ὁ <expan><ex>ἅγιος</ex></expan> <expan><abbr>Νι
+                 <cb n="b" break="no"/>κόλ</abbr><ex>αος</ex></expan>
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab ana="dat">
+                         <lb n="1"/><rs type="invocation" ref="#inv003"><expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan> <expan><abbr>βοή
+                         <lb n="2" break="no"/>θ</abbr><ex>ει</ex></expan></rs> <expan><abbr>Νι</abbr><abbr><am>S</am></abbr><ex>κο</ex><abbr>λ</abbr><ex>άῳ</ex></expan> <rs type="dignity" ref="#d0066"><expan><abbr><am>Α</am></abbr><ex>πρωτο</ex><abbr>σ
+                         <lb n="3" break="no"/>π<supplied reason="omitted">α</supplied>θα</abbr><ex>ρίῳ</ex></expan></rs> <expan><abbr>κ</abbr><ex>αὶ</ex></expan> <rs type="office" subtype="military" ref="#of0279">στρα
+                         <lb n="4" break="no"/>τιγo</rs> <placeName ref="#geo0047"><app type="alternative"><lem><expan><abbr>Σερβ</abbr><ex>ίας</ex></expan></lem><rdg><expan><abbr>Σερβ</abbr><ex>ίων</ex></expan></rdg></app></placeName>
+                      </ab>
+                  </div>
+              </div>
+         <div type="edition" subtype="diplomatic" xml:space="preserve"> 
+                  <div type="textpart" subtype="label" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="a"/>|n|i       
+                 <cb n="b"/>k|o|λ/
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab>
+                         <lb n="1"/> κεrοη             
+                         <lb n="2"/>θ/ νι́λα
+                         <lb n="3"/>π   ακ/ τρα
+                         <lb n="4"/>τ̣ιγοερr
+                         </ab>
+                  </div>
+              </div>
+         <div type="translation">
+            <p>Ὁ ἅγιος Νικόλαος. || + Κύριε βοήθει Νικολάῳ πρωτοσπαθαρίῳ καὶ στρατιγo Σερβίας <hi
+                  rend="italic">vel</hi> Σερβίων.</p>
+            <p xml:lang="en">Saint Nicholas. || + Lord, help Nicholas, protospatharios and strategos
+               of Serbia <hi rend="italic">vel</hi> Servia</p>
+            <p xml:lang="fr">Saint Nicolas. || + Seigneur, accorde ton secours à Nicolas,
+               protospathaire et stratège de la Serbie <hi rend="italic">vel</hi> Servia </p>
+         </div>
+         <div type="commentary" subtype="text">
+            <!-- renvois internes à refaire -->
+            <p xml:lang="en">The engraving of the seal is very clumsy, which makes it difficult to
+               date, but the shape of the letters suggests that it was minted during the reign of
+               Basil II. In addition, the first publishers read a fifth line on the reverse (IAS),
+               but only traces of decoration seem to remain. The name Serbia refers to two
+               geographical entities. The first is the city of Serbia, a fortress in Thessaly,
+               located southwest of Berroia <bibl><ptr target="DOseals1"/>p.<citedRange unit="page"
+                     >88</citedRange></bibl>, and a bishopric dependent on the metropolis of
+               Thessaloniki. We know that this city was elevated to the rank of theme during the
+               wars against Tsar Samuel and was hotly contested between Basil II and the Bulgarians
+                     <bibl><ptr target="Empereurs2003"/>p.<citedRange unit="page">288,
+                     302</citedRange></bibl>. The second was the short-lived theme of Serbia,
+               located north of the theme of Bulgaria, whose creation dates back to the early 11th
+               century, after the defeat of the Bulgarians by Basil II, and following the conquest
+               of the Sirmium region by Constantine Diogenes <bibl><ptr target="Empereurs2003"
+                     />p.<citedRange unit="page">304</citedRange></bibl>. There are bishop's seals
+               that can be attributed without hesitation to the Thessalian see. The bulla of Michael
+               Auxentiotes, vestarches and strategos of Serbia, which must date from the second half
+               of the 11th century, suggests, based on the epigraphy and the combination of dignity
+               and function, that the theme of Serbia had been maintained throughout the century,
+               undoubtedly because of the Pecheneg threat <bibl><ptr target="Stamoules1930"/>n°
+                     <citedRange unit="entry">85</citedRange></bibl>. Indeed, during the reign of
+               Constantine X Doukas, during the Wallachian rebellion led by Nikoulitzas, the
+               insurgents advanced into Thessaly until they were stopped by the first city with a
+               garrison, Servia. Bullae clearly attest to the existence of the theme of the province
+               of Serbia. J. Nesbitt and N. Oikonomides consider that there are three of them: that
+               of Constantine Diogenes, which they publish, another found in Lvow, also minted by
+               Diogenes, and ours <bibl><ptr target="DOseals1"/>p.<citedRange unit="page"
+                     >101</citedRange></bibl>. They did not take into account a bulla, preserved in
+               the Hermitage and dated to the first half of the 11th century, which was minted by
+               the imperial protospatharios Nicholas Dermokaïtes in his capacity as strategos of the
+               Serbs, Κύριε βοήθει τῷ σῷ δούλῳ Νικολάῳ βασιλικῷ πρωτοσπαθαρίῳ καὶ στρατηγῷ τῶν
+               Σερβ(ίων) or Σέρβ(ων) τῷ Δερμοκαΐτῃ (Ermitage, M-8092). Despite the similarity of the
+               name, titles, and offices, it is unlikely that this is the same person as our
+               signatory: Dermokaïtes places himself under the protection of Saint George, and the
+               epigraphy of his bulla is clearly that of the 11th century. V. Šandrovskaja published
+               a seal from the Hermitage that reveals Sevad Senacherim, strategos of the Serbiôn.
+               While it is certain that Constantine Diogenes was strategos of Serbia and perhaps the
+               only Byzantine officer to hold this office, no other seal can be attributed with
+               certainty to this theme. In conclusion, the attribution of this seal remains
+               uncertain but it could be that it is the most ancient one which certifies a strategos
+               of Servia.</p>
+            <p xml:lang="en"/>
+            <p xml:lang="fr">La gravure du sceau est fort maladroite, ce qui rend sa datation
+               difficile, mais la forme des lettres n’interdit pas de penser à une frappe sous le
+               règne de Basile II. De plus, les premiers éditeurs lisaient une cinquième ligne au
+               revers (IAC), mais il ne semble subsister que des traces de décor. Le nom de Serbia
+               renvoie à deux entités géographiques. La première est la ville de Serbia, forteresse
+               de Thessalie, située au sud-ouest de Berroia <bibl><ptr target="DOseals1"
+                     />p.<citedRange unit="page">88</citedRange></bibl>, et évêché dépendant de la
+               métropole de Thessalonique. On sait que cette ville fut élevée au rang de thème au
+               cours des guerres contre le tsar Samuel et fut fort disputée entre Basile II et les
+               Bulgares <bibl><ptr target="Empereurs2003"/>p.<citedRange unit="page">288,
+                     302</citedRange></bibl>. La seconde constitua l’éphémère thème de Serbie, situé
+               au nord du thème de la Bulgarie, dont la création remonte au début du XIe siècle,
+               après la défaite des Bulgares par Basile II, et à la suite de la conquête de la
+               région du Sirmium par Constantin Diogène <bibl><ptr target="Empereurs2003"
+                     />p.<citedRange unit="page">304</citedRange></bibl>. On connaît des sceaux
+               d’évêque qui sont attribuables sans hésitation au siège thessalien. La bulle de
+               Michel Auxentiôtès, vestarque et stratège Σερβίων <bibl><ptr target="Stamoules1930"
+                  />n° <citedRange unit="entry">85</citedRange></bibl>, qui doit être datée de la
+               seconde moitié du XIe siècle, suggère, d’après l’épigraphie et la combinaison de la
+               dignité et de la fonction, que le thème de Servia s’était maintenu au cours du
+               siècle, sans doute en raison de la menace petchénègue. En effet, sous le règne de
+               Constantin X Doukas, lors de la rébellion des Valaques sous la direction de
+               Nikoulitzas, les insurgés avancèrent en Thessalie jusqu’à ce qu’ils soient arrêtés
+               par la première ville dotée d’une garnison, Servia5. Des bulles attestent bien
+               l’existence du thème de la province de Serbie. J. Nesbitt et N. Oikonomidès
+               considèrent qu’ils sont au nombre de trois, celui de Constantin Diogène, qu’ils
+               éditent, un autre trouvé à Lvow, aussi frappé par Diogène, et le nôtre <bibl><ptr
+                     target="DOseals1"/>p.<citedRange unit="page">101</citedRange></bibl>. Ils n’ont
+               pas pris en compte une bulle, conservée à l’Ermitage et datée de la première moitié
+               du XIe siècle, qui fut frappée par le protospathaire impérial Nicolas Dermokaïtès en
+               sa qualité de stratège des Serbes, Κύριε βοήθει τῷ σῷ δούλῳ Νικολάῳ βασιλικῷ
+               πρωτοσπαθαρίῳ καὶ στρατηγῷ τῶν Σερβ(ίων) ou Σέρβ(ων) τῷ Δερμοκαΐτῃ(Ermitage, M-8092).
+               Malgré la similitude du nom, des titres et des charges, il est peu probable qu’il
+               s’agisse du même personnage que notre signataire : Dermokaïtès se place sous la
+               protection de saint Georges et l’épigraphie de sa bulle est bien celle du XIe siècle.
+               V. Šandrovskaja a publié un sceau de l’Ermitage qui fait connaître Sevad Sénachérim,
+               stratège des Serbiôn8. S’il est certain que Constantin Diogène fut stratège de Serbie
+               et peut-être le seul officier byzantin à exercer cette charge, on ne peut attribuer
+               aucun autre sceau de façon sûre à ce thème. En conclusion, l’attribution de cette
+               bulle reste incertaine, mais elle pourrait être la plus ancienne connue d’un stratège
+               de Servia.</p>
+            <p xml:lang="fr"/>
+         </div>
+         <div type="bibliography" subtype="edition">
+            <p><bibl><ptr
+                     target="ZacosGenève"/> n° <citedRange unit="entry">156</citedRange></bibl>;
+               <bibl><ptr
+                     target="Zacos2"/> n° <citedRange unit="entry">628</citedRange></bibl>
+               <bibl/>
+            </p>
+         </div>
+         <div type="bibliography" subtype="parallels">
+            <p/>
+         </div>
+         <div type="bibliography" subtype="discussion">
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

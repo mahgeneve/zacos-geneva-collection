@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en">Constantine Maleïnos, patrikios</title>
+            <title xml:lang="fr">Constantin Maléïnos, patrice</title>
+            <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
+            <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+            <funder>
+               <orgName corresp="https://www.mahmah.ch/">MAH-Musée d'art et d'histoire - Genève,
+                  Cabinet de numismatique</orgName>, Suisse</funder>
+            <principal ref="#MCP"/>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <seg xml:lang="fr">Amélioration digitale</seg>
+               <seg xml:lang="en">Digital enhancement</seg>
+            </edition>
+            <editor role="digital-editor" xml:id="PE" when="2025-04-22">Pia Evening</editor>
+            <editor role="digital-editor" ref="#MCP" when="2026-03-23">Maria
+               Campagnolo-Pothitou</editor>
+         </editionStmt>
+         <publicationStmt>
+            <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
+            <idno type="filename">CdN 2004-0235</idno>
+            <idno type="SigiDocID">s-iz688p</idno>
+            <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+            <idno type="sequence"/>
+            <!--  to be compiled automatically; leave as is  -->
+            <date when="2024-08-06"/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                  >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                  4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listPerson type="issuer">
+               <person gender="M" role="civil aristocracy">
+                  <persName xml:lang="grc">
+                     <forename>Κωνσταντῖνος</forename>/> <surname>Μαλεϊνος</surname>/> </persName>
+                  <persName xml:lang="fr">
+                     <forename>Constantin</forename>/> <surname>Maleïnos</surname>/> </persName>
+                  <persName xml:lang="en">
+                     <forename>Constantine</forename>/> <surname>Maleïnos</surname>/> </persName>
+                  <idno type="PBW" ana="http://pbw2016.kdl.kcl.ac.uk/person/Konstantinos/20108/"
+                     >Konstantinos 20108</idno>
+
+                  <idno type="PBE"/>
+                  <idno type="PLP"/>
+                  <idno type="PLRE"/>
+                  <idno type="PcBE"/>
+                  <idno type="PmbZ"/>
+               </person>
+            </listPerson>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <seg xml:lang="en">Switzerland</seg>
+                     <seg xml:lang="fr">Suisse</seg>
+                  </country>
+                  <settlement>
+                     <seg xml:lang="en">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">City of
+                           Geneva</placeName>
+                     </seg>
+                     <seg xml:lang="fr">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">Ville de
+                           Genève</placeName>
+                     </seg>
+                  </settlement>
+                  <institution>MAH-Musée d'art et d'histoire</institution>
+                  <repository>Cabinet de numismatique</repository>
+                  <collection type="public">
+                     <rs type="collection-name" xml:lang="en">Byzantine seals collection</rs>
+                     <rs type="collection-name" xml:lang="fr">Collection de sceaux byzantins</rs>
+                  </collection>
+                  <idno type="inv-nr-current">CdN 2004-0235</idno>
+                  <altIdentifier>
+                     <repository/>
+                     <idno type="inv-nr-former"/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <!--https://github.com/SigiDoc/Guidelines/wiki/5.-Controlled-vocabularies#seals-category-->
+                  <summary n="whole">
+                     <seg xml:lang="fr">Dignitaires</seg>
+                     <seg xml:lang="en">Dignitaries</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>
+                              <term>
+                                 <seg xml:lang="fr">Sceau</seg>
+                                 <seg xml:lang="en">Seal</seg>
+                              </term>
+                              <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                              <interp type="workType" xml:lang="en">Original impression</interp>
+                           </objectType>
+                           <material>
+                              <seg xml:lang="fr">Plomb</seg>
+                              <seg xml:lang="en">Lead</seg>
+                           </material>
+                           <dimensions type="support" unit="mm">
+                              <dim type="diameter">30,40/29,49</dim>
+                              <!-- mesure du champ? -->
+                           </dimensions>
+                           <measure type="weight" unit="g">25,282</measure>
+                           <measure type="axis" unit="clock"/>
+                           <measure type="overstrikeOrient" unit="clock"/>
+                           <measure type="channelOrient" unit="clock">12-6</measure>
+                           <measure type="countermark" unit="clock"/>
+                        </support>
+                        <condition rend="well-struck well-preserved corroded">
+                           <p xml:lang="en">The bulla is well struck and well preserved; slightly
+                              corroded on both sides</p>
+                           <p xml:lang="fr">La bulle est bien frappée et bien conservée, bien que
+                              légèrement corrodée sur les deux faces</p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout n="whole">
+                           <rs type="execution">
+                              <seg xml:lang="fr">Frappé</seg>
+                              <seg xml:lang="en">Struck</seg>
+                           </rs>
+                           <rs type="shape">
+                              <seg xml:lang="fr">Ronde</seg>
+                              <seg xml:lang="en">Round</seg>
+                           </rs>
+                           <rs type="matrix" subtype="not-surviving">
+                              <idno type="SigiDoc">m-GKEYh8</idno>
+                              <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+                              <idno type="PBW">http://pbw2016.kdl.kcl.ac.uk/boulloterion/172/</idno>
+                              <!-- to be used if the seal has a parallel in the PBW with a boulloterion registered there -->
+                           </rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <seg xml:lang="fr">
+                           <placeName/>
+                        </seg>
+                        <seg xml:lang="en">
+                           <placeName/>
+                        </seg>
+                     </origPlace>
+                     <origDate type="analysis" notBefore="1041" notAfter="1060"
+                        evidence="epigraphy prosopography iconography" cert="high" resp="#MCP #JCC">
+                        <seg xml:lang="en">Mid-11th century</seg>
+                        <seg xml:lang="fr">Milieu du XIe siècle</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="transferred" subtype="donated" when="2004-11-24">
+                     <!-- pas sûr de subtype et when -->
+                     <p xml:lang="en">George Zacos collection</p>
+                     <p xml:lang="fr">Collection Georges Zacos</p>
+                  </provenance>
+                  <acquisition>
+                     <p xml:lang="en">Donation of the Migore Foundation, Janet Zakos legacy, <date
+                           when="2004-11-24">24th November 2004</date>
+                     </p>
+                     <p xml:lang="fr">Don de la Fondation Migore, legs Janet Zakos, <date
+                           when="2004-11-24">24 Novembre 2004</date>
+                     </p>
+                  </acquisition>
+               </history>
+               <msPart n="r">
+                  <msIdentifier/>
+                  <msContents>
+                     <!-- ajouté ceci -->
+                     <summary n="r">
+                        <seg xml:lang="en">Obverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="r">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="fr">Iconographie avec sigles de aprt et d'autre de
+                                 l'effigie</p>
+                              <p xml:lang="en">Iconography with sigla on either part of the
+                                 effigy</p>
+                           </layout>
+                        </layoutDesc>
+
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="r">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="r" xml:lang="fr" ana="person female Virgin Episkepsis"
+                                 >Vierge Épiskepsis en buste, de face, orante, portant le médaillon
+                                 de l’Enfant sur la poitrine.</figDesc>
+                              <figDesc n="r" xml:lang="en" ana="person female Virgin Episkepsis"
+                                 >Bust of Virgin Episkepsis, facing forward, in prayer attitude,
+                                 bearing the medallion with the Child before her chest.</figDesc>
+                              <figDesc n="decoR" xml:lang="fr">Cercle de grènetis</figDesc>
+                              <figDesc n="decoR" xml:lang="en">Border of dots</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+               <msPart n="v">
+                  <msIdentifier/>
+                  <msContents>
+                     <summary n="v"><!-- ajouté ceci -->
+                        <seg xml:lang="en">Reverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="v">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="en">Linear legend of 5 lines</p>
+                              <p xml:lang="fr">Légende linéaire sur 5 lignes</p>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="v">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="decoV" xml:lang="fr">Cercle de grènetis; la dernière est
+                                 accostée de tirets ; au sommet du champ, un croisillon de perles
+                                 flanqué de tirets</figDesc>
+                              <figDesc n="decoV" xml:lang="en">Border of dots; the last line is
+                                 placed between traits; at the top of the field, a crosspiece made
+                                 of pearls is also placed between traits</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2025-04-22" who="#PE">Creation of the XML record.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp>
+         <surface n="r">
+            <desc>Obverse</desc>
+            <graphic type="photo" url="CdN2004-0235_1.jpg">
+               <desc xml:lang="en">CdN 2004-0235, obverse</desc>
+               <desc xml:lang="fr">CdN 2004-0235, avers</desc>
+            </graphic>
+         </surface>
+         <surface n="v">
+            <desc>Reverse</desc>
+            <graphic type="photo" url="CdN2004-0235_2.jpg">
+               <desc xml:lang="en">CdN 2004-0235, reverse</desc>
+               <desc xml:lang="fr">CdN 2004-0235, revers</desc>
+            </graphic>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" subtype="editorial" xml:space="preserve"> 
+            <div type="textpart" subtype="sigla" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="a"/><expan><abbr>Μ</abbr><ex>ήτ</ex><abbr>ηρ</abbr></expan> 
+                 <cb n="b"/><expan><abbr>Θ</abbr><ex>εο</ex><abbr>ῦ</abbr></expan>
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab ana="dat">
+                         <lb n="1"/><rs type="invocation" ref="#inv002"><expan><abbr>Θ</abbr><ex>εοτό</ex><abbr>κε</abbr></expan> <expan><abbr>β</abbr><ex>οή</ex><abbr>θ</abbr><ex>ει</ex></expan> 
+                         <lb n="2"/>τῷ σῷ <expan><abbr>δούλ</abbr><ex>ῳ</ex></expan></rs> 
+                         <lb n="3"/><expan><abbr>Κων</abbr><ex>σταντίνῳ</ex></expan> <rs type="dignity" ref="#d0047"><expan><abbr>π</abbr><ex>ατ</ex><abbr>ρικίῳ</abbr></expan></rs> 
+                         <lb n="4"/>τῷ Μαλε
+                         <lb n="5" break="no"/>ήνῳ
+                      </ab>
+                  </div>
+              </div>
+         <div type="edition" subtype="diplomatic" xml:space="preserve"> 
+                  <div type="textpart" subtype="sigla" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="a"/>Μη̣ρ
+                 <cb n="b"/>ΘV
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab>
+                         <lb n="1"/>Θκεr/ θ/                     
+                         <lb n="2"/>τ̣σδ̣λ/
+                         <lb n="3"/>κ̣νπρικι
+                         <lb n="4"/>τ̣μαλε
+                         <lb n="5"/>ην
+                         </ab>
+                  </div>
+              </div>
+         <div type="translation">
+            <p>Μήτηρ Θεοῦ. || + Θεοτόκε βοήθει τῷ σῷ δούλῳ Κωνσταντίνῳ πατρικίῳ τῷ Μαλεήνῳ.</p>
+            <p xml:lang="en">Mother of God. || + Mother of God, help your servant the patrikios
+               Constantine Maleïnos</p>
+            <p xml:lang="fr">Mère de Dieu. || + Mère de Dieu, accorde ton secours à ton serviteur le
+               patrice Constantin Maléïnos</p>
+         </div>
+         <div type="commentary" subtype="text">
+            <!-- renvois internes à refaire -->
+            <p xml:lang="en">This same Constantine left behind a bilateral bulla in his cpacity of
+               dishypatos (Ermitage, M-1899 <bibl><ptr target="BBÖ1"/>, p. <citedRange unit="page"
+                     >274</citedRange></bibl>). The Life of Michael Maleïnos is the principal source
+               for the Maleïnoi, a family of the military aristocracy in the 10th century.
+               Brother-in-law of Bardas Phocas the Elder and uncle of the futur emperor Nikephoros
+               Phocas II, Michael is one of the two saints of the family. The second one, Eudokimos,
+               lived a century earlier.The Maleïnoi may have originated from Charsianon, where their
+               family owned extensive landholdings, and more specifically—as their surname suggests
+               —from a village located near the fortress of Malagina or Malaïna, close to the
+               Sangarios River. Related to the Adralestoi and the Phokas, they remained loyal to the
+               latter and, through them, to the Macedonians. However, the support offered by
+               Eustathius Maleinos, strategos in the East, to the usurper Bardas Phocas <bibl><ptr
+                     target="Empereurs2003"/>, p. <citedRange unit="page">277</citedRange></bibl>,
+               his first cousin on his father’s side, aroused Basil II’s suspicion toward him and
+               seems to have led to the downfall of the family. A branch of the Maleinoi is attested
+               until the early 17th century in Rossano, in southern Italy, where they had likely
+               settled as early as the 9th century, following Nicephorus Phocas the Elder during the
+               reconquest of Calabria in 885–886. According to the Life of Saint Nilus the Younger,
+               the first Italian Maleïnos was a member of the staff of Nicephorus Hexakionites.
+               Constantine Maleinos may have been a descendant of the man of the same name who
+               served as strategos of Cappadocia in the 10th century. The title of patrikios
+               suggests that, in the mid-11th century, the Maleinoi were still among the members of
+               the high aristocracy or that they had regained their rank after the family’s
+               ostracism at the end of the 10th century. In the second half of the 11th century,
+               Nicephorus Maleinos held the title of proedros(BZS
+               1958.106.3229 <bibl><ptr target="BBÖ1"/>, p. <citedRange unit="page"
+                     >274</citedRange></bibl>).</p>
+            <p xml:lang="en"/>
+            <p xml:lang="fr">Ce même Constantin a laissé une bulle bilatérale, signalée par W.
+               Seibt, où il est titré dishypatos (Ermitage, M-1899 <bibl><ptr target="BBÖ1"/>, p.
+                     <citedRange unit="page">274</citedRange></bibl>). La Vie de Michel Maléïnos est
+               la source principale sur les Maléïnoi, famille de l’aristocratie militaire du Xe
+               siècle. Michel, beau-frère de Bardas Phocas l’Ancien et oncle du futur empereur
+               Nicéphore II Phocas, est l’un des deux saints qu’a donnés la famille. Le second,
+               Eudocime, qui était apparenté aux Maléïnoi, vécut un siècle plus tôt. Les Maléïnoi
+               pourraient être originaires du Charsianon, où leur famille possédait d’importants
+               biens fonciers, et plus particulièrement – ainsi que le laisse penser leur patronyme
+               – issus d’un village situé à proximité de la forteresse de Malagina ou Malaïna, près
+               du fleuve Sangarios. Apparentés aux Adralestoi et aux Phocas, ils sont restés fidèles
+               à ces derniers et, avec eux, aux Macédoniens. Cependant, le soutien offert par
+               Eustathe Maléïnos, stratège en Orient, à l’usurpateur Bardas Phocas <bibl><ptr
+                     target="Empereurs2003"/>, p. <citedRange unit="page">277</citedRange></bibl>,
+               son cousin issu de germain, suscita la méfiance de Basile II à son égard et semble
+               avoir entraîné la déchéance de la famille. Une branche des Maléïnoi est attestée
+               jusqu’au début du XVIIe siècle à Rossano, en Italie du Sud, où ils s’étaient sans
+               doute installés dès le IXe siècle, en suivant Nicéphore Phocas l’Ancien lors de la
+               reconquête de la Calabre en 885-886. D’après la Vie de saint Nil le Jeune, le premier
+               Maléïnos italien faisait partie de l’état-major de Nicéphore Hexakiônitès. Constantin
+               Maléïnos pourrait être un descendant de l’homonyme qui fut stratège de Cappadoce au
+               Xe siècle. La dignité de patrice suggère que, au milieu du XIe siècle, les Maléïnoi
+               comptaient encore parmi les membres de la haute aristocratie ou qu’ils avaient
+               retrouvé leur rang après la mise à l’écart de la famille à la fin du Xe siècle. Dans
+               la seconde moitié du XIe siècle, Nicéphore Maléïnos était titré proèdre (BZS
+               1958.106.3229 <bibl><ptr target="BBÖ1"/>, p. <citedRange unit="page"
+                  >274</citedRange></bibl>).</p>
+            <p xml:lang="fr"/>
+         </div>
+         <div type="bibliography" subtype="edition">
+            <p><bibl><ptr target="ZacosGenève"/>, n° <citedRange unit="entry"
+                     >172</citedRange></bibl>
+               <bibl/>
+            </p>
+         </div>
+         <div type="bibliography" subtype="parallels">
+            <p>BZS 1958.106.5005:
+               <bibl><ptr target="DOsealsOnline"/>, n° <citedRange unit="entry"
+                     >BZS 1958.106.5005</citedRange></bibl></p>
+               <p>Vienne, MK 431:
+                  <bibl><ptr target="BBÖ1"/>, n° <citedRange unit="entry"
+                        >142</citedRange></bibl></p> 
+         </div>
+         <div type="bibliography" subtype="discussion">
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

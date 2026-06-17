@@ -321,11 +321,12 @@
             </div>
             <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
                       <ab>
+                         <lb n="0"/>      ̣
                          <lb n="1"/>θΚΕR/ θ/  
                          <lb n="2"/>Κ̣̅̅N̅ΕΡ/
                          <lb n="3"/>Κ̣iΕiiΚ
                          <lb n="4"/>ΤΜiΤΥΛ/
-                         <lb n="5"/>Ni·
+                         <lb n="5"/>Ni      
                       </ab>
                   </div>
               </div>

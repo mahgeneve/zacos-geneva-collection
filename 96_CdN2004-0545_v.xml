@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en">Theodore Dalassenos, proedros and doux</title>
+            <title xml:lang="fr">Théodore Dalassènos, proèdre et duc</title>
+            <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
+            <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+            <funder>
+               <orgName corresp="https://www.mahmah.ch/">MAH-Musée d'art et d'histoire - Genève,
+                  Cabinet de numismatique</orgName>, Suisse </funder>
+            <principal ref="#MCP"/>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <seg xml:lang="fr">Amélioration digitale</seg>
+               <seg xml:lang="en">Digital enhancement</seg>
+            </edition>
+            <editor role="digital-editor" xml:id="PE" when="2025-04-02">Pia Evening</editor>
+         </editionStmt>
+         <publicationStmt>
+            <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
+            <idno type="filename">CdN 2004-0545</idno>
+            <idno type="SigiDocID">s-AdwqHa</idno>
+            <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+            <idno type="sequence"/>
+            <!--  to be compiled automatically; leave as is  -->
+            <date when="2024-08-06"/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                  >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                  4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listPerson type="issuer">
+               <person gender="M" role="civil aristocracy">
+                  <persName xml:lang="grc">
+                     <forename>Θεόδωρος</forename>/> <surname>Δαλασσηνός</surname>/> </persName>
+                  <persName xml:lang="fr">
+                     <forename>Théodore</forename>/> <surname>Dalassènos</surname>/> </persName>
+                  <persName xml:lang="en">
+                     <forename>Theodore</forename>/> <surname>Dalassenos</surname>/> </persName>
+                  <idno type="PBW" ana="http://pbw2016.kdl.kcl.ac.uk/boulloterion/3840/">Theodoros
+                     126</idno>
+
+                  <idno type="PBE"/>
+                  <idno type="PLP"/>
+                  <idno type="PLRE"/>
+                  <idno type="PcBE"/>
+                  <idno type="PmbZ"/>
+               </person>
+            </listPerson>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <seg xml:lang="en">Switzerland</seg>
+                     <seg xml:lang="fr">Suisse</seg>
+                  </country>
+                  <settlement>
+                     <seg xml:lang="en">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">City of
+                           Geneva</placeName>
+                     </seg>
+                     <seg xml:lang="fr">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">Ville de
+                           Genève</placeName>
+                     </seg>
+                  </settlement>
+                  <institution>MAH-Musée d'art et d'histoire</institution>
+                  <repository>Cabinet de numismatique</repository>
+                  <collection type="public">
+                     <rs type="collection-name" xml:lang="en">Byzantine seals collection</rs>
+                     <rs type="collection-name" xml:lang="fr">Collection de sceaux byzantins</rs>
+                  </collection>
+                  <idno type="inv-nr-current">CdN 2004-0545</idno>
+                  <altIdentifier>
+                     <repository/>
+                     <idno type="inv-nr-former"/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <!--https://github.com/SigiDoc/Guidelines/wiki/5.-Controlled-vocabularies#seals-category-->
+                  <summary n="whole">
+                     <seg xml:lang="fr">Administration centrale</seg>
+                     <seg xml:lang="en">Central administration</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>
+                              <term>
+                                 <seg xml:lang="fr">Sceau</seg>
+                                 <seg xml:lang="en">Seal</seg>
+                              </term>
+                              <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                              <interp type="workType" xml:lang="en">Original impression</interp>
+                           </objectType>
+                           <material>
+                              <seg xml:lang="fr">Plomb</seg>
+                              <seg xml:lang="en">Lead</seg>
+                           </material>
+                           <dimensions type="support" unit="mm">
+                              <dim type="diameter">32/33</dim>
+                              <!-- mesure du champ? -->
+                           </dimensions>
+                           <measure type="weight" unit="g">24,28</measure>
+                           <measure type="axis" unit="clock"/>
+                           <measure type="overstrikeOrient" unit="clock"/>
+                           <measure type="channelOrient" unit="clock">12-6</measure>
+                           <measure type="countermark" unit="clock"/>
+                        </support>
+                        <condition rend="well-struck, well-preserved broken">
+                           <p xml:lang="en">The bulla is well-struck and well-preserved, although
+                              broken along the channel; partially slightly crushed on the reverse</p>
+                           <p xml:lang="fr">La bulle est bien frappée et bien conservée bien que
+                              cassée le long du canal; partiellemnt légèrement écrasé sur le revers</p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout n="whole">
+                           <rs type="execution">
+                              <seg xml:lang="fr">Frappé</seg>
+                              <seg xml:lang="en">Struck</seg>
+                           </rs>
+                           <rs type="shape">
+                              <seg xml:lang="fr">Ronde</seg>
+                              <seg xml:lang="en">Round</seg>
+                           </rs>
+                           <rs type="matrix" subtype="not-surviving">
+                              <idno type="SigiDoc">m-rgUoNC</idno>
+                              <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+                              <idno type="PBW"/>
+                              <!-- to be used if the seal has a parallel in the PBW with a boulloterion registered there -->
+                           </rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <seg xml:lang="fr">
+                           <placeName/>
+                        </seg>
+                        <seg xml:lang="en">
+                           <placeName/>
+                        </seg>
+                     </origPlace>
+                     <origDate type="analysis" notBefore="1060" notAfter="1070"
+                        evidence="prosopography related-seal attached-document" cert="high"
+                        resp="#MCP #JCC">
+                        <seg xml:lang="en">1060-1070</seg>
+                        <seg xml:lang="fr">1060-1070</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="transferred" subtype="donated" when="2004-11-24">
+                     <!-- pas sûr de subtype et when -->
+                     <p xml:lang="en">George Zacos collection</p>
+                     <p xml:lang="fr">Collection Georges Zacos</p>
+                  </provenance>
+                  <acquisition>
+                     <p xml:lang="en">Donation of the Migore Foundation, Janet Zakos legacy, <date
+                           when="2004-11-24">24th November 2004</date>
+                     </p>
+                     <p xml:lang="fr">Don de la Fondation Migore, legs Janet Zakos, <date
+                           when="2004-11-24">24 Novembre 2004</date>
+                     </p>
+                  </acquisition>
+               </history>
+               <msPart n="r">
+                  <msIdentifier/>
+                  <msContents>
+                     <!-- ajouté ceci -->
+                     <summary n="r">
+                        <seg xml:lang="en">Obverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="r">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="fr">Iconographie avec de part et d'autre épigraphe en
+                                 colonne </p>
+                              <p xml:lang="en">Iconography with on either side epigraph on
+                                 columns</p>
+                           </layout>
+                        </layoutDesc>
+
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="r">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="r" xml:lang="fr" ana="person male saint Theodore">Saint
+                                 Théodore en pied, de face, le pan de sa chlamyde retombant sur le
+                                 bras droit,tenant la lance en main droite et s’appuyant de la
+                                 gauche sur son bouclier posé à terre, portant une pointe décorée
+                                 ></figDesc>
+                              <figDesc n="r" xml:lang="en" ana="person male saint Theodore">Saint
+                                 Theodore standing, facing forward, the hem of his chlamys falling
+                                 over his right arm, holding a spear in his right hand and leaning
+                                 with his left hand on his shield, which is placed on the ground and
+                                 decorated at the tip.</figDesc>
+                              <figDesc n="decoR" xml:lang="fr">Cercle de grènetis</figDesc>
+                              <figDesc n="decoR" xml:lang="en">Circle of dots</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+               <msPart n="v">
+                  <msIdentifier/>
+                  <msContents>
+                     <summary n="v"><!-- ajouté ceci -->
+                        <seg xml:lang="en">Reverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="v">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="en">Linear legend of 6 lines</p>
+                              <p xml:lang="fr">Légende linéaire sur 6 lignes</p>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="v">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="decoV" xml:lang="fr">Cercle de grènetis; la première ligne
+                                 est précédée d’une croisette et surmontée d’une perle accostée de
+                                 tirets. La dernière ligne est également cantonnée de
+                                 tirets</figDesc>
+                              <figDesc n="decoV" xml:lang="en">Circle of dots; The first line is
+                                 preceded by a cross and topped by a pearl flanked by dashes. The
+                                 last line is also flanked by dashes.</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2025-04-02" who="#PE">Creation of the XML record.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp>
+         <surface n="r">
+            <desc>Obverse</desc>
+            <graphic type="photo" url="CdN2004-0545_1.jpg">
+               <desc xml:lang="en">CdN 2004-0545, obverse</desc>
+               <desc xml:lang="fr">CdN 2004-0545, avers</desc>
+            </graphic>
+         </surface>
+         <surface n="v">
+            <desc>Reverse</desc>
+            <graphic type="photo" url="CdN2004-0545_2.jpg">
+               <desc xml:lang="en">CdN 2004-0545, reverse</desc>
+               <desc xml:lang="fr">CdN 2004-0545, revers</desc>
+            </graphic>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" subtype="editorial" xml:space="preserve"> 
+            <div type="textpart" subtype="label" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="a"/>Ὁ ἅγιος 
+                 <cb n="b"/><expan><abbr>Θεόδωρ</abbr><ex>ος</ex></expan>
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab ana="dat">
+                         <lb n="1"/><rs type="invocation" ref="#inv004"><expan><abbr>Κ</abbr><ex>ύρι</ex><abbr><supplied reason="lost">ε</supplied></abbr></expan> <expan><abbr>β</abbr><ex>ο</ex><abbr>ήθ</abbr><ex>ει</ex></expan> 
+                         <lb n="2"/><supplied reason="lost">τ</supplied>ῷ σ<supplied reason="lost">ῷ</supplied> δούλῳ</rs> 
+                         <lb n="3"/><expan><abbr>Θεοδ<supplied reason="lost">ώ</supplied>ρ</abbr><ex>ῳ</ex></expan> <rs type="dignity" ref="#d0051">προ
+                         <lb n="4"/>έδρῳ</rs> <expan><abbr><am>S</am></abbr><ex>καὶ</ex></expan> <rs type="office" subtype="military" ref="#of0245"><expan><abbr>δουκ</abbr><ex>ὶ</ex></expan></rs> 
+                         <lb n="5"/>τῷ <expan><abbr>Δαλα
+                         <lb n="6"/>σ<supplied reason="omitted">σ</supplied>ην</abbr><ex>ῷ</ex></expan>
+                      </ab>
+                  </div>
+              </div>
+         <div type="edition" subtype="diplomatic" xml:space="preserve"> 
+                  <div type="textpart" subtype="label" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="a"/>Ο|Α|Γi|Ο|σ 
+                 <cb n="b"/>θ|ε|οδ||ρ/
+              </ab>
+            </div>
+            <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab> 
+                         <lb n="0"/>
+                         <lb n="1"/>.Κ.R/ ηθ/                  
+                         <lb n="2"/>. σ.δ̣λ 
+                         <lb n="3"/>θ̣εοδ.ρ/ προ
+                         <lb n="4"/>εδρδκ/
+                         <lb n="5"/>τδαλα
+                         <lb n="6"/>ση̣ν/ 
+                         </ab>
+                  </div>
+              </div>
+         <div type="translation">
+            <p>Ὁ ἅγιος Θεόδωρος. || + Κύριε βοήθει τῷ σῷ δούλῳ Θεοδώρῳ προέδρῳ καὶ δουκὶ τῷ
+               Δαλασσηνῷ.</p>
+            <p xml:lang="en">Saint Theodore. || + Lord, aid your servant Theodore Dalassenos,
+               proedros and doux</p>
+            <p xml:lang="fr">Saint Theodore. || + Seigneur ,accorde ton secours à Théodore
+               Dalassènos, proèdre et duc</p>
+         </div>
+         <div type="commentary" subtype="text">
+            <!-- renvois internes à refaire -->
+            <p xml:lang="en">Probably originating from the theme of Armeniakoi, where they owned
+               land in the 11th century, the Dalassene family appears in sources only at the end of
+               the 10th century with Damien Dalassenos, duc of Antioch, in 995. Other members of
+               this military aristocratic family held this high office and distinguished themselves,
+               notably Konstantinos, Damien's son, who twice came close to acceding to the imperial
+               throne at the beginning of the 11th century. In addition, several Dalassenai ladies,
+               also known by their seals, participated in the influential role played by this
+               illustrious family during that century. Among them was the daughter of Konstantinos
+               mentioned above, the first wife of Konstatninos X Doukas, who died without having
+               children, while the brilliant Komnenos dynasty was founded, largely thanks to the
+               very dynamic Anne Dalassene, John Comnenus' wife and Alexis I's mother. However, the
+               family gradually declined until 1204, with a brief return to prominence under the
+               Angeloi. Of the four namesakes attested in the 11th and 12th centuries, our signatory
+               is the one whose cursus honorum we know best, largely thanks to his seals as
+               vestarches and strategos of the Opsikion; magistros; proedros and doux. From this
+               last stage, we know of another type of sigillography, bearing the same legend as our
+               seal but spread over both sides. One of the preserved copies (<bibl>
+                  <ptr target="Oikonomides1986"/>, n° <citedRange unit="entry"
+                  >92</citedRange></bibl>) is still attached to the original document in the
+               archives of Iviron, dated December 1062. A second document from the same monastery
+               confirms that Theodore still held the position in February 1063. The duke's signature
+               specifies that he exercised his office in Thessaloniki and Serres.(<bibl>
+                  <ptr target="Iviron2"/>, n° <citedRange unit="entry">36 et
+               37</citedRange></bibl>.</p>
+            <p xml:lang="en"/>
+            <p xml:lang="fr">Probablement originaires du thème des Arméniaques, où ils possédaient
+               des biens fonciers au XIe siècle, les Dalassènoi apparaissent dans les sources
+               seulement à la fin du Xe siècle avec Damien Dalassène, duc d’Antioche, en 995.
+               D’autres membres de cette famille de l’aristocratie militaire occupèrent ce haut
+               poste et s’y distinguèrent, notamment Constantin, fils de Damien, qui faillit accéder
+               par deux fois au trône impérial, au début du XIe siècle. D’autre part, plusieurs
+               dames Dalassènai, connues également par leurs sceaux, participèrent au rôle influent
+               qu’a joué cette illustre famille durant ce siècle. Parmi elles, la fille de
+               Constantin cité ci-dessus, première épouse de Constantin X Doukas, morte sans
+               descendance, alors que la brillante dynastie des Comnènes sera fondée, en grande
+               partie, grâce à la très dynamique Anne Dalassènè, épouse de Jean Comnène et mère
+               d’Alexis Ier. Les Dalassènoi n’en furent pas pour autant privilégiés, car la famille
+               périclita progressivement jusqu’en 1204, avec un bref retour au devant de la scène
+               sous les Anges. Parmi les quatre homonymes attestés aux XIe et XIIe siècles, notre
+               signataire est celui dont nous connaissons le mieux le cursus honorum, en bonne
+               partie grâce à ses plombs de vestarque et stratège de l’Opsikion ; magistre ; proèdre
+               et duc. De cette dernière étape, nous connaissons un autre type sigillographique,
+               portant la même légende que notre plomb mais répartie sur les deux faces. L’un des
+               exemplaires conservés est toujours attaché au document d’origine des archives
+               d’Ivirôn (<bibl>
+                  <ptr target="Oikonomides1986"/>, n° <citedRange unit="entry"
+                  >92</citedRange></bibl>), daté de décembre 1062. Un second document du même
+               monastère confirme que Théodore occupait encore le poste en février 1063. La
+               signature du duc précise qu’il exerçait sa charge à Thessalonique et Serrès (<bibl>
+                  <ptr target="Iviron2"/>, n° <citedRange unit="entry">36 et
+               37</citedRange></bibl>.</p>
+            <p xml:lang="fr"/>
+         </div>
+         <div type="bibliography" subtype="edition">
+            <p><bibl>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">96</citedRange></bibl>;
+               <bibl>
+                  <ptr target="ZacosSpink3"/>, n° <citedRange unit="entry">281</citedRange></bibl>
+               <bibl/>
+            </p>
+         </div>
+         <div type="bibliography" subtype="parallels">
+            <p>Zacos (BnF) 219 et 220:</p>
+               <bibl>
+                  <ptr target="Cheynet2008e"/>, p. <citedRange unit="page">430-432</citedRange></bibl>   
+         </div>
+         <div type="bibliography" subtype="discussion">
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

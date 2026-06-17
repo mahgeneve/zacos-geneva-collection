@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en">The imperial kommerkia of Anatolikoi</title>
+            <title xml:lang="fr">Les kommerkia impériaux des Anatoliques</title>
+            <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
+            <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+            <funder>
+               <orgName corresp="https://www.mahmah.ch/">MAH-Musée d'art et d'histoire - Genève,
+                  Cabinet de numismatique</orgName>, Suisse </funder>
+            <principal ref="#MCP"/>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <seg xml:lang="fr">Amélioration digitale</seg>
+               <seg xml:lang="en">Digital enhancement</seg>
+            </edition>
+            <editor role="digital-editor" xml:id="PE" when="2025-04-02">Pia Evening</editor>
+            <editor role="digital-editor" ref="#MCP" when="2026-01-08">Maria Campagnolo-Pothitou</editor>
+         </editionStmt>
+         <publicationStmt>
+            <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
+            <idno type="filename">CdN 44665</idno>
+            <idno type="SigiDocID">s-HaVaXx</idno>
+            <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+            <idno type="sequence"/>
+            <!--  to be compiled automatically; leave as is  -->
+            <date when="2024-08-06"/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                  >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                  4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listPerson type="issuer">
+               <person gender="M" role="civil aristocracy">
+                  <persName xml:lang="grc">
+                     <forename>Κομμέρκια τῶν Ἀνατολικῶν</forename>
+                     <surname/>
+                  </persName>
+                  <persName xml:lang="fr">
+                     <forename>Kommerkia des Anatoliques</forename>/> <surname/>
+                  </persName>
+                  <persName xml:lang="en">
+                     <forename>Kommerkia of Anatolikoi</forename>/> <surname/>
+                  </persName>
+
+                  <idno type="PBW"/>
+                  <idno type="PBE"/>
+                  <idno type="PLP"/>
+                  <idno type="PLRE"/>
+                  <idno type="PcBE"/>
+                  <idno type="PmbZ"/>
+               </person>
+            </listPerson>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <seg xml:lang="en">Switzerland</seg>
+                     <seg xml:lang="fr">Suisse</seg>
+                  </country>
+                  <settlement>
+                     <seg xml:lang="en">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">City of
+                           Geneva</placeName>
+                     </seg>
+                     <seg xml:lang="fr">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">Ville de
+                           Genève</placeName>
+                     </seg>
+                  </settlement>
+                  <institution>MAH-Musée d'art et d'histoire</institution>
+                  <repository>Cabinet de numismatique</repository>
+                  <collection type="public">
+                     <rs type="collection-name" xml:lang="en">Byzantine seals collection</rs>
+                     <rs type="collection-name" xml:lang="fr">Collection de sceaux byzantins</rs>
+                  </collection>
+                  <idno type="inv-nr-current">CdN 044665</idno>
+                  <altIdentifier>
+                     <repository/>
+                     <idno type="inv-nr-former"/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <!--https://github.com/SigiDoc/Guidelines/wiki/5.-Controlled-vocabularies#seals-category-->
+                  <summary n="whole">
+                     <seg xml:lang="fr">Administration provinciale</seg>
+                     <seg xml:lang="en">Provincial administration</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>
+                              <term>
+                                 <seg xml:lang="fr">Sceau</seg>
+                                 <seg xml:lang="en">Seal</seg>
+                              </term>
+                              <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                              <interp type="workType" xml:lang="en">Original impression</interp>
+                           </objectType>
+                           <material>
+                              <seg xml:lang="fr">Plomb</seg>
+                              <seg xml:lang="en">Lead</seg>
+                           </material>
+                           <dimensions type="support" unit="mm">
+                              <dim type="diameter">31,50</dim>
+                              <!-- mesure du champ? -->
+                           </dimensions>
+                           <measure type="weight" unit="g">16,238</measure>
+                           <measure type="axis" unit="clock"/>
+                           <measure type="overstrikeOrient" unit="clock"/>
+                           <measure type="channelOrient" unit="clock">12-6</measure>
+                           <measure type="countermark" unit="clock"/>
+                        </support>
+                        <condition rend="well-struck well-preserved broken">
+                           <p xml:lang="en">The bulla is well-struck and well-preserved, quite
+                              broken at the openings of the channel </p>
+                           <p xml:lang="fr">La bulle est bien frappée et bien conservée; fortement
+                              échancrée aux orifices du canal</p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout n="whole">
+                           <rs type="execution">
+                              <seg xml:lang="fr">Frappé</seg>
+                              <seg xml:lang="en">Struck</seg>
+                           </rs>
+                           <rs type="shape">
+                              <seg xml:lang="fr">Ronde</seg>
+                              <seg xml:lang="en">Round</seg>
+                           </rs>
+                           <rs type="matrix" subtype="not-surviving">
+                              <idno type="SigiDoc">m-GfFeAw</idno>
+                              <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+                              <idno type="PBW"/>
+                              <!-- to be used if the seal has a parallel in the PBW with a boulloterion registered there -->
+                           </rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <seg xml:lang="fr">Anatoliques<placeName/>
+                        </seg>
+                        <seg xml:lang="en">Anatolikoi<placeName/>
+                        </seg>
+                     </origPlace>
+                     <origDate type="internal" notBefore="0732" notAfter="0733" when-custom="0001"
+                        datingMethod="https://www.wikidata.org/wiki/Q1339127"
+                        evidence="internal-date">
+                        <seg xml:lang="en">Indiction 1, corresponding to the year 732/733</seg>
+                        <seg xml:lang="fr">Indiction 1, soit l’année 732/733</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="transferred" subtype="donated" when="1942-11-01">
+                     <!-- pas sûr de subtype et when -->
+                     <p xml:lang="en"/>
+                     <p xml:lang="fr"/>
+                  </provenance>
+                  <acquisition>
+                     <p xml:lang="en">Donation of Jean Romieux<date when="1942-11-01">1st November
+                           1942</date>
+                     </p>
+                     <p xml:lang="fr">Don de Jean Romieux<date when="1942-11-01">1er Novembre
+                           1942</date>
+                     </p>
+                  </acquisition>
+               </history>
+               <msPart n="r">
+                  <msIdentifier/>
+                  <msContents>
+                     <!-- ajouté ceci -->
+                     <summary n="r">
+                        <seg xml:lang="en">Obverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="r">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="fr">Iconographie</p>
+                              <p xml:lang="en">Iconography</p>
+                           </layout>
+                        </layoutDesc>
+
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="r">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="r" xml:lang="fr" ana="person male emperors">Deux effigies
+                                 impériales à mi-corps, regardant de face, à gauche Léon III, visage
+                                 ourlé d’une courte barbe, plus grand que Constantin V, imberbe, à
+                                 droite ; chacun, revêtu de la chlamyde et coiffé de la couronne à
+                                 pendeloques surmontée d’une croix de perles, tient de la main
+                                 droite une longue croix, montée sur un globe, placée entre eux, la
+                                 main de Léon III posée sous celle de son fils.</figDesc>
+                              <figDesc n="r" xml:lang="en" ana="person male emperors">Two
+                                 half-length imperial effigies, looking straight ahead, with Leo III
+                                 on the left, his face framed by a short beard, taller than
+                                 Constantine V, beardless, on the right; each wearing a chlamys and
+                                 wearing a pendant crown surmounted by a pearl cross, holding in
+                                 their right hands a long cross mounted on a globe, placed between
+                                 them, Leo III's hand resting under that of his son.</figDesc>
+                              <figDesc n="decoR" xml:lang="fr">Cercle de grènetis</figDesc>
+                              <figDesc n="decoR" xml:lang="en">Circle of dots</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+               <msPart n="v">
+                  <msIdentifier/>
+                  <msContents>
+                     <summary n="v"><!-- ajouté ceci -->
+                        <seg xml:lang="en">Reverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="v">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="en">Linear legend of 6 lines;on a seventh line, the
+                                 indiction </p>
+                              <p xml:lang="fr">Légende linéaire sur 6 lignes; sur une septième
+                                 ligne, l'indiction</p>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="v">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="decoV" xml:lang="fr">Cercle de grènetis</figDesc>
+                              <figDesc n="decoV" xml:lang="en">Circle of dots</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2025-04-02" who="#PE">Creation of the XML record.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp>
+         <surface n="r">
+            <desc>Obverse</desc>
+            <graphic type="photo" url="CdN44665_1.jpg">
+               <desc xml:lang="en">CdN 044665, obverse</desc>
+               <desc xml:lang="fr">CdN 044665, avers</desc>
+            </graphic>
+         </surface>
+         <surface n="v">
+            <desc>Reverse</desc>
+            <graphic type="photo" url="CdN44665_2.jpg">
+               <desc xml:lang="en">CdN 044665, reverse</desc>
+               <desc xml:lang="fr">CdN 044665, revers</desc>
+            </graphic>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" subtype="editorial" xml:space="preserve"> 
+            <!--<div type="textpart" subtype="sigla" rend="columns" n="obv" xml:lang="grc">
+              <ab/></div>-->
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab ana="gen">
+                         <lb n="1"/>Τῶ<supplied reason="lost">ν</supplied> 
+                         <lb n="2"/><rs type="institution" ref="#org0036">βασιλικ
+                         <lb n="3" break="no"/>ῶν κομ
+                         <lb n="4" break="no"/>μερκίων</rs> 
+                         <lb n="5"/>τῶν <placeName ref="geo0016">Ἀνα
+                         <lb n="6" break="no"/>τολικῶν</placeName>
+                         <lb n="7"/><expan><abbr>ἰ</abbr><ex>νδικτιῶνος</ex></expan> Αʹ
+                      </ab>
+                  </div>
+              </div>
+         <div type="edition" subtype="diplomatic" xml:space="preserve"> 
+                 <!-- <div type="textpart" subtype="sigla" rend="columns" n="obv" xml:lang="grc">
+              <ab/>
+            </div>-->
+            <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab>
+                         <lb n="1"/>t̣.                      
+                         <lb n="2"/>Βασ̣ιλικ 
+                         <lb n="3"/>̣νκομ
+                         <lb n="4"/>μερκιν
+                         <lb n="5"/>τνν
+                         <lb n="6"/>τολικν̣ 
+                         <lb n="7"/>
+                         </ab>
+                  </div>
+              </div>
+         <div type="translation">
+            <p>Τῶν βασιλικῶν κομμερκίων τῶν Ἀνατολικῶν· ἰνδικτιῶνος Αʹ.</p>
+            <p xml:lang="en">(Seal of the)Imperial kommerkia of the Anatolikoi. First indiction</p>
+            <p xml:lang="fr">(Sceau des)Kommerkia impériaux des Anatoliques. Première indiction</p>
+         </div>
+         <div type="commentary" subtype="text">
+            <!-- renvois internes à refaire -->
+            <p xml:lang="en">This seal from the basilika kommerkia is one of the first to bear witness to the
+               change in the organization of commercial warehouses, which came under
+               public control. We know of four other seals of the kommerkia of the Anatolikoi,
+               which are almost contemporary <bibl>
+                  <ptr target="Brandes2002"/>, p. <citedRange unit="page">553, 555, 560
+                  </citedRange></bibl>: - the first is dated to the 14th indiction, or the year
+               730/731; - the second to the 2nd indiction, or the year 733/734; - the third is
+               dated to the indiction 3, or 734/735, and refers to the eparchies of the Anatolikoi; -
+               the fourth, with an identical legend, is also dated to the indiction 33. The geographical name
+               of the kommerkia has not yet been established. The theme is not a clear
+               administrative territorial reference. The formula κομμέρκια τῶν Ἀνατολικῶν refers to
+               the provinces of Galatia, Lycaonia, Cappadocia, etc., where the
+               troops of the Anatolian contingent are stationed. It is equivalent to τῶν ἐπαρχιῶν τῶν
+               Ἀνατολικῶν.</p>
+            <p xml:lang="en"/>
+            <p xml:lang="fr">Ce sceau des basilika kommerkia est un des premiers à témoigner du
+               changement dans l’organisation des entrepôts des commerciaires qui passent sous le
+               contrôle public. Nous connaissons quatre autres sceaux des kommerkia des Anatoliques,
+               quasi contemporains <bibl>
+                  <ptr target="Brandes2002"/>, p. <citedRange unit="page">553, 555, 560
+                  </citedRange></bibl> : - le premier est daté de l’indiction 14, soit l’année
+               730/731 ; - le second de l’indiction 2, soit l’année 733/734 ; - le troisième est
+               daté de l’indiction 3, soit 734/735, et se réfère aux éparchies des Anatoliques ; -
+               le quatrième, de légende identique, est aussi daté de l’indiction 33. Le nom
+               géographique des kommerkia n’est pas encore fixé. Le thème n’est pas une référence
+               administrative territoriale bien nette. Par la formule κομμέρκια τῶν Ἀνατολικῶν, il
+               faut comprendre les provinces Galatie, Lykaonie, Cappadoce..., où stationnent les
+               troupes du contingent des Anatoliques. Elle est équivalente à τῶν ἐπαρχιῶν τῶν
+               Ἀνατολικῶν.</p>
+            <p xml:lang="fr"/>
+         </div>
+         <div type="bibliography" subtype="edition">
+            <p><bibl>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">103</citedRange></bibl>
+               <bibl/>
+            </p>
+         </div>
+         <div type="bibliography" subtype="parallels">
+            <p/>
+         </div>
+         <div type="bibliography" subtype="discussion">
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

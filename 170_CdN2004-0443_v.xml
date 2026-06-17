@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en">Romanos Mousele, magistros</title>
+            <title xml:lang="fr">Romain Mousélé, magistre</title>
+            <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
+            <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+            <funder>
+               <orgName corresp="https://www.mahmah.ch/">MAH-Musée d'art et d'histoire - Genève,
+                  Cabinet de numismatique</orgName>, Suisse</funder>
+            <principal ref="#MCP"/>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <seg xml:lang="fr">Amélioration digitale</seg>
+               <seg xml:lang="en">Digital enhancement</seg>
+            </edition>
+            <editor role="digital-editor" xml:id="PE" when="2025-04-22">Pia Evening</editor>
+            <editor role="digital-editor" ref="#MCP" when="2026-03-18">Maria
+               Campagnolo-Pothitou</editor>
+         </editionStmt>
+         <publicationStmt>
+            <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
+            <idno type="filename">CdN 2004-0443</idno>
+            <idno type="SigiDocID"/>
+            <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+            <idno type="sequence">s-poGb2Y</idno>
+            <!--  to be compiled automatically; leave as is  -->
+            <date when="2024-08-06"/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                  >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                  4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listPerson type="issuer">
+               <person gender="M" role="civil aristocracy">
+                  <persName xml:lang="grc">
+                     <forename>Ῥωμανός</forename>/> <surname>Μουσελέ</surname>/> </persName>
+                  <persName xml:lang="fr">
+                     <forename>Romain</forename>/> <surname>Mousélé</surname>/> </persName>
+                  <persName xml:lang="en">
+                     <forename>Romanos</forename>/> <surname>Mousélé</surname>/> </persName>
+                  <idno type="PBW" ana="http://pbw2016.kdl.kcl.ac.uk/person/Romanos/20143/">Romanos
+                     201437</idno>
+
+                  <idno type="PBE"/>
+                  <idno type="PLP"/>
+                  <idno type="PLRE"/>
+                  <idno type="PcBE"/>
+                  <idno type="PmbZ"/>
+               </person>
+            </listPerson>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <seg xml:lang="en">Switzerland</seg>
+                     <seg xml:lang="fr">Suisse</seg>
+                  </country>
+                  <settlement>
+                     <seg xml:lang="en">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">City of
+                           Geneva</placeName>
+                     </seg>
+                     <seg xml:lang="fr">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">Ville de
+                           Genève</placeName>
+                     </seg>
+                  </settlement>
+                  <institution>MAH-Musée d'art et d'histoire</institution>
+                  <repository>Cabinet de numismatique</repository>
+                  <collection type="public">
+                     <rs type="collection-name" xml:lang="en">Byzantine seals collection</rs>
+                     <rs type="collection-name" xml:lang="fr">Collection de sceaux byzantins</rs>
+                  </collection>
+                  <idno type="inv-nr-current">CdN 2004-0443</idno>
+                  <altIdentifier>
+                     <repository/>
+                     <idno type="inv-nr-former"/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <!--https://github.com/SigiDoc/Guidelines/wiki/5.-Controlled-vocabularies#seals-category-->
+                  <summary n="whole">
+                     <seg xml:lang="fr">Dignitaires</seg>
+                     <seg xml:lang="en">Dignitaries</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>
+                              <term>
+                                 <seg xml:lang="fr">Sceau</seg>
+                                 <seg xml:lang="en">Seal</seg>
+                              </term>
+                              <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                              <interp type="workType" xml:lang="en">Original impression</interp>
+                           </objectType>
+                           <material>
+                              <seg xml:lang="fr">Plomb</seg>
+                              <seg xml:lang="en">Lead</seg>
+                           </material>
+                           <dimensions type="support" unit="mm">
+                              <dim type="diameter">31,67/28,72</dim>
+                              <!-- mesure du champ? -->
+                           </dimensions>
+                           <measure type="weight" unit="g">17,352</measure>
+                           <measure type="axis" unit="clock"/>
+                           <measure type="overstrikeOrient" unit="clock"/>
+                           <measure type="channelOrient" unit="clock">12-6</measure>
+                           <measure type="countermark" unit="clock"/>
+                        </support>
+                        <condition rend=" well-struck well-preserved chipped torn-channel">
+                           <p xml:lang="en">The bulla is well struck and well preserved although
+                              chipped at the openings of the channel and torn along it</p>
+                           <p xml:lang="fr">La bulle est bien frappée et bien conservé, même si
+                              échancrée aux orifices et fêlée le long du canal</p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout n="whole">
+                           <rs type="execution">
+                              <seg xml:lang="fr">Frappé</seg>
+                              <seg xml:lang="en">Struck</seg>
+                           </rs>
+                           <rs type="shape">
+                              <seg xml:lang="fr">Ronde</seg>
+                              <seg xml:lang="en">Round</seg>
+                           </rs>
+                           <rs type="matrix" subtype="not-surviving">
+                              <idno type="SigiDoc">m-lpSTsF</idno>
+                              <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+                              <idno type="PBW"/>
+                              <!-- to be used if the seal has a parallel in the PBW with a boulloterion registered there -->
+                           </rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <seg xml:lang="fr">
+                           <placeName/>
+                        </seg>
+                        <seg xml:lang="en">
+                           <placeName/>
+                        </seg>
+                     </origPlace>
+                     <origDate type="analysis" notBefore="1034" notAfter="1066"
+                        evidence="onomastics epigraphy prosopography titulature" cert="high"
+                        resp="#MCP #JCC">
+                        <seg xml:lang="en">Second third of the 11th century</seg>
+                        <seg xml:lang="fr">Second tiers du XIe siècle</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="transferred" subtype="donated" when="2004-11-24">
+                     <!-- pas sûr de subtype et when -->
+                     <p xml:lang="en">George Zacos collection</p>
+                     <p xml:lang="fr">Collection Georges Zacos</p>
+                  </provenance>
+                  <acquisition>
+                     <p xml:lang="en">Donation of the Migore Foundation, Janet Zakos legacy, <date
+                           when="2004-11-24">24th November 2004</date>
+                     </p>
+                     <p xml:lang="fr">Don de la Fondation Migore, legs Janet Zakos, <date
+                           when="2004-11-24">24 Novembre 2004</date>
+                     </p>
+                  </acquisition>
+               </history>
+               <msPart n="r">
+                  <msIdentifier/>
+                  <msContents>
+                     <!-- ajouté ceci -->
+                     <summary n="r">
+                        <seg xml:lang="en">Obverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="r">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="fr">Légende linéaire sur 5 lignes</p>
+                              <p xml:lang="en">Linear legend of 5 lines</p>
+                           </layout>
+                        </layoutDesc>
+
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="r">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="r" xml:lang="fr" ana="text"/>
+                              <figDesc n="r" xml:lang="en" ana="text"/>
+                              <figDesc n="decoR" xml:lang="fr">Cercle de perles inséré entre deux
+                                 cercles de grènetis; l'inscription est précédée d'une
+                                 croisette</figDesc>
+                              <figDesc n="decoR" xml:lang="en">Border of pearls inserted in two
+                                 circles of dots; the inscription is preceded by a
+                                 crosslet</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+               <msPart n="v">
+                  <msIdentifier/>
+                  <msContents>
+                     <summary n="v"><!-- ajouté ceci -->
+                        <seg xml:lang="en">Reverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="v">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="en">Linear legend of four lines</p>
+                              <p xml:lang="fr">Légende linéaire sur 4 lignes</p>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="v">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="decoR" xml:lang="fr">Cercle de perles inséré entre deux
+                                 cercles de grènetis; l'inscription est précédée d'une
+                                 croisette</figDesc>
+                              <figDesc n="decoR" xml:lang="en">Border of pearls inserted in two
+                                 circles of dots; the inscription is preceded by a
+                                 crosslet</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2025-04-22" who="#PE">Creation of the XML record.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp>
+         <surface n="r">
+            <desc>Obverse</desc>
+            <graphic type="photo" url="CdN2004-0443_1.jpg">
+               <desc xml:lang="en">CdN 2004-0443, obverse</desc>
+               <desc xml:lang="fr">CdN 2004-0443, avers</desc>
+            </graphic>
+         </surface>
+         <surface n="v">
+            <desc>Reverse</desc>
+            <graphic type="photo" url="CdN2004-0443_2.jpg">
+               <desc xml:lang="en">CdN 2004-0443, reverse</desc>
+               <desc xml:lang="fr">CdN 2004-0443, revers</desc>
+            </graphic>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" subtype="editorial" xml:space="preserve"> 
+            <div type="textpart" subtype="face" rend="linear" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab ana="dat">
+                 <lb n="1"/><rs type="invocation" ref="#inv002">Θεο
+                 <lb n="2" break="no"/>τόκε βω
+                 <lb n="3" break="no"/>ήθη τǫ σǫ 
+                 <lb n="4"/><expan><abbr>δούλ</abbr><ex>ῳ</ex></expan></rs> Ῥομ
+                 <lb n="5" break="no"/>ανǫ 
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab ana="dat">
+                         <lb n="6"/><rs type="dignity" ref="#d0038">μαγ
+                         <lb n="7" break="no"/>ήστρῳ</rs> 
+                         <lb n="8"/>τῷ Μου
+                         <lb n="9" break="no"/>σελέ
+                      </ab>
+                  </div>
+              </div>
+         <div type="edition" subtype="diplomatic" xml:space="preserve"> 
+                  <div type="textpart" subtype="face" rend="linear" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <lb n="1"/> Θεο               
+                 <lb n="2"/>τοκεr
+                 <lb n="3"/>ηθητοσο
+                 <lb n="4"/>δλ/ ρομ
+                 <lb n="5"/>ανο
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab>
+                         <lb n="6"/> Μαγ               
+                         <lb n="7"/>ηστρ
+                         <lb n="8"/>τμου
+                         <lb n="9"/>σελε
+                         </ab>
+                  </div>
+              </div>
+         <div type="translation">
+            <p>+ Θεοτόκε βωήθη τǫ σǫ δούλῳ Ῥομανǫ || μαγήστρῳ τῷ Μουσελέ.</p>
+            <p xml:lang="en">Mother of God, help your servant Romanos || Mousele, the magistros</p>
+            <p xml:lang="fr">Mère de Dieu, apporte ton secours à ton serviteur Romain || Mousélé, le
+               magistre</p>
+         </div>
+         <div type="commentary" subtype="text">
+            <!-- renvois internes à refaire -->
+            <p xml:lang="en">The surname Μωσηλέ, derived from the Armenian first name Mušel, is
+               attested in sigillography in several popular forms, such as Μουσηλέ / Μουσελέ /
+               Μουσουλέ . The first name Μουσέλιος also appears between the 7th and 9th
+                     centuries<bibl><ptr target="Zacos1"/>, n° <citedRange unit="entry"
+                     >3147</citedRange></bibl>; <bibl><ptr target="BulgurluIlasli2003"/>, n°
+                     <citedRange unit="entry">18, p. 140</citedRange></bibl>; Zacos (BnF) 4305,
+               inédit. The Mosele family rose to the highest ranks of the aristocracy as early as
+               the 8th century. Alexis was strategos of the Armeniakoi under Constantine VI; a
+               namesake, perhaps the grandson of the former, was appointed kaisar and for a time the
+               heir to the Emperor Theophilos; a third Alexis was drongarios of the fleet in 922
+               (PmbZ, n° 193, strategos of Armeniakoi ; n° 195, kaisar ; n° 21241, drongarios of the
+               fleet). Romanos is undoubtedly the magistros Mousoule mentioned on the seal of the
+               episkeptites Leon, struck in the first half of the 11th century: Λέοντι βασιλικῷ
+               σπαθαροκανδιδάτῳ καὶ ἐπισκευτίτῃ μαγήστρου τοῦ Μουσουλέ3. This identification permits
+               to assert that this family, influential in the 9th and 10th centuries, held vast
+               landholdings in Asia Minor. Alongside the Phokas and the Maleinoi, the Mosele are
+               mentioned in a novella from 996 concerning the land confiscations ordered by Basil II
+               to create imperial episkepseis4. Romanos is the only member of the family to have
+               been honored with such a high title in the 11th century. It seems that the Mosele
+               family also distinguished themselves in the following century. Michael, who can be
+               identified as the husband of Maria Xeraina, according to a 12th-century poem, was, on
+               the base to his seal, megas kourator and exaktor at the beginning of that century(BZS
+               1958.106.3913, unpublished). The Moseles attested to date by sigillography are the
+               following. They are all listed in <bibl><ptr target="Wassiliou-Seibt2011"/>, n°
+                     <citedRange unit="entry">1040</citedRange></bibl>: – Romanos Mosele, magistros,
+               according to a bulla bearing on the obverse a beautiful ornate patriarchal cross⁷
+               (10th/11th century, Zacos (BnF) 643, unpublished); he may have been the grandfather
+               of our signatory. An earlier namesake, active in 947, was, through his mother, the
+               grandson of Emperor Romanos Lekapenos (PmbZ, no. 26844); – George Mouseles,
+               protospatharios and strategos of Sogdiana (with the bust of Saint George, first half
+               of the 11th century, found in Sudak)⁸; – John Mousele, patrikios and notary to the
+               emperor (Virgin on the throne, 1084)<bibl><ptr target="Athens1917"/>, n° <citedRange
+                     unit="entry">432</citedRange></bibl> ; <bibl><ptr target="Athens2000"/>, n°
+                     <citedRange unit="entry">183</citedRange></bibl>; <bibl><ptr
+                     target="LaurentCorpus2"/>, n° <citedRange unit="entry">208</citedRange></bibl>;
+               – Theodore Mosele (second half of the 11th century)<bibl><ptr
+                     target="Wassiliou-Seibt2011"/>, n° <citedRange unit="entry"
+                  >1464</citedRange></bibl>; – Theodora Moselene, mystographissa (late 11th
+               century), wife of a mystographos and daughter of a Mousele, perhaps the notary John,
+               according to Laurent (BZS 1958.106.891)<bibl><ptr target="LaurentCorpus2"/>, n°
+                     <citedRange unit="entry">148</citedRange></bibl>; – Maria Mouselene (11th/12th
+               century)12; – another John Mosele, with no mention of office or title, according to
+               his seals (on the obverse, a standing Saint John the Baptist) (11th/12th
+                     century)<bibl><ptr target="Wassiliou-Seibt2011"/>, n° <citedRange unit="entry"
+                     >1040 et 1041</citedRange></bibl>; – another George Moseles, signatory of the
+               bulla presented in our catalog <bibl><ptr target="ZacosGenève"/>, n° <citedRange
+                     unit="entry">356</citedRange></bibl>.</p>
+            <p xml:lang="en"/>
+            <p xml:lang="fr">Le patronyme Μωσηλέ, dérivé du prénom arménien Mušel, est attesté en
+               sigillographie sous plusieurs formes populaires, telles Μουσηλέ / Μουσελέ / Μουσουλέ.
+               Le prénom Μουσέλιος apparaît aussi entre le viie et le IXe siècle<bibl><ptr
+                     target="Zacos1"/>, n° <citedRange unit="entry">3147</citedRange></bibl>;
+                     <bibl><ptr target="BulgurluIlasli2003"/>, n° <citedRange unit="entry">18, p.
+                     140</citedRange></bibl>; Zacos (BnF) 4305, inédit. Les Môsèlé parvinrent au
+               sommet de l’aristocratie, dès le VIIIe siècle. Alexis fut stratège des Arméniaques
+               sous Constantin VI, un homonyme, peut-être le petit-fils du premier, fut nommé césar
+               et un temps l’héritier présomptif de l’Empire sous l’empereur Théophile, un troisième
+               Alexis était drongaire de la flotte en 922 (PmbZ, n° 193, le stratège des
+               Arméniaques) ; n° 195, le césar) ; n° 21241, le drongaire de la flotte). Romain est
+               sans doute le magistre Mousoulé mentionné sur le sceau de l’épiskeptitès Léon, frappé
+               dans la première moitié du XIe siècle : Λέοντι βασιλικῷ σπαθαροκανδιδάτῳ καὶ
+               ἐπισκευτίτῃ μαγήστρου τοῦ Μουσουλέ3. L’identification est d’autant plus probable que
+               cette famille, influente aux IXe et Xe siècles, détenait de vastes biens fonciers en
+               Asie Mineure. À côté des Phocas et des Maléinoi, les Môsèlé sont cités dans une
+               novelle de 996 à propos des confiscations de terres ordonnées par Basile II pour
+               créer des épiskepseis impériales4. Romain est le seul représentant de la famille
+               honoré d’un si haut titre au XIe siècle. Les Môsèlé se distinguent à nouveau,
+               semble-t-il, au siècle suivant. Michel, qu’on peut identifier à l’époux de Marie
+               Xèraina, d’après un poème du XIIe siècle, fut, selon son sceau, grand curateur et
+               exaktôr au début de ce siècle (BZS 1958.106.3913, inédit).Les Môsèlé attestés à ce
+               jour par la sigillographie sont répertoriés dans <bibl><ptr
+                     target="Wassiliou-Seibt2011"/>, n° <citedRange unit="entry"
+                  >1040</citedRange></bibl> : – Romain Mosèlé, magistre, selon une bulle portant au
+               droit une belle croix patriarcale ornementée (Xe/XIe siècle, Zacos (BnF) 643,
+               inédit.) ; il pourrait être le grand-père de notre sigillant. Un homonyme plus ancien,
+               actif en 947, se trouvait être, par sa mère, le petit-fils de l’empereur Romain
+               Lécapène (PmbZ, n° 26844) ; – Georges Mousèlés, protospathaire et stratège de Sougda
+               (au buste de saint Georges, dans la première moitié du XIe siècle, trouvé à Soudak)8
+               ; – Jean Mousèlé, patrice et notaire impérial (Vierge au trône, 1084)<bibl><ptr
+                     target="Athens1917"/>, n° <citedRange unit="entry">432</citedRange></bibl> ;
+                     <bibl><ptr target="Athens2000"/>, n° <citedRange unit="entry"
+                  >183</citedRange></bibl>; <bibl><ptr target="LaurentCorpus2"/>, n° <citedRange
+                     unit="entry">208</citedRange></bibl> – Théodore Môsèlé (seconde moitié du XIe
+               siècle)(second half of the 11th century)<bibl><ptr target="Wassiliou-Seibt2011"/>, n°
+                     <citedRange unit="entry">1464</citedRange></bibl> ; – Théodora Môsèlénè,
+               mystographissa (fin du XIe siècle), épouse d’un mystographe et fille d’un Mousèlé,
+               peut-être le notaire Jean, selon Laurent (BZS 1958.106.891)<bibl><ptr
+                     target="LaurentCorpus2"/>, n° <citedRange unit="entry">148</citedRange></bibl>
+               ; – Marie Mousèlénè (XIe/XIIe siècle)<bibl><ptr target="Cheynet2008d"/>, p.
+                     <citedRange unit="page">193</citedRange></bibl> ; – un autre Jean Môsèlé, sans
+               mention de fonction ou dignité, selon ses sceaux (au droit, saint Jean Baptiste en
+               pied, XIe/XIIe siècle) <bibl><ptr target="Wassiliou-Seibt2011"/>, n° <citedRange
+                     unit="entry">1040 et 1041</citedRange></bibl>; – un autre Georges Môsèlès,
+               signataire de la bulle présentée aussi dans notre catalogue <bibl><ptr
+                     target="ZacosGenève"/>, n° <citedRange unit="entry"
+               >356</citedRange></bibl>.</p>
+            <p xml:lang="fr"/>
+         </div>
+         <div type="bibliography" subtype="edition">
+            <p><bibl><ptr target="ZacosGenève"/>, n° <citedRange unit="entry"
+                  >170</citedRange></bibl>; <bibl><ptr target="ZacosSpink1"/>, n° <citedRange
+                     unit="entry">85</citedRange></bibl>
+               <bibl/>
+            </p>
+         </div>
+         <div type="bibliography" subtype="parallels">
+            <p/>
+         </div>
+         <div type="bibliography" subtype="discussion">
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

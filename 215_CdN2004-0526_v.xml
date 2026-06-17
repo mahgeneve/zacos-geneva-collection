@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en">Liberos, sebastos</title>
+            <title xml:lang="fr">Libéros, sébaste</title>
+            <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
+            <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+            <funder>
+               <orgName corresp="https://www.mahmah.ch/">MAH-Musée d'art et d'histoire - Genève,
+                  Cabinet de numismatique</orgName>, Suisse</funder>
+            <principal ref="#MCP"/>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <seg xml:lang="fr">Amélioration digitale</seg>
+               <seg xml:lang="en">Digital enhancement</seg>
+            </edition>
+            <editor role="digital-editor" xml:id="PE" when="2025-04-22">Pia Evening</editor>
+            <editor role="digital-editor" ref="#MCP" when="2026-06-11">Maria
+               Campagnolo-Pothitou</editor>
+         </editionStmt>
+         <publicationStmt>
+            <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
+            <idno type="filename">CdN 2004-0526</idno>
+            <idno type="SigiDocID">s-NiLqsh</idno>
+            <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+            <idno type="sequence"/>
+            <!--  to be compiled automatically; leave as is  -->
+            <date when="2024-08-06"/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                  >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                  4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listPerson type="issuer">
+               <person gender="M" role=" aristocracy">
+                  <persName xml:lang="grc">
+                     <forename>Λιβέρος</forename>
+                     <surname/>
+                  </persName>
+                  <persName xml:lang="fr">
+                     <forename>Libéros</forename>/> <surname/>
+                  </persName>
+                  <persName xml:lang="en">
+                     <forename>Liberos</forename>/> <surname/>
+                  </persName>
+                  <idno type="PBW"/>
+                  <idno type="PBE"/>
+                  <idno type="PLP"/>
+                  <idno type="PLRE"/>
+                  <idno type="PcBE"/>
+                  <idno type="PmbZ"/>
+               </person>
+            </listPerson>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <seg xml:lang="en">Switzerland</seg>
+                     <seg xml:lang="fr">Suisse</seg>
+                  </country>
+                  <settlement>
+                     <seg xml:lang="en">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">City of
+                           Geneva</placeName>
+                     </seg>
+                     <seg xml:lang="fr">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">Ville de
+                           Genève</placeName>
+                     </seg>
+                  </settlement>
+                  <institution>MAH-Musée d'art et d'histoire</institution>
+                  <repository>Cabinet de numismatique</repository>
+                  <collection type="public">
+                     <rs type="collection-name" xml:lang="en">Byzantine seals collection</rs>
+                     <rs type="collection-name" xml:lang="fr">Collection de sceaux byzantins</rs>
+                  </collection>
+                  <idno type="inv-nr-current">CdN 2004-0526</idno>
+                  <altIdentifier>
+                     <repository/>
+                     <idno type="inv-nr-former"/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <!--https://github.com/SigiDoc/Guidelines/wiki/5.-Controlled-vocabularies#seals-category-->
+                  <summary n="whole">
+                     <seg xml:lang="fr">Dignitaires</seg>
+                     <seg xml:lang="en">Dignitaries</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>
+                              <term>
+                                 <seg xml:lang="fr">Sceau</seg>
+                                 <seg xml:lang="en">Seal</seg>
+                              </term>
+                              <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                              <interp type="workType" xml:lang="en">Original impression</interp>
+                           </objectType>
+                           <material>
+                              <seg xml:lang="fr">Plomb</seg>
+                              <seg xml:lang="en">Lead</seg>
+                           </material>
+                           <dimensions type="support" unit="mm">
+                              <dim type="diameter">36,80/34,28</dim>
+                              <!-- mesure du champ? -->
+                           </dimensions>
+                           <measure type="weight" unit="g">37,917</measure>
+                           <measure type="axis" unit="clock"/>
+                           <measure type="overstrikeOrient" unit="clock"/>
+                           <measure type="channelOrient" unit="clock">12-7</measure>
+                           <measure type="countermark" unit="clock"/>
+                        </support>
+                        <condition rend="well-struck well-preserved chipped">
+                           <p xml:lang="en">The bulla is well struck and well preserved, slightly
+                              chipped at the upper opening of the channel</p>
+                           <p xml:lang="fr">La bulle est bien frappée et bien conservée, légèrement
+                              échancrée à l'orifice supérieur du canal</p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout n="whole">
+                           <rs type="execution">
+                              <seg xml:lang="fr">Frappé</seg>
+                              <seg xml:lang="en">Struck</seg>
+                           </rs>
+                           <rs type="shape">
+                              <seg xml:lang="fr">Ronde</seg>
+                              <seg xml:lang="en">Round</seg>
+                           </rs>
+                           <rs type="matrix" subtype="not-surviving">
+                              <idno type="SigiDoc">m-lyzcHg</idno>
+                              <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+                              <idno type="PBW"/>
+                              <!-- to be used if the seal has a parallel in the PBW with a boulloterion registered there -->
+                           </rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <seg xml:lang="fr">
+                           <placeName/>
+                        </seg>
+                        <seg xml:lang="en">
+                           <placeName/>
+                        </seg>
+                     </origPlace>
+                     <origDate type="analysis" notBefore="1201" notAfter="1300"
+                        evidence="epigraphy parallel" cert="high" resp="#MCP #JCC">
+                        <seg xml:lang="en">13th century</seg>
+                        <seg xml:lang="fr">XIIIe siècle</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="transferred" subtype="donated" when="2004-11-24">
+                     <!-- pas sûr de subtype et when -->
+                     <p xml:lang="en">George Zacos collection</p>
+                     <p xml:lang="fr">Collection Georges Zacos</p>
+                  </provenance>
+                  <acquisition>
+                     <p xml:lang="en">Donation of the Migore Foundation, Janet Zakos legacy, <date
+                           when="2004-11-24">24th November 2004</date>
+                     </p>
+                     <p xml:lang="fr">Don de la Fondation Migore, legs Janet Zakos, <date
+                           when="2004-11-24">24 Novembre 2004</date>
+                     </p>
+                  </acquisition>
+               </history>
+               <msPart n="r">
+                  <msIdentifier/>
+                  <msContents>
+                     <!-- ajouté ceci -->
+                     <summary n="r">
+                        <seg xml:lang="en">Obverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="r">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="fr">Iconographie avec épigraphes en colonne de part et
+                                 d'autre de l'effigie</p>
+                              <p xml:lang="en">Iconography with epigraphs on columns on either side
+                                 of the effigy</p>
+                           </layout>
+                        </layoutDesc>
+
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="r">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="r" xml:lang="fr" ana="person male prophet Daniel">Le
+                                 prophète Daniel en pied, de face, visage plein, imberbe, doté d’une
+                                 courte chevelure bouclée, vêtu d’un habit persan, dans l’attitude
+                                 de la prière. Il est accosté de deux lions s’apprêtant à lui lécher
+                                 les pieds.</figDesc>
+                              <figDesc n="r" xml:lang="en" ana="person male saint Daniel">The
+                                 prophet Daniel full-length, beardless, with short curly hair, clad
+                                 with a Persian robe, in a posture of prayer. He is flanked by two
+                                 lions preparing to lick his feet.</figDesc>
+                              <figDesc n="decoR" xml:lang="fr">Cercle de fin grènetis</figDesc>
+                              <figDesc n="decoR" xml:lang="en">Border of fine dots</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+               <msPart n="v">
+                  <msIdentifier/>
+                  <msContents>
+                     <summary n="v"><!-- ajouté ceci -->
+                        <seg xml:lang="en">Reverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="v">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="en">Linear metrical legend of 7 lines</p>
+                              <p xml:lang="fr">Légende métrique linéaire sur 7 lignes</p>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="v">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="decoV" xml:lang="fr">Cercle de fin grènetis; la légende
+                                 est surmontée d’une croisette et terminée par un triangle de
+                                 perles</figDesc>
+                              <figDesc n="decoV" xml:lang="en">Border of fine dots; the legend is
+                                 surmounted by a crosslet and ended up by a triangle of
+                                 dots</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2025-04-22" who="#PE">Creation of the XML record.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp>
+         <surface n="r">
+            <desc>Obverse</desc>
+            <graphic type="photo" url="CdN2004-0526_1.jpg">
+               <desc xml:lang="en">CdN 2004-0526, obverse</desc>
+               <desc xml:lang="fr">CdN 2004-0526, avers</desc>
+            </graphic>
+         </surface>
+         <surface n="v">
+            <desc>Reverse</desc>
+            <graphic type="photo" url="CdN2004-0526_2.jpg">
+               <desc xml:lang="en">CdN 2004-0526, reverse</desc>
+               <desc xml:lang="fr">CdN 2004-0526, revers</desc>
+            </graphic>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" subtype="editorial" xml:space="preserve"> 
+            <div type="textpart" subtype="label" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="a"/>Ὁ προφίτης 
+                 <cb n="b"/>Δανιήλ
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <lg type="metrical" met="dodecasyllable">
+                         <l n="1">
+                            <lb n="1"/>Κριτὴς Δα
+                            <lb n="2" break="no"/>νιὴλ καὶ γρ
+                            <lb n="3" break="no"/>αφῶν νῦν π
+                            <lb n="4" break="no"/>ροστάτης</l> <l n="2">τελεῖ 
+                            <lb n="5"/><rs type="dignity" ref="#d0075">σεβαστοῦ</rs> Λιβέρου 
+                            <lb n="6"/>πράξεις κρί
+                            <lb n="7" break="no"/><supplied reason="lost">ν</supplied>ων
+                         </l>
+                      </lg>
+                  </div>
+              </div>
+         <div type="edition" subtype="diplomatic" xml:space="preserve"> 
+                  <div type="textpart" subtype="label" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="a"/>Ο||οφι|τη|ς 
+                 <cb n="b"/>|α|νι|ηλ
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab>
+                         <lb n="0"/>    
+                         <lb n="1"/>κριτησα                          
+                         <lb n="2"/>ιηλκαιγρ
+                         <lb n="3"/>αφυπ
+                         <lb n="4"/>ροαστελει
+                         <lb n="5"/>σεβαλιβερ
+                         <lb n="6"/>πραεισκρι
+                         <lb n="7"/>.̣̣̣
+                         </ab>
+                  </div>
+              </div>
+         <div type="translation">
+            <p>Ὁ προφίτης Δανιήλ. || + Κριτὴς Δανιὴλ καὶ γραφῶν νῦν προστάτης τελεῖ σεβαστοῦ Λιβέρου
+               πράξεις κρίνων.</p>
+            <p xml:lang="fr">Le prophète Daniel. || + Le juge Daniel est le protecteur des écrits du
+               sébaste Libéros, portant un jugement sur ses actes.</p>
+            <p xml:lang="en">The prophet Daniel. || + The judge Daniel is the protector of the
+               writings of the sebastos Liberos, judging his acts.</p>
+         </div>
+         <div type="commentary" subtype="text">
+            <!-- renvois internes à refaire -->
+            <p xml:lang="en">Dating the seal is difficult. W. Seibt dates it to the late 12th
+               century or early 13th century. The epigraphic characters on this unique lead seal
+               (notably the letters , the closed B, and ) allow it to be dated to the 13th
+               century, without extending into the 14th century, as suggested by V. Laurent <bibl>
+                  <ptr target="Vatican"/>, n° <citedRange unit="entry">130</citedRange></bibl>
+               <bibl/>. Furthermore, the scholar rightly points out the inconsistency between the
+               iconography, depicting the miracle performed on the prophet in the lions’ den, and
+               the legend, which alludes to Daniel’s role in the trial of Susanna. Moreover,
+               according to Laurent, the donor is himself the judge, a hypothesis that seems quite
+               plausible. The surname appears in Byzantine and Serbian documents (Oliber) only in
+               the 14th century, most probably of Western origin, Olivier or Oliver: – in the second
+               half of the 14th century, John Oliver was prince of Lesnovo (now in the Republic of
+               Macedonia), where Greek populations also lived, and enjoyed the favor of Emperor John
+               Kantakouzenos (1347–1354), who sought the aid of King Stephen Dušan. The emperor even
+               promised Oliver to give his daughter in marriage to his son Manuel (PLP, n° 14888).
+               His contacts with Kantakouzenos are said to have sparked Oliver’s interest in
+               Byzantine culture and would explain why he had a seal made in his name, in the Greek
+               language. However, the datation of the bulla in the beginning of the century and the
+               dignity of sebastos, too modest for un future imperial sympetheros diminish the
+               probability that the signatory is Oliver. The pansebastos sebastos Manuel Liberos,
+               doux of the Boleron and Mosynopolis theme is mentioned in a horismos of Andronikos II
+               in 1334. However, his identification to our signatory, as proposed by Kyriakides (cf.
+               Laurent)seems to be excluded. Parallèles : (a) Ermitage, M-8211 (anc. coll.</p>
+            <p xml:lang="en"/>
+            <p xml:lang="fr">La datation du sceau est difficile. W. Seibt le date de la fin du XIIe
+               siècle ou du début du XIIIe siècle. Les caractères épigraphiques de ce plomb unique
+               (notamment les lettres , le B fermé et ) autorisent à le dater du xiiie siècle,
+               sans aller jusqu’au xive siècle, comme l’a suggéré V. Laurent dans la longue notice
+               qu’il a consacrée à la pièce parallèle du Vatican. Par ailleurs, le savant remarque,
+               à juste titre, l’incohérence entre l’iconographie, représentant le miracle dont le
+               prophète fut l’objet dans la fosse aux lions, et la légende, qui fait allusion au
+               rôle de Daniel dans le jugement de Suzanne. Au reste, selon Laurent, le sigillant est
+               lui-même juge, hypothèse assez vraisemblable. Le patronyme n’apparaît dans des
+               documents byzantins et serbes (Oliber) qu’au XIVe siècle et semble être d’origine
+               occidentale, Olivier ou Oliver : – dans la seconde moitié du xive siècle, Jean Oliver
+               était prince de Lesnovo (aujourd’hui en république de Macédoine), où vivaient aussi
+               des populations grecques, et jouissait de la faveur de l’empereur Jean Cantacuzène
+               (1347-1354), qui cherchait l’aide du kral Stephan Dušan. Cantacuzène promit même à
+               Oliver de donner en mariage sa fille à son fils Manuel (PLP, n° 14888). Les contacts
+               avec Cantacuzène auraient suscité l’intérêt d’Oliver pour la culture byzantine et
+               expliqueraient qu’il ait fait frapper un sceau à son nom, en langue grecque.
+               Cependant, la datation de la bulle au début du siècle et la dignité, trop modeste
+               pour un futur sympenthéros de l’empereur, infirment le rapprochement d’Oliver avec le
+               propriétaire de notre plomb ; – le pansébaste sébaste Manuel Libéros, duc du thème de
+               Boléron et Mosynopolis, est mentionné dans un horismos d’Andronic II de 1334 (PLP, n° 14889). Son
+               rapprochement avec notre sigillant, proposé par Kyriakidès et signalé par V. Laurent,
+               paraît exclu.</p>
+            <p xml:lang="fr"/>
+         </div>
+         <div type="bibliography" subtype="edition">
+            <p><bibl> <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">215</citedRange></bibl>
+               <bibl/>
+            </p>
+         </div>
+         <div type="bibliography" subtype="parallels">
+            <p> Ermitage, M-8211:</p>
+            
+            <p> Varsovie, Musée national:
+               <bibl> <ptr target="Warsaw1966"/>, n° <citedRange unit="entry">59</citedRange></bibl></p>
+            <p> BZS.1951.31.5.2:
+               <bibl> <ptr target="DOsealsOnline"/>, n° <citedRange unit="entry">BZS.1951.31.5.2</citedRange></bibl></p>
+            <p> Musée de Bucarest (anc. coll. Severeanu)</p>
+         </div>
+         <div type="bibliography" subtype="discussion">
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

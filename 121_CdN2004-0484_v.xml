@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en">Kosmas, stratelates (?) and general kommerkiarios of the apotheke
+               of the First and Second Cappadocia</title>
+            <title xml:lang="fr">Kosmas, stratèlate (?) et commerciaire général de l’apothèque de
+               Première et Seconde Cappadoce</title>
+            <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
+            <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+            <funder>
+               <orgName corresp="https://www.mahmah.ch/">MAH-Musée d'art et d'histoire - Genève,
+                  Cabinet de numismatique</orgName>, Suisse</funder>
+            <principal ref="#MCP"/>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <seg xml:lang="fr">Amélioration digitale</seg>
+               <seg xml:lang="en">Digital enhancement</seg>
+            </edition>
+            <editor role="digital-editor" xml:id="PE" when="2025-04-14">Pia Evening</editor>
+            <editor role="digital-editor" ref="#MCP" when="2026-01-26">Maria Campagnolo-Pothitou</editor>
+         </editionStmt>
+         <publicationStmt>
+            <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
+            <idno type="filename">CdN 2004-0484</idno>
+            <idno type="SigiDocID">s-ESZ6DL</idno>
+            <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+            <idno type="sequence"/>
+            <!--  to be compiled automatically; leave as is  -->
+            <date when="2024-08-06"/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                  >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                  4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listPerson type="issuer">
+               <person gender="M" role="civil aristocracy">
+                  <persName xml:lang="grc">
+                     <forename>Κοσμᾶς</forename>
+                     <surname/>
+                  </persName>
+                  <persName xml:lang="fr">
+                     <forename>Kosmas</forename>
+                     <surname/>
+                  </persName>
+                  <persName xml:lang="en">
+                     <forename>Kosmas</forename>
+                     <surname/>
+                  </persName>
+                  <idno type="PBW"/>
+
+                  <idno type="PBE"/>
+                  <idno type="PLP"/>
+                  <idno type="PLRE"/>
+                  <idno type="PcBE"/>
+                  <idno type="PmbZ" ana= "https://www.degruyterbrill.com/database/PMBZ/entry/PMBZ15221/html/"></idno>
+               </person>
+            </listPerson>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <seg xml:lang="en">Switzerland</seg>
+                     <seg xml:lang="fr">Suisse</seg>
+                  </country>
+                  <settlement>
+                     <seg xml:lang="en">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">City of
+                           Geneva</placeName>
+                     </seg>
+                     <seg xml:lang="fr">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">Ville de
+                           Genève</placeName>
+                     </seg>
+                  </settlement>
+                  <institution>MAH-Musée d'art et d'histoire</institution>
+                  <repository>Cabinet de numismatique</repository>
+                  <collection type="public">
+                     <rs type="collection-name" xml:lang="en">Byzantine seals collection</rs>
+                     <rs type="collection-name" xml:lang="fr">Collection de sceaux byzantins</rs>
+                  </collection>
+                  <idno type="inv-nr-current">CdN 2004-0484</idno>
+                  <altIdentifier>
+                     <repository/>
+                     <idno type="inv-nr-former"/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <!--https://github.com/SigiDoc/Guidelines/wiki/5.-Controlled-vocabularies#seals-category-->
+                  <summary n="whole">
+                     <seg xml:lang="fr">Administration provinciale</seg>
+                     <seg xml:lang="en">Provincial administration</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>
+                              <term>
+                                 <seg xml:lang="fr">Sceau</seg>
+                                 <seg xml:lang="en">Seal</seg>
+                              </term>
+                              <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                              <interp type="workType" xml:lang="en">Original impression</interp>
+                           </objectType>
+                           <material>
+                              <seg xml:lang="fr">Plomb</seg>
+                              <seg xml:lang="en">Lead</seg>
+                           </material>
+                           <dimensions type="support" unit="mm">
+                              <dim type="diameter">43,03/38,01</dim>
+                              <!-- mesure du champ? -->
+                           </dimensions>
+                           <measure type="weight" unit="g">45,463</measure>
+                           <measure type="axis" unit="clock"/>
+                           <measure type="overstrikeOrient" unit="clock"/>
+                           <measure type="channelOrient" unit="clock">1-7</measure>
+                           <measure type="countermark" unit="clock"/>
+                        </support>
+                        <condition rend="well-struck obliterated chipped">
+                           <p xml:lang="en">The bulla is well-struck but not well-preserved. The two
+                              sides are rather obliterated and chipped at the openings of the
+                              channel.</p>
+                           <p xml:lang="fr">La bulle est bien frappée mais moyennment bien
+                              conservée. Les deux faces sont passablement écrasées, cassée aussi aux
+                              orifices du canal.</p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout n="whole">
+                           <rs type="execution">
+                              <seg xml:lang="fr">Frappé</seg>
+                              <seg xml:lang="en">Struck</seg>
+                           </rs>
+                           <rs type="shape">
+                              <seg xml:lang="fr">Ronde</seg>
+                              <seg xml:lang="en">Round</seg>
+                           </rs>
+                           <rs type="matrix" subtype="not-surviving">
+                              <idno type="SigiDoc">m-7gzAT1</idno>
+                              <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+                              <idno type="PBW"/>
+                              <!-- to be used if the seal has a parallel in the PBW with a boulloterion registered there -->
+                           </rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <seg xml:lang="fr">
+                           <placeName/>
+                        </seg>
+                        <seg xml:lang="en">
+                           <placeName/>
+                        </seg>
+                     </origPlace>
+                     <origDate type="internal" notBefore="0689" notAfter="0690" when-custom="0003"
+                        datingMethod="https://www.wikidata.org/wiki/Q1339127"
+                        evidence="internal-date prosopography titulature">
+                        <seg xml:lang="en">Indiction 3, corresponding to the year 689/690</seg>
+                        <seg xml:lang="fr">Indiction 3, soit l’année 689/690</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="transferred" subtype="donated" when="2004-11-24">
+                     <!-- pas sûr de subtype et when -->
+                     <p xml:lang="en">George Zacos collection</p>
+                     <p xml:lang="fr">Collection Georges Zacos</p>
+                  </provenance>
+                  <acquisition>
+                     <p xml:lang="en">Donation of the Migore Foundation, Janet Zakos legacy, <date
+                           when="2004-11-24">24th November 2004</date>
+                     </p>
+                     <p xml:lang="fr">Don de la Fondation Migore, legs Janet Zakos, <date
+                           when="2004-11-24">24 Novembre 2004</date>
+                     </p>
+                  </acquisition>
+               </history>
+               <msPart n="r">
+                  <msIdentifier/>
+                  <msContents>
+                     <!-- ajouté ceci -->
+                     <summary n="r">
+                        <seg xml:lang="en">Obverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="r">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="fr">Iconographie avec inscription circulaire et symboles
+                                 dans le champ</p>
+                              <p xml:lang="en">Iconography with circular inscription and symbols in
+                                 the field</p>
+                           </layout>
+                        </layoutDesc>
+
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="r">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="r" xml:lang="fr" ana="person male emperor">Au centre du
+                                 champ, l’empereur Justinien II en pied, de face, barbu, cheveux
+                                 bouffants, vêtu du chitôn et de la chlamyde, coiffé d’une couronne
+                                 à pendilia surmontée d’une croisette, tenant le globe crucigère en
+                                 main droite et l’akakia en main gauche. Dans le champ inférieur, de
+                                 part et d’autre de l’effigie, à gauche la lettre Γ, crosse tournée
+                                 vers la gauche, soit . À droite, une forme proche d’un
+                                 I.</figDesc>
+                              <figDesc n="r" xml:lang="en" ana="person male emperor">In the center
+                                 of the field, Emperor Justinian II is depicted full-length, facing
+                                 forward, bearded, with puffed hair, dressed in a chiton and
+                                 chlamys, wearing a pendilia crown surmounted by a small cross,
+                                 holding the cruciferous globe in his right hand and the akakia in
+                                 his left. In the lower field, on either side of the effigy, on the
+                                 left is the letter Γ, with the crosier turned to the left, i.e. .
+                                 On the right, a shape similar to an I.</figDesc>
+                              <figDesc n="decoR" xml:lang="fr">Bordure continue; l'inscription,
+                                 partiellement disaprue, commence au sommet.</figDesc>
+                              <figDesc n="decoR" xml:lang="en">Continuous border; the inscription,
+                                 partially missing, begins at the top.</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+               <msPart n="v">
+                  <msIdentifier/>
+                  <msContents>
+                     <summary n="v"><!-- ajouté ceci -->
+                        <seg xml:lang="en">Reverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="v">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="en">Linear legend of 6 lines</p>
+                              <p xml:lang="fr">Légende linéaire sur 6 lignes</p>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="v">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="decoV" xml:lang="fr">Bordure continue</figDesc>
+                              <figDesc n="decoV" xml:lang="en">Continuous border</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2025-04-14" who="#PE">Creation of the XML record.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp>
+         <surface n="r">
+            <desc>Obverse</desc>
+            <graphic type="photo" url="CdN2004-0484_1.jpg">
+               <desc xml:lang="en">CdN 2004-0484, obverse</desc>
+               <desc xml:lang="fr">CdN 2004-0484, avers</desc>
+            </graphic>
+         </surface>
+         <surface n="v">
+            <desc>Reverse</desc>
+            <graphic type="photo" url="CdN2004-0484_2.jpg">
+               <desc xml:lang="en">CdN 2004-0484, reverse</desc>
+               <desc xml:lang="fr">CdN 2004-0484, revers</desc>
+            </graphic>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" subtype="editorial" xml:space="preserve"> 
+            <div type="textpart" subtype="face" rend="circular" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab ana="gen">
+                 <lb n="1"/>Κοσμᾶ <gap reason="lost" extent="unknown" unit="character"/> γενικοῦ
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab ana="gen">
+                         <lb n="2"/><rs type="office" subtype="civil" ref="#of0103">κομμ
+                         <lb n="3" break="no"/>ερκιαρί
+                         <lb n="4" break="no"/>ου</rs> <rs type="institution" ref="#org0045">ἀποθή
+                         <lb n="5" break="no"/>κης</rs> A <expan><abbr><am>S</am></abbr><ex>καὶ</ex></expan> B <placeName ref="#geo0021">Κ
+                         <lb n="6" break="no"/>αππαδο
+                         <lb n="7" break="no"/><supplied reason="lost">κ</supplied>ί<supplied reason="lost">α</supplied>ς</placeName>
+                      </ab>
+                  </div>
+              </div>
+         <div type="edition" subtype="diplomatic" xml:space="preserve"> 
+                  <div type="textpart" subtype="face" rend="circular" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <lb n="1"/>.κ̣οσμα̣  γ̣ενικου
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab>
+                         <lb n="2"/>Κομμ                          
+                         <lb n="3"/>ερκιαρι
+                         <lb n="4"/>ουαποθη
+                         <lb n="5"/>κησαβ̣κ̣ 
+                         <lb n="6"/>α̣ππαδο
+                         <lb n="7"/>.ι.σ
+                         </ab>
+                  </div>
+              </div>
+         <div type="translation">
+            <p>Κοσμᾶ [ ... ] γενικοῦ || κομμερκιαρίου ἀποθήκης A καὶ B Καππαδοκίας.</p>
+            <p xml:lang="en">(of)Kosmas [ ... ]general || kommerkiarios of the apotheke of the First
+               and Second Cappadocia</p>
+            <p xml:lang="fr">(de) Kosmas [ ... ] commerciaire ||général de l’apothèque de
+               Première et Seconde Cappadoce</p>
+         </div>
+         <div type="commentary" subtype="text">
+            <!-- renvois internes à refaire -->
+            <p xml:lang="en"/>
+            <p xml:lang="fr"/>
+            <p xml:lang="fr">D'après F. Montinaro le Γ inversé est une maladresse du graveur et qu'il faut lire 3 indiction.</p>
+            <p xml:lang="fr">La datation de ce sceau à une troisième indiction permet de le rapprocher
+               par son style d’un autre plomb, frappé par Kosmas durant la même indiction,
+               où il exerçait aussi dans l’apothèque de Lazique, Kérasonte et
+               Trébizonde1, et de retenir la date de 689/690, seule plausible parce qu’elle
+               correspond à l’iconographie impériale. La partie manquante de la légende
+               circulaire comportait la dignité du commerciaire. La lettre initiale est illisible
+               mais, sur nombre de ses plombs, Kosmas est titré stratèlate, en
+               679/680 jusqu’en 689/6902. À partir de 689-691, devenu commerciaire
+               général de l’apothèque de Constantinople, il fut promu apo hypatôn<bibl>
+                  <ptr target="Zacos1"/>, n° <citedRange unit="entry">171</citedRange></bibl>; <bibl>
+                     <ptr target="DOseals5"/>, n° <citedRange unit="entry">23.10</citedRange></bibl>.
+               La carrière de Kosmas est minutieusement retracée par G. Zacos et
+               A. Veglery (I, p. 147-148), grâce aux nombreux sceaux qu’il a laissés, en
+               grande partie publiés dans le même ouvrage. Sous le règne de
+               Constantin IV d’abord, puis surtout sous celui de Justinien II, Kosmas a
+               assumé la charge de commerciaire général dans plusieurs places frontalières
+               de l’Empire, de la Lazique à la Pamphylie, en servant parfois dans
+               plusieurs provinces, mais aussi à Constantinople. En 687/688, Kosmas
+               avait une première fois exercé sa charge dans les deux Cappadoce<bibl>
+                  <ptr target="Zacos1"/>, n° <citedRange unit="entry">160</citedRange></bibl>;<bibl>
+                     <ptr target="DOseals4"/>, n° <citedRange unit="entry">43.7</citedRange></bibl>.
+               À l’époque de Kosmas, les commerciaires étaient honorés de très hautes
+               dignités et faisaient partie de l’entourage de l’empereur. L’iconographie des
+               sceaux des commerciaires de cette période – unique en sigillographie –
+               souligne aussi l’importance de ce commerce : à l’instar de l’effigie de l’empereur
+               sur les monnaies, qui seule garantissait leur bon aloi, la qualité de la
+               marchandise qui arrivait ou sortait des dépôts impériaux (apothèkai) était
+               garantie par l’empereur figuré sur le sceau qui y était apposé5.</p>
+            
+         </div>
+         <div type="bibliography" subtype="edition">
+            <p><bibl>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">121</citedRange></bibl>;
+               <bibl>
+                  <ptr target="ZacosSpink1"/>, n° <citedRange unit="entry">12</citedRange></bibl><bibl/>
+            </p>
+         </div>
+         <div type="bibliography" subtype="parallels">
+            <p/>
+         </div>
+         <div type="bibliography" subtype="discussion">
+            <p>
+               <bibl>
+                  <ptr target="Brandes2002"/>, n° <citedRange unit="entry">84a</citedRange></bibl></p>
+         </div>
+      </body>
+   </text>
+</TEI>

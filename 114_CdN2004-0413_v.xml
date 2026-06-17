@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en">Michael Maurix, kourapalates, doux of Antioch (?)</title>
+            <title xml:lang="fr">Michel Maurix, curopalate, duc d’Antioche (?)</title>
+            <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
+            <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+            <funder>
+               <orgName corresp="https://www.mahmah.ch/">MAH-Musée d'art et d'histoire - Genève,
+                  Cabinet de numismatique</orgName>, Suisse </funder>
+            <principal ref="#MCP"/>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <seg xml:lang="fr">Amélioration digitale</seg>
+               <seg xml:lang="en">Digital enhancement</seg>
+            </edition>
+            <editor role="digital-editor" xml:id="PE" when="2025-04-02">Pia Evening</editor>
+            <editor role="digital-editor" ref="#MCP" when="2026-01-20">Maria Campagnolo-Pothitou</editor>
+         </editionStmt>
+         <publicationStmt>
+            <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
+            <idno type="filename">CdN 2004-0413</idno>
+            <idno type="SigiDocID">s-5U0O2t</idno>
+            <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+            <idno type="sequence"/>
+            <!--  to be compiled automatically; leave as is  -->
+            <date when="2024-08-06"/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                  >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                  4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listPerson type="issuer">
+               <person gender="M" role="military aristocracy">
+                  <persName xml:lang="grc">
+                     <forename>Μιχαήλ</forename>
+                     <surname>Μαύριξ</surname>
+                  </persName>
+                  <persName xml:lang="fr">
+                     <forename>Michel</forename>
+                     <surname>Maurix</surname>
+                  </persName>
+                  <persName xml:lang="en">
+                     <forename>Michael</forename>
+                     <surname>Maurix</surname>
+                  </persName>
+                  <idno type="PBW" ana="http://pbw2016.kdl.kcl.ac.uk/person/Michael/10108/">Michael
+                     10108</idno>
+
+                  <idno type="PBE"/>
+                  <idno type="PLP"/>
+                  <idno type="PLRE"/>
+                  <idno type="PcBE"/>
+                  <idno type="PmbZ"/>
+               </person>
+            </listPerson>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <seg xml:lang="en">Switzerland</seg>
+                     <seg xml:lang="fr">Suisse</seg>
+                  </country>
+                  <settlement>
+                     <seg xml:lang="en">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">City of
+                           Geneva</placeName>
+                     </seg>
+                     <seg xml:lang="fr">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">Ville de
+                           Genève</placeName>
+                     </seg>
+                  </settlement>
+                  <institution>MAH-Musée d'art et d'histoire</institution>
+                  <repository>Cabinet de numismatique</repository>
+                  <collection type="public">
+                     <rs type="collection-name" xml:lang="en">Byzantine seals collection</rs>
+                     <rs type="collection-name" xml:lang="fr">Collection de sceaux byzantins</rs>
+                  </collection>
+                  <idno type="inv-nr-current">CdN 2004-0413</idno>
+                  <altIdentifier>
+                     <repository/>
+                     <idno type="inv-nr-former"/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <!--https://github.com/SigiDoc/Guidelines/wiki/5.-Controlled-vocabularies#seals-category-->
+                  <summary n="whole">
+                     <seg xml:lang="fr">Administration provinciale</seg>
+                     <seg xml:lang="en">Provincial administration</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>
+                              <term>
+                                 <seg xml:lang="fr">Sceau</seg>
+                                 <seg xml:lang="en">Seal</seg>
+                              </term>
+                              <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                              <interp type="workType" xml:lang="en">Original impression</interp>
+                           </objectType>
+                           <material>
+                              <seg xml:lang="fr">Plomb</seg>
+                              <seg xml:lang="en">Lead</seg>
+                           </material>
+                           <dimensions type="support" unit="mm">
+                              <dim type="diameter">23,13/21,49</dim>
+                              <!-- mesure du champ? -->
+                           </dimensions>
+                           <measure type="weight" unit="g">12,397</measure>
+                           <measure type="axis" unit="clock"/>
+                           <measure type="overstrikeOrient" unit="clock"/>
+                           <measure type="channelOrient" unit="clock">12-6</measure>
+                           <measure type="countermark" unit="clock"/>
+                        </support>
+                        <condition rend="not-centered crushed">
+                           <p xml:lang="en">The bulla seems to have been struck with a worn
+                              boulloterion. It is slightly off center</p>
+                           <p xml:lang="fr">La bulle n'est pas bien frappée,les caractères sur les
+                              deux faces sont pâteux comme si le boullôtèeion était usé, mais elle
+                              est bien conservée. La frappe est aussi légèrement décentrée</p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout n="whole">
+                           <rs type="execution">
+                              <seg xml:lang="fr">Frappé</seg>
+                              <seg xml:lang="en">Struck</seg>
+                           </rs>
+                           <rs type="shape">
+                              <seg xml:lang="fr">Ronde</seg>
+                              <seg xml:lang="en">Round</seg>
+                           </rs>
+                           <rs type="matrix" subtype="not-surviving">
+                              <idno type="SigiDoc">m-UKu0L5</idno>
+                              <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+                              <idno type="PBW" ana="http://pbw2016.kdl.kcl.ac.uk/boulloterion/3783/"
+                                 >Michael 10108</idno>
+                              <!-- to be used if the seal has a parallel in the PBW with a boulloterion registered there -->
+                           </rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <seg xml:lang="fr">Antioche <placeName/>
+                        </seg>
+                        <seg xml:lang="en">Antioch <placeName/>
+                        </seg>
+                     </origPlace>
+                     <origDate type="analysis" notBefore="1076" notAfter="1100"
+                        evidence="prosopography titulature epigraphy" cert="high" resp="#MCP #JCC">
+                        <seg xml:lang="en">Last quarter of the 11th century</seg>
+                        <seg xml:lang="fr">Dernier quart du XIe siècle</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="transferred" subtype="donated" when="2004-11-24">
+                     <!-- pas sûr de subtype et when -->
+                     <p xml:lang="en">George Zacos collection</p>
+                     <p xml:lang="fr">Collection Georges Zacos</p>
+                  </provenance>
+                  <acquisition>
+                     <p xml:lang="en">Donation of the Migore Foundation, Janet Zakos legacy, <date
+                           when="2004-11-24">24th November 2004</date>
+                     </p>
+                     <p xml:lang="fr">Don de la Fondation Migore, legs Janet Zakos, <date
+                           when="2004-11-24">24 Novembre 2004</date>
+                     </p>
+                  </acquisition>
+               </history>
+               <msPart n="r">
+                  <msIdentifier/>
+                  <msContents>
+                     <!-- ajouté ceci -->
+                     <summary n="r">
+                        <seg xml:lang="en">Obverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="r">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="fr">Légende linéaire métrique sur 5 lignes</p>
+                              <p xml:lang="en">Linear metrical legend of 5 lines</p>
+                           </layout>
+                        </layoutDesc>
+
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="r">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+
+                              <figDesc n="decoR" xml:lang="fr">Cercle de grènetis; la légende est
+                                 précédée d’une croisette ; au sommet et à la base du champ, une
+                                 perle accostée de tirets</figDesc>
+                              <figDesc n="decoR" xml:lang="en">Circle of dots; the legend is
+                                 preceded by a crosslet; above and under the legend, is placed a
+                                 pearl between traits</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+               <msPart n="v">
+                  <msIdentifier/>
+                  <msContents>
+                     <summary n="v"><!-- ajouté ceci -->
+                        <seg xml:lang="en">Reverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="v">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="en">Linear metrical legend of 5 lines</p>
+                              <p xml:lang="fr">Légende linéaire métrique sur 5 lignes</p>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="v">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="decoV" xml:lang="fr">Cercle de fin grènetis; une croisette mal conservée surmonte la légende</figDesc>
+                              <figDesc n="decoV" xml:lang="en">Circle of fine dots; a crosslet seems to surmount the legend</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2025-04-02" who="#PE">Creation of the XML record.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp>
+         <surface n="r">
+            <desc>Obverse</desc>
+            <graphic type="photo" url="CdN2004-0413_1.jpg">
+               <desc xml:lang="en">CdN 2004-0413, obverse</desc>
+               <desc xml:lang="fr">CdN 2004-0413, avers</desc>
+            </graphic>
+         </surface>
+         <surface n="v">
+            <desc>Reverse</desc>
+            <graphic type="photo" url="CdN2004-0413_2.jpg">
+               <desc xml:lang="en">CdN 2004-0413, reverse</desc>
+               <desc xml:lang="fr">CdN 2004-0413, revers</desc>
+            </graphic>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" subtype="editorial" xml:space="preserve"> 
+            <div type="textpart" subtype="face" rend="linear" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <lg type="metrical" met="dodecasyllable">
+                 <l n="1">
+                  <lb n="1"/>Τὸν 
+                  <lb n="2"/>Μαύρικα 
+                  <lb n="3"/>σκέποις <expan><abbr>μ</abbr><ex>ὲ</ex></expan> 
+                  <lb n="4"/>Μιχαήλ 
+                  <lb n="5"/>Λόγε 
+                 </l>
+              </lg>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <lg type="metrical" met="dodecasyllable">
+                         <l n="2">
+                          <lb n="6"/><rs type="dignity" ref="d0035">κουρο
+                          <lb n="7" break="no"/>παλάτην</rs> 
+                          <lb n="8"/><rs type="office" subtype="military" ref="#of0245">δοῦκα</rs> τ<supplied reason="lost">ῆς</supplied> 
+                          <lb n="9"/><placeName ref="#geo0001">Ἀντιό
+                          <lb n="10" break="no"/>χου</placeName>
+                         </l>
+                      </lg>
+                  </div>
+              </div>
+         <div type="edition" subtype="diplomatic" xml:space="preserve"> 
+                  <div type="textpart" subtype="face" rend="linear" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <lb n="0"/>   
+                 <lb n="1"/>Τον                      
+                 <lb n="2"/>μαυρικα
+                 <lb n="3"/>σκεποιςμ/
+                 <lb n="4"/>μιχαηλ
+                 <lb n="5"/>λογε
+                 <lb n="0"/> 
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab>
+                         <lb n="6"/>Κουρο                   
+                         <lb n="7"/>παλατην̣  
+                         <lb n="8"/>δουκατ..
+                         <lb n="9"/>αντιο
+                         <lb n="10"/>χου
+                         </ab>
+                  </div>
+              </div>
+         <div type="translation">
+            <p>+ Τὸν Μαύρικα σκέποις μὲ Μιχαήλ, Λόγε, κουροπαλάτην δοῦκα τῆς Ἀντιόχου.</p>
+            <p xml:lang="en">Word (of God), please protect me, Michael Maurix, kouropalates, doux
+               (of the city) of Antioch</p>
+            <p xml:lang="fr">Verbe (de Dieu), veuille me protéger, Michel Maurix, curopalate, duc
+               (de la ville) d’Antioche.</p>
+         </div>
+         <div type="commentary" subtype="text">
+            <!-- renvois internes à refaire -->
+            <p xml:lang="en">A very similar lead seal is preserved at the Hermitage (M-9288), but it
+               would have the form κουροπαλάτης instead of κουροπαλάτην<bibl>
+                  <ptr target="ΒΒÖ1"/>, p. <citedRange unit="page">170.18</citedRange></bibl>. The
+               expression τῆς Ἀντιόχου, implying πόλεως, instead of Ἀντιοχείας, is not as common in
+               sigillography as it is in literature, but may have been used for metrical reasons.
+               Michel Maurix is the first and best attested member of his family. His military
+               career and the seals he left behind are studied in <bibl>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">93</citedRange></bibl>.
+               Michel entrusts himself to the Word of God, and not to Saint George, as he does on
+               the seals preceding this stage of his career. This seal is also the only evidence of
+               Michel Maurix's investiture in this office. The problem is placing Michel Maurix in
+               the list of doux of Antioch, which is very complete for the decade preceding the
+               city's capture by the Seljuks in December 1084. The date generally proposed is 1078,
+               compatible with Maurix's title and what we know of his life. However, it seems difficult to assume
+               that Isaac Komnenos left office in the same year, making way for
+               Vasak Pahlavouni, who was himself ousted by Philaretos Brachamios.
+               Al.-K. Wassiliou-Seibt and W. Seibt have compiled a list of other representatives
+               of the Maurix family, mainly attested by sigillography<bibl>
+                  <ptr target="BBÖ2"/>, p. <citedRange unit="page">216-217</citedRange></bibl>.
+               Demetrios Maurikas and Theodore Maurix, respectively
+               protospatharios and judge, and protospatharios and judge of the Armeniakoi,
+               were active in the 11th century. From the following century, we have preserved the seals
+               of John, Stephen, another Theodore Maurix<bibl>
+                  <ptr target="Athens2000"/>, n° <citedRange unit="entry">164</citedRange></bibl> and Constantine Maurikas,
+               praetor of the Peloponnese and Hellas<bibl>
+                  <ptr target="BBÖ2"/>, n° <citedRange unit="entry">217</citedRange></bibl>.</p>
+            <p xml:lang="en"/>
+            <p xml:lang="fr">Un plomb très proche est conservé à l’Ermitage (M-9288), mais qui
+               aurait la forme κουροπαλάτης au lieu de κουροπαλάτην<bibl>
+                  <ptr target="ΒΒÖ1"/>, p. <citedRange unit="page">170.18</citedRange></bibl>.
+               L’expression τῆς Ἀντιόχου, sous-entendu πόλεως, à la place de Ἀντιοχείας, n’est pas
+               aussi courante en sigillographie qu’en littérature2, mais a pu être employée pour des
+               raisons de métrique. Michel Maurix est le premier et le mieux attesté des membres de
+               sa famille. Sa carrière militaire et les sceaux qu’il a laissés sont étudiés dans <bibl>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">93</citedRange></bibl>.
+               Michel s’en remet au Verbe de Dieu, et non pas à saint Georges, comme il le fait sur
+               les sceaux précédant cette étape de sa carrière. Ce sceau est également le seul
+               témoin de l’investiture de Michel Maurix à cette fonction. Le problème, c’est de
+               placer Michel Maurix dans la liste des ducs d’Antioche, celle-ci étant très complète
+               pour la décennie précédant la prise de la ville par les Seldjoukides en décembre
+               1084. La date généralement proposée est 1078<bibl>
+                  <ptr target="DOseals5"/>, p. <citedRange unit="page">21-22</citedRange></bibl>,
+               compatible avec la titulature de Maurix et ce que l’on sait de sa carrière. Mais il
+               semble délicat de supposer dans cette même année le départ d’Isaac Comnène, qui
+               laisse la place à Vasak Pahlavouni, lui-même évincé par Philarète Brachamios. Al.-K.
+               Wassiliou-Seibt et W. Seibt ont dressé la liste des autres représentants de la
+               famille Maurix, essentiellement attestés par la sigillographie<bibl>
+                  <ptr target="BBÖ2"/>, p. <citedRange unit="page">216-217</citedRange></bibl>.
+               Dèmètrios Maurikas et Théodore Maurix, respectivement protospathaire et juge, et
+               protospathaire et juge des Arméniaques, furent actifs au XIe siècle. Du siècle
+               suivant, nous conservons les sceaux de Jean, Étienne, un autre Théodore Maurix<bibl>
+                  <ptr target="Athens2000"/>, n° <citedRange unit="entry">164</citedRange></bibl> et
+               Constantin Maurikas, préteur du Péloponnèse et de l’Hellade <bibl>
+                  <ptr target="BBÖ2"/>, n° <citedRange unit="entry">217</citedRange></bibl>.</p>
+            <p xml:lang="fr"/>
+         </div>
+         <div type="bibliography" subtype="edition">
+            <p><bibl>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">114</citedRange></bibl>
+               <bibl/>
+            </p>
+         </div>
+         <div type="bibliography" subtype="parallels">
+            <p/>
+         </div>
+         <div type="bibliography" subtype="discussion">
+            <p><bibl>
+                  <ptr target="BBÖ2"/>, p. <citedRange unit="page">267</citedRange></bibl></p>
+         </div>
+      </body>
+   </text>
+</TEI>

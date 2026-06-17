@@ -26,11 +26,8 @@
          <publicationStmt>
             <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
             <idno type="filename">CdN 2004-0341</idno>
-<<<<<<<< Updated upstream:39_CdN2004-0341.xml
-            <idno type="SigiDocID"/>
-========
+
             <idno type="SigiDocID">s-Vk6Jpe</idno>
->>>>>>>> Stashed changes:39_CdN2004-0341_v.xml
             <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
             <idno type="sequence"/>
             <!--  to be compiled automatically; leave as is  -->
@@ -157,19 +154,14 @@
                            <placeName/>
                         </seg>
                      </origPlace>
-<<<<<<<< Updated upstream:39_CdN2004-0341.xml
+
                      <origDate type="analysis" notBefore="1167" notAfter="1200" evidence="epigraphy titulature historical-context prosopography" cert="high"
                         resp="#MCP #JCC">
                         <seg xml:lang="en">Last third of the 12th century</seg>
                         <seg xml:lang="fr">Dernier tiers du XIIe siècle</seg>
-========
-                     <origDate type="analysis" notBefore="1060" notAfter="1090"
-                        evidence="epigraphy prosopography historical-context" cert="high"
-                        resp="#MCP #JCC">
-                        <seg xml:lang="en">Third third of the 11th century</seg>
-                        <seg xml:lang="fr">Troisième tiers du XIe siècle</seg>
->>>>>>>> Stashed changes:39_CdN2004-0341_v.xml
-                     </origDate>
+
+                     
+</origDate>
                   </origin>
                   <provenance type="transferred" subtype="donated" when="2004-11-24">
                      <!-- pas sûr de subtype et when -->
@@ -290,11 +282,11 @@
             <desc>Reverse</desc>
             <graphic type="photo" url="CdN2004-0341_2.jpg">
                <desc xml:lang="en">CdN 2004-0341, reverse</desc>
-<<<<<<<< Updated upstream:39_CdN2004-0341.xml
+
                <desc xml:lang="fr">CdN 2004-0341, revers</desc>
-========
+
                <desc xml:lang="de">CdN 2004-0341, revers</desc>
->>>>>>>> Stashed changes:39_CdN2004-0341_v.xml
+
             </graphic>
          </surface>
       </surfaceGrp>
@@ -327,6 +319,7 @@
          <div type="edition" subtype="diplomatic" xml:space="preserve"> 
                   <div type="textpart" subtype="face" rend="linear" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
               <ab>
+                 <lb n="0"/>     
                  <lb n="1"/>μΕΓΑΣ
                  <lb n="2"/>Λ̣ΟΓιΗΣΑν 
                  <lb n="3"/>ΔΡΟ̅νιΚΟΣ

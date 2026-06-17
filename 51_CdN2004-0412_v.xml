@@ -307,18 +307,21 @@
          <div type="edition" subtype="diplomatic" xml:space="preserve"> 
                   <div type="textpart" subtype="face" rend="linear" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
               <ab>
+                 <lb n="0"/>    
                  <lb n="1"/>ΚΕRο
                  <lb n="2"/>.ΘEΙΤ
                  <lb n="3"/>.δΛ
                  <lb n="4"/>ΣEΡΓΙ
+                 <lb n="0"/>
               </ab>
             </div>
                   <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
                       <ab>
+                         <lb n="0"/>
                          <lb n="5"/>REΣΤΗ.
                          <lb n="6"/>κΡΙΤΗΤ. 
                          <lb n="7"/>EξAΜΙΛΙ
-                         <lb n="8"/>ΤΗ
+                         <lb n="8"/>ΤΗ   
                          </ab>
                   </div>
               </div>
@@ -348,7 +351,8 @@
                documentation écrite et surtout sigillographique, Serge, a réussi un brillant cursus
                honorum, couronné par la dignité de protoproèdre associée à la plus haute fonction de
                l’époque, celle de logothète des sékréta, en 1082. Le sceau présenté ici, ainsi que
-               celui sous le n° CdN 2004-0422, où il est vestès, juge du Velum et des Thracésiens,
+               celui sous le n° 161 <bibl>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">161</citedRange></bibl> où il est vestès, juge du Velum et des Thracésiens,
                autour de 1070, constituent sans doute les premières étapes de sa carrière de
                magistrat, entamée peu avant cette date. Deux autres bulles issues de boullôtèria
                différents témoignent, en effet, d’une étape peut-être intermédiaire, celle de vestès

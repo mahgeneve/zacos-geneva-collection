@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en">Joseph Bryennios, sebastos</title>
+            <title xml:lang="fr">Joseph Bryennios, sébaste</title>
+            <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
+            <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+            <funder>
+               <orgName corresp="https://www.mahmah.ch/">MAH-Musée d'art et d'histoire - Genève,
+                  Cabinet de numismatique</orgName>, Suisse</funder>
+            <principal ref="#MCP"/>
+         </titleStmt><editionStmt>
+            <edition>
+               <seg xml:lang="fr">Amélioration digitale</seg>
+               <seg xml:lang="en">Digital enhancement</seg>
+            </edition>
+            <editor role="digital-editor" xml:id="PE" when="2025-04-22">Pia Evening</editor>
+            <editor role="digital-editor" ref="#MCP" when="2026-04-27">Maria
+               Campagnolo-Pothitou</editor>
+         </editionStmt>
+         <publicationStmt>
+            <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
+            <idno type="filename">CdN 2004-0590</idno>
+            <idno type="SigiDocID">s-bwLjfa</idno>
+            <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+            <idno type="sequence"/>
+            <!--  to be compiled automatically; leave as is  -->
+            <date when="2024-08-06"/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                  >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                  4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listPerson type="issuer">
+               <person gender="M" role="imperial aristocracy">
+                  <persName xml:lang="grc">
+                     <forename>Ἰωσήφ</forename>
+                     <surname>Βρυέννιος</surname>
+                  </persName>
+                  <persName xml:lang="fr">
+                     <forename>Joseph</forename>
+                     <surname>Bryennios</surname>
+                  </persName>
+                  <persName xml:lang="en">
+                     <forename>Joseph</forename>
+                     <surname>Bryennios</surname>
+                  </persName>
+                  <idno type="PBW" ana="http://pbw2016.kdl.kcl.ac.uk/person/Joseph/17001/">Joseph
+                     17001</idno>
+
+                  <idno type="PBE"/>
+                  <idno type="PLP"/>
+                  <idno type="PLRE"/>
+                  <idno type="PcBE"/>
+                  <idno type="PmbZ"/>
+               </person>
+            </listPerson>
+            <msDesc>
+               <msIdentifier>
+                  <country>
+                     <seg xml:lang="en">Switzerland</seg>
+                     <seg xml:lang="fr">Suisse</seg>
+                  </country>
+                  <settlement>
+                     <seg xml:lang="en">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">City of
+                           Geneva</placeName>
+                     </seg>
+                     <seg xml:lang="fr">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html">Ville de
+                           Genève</placeName>
+                     </seg>
+                  </settlement>
+                  <institution>MAH-Musée d'art et d'histoire</institution>
+                  <repository>Cabinet de numismatique</repository>
+                  <collection type="public">
+                     <rs type="collection-name" xml:lang="en">Byzantine seals collection</rs>
+                     <rs type="collection-name" xml:lang="fr">Collection de sceaux byzantins</rs>
+                  </collection>
+                  <idno type="inv-nr-current">CdN 2004-0590</idno>
+                  <altIdentifier>
+                     <repository/>
+                     <idno type="inv-nr-former"/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <!--https://github.com/SigiDoc/Guidelines/wiki/5.-Controlled-vocabularies#seals-category-->
+                  <summary n="whole">
+                     <seg xml:lang="fr">Dignitaires</seg>
+                     <seg xml:lang="en">Dignitaries</seg>
+                  </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <objectType>
+                              <term>
+                                 <seg xml:lang="fr">Sceau</seg>
+                                 <seg xml:lang="en">Seal</seg>
+                              </term>
+                              <interp type="workType" xml:lang="fr">Empreinte originale</interp>
+                              <interp type="workType" xml:lang="en">Original impression</interp>
+                           </objectType>
+                           <material>
+                              <seg xml:lang="fr">Plomb</seg>
+                              <seg xml:lang="en">Lead</seg>
+                           </material>
+                           <dimensions type="support" unit="mm">
+                              <dim type="diameter">36,30/32,26</dim>
+                              <!-- mesure du champ? -->
+                           </dimensions>
+                           <measure type="weight" unit="g">23,013</measure>
+                           <measure type="axis" unit="clock"/>
+                           <measure type="overstrikeOrient" unit="clock"/>
+                           <measure type="channelOrient" unit="clock">12-6</measure>
+                           <measure type="countermark" unit="clock"/>
+                        </support>
+                        <condition rend="well-struck broken">
+                           <p xml:lang="en">The bulla is well struck but worn on the edge and
+                              partially broken on the right</p>
+                           <p xml:lang="fr">La bulle est bien frappée mais rognée sur la tranche et
+                              même partiellement cassée à droite</p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout n="whole">
+                           <rs type="execution">
+                              <seg xml:lang="fr">Frappé</seg>
+                              <seg xml:lang="en">Struck</seg>
+                           </rs>
+                           <rs type="shape">
+                              <seg xml:lang="fr">Ronde</seg>
+                              <seg xml:lang="en">Round</seg>
+                           </rs>
+                           <rs type="matrix" subtype="not-surviving">
+                              <idno type="SigiDoc">m-HYmjFA</idno>
+                              <!--  to be compiled with automatically generated IDs: https://sigidoc.cceh.uni-koeln.de/newid.xml  -->
+                              <idno type="PBW"
+                                 >http://pbw2016.kdl.kcl.ac.uk/boulloterion/1671/</idno>
+                              <!-- to be used if the seal has a parallel in the PBW with a boulloterion registered there -->
+                           </rs>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <seg xml:lang="fr">
+                           <placeName/>
+                        </seg>
+                        <seg xml:lang="en">
+                           <placeName/>
+                        </seg>
+                     </origPlace>
+                     <origDate type="analysis" notBefore="1151" notAfter="1175"
+                        evidence="prosopography titulature epigraphy iconography" cert="high"
+                        resp="#MCP #JCC">
+                        <seg xml:lang="en">Third quarter of the 12th century</seg>
+                        <seg xml:lang="fr">Troisième quart du XIIe siècle</seg>
+                     </origDate>
+                  </origin>
+                  <provenance type="transferred" subtype="donated" when="2004-11-24">
+                     <!-- pas sûr de subtype et when -->
+                     <p xml:lang="en">George Zacos collection</p>
+                     <p xml:lang="fr">Collection Georges Zacos</p>
+                  </provenance>
+                  <acquisition>
+                     <p xml:lang="en">Donation of the Migore Foundation, Janet Zakos legacy, <date
+                           when="2004-11-24">24th November 2004</date>
+                     </p>
+                     <p xml:lang="fr">Don de la Fondation Migore, legs Janet Zakos, <date
+                           when="2004-11-24">24 Novembre 2004</date>
+                     </p>
+                  </acquisition>
+               </history>
+               <msPart n="r">
+                  <msIdentifier/>
+                  <msContents>
+                     <!-- ajouté ceci -->
+                     <summary n="r">
+                        <seg xml:lang="en">Obverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="r">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="fr">Iconographie avec épigraphes en colonne de part et
+                                 d'autre de l'effigie</p>
+                              <p xml:lang="en">Iconography with epigraphs on columns on either part
+                                 of the effigy</p>
+                           </layout>
+                        </layoutDesc>
+
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="r">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="r" xml:lang="fr" ana="person male saint George">Saint
+                                 Georges, de face, en pied, revêtu de la tunique courte sous la
+                                 cuirasse, il tient en main droite une longue lance et s'appuie de
+                                 la main gauche sur son bouclier posé par terre.</figDesc>
+                              <figDesc n="r" xml:lang="en" ana="person male saint George">Saint
+                                 George, standing,facing forward. He is clad in a short tunic
+                                 beneath a cuirass, holding a long spear in his right hand, and
+                                 relying on his shield placed on the ground.</figDesc>
+                              <figDesc n="decoR" xml:lang="fr">Cercle de grènetis</figDesc>
+                              <figDesc n="decoR" xml:lang="en">Border of dots</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+               <msPart n="v">
+                  <msIdentifier/>
+                  <msContents>
+                     <summary n="v"><!-- ajouté ceci -->
+                        <seg xml:lang="en">Reverse</seg>
+                     </summary>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc>
+                        <layoutDesc>
+                           <layout n="v">
+                              <dimensions type="written" unit="mm">
+                                 <!-- ajouté ceci -->
+                                 <dim type="diameter"/>
+                              </dimensions>
+                              <p xml:lang="en">Metrical linear legend of 5 lines</p>
+                              <p xml:lang="fr">Légende métrique linéaire sur 5 lignes</p>
+                           </layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote n="v">
+                           <seg xml:lang="fr"/>
+                           <seg xml:lang="en"/>
+                        </handNote>
+                     </handDesc>
+                     <decoDesc>
+                        <decoNote>
+                           <figure>
+                              <figDesc n="decoV" xml:lang="fr">Cercle de grènetis; la légende
+                                 termine par un tiret.</figDesc>
+                              <figDesc n="decoV" xml:lang="en">Border of dots; the legend ends with
+                                 a trait.</figDesc>
+                           </figure>
+                        </decoNote>
+                     </decoDesc>
+                  </physDesc>
+               </msPart>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p/>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2025-04-22" who="#PE">Creation of the XML record.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp>
+         <surface n="r">
+            <desc>Obverse</desc>
+            <graphic type="photo" url="CdN2004-0590_1.jpg">
+               <desc xml:lang="en">CdN 2004-0590, obverse</desc>
+               <desc xml:lang="fr">CdN 2004-0590, avers</desc>
+            </graphic>
+         </surface>
+         <surface n="v">
+            <desc>Reverse</desc>
+            <graphic type="photo" url="CdN2004-0590_2.jpg">
+               <desc xml:lang="en">CdN 2004-0590, reverse</desc>
+               <desc xml:lang="fr">CdN 2004-0590, revers</desc>
+            </graphic>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" subtype="editorial" xml:space="preserve"> 
+            <div type="textpart" subtype="label" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="a"/><supplied reason="lost">Ὁ ἅ</supplied>γιος 
+                 <cb n="b"/><expan><abbr>Γεώργιο</abbr><ex>ς</ex></expan> 
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <lg type="metrical" met="dodecasyllable" ana="gen">
+                         <l n="1">
+                            <lb n="1"/>Σφαρ
+                            <lb n="2" break="no"/><supplied reason="lost">γ</supplied>ὶς Ἰωσὴ<supplied reason="lost">φ</supplied> 
+                            <lb n="3"/><rs type="dignity" ref="#d0075">σεβαστοῦ</rs> 
+                            <lb n="4"/>Βρυεννί
+                            <lb n="5" break="no"/>ου
+                         </l>
+                      </lg>
+                  </div>
+              </div>
+         <div type="edition" subtype="diplomatic" xml:space="preserve"> 
+                  <div type="textpart" subtype="label" rend="columns" n="obv" xml:lang="grc"><!--the values of the xml:lang are here: https://github.com/SigiDoc/EFES-SigiDoc/wiki/Languages-and-scripts#iana-language-and-script-subtags-->
+              <ab>
+                 <cb n="a"/>.γ|ι|ο|σ     
+                 <cb n="b"/>Γ|e|̣|γι|ο/
+              </ab>
+            </div>
+                  <div type="textpart" subtype="face" n="rev" rend="linear" xml:lang="grc">
+                      <ab>
+                         <lb n="0"/>    .
+                         <lb n="1"/>σφαρ                      
+                         <lb n="2"/>.ισιση/
+                         <lb n="3"/>σεrαου
+                         <lb n="4"/>rρυεννι
+                         <lb n="5"/>ου
+                         </ab>
+                  </div>
+              </div>
+         <div type="translation">
+            <p>Ὁ ἅγιος Γεώργιος. || + Σφαργὶς Ἰωσὴφ σεβαστοῦ Βρυεννίου.</p>
+            <p xml:lang="en">Saint George. || + Seal of the sebastos Joseph Bryennios.</p>
+            <p xml:lang="fr">Saint Georges. || + Sceau du sébaste Joseph Bryennios.</p>
+         </div>
+         <div type="commentary" subtype="text">
+            <!-- renvois internes à refaire -->
+            <p xml:lang="en">Our signatory is undoubtedly the husband of Maria Komnena, niece of
+               Manuel Ist. According to written sources, he took part in the campaigns against the
+               Hungarians in 1165 and 1167; at the synod of 1170, he was mentioned as a pansebastos
+               sebastos, a gambros of the emperor. The contemporary seal of a Bryennios, without a
+               first name, also dedicated to saint George and titled sebastos and praitor, could
+               also be attributed to him <bibl>
+                  <ptr target="BBÖ2"/>, n° <citedRange unit="entry">212</citedRange></bibl>. L.
+               Stiernon identifies him as Joseph Bryennios Monomachos, who, in the peace treaty
+               concluded in 1190 between Isaac II Angelos and the German Emperor Frederick I, is
+               mentioned as the father of the sebastos Manuel. Two other contemporary bullae in the
+               name of Joseph Bryennios have survived to the present day. The first one is bearing
+               an identical obverse and a legend very similar to ours, Σφραγὶς σεβαστοῦ Ἰωσὴφ
+               Βρυενίου. This seal, which could have belonged to our signatory, is known by three
+               other bullae: <bibl>
+                  <ptr target="Orghidan"/>, n° <citedRange unit="entry">142</citedRange></bibl>; <bibl>
+                  <ptr target="Athens2000"/>, n° <citedRange unit="entry">46</citedRange></bibl> et
+               le BZS.1958.106.2764. The second one, with no mention of a title, also invokes saint
+               George, depicted full-length on the obverse. Nevertheless, it is difficult to know
+               whether all these seals refer to a single individual or to namesakes, the general
+               Manuel who has been the hostage of Frederick Barbarossa.In the 14th century, Joseph
+               Bryennios, a monk and author of theological treatises, became famous for his
+               opposition to the union of the Churches. The surname Bryennios first appears in the
+               mid-9th century with the strategos Theoctistos, governor of the Peloponnese, and the
+               strategos of Dalmatia. However, their connection to the illustrious Macedonian
+               family, originated from Adrianople, has not been clearly established <bibl>
+                  <ptr target="ODB"/>, p. <citedRange unit="page">328-329</citedRange></bibl>. Members of the
+               military aristocracy, the Bryennioi came to prominence in the mid-11th century during
+               the two rebellions led – unsuccessfully – by the patrikios and ethnarch Bryennios,
+               first under Empress Theodora, then under Michael VI, in 1056 <bibl>
+                  <ptr target="Empereurs2003"/>, p. <citedRange unit="page">396, 399, 401-402</citedRange></bibl>. In 1078, his son,
+               Nicephorus, grandfather of the historian of the same name, was responsible for an
+               unsuccessful attempt to usurp the throne <bibl>
+                  <ptr target="Attaleiates2012"/>, l. <citedRange unit="livre">31 § 5,12</citedRange></bibl>; <bibl>
+                     <ptr target="BryenniosHistoire1975"/>, p. <citedRange unit="page">214-236</citedRange></bibl>. However, these two incidents did not
+               determine the family’s future, since Nicephorus, despite his blindness, was promoted
+               to kouropalates (Fogg 1074 ; ANS, coll. Mabbott, 279 et 317), then protonobelissimos (<bibl>
+                  <ptr target="ΒΒÖ1"/>, n° <citedRange unit="entry">153</citedRange></bibl>; <bibl>
+                  <ptr target="Istanbul"/>, n° <citedRange unit="entry">5.147</citedRange></bibl>.
+               His grandson, the historian Nicephorus Bryennios, married the porphyrogenetos Anna
+               Komnene and was appointed panhypersebastos, then caesar. </p>
+            <p xml:lang="en"/>
+            <p xml:lang="fr">Notre sigillant est sans doute l’époux de Marie Comnène, nièce de
+               Manuel Ier. Selon les sources écrites, il participa aux expéditions contre les
+               Hongrois, en 1165 et 1167 ; au synode de 1170, il était mentionné pansébaste sébaste,
+               gambros de l’empereur. Le sceau contemporain d’un Bryennios, sans prénom, voué
+               également à saint Georges et titré sébaste et préteur, pourrait aussi lui être
+               attribué <bibl>
+                  <ptr target="BBÖ2"/>, n° <citedRange unit="entry">212</citedRange></bibl>. L.
+               Stiernon l’identifie à Joseph Bryennios Monomaque, qui, dans le traité de paix
+               conclu, en 1190, entre Isaac II Ange et l’empereur germanique Frédéric Ier, est
+               mentionné en tant que père du sébaste Manuel. Deux autres bulles, contemporaines, au
+               nom de Joseph Bryennios nous sont parvenues. L’une, à l’avers identique et de légende
+               fort proche de la nôtre, Σφραγὶς σεβαστοῦ Ἰωσὴφ Βρυενίου. Ce sceau, qui pourrait
+               appartenir à notre sigillant, est connu en trois autres exemplaires: <bibl>
+                  <ptr target="Orghidan"/>, n° <citedRange unit="entry">142</citedRange></bibl>; <bibl>
+                  <ptr target="Athens2000"/>, n° <citedRange unit="entry">46</citedRange></bibl> et
+               le BZS.1958.106.2764. La seconde, sans mention de titre, invoque également saint
+               Georges, figuré en pied, au droit Ce sceau est connu en trois autres exemplaires:
+               Vienne, MK 365 ; Zacos (BnF) 813, inédit ; <bibl>
+                  <ptr target="Athens2000"/>, n° <citedRange unit="entry">47</citedRange></bibl> ;<bibl>
+                  <ptr target="Laurent1932"/>, n° <citedRange unit="entry">352</citedRange></bibl>.
+               Néanmoins, il est difficile de savoir si toutes ces bulles se rapportent à un unique
+               personnage ou à des homonymes, le général de Manuel et l’otage de Frédéric Barberousse<bibl>
+                  <ptr target="ODB"/>, p. <citedRange unit="page">328-329</citedRange></bibl>. Au
+               XIVe siècle, Joseph Bryennios, moine et auteur de traités théologiques, se rendit
+               célèbre en s’opposant à l’union des Églises. Le patronyme Bryennios apparaît au
+               milieu du IXe siècle avec le stratège Théoctiste, gouverneur du Péloponnèse, et le
+               stratège de Dalmatie. Cependant, leur lien avec l’illustre famille macédonienne,
+               originaire d’Andrinople, n’est pas clairement établi <bibl>
+                  <ptr target="ODB"/>, p. <citedRange unit="page">328-329</citedRange></bibl>. Membres de l’aristocratie
+               militaire, les Bryennioi se font remarquer au milieu du XIe siècle, lors des deux
+               rébellions menées – sans succès – par le patrice et ethnarque Bryennios, d’abord sous
+               l’impératrice Théodora, puis sous Michel VI, en 1056 <bibl>
+                  <ptr target="Empereurs2003"/>, p. <citedRange unit="page">396, 399, 401-402</citedRange></bibl>. En 1078, son fils, Nicéphore,
+               grand-père de l’historien homonyme, fut l’auteur d’une malheureuse tentative
+               d’usurpation du trône <bibl>
+                  <ptr target="Attaleiates2012"/>, l. <citedRange unit="livre">31 § 5,12</citedRange></bibl>; <bibl>
+                     <ptr target="BryenniosHistoire1975"/>, p. <citedRange unit="page">214-236</citedRange></bibl>.  Toutefois, ces deux antécédents n’engagèrent pas l’avenir de
+               la famille, puisque Nicéphore, malgré son aveuglement, fut promu curopalate. Deux
+               types de sceaux lui sont attribués, selon lesquels il fut curopalate (Fogg 1074 ;
+               ANS, coll. Mabbott, 279 et 317) et protonobélissime <bibl>
+                  <ptr target="ΒΒÖ1"/>, n° <citedRange unit="entry">153</citedRange></bibl>; <bibl>
+                  <ptr target="Istanbul"/>, n° <citedRange unit="entry">5.147</citedRange></bibl>.
+               Son petit-fils, l’historien Nicéphore Bryennios, épousa la porphyrogénète Anne
+               Comnène et fut créé panhypersébaste, puis césar.</p>
+            <p xml:lang="fr"/>
+         </div>
+         <div type="bibliography" subtype="edition">
+            <p><bibl>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">200</citedRange></bibl>; <bibl>
+                  <ptr target="ZacosSpink1"/>, n° <citedRange unit="entry">76</citedRange></bibl>
+               <bibl/>
+            </p>
+         </div>
+         <div type="bibliography" subtype="parallels">
+            <p><bibl>
+               <ptr target="BBÖ2"/>, p. <citedRange unit="page">211</citedRange></bibl></p>
+         </div>
+         <div type="bibliography" subtype="discussion">
+            <p><bibl>
+                  <ptr target="BBÖ2"/>, p. <citedRange unit="page">211</citedRange></bibl></p>
+         </div>
+      </body>
+   </text>
+</TEI>
