@@ -46,7 +46,6 @@
                      <forename>Constantine IX</forename><surname>Monomachos</surname></persName>
                   <idno type="PBW" ana="http://pbw2016.kdl.kcl.ac.uk/person/Konstantinos/9/"
                      >Konstantinos 9"</idno>
-                  <idno type="PBW"/>
                   <idno type="PBE"/>
                   <idno type="PLP"/>
                   <idno type="PLRE"/>
@@ -166,11 +165,11 @@
                      <p xml:lang="fr">A. Hess</p>
                   </provenance>
                   <acquisition>
-                     <p xml:lang="en">Donation of the Migore Foundation, Janet Zakos legacy, <date
-                           when="2004-11-24">24th November 2004</date>
+                     <p xml:lang="en">Purchase <date
+                           when="1977-04-27">27th April 1977</date>
                      </p>
-                     <p xml:lang="fr">Don de la Fondation Migore, legs Janet Zakos, <date
-                           when="2004-11-24">24 Novembre 2004</date>
+                     <p xml:lang="fr">Achat<date
+                           when="1977-04-27">27 Avril 1977</date>
                      </p>
                   </acquisition>
                </history>
@@ -285,14 +284,14 @@
    </teiHeader>
    <facsimile>
       <surfaceGrp>
-         <surface n="r">
+         <surface n="r" type="obverse">
             <desc>Obverse</desc>
             <graphic type="photo" url="CdN32657bis_1.jpg">
                <desc xml:lang="en">CdN 032657 bis, obverse</desc>
                <desc xml:lang="fr">CdN 032657 bis, avers</desc>
             </graphic>
          </surface>
-         <surface n="v">
+         <surface n="v" type="reverse">
             <desc>Reverse</desc>
             <graphic type="photo" url="CdN32657bis_2.jpg">
                <desc xml:lang="en">CdN 032657 bis, reverse</desc>
