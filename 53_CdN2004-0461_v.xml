@@ -5,7 +5,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title xml:lang="en">Konstantinos Cheilas, sebastos and judge of the army</title>
+            <title xml:lang="en">Constantine Cheilas, sebastos and judge of the army</title>
             <title xml:lang="fr">Constantin Cheilas, sébaste et juge de l’armée</title>
             <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
             <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
@@ -39,11 +39,11 @@
             <listPerson type="issuer">
                <person gender="M" role="civil aristocracy">
                   <persName xml:lang="grc">
-                     <forename>Κωνσταντῖνος</forename>/> <surname>Χειλᾶς</surname>/> </persName>
+                     <forename>Κωνσταντῖνος</forename> <surname>Χειλᾶς</surname>/> </persName>
                   <persName xml:lang="fr">
-                     <forename>Constantin</forename>/> <surname>Cheilas</surname>/> </persName>
+                     <forename>Constantin</forename> <surname>Cheilas</surname> </persName>
                   <persName xml:lang="en">
-                     <forename>Konstantinos</forename>/> <surname>Cheilas</surname>/> </persName>
+                     <forename>Konstantinos</forename> <surname>Cheilas</surname> </persName>
                   <idno type="PBW"/>
                   <idno type="PBE"/>
                   <idno type="PLP"/>
@@ -268,14 +268,14 @@
    </teiHeader>
    <facsimile>
       <surfaceGrp>
-         <surface n="r">
+         <surface n="r" type="obverse">
             <desc>Obverse</desc>
             <graphic type="photo" url="CdN2004-0461_1.jpg">
                <desc xml:lang="en">CdN 2004-0461, obverse</desc>
                <desc xml:lang="fr">CdN 2004-0461, avers</desc>
             </graphic>
          </surface>
-         <surface n="v">
+         <surface n="v" type="reverse">
             <desc>Reverse</desc>
             <graphic type="photo" url="CdN2004-0461_2.jpg">
                <desc xml:lang="en">CdN 2004-0461, reverse</desc>
