@@ -263,7 +263,7 @@
                                  slightly askew, a long cross with a ball-shaped pommel, resting on
                                  the ground.</figDesc>
                               <figDesc n="decoV" xml:lang="fr">Cercle de grènetis</figDesc>
-                              <figDesc n="decoV" xml:lang="en">Circle of dots</figDesc>
+                              <figDesc n="decoV" xml:lang="en">Border of dots</figDesc>
                            </figure>
                         </decoNote>
                      </decoDesc>
@@ -283,14 +283,14 @@
    </teiHeader>
    <facsimile>
       <surfaceGrp>
-         <surface n="r">
+         <surface n="r" type="obverse">
             <desc>Obverse</desc>
             <graphic type="photo" url="CdN2004-0370_1.jpg">
                <desc xml:lang="en">CdN 2004-0370, obverse</desc>
                <desc xml:lang="fr">CdN 2004-0370, avers</desc>
             </graphic>
          </surface>
-         <surface n="v">
+         <surface n="v" type="reverse">
             <desc>Reverse</desc>
             <graphic type="photo" url="CdN2004-0370_2.jpg">
                <desc xml:lang="en">CdN 2004-0370, reverse</desc>
