@@ -114,7 +114,7 @@
                               <dim type="diameter"/>
                               <!-- mesure du champ? -->
                            </dimensions>
-                           <measure type="weight" unit="g"/>
+                           <measure type="weight" unit="g">50,572</measure>
                            <measure type="axis" unit="clock"/>
                            <measure type="overstrikeOrient" unit="clock"/>
                            <measure type="channelOrient" unit="clock"/>
@@ -265,14 +265,14 @@
    </teiHeader>
    <facsimile>
       <surfaceGrp>
-         <surface n="r">
+         <surface n="r" type="obverse">
             <desc>Obverse</desc>
             <graphic type="photo" url="CdN2004-0215_1.jpg">
                <desc xml:lang="en">CdN 2004-0215, obverse</desc>
                <desc xml:lang="fr">CdN 2004-0215, avers</desc>
             </graphic>
          </surface>
-         <surface n="v">
+         <surface n="v" type="reverse">
             <desc>Reverse</desc>
             <graphic type="photo" url="CdN2004-0215_2.jpg">
                <desc xml:lang="en">CdN 2004-0215, reverse</desc>
