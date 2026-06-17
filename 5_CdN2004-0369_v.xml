@@ -5,7 +5,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title xml:lang="en">Basile I and Constantine</title>
+            <title xml:lang="en">Basile Ist and Constantine</title>
             <title xml:lang="fr">Basile Ier et Constantin</title>
             <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
             <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
@@ -271,7 +271,7 @@
                                  right hand a rectangular labarum topped with a ball and decorated
                                  with two pendants.</figDesc>
                               <figDesc n="decoV" xml:lang="fr">Cercle de grènetis effacé</figDesc>
-                              <figDesc n="decoV" xml:lang="en">Circle of dots worn</figDesc>
+                              <figDesc n="decoV" xml:lang="en">Border of dots worn</figDesc>
                            </figure>
                         </decoNote>
                      </decoDesc>
@@ -291,14 +291,14 @@
    </teiHeader>
    <facsimile>
       <surfaceGrp>
-         <surface n="r">
+         <surface n="r" type="obverse">
             <desc>Obverse</desc>
             <graphic type="photo" url="CdN2004-0369_1.jpg">
                <desc xml:lang="en">CdN 2004-0369, obverse</desc>
                <desc xml:lang="fr">CdN 2004-0369, avers</desc>
             </graphic>
          </surface>
-         <surface n="v">
+         <surface n="v" type="reverse">
             <desc>Reverse</desc>
             <graphic type="photo" url="CdN2004-0369_2.jpg">
                <desc xml:lang="en">CdN 2004-0369, reverse</desc>
