@@ -46,7 +46,6 @@
                      <forename>Constantine IX</forename> <surname>Monomachos</surname></persName>
                   <idno type="PBW" ana="http://pbw2016.kdl.kcl.ac.uk/person/Konstantinos/9/"
                      >Konstantinos 9"</idno>
-                  <idno type="PBW"/>
                   <idno type="PBE"/>
                   <idno type="PLP"/>
                   <idno type="PLRE"/>
@@ -215,7 +214,7 @@
                               <figDesc n="decoR" xml:lang="fr">Cercle de grènetis; les branches du
                                  nimbe cruciforme sont ornées d’un X formé de cinq perles;
                                  l'inscription est précédée d'une croisette</figDesc>
-                              <figDesc n="decoR" xml:lang="en">Circle of dots; the branches of the
+                              <figDesc n="decoR" xml:lang="en">Border of dots; the branches of the
                                  cruciform halo are adorned with an X formed by five pearls; the
                                  iscription is preceded by a crosslet</figDesc>
                            </figure>
@@ -265,7 +264,7 @@
                                  long scepter ending in a cross and, in his left hand, a globe
                                  surmounted by a cross formed of four pearls.</figDesc>
                               <figDesc n="decoV" xml:lang="fr">Cercle de grènetis</figDesc>
-                              <figDesc n="decoV" xml:lang="en">Circle of dots</figDesc>
+                              <figDesc n="decoV" xml:lang="en">Border of dots</figDesc>
                            </figure>
                         </decoNote>
                      </decoDesc>
@@ -285,14 +284,14 @@
    </teiHeader>
    <facsimile>
       <surfaceGrp>
-         <surface n="r">
+         <surface n="r" type="obverse">
             <desc>Obverse</desc>
             <graphic type="photo" url="CdN2004-0186_1.jpg">
                <desc xml:lang="en">CdN 2004-0186, obverse</desc>
                <desc xml:lang="fr">CdN 2004-0186, avers</desc>
             </graphic>
          </surface>
-         <surface n="v">
+         <surface n="v" type="reverse">
             <desc>Reverse</desc>
             <graphic type="photo" url="CdN2004-0186_2.jpg">
                <desc xml:lang="en">CdN 2004-0186, reverse</desc>
