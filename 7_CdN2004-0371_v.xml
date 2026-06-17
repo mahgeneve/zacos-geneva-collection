@@ -212,7 +212,7 @@
                                  Virgin Mary, facing forward, praying, without the medallion,
                                  dressed in a chiton and maphorion.</figDesc>
                               <figDesc n="decoR" xml:lang="fr">Cercle de grènetis</figDesc>
-                              <figDesc n="decoR" xml:lang="en">Circle of dots</figDesc>
+                              <figDesc n="decoR" xml:lang="en">Border of dots</figDesc>
                            </figure>
                         </decoNote>
                      </decoDesc>
@@ -282,14 +282,14 @@
    </teiHeader>
    <facsimile>
       <surfaceGrp>
-         <surface n="r">
+         <surface n="r" type="obverse">
             <desc>Obverse</desc>
             <graphic type="photo" url="CdN2004-0371_1.jpg">
                <desc xml:lang="en">CdN 2004-0371, obverse</desc>
                <desc xml:lang="fr">CdN 2004-0371, avers</desc>
             </graphic>
          </surface>
-         <surface n="v">
+         <surface n="v" type="reverse">
             <desc>Reverse</desc>
             <graphic type="photo" url="CdN2004-0371_2.jpg">
                <desc xml:lang="en">CdN 2004-0371, reverse</desc>
