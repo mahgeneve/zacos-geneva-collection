@@ -266,16 +266,16 @@
    </teiHeader>
    <facsimile>
       <surfaceGrp>
-         <surface n="r">
+         <surface n="r" type="obverse">
             <desc>Obverse</desc>
-            <graphic type="photo" url="CdN2004-0600_2.jpg">
+            <graphic type="photo" url="cdn_2004_0600_1.jpg">
                <desc xml:lang="en">Cdn_2004-0600, obverse</desc>
                <desc xml:lang="fr">Cdn_2004-0600, avers</desc>
             </graphic>
          </surface>
-         <surface n="v">
+         <surface n="v" type="reverse">
             <desc>Reverse</desc>
-            <graphic type="photo" url="CdN2004-0600_2.jpg">
+            <graphic type="photo" url="cdn_2004_0600_2.jpg">
                <desc xml:lang="en">Cdn_2004-0600, reverse</desc>
                <desc xml:lang="de">Cdn_2004-0600, revers</desc>
             </graphic>
