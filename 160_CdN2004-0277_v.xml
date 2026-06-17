@@ -54,7 +54,7 @@
                      <forename>Constantine</forename>
                      <surname/>
                   </persName>
-                  <idno type="PBW" ana=""/>
+                  <idno type="PBW"/>
 
                   <idno type="PBE"/>
                   <idno type="PLP"/>
@@ -284,14 +284,14 @@
    </teiHeader>
    <facsimile>
       <surfaceGrp>
-         <surface n="r">
+         <surface n="r" type="obverse">
             <desc>Obverse</desc>
             <graphic type="photo" url="CdN2004-0277_1.jpg">
                <desc xml:lang="en">CdN 2004-0277, obverse</desc>
                <desc xml:lang="fr">CdN 2004-0277, avers</desc>
             </graphic>
          </surface>
-         <surface n="v">
+         <surface n="v" type="reverse">
             <desc>Reverse</desc>
             <graphic type="photo" url="CdN2004-0277_2.jpg">
                <desc xml:lang="en">CdN 2004-0277, reverse</desc>
