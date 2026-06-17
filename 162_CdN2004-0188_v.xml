@@ -5,7 +5,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title xml:lang="en">Isaakios Komnenos, protospatharios and katepano of
+            <title xml:lang="en">Isaac Komnenos, protospatharios and katepano of
                Vaspourakan</title>
             <title xml:lang="fr">Isaac Comnène, protospathaire et catépan du Vaspourakan</title>
             <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
@@ -50,7 +50,7 @@
                      <surname>Comnène</surname>
                   </persName>
                   <persName xml:lang="en">
-                     <forename>Isaakios</forename>/> <surname>Komnenos</surname>/> </persName>
+                     <forename>Isaac</forename>/> <surname>Komnenos</surname>/> </persName>
                   <idno type="PBW" ana="http://pbw2016.kdl.kcl.ac.uk/person/Isaakios/1/">Isaakios 1</idno>
 
                   <idno type="PBE"/>
@@ -280,14 +280,14 @@
    </teiHeader>
    <facsimile>
       <surfaceGrp>
-         <surface n="r">
+         <surface n="r" type="obverse">
             <desc>Obverse</desc>
             <graphic type="photo" url="CdN2004-0188_1.jpg">
                <desc xml:lang="en">CdN 2004-0188, obverse</desc>
                <desc xml:lang="fr">CdN 2004-0188, avers</desc>
             </graphic>
          </surface>
-         <surface n="v">
+         <surface n="v" type="reverse">
             <desc>Reverse</desc>
             <graphic type="photo" url="CdN2004-0188_2.jpg">
                <desc xml:lang="en">CdN 2004-0188, reverse</desc>
