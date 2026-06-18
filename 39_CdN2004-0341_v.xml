@@ -5,7 +5,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title xml:lang="en">Andronikos Kappadokes, megas logistes and eparchos of
+            <title xml:lang="en">Andronic Kappadokes, megas logistes and eparchos of
                Constantinople</title>
             <title xml:lang="fr">Andronic Kappadokès, grand logistès et éparque de
                Constantinople</title>
@@ -22,6 +22,7 @@
                <seg xml:lang="en">Digital enhancement</seg>
             </edition>
             <editor role="digital-editor" xml:id="PE" when="2025-04-02">Pia Evening</editor>
+            <editor role="digital-editor" resp="#MCP" when="2025-05-27">Maria Campagnolo-Pothitou</editor>
          </editionStmt>
          <publicationStmt>
             <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
@@ -46,7 +47,7 @@
                   <persName xml:lang="fr">
                      <forename>Andronic</forename>/> <surname>Kappadokès</surname>/> </persName>
                   <persName xml:lang="en">
-                     <forename>Andronikos</forename>/> <surname>Kappadokes</surname>/> </persName>
+                     <forename>Andronic</forename>/> <surname>Kappadokes</surname>/> </persName>
                   <idno type="PBW" ana="http://pbw2016.kdl.kcl.ac.uk/person/Andronikos/20108/"
                      >Andronikos 20108</idno>
                   <idno type="PBE"/>
@@ -271,21 +272,19 @@
    </teiHeader>
    <facsimile>
       <surfaceGrp>
-         <surface n="r">
+         <surface n="r" type="obverse">
             <desc>Obverse</desc>
             <graphic type="photo" url="CdN2004-0341_1.jpg">
                <desc xml:lang="en">CdN 2004-0341, obverse</desc>
                <desc xml:lang="fr">CdN 2004-0341, avers</desc>
             </graphic>
          </surface>
-         <surface n="v">
+         <surface n="v" type="reverse">
             <desc>Reverse</desc>
             <graphic type="photo" url="CdN2004-0341_2.jpg">
                <desc xml:lang="en">CdN 2004-0341, reverse</desc>
 
                <desc xml:lang="fr">CdN 2004-0341, revers</desc>
-
-               <desc xml:lang="de">CdN 2004-0341, revers</desc>
 
             </graphic>
          </surface>
@@ -361,11 +360,12 @@
                sigillant peut être rapproché du grand logariaste Andronic Kappadokès, mentionné en
                cette qualité au synode de 1170, ainsi que dans un décret impérial de 1173. Une bulle
                métrique, sans titre ni fonction, datée du dernier quart du XIIe siècle, peut aussi
-               lui être attribuée : Ἀνδρονίκου σφράγισμα || τοῦ Καππαδόκη (<bibl><ptr target="Athens2000"/>,
-                  <citedRange unit="entry">notice n° 108</citedRange></bibl>). </p>
+               lui être attribuée : Ἀνδρονίκου σφράγισμα || τοῦ Καππαδόκη <bibl><ptr target="Athens2000"/>,
+                  <citedRange unit="entry">notice n° 108</citedRange></bibl>. </p>
          </div>
          <div type="bibliography" subtype="edition">
-            <p>
+            <p><bibl><ptr target="ZacosGenève"/>,
+                  <citedRange unit="entry">notice n° 39</citedRange></bibl>
                <bibl/>
             </p>
          </div>
