@@ -208,7 +208,7 @@
                               <figDesc n="r" xml:lang="fr" ana="Texte"/>
                               <figDesc n="r" xml:lang="en" ana="Text"/>
                               <figDesc n="decoR" xml:lang="fr">Cercle de grènetis</figDesc>
-                              <figDesc n="decoR" xml:lang="en">Circle of dots</figDesc>
+                              <figDesc n="decoR" xml:lang="en">Border of dots</figDesc>
                            </figure>
                         </decoNote>
                      </decoDesc>
@@ -244,7 +244,7 @@
                         <decoNote>
                            <figure>
                               <figDesc n="decoV" xml:lang="fr">Cercle de grènetis</figDesc>
-                              <figDesc n="decoV" xml:lang="en">Circle of dots</figDesc>
+                              <figDesc n="decoV" xml:lang="en">Border of dots</figDesc>
                            </figure>
                         </decoNote>
                      </decoDesc>
@@ -264,14 +264,14 @@
    </teiHeader>
    <facsimile>
       <surfaceGrp>
-         <surface n="r">
+         <surface n="r" type="obverse">
             <desc>Obverse</desc>
             <graphic type="photo" url="CdN2004-0259_1.jpg">
                <desc xml:lang="en">CdN 2004-0259, obverse</desc>
                <desc xml:lang="fr">CdN 2004-0259, avers</desc>
             </graphic>
          </surface>
-         <surface n="v">
+         <surface n="v" type="reverse">
             <desc>Reverse</desc>
             <graphic type="photo" url="CdN2004-259_2.jpg">
                <desc xml:lang="en">CdN 2004-0259, reverse</desc>
