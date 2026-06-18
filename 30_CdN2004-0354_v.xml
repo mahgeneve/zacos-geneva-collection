@@ -20,7 +20,8 @@
                <seg xml:lang="en">Digital enhancement</seg>
             </edition>
             <editor role="digital-editor" xml:id="PE" when="2025-04-02">Pia Evening</editor>
-            <editor role="digital-editor" resp="#MCP" when="2025-05-27">Maria Campagnolo-Pothitou</editor>
+            <editor role="digital-editor" resp="#MCP" when="2025-05-27">Maria
+               Campagnolo-Pothitou</editor>
          </editionStmt>
          <publicationStmt>
             <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
@@ -40,13 +41,16 @@
             <listPerson type="issuer">
                <person gender="M" role="civil aristocracy">
                   <persName xml:lang="grc">
-                     <forename>Θεόδωρος</forename> <surname/>
+                     <forename>Θεόδωρος</forename>
+                     <surname/>
                   </persName>
                   <persName xml:lang="fr">
-                     <forename>Théodore</forename> <surname/>
+                     <forename>Théodore</forename>
+                     <surname/>
                   </persName>
                   <persName xml:lang="en">
-                     <forename>Theodore</forename> <surname/>
+                     <forename>Theodore</forename>
+                     <surname/>
                   </persName>
                   <idno type="PBW" ana="http://pbw2016.kdl.kcl.ac.uk/person/Theodoros/20159/"
                      >Theodoros 20159</idno>
@@ -193,10 +197,10 @@
                                  <!-- ajouté ceci -->
                                  <dim type="diameter"/>
                               </dimensions>
-                              <p xml:lang="fr">Iconographie avec, de part et d’autre de l'effigie,
-                                 épigraphe.</p>
-                              <p xml:lang="en">Iconography with, on either side of the image,
-                                 inscription.</p>
+                              <p xml:lang="fr">Iconographie avec épigraphe en colonnes de part et
+                                 d’autre de l'effigie </p>
+                              <p xml:lang="en">Iconography with epigraph on columns on either side
+                                 of the image </p>
                            </layout>
                         </layoutDesc>
 
@@ -341,28 +345,28 @@
          </div>
          <div type="commentary" subtype="text">
             <!-- renvois internes à refaire -->
-            <p xml:lang="en">Theodore worked at the central office in the capital, where the
-               reports from the provincial chartoularioi arrived. The office was run by a logothete.
-               The chartularioi of the stratiotikon logothesion were civil officers
-               responsible for keeping the registers of enlisted soldiers up to date and ensuring the
-               payment of their wages. They carried out their duties either in Constantinople or in
-               province, under the orders of the strategist of a theme or the servant of a tagma. The
-               office disappeared at the end of the 11th century.</p>
+            <p xml:lang="en">Theodore worked at the central office in the capital, where the reports
+               from the provincial chartoularioi arrived. The office was run by a logothete. The
+               chartularioi of the stratiotikon logothesion were civil officers responsible for
+               keeping the registers of enlisted soldiers up to date and ensuring the payment of
+               their wages. They carried out their duties either in Constantinople or in province,
+               under the orders of the strategist of a theme or the servant of a tagma. The office
+               disappeared at the end of the 11th century.</p>
             <p xml:lang="en"/>
             <p xml:lang="fr">Théodore servait au bureau central de la capitale, où arrivaient les
-               rapports des chartulaires de province. Le bureau était dirigé par un logothète.
-               Les chartulaires du stratiôtikon logothésion étaient des fonctionnaires civils
-               chargés de tenir à jour les registres des militaires enrôlés et d’assurer ainsi le
-               paiement de leurs soldes. Ils exerçaient leur fonction soit à Constantinople, soit en
-               province, sous les ordres du stratège d’un thème ou du domestique d’un tagma. Le
-               bureau disparaît à la fin du XIe siècle.</p>
+               rapports des chartulaires de province. Le bureau était dirigé par un logothète. Les
+               chartulaires du stratiôtikon logothésion étaient des fonctionnaires civils chargés de
+               tenir à jour les registres des militaires enrôlés et d’assurer ainsi le paiement de
+               leurs soldes. Ils exerçaient leur fonction soit à Constantinople, soit en province,
+               sous les ordres du stratège d’un thème ou du domestique d’un tagma. Le bureau
+               disparaît à la fin du XIe siècle.</p>
             <p xml:lang="fr"/>
          </div>
          <div type="bibliography" subtype="edition">
             <p>
                <bibl>
-               <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">30</citedRange></bibl>.
-               </p>
+                  <ptr target="ZacosGenève"/>, n° <citedRange unit="entry">30</citedRange></bibl>.
+            </p>
          </div>
          <div type="bibliography" subtype="parallels">
             <p/>
