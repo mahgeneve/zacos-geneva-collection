@@ -22,6 +22,8 @@
                <seg xml:lang="en">Digital enhancement</seg>
             </edition>
             <editor role="digital-editor" xml:id="PE" when="2025-04-02">Pia Evening</editor>
+            <editor role="digital-editor" ref="#MCP" when="2026-01-17">Maria
+               Campagnolo-Pothitou</editor>
          </editionStmt>
          <publicationStmt>
             <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
@@ -214,7 +216,7 @@
                                  holding what looks like a scalpel in his right hand and a small
                                  cassette in the other.</figDesc>
                               <figDesc n="decoR" xml:lang="fr">Cercle de grènetis</figDesc>
-                              <figDesc n="decoR" xml:lang="en">Circle of dots</figDesc>
+                              <figDesc n="decoR" xml:lang="en">Border of dots</figDesc>
                            </figure>
                         </decoNote>
                      </decoDesc>
@@ -250,7 +252,7 @@
                         <decoNote>
                            <figure>
                               <figDesc n="decoV" xml:lang="fr">Cercle de grènetis</figDesc>
-                              <figDesc n="decoV" xml:lang="en">Circle of dots</figDesc>
+                              <figDesc n="decoV" xml:lang="en">Border of dots</figDesc>
                            </figure>
                         </decoNote>
                      </decoDesc>
@@ -270,14 +272,14 @@
    </teiHeader>
    <facsimile>
       <surfaceGrp>
-         <surface n="r">
+         <surface n="r" type="obverse">
             <desc>Obverse</desc>
             <graphic type="photo" url="CdN2004-0496_1.jpg">
                <desc xml:lang="en">CdN 2004-0496, obverse</desc>
                <desc xml:lang="fr">CdN 2004-0496, avers</desc>
             </graphic>
          </surface>
-         <surface n="v">
+         <surface n="v" type="reverse">
             <desc>Reverse</desc>
             <graphic type="photo" url="CdN2004-0496_2.jpg">
                <desc xml:lang="en">CdN 2004-0496, reverse</desc>
