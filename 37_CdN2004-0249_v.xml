@@ -5,7 +5,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title xml:lang="en">Konstatninos Radenos, sebastos and eparchos</title>
+            <title xml:lang="en">Constantine Radenos, sebastos and eparchos</title>
             <title xml:lang="fr">Constantin Radènos, sébaste et éparque</title>
             <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
             <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
@@ -20,6 +20,7 @@
                <seg xml:lang="en">Digital enhancement</seg>
             </edition>
             <editor role="digital-editor" xml:id="PE" when="2025-04-02">Pia Evening</editor>
+            <editor role="digital-editor" resp="#MCP" when="2025-05-27">Maria Campagnolo-Pothitou</editor>
          </editionStmt>
          <publicationStmt>
             <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
@@ -47,7 +48,7 @@
                   <persName xml:lang="fr">
                      <forename>Constantin</forename>/> <surname>Radènos</surname>/> </persName>
                   <persName xml:lang="en">
-                     <forename>Konstantinos</forename>/> <surname>Radenos</surname>/> </persName>
+                     <forename>Constantine</forename>/> <surname>Radenos</surname>/> </persName>
                   <idno type="PBW"/>
                   <idno type="PBE"/>
                   <idno type="PLP"/>
@@ -266,14 +267,14 @@
    </teiHeader>
    <facsimile>
       <surfaceGrp>
-         <surface n="r">
+         <surface n="r" type="obverse">
             <desc>Obverse</desc>
             <graphic type="photo" url="CdN2004-0249_1.jpg">
                <desc xml:lang="en">CdN 2004-0249, obverse</desc>
                <desc xml:lang="fr">CdN 2004-0249, avers</desc>
             </graphic>
          </surface>
-         <surface n="v">
+         <surface n="v" type="reverse">
             <desc>Reverse</desc>
 <<<<<<<< Updated upstream:37_CdN2004-0249.xml
             <graphic type="photo" url="CdN2004-249_2.jpg">
@@ -380,7 +381,7 @@
          </div>
          <div type="bibliography" subtype="discussion">
             <p><bibl>
-               <ptr target="StavrakosFamiliennammen"/>, page <citedRange unit="p.">328</citedRange></bibl>
+               <ptr target="Athens2000"/>, page <citedRange unit="p.">328</citedRange></bibl>
                </p>
          </div>
       </body>
