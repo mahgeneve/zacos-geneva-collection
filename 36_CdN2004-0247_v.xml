@@ -167,7 +167,7 @@
                      <p xml:lang="fr">Collection Georges Zacos</p>
                   </provenance>
                   <acquisition>
-                     <p xml:lang="en">Gift of the Migore Foundation, Janet Zakos legacy, <date
+                     <p xml:lang="en">Donation of the Migore Foundation, Janet Zakos legacy, <date
                            when="2004-11-24">24th November 2004</date>
                      </p>
                      <p xml:lang="fr">Don de la Fondation Migore, legs Janet Zakos, <date
@@ -191,10 +191,8 @@
                                  <!-- ajouté ceci -->
                                  <dim type="diameter"/>
                               </dimensions>
-                              <p xml:lang="fr">Iconographie avec, de part et d’autre de l'effigie,
-                                 des sigles</p>
-                              <p xml:lang="en">Iconography with, on either side of the
-                                 image,sigla</p>
+                              <p xml:lang="fr">Iconographie avec des sigles de part et d’autre de l'effigie</p>
+                              <p xml:lang="en">Iconography with sigla on either side of the image</p>
                            </layout>
                         </layoutDesc>
 
@@ -239,8 +237,8 @@
                                  <!-- ajouté ceci -->
                                  <dim type="diameter"/>
                               </dimensions>
-                              <p xml:lang="en">Legend of five lines</p>
-                              <p xml:lang="fr">Légende sur cinq lignes</p>
+                              <p xml:lang="en">Legend of 5 lines</p>
+                              <p xml:lang="fr">Légende sur 5 lignes</p>
                            </layout>
                         </layoutDesc>
                      </objectDesc>
@@ -277,14 +275,14 @@
    </teiHeader>
    <facsimile>
       <surfaceGrp>
-         <surface n="r">
+         <surface n="r" type="obverse">
             <desc>Obverse</desc>
             <graphic type="photo" url="CdN2004-0247_1.jpg">
                <desc xml:lang="en">CdN 2004-0247, obverse</desc>
                <desc xml:lang="fr">CdN 2004-0247, avers</desc>
             </graphic>
          </surface>
-         <surface n="v">
+         <surface n="v" type="reverse">
             <desc>Reverse</desc>
             <graphic type="photo" url="CdN2004-0247_2.jpg">
                <desc xml:lang="en">CdN 2004-0247, reverse</desc>
