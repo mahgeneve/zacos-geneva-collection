@@ -120,10 +120,10 @@
                            <measure type="countermark" unit="clock"/>
                         </support>
                         <condition rend="well-preserved well-struck chipped">
-                           <p xml:lang="en">The seal is well preserved and well struck; slightly
+                           <p xml:lang="en">The bulla is well preserved and well struck; slightly
                               chipped at the channel openings.</p>
-                           <p xml:lang="fr">Le sceau est bien conservé et bien frappé; légèrement
-                              échancré aux orifices du canal.</p>
+                           <p xml:lang="fr">La bulle est bien conservée et bien frappée; légèrement
+                              échancrée aux orifices du canal.</p>
                         </condition>
                      </supportDesc>
                      <layoutDesc>
@@ -281,14 +281,14 @@
    </teiHeader>
    <facsimile>
       <surfaceGrp>
-         <surface n="r">
+         <surface n="r" type="obverse">
             <desc>Obverse</desc>
             <graphic type="photo" url="CdN2004-0248_1.jpg">
                <desc xml:lang="en">CdN 2004-0248, obverse</desc>
                <desc xml:lang="fr">CdN 2004-0248, avers</desc>
             </graphic>
          </surface>
-         <surface n="v">
+         <surface n="v" type="reverse">
             <desc>Reverse</desc>
             <graphic type="photo" url="CdN2004-0248_2.jpg">
                <desc xml:lang="en">CdN 2004-0248, reverse</desc>
