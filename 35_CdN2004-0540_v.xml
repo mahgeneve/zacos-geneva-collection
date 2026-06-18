@@ -5,7 +5,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title xml:lang="en">Nikolaos Mermentoulos, droungarios of the Vigla</title>
+            <title xml:lang="en">Nicholas Mermentoulos, droungarios of the Vigla</title>
             <title xml:lang="fr">Nicolas Mermentoulos, drongaire de la Veille</title>
             <editor role="seal-editor" xml:id="MCP">Maria Campagnolo-Pothitou</editor>
             <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
@@ -20,6 +20,7 @@
                <seg xml:lang="en">Digital enhancement</seg>
             </edition>
             <editor role="digital-editor" xml:id="PE" when="2025-04-02">Pia Evening</editor>
+            <editor role="digital-editor" resp="#MCP" when="2025-05-28">Maria Campagnolo-Pothitou</editor>
          </editionStmt>
          <publicationStmt>
             <authority>MAH-Musée d'art et d'histoire - Genève, Cabinet de numismatique</authority>
@@ -47,7 +48,7 @@
                   <persName xml:lang="fr">
                      <forename>Nicolas</forename>/> <surname>Mermentoulos</surname>/> </persName>
                   <persName xml:lang="en">
-                     <forename>Nikolaos</forename>/> <surname>Mermentoulos</surname>/> </persName>
+                     <forename>Nicholas</forename>/> <surname>Mermentoulos</surname>/> </persName>
                   <idno type="PBW" ana="http://pbw2016.kdl.kcl.ac.uk/person/Nikolaos/104/">Nikolaos
                      104</idno>
                   <idno type="PBE"/>
@@ -279,14 +280,14 @@
    </teiHeader>
    <facsimile>
       <surfaceGrp>
-         <surface n="r">
+         <surface n="r" type="obverse">
             <desc>Obverse</desc>
             <graphic type="photo" url="CdN2004-0540_1.jpg">
                <desc xml:lang="en">CdN 2004-0540, obverse</desc>
                <desc xml:lang="fr">CdN 2004-0540, avers</desc>
             </graphic>
          </surface>
-         <surface n="v">
+         <surface n="v" type="reverse">
             <desc>Reverse</desc>
             <graphic type="photo" url="CdN2004-0540_2.jpg">
                <desc xml:lang="en">CdN 2004-0540, reverse</desc>
