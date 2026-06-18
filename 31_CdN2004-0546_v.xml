@@ -5,7 +5,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title xml:lang="en">Romanos, primikirios, imperial protospatharios, koitonites et
+            <title xml:lang="en">Roman, primikirios, imperial protospatharios, koitonites et
                kourator of Manganai</title>
             <title xml:lang="fr">Romain, primicier, protospathaire impérial, koitônitès et curateur
                des Manganes</title>
@@ -272,14 +272,14 @@
    </teiHeader>
    <facsimile>
       <surfaceGrp>
-         <surface n="r">
+         <surface n="r" type="obverse">
             <desc>Obverse</desc>
             <graphic type="photo" url="CdN2004-0546_1.jpg">
                <desc xml:lang="en">CdN 2004-0546, obverse</desc>
                <desc xml:lang="fr">CdN 2004-0546, avers</desc>
             </graphic>
          </surface>
-         <surface n="v">
+         <surface n="v" type="reverse">
             <desc>Reverse</desc>
             <graphic type="photo" url="CdN2004-0546_2.jpg">
                <desc xml:lang="en">CdN 2004-0546, reverse</desc>
